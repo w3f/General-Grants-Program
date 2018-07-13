@@ -13,22 +13,23 @@ Of great interest to us are the projects that help to promote the Polkadot syste
 
 
 ## How this repo will be used
-In this repository guide, we will facilitate collaboration via issue tracking. Essentially, the problems and ideas which we believe to be important will appear on the [issues](https://github.com/w3f/Web3-collaboration/issues) page. It is also possible for project teams to suggest new ideas: to do so simply create a new issue.
+In this repository, we will facilitate collaboration via issue tracking. Essentially, the problems and ideas which we believe to be important will appear on the [issues](https://github.com/w3f/Web3-collaboration/issues) page. It is also possible for project teams to suggest new ideas: to do so simply create a new issue.
 
 
 ## Polkadot ecosystem issues
 
-Core technology:
-* Build nodes to help run network: e.g. validators and collators.
+Build Core technology:
+* Build nodes to help run the network: e.g. validators and collators.
 * Build and implement parachains.
 * Create an alternate implementation of Substrate in another language (e.g. C++, Go).
 * Create alternate implementations of the Polkadot nodes (validators, collators) in another language (e.g. C++, Go).
 
 Test core technology:
-* Test the PoC code by building a node.
+* Test the available code by building nodes.
+* Test the available user interfaces and interact with the network.
 * Help to find bugs and security vulnerabilities.
 
-General ecosystem components:
+Create general ecosystem components:
 * Create a block explorer.
 * Create a node explorer.
 * Create a wallet.
@@ -39,7 +40,7 @@ Polkadot meetups:
 
 
 ## Web3 ecosystem issues
-The issues in this section will be better defined in the future. However, to gain an understanding of how we view the Web 3 ecosystem we suggest looking at our propose [tech stack](https://github.com/w3f/Web3-wiki/wiki/Tech-Stack). We are keen to speak with teams working towards marking the [Web 3 vision](https://github.com/w3f/Web3-wiki/wiki/Web3-Mission-and-Background) a reality.
+The issues in this section will be better defined in the future. However, to gain an understanding of how we view the Web 3 ecosystem we suggest looking at our proposed [tech stack](https://github.com/w3f/Web3-wiki/wiki/Tech-Stack). We are keen to speak with teams working towards making the [Web 3 vision](https://github.com/w3f/Web3-wiki/wiki/Web3-Mission-and-Background) a reality.
 
 ## Who we are looking for
 The ideal candidates are people who can work in a self-directed manner and are able to manage their own time and resources in order to hit the necessary targets. For meetups, it is possible to do this single-handedly although for larger coding projects we expect teams of multiple members will be typical.
@@ -53,7 +54,7 @@ To help collaborate with us to build the next generation of the web we would be 
 
 ### Development requirements
 Please provide:
-* Name (lead person), plus team members names (if relevant)
+* Name (lead person), plus team members' names (if relevant)
 * Send us an email with the relevant members CC'ed
 * GitHub links
 * LinkedIn profile links
@@ -75,6 +76,7 @@ Please provide:
 * LinkedIn profile link
 * Website (Optional)
 * Location of meetup
+* Event types (e.g. presentations, casual, workshops)
 
 
 ## Looking for further information?
