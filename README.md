@@ -17,22 +17,22 @@ In this repository, we will facilitate collaboration via issue tracking. Essenti
 
 
 ## Polkadot ecosystem issues
+Here are some of the important issues that we would love for the community to collaborate with us on:
 
 Build Core technology:
-* Build nodes to help run the network: e.g. validators and collators.
-* Build and implement parachains.
-* Create an alternate implementation of Substrate in another language (e.g. C++, Go).
+* [Write and implement new parachains](https://github.com/w3f/Web3-collaboration/issues/11).
+* [Create an alternate implementation of Substrate in another language](https://github.com/w3f/Web3-collaboration/issues/12) (e.g. C++, Go).
 * Create alternate implementations of the Polkadot nodes (validators, collators) in another language (e.g. C++, Go).
 
 Test core technology:
-* Test the available code by building nodes.
+* Test the available code by building nodes: e.g. [PoC2](https://github.com/w3f/Web3-collaboration/issues/13).
 * Test the available user interfaces and interact with the network.
 * Help to find bugs and security vulnerabilities.
 
 Create general ecosystem components:
-* Create a block explorer.
-* Create a node explorer.
-* Create a wallet.
+* [Create a block explorer](https://github.com/w3f/Web3-collaboration/issues/8).
+* [Create a node explorer](https://github.com/w3f/Web3-collaboration/issues/9).
+* [Create a wallet](https://github.com/w3f/Web3-collaboration/issues/10).
 
 Polkadot meetups:
 * Organise meetups worldwide.
@@ -52,7 +52,12 @@ If these issues are of interest to you then please comment on an open issue, or 
 ## Submission process guidelines
 To help collaborate with us to build the next generation of the web we would be grateful if you could supply the information listed below about you and your team (where applicable). In cases where funding is also required please add information that pertains the additional points listed below.
 
+### Testing requirements
+If you want to test our software then there aren't really any requirements, just download and have fun. Obviously, we would greatly appreciate constructive feedback and any heads up on bugs that you might find.
+
 ### Development requirements
+If you would like to develop a new parachain or write an alternative implementation of our software, then we would appreciate if you contacted us and have a chat. While it isn't a strict requirement to contact us, we think there is a lot to be gained from having discussion and working together. The following list is a typical set of requirements that we would like to know about you and your team.
+
 Please provide:
 * Name (lead person), plus team members' names (if relevant)
 * Send us an email with the relevant members CC'ed
@@ -70,6 +75,8 @@ If funding is required, please indicate:
 
 
 ### Meetup requirements
+As with testing our software, there is no requirement to contact us, but we think there is a lot to be gained from working together. We do still look for people who can work in a self-directed manner.
+
 Please provide:
 * Name (lead person)
 * Send us an email with the relevant members CC'ed
