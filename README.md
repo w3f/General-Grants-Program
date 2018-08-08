@@ -79,7 +79,7 @@ As with testing our software, there is no requirement to contact us, but we thin
 
 Interested participants should follow the link (below) to our meetup application form and provide us some basic contact details plus information about the type of meetup you intend to create:
 
-https://docs.google.com/forms/d/e/1FAIpQLSe-hbgzMHkwYLCy9-0NLmnpIJdD-nwq_vqNwba9JiiKFmZmZg/viewform
+[Application Form](https://docs.google.com/forms/d/e/1FAIpQLSe-hbgzMHkwYLCy9-0NLmnpIJdD-nwq_vqNwba9JiiKFmZmZg/viewform)
 
 You will be asked to provide the following information:
 * Name (lead person)
