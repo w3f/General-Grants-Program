@@ -75,12 +75,16 @@ If funding is required, please indicate:
 
 
 ### Meetup requirements
-As with testing our software, there is no requirement to contact us, but we think there is a lot to be gained from working together. We do still look for people who can work in a self-directed manner.
+As with testing our software, there is no requirement to contact us, but we think there is a lot to be gained from working together. We are keen to talk with people who can work in a self-directed manner. We envision that meetups will mainly be organised through meetup.com since this seems to be the defacto standard for creating local meetup groups. The plan is to have multiple active meetup groups across the world.
 
-Please provide:
+Interested participants should follow the link (below) to our meetup application form and provide us some basic contact details plus information about the type of meetup you intend to create:
+
+https://docs.google.com/forms/d/e/1FAIpQLSe-hbgzMHkwYLCy9-0NLmnpIJdD-nwq_vqNwba9JiiKFmZmZg/viewform
+
+You will be asked to provide the following information:
 * Name (lead person)
-* Send us an email with the relevant members CC'ed
-* LinkedIn profile link
+* Email address
+* LinkedIn profile link (Optional)
 * Website (Optional)
 * Location of meetup
 * Event types (e.g. presentations, casual, workshops)
