@@ -1,16 +1,10 @@
 # Web3-collaboration
-This is a public repository to help coordinate our collaboration efforts with teams working in the Web 3 ecosystem.
+This is a public repository to help coordinate our collaboration efforts with teams working in the Web 3 ecosystem. In order to build a better web, the Web3 Foundation will help to coordinate the efforts of teams working towards this common goal. The coordination of efforts will include helping to connect teams, cross-promote the products and protocols, as well as provide strategic grants when possible.
 
-## What is Web 3?
-Web 3 is the vision of the serverless internet, the decentralised web. An internet where users are in control of their own data, identity, and destiny.
+Our view is that the Polkadot platform will play a pivotal role in the Web 3 ecosystem. To get a better idea of how we think the ecosystem looks, we invite you to look at our proposed [Web 3 tech stack](https://github.com/w3f/Web3-wiki/wiki/Tech-Stack).
 
 ## About us - Web3 Foundation
-The Web3 Foundation nurtures and stewards technologies and applications in the fields of decentralized web software protocols, particularly those which utilize modern cryptographic methods to safeguard decentralization, to the benefit and for the stability of the Web 3 ecosystem.
-
-In order to build a better web, the Web3 Foundation will help to coordinate the efforts of teams working towards this common goal. The coordination of efforts will include helping to connect teams, cross-promote the products and protocols, as well as provide strategic grants when possible.
-
-Of great interest to us are the projects that help to promote the Polkadot system. Our view is that the Polkadot platform will play a pivotal role in the Web 3 ecosystem. To get a better idea of how we think the ecosystem looks, we invite you to view our [wiki](https://github.com/w3f/Web3-wiki/wiki) and in particular to look at our proposed [Web 3 tech stack](https://github.com/w3f/Web3-wiki/wiki/Tech-Stack).
-
+For more information about the Web3 Foundation please visit the ["About Us"](https://github.com/w3f/Web3-wiki/wiki/Web3-Mission-and-Background/_edit) page on our wiki. 
 
 ## How this repo will be used
 In this repository, we will facilitate collaboration via issue tracking. Essentially, the problems and ideas which we believe to be important will appear on the [issues](https://github.com/w3f/Web3-collaboration/issues) page. It is also possible for project teams to suggest new ideas: to do so simply create a new issue.
@@ -74,20 +68,10 @@ If funding is required, please indicate:
 * Total previous project funding
 
 
-### Meetup requirements
-As with testing our software, there is no requirement to contact us, but we think there is a lot to be gained from working together. We are keen to talk with people who can work in a self-directed manner. We envision that meetups will mainly be organised through meetup.com since this seems to be the defacto standard for creating local meetup groups. The plan is to have multiple active meetup groups across the world.
-
-Interested participants should follow the link (below) to our meetup application form and provide us some basic contact details plus information about the type of meetup you intend to create:
+### Polkadot Meetups
+The plan is to have multiple active meetup groups across the world. We have put more information into the following doc: [Link](https://github.com/w3f/Web3-collaboration/blob/master/meetups.md). You are welcome to note your interest in the [issues](https://github.com/w3f/Web3-collaboration/issues) section of this repo, but we also invite interested people to follow the link (below) to our meetup application form and provide us some basic contact details plus information about the type of meetup you intend to create:
 
 [Application Form](https://docs.google.com/forms/d/e/1FAIpQLSe-hbgzMHkwYLCy9-0NLmnpIJdD-nwq_vqNwba9JiiKFmZmZg/viewform)
-
-You will be asked to provide the following information:
-* Name (lead person)
-* Email address
-* LinkedIn profile link (Optional)
-* Website (Optional)
-* Location of meetup
-* Event types (e.g. presentations, casual, workshops)
 
 
 ## Looking for further information?
