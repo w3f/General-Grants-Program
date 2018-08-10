@@ -11,30 +11,19 @@ In this repository, we will facilitate collaboration via issue tracking. Essenti
 
 
 ## Polkadot ecosystem issues
-Here are some of the important issues that we would love for the community to collaborate with us on:
+Here are some of the important issue areas that we would love for the community to collaborate with us on.
 
-Build Core technology:
-* [Write and implement new parachains](https://github.com/w3f/Web3-collaboration/issues/11).
-* [Create an alternate implementation of Substrate in another language](https://github.com/w3f/Web3-collaboration/issues/12) (e.g. C++, Go).
-* Create alternate implementations of the Polkadot nodes (validators, collators) in another language (e.g. C++, Go).
+Development issues:
+* Build Core technology.
+* Test core technology.
+* Create general ecosystem components.
 
-Test core technology:
-* Test the available code by building nodes: e.g. [PoC2](https://github.com/w3f/Web3-collaboration/issues/13).
-* Test the available user interfaces and interact with the network.
-* Help to find bugs and security vulnerabilities.
-
-Create general ecosystem components:
-* [Create a block explorer](https://github.com/w3f/Web3-collaboration/issues/8).
-* [Create a node explorer](https://github.com/w3f/Web3-collaboration/issues/9).
-* [Create a wallet](https://github.com/w3f/Web3-collaboration/issues/10).
-
-Polkadot meetups:
-* Organise meetups worldwide.
-* Collaborate and help to organise joint meetups / workshops.
+More information on development collaboration can be found in the development collaboration document: [development doc](https://github.com/w3f/Web3-collaboration/blob/master/development.md)
 
 
 ## Web3 ecosystem issues
-The issues in this section will be better defined in the future. However, to gain an understanding of how we view the Web 3 ecosystem we suggest looking at our proposed [tech stack](https://github.com/w3f/Web3-wiki/wiki/Tech-Stack). We are keen to speak with teams working towards making the [Web 3 vision](https://github.com/w3f/Web3-wiki/wiki/Web3-Mission-and-Background) a reality.
+Please see our development collaboration document for further details (once available):  [development doc](https://github.com/w3f/Web3-collaboration/blob/master/development.md)
+
 
 ## Who we are looking for
 The ideal candidates are people who can work in a self-directed manner and are able to manage their own time and resources in order to hit the necessary targets. For meetups, it is possible to do this single-handedly although for larger coding projects we expect teams of multiple members will be typical.
@@ -49,26 +38,9 @@ To help collaborate with us to build the next generation of the web we would be 
 ### Testing requirements
 If you want to test our software then there aren't really any requirements, just download and have fun. Obviously, we would greatly appreciate constructive feedback and any heads up on bugs that you might find.
 
-### Development requirements
-If you would like to develop a new parachain or write an alternative implementation of our software, then we would appreciate if you contacted us and have a chat. While it isn't a strict requirement to contact us, we think there is a lot to be gained from having discussion and working together. The following list is a typical set of requirements that we would like to know about you and your team.
-
-Please provide:
-* Name (lead person), plus team members' names (if relevant)
-* Send us an email with the relevant members CC'ed
-* GitHub links
-* LinkedIn profile links
-* Brief description of team's background
-* Project Name
-* Website
-* Project description (brief)
-* Project plan/roadmap with relevant milestones
-
-If funding is required, please indicate:
-* Plan for use of funds
-* Total previous project funding
 
 
-### Polkadot Meetups
+## Polkadot Meetups
 The plan is to have multiple active meetup groups across the world. We have put more information into the following doc: [Link](https://github.com/w3f/Web3-collaboration/blob/master/meetups.md). You are welcome to note your interest in the [issues](https://github.com/w3f/Web3-collaboration/issues) section of this repo, but we also invite interested people to follow the link (below) to our meetup application form and provide us some basic contact details plus information about the type of meetup you intend to create:
 
 [Application Form](https://docs.google.com/forms/d/e/1FAIpQLSe-hbgzMHkwYLCy9-0NLmnpIJdD-nwq_vqNwba9JiiKFmZmZg/viewform)
