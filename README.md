@@ -14,11 +14,14 @@ In this repository, we will facilitate collaboration via issue tracking. Essenti
 Here are some of the important issue areas that we would love for the community to collaborate with us on.
 
 Development issues:
-* Build Core technology.
+* Build core technology.
 * Test core technology.
 * Create general ecosystem components.
 
 More information on development collaboration can be found in the development collaboration document: [development doc](https://github.com/w3f/Web3-collaboration/blob/master/development.md)
+
+### Testing Polkadot
+If you want to test our software then there aren't really any requirements, just download and have fun. Obviously, we would greatly appreciate constructive feedback and any heads up on bugs that you might find.
 
 
 ## Web3 ecosystem issues
@@ -35,9 +38,19 @@ If these issues are of interest to you then please comment on an open issue, or 
 ## Submission process guidelines
 To help collaborate with us to build the next generation of the web we would be grateful if you could supply the information listed below about you and your team (where applicable). In cases where funding is also required please add information that pertains the additional points listed below.
 
-### Testing requirements
-If you want to test our software then there aren't really any requirements, just download and have fun. Obviously, we would greatly appreciate constructive feedback and any heads up on bugs that you might find.
+### Standard Response Template
+Below is a template for responding to issues. If you are offering collaboration help then we would appreciate getting to know the key details as clearly as possible. You are free to modify the template to suit your response, but we are aiming for structured correspondence with the community.
 
+**Template**
+
+* What is the plan:
+* How many people:
+* Do you need help from W3F:
+* Do you need help from the community:
+
+**Examples**
+
+If you would like to see some example responses then check out the following document in this repo: [response-examples.md](https://github.com/w3f/Web3-collaboration/blob/master/response-examples.md)
 
 
 ## Polkadot Meetups
