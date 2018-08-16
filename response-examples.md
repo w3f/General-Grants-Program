@@ -16,7 +16,7 @@ You are free to modify the template to suit your response, but we are aiming for
 * Do you need help from the community:
 
 
-## Examples Issue Responses
+## Example Issue Responses
 
 ### Example 1 - Hosting a Polkadot meetup
 
