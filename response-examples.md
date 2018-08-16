@@ -24,7 +24,7 @@ Here is an example response to hosting a meetup in Berlin ([issue #2](https://gi
 
 * **What is the plan**: We plan to host a meetup in Berlin. Our target date is late October.
 * **How many people**: Me plus 1 more.
-* **Do you need help from W3F**: It would be great if you could help us market to the whole community.
+* **Do you need help from W3F**: It would be great if you could help us market to the whole community. Presentation material would also really help us, so we don't have to create it from scratch. Do you think it would be possible to send a developer to present at one of our meetup events?
 * **Do you need help from the community**: Nothing at this time, but help with promotion would be great, plus we would love for as many people as possible to attend.
 
 After responding with a structured reply similar to the above, it would also be appreciated if you could fill in the following form. This helps us to take an email address in order to contact you personally. 
