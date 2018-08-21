@@ -1,7 +1,7 @@
 # Web3-collaboration
 This is a public repository to help coordinate our collaboration efforts with teams working in the Web 3 ecosystem. In order to build a better web, the Web3 Foundation will help to coordinate the efforts of teams working towards this common goal. The coordination of efforts will include helping to connect teams, cross-promote the products and protocols, as well as provide strategic grants when possible.
 
-Our view is that the Polkadot platform will play a pivotal role in the Web 3 ecosystem. To get a better idea of how we think the ecosystem looks, we invite you to look at our proposed [Web 3 tech stack](https://github.com/w3f/Web3-wiki/wiki/Tech-Stack).
+Our view is that the Polkadot platform will play a pivotal role in the Web 3 ecosystem. To get a better idea of how we think about the ecosystem, we invite you to look at our proposed [Web 3 tech stack](https://github.com/w3f/Web3-wiki/wiki/Tech-Stack).
 
 ## About us - Web3 Foundation
 For more information about the Web3 Foundation please visit the ["About Us"](https://github.com/w3f/Web3-wiki/wiki/Web3-Mission-and-Background/_edit) page on our wiki. 
@@ -44,7 +44,7 @@ Below is a template for responding to issues. If you are offering collaboration 
 **Template**
 
 * What is the plan:
-* How many people:
+* Number of people on your team:
 * Do you need help from W3F:
 * Do you need help from the community:
 
@@ -54,7 +54,7 @@ If you would like to see some example responses then check out the following doc
 
 
 ## Polkadot Meetups
-The plan is to have multiple active meetup groups across the world. We have put more information into the following doc: [Link](https://github.com/w3f/Web3-collaboration/blob/master/meetups.md). You are welcome to note your interest in the [issues](https://github.com/w3f/Web3-collaboration/issues) section of this repo, but we also invite interested people to follow the link (below) to our meetup application form and provide us some basic contact details plus information about the type of meetup you intend to create:
+We plan to have multiple active meetup groups across the world. Find more information on the following doc: [Link](https://github.com/w3f/Web3-collaboration/blob/master/meetups.md). You are welcome to note your interest in the [issues](https://github.com/w3f/Web3-collaboration/issues) section of this repo, but we also invite interested people to follow the link (below) to our meetup application form and provide us some basic contact details plus information about the type of meetup you intend to create:
 
 [Application Form](https://docs.google.com/forms/d/e/1FAIpQLSe-hbgzMHkwYLCy9-0NLmnpIJdD-nwq_vqNwba9JiiKFmZmZg/viewform)
 
@@ -62,7 +62,7 @@ The plan is to have multiple active meetup groups across the world. We have put 
 ## Looking for further information?
 
 * [Web3Foundation website](https://web3.foundation/)
-* [Web3 wiki](https://github.com/w3f/Web3-wiki/wiki)
+* [Web3 Wiki](https://github.com/w3f/Web3-wiki/wiki)
 * [Web3 Foundation Twitter](https://twitter.com/web3foundation)
 * [Web3 Foundation’s Medium](https://medium.com/web3foundation)
 * [Web3 Reddit](https://www.reddit.com/r/web3/)
@@ -70,5 +70,5 @@ The plan is to have multiple active meetup groups across the world. We have put 
 ## Real-time conversation
 We have Riot channels for real-time discussions on Web3 and Polkadot. Join the conversations.
 * [Web3 Foundation](https://riot.im/app/#/room/#web3foundation:matrix.org)
-* [Polkadot watercooler](https://www.reddit.com/r/polkadot_io/)
+* [Polkadot Watercooler](https://riot.im/app/#/room/#polkadot-watercooler:matrix.org)
 
