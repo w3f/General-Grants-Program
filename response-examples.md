@@ -11,7 +11,7 @@ You are free to modify the template to suit your response, but we are aiming for
 **Template**
 
 * What is the plan:
-* How many people:
+* Number of people on your team:
 * Do you need help from W3F:
 * Do you need help from the community:
 
