@@ -18,4 +18,8 @@ You will be asked to provide the following information:
 # Presentation material
 At the moment, most of our presentation material is held privately but we are happy to share with meetup organisers.
 
-However, the slides from Gavin Wood's Substrate presentation at EventHorizon18 is public: https://slides.com/paritytech/paritysubstrate#/
+* Slides from Gavin Wood's Substrate presentation at EventHorizon18 [Link](https://slides.com/paritytech/paritysubstrate)
+* Slides from Gavin Wood's Substrat and Governance presentation at EdCon18 [Link](https://slides.com/paritytech/polkadot-governance)
+
+# Logos
+* [PolkadotLogo.svg](https://polkadot.network/static/media/logo.096371c0.svg)
