@@ -21,5 +21,7 @@ At the moment, most of our presentation material is held privately but we are ha
 * Slides from Gavin Wood's Substrate presentation at EventHorizon18: [Link](https://slides.com/paritytech/paritysubstrate)
 * Slides from Gavin Wood's Substrate and Governance presentation at EdCon18: [Link](https://slides.com/paritytech/polkadot-governance)
 
+Substrate is an example of a [Polkadot Runtime Environment](https://github.com/w3f/Web3-wiki/wiki/Polkadot-Runtime-Environment) that can be used to create blockchains (including parachains).
+
 # Logos
 * [PolkadotLogo.svg](https://polkadot.network/static/media/logo.096371c0.svg)
