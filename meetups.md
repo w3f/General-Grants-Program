@@ -38,8 +38,10 @@ We have published a guide on how to host a good meetup, please see here: [how to
 # Presentation material
 At the moment, most of our presentation material is held privately but we are happy to share with meetup organisers.
 
-* Slides from Gavin Wood's Substrate presentation at EventHorizon18: [Link](https://slides.com/paritytech/paritysubstrate)
-* Slides from Gavin Wood's Substrate and Governance presentation at EdCon18: [Link](https://slides.com/paritytech/polkadot-governance)
+* **Polkadot** template Presentation: [Link](https://docs.google.com/presentation/d/1cV_qalyxvnBkiSTamRB4D8VTekgMS84aNBby0hmRXU4/edit?usp=sharing)
+* Rob Habermeier's presentation on Interoperability with **Polkadot**: [Link](https://docs.google.com/presentation/d/1wQf_4ipFRGHLxqsQjCmWWKKH-Qspn1dAA6a7P9Tk3A4/edit?usp=sharing)
+* Slides from Gavin Wood's **Substrate** presentation at EventHorizon18: [Link](https://slides.com/paritytech/paritysubstrate)
+* Slides from Gavin Wood's **Substrate** and Governance presentation at EdCon18: [Link](https://slides.com/paritytech/polkadot-governance)
 
 Substrate is an example of a [Polkadot Runtime Environment](https://github.com/w3f/Web3-wiki/wiki/Polkadot-Runtime-Environment) that can be used to create blockchains (including parachains).
 
