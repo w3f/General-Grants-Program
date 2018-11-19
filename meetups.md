@@ -39,10 +39,12 @@ We have published a guide on how to host a good meetup, please see here: [how to
 At the moment, most of our presentation material is held privately but we are happy to share with meetup organisers.
 
 * **Polkadot** template Presentation: [Link](https://docs.google.com/presentation/d/1cV_qalyxvnBkiSTamRB4D8VTekgMS84aNBby0hmRXU4/edit?usp=sharing)
-* Edward Thomson's presentation slides that has an intro to W3F and **Polkadot**. It also covers the problems Polkadot is solving: [Link](https://docs.google.com/presentation/d/1DjusMwuHi4ubqcwbBGlidPqff7kNpMaFqGSnenrpyxI/edit?usp=sharing) [Video](https://www.video.ethz.ch/events/2018/web3.html)
+* Fabian & Rob's presentation: introduction to Polkadot + consensus and finality: [Link](https://docs.google.com/presentation/d/1I0Q6jOhz-oj8yJ4-f0a1HlV1G8gVMTFjy-Ipk_Bn4h0/edit?usp=sharing)
+* Edward Thomson's presentation slides that has an intro to W3F and **Polkadot**. It covers the problems Polkadot is solving, plus there is section on consensus and finality: [Link](https://docs.google.com/presentation/d/1DjusMwuHi4ubqcwbBGlidPqff7kNpMaFqGSnenrpyxI/edit?usp=sharing), [Video](https://www.video.ethz.ch/events/2018/web3.html)
 * Rob Habermeier's presentation on Interoperability with **Polkadot**: [Link](https://docs.google.com/presentation/d/1wQf_4ipFRGHLxqsQjCmWWKKH-Qspn1dAA6a7P9Tk3A4/edit?usp=sharing)
 * Slides from Gavin Wood's **Substrate** presentation at EventHorizon18: [Link](https://slides.com/paritytech/paritysubstrate)
 * Slides from Gavin Wood's **Substrate** and Governance presentation at EdCon18: [Link](https://slides.com/paritytech/polkadot-governance)
+* Slides from Gavin Wood's **Substrate** presentation at Web3Summit: [Link](https://docs.google.com/presentation/d/15gQ4-8lP3ivGnCigW_K8QiygsW2YNPETOwe2SaTllZY/edit?usp=sharing)
 
 Substrate is an example of a [Polkadot Runtime Environment](https://github.com/w3f/Web3-wiki/wiki/Polkadot-Runtime-Environment) that can be used to create blockchains (including parachains).
 
