@@ -70,7 +70,7 @@ Now that you have your speakers in mind, you’ll need to go firm on a date. Whe
 
 * Try to avoid hosting a meetup if similar events are taking place on the same day and in the same location.
 * Whilst it can help to pick up numbers by hosting around a related conference, we feel that meetups are local community driven initiatives and are not purely a numbers game.
-* We find that members prefer to attend meetups when their dairies are more open in the first half of the week Monday to Wednesday. 
+* We find that members prefer to attend meetups when their diaries are more open in the first half of the week Monday to Wednesday. 
 
 
 ## Finding A Venue
@@ -85,8 +85,8 @@ Remember to leave enough time on the night to put up signage to help your member
 Now that you have your planning phase complete, you need to focus on publishing and marketing:
 
 1. Start a ‘Polkadot - Your City’ group, see for example [Polkadot - Berlin](https://www.meetup.com/Polkadot-Berlin/)
-2. Draft some text on what your group is about in the ‘What Were About’ section
-3. If there is already a ‘Polkadot - Your City’ group, contact the organizers for assistance and tell them about your planned event.
+2. Draft some text on what your group is about in the ‘What We're About’ section
+3. If there is already a ‘Polkadot - Your City’ group, contact the organisers for assistance and tell them about your planned event.
 4. Draft a detailed outline of your event for the Event Page, aiming to be as informative as possible about your speakers and their topic in order to attract your audience.
 5. Publish your event on meetup.com (Yay!)
 6. Spread the word for your meetup on Twitter
