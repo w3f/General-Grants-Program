@@ -6,14 +6,14 @@ As part of our commitment to promoting the Web3 ecosystem, we are providing a co
 There are two separate types of grant application:
 
 * **Targeted** programmes where we ask for proposals, reach out, etc. Generally where the foundation is active. These will be done via:
-  * RfPs
+  * Request for Proposals (RfPs)
   * Direct Outreach
 * **Speculative** applications where the outside connects to us and asks if we want to fund them.
 
 ## Areas of interest
 The Web3 foundation provides grants in three different areas:
 
-* Community Development
+* **Community Development**
   * Blog posts
   * Meetups
   * Conferences
@@ -22,13 +22,13 @@ The Web3 foundation provides grants in three different areas:
     * Blog posts
     * Videos
     * Courses
-* Research
+* **Research**
   * Benchmarking
   * New primitives
     * Technical and economical
   * Analysis of existing protocols and implementations
   * Security testing
-* Software Development
+* **Software Development**
   * Deployment tooling
     * Scalable cluster, easy deployment
   * Monitoring
