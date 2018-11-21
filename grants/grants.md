@@ -63,13 +63,16 @@ The Web3 foundation provides grants in three different areas:
   * Universities/Professors
   
 ## Process
+The grant application can be seen as a 5-step process. Below is an outline of these 5 steps.
   
 1. Communication
    * See the list all of all programmes, bounties and RfPs (in a previous section).
    * If your idea isn&rsquo;t listed, but you think it&rsquo;s cool, you can send us an email or get in touch via Riot.
 1. Application
-   * Make a pull request into the appropriate folder: Programme, Speculative.
-   * The template for making a pull request is here: [Link]
+   * Creating an application involves creating a pull request into this repository. There is a template for the application itself (a new file) and there is a template for the body of the pull request itself.
+   * Please make a pull request into the appropriate folder: [Programme](https://github.com/w3f/Web3-collaboration/tree/master/grants/programme), [Speculative](https://github.com/w3f/Web3-collaboration/tree/master/grants/speculative).
+   * The application template to be filled out (create a new file in the appropriate folder): [Link](https://github.com/w3f/Web3-collaboration/blob/master/grants/grant_application_template.md)
+   * The template for the pull request body is here: [Link](https://github.com/w3f/Web3-collaboration/blob/master/.github/PULL_REQUEST_TEMPLATE/grant_application.md)
    * Please take care to include all of the necessary information!
 1. Review
    * W3F will review the applications received and determine if more information is required and potentially schedule a call with the team.
