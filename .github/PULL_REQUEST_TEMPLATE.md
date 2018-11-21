@@ -4,6 +4,14 @@ This application is (select one):
 - [ ] Part of a defined programme
 - [ ] Speculative
 
+
+###
+
+This application is (select one):
+- [ ] Public (fully)
+- [ ] Public with private finances
+
+
 ### Abstract
 
 [Provide a brief description of your project here (summarise key points). 
@@ -15,8 +23,9 @@ The details should be in the application 'document' that you add to this repo vi
 
 ## Checklist
 - [ ] The [grants](https://github.com/w3f/Web3-collaboration/blob/master/grants/grants.md) document has been read and understood.
+- [ ] The [Google Form](https://docs.google.com/forms/d/e/1FAIpQLSfMfjiRmDQDRk-4OhNASM6BAKii7rz_B1jWtbCPkUh6N7M2ww/viewform) will be completed accurately. Note that the Google Form requires the pull request URL.
 - [ ] Abstract (above) is succinct and complete.
-- [ ] The application is being included into the correct directory: either '[programmes](https://github.com/w3f/Web3-collaboration/grants//tree/master/grants/programmes)' or '[speculative](https://github.com/w3f/Web3-collaboration/tree/master/grants/speculative)'.
+- [ ] The application is being included into the correct directory: either '[targeted](https://github.com/w3f/Web3-collaboration/tree/master/grants/targeted)' or '[speculative](https://github.com/w3f/Web3-collaboration/tree/master/grants/speculative)'.
 - [ ] The application includes a project description.
 - [ ] The application includes all names of team members.
 - [ ] The application includes a description of the team's experience.

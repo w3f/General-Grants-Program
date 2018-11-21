@@ -5,6 +5,7 @@ If this application is for a particular grant programme then please indicate tha
 
 * Please provide a brief description of the project here. This is likely more important for speculative applications, but also worth providing some description here of the team's intent with the project.
 * An indication of why this project is good for the ecosystem.
+* An indication of how you will integrate this project into Substrate / Polkadot.
 * An indication of why your team is interested in creating this project.
 
 ## Team members
@@ -36,9 +37,18 @@ Please provide a brief description of why the language was chosen.
 
 ## Development Roadmap
 * Please provide an estimated timeline of development and give some indication of content within milestones.
+   * More details are better here. It should be clear how the project will be working towards deployment on Substrate / Polkadot.
 * Indicate the amount of funding required. Both the amount per milestone and the total amount.
 * If the team would consider part payments in fiat and/or dots then please suggest a percentage here.
 * What are the team’s long-term plans and intentions after the grant has been award?
 
 ## Additional Information
-* Any additional information that you think is relevant to this application.
+Any additional information that you think is relevant to this application.
+
+These bullet points won't be applicable to all projects. Some of the information may have already been included in the description section, if so then no need to state it again.
+
+* What work has been done so far?
+* Are there are any teams who have already contributed (financially) to the project?
+* Have you applied for other grants so far?
+* Are there any other projects similar to yours? 
+* How is your project different?
