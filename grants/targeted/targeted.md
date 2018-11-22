@@ -1,4 +1,4 @@
-# Grant Programme Applications
+# Targeted Programme Grant Applications
 
 Please make a pull request to this folder when making an application for [grants](https://github.com/w3f/Web3-collaboration/blob/master/grants/grants.md) that are part of a defined programme (e.g. the alternative implementation of the Polkadot Runtime Enivronment).
 
