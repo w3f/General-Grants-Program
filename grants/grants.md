@@ -69,7 +69,7 @@ The grant application can be seen as a 5-step process. Below is an outline of th
    * See the list all of all programmes, bounties and RfPs (in a previous section).
    * If your idea isn&rsquo;t listed, but you think it&rsquo;s cool, you can send us an email or get in touch via Riot.
 1. **Application**
-   * Creating an application involves creating a pull request into this repository. There is a template for the application itself (a new file) and there is a template for the body of the pull request itself.
+   * Creating an application involves creating a pull request into this repository. There is a template for the application itself (a new file) and there is a template for the body of the pull request itself. We have an example application here: [Link](https://github.com/w3f/Web3-collaboration/pull/49)
      1. First step is to fork this repository. In the newly created fork, you will create a new file that will hold the content of your application.
      1. The new file should contain the project name. If you are applying for one of our targeted programme grants then create the new file should be created in that sub-folders, likewise if it is speculative then use that sub-folder: [Targeted](https://github.com/w3f/Web3-collaboration/tree/master/grants/targeted), [Speculative](https://github.com/w3f/Web3-collaboration/tree/master/grants/speculative).
      1. The new file should be a copy of the content of the application template, but filled out with the details of your project. See the **application template** file: [Link](https://github.com/w3f/Web3-collaboration/blob/master/grants/grant_application_template.md)  
