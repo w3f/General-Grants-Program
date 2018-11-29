@@ -61,10 +61,10 @@ We plan to have multiple active meetup groups across the world. Find more inform
 
 ## Looking for further information?
 
-* [Web3Foundation website](https://web3.foundation/)
+* [W3F website](https://web3.foundation/)
 * [Web3 Wiki](https://github.com/w3f/Web3-wiki/wiki)
-* [Web3 Foundation Twitter](https://twitter.com/web3foundation)
-* [Web3 Foundation’s Medium](https://medium.com/web3foundation)
+* [W3F Twitter](https://twitter.com/web3foundation)
+* [W3F Medium](https://medium.com/web3foundation)
 * [Web3 Reddit](https://www.reddit.com/r/web3/)
 
 ## Real-time conversation
