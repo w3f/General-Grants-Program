@@ -2,6 +2,8 @@
 
 As part of our commitment to promoting the Web3 ecosystem, we are providing a comprehensive grants initiative. This means that successful applicants will be able to receive funding for their efforts to improve the Web3 ecosystem.
 
+[Apply Here](https://docs.google.com/forms/d/e/1FAIpQLSfMfjiRmDQDRk-4OhNASM6BAKii7rz_B1jWtbCPkUh6N7M2ww/viewform)
+
 Primarily, we are interested in grants that have a maximum lifespan of 6 months or less. It is possible that further funding can occur, but we want the projects to be smaller in nature and hence a more manageable risk. With Polkadot coming online in Q3 2019 (target timeframe), then we would like to have many projects funded and delivered in advance.
 
 ## Grant Application Types
@@ -10,10 +12,10 @@ There are two separate types of grant application:
 * **Targeted** programmes where we ask for proposals, reach out, etc. Generally where the foundation is active. These will be done via:
   * Request for Proposals (RfPs)
   * Direct Outreach
-* **Speculative** applications where the outside connects to us and asks if we want to fund them.
+* **Speculative** applications where the outside connects to us and asks if we want to fund them. A list of areas of interest are in the next section.
 
 ## Areas of interest
-The Web3 foundation provides grants in three different areas:
+The Web3 foundation is interested in providing grants in the different areas of interest shown below. If any of these topics are of interest to you then please make a speculative application and request funding for your project. Our focus is to support projects building on Substrate or Polkadot.
 
 * **Community Development**
   * Blog posts
@@ -32,9 +34,19 @@ The Web3 foundation provides grants in three different areas:
   * Security testing
 * **Software Development**
   * Deployment tooling
-    * Scalable cluster, easy deployment
-  * Monitoring
-    * Explorers
+    * IDEs
+    * Dependency management
+    * Testing frameworks
+    * Scalable cluster
+    * Tools for easy deployment
+  * New chains
+    * Interesting new blockchains that can act as parachains
+    * Adaptations of existing blockchains as parachains
+  * Second layer protocols
+    * State channels (runtime modules, dedicated parachains)
+    * Key server networks
+* Monitoring
+    * Explorers (e.g. block or node explorers)
   * UI tooling
     * Wallets
     * Libraries
@@ -43,12 +55,14 @@ The Web3 foundation provides grants in three different areas:
   * Hardware wallet integration / HSMs
     * Users, validators and collators
   * Runtime Modules
-    * Governance etc
+    * Governance
     * IBC / Interoperability / Bridges
+    * Interesting new modules
   * Parachain development kit
   * Protocol integrations
-    * IPFS
-    * Whisper
+    * Bridges to other blockchains
+    * Distributed File Storage (e.g. IPFS)
+    * Transient P2P messaging (e.g. Whisper)
     * New protocols that are useful for Web3 stack
   * Benchmarking tools
   * Security testing tools
@@ -77,7 +91,7 @@ The grant application can be seen as a 5-step process. Below is an outline of th
      1. We would like **all** teams to start by adding a few details to our dedicated [Google Form](https://docs.google.com/forms/d/e/1FAIpQLSfMfjiRmDQDRk-4OhNASM6BAKii7rz_B1jWtbCPkUh6N7M2ww/viewform). This makes it easy for us to manage all applications in one place. Afterwards, please continue to fill out the appropriate GitHub templates.
         * This Google Form also allows teams to send any private financial information to supplement their public application, or for teams to make a fully private application. Note that priority will be given to public applications.
      1. For public applications, with or without public financial information, the next step is to fork this repository.
-     1. In the newly created fork, create a copy of the **application template** ([Link](https://github.com/w3f/Web3-collaboration/blob/master/grants/grant_application_template.md)), and make sure to add it to the correct sub-folder depending on whether it is a [Targeted](https://github.com/w3f/Web3-collaboration/tree/master/grants/targeted), or [Speculative](https://github.com/w3f/Web3-collaboration/tree/master/grants/speculative) application.
+     1. In the newly created fork, create a copy of the **application template** ([Link](https://github.com/w3f/Web3-collaboration/blob/master/grants/grant_application_template.md)), and make sure to add it to the correct sub-folder depending on whether it is a [Targeted](https://github.com/w3f/Web3-collaboration/tree/master/grants/targeted), or [Speculative](https://github.com/w3f/Web3-collaboration/tree/master/grants/speculative) application. Most applications will be into the speculative folder.
      1. Label the file as "project_name.md".
      1. Fill out the template with the details of your project.
      1. Once you have filled out the template, and are happy that it is complete, click on "create new pull request".
