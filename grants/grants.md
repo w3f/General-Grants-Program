@@ -45,7 +45,7 @@ The Web3 foundation is interested in providing grants in the different areas of 
   * Second layer protocols
     * State channels (runtime modules, dedicated parachains)
     * Key server networks
-* Monitoring
+  * Monitoring
     * Explorers (e.g. block or node explorers)
   * UI tooling
     * Wallets
