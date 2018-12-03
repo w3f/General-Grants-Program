@@ -15,7 +15,7 @@ There are two separate types of grant application:
 * **Speculative** applications where the outside connects to us and asks if we want to fund them. A list of areas of interest are in the next section.
 
 ## Areas of interest
-The Web3 foundation is interested in providing grants in the different areas of interest shown below. If any of these topics are of interest to you then please make a speculative application and request funding for your project. Our focus is to support projects building on Substrate or Polkadot.
+The Web3 foundation is interested in providing grants in the different areas of interest shown below. If any of these topics are of interest to you then please make a speculative application and request funding for your project. Our focus is to support projects building on **Substrate** or **Polkadot**.
 
 * **Community Development**
   * Blog posts
