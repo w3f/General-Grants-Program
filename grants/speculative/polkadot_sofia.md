@@ -46,7 +46,7 @@ The requested grants will be used for:
 * Snacks and drinks for the community.
 
 ## Additional Information
-* [Blockchain Developers Meetup 05 - Introduction to Polkadot] (https://medium.com/hackbg/blockchain-developers-meetup-05-introduction-to-polkadot-3b4789fa4e1f)
+* [Blockchain Developers Meetup 05 - Introduction to Polkadot](https://medium.com/hackbg/blockchain-developers-meetup-05-introduction-to-polkadot-3b4789fa4e1f)
 * [/r/dot/ Blockchain Developers Meetup (Sofia, Bulgaria) — Introduction to Polkadot](https://www.reddit.com/r/dot/comments/a1tsmp/blockchain_developers_meetup_sofia_bulgaria/)
 * Please see: [w3f/Web3-collaborations/issues/47](https://github.com/w3f/Web3-collaboration/issues/47)
 
