@@ -15,8 +15,44 @@ There are two separate types of grant application:
 * **Speculative** applications where the outside connects to us and asks if we want to fund them. A list of areas of interest are in the next section.
 
 ## Areas of interest
-The Web3 foundation is interested in providing grants in the different areas of interest shown below. If any of these topics are of interest to you then please make a speculative application and request funding for your project. Our focus is to support projects building on **Substrate** or **Polkadot**.
+The Web3 foundation is interested in providing grants in the different areas of interest shown below. If any of these topics are of interest to you then please make a speculative application and request funding for your project. Our focus is to support projects building around **Substrate** or **Polkadot** (and more technologies going forward). For projects related to Ethereum please refer to [ECF](https://ecf.network/) that we are members of.
 
+* **Software Development**
+  * Development and deployment tooling
+    * IDEs
+    * Dependency management
+    * Testing frameworks
+    * Scalable cluster
+    * Tools for easy deployment
+    * Parachain development kits
+  * New chains
+    * Interesting new blockchains that can act as parachains
+    * Adaptations of existing blockchains as parachains
+  * Protocol integrations
+    * Bridges to other blockchains
+    * Distributed File Storage (e.g. IPFS)
+    * Transient P2P messaging (e.g. Whisper)
+    * New protocols that are useful for Web3 stack
+  * Second layer protocols
+    * State channels (runtime modules, dedicated parachains)
+    * Key server networks
+  * Monitoring
+    * Block explorers
+    * Node explorers
+    * Statistical analytics
+  * UI
+    * Wallets
+    * Libraries
+    * Mobile integration
+  * Alternative Polkadot Runtime Environment implementation ([Link](https://github.com/w3f/Web3-collaboration/issues/12))
+  * Hardware wallet integration / HSMs
+    * Users, validators and collators
+  * Polkadot Runtime Modules
+    * Governance
+    * Interoperability
+    * Interesting new modules
+  * Benchmarking tools
+  * Core implementation testing tools
 * **Community Development**
   * Blog posts
   * Meetups
@@ -32,41 +68,6 @@ The Web3 foundation is interested in providing grants in the different areas of 
     * Technical and economical
   * Analysis of existing protocols and implementations
   * Security testing
-* **Software Development**
-  * Deployment tooling
-    * IDEs
-    * Dependency management
-    * Testing frameworks
-    * Scalable cluster
-    * Tools for easy deployment
-  * New chains
-    * Interesting new blockchains that can act as parachains
-    * Adaptations of existing blockchains as parachains
-  * Second layer protocols
-    * State channels (runtime modules, dedicated parachains)
-    * Key server networks
-  * Monitoring
-    * Explorers (e.g. block or node explorers)
-  * UI tooling
-    * Wallets
-    * Libraries
-    * Mobile integration
-  * Alternative Polkadot Runtime Environment implementation ([Link](https://github.com/w3f/Web3-collaboration/issues/12))
-  * Hardware wallet integration / HSMs
-    * Users, validators and collators
-  * Runtime Modules
-    * Governance
-    * IBC / Interoperability / Bridges
-    * Interesting new modules
-  * Parachain development kit
-  * Protocol integrations
-    * Bridges to other blockchains
-    * Distributed File Storage (e.g. IPFS)
-    * Transient P2P messaging (e.g. Whisper)
-    * New protocols that are useful for Web3 stack
-  * Benchmarking tools
-  * Security testing tools
-  
   
 ## Who are we interested in?
   We provide funding in these areas to these kind of people:
