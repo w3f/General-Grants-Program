@@ -25,6 +25,8 @@ The Web3 foundation is interested in providing grants in the different areas of 
     * Scalable cluster
     * Tools for easy deployment
     * Parachain development kits
+  * New languages and libraries
+    * Targeting deterministic Wasm
   * New chains
     * Interesting new blockchains that can act as parachains
     * Adaptations of existing blockchains as parachains
