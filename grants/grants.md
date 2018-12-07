@@ -89,7 +89,7 @@ The grant application can be seen as a 5-step process. Below is an outline of th
    * If your idea isn&rsquo;t listed, but you think it&rsquo;s cool, you can send us an email or get in touch via Riot.
 1. **Application**
    * Applications should be made via a pull request into this repo. We appreciate that not all teams will want to make the financial details public, so there is a Google Form to collect such information. Bare in mind that we are looking for projects with timeframes of less than 6 months.
-   * Example application: [Link](https://github.com/w3f/Web3-collaboration/pull/49)
+   * Example application: [Application](https://github.com/w3f/Web3-collaboration/pull/49/files), [Pull Request](https://github.com/w3f/Web3-collaboration/pull/49)
    * Steps for applying: 
      1. We would like **all** teams to start by adding a few details to our dedicated [Google Form](https://docs.google.com/forms/d/e/1FAIpQLSfMfjiRmDQDRk-4OhNASM6BAKii7rz_B1jWtbCPkUh6N7M2ww/viewform). This makes it easy for us to manage all applications in one place. Afterwards, please continue to fill out the appropriate GitHub templates.
         * This Google Form also allows teams to send any private financial information to supplement their public application, or for teams to make a fully private application. Note that priority will be given to public applications.
