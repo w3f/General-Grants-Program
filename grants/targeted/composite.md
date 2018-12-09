@@ -21,8 +21,9 @@ If the grant size allows, we're interested in writing a Mastering Polkadot Smart
 ## Team members
 
 * Ronald Mannak
+* Jorn van Dijk
 * Thomas Hecker
-* Additional help from several freelancers and OS contributors
+* Additional help from several freelancers and technical contributors
 
 ## Team Website	
 
@@ -35,16 +36,19 @@ California LLC
 ## Team's experience
 
 * Ronald is a Bay Area-based open source developer of Swifthereum, JSON-RPC Codable, NaiveSwiftCoin, and other frameworks. Ronald co-founded crypto startup Coral, and two (non-crypto) hardware startups. He worked as consultant to FirstCoin. His PhD research topic was trust in P2P networks (not finished). Ronald has 9 years of iOS and MacOS development, several years of C development and UX design before that. 
+* Jorn and Ronald are former college roommates and worked together at two different startups. Composite is the third project they're collaborating on. Jorn has over 10 years of iOS and MacOS developer experience.
 * Thomas started as a researcher for Fraunhofer Institute & Mercedes Benz was leading the mobile product management at Daimler’s digital transportation division Moovel. 
 
 ## Team Code Repos
 
 * https://github.com/ronaldmannak
+* https://github.com/jvdijk
 * https://github.com/compositeapp
 
 ## Team LinkedIn Profiles
 
 * https://www.linkedin.com/in/ronaldmannak
+* https://www.linkedin.com/in/jornvdijk/
 * https://www.linkedin.com/in/thomashecker
 
 ## Intended language of development
