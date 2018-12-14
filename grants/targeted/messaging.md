@@ -1,7 +1,7 @@
 # HOPR
 
 ## Project Description
-This grant targets a proof-of-concept implementation of a decentralized messaging protocol.  Validity Labs recently started developing HOPR as a privacy-preserving and incentivized messaging protocol. The protocol provides:
+This grant application supports the development of a decentralized and privacy-preserving messaging protocol called HOPR. Within the framework of this grant application we will be able to finalize a first specification, implementation of the protocol and assess how HOPR could improve the Substrate & Polkadot stack. Validity Labs recently started developing HOPR as a privacy-preserving and incentivized messaging protocol which provides:
 * metadata-anonymity (and not just end-to-end encryption) via Chaumian onion encryption
 * incentives for relayers that get paid by the sender of a message or third parties (similar to meta-transactions currently discussed for other blockchains) instead of just relying on services by altruistic parties (e.g. as required for TOR)
 * efficient implementations without proof-of-work or SNARKs that would hinder adoption on embedded or mobile devices
