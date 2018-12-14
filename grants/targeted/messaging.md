@@ -1,7 +1,7 @@
 # HOPR
 
 ## Project Description
-This grant application supports the development of a decentralized and privacy-preserving messaging protocol called HOPR. Within the framework of this grant application we will be able to finalize a first specification, implementation of the protocol and assess how HOPR could improve the Substrate & Polkadot stack. Validity Labs recently started developing HOPR as a privacy-preserving and incentivized messaging protocol which provides:
+This grant application supports the development of a decentralized and privacy-preserving messaging protocol called HOPR. Within the framework of this grant application we will be able to finalize a first specification, implementation of the protocol and assess how HOPR could improve the Substrate & Polkadot stack and how dedicated HOPR parachain could benefit the development of the protocol. Validity Labs recently started developing HOPR as a privacy-preserving and incentivized messaging protocol which provides:
 * metadata-anonymity (and not just end-to-end encryption) via Chaumian onion encryption
 * incentives for relayers that get paid by the sender of a message or third parties (similar to meta-transactions currently discussed for other blockchains) instead of just relying on services by altruistic parties (e.g. as required for TOR)
 * efficient implementations without proof-of-work or SNARKs that would hinder adoption on embedded or mobile devices
@@ -45,10 +45,10 @@ The first implementation of the HOPR protocol will be in JavaScript in order to 
 
 ## Development Roadmap
 This grant application is targeting a 4 months implementation and assessment timeline during which we aim to reach the following milestones:
-* Milestone 1: Objectives and documentation
+* Milestone 1: Objectives and specifications
    * Gather objectives with other stakeholders in the community
-   * Documentation of the protocol's features in order to meet these objectives 
-   * Deliverables: objectives and documentation detailed publicly on GitHub
+   * Specifications of the protocol's features in order to meet these objectives 
+   * Deliverables: objectives and specifications detailed publicly on GitHub
    * Duration: 1 month
    * Funding: CHF 25'000
 * Milestone 2: Proof of concept implementation
@@ -60,7 +60,7 @@ This grant application is targeting a 4 months implementation and assessment tim
 * Milestone 3: Evaluation
    * Assess the usefulness of the protocol and its implementation to meet the desired objectives identified in Milestone 1
    * Assess how the protocol could improve privacy and security of Substrate and Polkadot
-   * Assess how dedicated Polkadot chain could be used as a payment layer
+   * Assess how a dedicated Polkadot parachain could be used as a payment layer
    * Deliverables: Report on findings publicly available on GitHub
    * Duration: 1 month
    * Funding: CHF 25'000
