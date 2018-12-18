@@ -17,7 +17,59 @@ There are two separate types of grant application:
 ## Areas of interest
 The Web3 foundation is interested in providing grants in the different areas of interest shown below. If any of these topics are of interest to you then please make a speculative application and request funding for your project. Our focus is to support projects building around **Substrate** or **Polkadot** (and more technologies going forward). For projects related to Ethereum please refer to [ECF](https://ecf.network/) that we are members of.
 
-For a list of our areas of interest, plus a description, please see the appropriate page: [Areas of Interest](areas_of_interest.md)
+* **Software Development**
+  * Development and deployment tooling
+    * IDEs
+    * Dependency management
+    * Testing frameworks
+    * Scalable cluster
+    * Tools for easy deployment
+    * Parachain development kits
+  * New languages and libraries
+    * Targeting deterministic Wasm
+  * New chains
+    * Interesting new blockchains that can act as parachains
+    * Adaptations of existing blockchains as parachains
+  * Protocol integrations
+    * Bridges to other blockchains
+    * Distributed File Storage (e.g. IPFS)
+    * Transient P2P messaging (e.g. Whisper)
+    * New protocols that are useful for Web3 stack
+  * Second layer protocols
+    * State channels (runtime modules, dedicated parachains)
+    * Key server networks
+  * Monitoring
+    * Block explorers
+    * Node explorers
+    * Statistical analytics
+  * UI
+    * Wallets
+    * Libraries
+    * Mobile integration
+  * Alternative Polkadot Runtime Environment implementation ([Link](https://github.com/w3f/Web3-collaboration/issues/12))
+  * Hardware wallet integration / HSMs
+    * Users, validators and collators
+  * Polkadot Runtime Modules
+    * Governance
+    * Interoperability
+    * Interesting new modules
+  * Benchmarking tools
+  * Core implementation testing tools
+* **Community Development**
+  * Blog posts
+  * Meetups
+  * Conferences
+  * Software documentation
+  * Educational content
+    * Blog posts
+    * Videos
+    * Courses
+* **Research**
+  * Benchmarking
+  * New primitives
+    * Technical and economical
+  * Analysis of existing protocols and implementations
+  * Security testing
   
 ## Who are we interested in?
   We provide funding in these areas to these kind of people:
