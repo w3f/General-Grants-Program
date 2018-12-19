@@ -85,7 +85,7 @@ The Web3 foundation is interested in providing grants in the different areas of 
 The grant application can be seen as a 5-step process. Below is an outline of these 5 steps.
   
 1. **Communication**
-   * See the list of all programmes, bounties and RfPs (in a previous section).
+   * See the list of all programmes, and RFPs [Areas of Interest](https://github.com/w3f/Web3-collaboration/blob/master/grants/grants.md#areas-of-interest).
    * If your idea isn&rsquo;t listed, but you think it&rsquo;s cool, you can send us an email or get in touch via Riot.
 1. **Application**
    * Applications should be made via a pull request into this repo. We appreciate that not all teams will want to make the financial details public, so there is a Google Form to collect such information. Bare in mind that we are looking for projects with timeframes of less than 6 months.
