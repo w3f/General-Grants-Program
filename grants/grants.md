@@ -2,17 +2,17 @@
 
 As part of our commitment to promoting the Web3 ecosystem, we are providing a comprehensive grants initiative. This means that successful applicants will be able to receive funding for their efforts to improve the Web3 ecosystem.
 
-[Apply Here](https://docs.google.com/forms/d/e/1FAIpQLSfMfjiRmDQDRk-4OhNASM6BAKii7rz_B1jWtbCPkUh6N7M2ww/viewform)
+[Get Started Here](https://docs.google.com/forms/d/e/1FAIpQLSfMfjiRmDQDRk-4OhNASM6BAKii7rz_B1jWtbCPkUh6N7M2ww/viewform) - Follow and complete the [5 step process](https://github.com/w3f/Web3-collaboration/blob/master/grants/grants.md#process)
 
 Primarily, we are interested in grants that have a maximum lifespan of 6 months or less. It is possible that further funding can occur, but we want the projects to be smaller in nature and hence a more manageable risk. With Polkadot coming online in Q3 2019 (target timeframe), then we would like to have many projects funded and delivered in advance.
 
 ## Grant Application Types
 There are two separate types of grant application:
 
+* **Speculative** applications where the outside connects to us and asks if we want to fund them. A list of areas of interest are in the next section.
 * **Targeted** programmes where we ask for proposals, reach out, etc. Generally where the foundation is active. These will be done via:
   * Request for Proposals (RfPs)
   * Direct Outreach
-* **Speculative** applications where the outside connects to us and asks if we want to fund them. A list of areas of interest are in the next section.
 
 ## Areas of interest
 The Web3 foundation is interested in providing grants in the different areas of interest shown below. If any of these topics are of interest to you then please make a speculative application and request funding for your project. Our focus is to support projects building around **Substrate** or **Polkadot** (and more technologies going forward). For projects related to Ethereum please refer to [ECF](https://ecf.network/) that we are members of.
@@ -72,7 +72,7 @@ The Web3 foundation is interested in providing grants in the different areas of 
   * Security testing
   
 ## Who are we interested in?
-  We provide funding in these areas to these kind of people:
+  We provide funding to the aforementioned areas of interest to the following parties:
 
 * Individuals
   * Developers, anyone in the community
@@ -85,7 +85,7 @@ The Web3 foundation is interested in providing grants in the different areas of 
 The grant application can be seen as a 5-step process. Below is an outline of these 5 steps.
   
 1. **Communication**
-   * See the list all of all programmes, bounties and RfPs (in a previous section).
+   * See the list of all programmes, bounties and RfPs (in a previous section).
    * If your idea isn&rsquo;t listed, but you think it&rsquo;s cool, you can send us an email or get in touch via Riot.
 1. **Application**
    * Applications should be made via a pull request into this repo. We appreciate that not all teams will want to make the financial details public, so there is a Google Form to collect such information. Bare in mind that we are looking for projects with timeframes of less than 6 months.
@@ -98,7 +98,7 @@ The grant application can be seen as a 5-step process. Below is an outline of th
      1. Label the file as "project_name.md".
      1. Fill out the template with the details of your project.
      1. Once you have filled out the template, and are happy that it is complete, click on "create new pull request".
-     1. The body of the pull request will show a template that requests an abstract of the project and the completion of a checklist. Please complete as approriate. The **pull request template** can be viewed here: [Link](https://github.com/w3f/Web3-collaboration/blob/master/.github/PULL_REQUEST_TEMPLATE/grant_application.md)
+     1. The body of the pull request will show a template that requests an abstract of the project and the completion of a checklist. Please complete as appropriate. The **pull request template** can be viewed here: [Link](https://github.com/w3f/Web3-collaboration/blob/master/.github/PULL_REQUEST_TEMPLATE/grant_application.md)
    * Please take care to include all necessary information!
 1. **Review**
    * W3F will review the applications received and determine if more information is required and potentially schedule a call with the team.
