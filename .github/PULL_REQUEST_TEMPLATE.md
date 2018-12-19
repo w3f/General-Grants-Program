@@ -1,8 +1,8 @@
 ## Grant Application
 
 This application is (select one):
-- [ ] Part of a defined programme
-- [ ] Speculative
+- [ ] Speculative (use this by default)
+- [ ] an RFP response
 
 
 ###
