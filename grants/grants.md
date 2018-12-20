@@ -15,7 +15,9 @@ There are two separate types of grant application:
   * Direct Outreach
 
 ## Areas of interest
-The Web3 foundation is interested in providing grants in the different areas of interest shown below. If any of these topics are of interest to you then please make a speculative application and request funding for your project. Our focus is to support projects building around **Substrate** or **Polkadot** (and more technologies going forward). For projects related to Ethereum please refer to [ECF](https://ecf.network/) that we are members of.
+The Web3 Foundation is interested in providing grants in the different areas of interest shown below. If any of these topics are of interest to you then please make a speculative application and request funding for your project. Our focus is to support projects building around **Substrate** or **Polkadot** (and more technologies going forward).
+
+For projects related to Ethereum, we would like to refer you to [ECF](https://ecf.network/) that we are members of. The Web3 Foundation's commitment to Ethereum includes the funding we have given to both ECF and Eth Prize.
 
 * **Software Development**
   * Development and deployment tooling
