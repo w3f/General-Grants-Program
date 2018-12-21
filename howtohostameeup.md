@@ -44,12 +44,6 @@ Within the issue if you can let us know the following:
 7. Videographer (optional)
 
 
-## Sponsorship
-
-Given you’ll be investing your own time and effort into your meetup, we would recommend finding local sponsors to alleviate the financial burden. Sponsors can help with overheads such as food, drink and the venue.
-
-In some cases, Web3 Foundation will provide organisers with financial support either on a one off or an ongoing basis. In order to make an enquiry about the eligibility of your group, please kindly fill out and submit this application.
-
 ## Organising Speakers
 Finding talented speakers for presentations, moderators for panels and master of ceremonies for more interactive meetups is the key to making your event a success. Most of the other organisation comes secondary and is planned around when your first choice speakers are able to present. Providing your audience with a variety of content at each event is important instead of focusing on the same topic repeatedly.
 
