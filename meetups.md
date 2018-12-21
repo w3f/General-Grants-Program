@@ -38,4 +38,4 @@ Substrate is an example of a [Polkadot Runtime Environment](https://github.com/w
 * [Web3 Foundation Logos](https://www.dropbox.com/sh/giezcsj8a0ygo8p/AACHbx4nwXI3KvQLQq5g5wxLa?dl=0)
 
 # Meetup videos
-Watch previous meetup videos on the Web3 Foundation (Youtube)[https://www.youtube.com/channel/UClnw_bcNg4CAzF772qEtq4g]. 
+Watch previous meetup videos on the Web3 Foundation [Youtube](https://www.youtube.com/channel/UClnw_bcNg4CAzF772qEtq4g). 
