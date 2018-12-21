@@ -3,8 +3,8 @@ We invite people across the globe to organise Polkadot meetups in their local ci
 
 There is no requirement to contact us, but we think there is a lot to be gained from working together. We are keen to talk with people who can work in a self-directed manner. We envision that meetups will mainly be organised through meetup.com since this seems to be the defacto standard for creating local meetup groups. The plan is to have multiple active meetup groups across the world.
 
-# Repo Issues
-As explained on the main page, we are using this repo to coordinate community efforts. On the [issues page](https://github.com/w3f/Web3-collaboration/issues) you can see past meetups the community has organized. If you see your city listed then feel free to reply, if you don't see your city listed then feel free to open a new issue (please follow the naming convention being used).
+# Create an "Issue"
+On the [issues page](https://github.com/w3f/Web3-collaboration/issues) you can see past meetups the community has organized. If you see your city listed then feel free to reply, if you don't see your city listed then feel free to open a new issue (please follow the naming convention being used). This is where you can coordinate with other community members!
 
 **Template Issue**
 
@@ -36,3 +36,6 @@ Substrate is an example of a [Polkadot Runtime Environment](https://github.com/w
 # Logos
 * [Polkadot Logos](https://www.dropbox.com/sh/avobfu5pi8rffwa/AABaSxSwv_Tk_z8yYvVxGq-3a?dl=0)
 * [Web3 Foundation Logos](https://www.dropbox.com/sh/giezcsj8a0ygo8p/AACHbx4nwXI3KvQLQq5g5wxLa?dl=0)
+
+# Meetup videos
+Watch previous meetup videos on the Web3 Foundation (Youtube)[https://www.youtube.com/channel/UClnw_bcNg4CAzF772qEtq4g]. 
