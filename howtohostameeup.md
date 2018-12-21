@@ -23,35 +23,25 @@ When thinking about launching your own Polkadot group, the following questions m
 
 8. Are there any key takeaways from other meetups that can help you plan your own?
 
+## Creating an "Issue"
 
-**We would recommend**:
+To keep the community up to date with your meetup plans and for attracting new members, co-organisers etc, we recommend opening a new issue in Polkadot/Community. 
 
-Attend plenty of meetups in preparation and connect with others who have the appetite and capacity to co-organise the meetup with you. You may want to go through the above list during the scoping phase of your planning. 
+Within the issue if you can let us know the following:
 
+1. Rationale for the meetup, why it is a good idea to host one then
+2. What presentation resources, slides etc you require from the Web3 Foundation
+3. To reach out directly to the Community Team at Web3 Foundation, complete the following application
 
-## Role and Responsibilities
+## Things you might need
 
-Meetups often require too much logistical and operational input for one single individual. Allocation of clear roles and responsibilities will help facilitate a smooth event that is easy to replicate in the future. We recommend distributing the organisational responsibilities so that the success of the meetup doesn’t depend on a single individual and instead is spread across the following roles:
-
-1. Lead Coordinator
-2. Event Marketing 
-3. Venue Scout
-4. Master of Ceremonies
-5. Finance and Sponsorship
-6. Swag, Food and Drink
-7. Communications before, during and after 
-8. Meetup Group and managing members 
-
-
-## Requirements
-
-Now that you’ve assembled a local leadership team to host meetups, in addition there are some other preconditions that need to be set before you can launch a meetup.
-
-1. A process for proposing and approving meetups. Say for example a member of the group or one of the local leaders makes a suggestion for what the next meetup should be. How does this get approved? 
-2. Now that you have a proposed meetup, you need a group to host it through. Web3 Foundation may be able to sponsor your group, fill out this [application form](https://docs.google.com/forms/d/e/1FAIpQLSe-hbgzMHkwYLCy9-0NLmnpIJdD-nwq_vqNwba9JiiKFmZmZg/viewform) to enquire.
-3. Social media accounts (Twitter at least) in order to promote the group and the event at least four weeks in advance of you event.
-4. A way of issuing tickets and tracking attendance (Meetup and/or Eventbrite).
-5. Sponsorship - meetup costs can escalate, particularly for larger events where venue hire, food and drink and live streaming are involved.
+1. Organizer 
+2. Graphic to promote the meetup
+3. Venue (AV, projector)
+4. Food and drink
+5. Swag
+6. Meetup group or page (meetup.com or eventbrite.com)
+7. Videographer (optional)
 
 
 ## Sponsorship
@@ -68,6 +58,7 @@ Finding talented speakers for presentations, moderators for panels and master of
 
 Now that you have your speakers in mind, you’ll need to go firm on a date. When thinking about the date:
 
+* To maximize turnout it is helpful to begin promoting the meetup at least four weeks in advance of you event.
 * Try to avoid hosting a meetup if similar events are taking place on the same day and in the same location.
 * Whilst it can help to pick up numbers by hosting around a related conference, we feel that meetups are local community driven initiatives and are not purely a numbers game.
 * We find that members prefer to attend meetups when their diaries are more open in the first half of the week Monday to Wednesday. 
@@ -91,16 +82,6 @@ Now that you have your planning phase complete, you need to focus on publishing 
 5. Publish your event on meetup.com (Yay!)
 6. Spread the word for your meetup on Twitter
 7. Aim to cross market to other similar groups. Reach out to their organisers and ask them to tweet about your event.
-
-## Polkadot Community Issue
-
-To keep the community up to date with your meetup plans and for attracting new members, co-organisers etc, we recommend opening a new issue in Polkadot/Community. 
-
-Within the issue if you can let us know the following:
-
-1. Rationale for the meetup, why it is a good idea to host one then
-2. What presentation resources, slides etc you require from the Web3 Foundation
-3. To reach out directly to the Community Team at Web3 Foundation, complete the following application
 
 
 ## On The Day
