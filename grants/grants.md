@@ -9,10 +9,10 @@ Primarily, we are interested in projects that can ideally be completed in 3 mont
 ## Grant Application Types
 There are two separate types of grant application:
 
-* **Speculative** applications where the outside connects to us and asks if we want to fund them. A list of areas of interest are in the next section.
-* **Targeted** programmes where we ask for proposals, reach out, etc. Generally where the foundation is active. These will be done via:
-  * Request for Proposals (RfPs)
-  * Direct Outreach
+* **Speculative** applications will be the primary type of grant given out. To help guide teams towards projects that we would consider funding, there is a list of areas of interest in the next section.
+* **Targeted** applications are a direct response to a Request for Proposals (RfPs). Stay tuned for more RfPs in the future. 
+   * Previous RFPs:
+   * [Alternative Polkadot Runtime Environment implementation](https://github.com/w3f/Web3-collaboration/issues/12)
 
 ## Areas of interest
 The Web3 Foundation is interested in providing grants in the different areas of interest shown below. If any of these topics are of interest to you then please make a speculative application and request funding for your project. Our focus is to support projects building around **Substrate** or **Polkadot** (and more technologies going forward).
@@ -87,7 +87,7 @@ For projects related to Ethereum, we would like to refer you to [ECF](https://ec
 The grant application can be seen as a 5-step process. Below is an outline of these 5 steps.
   
 1. **Communication**
-   * See the list of all programmes, and RFPs [Areas of Interest](https://github.com/w3f/Web3-collaboration/blob/master/grants/grants.md#areas-of-interest).
+   * See the list or our [Areas of Interest](https://github.com/w3f/Web3-collaboration/blob/master/grants/grants.md#areas-of-interest).
    * If your idea isn&rsquo;t listed, but you think it&rsquo;s cool, you can send us an email or get in touch via Riot.
 1. **Application**
    * Applications should be made via a pull request into this repo. We appreciate that not all teams will want to make the financial details public, so there is a Google Form to collect such information. Bare in mind that we are looking for projects with timeframes of less than 3 months.
@@ -96,7 +96,7 @@ The grant application can be seen as a 5-step process. Below is an outline of th
      1. We would like **all** teams to start by adding a few details to our dedicated [Google Form](https://docs.google.com/forms/d/e/1FAIpQLSfMfjiRmDQDRk-4OhNASM6BAKii7rz_B1jWtbCPkUh6N7M2ww/viewform). This makes it easy for us to manage all applications in one place. Afterwards, please continue to fill out the appropriate GitHub templates.
         * This Google Form also allows teams to send any private financial information to supplement their public application, or for teams to make a fully private application. Note that priority will be given to public applications.
      1. For public applications, with or without public financial information, the next step is to fork this repository.
-     1. In the newly created fork, create a copy of the **application template** ([Link](https://github.com/w3f/Web3-collaboration/blob/master/grants/grant_application_template.md)), and make sure to add it to the correct sub-folder depending on whether it is a [Targeted](https://github.com/w3f/Web3-collaboration/tree/master/grants/targeted), or [Speculative](https://github.com/w3f/Web3-collaboration/tree/master/grants/speculative) application. Most applications will be into the speculative folder.
+     1. In the newly created fork, create a copy of the **application template** ([Link](https://github.com/w3f/Web3-collaboration/blob/master/grants/grant_application_template.md)), and make sure to add it to the [Speculative](https://github.com/w3f/Web3-collaboration/tree/master/grants/speculative) sub-folder. Most applications will be into the speculative folder, in the few cases where we have issued an RfP then the response will be into the [Targeted](https://github.com/w3f/Web3-collaboration/tree/master/grants/targeted) sub-folder.
      1. Label the file as "project_name.md".
      1. Fill out the template with the details of your project.
      1. Once you have filled out the template, and are happy that it is complete, click on "create new pull request".
