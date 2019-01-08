@@ -30,11 +30,6 @@ Please describe the team's relevant experience
 * https://www.linkedin.com/<person_1>
 * https://www.linkedin.com/<person_2>
 
-## Intended language of development
-* <Language_of_development>
-
-Please provide a brief description of why the language was chosen.
-
 ## Development Roadmap
 * Please provide an estimated timeline of development and give some indication of content within milestones.
    * More details are better here. It should be clear how the project will be working towards deployment on Substrate / Polkadot.
