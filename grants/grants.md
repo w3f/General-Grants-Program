@@ -59,7 +59,7 @@ For projects related to Ethereum, we would like to refer you to [ECF](https://ec
   * Core implementation testing tools
 * **Community Development**
   * Blog posts
-  * Meetups
+  * Meetups (check out our [meetup kit](https://github.com/w3f/Web3-collaboration/blob/master/meetups.md) with how-tos and materials)
   * Conferences
   * Software documentation
   * Educational content
