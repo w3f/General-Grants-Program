@@ -6,6 +6,9 @@ There is no requirement to contact us, but we think there is a lot to be gained 
 # Create an "Issue"
 On the [issues page](https://github.com/w3f/Web3-collaboration/issues) you can see past meetups the community has organized. If you see your city listed then feel free to reply, if you don't see your city listed then feel free to open a new issue (please follow the naming convention being used). This is where you can coordinate with other community members!
 
+# Apply for funding
+Web3 Foundation is committed to supporting organizations of all sizes that engage and expand the Web 3.0 and Polkadot communities. If you are interested in hosting an event or setting up a community organization, you can apply for a grant [here](https://docs.google.com/forms/d/1Jqi_P6T5ECX_WTHZ6qqKhxgd51-ivRUNoLT80H7UZ1U/edit).
+
 **Template Issue**
 
 * What is the plan:
