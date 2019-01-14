@@ -12,7 +12,7 @@ There are two separate types of grant application:
 * **Speculative** applications will be the primary type of grant given out. To help guide teams towards projects that we would consider funding, there is a list of areas of interest in the next section.
 * **Targeted** applications are a direct response to a Request for Proposals (RfPs). Stay tuned for more RfPs in the future. 
    * Previous RFPs:
-   * [Alternative Polkadot Runtime Environment implementation](https://github.com/w3f/Web3-collaboration/issues/12)
+   * [Alternative Polkadot Runtime Environment implementation](https://github.com/w3f/Web3-collaboration/issues/12) (closed for new applications)
 
 ## Areas of interest
 The Web3 Foundation is interested in providing grants in the different areas of interest shown below. If any of these topics are of interest to you then please make a speculative application and request funding for your project. Our focus is to support projects building around **Substrate** or **Polkadot** (and more technologies going forward).
@@ -48,7 +48,7 @@ For projects related to Ethereum, we would like to refer you to [ECF](https://ec
     * Wallets
     * Libraries
     * Mobile integration
-  * Alternative Polkadot Runtime Environment implementation ([Link](https://github.com/w3f/Web3-collaboration/issues/12))
+  * ~~Alternative Polkadot Runtime Environment implementation~~ ([Link](https://github.com/w3f/Web3-collaboration/issues/12))
   * Hardware wallet integration / HSMs
     * Users, validators and collators
   * Polkadot Runtime Modules
