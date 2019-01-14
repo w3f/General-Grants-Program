@@ -4,6 +4,8 @@ As part of our commitment to promoting the Web3 ecosystem, we are providing a co
 
 [Get Started Here](https://docs.google.com/forms/d/e/1FAIpQLSfMfjiRmDQDRk-4OhNASM6BAKii7rz_B1jWtbCPkUh6N7M2ww/viewform) - Follow and complete the [5 step process](https://github.com/w3f/Web3-collaboration/blob/master/grants/grants.md#process)
 
+For community related grants: [Get Started Here](https://docs.google.com/forms/d/e/1FAIpQLSetcOWe18KQ2E2CkrlEclZ0jkUypw5N5iX1erVcF8TJJxizmQ/viewform)
+
 Primarily, we are interested in projects that can ideally be completed in 3 months or less. It is possible that further funding can occur, but we prefer projects to be smaller in nature and hence a more manageable risk. With Polkadot coming online in Q3 2019 (target timeframe), then we would like to have many projects funded and delivered in advance.
 
 ## Grant Application Types
@@ -93,7 +95,7 @@ The grant application can be seen as a 5-step process. Below is an outline of th
    * Applications should be made via a pull request into this repo. We appreciate that not all teams will want to make the financial details public, so there is a Google Form to collect such information. Bare in mind that we are looking for projects with timeframes of less than 3 months.
    * Example application: [Application](https://github.com/w3f/Web3-collaboration/pull/49/files), [Pull Request](https://github.com/w3f/Web3-collaboration/pull/49)
    * Steps for applying: 
-     1. We would like **all** teams to start by adding a few details to our dedicated [Google Form](https://docs.google.com/forms/d/e/1FAIpQLSfMfjiRmDQDRk-4OhNASM6BAKii7rz_B1jWtbCPkUh6N7M2ww/viewform). This makes it easy for us to manage all applications in one place. Afterwards, please continue to fill out the appropriate GitHub templates.
+     1. We would like **all** teams to start by adding a few details to one of our grant applications forms ([development](https://docs.google.com/forms/d/e/1FAIpQLSfMfjiRmDQDRk-4OhNASM6BAKii7rz_B1jWtbCPkUh6N7M2ww/viewform), [community](https://docs.google.com/forms/d/e/1FAIpQLSetcOWe18KQ2E2CkrlEclZ0jkUypw5N5iX1erVcF8TJJxizmQ/viewform)). This makes it easy for us to manage all applications in one place. Afterwards, please continue to fill out the appropriate GitHub templates.
         * This Google Form also allows teams to send any private financial information to supplement their public application, or for teams to make a fully private application. Note that priority will be given to public applications.
      1. For public applications, with or without public financial information, the next step is to fork this repository.
      1. In the newly created fork, create a copy of the **application template** ([Link](https://github.com/w3f/Web3-collaboration/blob/master/grants/grant_application_template.md)), and make sure to add it to the [Speculative](https://github.com/w3f/Web3-collaboration/tree/master/grants/speculative) sub-folder. Most applications will be into the speculative folder, in the few cases where we have issued an RfP then the response will be into the [Targeted](https://github.com/w3f/Web3-collaboration/tree/master/grants/targeted) sub-folder.
