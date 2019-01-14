@@ -3,11 +3,8 @@ We invite people across the globe to organise Polkadot meetups in their local ci
 
 There is no requirement to contact us, but we think there is a lot to be gained from working together. We are keen to talk with people who can work in a self-directed manner. We envision that meetups will mainly be organised through meetup.com since this seems to be the defacto standard for creating local meetup groups. The plan is to have multiple active meetup groups across the world.
 
-# Create an "Issue"
+# Create an "Issue" to get started
 On the [issues page](https://github.com/w3f/Web3-collaboration/issues) you can see past meetups the community has organized. If you see your city listed then feel free to reply, if you don't see your city listed then feel free to open a new issue (please follow the naming convention being used). This is where you can coordinate with other community members!
-
-# Apply for funding
-Web3 Foundation is committed to supporting organizations of all sizes that engage and expand the Web 3.0 and Polkadot communities. If you are interested in hosting an event or setting up a community organization, you can apply for a grant [here](https://docs.google.com/forms/d/1Jqi_P6T5ECX_WTHZ6qqKhxgd51-ivRUNoLT80H7UZ1U/edit).
 
 **Template Issue**
 
@@ -19,6 +16,9 @@ Web3 Foundation is committed to supporting organizations of all sizes that engag
 To gain a better understanding what of your response should look like, we recommend reading over the examples page:
 
 [Response Examples](https://github.com/w3f/Web3-collaboration/blob/master/response-examples.md)
+
+# Apply for funding
+Web3 Foundation is committed to supporting organizations of all sizes that engage and expand the Web 3.0 and Polkadot communities. If you are interested in hosting an event or setting up a community organization, you can apply for a grant [here](https://docs.google.com/forms/d/1Jqi_P6T5ECX_WTHZ6qqKhxgd51-ivRUNoLT80H7UZ1U/edit).
 
 # How to host a Polkadot meetup
 We have published a guide on how to host a good meetup, please see here: [how to host a meetup](https://github.com/w3f/Web3-collaboration/blob/master/howtohostameeup.md)
