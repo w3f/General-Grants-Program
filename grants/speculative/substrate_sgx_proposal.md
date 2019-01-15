@@ -21,7 +21,7 @@ We would open the substrate platform to a whole new field of applications requir
 
 ### Technical Approach
 
-The modular architecture of substrate should allow to modify the runtime executor to run WASMI within a SGX enclave without major refactoring. Baidu has already released a Rust SDK for Intel SGX together with a code sample running the parity WASMI within an enclave. This shall serve as a starting point.
+The modular architecture of substrate should allow to modify the runtime executor to run WASMI within a SGX enclave without major refactoring. Baidu has already released a [Rust SDK for Intel SGX](https://github.com/baidu/rust-sgx-sdk) together with a code sample running the parity WASMI within an enclave. This shall serve as a starting point.
 
 Then, an enclave provisioning solution needs to be implemented that allows multiple enclaves to access and modify the encrypted state with a shared secret (unknown to anyone outside the enclave). We intend to use a multi-party key exchange procedure for this. The runtime state could be distributed in encrypted form over IPFS, only its hash being written to the blockchain. 
 While the Intel team for [Hyperledger Sawtooth Private Data Objects](https://github.com/hyperledger-labs/private-data-objects) (as of writing) has implemented a simple provisioning procedure where enclaves need to be provisioned in advance, the secret key being split among multiple provisioning services (PS), risking collusion attacks among PSes among other vulnerabilities. We think the set of provisioned enclaves needs to be mutable. For this purpose we'd still have to investigate a suitable key agreement protocol that can be taken out whenever the set of provisioned enclaves changes.
