@@ -93,6 +93,8 @@ Alain Brenzikofer
 
 https://www.linkedin.com/in/alain-brenzikofer-9a4480165/
 
+https://www.linkedin.com/in/noa-melchior-674501173/
+
 https://www.linkedin.com/in/sabine-proll-5a7118153/
 
 ## Development Roadmap
