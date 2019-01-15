@@ -12,13 +12,12 @@ The front-end that acts as a universal user interface for Polkadot and its parac
 1. Antoine Najjarin (Project Manager/Founder)
 
   Antoine is the founder and project manager of Speckle OS. He has a history in business development for other Ethereum blockchain projects and has led partnerships with the United Nations World Food Programme and China’s biggest digital retailer, JD.com.
+  * https://www.linkedin.com/in/antoine-najjarin-904828b5
 
-  https://www.linkedin.com/in/antoine-najjarin-904828b5
-
-2.Fei Yang (Senior Full-Stack Developer and Blockchain Engineer)
+2. Fei Yang (Senior Full-Stack Developer and Blockchain Engineer)
   Fei has over 10 years’ experience as a programmer and software engineer. He was previously employed by Bitfinex to develop their Ethfinex platform, and has worked on projects on various blockchains (including Ethereum, Tron and Corda).
-  https://www.linkedin.com/in/fyang1024
-  https://github.com/fyang1024
+  * https://www.linkedin.com/in/fyang1024
+  * https://github.com/fyang1024
 
 + 1 (Full-time) Senior Full-Stack Developer
 + 1 (Part-time) UX/UI Designer
@@ -28,13 +27,13 @@ The front-end that acts as a universal user interface for Polkadot and its parac
 * https://www.speckleos.io/
 
 ## Legal Structure
-LLC incorporated in Australia
+* LLC incorporated in Australia
 
 ## Intended Language of Development
-Javascript (React)
+* Javascript (React)
 
 ## Development Roadmap
-Desktop Application/Browser Extension (3 months of work)
+* MVP Desktop Application/Browser Extension (3 months of work)
 
 1. R&D and Planning for POC 3.0, UI Design and Project Setup (2 weeks)
 
