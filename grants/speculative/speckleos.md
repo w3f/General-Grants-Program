@@ -1,10 +1,7 @@
 # Speckle OS
 
 ## Project Description
-We are building a universal user interface for Polkadot, Substrate and Web 3. This involves three parts: a front-end browser specialized for a web of connected chains; a back-end parachain that handles identity, account management and communication; and the speckle-ui framework for substrate-based chains. The front-end that acts as a universal user interface for Polkadot and its parachains. The closest similarity would be Metamask and Status; however, a user interface for a connected web of chains requires significant innovation to the user experience as opposed to an interface for a single chain. As part of this innovation, we will be deploying a parachain back-end to handle account management, identity and communication across the Polkadot Network. Further, this will be repurposed into a general UI framework for substrate-based chains. This will allow substrate chains to quickly deploy their own UI and modify its feature-set to suit their consensus module.
 
-
-* Please provide a brief description of the project here. This is likely more important for speculative applications, but also worth providing some description here of the team's intent with the project.
 We are building a universal user interface for Polkadot, Substrate and Web 3. This involves three parts:
 1.	Speckle Browser: a front-end browser specialized for a web of connected chains;
 2.	Speckle Parachain: a back-end parachain that handles identity, account management and communication; and
@@ -29,9 +26,6 @@ https://github.com/fyang1024
 
 ## Legal Structure
 LLC incorporated in Australia
-
-## Team's experience
-Please describe the team's relevant experience
 
 ## Development Roadmap
 Desktop Application/Browser Extension (3 months of work)
