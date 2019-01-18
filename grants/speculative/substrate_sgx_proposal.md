@@ -35,13 +35,15 @@ Moreover, Rust language is of strategic interest for SCS and the company would c
 
 Supercomputing Systems AG (SCS) employs ~130 engineers. The following people are relevant for this proposal (although the implementation would be done by 1-2 people mainly, others are available to contribute their expertise on demand):
 
-* Alain Brenzikofer, Department Head Decentralized Systems
-* Noa Melchior 
-* Christian Langenbacher
-* Marcel Frei
-* Sabine Proll
-* Armin Häberling
-* Sascha Montellese
+* Alain Brenzikofer, Department Head Decentralized Systems (Blockchain expert, SGX)
+* Noa Melchior (Blockchain, Solidity, zk-SNARKS)
+* Christian Langenbacher (Blockchain, SGX)
+* Marcel Frei (Blockchain, TrustZone)
+* Sabine Proll (Blockchain)
+* Armin Häberling (Rust)
+* Juraj Skripsky (Rust, Cryptography, InfSec)
+* Sascha Montellese (Open source project guru)
+
 
 ## Team Website
 
@@ -85,15 +87,22 @@ Armin Häberling (Rust)
 
 * https://github.com/arminha?utf8=%E2%9C%93&tab=repositories&q=&type=&language=rust
 
+Juraj Skripsky
+
+* https://github.com/jskripsky 
+
 Alain Brenzikofer
 
 * https://github.com/encointer/simulations
 
 ## Team LinkedIn Profiles
+(Not all on LinkedIn)
 
 https://www.linkedin.com/in/alain-brenzikofer-9a4480165/
 
 https://www.linkedin.com/in/noa-melchior-674501173/
+
+https://www.linkedin.com/in/juraj-skripsky-4338a217/
 
 https://www.linkedin.com/in/sabine-proll-5a7118153/
 
