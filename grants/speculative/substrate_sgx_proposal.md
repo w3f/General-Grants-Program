@@ -42,6 +42,7 @@ Supercomputing Systems AG (SCS) employs ~130 engineers. The following people are
 * Sabine Proll
 * Armin Häberling
 * Sascha Montellese
+* Juraj Skripsky
 
 ## Team Website
 
@@ -88,6 +89,10 @@ Armin Häberling (Rust)
 Alain Brenzikofer
 
 * https://github.com/encointer/simulations
+
+Juraj Skripsky
+
+* https://github.com/mono/mono/commits?author=jskripsky
 
 ## Team LinkedIn Profiles
 
