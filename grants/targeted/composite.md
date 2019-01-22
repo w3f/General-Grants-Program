@@ -97,7 +97,7 @@ Rigid milestones and detailed cost estimates are not a great fit for creating a 
 
 Instead, we propose the following features of a minimum viable product that's achievable in six months.
 
-* Polkadot/Substrate toolchain integration (12 weeks - $95k)
+* Polkadot/Substrate toolchain integration (12 weeks - $45k)
 	* One click install and update of toolchain.
 	* Wizard for creating new Substrate blockchains.
 	* Templates for smart contracts.
@@ -105,14 +105,14 @@ Instead, we propose the following features of a minimum viable product that's ac
 	* UI for interacting with toolchain, e.g. ABI (at least two iterations with user testing)
 	* Templates and default Substrate files with highlighted placeholders, etc.
 
-* Editor (8 weeks - $60k)
+* Editor (8 weeks - $30k)
 	* Replace existing editor module 
 	* Add Rust language support
   	* Add Visual warning and error
 	* Explore Auto-complete
 	* Explore language server for additional languages
   
-* App (3 weeks - $25k)
+* App (3 weeks - $15k)
   * Integrate Sparkle auto update.
   * Explore sandbox for App Store compatibility.
   * Set up unit tests and continuous deployment.
@@ -121,21 +121,24 @@ Instead, we propose the following features of a minimum viable product that's ac
 	* Blogpost 'Creating a Substrate blockchain in Composite'
 	* In-app documentation 
 
-* Removed from original proposal:
+* Changed from previous proposal:
 	* Book (possibly in a separate application)
+	* Simplified toolchain integration, made possible by a recent refactoring, already included in the latest pre-alpha release.
+	* Halved cost of parts of the code that are shared with other blockchains. Assumption is that the already confirmed grant from another blockchain comes through in time and cost can be shared between two grants.
+	* Amount grant request changed to $100,000
 
 ## Grant
 
 So far, Composite has been **completely self-funded**. Requested grant:
 
-* **$190,000** 
+* **$100,000** 
 
 For reasons stated above, it is not in the interest of W3F nor the project to tie payments to the completion of milestones. We propose a payment scheme that's independent of milestones, is fair to both parties, and gives us the flexibility needed to deliver the best product possible.
 
 The idea is to split the grant into manageable pieces that will be paid in a fixed schedule over time, and giving W3F the power to stop the project at any time, without having to pay the remaining amount if somehow expectations aren't met.
 
-* The grant is paid in 12 biweekly non-refundable installments during the six month project period. (If preferred, six monthly payments would work as well).
-* Up to 50% of the grant is paid in Dot. E.g., a biweekly installment would be $7,916.66 in fiat plus the equivalent value in Dot. In case of monthly installments, the monthly payment would be $15,933.33 in fiat plus Dots valued $15,933.33.
+* The grant is paid in six monthly non-refundable installments. 
+* Up to 50% of the grant is paid in Dot. E.g. the monthly installment would be $4,166.66 in fiat plus Dots valued $4,166.66.
 * W3F can continuously track progress in the develop/w3f branch.
 * Payments can be stopped any time at W3f's discretion, e.g. when W3F is not satisfied with direction or progress. The project will then be considered cancelled.
 
