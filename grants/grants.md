@@ -16,6 +16,16 @@ There are two separate types of grant application:
    * Previous RFPs:
    * [Alternative Polkadot Runtime Environment implementation](https://github.com/w3f/Web3-collaboration/issues/12) (closed for new applications)
 
+## Funding Rules and Expectations
+The council has decided that the nature of the grants program is to fund up to a maximum of $100,000 per project. The foundation needs to manage exposure to each individual project plus have enough funds to help as many teams as possible to get started. Additionally, teams shouldn’t seek to cover 100% of their early-stage funding via grants alone.
+
+Any project requesting :
+* **$30k or less** will receive approval faster than projects requesting greater amounts.
+* **$31 - 100k** will need to wait longer for a decision.
+* **More than $100k** won't be able to receive the full amount.
+
+Teams can apply for more grants in the future, but they need to deliver on previous milestones before receiving further funds.
+
 ## Areas of interest
 The Web3 Foundation is interested in providing grants in the different areas of interest shown below. If any of these topics are of interest to you then please make a speculative application and request funding for your project. Our focus is to support projects building around **Substrate** or **Polkadot** (and more technologies going forward).
 
