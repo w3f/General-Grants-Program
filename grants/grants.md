@@ -11,8 +11,8 @@ Primarily, we are interested in projects that can ideally be completed in 3 mont
 ## Grant Application Types
 There are two separate types of grant application:
 
-* **Speculative** applications will be the primary type of grant given out. To help guide teams towards projects that we would consider funding, there is a list of areas of interest in the next section.
-* **Targeted** applications are a direct response to a Request for Proposals (RfPs). Stay tuned for more RfPs in the future. 
+* **Speculative** applications will be the primary type of grant given out. Please use this type when making an application via this page. To help guide teams towards projects that we would consider funding, there is a list of areas of interest in the next section.
+* **Targeted** applications are only for direct responses to Request for Proposals (RfPs). Stay tuned for more RfPs in the future. 
    * Previous RFPs:
    * [Alternative Polkadot Runtime Environment implementation](https://github.com/w3f/Web3-collaboration/issues/12) (closed for new applications)
 
