@@ -24,7 +24,7 @@ Any project requesting :
 * **$31 - 100k** will need to wait longer for a decision.
 * **More than $100k** won't be able to receive the full amount.
 
-Teams can apply for more grants in the future, but they need to deliver on previous milestones before receiving further funds.
+Teams can apply for more grants in the future, but they need to complete the previous project (as described in the previous application) before receiving further funds. Note that the maximum award per application is $100k.
 
 ## Areas of interest
 The Web3 Foundation is interested in providing grants in the different areas of interest shown below. If any of these topics are of interest to you then please make a speculative application and request funding for your project. Our focus is to support projects building around **Substrate** or **Polkadot** (and more technologies going forward).
