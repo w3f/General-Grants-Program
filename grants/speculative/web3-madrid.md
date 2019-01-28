@@ -3,7 +3,7 @@
 ## Project Description
 **Madrid's Community Foster Grant**
 
-We are Ethereum Madrid's Meetup members. We intend to leverage our community to foster Web3, Polkadot Substrate into the general public. Meetups, events and courses will be given with both approaches: technical and business related. We believe it is only by the combination of these two than the Web3 ecosystem could flourish.
+We are Ethereum Madrid's Meetup members. We intend to leverage our community to foster Web3, Polkadot, and Substrate into the general public. Meetups, events and courses will be given with both approaches: technical and business related. We believe it is only by the combination of these two than the Web3 ecosystem could flourish.
 
 Our team has followed Polkadot since the very beginning, along with the growth of decentralized technologies. The plan is creating a new Meetup community, with focus in Web3 technologies.
 
