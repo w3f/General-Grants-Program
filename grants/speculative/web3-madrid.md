@@ -3,9 +3,9 @@
 ## Project Description
 **Madrid's Community Foster Grant**
 
-We are Ethereum Madrid's Meetup members. We intend to leverage our community to foster Web3, Polkadot and Parity technologies into the general public. Meetups, events and courses will be given with both approaches: technical and business related. We believe it is only by the combination of these two than the Web3 ecosystem could flourish.
+We are Ethereum Madrid's Meetup members. We intend to leverage our community to foster Web3, Polkadot Substrate into the general public. Meetups, events and courses will be given with both approaches: technical and business related. We believe it is only by the combination of these two than the Web3 ecosystem could flourish.
 
-Our team has followed Parity and Polkadot since the very beginning, along with the growth of decentralized technologies. The plan is creating a new Meetup community, with focus in Web3.
+Our team has followed Polkadot since the very beginning, along with the growth of decentralized technologies. The plan is creating a new Meetup community, with focus in Web3 technologies.
 
 ## Team members
 * Antonio Gonzalo
@@ -33,6 +33,10 @@ Individuals. We want to become a DAO.
 * Raul Padilla is a software engineer and researcher in blockchain and distributed technologies.
 
 We've been a team since 2015, properly giving meetups, workshops and courses since then. We covered the [DAO Hack](https://www.youtube.com/watch?v=ZF6damrZzRM), held a fireside chat with [Alex Tapscott](https://www.criptonoticias.com/eventos/antonio-gonzalo-alex-tapscott-blockchain-solucion-internet-cosas/#ixzz4i4w9NZT4), explained [Maker](https://www.youtube.com/watch?v=tJkZW5erlrE) and [Cryptoeconomics](https://www.youtube.com/watch?v=fkWsJgFdj9E) with Rune Christiansen streaming live, explained [Gnosis](https://www.youtube.com/watch?v=GhnvxxydPn8), covered [UPort](https://www.youtube.com/watch?v=IUOsa1se_5s)... We also have had several appearances in national TV (TVE, TVE 24h), written press (El País, El Confidencial), online press (El Español, Cryptonoticias, SmartsGrid.info), and national radio (Capital Radio).
+
+We also contributed to the technical difusion of Ethereum in the spanish-speaking community, creating the official [Solidity documentation in Spanish](https://solidity-es.readthedocs.io/es/latest) 
+
+
 
 ## Team Code Repos
 * https://github.com/buendiadas
