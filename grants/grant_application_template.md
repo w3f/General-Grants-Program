@@ -37,6 +37,11 @@ Please describe the team's relevant experience
 * If the team would consider part payments in fiat and/or dots then please suggest a percentage here.
 * What are the team’s long-term plans and intentions after the grant has been award?
 
+## Licensing
+Please indicate the type of license that will be used for this project.
+
+In order to successfully receive grant funding for your application it is necessary for the project to have **open source** code. As an example, it would be fine to use the GNU GPL v3 license.
+
 ## Additional Information
 Any additional information that you think is relevant to this application.
 
