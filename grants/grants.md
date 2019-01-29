@@ -26,6 +26,9 @@ Any project requesting :
 
 Teams can apply for more grants in the future, but they need to complete the previous project (as described in the previous application) before receiving further funds. Note that the maximum award per application is $100k.
 
+## Licensing
+In order to successfully receive grant funding for your application it is necessary for the project to have **open source** code. As an example, it would be fine to use the GNU GPL v3 license. Please include a mention of the license in your application.
+
 ## Areas of interest
 The Web3 Foundation is interested in providing grants in the different areas of interest shown below. If any of these topics are of interest to you then please make a speculative application and request funding for your project. Our focus is to support projects building around **Substrate** or **Polkadot** (and more technologies going forward).
 
