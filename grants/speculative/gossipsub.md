@@ -46,5 +46,5 @@ These bullet points won't be applicable to all projects. Some of the information
 * What work has been done so far? See above.
 * Are there are any teams who have already contributed (financially) to the project? See above.
 * Have you applied for other grants so far? Yes, with the Ethereum Foundation, Gitcoin Grants, and Protocol Labs. Protocol Labs only award grants prospectively, and did not award. Haven't heard back from the other two yet, while I applied two weeks ago and a week ago, respectively.
-* Are there any other projects similar to yours? See above.
+* Are there any other projects similar to yours? See below.
 * How is your project different? Gossipsub has already been implemented in Go at https://github.com/libp2p/go-libp2p-pubsub/blob/master/gossipsub.go. But Rust is better for long-term all-roundedly good software. https://www.rust-lang.org/. There are also some implementation details that are different between the two projects, e.g. using hashes instead of IDs; returning objects when expecting to do something with them, e.g. grafting peers to topics, but the graft isn't completed, etc.
