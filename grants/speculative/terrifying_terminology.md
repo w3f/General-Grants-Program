@@ -28,7 +28,7 @@ Copious hours spent browsing Reddit and answering people's questions.
 ## Development Roadmap
 * 1 month: read through all the docs and simplify things that are confusing, then share that with the community and get feedback and refine it. Ideally this will be more of a living document/project than a one and done static post.
 
-* 1k for the initial draft, and then we can reasses ongoing "maintenance" of the project. Probably too small for "grant", but I'm just really frustrated that people don't realize how cool Polkadot is and keep building slow broken things on other blockchains. I really want to reduce the barriers to entry as much as possible so that we can see the ecosystem thrive. 
+* 1k for the initial draft, and then we can reassess ongoing "maintenance" of the project. Probably too small for "grant", but I'm just really frustrated that people don't realize how cool Polkadot is and keep building slow broken things on other blockchains. I really want to reduce the barriers to entry as much as possible so that we can see the ecosystem thrive. 
 
 * 50/50 dots/fiat would be great!
 
