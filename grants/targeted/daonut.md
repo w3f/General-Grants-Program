@@ -14,7 +14,7 @@ The daonut protocol is creating a framework that allows web2 users and communiti
 This will require building:
 - a spec for the protocol
 - a framework for communities to easily engage with the technology and integrate it into their applications
-- a demo that serves to show how the protocol works as well as a template that can be forked and modified as desired
+- a working demo that shows how the protocol works and also serves as a template that can be forked and modified as desired
 
 We're currently exploring building this on many platforms such as Ethereum, Plasma, and POA, but a grant to help us build on Substrate/Polkadot would help us open up the ecosystem to a host of new developers and users. It would be an onramp to web3 that's organic and social vs being controlled by exchanges, which would help the Web3 Foundation accomplish it's mission of a decentralised interoperable web where users are in control of their own data, identity and destiny. We really hope you share our passion for this project and help us make this dream a reality :)
 - original donuts wiki: https://www.reddit.com/r/ethtrader/wiki/donuts
