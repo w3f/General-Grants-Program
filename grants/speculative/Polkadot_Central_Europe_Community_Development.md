@@ -17,6 +17,8 @@ Non-profit
 ## Team's experience
 Ondrej Sarnecky acts as a consultant of blockchain technology. Nowadays he is actively involved in client's projects ranging from gambling to real estate, where his main duties are the token sale preparation, designing smart contracts and the blockchain technology implementation in his client's bussinesses. He is a prolific blog writer concerned with cryptocurrencies and blockchain technology implementation.
 
+Anette Rolikova wanted to help grow blockchain community in cowork space. She is helping with creating agenda for events happening in blockchain focused cowork space Progressbar. She volunteered on blockchain conferences like Aracon and Goerlicon. She will help host these events and build community around web3 devs.
+
 Jakub Gregus was helping to build blockchain community by attending, volunteering and organising many events in last years in Prague, Bratislava and other Slovak or Czech cities. Later that he was catching the scams and suspicious projects during the ICO hype with ICOindex.com and global Facebook group reaching more than 20k people which he was moderating. As he analyze hundreds of projects he is a Principal in fund dedicated for supporting Web3 related projects.
 
 ## Team Code Repos
