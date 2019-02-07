@@ -6,7 +6,7 @@ As part of our commitment to promoting the Web3 ecosystem, we are providing a co
 
 For community related grants: [Get Started Here](https://docs.google.com/forms/d/e/1FAIpQLSetcOWe18KQ2E2CkrlEclZ0jkUypw5N5iX1erVcF8TJJxizmQ/viewform)
 
-Primarily, we are interested in projects that can ideally be completed in 3 months or less. It is possible that further funding can occur, but we prefer projects to be smaller in nature and hence a more manageable risk. With Polkadot coming online in Q3 2019 (target timeframe), then we would like to have many projects funded and delivered in advance.
+Primarily, we are interested in projects that can ideally be completed in 3 months or less. It is possible that further funding can occur, but we prefer projects to be smaller in nature and hence a more manageable risk. With Polkadot genesis approaching, we would like to have many projects funded and delivered in advance.
 
 ## Grant Application Types
 There are two separate types of grant application:
