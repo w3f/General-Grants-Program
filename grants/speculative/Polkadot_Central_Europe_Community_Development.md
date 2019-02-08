@@ -5,7 +5,7 @@ We want to raise engagement in Central Europe blockchain community about Polkado
 
 ## Team members
 * Ondrej Sarnecky
-* Anett Rolikova
+* Anette Rolikova
 * Jakub Gregus
 
 ## Team Website
@@ -15,7 +15,7 @@ We want to raise engagement in Central Europe blockchain community about Polkado
 Non-profit
 
 ## Team's experience
-Ondrej Sarnecky acts as a consultant of blockchain technology. Nowadays he is actively involved in client's projects ranging from gambling to real estate, where his main duties are the token sale preparation, designing smart contracts and the blockchain technology implementation in his client's bussinesses. He is a prolific blog writer concerned with cryptocurrencies and blockchain technology implementation.
+Ondrej Sarnecky acts as a consultant of blockchain technology. Nowadays he is actively involved in client's projects ranging from gambling to real estate, where his main duties are the token sale preparation, designing smart contracts and the blockchain technology implementation in his client's businesses. He is a prolific blog writer concerned with cryptocurrencies and blockchain technology implementation.
 
 Anette Rolikova wanted to help grow blockchain community in cowork space. She is helping with creating agenda for events happening in blockchain focused cowork space Progressbar. She volunteered on blockchain conferences like Aracon and Goerlicon. She will help host these events and build community around web3 devs.
 
@@ -42,8 +42,9 @@ Quick talks - Topics covering latest development of Polkadot and its ecosystem
 
 The requested grants will be used for:
 * venues expenses
-* guest speakers' expenses
+* guest speakers' travel expenses
 * video production, blogposts, media coverage
 * snacks and drinks for the community & meetup visitors
+* hackathon prizes
 
 ## Additional Information
