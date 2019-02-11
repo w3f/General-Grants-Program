@@ -62,7 +62,7 @@ burrrata is a piece of cheese on the internet that's passionate about FOSS and c
 
 * Indicate the amount of funding required. Both the amount per milestone and the total amount.
 - if fiat only: 25k (we want to move fast, so we'll take a low amount to get started ASAP)
-- if 50/50 fiat/dots: 50k
+- if 50/50 fiat/dots: 29.99k
 
 * What are the team’s long-term plans and intentions after the grant has been award?
 - build more tools that make exploring and integrating with web3 FUN (much yum 🍩) as well as meaningful (self sovereign identity, data, etc...)
