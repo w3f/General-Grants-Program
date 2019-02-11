@@ -12,7 +12,7 @@ There are lots of users engaging on web2 platforms, but web2 platforms are limit
 The daonut protocol is creating a framework that allows web2 users and communities to organically and iteratively explore the capabilities of web3 technologies. It is an extension of the /r/ethtrader donuts, but fully decentralized using DAOs and a modular toolkit for community integration. This will allow users on communities like Reddit to explore the capabilities of web3 in a context that is organic and familiar. The project is FOSS and constantly evolving. Developers, communities, and anyone who wants can create DAOs or cryptoeconomic mechanisms and submit them to the "daonut app store" which anyone can then integrate into their community (like how Substrate allows for modules to be integrated easily).
 
 This will require building:
-- a spec for the protocol
+- a spec for the protocol (zk proofs of computation, staked validator sets, and a Substrate chain)
 - a framework for communities to easily engage with the technology and integrate it into their applications
 - a working demo that shows how the protocol works and also serves as a template that can be forked and modified as desired
 
