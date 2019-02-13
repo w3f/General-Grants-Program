@@ -46,9 +46,16 @@ For projects related to Ethereum, we would like to refer you to [ECF](https://ec
     * Targeting deterministic Wasm
   * New chains
     * Interesting new blockchains that can act as parachains
+      * Chains with succinct state transition proofs (i.e. zk-SNARKs or zk-STARKs based)
+      * Application specific parachains with good product story
     * Adaptations of existing blockchains as parachains
   * Protocol integrations
     * Bridges to other blockchains
+      * Ethereum
+      * Bitcoin
+      * Tezos
+      * Cosmos
+      * Consortium chains
     * Distributed File Storage (e.g. IPFS)
     * Transient P2P messaging (e.g. Whisper)
     * New protocols that are useful for Web3 stack
