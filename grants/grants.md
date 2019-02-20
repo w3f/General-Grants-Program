@@ -22,7 +22,7 @@ In order to successfully receive grant funding for your application it is necess
 ## Areas of interest
 The Web3 Foundation is interested in providing grants in the different areas of interest shown below. If any of these topics are of interest to you then please make a speculative application and request funding for your project. Our focus is to support projects building around **Substrate** or **Polkadot**.
 
-For projects related to Ethereum, please apply for funding through [ECF](https://ecf.network/, which Web3 Foundation is a founding contributor of. The Web3 Foundation's commitment to Ethereum includes the funding we have given to both ECF and Eth Prize.
+For projects related to Ethereum, please apply for funding through [ECF](https://ecf.network/), which Web3 Foundation is a founding contributor of. The Web3 Foundation's commitment to Ethereum includes the funding we have given to both ECF and Eth Prize.
 
 * **Software Development**
   * Development and deployment tooling
