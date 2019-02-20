@@ -7,31 +7,22 @@ As part of our commitment to promoting the Web3 ecosystem, we are providing a co
 
 Primarily, we are interested in projects that can be completed in 3 months or less. It is possible that further funding can occur, but we prefer projects to be smaller in nature and hence a more manageable risk. With Polkadot genesis approaching, we would like to have many projects funded and delivered in advance.
 
-## Grant Application Types
-There are two separate types of grant application:
-
-* **Speculative** applications will be the primary type of grant given out. Please use this type when making an application via this page. To help guide teams towards projects that we would consider funding, there is a list of areas of interest in the next section.
-* **Targeted** applications are only for direct responses to Request for Proposals (RfPs). Stay tuned for more RfPs in the future. 
-   * Previous RFPs:
-   * [Alternative Polkadot Runtime Environment implementation](https://github.com/w3f/Web3-collaboration/issues/12) (closed for new applications)
-
-## Funding Rules and Expectations
-The council has decided that the nature of the grants program is to fund up to a maximum of $100,000 per project. The foundation needs to manage exposure to each individual project plus have enough funds to help as many teams as possible to get started. Additionally, teams shouldn’t seek to cover 100% of their early-stage funding via grants alone.
+## Guidelines
+The funding maximum for grants is $100,000 per project. Teams shouldn’t seek to cover 100% of their early-stage funding via W3F Grants alone.
 
 Any project requesting :
-* **$30k or less** will receive approval faster than projects requesting greater amounts.
+* **$30k or less** will receive approval the fastest.
 * **$31 - 100k** will need to wait longer for a decision.
-* **More than $100k** won't be able to receive the full amount.
 
-Teams can apply for more grants in the future, but they need to complete the previous project (as described in the previous application) before receiving further funds. Note that the maximum award per application is $100k.
+Teams can apply for grants more than once, but they need to complete the previous project (as described in their application) before receiving additional funds. 
 
 ## Licensing
 In order to successfully receive grant funding for your application it is necessary for the project to have **open source** code. As an example, it would be fine to use the GNU GPL v3 license. Please include a mention of the license in your application.
 
 ## Areas of interest
-The Web3 Foundation is interested in providing grants in the different areas of interest shown below. If any of these topics are of interest to you then please make a speculative application and request funding for your project. Our focus is to support projects building around **Substrate** or **Polkadot** (and more technologies going forward).
+The Web3 Foundation is interested in providing grants in the different areas of interest shown below. If any of these topics are of interest to you then please make a speculative application and request funding for your project. Our focus is to support projects building around **Substrate** or **Polkadot**.
 
-For projects related to Ethereum, we would like to refer you to [ECF](https://ecf.network/) that we are members of. The Web3 Foundation's commitment to Ethereum includes the funding we have given to both ECF and Eth Prize.
+For projects related to Ethereum, please apply for funding through [ECF](https://ecf.network/, which Web3 Foundation is a founding contributor of. The Web3 Foundation's commitment to Ethereum includes the funding we have given to both ECF and Eth Prize.
 
 * **Software Development**
   * Development and deployment tooling
@@ -46,7 +37,7 @@ For projects related to Ethereum, we would like to refer you to [ECF](https://ec
   * New chains
     * Interesting new blockchains that can act as parachains
       * Chains with succinct state transition proofs (i.e. zk-SNARKs or zk-STARKs based)
-      * Application specific parachains with good product story
+      * Application specific parachains with a good product story
     * Adaptations of existing blockchains as parachains
   * Protocol integrations
     * Bridges to other blockchains
