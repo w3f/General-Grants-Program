@@ -2,7 +2,7 @@
 
 As part of our commitment to promoting the Web3 ecosystem, we are providing a comprehensive grants initiative. This means that successful applicants will be able to receive funding for their efforts to improve the Web3 ecosystem.
 
-[Get Started Here](https://docs.google.com/forms/d/e/1FAIpQLSfMfjiRmDQDRk-4OhNASM6BAKii7rz_B1jWtbCPkUh6N7M2ww/viewform) - Follow and complete the [5 step process](https://github.com/w3f/Web3-collaboration/blob/master/grants/grants.md#process)
+For technical development grants [Apply Here](https://docs.google.com/forms/d/e/1FAIpQLSfMfjiRmDQDRk-4OhNASM6BAKii7rz_B1jWtbCPkUh6N7M2ww/viewform) - Follow and complete the [5 step process](https://github.com/w3f/Web3-collaboration/blob/master/grants/grants.md#process)
 
 For community related grants: [Apply Here](https://docs.google.com/forms/d/e/1FAIpQLSetcOWe18KQ2E2CkrlEclZ0jkUypw5N5iX1erVcF8TJJxizmQ/viewform)
 
