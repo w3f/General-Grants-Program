@@ -2,9 +2,9 @@
 
 As part of our commitment to promoting the Web3 ecosystem, we are providing a comprehensive grants initiative. This means that successful applicants will be able to receive funding for their efforts to improve the Web3 ecosystem.
 
-For technical development grants [Apply Here](https://docs.google.com/forms/d/e/1FAIpQLSfMfjiRmDQDRk-4OhNASM6BAKii7rz_B1jWtbCPkUh6N7M2ww/viewform) - Follow and complete the [5 step process](https://github.com/w3f/Web3-collaboration/blob/master/grants/grants.md#process)
+For technical development grants [Apply Here](https://docs.google.com/forms/d/e/1FAIpQLSfMfjiRmDQDRk-4OhNASM6BAKii7rz_B1jWtbCPkUh6N7M2ww/viewform). To help with your application, follow and complete the [5 step process](https://github.com/w3f/Web3-collaboration/blob/master/grants/grants.md#process)
 
-For community related grants: [Apply Here](https://docs.google.com/forms/d/e/1FAIpQLSetcOWe18KQ2E2CkrlEclZ0jkUypw5N5iX1erVcF8TJJxizmQ/viewform)
+For community related grants: [Apply Here](https://docs.google.com/forms/d/e/1FAIpQLSetcOWe18KQ2E2CkrlEclZ0jkUypw5N5iX1erVcF8TJJxizmQ/viewform). Community grants are intended for community members with long-term (1+ year) commitment to hosting meetups or workshops. To host a single event, visit [the Collab Repo](https://github.com/w3f/Web3-collaboration/labels/Meetup) to find collaborators in your city. For blog posts and videos please view the [open bounties](https://github.com/w3f/Web3-collaboration/labels/Bounty).
 
 Primarily, we are interested in projects that can ideally be completed in 3 months or less. It is possible that further funding can occur, but we prefer projects to be smaller in nature and hence a more manageable risk. With Polkadot genesis approaching, we would like to have many projects funded and delivered in advance.
 
@@ -80,14 +80,8 @@ For projects related to Ethereum, we would like to refer you to [ECF](https://ec
   * Benchmarking tools
   * Core implementation testing tools
 * **Community Development**
-  * Blog posts
   * Meetups (check out our [meetup kit](https://github.com/w3f/Web3-collaboration/blob/master/meetups.md) with how-tos and materials)
-  * Conferences
-  * Software documentation
-  * Educational content
-    * Blog posts
-    * Videos
-    * Courses
+  * Workshops (e.g. setting up a Polkadot node or writing a Substrate Runtime Module)
 * **Research**
   * Benchmarking
   * New primitives
