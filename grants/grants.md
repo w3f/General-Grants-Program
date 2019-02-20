@@ -4,7 +4,7 @@ As part of our commitment to promoting the Web3 ecosystem, we are providing a co
 
 For technical development grants [Apply Here](https://docs.google.com/forms/d/e/1FAIpQLSfMfjiRmDQDRk-4OhNASM6BAKii7rz_B1jWtbCPkUh6N7M2ww/viewform). To help with your application, follow and complete the [5 step process](https://github.com/w3f/Web3-collaboration/blob/master/grants/grants.md#process)
 
-For community related grants: [Apply Here](https://docs.google.com/forms/d/e/1FAIpQLSetcOWe18KQ2E2CkrlEclZ0jkUypw5N5iX1erVcF8TJJxizmQ/viewform). Community grants are intended for community members with long-term (1+ year) commitment to hosting meetups or workshops. To host a single event, visit [the Collab Repo](https://github.com/w3f/Web3-collaboration/labels/Meetup) to find collaborators in your city. For blog posts and videos please view the [open bounties](https://github.com/w3f/Web3-collaboration/labels/Bounty).
+For community related grants: [Apply Here](https://docs.google.com/forms/d/e/1FAIpQLSetcOWe18KQ2E2CkrlEclZ0jkUypw5N5iX1erVcF8TJJxizmQ/viewform). Community grants are intended for community members with long-term (1+ year) commitment to hosting meetups or workshops. To host a single event, visit the [Collab Repo](https://github.com/w3f/Web3-collaboration/labels/Meetup) to find collaborators in your city. For blog posts and videos please view the [open bounties](https://github.com/w3f/Web3-collaboration/labels/Bounty).
 
 Primarily, we are interested in projects that can ideally be completed in 3 months or less. It is possible that further funding can occur, but we prefer projects to be smaller in nature and hence a more manageable risk. With Polkadot genesis approaching, we would like to have many projects funded and delivered in advance.
 
