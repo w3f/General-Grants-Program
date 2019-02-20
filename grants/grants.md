@@ -73,10 +73,10 @@ For projects related to Ethereum, we would like to refer you to [ECF](https://ec
   * ~~Alternative Polkadot Runtime Environment implementation~~ ([Link](https://github.com/w3f/Web3-collaboration/issues/12))
   * Hardware wallet integration / HSMs
     * Users, validators and collators
-  * Polkadot Runtime Modules
+  * Polkadot Runtime Modules and corresponding UIs
     * Governance
     * Interoperability
-    * Interesting new modules
+    * General app modules, see [Ethereum paper](https://github.com/ethereum/wiki/wiki/White-Paper#applications) for inspiration
   * Benchmarking tools
   * Core implementation testing tools
 * **Community Development**
