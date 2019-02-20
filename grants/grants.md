@@ -72,6 +72,9 @@ For projects related to Ethereum, please apply for funding through [ECF](https:/
 * **Education and Documentation**
   * Software Documentation
   * Technical education material
+    * Courses
+    * Tutorials
+    * Guides
 * **Research**
   * Benchmarking
   * New primitives
