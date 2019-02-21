@@ -17,6 +17,10 @@ The Web3 Infrastructure Directory would require the buy-in from a lot of differe
 
 While I can dream up many proposals in my head, it's probably going to be sub optimal because I don't understand the interests and constraints of all parties involved. Currently I'm trying to better understand the various aspects of the ecosystem and how they might all fit in before proposing a concrete plan. This process could be greatly accelerated via a grant to work on it full time, but as I said the first step is just doing the research. Grants usually like concrete proposals with timelines, but this project requires input and cooperation from multiple stakeholders across the Web3 ecosystem. It would be a dream come true if this could be realized quickly, but it would require some activation energy to initiate the process. As this is a community related project, I'm submitting this application to ask if the W3F would be open to funding initial research in that direction with the goal of producing a concrete design spec.
 
+Since you guys want something more concrete though, here's what it might look like initially:
+- frontend: a web UI that allows people to select the components they want and receive a Substrate chain configured with those modules
+- backend: a Substrate template that projects can modify it to include thier module into the runtime. This then gets compiled to make sure it works, and then is added to the library. When the user selects their configuration the specific Substrate configuratino that matches that would be produced, and since it's already be checked to compile it will work. If a project makes a breaking change, this will be detected at compile time before being uploaded to the directory (like crates.io) and the upload will be blocked until the bugs are resolved. This means that for the user, all code they receive will work.
+
 Thanks! :)
 
 ## Team members
@@ -43,13 +47,13 @@ I've been talking to people in the Web3 ecosystem about this idea and have recei
 ## Development Roadmap
 
 1) Create a draft proposal that can be presented to stakeholders in the ecosystem.
-  - 1 week
+  - 1 week and 20% of funding
 
 2) Engage with key stakeholders in the ecosystem to determine what would need to be modified and/or changed in the proposal to achieve buy-in and make the project a go.
-  - 1-2 months
+  - 1-2 months and 30% of funding
 
 3) Write a more concrete proposal that is a direct result of input from the stake holders in the ecosystem that would be required to make the Web3 Infrastructure Directory a reality. 
-  - 2 months
+  - 2 months and 50% of funding
 
 Ideally this would allow for a template to be build before launch of the Polkadot Network. This would mean that new projects entering the space would have clear guidelines to make their protocols and chains accessible, discover-able, and inter-operable with other projects on the network. 
 
