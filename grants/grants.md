@@ -66,6 +66,9 @@ For projects related to Ethereum, please apply for funding through [ECF](https:/
   * Polkadot Runtime Modules and corresponding UIs
     * Governance
     * Interoperability
+    * Stable coins
+    * Oracles
+    * Identity
     * General app modules, see [Ethereum paper](https://github.com/ethereum/wiki/wiki/White-Paper#applications) for inspiration
   * Benchmarking tools
   * Core implementation testing tools
