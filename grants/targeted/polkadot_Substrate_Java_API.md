@@ -50,18 +50,18 @@ https://github.com/gemZhang
 
 ## Development Roadmap
 
-- 2019.03.01-2014.04.01
+- 2019.03.10-2014.04.011
 
-  Implementing the existing Polkadot/Substrate API functionality in the Java programming language
+  Our team analyzes Polkadot/Substrate and combines the JavaScript API to design the best way to implement in the Java programming language. During this time, part of the Java code, a runable Jar package, and the basic Polkadot/Substra Java API functionality will be implemented on GitHub.
 
-- 2019.04.02-2019.05.01
+- 2019.04.12-2019.05.11
 
-  Optimize the existing Polkadot/Substrate Java API functions, complete front-end display, and run stably.
+  Implement the existing Polkadot/Substra API in the Java programming language. During the period, submit Java code on GitHub, and a runable Jar package. Implement some API documentation with Gitbook.
 
-- 2019.06.02-2019.07.01
+- 2019.05.12-2019.06.11
 
-  To implement the Polkadot/Substrate Java API extension function, if the progress is smooth and time is sufficient, with the deep understanding of Polkadot/Substrate, we will expand the team and develop the Java client of Polkadot/substrate.
-
+  Submit all Java code on GitHub, a runable Jar package, implement all API documentation with Gitbook, build a Polkadot/Substra Java API official website, open Twitter, and set up a technical exchange group to promote the Polkadot/Substra Java API. If it goes well and has plenty of time, with a deep understanding of Polkadot/Substrate, we will expand the team to develop the Java client for Polkadot/substrate.
+  
 ## Licensing
 
 GNU GPL v3 license.
