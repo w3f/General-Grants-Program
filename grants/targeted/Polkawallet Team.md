@@ -78,9 +78,35 @@ Beijing sanshan Internet technology co. LTD
 Currently, there is only js version of the API, and my friends GemZhang is working on developing a Java version of the API. Will can be used for native development for better user experience.
 
 ## Development Roadmap
-**Milestone One:**
 
-- Code refactoring, function encapsulation, Improve extensibility & maintenance. (plan: 2019.03.25)
+**Milestone One:** (plan: 2019.03.25)
+
+- Improve extensibility:
+  - Choose a more suitable architecture for this application.
+  - Subcontracting according to architecture and business modules.
+  - Divide the network layer and route layer according to the business module
+  - The component package is re-screened, and the comprehensive optimization is selected to prepare for future updates.
+  - Component packages need to be re-filtered for comprehensive optimization.
+  - The code solution needs to be recalibrated for new business and multi-chain support.
+- High coupling:
+  - Page reusability.
+  - Eliminate code accumulation.
+  - Keep the structure uniform.
+  - Move logic in the View layer or controller layer.
+- Improve code quality:
+  - Develop coding specifications.
+  - Develop a code submission specification.
+  - Add unit tests.
+  - Eliminate file redundancy.
+  - Eliminate code redundancy, unused code.
+  - Extract method to remove duplicate code.
+  - Clean up the code hierarchy.
+  - Chinese and English bilingual annotation.
+- Enhance the user experience:
+  - Data caching, reducing user traffic consumption, and server performance consumption.
+  - Reorganize the business logic to reduce redundant requests and redundant listening processes.
+  - Constantly test, eliminate stuck, crash.
+
 - Deliverables:  Public Github. https://github.com/polkawallet-io/polkawallet-RN
 - Duration: 1 month.
 
