@@ -16,7 +16,7 @@ GunClear
 * gunclear.io
 
 ## Legal Structure 
-LLC
+Integritas Solutions Corp LLC (Nevada) is the entity
 
 ## Team's experience
 Team lead has extensive experience building mission-critical, high reliability software for Aerospace, and has been working as an Ethereum smart contract developer for 1.5 years. Lead SNARKs researcher is currently pursuing a PhD in Applied Mathematics, has extensive experience developing enterprise-grade software, and experience with p2p networking technology. Team also has experience with mobile application design and user experience development.
