@@ -29,11 +29,9 @@ The details should be in the application 'document' that you add to this repo vi
 - [ ] The application includes a project description.
 - [ ] The application includes all names of team members.
 - [ ] The application includes a description of the team's experience.
-- [ ] The application includes all necessary GitHub and LinkedIn links.
-- [ ] The application specifies the development language and the reason for choosing it.
-- [ ] The "Development Roadmap" section in the application has a timeline of development.
+- [ ] The application includes all necessary links (e.g. GitHub and LinkedIn)
+- [ ] The "Development Roadmap" section in the application has a timeline of development ("milestones").
 - [ ] The "Development Roadmap" section in the application has an estimate of funds required.
 - [ ] The "Development Roadmap" section gives an indication of the team's long term plans.
-
-
+- [ ] The "Development Roadmap" section includes [documentation](https://github.com/w3f/Web3-collaboration/blob/master/grants/grants.md#documentation) as a deliverable for at least one milestone.
 
