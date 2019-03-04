@@ -17,7 +17,10 @@ Any project requesting :
 Teams can apply for grants more than once, but they need to complete the previous project (as described in their application) before receiving additional funds. 
 
 ## Licensing
-In order to successfully receive grant funding for your application it is necessary for the project to have **open source** code. As an example, it would be fine to use the GNU GPL v3 license. Please include a mention of the license in your application.
+In order to successfully receive grant funding for your application it is necessary for the project to have **open source** code. We prefer to use Apache 2.0 but it is also fine to use the GNU GPL v3 license.
+
+## Documentation
+To ensure ease-of-use we require all projects to create documentation that explains how their project works. For example, creating a tutorial will help new users to understand how to use the product. Video is also a good way to demonstrate how something works; however, written documentation is a minimum requirement for funding.
 
 ## Areas of interest
 The Web3 Foundation is interested in providing grants in the different areas of interest shown below. If any of these topics are of interest to you then please make a speculative application and request funding for your project. Our focus is to support projects building around **Substrate** or **Polkadot**.
