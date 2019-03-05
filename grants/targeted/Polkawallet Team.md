@@ -152,9 +152,9 @@ Currently, there is only js version of the API, and my friends GemZhang is worki
 
     - Then use **iphone** any QR Scanner to scan `DOWNLOAD` QR:
 
-![深度截图_选择区域_20190222120918](https://qiniu.netsafe.org.cn/blog/%E6%B7%B1%E5%BA%A6%E6%88%AA%E5%9B%BE_%E9%80%89%E6%8B%A9%E5%8C%BA%E5%9F%9F_20190222120918.png)
+![深度截图_选择区域_20190222120918](https://qiniu.netsafe.org.cn/blog/%E6%B7%B1%E5%BA%A6%E6%88%AA%E5%9B%BE_%E9%80%89%E6%8B%A9%E5%8C%BA%E5%9F%9F_20190222120918.png)  
 
-    - Then the **iphone** jump this same page, Click `APP DOWNLOAD`
+   - Then the **iphone** jump this same page, Click `APP DOWNLOAD`
 
 - When Click `APP DOWNLOAD`, Installation prompt pops up, click `install`. **Back to the main screen of the mobile phone, it is already there.**
 
@@ -193,7 +193,7 @@ Click `Profile` -> `About`, view the verison, **Need:** >= 0.0.9
 
 #### 1.2.3 Set remote/local node
 
-> **NOTE: **
+> **NOTE**：
 >
 > - The The default node is: `wss://poc3-rpc.polkadot.io/`
 > -  I provide a devChain `ws://107.173.250.124:9944/`.**You can choose it**
