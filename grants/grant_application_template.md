@@ -31,16 +31,17 @@ Please describe the team's relevant experience
 * https://www.linkedin.com/<person_2>
 
 ## Development Roadmap
-* Please provide an estimated timeline of development and give some indication of content within milestones.
-   * More details are better here. It should be clear how the project will be working towards deployment on Substrate / Polkadot.
-* Indicate the amount of funding required. Both the amount per milestone and the total amount.
-* If the team would consider part payments in fiat and/or dots then please suggest a percentage here.
-* What are the team’s long-term plans and intentions after the grant has been award?
+Please add information setting into sufficient detail the following (usually two pages):
 
-## Licensing
-Please indicate the type of license that will be used for this project.
+* The specifications of the software, delivered over a number of milestones. The detail must be such that after delivery we are able to examine whether the software meets the requirements agreed in the specifications, in order to be able to make any payments to you.
+* A time schedule on when each milestone will be achieved.
+* The required grant per milestone. This can be in one of the fiat currencies CHF, EUR or USD or in DOTs or a combination of fiat and DOTs. Please reach out to grants@web3.foundation for discussing what amount in fiat and DOTs would be appropriate.
 
-In order to successfully receive grant funding for your application it is necessary for the project to have **open source** code. As an example, it would be fine to use the GNU GPL v3 license.
+
+Note: It should be clear how the project will be working towards deployment on Substrate / Polkadot.
+
+Also helpful to know: what are the team’s long-term plans and intentions after the grant has been awarded?
+
 
 ## Additional Information
 Any additional information that you think is relevant to this application.
