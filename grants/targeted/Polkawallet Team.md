@@ -116,7 +116,7 @@ Currently, there is only js version of the API, and my friends GemZhang is worki
 - referendums history function implementation. (plan: 04.03)
 - Setting functions, include:Language/Gesture/Fingerprint/Facial recognition/Google Authenticator. (plan: 04.10)
 - Redesign some processes to make them easier and easier to understand. (plan: 04.20)
-- A new UI that gives users a sophisticated experience. Out of style before (plan:04.30)
+- A new UI that gives users a convenient experience. Out of style before (plan:04.30)
 - Deliverables:  Public Github. https://github.com/polkawallet-io/polkawallet-RN
 - Duration: 1 month.
 
