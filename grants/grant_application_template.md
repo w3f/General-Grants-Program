@@ -16,11 +16,10 @@ If this application is for a particular grant programme then please indicate tha
 * https://...
 
 ## Legal Structure 
-Please provide details of entity, if any, e.g. legal structure (GmbH, Foundation, LLC) and legal seat.
+Please provide name and registered address of the legal entity executing the project. These details can also be shared privately via our Google Form.
 
 ## Team's experience
 Please describe the team's relevant experience
-
 
 ## Team Code Repos
 * https://github.com/<your_repo_1>
@@ -35,7 +34,8 @@ Please add information setting into sufficient detail the following (usually two
 
 * The specifications of the software, delivered over a number of milestones. The detail must be such that after delivery we are able to examine whether the software meets the requirements agreed in the specifications, in order to be able to make any payments to you.
 * A time schedule on when each milestone will be achieved.
-* The required grant per milestone. This can be in one of the fiat currencies CHF, EUR or USD or in DOTs or a combination of fiat and DOTs. Please reach out to grants@web3.foundation for discussing what amount in fiat and DOTs would be appropriate.
+* The required grant per milestone and the total amount requested. Grants can be in one of the fiat currencies CHF, EUR or USD or in DOTs or a combination of fiat and DOTs. Please reach out to grants@web3.foundation for discussing what amount in fiat and DOTs would be appropriate. 
+* Note that we now have a preference to collect the financial information via our Google Form, or via a Google Document (paste the link into our Google Form).
 
 
 Note: It should be clear how the project will be working towards deployment on Substrate / Polkadot.
