@@ -64,7 +64,7 @@ The main parts of the tool will be infrastructure as code, a load profile execut
 
 ## Development Roadmap
 
-* Start: within 3 weeks after grant receipt 
+* Start: within 1 week after grant receipt
 * Research and planning, identifying metrics and load profiles range, preparing project specification (weeks 0 - 1).
 * Metric collection and visualization playbooks, system metrics (week 2)
 * Virtualized infrastructure deployment, scripts and playbooks (weeks 3 - 4)
