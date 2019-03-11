@@ -22,7 +22,7 @@ https://moderntoken.com
 ## Legal Structure
 TBD, the exact structure is currently considered.
 ## Team's experience
-Modern Token is a blockchain business and technology consultancy firm established in April 2017. Members of our technical staff has 3 years of experience in blockchain industry on average. Our team performs various R&D services regarding consensus algorithms, platform economics (design and modelling) and platform architecture. For an overview of our previous work see https://moderntoken.com/works.
+Modern Token is a blockchain business and technology consultancy firm established in April 2017. Members of our technical staff have 3 years of experience in blockchain industry on average. Our team performs various R&D services regarding consensus algorithms, platform economics (design and modelling) and platform architecture. For an overview of our previous work see https://moderntoken.com/works.
 ## Team Code Repos
 * https://github.com/Van0k
 * https://github.com/SirFrancisDrake
