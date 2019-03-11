@@ -70,11 +70,11 @@ The main parts of the tool will be infrastructure as code, a load profile execut
 * Virtualized infrastructure deployment, scripts and playbooks (weeks 3 - 4)
 * Substrate automated parallel deployment, blockchain initialization and warmup (weeks 3 - 5)
 * Substrate telemetry enhancements (weeks 3 - 5)
-* Smoke tests (week 4)
+* Smoke tests, basic documentation (week 4)
 * Development of load profiles (weeks 4 - 8)
 * Massively parallel tests, scripts and playbooks (weeks 6 - 8)
 * Geographically distributed massively parallel test, scripts and playbooks (weeks 9 - 11)
-* Infrastructure scripts and tools wrap-up (weeks 9 - 11)
+* Infrastructure scripts and tools wrap-up, documentation wrap-up (weeks 9 - 11)
 * Benchmarking results analysis and interpretation (weeks 6 - 11)
 
 We are planning to further develop the project under Apache 2 license, adding new features such as system testing for network partitioning tolerance, high network latencies, byzantine actors, etc; testing various blockchain nodes and creating a universal set of metrics for blockchain operation assessment.
