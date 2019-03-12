@@ -1,13 +1,12 @@
 <img src="https://pact.online/dist/img/starlog_new.png" width="240">
 
 ## Project Description
-The goal of Starlog is to research and develop an open source solo chain or potential parachain, which stores 
-metadata for IPFS as non-fungible tokens as well as unavailability data (Programs: [New chains, Distributed File Storage](https://github.com/w3f/Web3-collaboration/blob/master/grants/grants.md#areas-of-interest)). The metadata will be signed by the uploaders and includes a price, a timestamp, owner(s), information about the uploaded file itself as well as the location/gateway of the initial upload.
+The goal of Starlog is to research and develop an open source solo chain or potential parachain, which stores metadata for the next generation of the world wide web as non-fungible tokens as well as availability data (Programs: [New chains, Distributed File Storage](https://github.com/w3f/Web3-collaboration/blob/master/grants/grants.md#areas-of-interest)). For this project, we will focus on IPFS as the distributed storage layer for the web3. The metadata will be signed by the uploaders and includes a unique hash, a price, a timestamp, a license, information about the uploaded file itself as the location of the initial upload or pinning gateway.
 
-Starlog provides, therefore, the following key benefits for IPFS uploads:
+Starlog provides, therefore, the following key benefits for the next generation of the world wide web:
 
-- Searchability via human-readable names
-- Copyright system for IPFS uploads
+- Distributed searchability via human-readable names
+- Copyright system 
 - Marketplace for uploaded content
 - Electronic identity based on personal IPFS uploads
 - Faster initial loading of non-distributed IPFS content
@@ -39,7 +38,6 @@ without the requirement of an additional voting system nor a filtering system, w
 
 Since a slightly changed file (version) results in a completely new hash on IPFS but still might have the 
 same metadata, it makes sense to store references to metadata objects to reduce the overall chain size. 
-An off-chain storage of metadata is probably not a solution, because of the initial loading speed. 
 
 We believe that based on Substrate we will be able to improve the current prototype further. On the one 
 hand, the combination of non-fungible tokens based on IPFS hashes seems to be a promising solution for 
@@ -81,43 +79,49 @@ as writing corresponding documentation, tutorials, and marketing materials.
 
 ## Development Roadmap
 
+The goal of our roadmap is to develop and document a metadata chain for IPFS based on Substrate. The signed metadata will include a unique hash, a price, a timestamp, a license, information about the uploaded file itself as well as the location of the initial upload or pinning gateway. In addition to that, we will develop a basic interface for this runtime based on our project dweb.page. The overall project will take 12 weeks and include documentation, articles, and tutorials.
+
+Starlog is for us a pure research project. We currently don’t have any plans to monetize on the project itself. 
+In the long-term, we plan to apply this technology in multiple healthcare related projects. We are open-minded regarding receiving the grant in a combination of fiat and DOTs.  
+
 ### Phase 1 Preliminary research phase (4 weeks, parallel to phase 2): 
 
-Summary: In this phase, we will focus on additional research regarding the runtime and the integration of the subscription-based system. Potential questions are: 
+Summary: In this phase, we will focus on the design and additional research of a metadata runtime and the implementation of this system based on Substrate. Potential questions are: 
 *	How to optimize the storage of metadata to improve the loading as well as reduce the chain size (e.g., ERC-1155 or storing on IPFS)?
 *	How to deal with users uploading content illegally?
 *	How does a subscription-based system compare to existing solutions like token-curated registry for this use-case?
 *	How to trade and value ownership rights without generating just another token? 
 *	How to implement a multi-signature/-owner system?
 
-Funding: 6.000 $
+Milestones: 
+* Design: Medium article and whitepaper draft describing a distributed metadata system based on Substrate
 
-Milestones: Medium Idea article
+Funding: 6.000 $
 
 ### Phase 2 Development phase (10 weeks): 
 
-Summary: We will further develop and test the existing open source runtime and use Dweb.page as a UI, which handles the subscription-based system according to the use-behavior.
-
-Funding: 18.000 $
+Summary: We will further develop and test the existing open source runtime and use Dweb.page as a UI, which handles the subscription-based system according to the use-behavior. The goal is to create a fast and scalable runtime so that users can request metadata and availability information almost instantly. To archive this, we also investigate potential additional off-chain solutions. 
 
 Milestones: 
-*	Open source runtime
-*	Dweb.page integration
-*	Substrate runtime tutorial
-*	Tutorial on creating a JavaScript UI.  
+
+* Implementation: We will create and test multiple Substrate modules that implement the described metadata system. Starlog will probably consist of three modules: 
+  1. a metadata combination module, which contains and handles the IPFS hash, a metadata hash, a price, a license number, and a gateway,
+  1. an availability module, which stores and update the availability information of IPFS files, and
+  1. a module containing the actual metadata. This module might either be integrated off-chain or focus on reducing the required on-chain storage size.
+*	Interface: Dweb.page will be the interface for our runtime. Therefore, we need to write the necessary JavaScript code. We will try to structure the code in a way that it can easily be reused for other projects.  
+*	Tutorials: We will write a tutorial that demonstrates how to integrate Substrate into an existing web project based on the @polkadot/api npm package. Furthermore, we will write a tutorial on how to write and test a Substrate runtime similar to our solution. The focus will be specifically on the aspects we encounter during the development process, which are missing in other tutorials. 
+
+Funding: 18.000 $
 
 ### Phase 3 Documentation phase (2 weeks):
 
 Summary: We will improve the documentation of the project, write a final medium article about our findings as well as potential next steps and other use-cases for the Substrate framework. 
 
-Funding: 4.000 $
-
 Milestones: 
-*	Documentation
-*	Medium article including next steps
+*	Documentation: We will use Read the Docs to create the documentation for the project. This will include a summary, a couple of tutorials and the specification of the project.
+*	Marketing: We will write a medium article, which discusses the potential next steps and other use-cases for the project. Additionally, we will share our work on different forums/networks (e.g., Reddit, Hacker News, Twitter, etc.).
 
-Starlog is for us a pure research project. We currently don’t have any plans to monetize on the project itself. 
-In the long-term, we plan to apply this technology in multiple healthcare related projects. We are open-minded regarding receiving the grant in a combination of fiat and DOTs.    
+Funding: 4.000 $  
 
 ## Licensing
 
@@ -132,5 +136,6 @@ So far, we haven’t applied for other grants with this project and all our deve
 by ourselves. We received a grant by the IOTA Foundation for our healthcare project 
 [Untangle Care](https://blog.iota.org/the-second-cohort-of-ecosystem-development-fund-grantees-b4349ab01f7c). Dweb.page 
 and all related work mentioned in this proposal aren’t part of this IOTA grant. 
+
 We are currently not aware of any similar projects. 
 
