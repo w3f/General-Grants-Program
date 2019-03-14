@@ -25,7 +25,7 @@ develop a first concept that allows not only to make IPFS content searchable
 but also to develop almost free dapps (see https://blog.florence.chat/tutorial-how-to-build-a-completely-free-dapp-11a4ddf5959c). 
 The picture below shows the first integration tests of Starlog into Dweb.page.
 
-<img src="https://pact.online/dist/img/starlog_dweb.PNG" width="320px" alt="Dweb.page + Starlog">
+<img src="https://pact.online/dist/img/starlog1.PNG" width="310px" alt="Dweb.page + Starlog upload"> <img src="https://pact.online/dist/img/starlog2.PNG" width="310px" alt="Dweb.page + Starlog search">
 
 Rather than trying to find one single truth directly on the blockchain (e.g., token-curated registry), 
 the idea is to develop a subscription-based system (see image below). This means Publishers store 
