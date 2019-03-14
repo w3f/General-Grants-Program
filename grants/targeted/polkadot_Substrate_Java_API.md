@@ -52,11 +52,19 @@ https://github.com/gemZhang
 
 - 2019.03.10-2014.04.011
 
-  Our team analyzes Polkadot/Substrate and combines the JavaScript API to design the best way to implement in the Java programming language. During this time, part of the Java code, a runable Jar package, and the basic Polkadot/Substra Java API functionality will be implemented on GitHub.
+  Our team analyzes Polkadot/Substrate and combines the JavaScript API to design the best way to implement in the Java programming language. During this time, part of the Java code, a runable Jar package, and the basic Polkadot/Substra Java API functionality will be implemented on GitHub.  
+  The specific functions of the API are as follows:  
+  A.JSON-RPC, specifically includingAuthoring of network items,Retrieval of chain data,Query of state,Methods to retrieve system info.  
+  B.balances, session, demoracacy, staking, consensus and other functions corresponding to Storage, Extrinsics, Events.  
+  C.timestamp function corresponding to Storage, Extrinsics.  
+  D.type, including Primitive types, Substrate types, Codec types, RPC types, Derived types.  
 
 - 2019.04.12-2019.05.11
 
-  Implement the existing Polkadot/Substra API in the Java programming language. During the period, submit Java code on GitHub, and a runable Jar package. Implement some API documentation with Gitbook.
+  Implement the existing Polkadot/Substra API in the Java programming language. During the period, submit Java code on GitHub, and a runable Jar package. Implement some API documentation with Gitbook.  
+  The specific functions of the API are as follows:  
+  A.council, councilMotions, councilVoting, grandpa, sudo, treasury and other functions corresponding to Storage, Extrinsics, Events.  
+  B.some API examples, including Simple Connect, Listen to new blocks, Listen to balance changes, Unsubscribe from listening to updates,  Read storage, Make a simple transfer, Traverse events.  
 
 - 2019.05.12-2019.06.11
 
