@@ -42,6 +42,7 @@ Note: It should be clear how the project will be working towards deployment on S
 
 Also helpful to know: what are the team’s long-term plans and intentions after the grant has been awarded?
 
+
 ## Additional Information
 Any additional information that you think is relevant to this application.
 
