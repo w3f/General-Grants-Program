@@ -1,9 +1,10 @@
 ## Grant Application
 
 This application is (select one):
-
 - [ ] Speculative (use this by default)
 - [ ] an RFP response
+
+
 ###
 
 This application is (select one):
