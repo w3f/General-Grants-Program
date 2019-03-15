@@ -54,9 +54,7 @@ If you would like to see some example responses then check out the following doc
 
 
 ## Polkadot Meetups
-We plan to have multiple active meetup groups across the world. Find more information on the following doc: [Link](https://github.com/w3f/Web3-collaboration/blob/master/meetups.md). You are welcome to note your interest in the [issues](https://github.com/w3f/Web3-collaboration/issues) section of this repo, but we also invite interested people to follow the link (below) to our meetup application form and provide us some basic contact details plus information about the type of meetup you intend to create:
-
-[Application Form](https://docs.google.com/forms/d/e/1FAIpQLSe-hbgzMHkwYLCy9-0NLmnpIJdD-nwq_vqNwba9JiiKFmZmZg/viewform)
+We have multiple active meetup groups across the world. Find more information on the following doc: [Link](https://github.com/w3f/Web3-collaboration/blob/master/meetups.md). We encourage you to note your interest in the [issues](https://github.com/w3f/Web3-collaboration/issues) section of this repo and find collaborators in your local area!
 
 
 ## Looking for further information?

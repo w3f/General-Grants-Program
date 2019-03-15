@@ -3,12 +3,10 @@ We invite people across the globe to organise Polkadot meetups in their local ci
 
 There is no requirement to contact us, but we think there is a lot to be gained from working together. We are keen to talk with people who can work in a self-directed manner. We envision that meetups will mainly be organised through meetup.com since this seems to be the defacto standard for creating local meetup groups. The plan is to have multiple active meetup groups across the world.
 
-# Repo Issues
-As explained on the main page, we are using this repo to coordinate community efforts. On the [issues page](https://github.com/w3f/Web3-collaboration/issues) you can see the issues we are interested in. Many of these issues pertain to Polkadot meetups. If you see your city listed then feel free to reply, if you don't see your city listed then feel free to open a new issue (please follow the naming convention being used).
+# Create an "Issue" to get started
+On the [issues page](https://github.com/w3f/Web3-collaboration/issues) you can see past meetups the community has organized. If you see your city listed then feel free to reply, if you don't see your city listed then feel free to open a new issue (please follow the naming convention being used). This is where you can coordinate with other community members!
 
-We have a standard issue response template that we would like people to use:
-
-**Template**
+**Template Issue**
 
 * What is the plan:
 * Number of people on your team:
@@ -19,18 +17,8 @@ To gain a better understanding what of your response should look like, we recomm
 
 [Response Examples](https://github.com/w3f/Web3-collaboration/blob/master/response-examples.md)
 
-# Collaboration Form
-Interested participants should follow the link (below) to our meetup application form and provide us some basic contact details plus information about the type of meetup you intend to create:
-
-[Collaboration Form](https://docs.google.com/forms/d/e/1FAIpQLSe-hbgzMHkwYLCy9-0NLmnpIJdD-nwq_vqNwba9JiiKFmZmZg/viewform)
-
-You will be asked to provide the following information:
-* Name (lead person)
-* Email address
-* LinkedIn profile link (Optional)
-* Website (Optional)
-* Location of meetup
-* Event types (e.g. presentations, casual, workshops)
+# Apply for funding
+Web3 Foundation is committed to supporting organizations of all sizes that engage and expand the Web 3.0 and Polkadot communities. If you are interested in hosting an event or setting up a community organization, you can apply for a grant [here](https://docs.google.com/forms/d/1Jqi_P6T5ECX_WTHZ6qqKhxgd51-ivRUNoLT80H7UZ1U/edit).
 
 # How to host a Polkadot meetup
 We have published a guide on how to host a good meetup, please see here: [how to host a meetup](https://github.com/w3f/Web3-collaboration/blob/master/howtohostameeup.md)
@@ -51,3 +39,6 @@ Substrate is an example of a [Polkadot Runtime Environment](https://github.com/w
 # Logos
 * [Polkadot Logos](https://www.dropbox.com/sh/avobfu5pi8rffwa/AABaSxSwv_Tk_z8yYvVxGq-3a?dl=0)
 * [Web3 Foundation Logos](https://www.dropbox.com/sh/giezcsj8a0ygo8p/AACHbx4nwXI3KvQLQq5g5wxLa?dl=0)
+
+# Meetup videos
+Watch previous meetup videos on the Web3 Foundation [Youtube](https://www.youtube.com/channel/UClnw_bcNg4CAzF772qEtq4g). 
