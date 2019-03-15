@@ -127,6 +127,5 @@ The grant application can be seen as a 5-step process. Below is an outline of th
    * If a team is successful, there will be further conversation required to figure out specific details around timelines and payment schedules.
 1. **Follow up**
    * Once progress has started, W3F will want to have follow up conversations to see how the project is developing.
-   
-   
-   
+
+
