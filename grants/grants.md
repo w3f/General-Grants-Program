@@ -60,7 +60,7 @@ For projects related to Ethereum, please apply for funding through [ECF](https:/
     * Node explorers
     * Statistical analytics
   * UI
-    * Wallets
+    * Wallets (Not looking for Metamask-like wallets at the moment!)
     * Libraries
     * Mobile integration
   * ~~Alternative Polkadot Runtime Environment implementation~~ ([Link](https://github.com/w3f/Web3-collaboration/issues/12))
