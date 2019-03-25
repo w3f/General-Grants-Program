@@ -56,7 +56,7 @@ For projects related to Ethereum, please apply for funding through [ECF](https:/
     * State channels (runtime modules, dedicated parachains)
     * Key server networks
   * Monitoring
-    * Block explorers
+    * ~~Block explorers~~
     * Node explorers
     * Statistical analytics
   * UI
