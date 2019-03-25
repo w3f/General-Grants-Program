@@ -48,8 +48,11 @@ Osuke’s works on blockchain space are following.
     * Rust: https://github.com/osuketh/stark-rust
 
 ## Team Code Repos
-* Zerochain code repo is [here](https://github.com/LayerXcom/zero-chain).
-* The UI for Zerochain is [here](https://github.com/LayerXcom/zero-chain-ui)
+* Zerochain: https://github.com/LayerXcom/zero-chain
+* A UI for Zerochain: https://github.com/LayerXcom/zero-chain-ui
+
+## Team LinkedIn Profiles
+We are not on LinkedIn.
 
 ## Development Roadmap
 The milestones are spread out over a total of 3 months as following:
