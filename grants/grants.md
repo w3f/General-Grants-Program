@@ -35,6 +35,7 @@ For projects related to Ethereum, please apply for funding through [ECF](https:/
     * Scalable cluster
     * Tools for easy deployment
     * Parachain development kits
+    * Off-chain worker tooling
   * New languages and libraries
     * Targeting deterministic Wasm
   * New chains
