@@ -41,7 +41,7 @@ https://github.com/nknwallet/DesktopWallet
 ## Team LinkedIn Profiles
 * [Twitter](https://twitter.com/matin_kaboli) - [LinkedIn](https://www.linkedin.com/in/matin-kaboli-543a4b119)
 
-* [Twitter][https://twitter.com/amir1373ansari] - [LinkedIn](https://www.linkedin.com/in/amir1373ansari/)
+* [Twitter](https://twitter.com/amir1373ansari) - [LinkedIn](https://www.linkedin.com/in/amir1373ansari/)
 
 
 ## Development Roadmap
