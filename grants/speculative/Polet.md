@@ -53,8 +53,6 @@ developers to contribute and develop the project. We meet & learn about your
 business and set goals for the project. We have gained enough experience in
 designing and building wallets in the past year.
 
-It takes 5 weeks to complete the application and publish the app.
-
 Our team has built a cross-platform desktop wallet for NKN network which according
 to users' feedback is very modern and useful and also the NKN community gave
 good feedback to us.
@@ -71,6 +69,11 @@ and better in every way possible.
 **Maintain:** It’s our duty to maintain the app and fix the issues and bugs to make users
 happy.
 
+## Fund and Milestone
+
+It takes 6 weeks to complete the application and publish the app.
+
+Our stimate fund request is 10,000 USD.
 
 ## Additional Information
 
