@@ -75,8 +75,7 @@ Typescript, Angular, Ionic framework and Cordova
 
 The base has already been developed and supports a variety of protocol, our next step is to add support for Polkadot and DOTs.
 
-- Milestone 0: Familiarization with the Polkadot protocol & Requirements Engineering (1 week)
-- Milestone 1: Software development of the DOT integration (4 weeks)
+- Milestone 0/1: Familiarization with the Polkadot protocol & Requirements Engineering & Software development of the DOT integration (4 weeks)
 - Milestone 2: Testing and iterative bug fixing of DOT integration (1 week)
 - Milestone 3: Requirements engineering Staking/Nominating (1 week)
 - Milestone 4: Software development of Delegation (3 weeks)
