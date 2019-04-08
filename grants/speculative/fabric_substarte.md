@@ -83,7 +83,7 @@ QBT team includes 10+ highly skilled architects and developers that can contribu
 
 - **Peter Kalambet** (https://github.com/kalambet) - System Architect. Worked in global IT companies on cloud infrastructure projects. 10+ experience in IBM research. 
   - Development of blockchain PoC since 2014.
-  - Architecture design and PoC implementation of Blockchain Pilots for Platforms based on Hyperledger Fabric, R3 Corda, Ethereum.
+  - Architecture design and PoC implementation of blockchain pilots for platforms based on Hyperledger Fabric, R3 Corda, Ethereum.
   - Contribution to the Cloud Foundry (source PaaS virtualization engine) and porting Cloud Foundry on POWER architecture.
   - Contribution to the privacy-preserving authentication protocol IBM Identity Mixer.
 
@@ -102,13 +102,17 @@ The Fabric part is going to be implemented using Go since the whole Fabric codeb
 
 Provide general implementation where each Client Application has its own Ordering Service (OS), in contrast with current Hyperledger Fabric architecture which implies a single OS per network. Each of this OS will be a node in the Substrate-based network. Ledger, in this case, will contain only transactions and blocks from the Hyperledger Fabric network.
 
-- Ordering service mock implementation (1w)
-- Go Substrate JSON-RPC wrapper (1w)
-- Base Substrate runtime and storage for Hyperledger Fabric ledger metadata (1w)
-- Implement Hyperledger Fabric block cutter based on Substrate chain finality (3w)
-- Finalize initial Substrate-based Ordering Service implementation (2w)
-- Service auto-provisioning on network deploy and Substrate runtime one-time configuration based on Hyperledger Fabric Orderer config yaml's (2w)
-- Performance and stress testing. Documentation creation. (2w)
+- Milestone 0 (3w)
+    - Ordering service mock implementation (1w)
+    - Go Substrate JSON-RPC wrapper (1w)
+    - Base Substrate runtime and storage for Hyperledger Fabric ledger metadata (1w)
+- Milestone 1 (3w)
+    - Implement Hyperledger Fabric block cutter based on Substrate chain finality (3w)
+- Milestone 2 (4w)
+    - Finalize initial Substrate-based Ordering Service implementation (2w)
+    - Service auto-provisioning on network deploy and Substrate runtime one-time configuration based on Hyperledger Fabric Orderer config yaml's (2w)
+- Milestone 3 (2w)
+    - Performance and stress testing. Documentation creation. (2w)
 
 ### Future Development
 - **Phase Two**: add consensus algorithm into Substrate that combines PoA (AuRa) and endorsement policy from Fabric, so OS based on Substrate network will be aware of transaction acceptance policy. It will also require to extend ledger by storing Hyperledger Fabric read-write sets.
@@ -118,7 +122,7 @@ We also envision implementing similar project to implement Substrate-based conse
 
 ## Additional Information
 ### What work has been done so far?
-Getting familiar with Substrate's and Hyperledger code base.
+Getting familiar with Substrate's and Hyperledger Fabric code base.
 
 ### Have you applied for other grants so far?
 No.
