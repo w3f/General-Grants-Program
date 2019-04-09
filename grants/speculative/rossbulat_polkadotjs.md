@@ -48,7 +48,7 @@ I would actively work on the following problems within the front end, which afte
 The app is currently split into sections whereby the user is expected to know what they are doing, and this is a problem for newcomers to the platform. Solutions such as abstracting these sections into a Home of Dashboard section (while maintaining support for Substrate's dynamic nature) are being discussed, and could also be reflected in a more feature-rich sidebar.
 I would like to continue these efforts.
 
-##### Help Content
+##### Help content
 We have began introducing help content in the form of rollovers and tooltips, but this is just the begining of a journey of supporting the end user. I woild like to expand on this feature, as well as provide a glossary slide-out with filtering functionalities. 
 
 Issues surrounding user-friendliness and help content are being discussed at https://github.com/polkadot-js/apps/issues/900.
