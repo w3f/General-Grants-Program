@@ -61,6 +61,7 @@ This grant application is targeting a 4 months implementation and assessment tim
 * Milestone 3: Integration, testing & reporting
    * integrate the new Substrate implementation with message layer
    * testing and documentation
+   * tutorial article and video that details how to setup a HOPR node and participate in the network
    * report outcomes and detail future work
    * Deliverables: Report summarizing the work available as blog post and demonstrate in at least on public event
    * Duration: 1 month
