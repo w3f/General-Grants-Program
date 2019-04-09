@@ -11,7 +11,7 @@ If end-users are to use Polkadot at scale, the front end needs to equal or bette
 
 My Polkadot JS PR activity can be found at https://github.com/polkadot-js/apps/pulls?utf8=✓&q=is%3Apr+author%3Arossbulat+
 
-## Team members
+## Team Members
 Ross Bulat (Individual)
 
 My Medium blog: https://medium.com/@rossbulat
@@ -20,10 +20,10 @@ My personal website: https://rossbulat.co
 ## Legal Structure 
 Parity Technologies are executing the project to which I am providing open source contributions under the licences hosted by Parity - I have no futher details to give here.
 
-## Ross's experience
+## Ross's Experience
 
 ##### Seasoned full stack developer
-Ross has been in full stack development for one-and-a-half decades, sparked by the interest of manipulating UX with ActionScript 2 and Flash. He has completed many deliverables for clients on the web ranging from PHP and MySQL solutions, to MongoDB based Python and NodeJS backend services running behind a React based front-end. He is now personally focussed on decentralised technologies, and continues to refine his UX skills by merging web3 with the front- end.
+Ross has been in full stack development for one-and-a-half decades, sparked by the interest of manipulating UX with ActionScript 2 and Flash. He has completed many deliverables for clients on the web ranging from PHP and MySQL solutions, to MongoDB based Python and NodeJS backend services running behind a React based front-end. He is now personally focussed on decentralised technologies, and continues to refine his UX skills by merging web3 with the front-end.
 
 ##### Active in the blockchain space
 He recently attended the ETHSingapore hackathon to gain further insights into the Ethereum community and current areas of focus for the protocol in general. Ross has also extensively studied git in relation to Github, and the best methods for running a decentralised organisation. He contributes to other Ethereum based projects and publically contributes to the Uniswap project.
