@@ -5,7 +5,7 @@ I am applying for funding to continue my activities surrounding Polkadot JS deve
 
 I have been working on the frontend Polkadot “apps” app for a number of weeks, providing PRs to enhance the UX of the project, as well as starting conversations on Github around specific focuses of the project. I have offered professional advice and furthered the advancement of the project on the UX front. By taking a hands-on approach to investigating UX issues, I have exposed myself to the structure of the project and how it is built.
 
-I am currently the only developer working on the non-functional aspect of the app; styling and design language, support for responsive design to support all devices, enhacing project structure keeping it in line with cutting edge React / Typescript UX support. However, I am open to also develop functional aspects of the app where appropriate.
+I am currently the only developer working on the non-functional aspect of the app; styling and design language, support for responsive design to support all devices, enhancing project structure keeping it in line with cutting edge React / Typescript UX support. With this in mind, I am also open to develop functional aspects of the app where appropriate.
 
 If end-users are to use Polkadot at scale, the front end needs to equal or better centalised solutions. Right now there is not a lot of activity pushing this forward. I have been in active discussion with Jaco Greeff on a range of app issues, and have had support from Stefanie Doll on a feedback basis to my contributions. 
 
