@@ -42,7 +42,7 @@ Proposed duration: 3 months.
 
 Proposed funding: $30,000, or a split between USD and DOTs with the majority of value in USD.
 
-I would actively work on the following problems within the front end, which after the proposed 3 month timeframe would be at a high, acceptable standard:
+I would actively work on the following problems within the front end, which after the proposed 3 month timeframe would be at a high, acceptable standard. I would then like to continue supporting the project and Parity Technologies in general where opportunities present themselves.
 
 ##### Onboarding new users
 The app is currently split into sections whereby the user is expected to know what they are doing, and this is a problem for newcomers to the platform. Solutions such as abstracting these sections into a Home of Dashboard section (while maintaining support for Substrate's dynamic nature) are being discussed, and could also be reflected in a more feature-rich sidebar.
