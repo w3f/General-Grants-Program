@@ -7,7 +7,7 @@ I have been working on the frontend Polkadot “apps” app for a number of week
 
 I am currently the only developer working on the non-functional aspect of the app; styling and design language, support for responsive design to support all devices, enhancing project structure keeping it in line with cutting edge React / Typescript UX support. With this in mind, I am also open to develop functional aspects of the app where appropriate.
 
-If end-users are to use Polkadot at scale, the front end needs to equal or better centalised solutions. Right now there is not a lot of activity pushing this forward. I have been in active discussion with Jaco Greeff on a range of app issues, and have had support from Stefanie Doll on a feedback basis to my contributions. 
+If end-users are to use Polkadot at scale, the front end needs to equal or better 'centalised-app' UX experiences. Right now there is not a lot of activity (if any) pushing this forward. I have been in active discussion with Jaco Greeff on a range of app issues, and have had support from Stefanie Doll on a feedback basis to my contributions. 
 
 My Polkadot JS PR activity can be found at https://github.com/polkadot-js/apps/pulls?utf8=✓&q=is%3Apr+author%3Arossbulat+
 
