@@ -1,12 +1,16 @@
 # Plasm
 
 ## Project Description
-Plasm is a Substrate Runtime Module Library which allows developers to add Plasma functions to their Substrate chain. Since we are making SRML, we can also make both plasma parent chains and plasma child chains with Substrate. We made some Plasma chains by using Plasm. We aim to be a Plasma parachain. You can see our slide deck from [here](https://docs.google.com/presentation/d/1c-O0Ch-m2vX4bo4KMO5KxrDQlyDqn3Kl36gjo--5A5k/edit#slide=id.p) 
+Plasm is a Substrate Runtime Module Library which allows developers to add Plasma functions to their Substrate chain. Since we are making SRML, we can also make both plasma parent chains and plasma child chains with Substrate. [We have made some Plasma chains by using Plasm](https://www.youtube.com/watch?v=T70iEgyuXbw&feature=youtu.be). We aim to be a Plasma parachain once Polkadot is ready. You can see our slide deck from [here](https://docs.google.com/presentation/d/1c-O0Ch-m2vX4bo4KMO5KxrDQlyDqn3Kl36gjo--5A5k/edit#slide=id.p).
 
-Today, there are many problems in this space like public blockchain doesn’t scale, L2 doesn’t have strong security and so on. Plasma is one of the ideal solutions. However, there are many derivfative "Plasmas" and it makes difficult for devs to understand how Plasma works. Plasm consists of both Plasma UTXO based libraries and Plasma account based libraries. It makes easier for developers to make and customize their Substrate chain and we aim to bring infinite scalability into this space. Developers can choose one of the plasma solutions from Plasm and apply it to their use case so that they can use Plasma freely and easily.
+Today, there are many problems in this space like public blockchain doesn’t scale, L2 doesn’t have strong security and so on. Plasma is one of the ideal solutions. However, there are many derivfative "Plasmas" and it makes difficult for developers to understand how Plasma works. Plasm makes it easier for developers to make Plasma chain with Substrate and we aim to bring infinite scalability into the Polkadot ecosystem. Developers can choose one of the plasma solutions from Plasm and apply it to their use case so that they can use Plasma freely and easily. In the future, we would like to make a GUI based developer tool to use Plasm.
 
 * Plasm has some features.
-* Scalability is needed in the Polkadot ecosystem. Since Plasm is SRML with high versatility and expansibility, we are making a Plasma paracahin and it makes easy even for other developers to make a Plasma chain.
+    * It deals with many types of "Plasmas". (It consists of both Plasma UTXO based libraries and Plasma account based libraries. )
+    * We have already had rust implementations.
+    * Developers can define original transaction logics by themselves.
+    * Substrate chain can be both a parent chain and a child chain.
+* Scalability is needed in the Polkadot ecosystem. Since Plasm is SRML with high versatility and expansibility, we are making a Plasma paracahin and Plasm makes it easy even for other developers to make a Plasma chain.
 * We believe that blockchain is the social infrastructure. As an operating system for the next generation, we think Plasma like hierarchical/layered specification which brings high social scalability is needed.
 
 ## Team members
