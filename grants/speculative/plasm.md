@@ -50,10 +50,11 @@ Listed some of our milestones below. In parallel with making our product, we wil
         - Wallet
 - M2: Implement a plasma chain with Plasm and connect it to the Polkadot Testnet (1 week)
 - M3: Support Plasma Cash (2 weeks)
-- M4: Support [Plasm Chamber](https://github.com/cryptoeconomicslab/plasma-chamber) (2 weeks) 
+- M4: Support [Plasm Chamber](https://github.com/cryptoeconomicslab/plasma-chamber) (1 weeks) 
 - M5: Build a GUI developer tool (2 weeks)
+- M6: Documentation
 
-After successful implementation, we will research and implement ZK-SNARKs and 99% fault tolerant consensus algorithm on our plasma chain.
+After successful implementation, we will research and implement ZK-SNARKs and 99% fault tolerant consensus algorithm on our plasma chain in parallel with making real use cases.
 
 ## Additional Information
 * [Our demo video in English](https://www.youtube.com/watch?v=T70iEgyuXbw&feature=youtu.be)
