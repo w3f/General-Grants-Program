@@ -1,5 +1,4 @@
-# Project name
-Plasm
+# Plasm
 
 ## Project Description
 Plasm is a Substrate Runtime Module Library which allows developers to add Plasma functions to their Substrate chain. Since we are making SRML, we can also make both plasma parent chains and plasma child chains with Substrate. We made some Plasma chains by using Plasm. We aim to be a Plasma parachain. You can see our slide deck from [here](https://docs.google.com/presentation/d/1c-O0Ch-m2vX4bo4KMO5KxrDQlyDqn3Kl36gjo--5A5k/edit#slide=id.p) 
@@ -23,11 +22,15 @@ Incorporated in Japan
 ## Team's experience
 Staked Technologies is a blockchain company which aims to build digital economy where everyone belongs. 
 
-* Sota is CEO at the company. He is a Polkadot ampassador in Tokyo. He is a blockchain researcher at the University of Tokyo. He used to work at Chronicled, Sna Francisco based blockchain company which use blockchain for supply chains. 
+* Sota is CEO at the company. He is a Polkadot ambassador in Tokyo. As the ambassador, he is hosting Polkadot and Substrate meetups at least once in a month and making Japaese document for developers. (e.g. Substrate Tutrials and [Polkadot whitepaper Japanese edition](https://github.com/stakedtechnologies/PolkadotWP))
+
+In addtion to that, he is a blockchain researcher at the University of Tokyo. He became a researcher at the age of 23, the youngest record. He used to work at Chronicled, a San Francisco based blockchain company which uses blockchain for supply chains. 
+
+* Takumi is CTO at the company. He is the world finalist of ACM-ICPC International Collegiate Programming Contest 2016|2017 and he was selected one of 21 best U25 engineers by a NPO which is supported by Japanese Government in 2018. He made own blockchain platform called [Proskenion](https://proskenion.github.io/)
+
 
 ## Team Code Repos
 * https://github.com/stakedtechnologies/Plasm
-* https://github.com/stakedtechnologies/plasm-demo
 
 ## Team LinkedIn Profiles
 * https://www.linkedin.com/in/sota-watanabe-b962b3110/
@@ -47,12 +50,22 @@ Also helpful to know: what are the team’s long-term plans and intentions after
 
 
 ## Additional Information
-Any additional information that you think is relevant to this application.
+* [Our demo video in English](https://www.youtube.com/watch?v=T70iEgyuXbw&feature=youtu.be)
+* [Plasm without technical explanations](https://docs.google.com/presentation/d/1er_QAOuRk4h97FCq8Sjp5h4YNQSOsRbO4mtiuCgInhY/edit?usp=sharing)
 
-These bullet points won't be applicable to all projects. Some of the information may have already been included in the description section, if so then no need to state it again.
+### What work has been done so far?
+* Plasm Rust implementations.
+* UTXO Rust implementations.
+* Plasm Demo.
 
-* What work has been done so far?
-* Are there are any teams who have already contributed (financially) to the project?
-* Have you applied for other grants so far?
-* Are there any other projects similar to yours? 
-* How is your project different?
+### Are there are any teams who have already contributed (financially) to the project?
+No
+
+### Have you applied for other grants so far?
+No
+
+### Are there any other projects similar to yours?
+[GunClear](https://github.com/w3f/Web3-collaboration/pull/83/files). 
+
+## How is your project different?
+From my understanding, they are making Plasma bridge to Ethereum. We are making SRML and try to make it easier for developers to use Plasma.
