@@ -52,7 +52,7 @@ For projects related to Ethereum, please apply for funding through [ECF](https:/
       * Cosmos
       * Consortium chains
     * Distributed File Storage (e.g. IPFS)
-    * Transient P2P messaging (e.g. Whisper)
+    * ~~Transient P2P messaging (e.g. Whisper)~~
     * New protocols that are useful for Web3 stack
   * Second layer protocols (runtime modules, dedicated parachains)
     * State channels
