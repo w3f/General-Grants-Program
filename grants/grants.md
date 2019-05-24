@@ -37,7 +37,8 @@ For projects related to Ethereum, please apply for funding through [ECF](https:/
     * Parachain development kits
     * Off-chain worker tooling
   * New languages and libraries
-    * Targeting deterministic Wasm
+    * Targeting deterministic Wasm in Runtime
+    * Node API bindings (Besides JS and Java at moment!)
   * New chains
     * Interesting new blockchains that can act as parachains
       * Chains with succinct state transition proofs (i.e. zk-SNARKs or zk-STARKs based)
@@ -53,15 +54,16 @@ For projects related to Ethereum, please apply for funding through [ECF](https:/
     * Distributed File Storage (e.g. IPFS)
     * Transient P2P messaging (e.g. Whisper)
     * New protocols that are useful for Web3 stack
-  * Second layer protocols
-    * State channels (runtime modules, dedicated parachains)
+  * Second layer protocols (runtime modules, dedicated parachains)
+    * State channels
+    * ~~Plasma~~
     * Key server networks
   * Monitoring
     * ~~Block explorers~~
     * Node explorers
     * Statistical analytics
   * UI
-    * Wallets (Not looking for Metamask-like wallets at the moment!)
+    * Wallets (Besides Metamask-like wallets at the moment!)
     * Libraries
     * Mobile integration
   * ~~Alternative Polkadot Runtime Environment implementation~~ ([Link](https://github.com/w3f/Web3-collaboration/issues/12))
