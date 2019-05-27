@@ -98,11 +98,11 @@ Incorporated in Canada
 	* M4: Development of BTZ distribution/reward functions (2 weeks)
 	* M5: Testing in staging environment, running parallel environments, full transition to decentralized (4 weeks)
 
-Please note that the development cost at our current burn rate is approximately $900,000 
+Please note that the development cost is approximately $600,000 (this includes the cost of several additional resources not listed above - team members required to integrate all required changes across iOS, Android, Web, and more)
 	
 ### Additional Development Considerations    
-* We will research and implement a small PoC for the new zero-knowledge proofs like SONICs, zkSTARKs and Bulletproof for eliminating the trusted setup problem of the current zk-SNARKs. 
-* Bunz includes significant value distribution functionality (BTZ bonuses which are issued constantly for contributions to the platform). When we launch on Bunziverse all bonuses will be paid from Bunz wallets (transactions signed and submitted from our backend), but we are investigating converting these functions to smart contracts that pay users automatically. This will involve tracking more application data on chain.
+* We will be researching zero knowledge identity verification for transactions that require age verification on purchase of goods.
+* Bunz includes significant value distribution functionality (BTZ bonuses which are issued constantly for contributions to the platform). When we launch on Bunziverse all bonuses will be paid from Bunz Official wallets (on-chain transactions signed and submitted from our backend), but we are investigating converting these functions to smart contracts that pay users automatically. This will involve tracking more application data on chain.
  
 We have not included these considerations in the above milestones as they will significantly increase timelines and we have not finalized the specifications.
 	
@@ -111,11 +111,11 @@ We have not included these considerations in the above milestones as they will s
 * The Bunz application has been live on iOS, Android, and Web since 2016 and has over 350,000 users
 * Tens of thousands of BTZ transactions take place on Bunz everyday
 * The architecture was designed to support a transition from the current centralized system to a blockchain solution from day 1
+* We have completed significant work in partnership with ChainSafe to build a parity bridge for facilitating trustless transfers of BTZ from a private Ethereum chain to Ethereum mainnet.
 
 ### Have you applied for other grants so far?
 No
 	
 ### Are there any other projects similar to yours?
 * In terms of the data economy - BAT/Brave  
-* In terms of stable coins - DAI
-
+* In terms of stable coins - DAI/Facebook's Global Coin
