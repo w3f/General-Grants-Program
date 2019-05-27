@@ -48,7 +48,7 @@ Our CTO Xavier Hendrickx has been in the crypto space for a long time and was CT
 
 NGRAVE advisors include experienced business veterans, including sales & general managers, sales leaders, serial entrepreneurs, company founders, and financial leaders.
 
-Our manufacturing partner in both hardware and firmware is technology giant IMEC. IMEC is the world leader in R&D for nanotechnology and digital technologies (such as battery-, sensor-, IoT-technology) and is a leading micro/nano chip manufacturer. NGRAVE has also been enrolled in their #1 university-linked accelerator in Europe (#4 in the world) since July 2018. 
+Our manufacturing partner in both hardware and firmware is technology giant IMEC. IMEC is a world leader in R&D for nanotechnology and digital technologies (such as battery-, sensor-, IoT-technology) and is a leading micro/nano chip manufacturer. NGRAVE has also been enrolled in their #1 university-linked accelerator in Europe (#4 in the world) since July 2018. 
 
  ## Team LinkedIn Profiles
 * https://www.linkedin.com/in/xavierhendrickx/
@@ -71,7 +71,7 @@ We will require 3 months to complete this project. We intend to have 1 developer
     * weeks 6 - 10; 8000 USD
 4. Integrate all parts together and works as intended
     * weeks 10 - 12; 6000 USD
-5. Coordination of efforts, project management
+5. Coordination of efforts, project management and documentation
     * continuous; 2500 USD
 
 We can receive payment however it best fits the foundation, but ideally part payment at the end of each milestone. $29,500 / 4.
