@@ -65,40 +65,36 @@ Incorporated in Canada
 
 
 	
-	## Team LinkedIn Profiles
-	Sascha Darius Mojtahedi
-    https://www.linkedin.com/in/sascha-darius-mojtahedi/?originalSubdomain=ca
-      
-    Paul Chan
-    https://www.linkedin.com/in/cerebrous/
-      
-    Eythan D'Amico
-    https://www.linkedin.com/in/eythan/
-    
-    Perry Haldenby 
-    https://www.linkedin.com/in/perryhaldenby/?originalSubdomain=ca
-    
-    Jullian Haldenby 
-    https://www.linkedin.com/in/haldenby/?originalSubdomain=ca
-    
-    Ed Robinson 
-    https://www.linkedin.com/in/earobinson42/
-    
-    Eddie Law
-    https://www.linkedin.com/in/eddie-law/
-    
-    Cameron Eldridge    
-    https://www.linkedin.com/in/cameron-e-5b13b0a6/
-    
-	## Development Roadmap
-	The milestones are spread out over a total of 3 months as follows:
-    * M1: Development of Coin Smart Contract (port existing ethereum token contract) (2 weeks)
-	* M2: Integration of existing BTZ (centralized) backend wallet infrastructure with Bunziverse chain (2 weeks)
-	* M3: Development of private key generation and management instructions+process (frontend) (2 weeks)
-	* M4: Development of BTZ distribution/reward functions (2 weeks)
-	* M5: Testing in staging environment, running parallel environments, full transition to decentralized (4 weeks)
+## Team LinkedIn Profiles
+Sascha Darius Mojtahedi
+https://www.linkedin.com/in/sascha-darius-mojtahedi/?originalSubdomain=ca
 
-Please note that the development cost is approximately $600,000 (this includes the cost of several additional resources not listed above - team members required to integrate all required changes across iOS, Android, Web, and more)
+Paul Chan
+https://www.linkedin.com/in/cerebrous/
+
+Eythan D'Amico
+https://www.linkedin.com/in/eythan/
+
+Perry Haldenby 
+https://www.linkedin.com/in/perryhaldenby/?originalSubdomain=ca
+
+Jullian Haldenby 
+https://www.linkedin.com/in/haldenby/?originalSubdomain=ca
+
+Ed Robinson 
+https://www.linkedin.com/in/earobinson42/
+
+Eddie Law
+https://www.linkedin.com/in/eddie-law/
+
+Cameron Eldridge    
+https://www.linkedin.com/in/cameron-e-5b13b0a6/
+
+## Development Roadmap
+* Milestone 1: Coin Contract and Bunz Client Side Key Management 
+* Milestone 2: Public Bunziverse Parachain Testnet Deployment, Bunz API integration to Bunziverse Chain and Server-Issued Rewards
+* Milestone 3: Documentation, Testing, Transaction Migration, Block Explorer, Deployment
+
 	
 ### Additional Development Considerations    
 * We will be researching zero knowledge identity verification for transactions that require age verification on purchase of goods.
