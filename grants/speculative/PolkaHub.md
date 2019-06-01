@@ -123,7 +123,7 @@ Recent team updates:
 
 * Winner of a 0x+Coinlist DeFi Hackathon. Developed a new economic primitive ["Committments to Future Cashflows"](http://cashflowrelay.com/)
 
-* [C2FC Implementation on Substrate](https://github.com/akropolisio/akropolis-polkadot) and [it’s telemetry](https://telemetry.polkadot.io/#/Akropolis).
+* [C2FC Implementation on Substrate](https://github.com/akropolisio/akropolis-polkadot), [it’s telemetry](https://telemetry.polkadot.io/#/Akropolis) and [video screencast](https://www.dropbox.com/s/svcbp4f62myfxfd/C2FC.mp4?dl=0).
 
 * [Partnership](https://medium.com/akropolis/empowering-informal-economies-via-defi-poa-network-and-akropolis-announce-their-partnership-d8abe8bd0c74) with POA Network (xDAI chain), towards better UX standards for end-user adoption.
 
