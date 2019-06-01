@@ -85,15 +85,19 @@ For example, you have 2 nodes in your parachain. And you want to launch other 8 
 * Guarantees to safely apply patches without rebuilding and without unintentionally changing application behavior. 
 
 **Runtime**
+
 Your apps run inside smart containers in a fully managed runtime environment, Polkahub handles everything critical for production — configuration, orchestration, load balancing, failovers, logging, security, and more.
 
 **Scale**
+
 PaaS scales in an instant, both vertically and horizontally (look for an example above). You can elegantly run everything from dApps to parachains, manage the number of nodes in your network, and so on. 
 
 **Sets of pre-built nodes**
+
 PaaS keeps buildpacks of different parachain nodes. You can select which node you need and install it. 
 
 **Add-On**
+
 GraphQL, NewRelic, LogDNA. Third-party services for system monitoring, analyzing and logging data.
 
 
