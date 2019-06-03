@@ -53,7 +53,7 @@ Of particular note are:
 
 ## Team LinkedIn Profiles
 
-**TODO**
+-   <https://www.linkedin.com/company/runtime-verification/>.
 
 ## Development Roadmap
 
@@ -76,6 +76,7 @@ Of particular note are:
 
 -   *(6 weeks)*
     Develop the K specification of the selected runtime module, weekly meetings (or more frequently) with Polkadot devs to keep them updated and have them learn how to maintain and write K specifications.
+    Produce documentation describing the specification, including the high-level English specification and arguments that the K specification is a refinement of the English specification.
 
 -   *(1 week)*
     Integrate the developed specifications into the Polkadot CI system.
