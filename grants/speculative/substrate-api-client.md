@@ -9,10 +9,14 @@ On riot, we realized that there's a substantial interest in the dev community fo
 Features to be added to the existing code base
 
 * dynamic API, parsing runtime metadata (current API is static)
+  * automatically chose correct signature for accounts based on metadata (Edwards or Schnorr)
+  * request list of modules and their functions (i.e. for printing these to stdout for debugging)
 * generic type arguments for runtime types like Balances, AccountId aso.
   * the library shall support composing extrinsics to custom runtime modules
 * deploy and call ink contracts
 * support custom structs for runtime
+
+While we will aim to provide similar support like polkadot-js-api, we're not building a UI nor an interactive shell. So there will be no interactive browsing of state, modules, functions. As account creation and management is already provided by parity's `subkey`, we won't add that to our library neither. 
 
 ### Benefit for ecosystem
 
@@ -84,5 +88,5 @@ As substrate isn't stable yet, we will deliver based on recent upstream commit. 
 
 ### Timeline
 
-- T0: Project start: favorably by end of June 2019
+- T0: Project start: favorably by end of July 2019
 - M1: T0 + 4 weeks (subject to holiday plans, TBD when start date is known)
