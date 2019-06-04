@@ -13,20 +13,20 @@ While high quality well documented APIs help community integrate with products i
 Substrate provides secure WebSocket endpoints, which are used directly by C++ API.
 
 ### Why our Team is Interested
-
+We see Polkadot as a very promissing technology that will be used for a large number of use cases. It will greatly contribute to adoption of blockchain in powerful applications. It is technically one of the most ambitious blockchain projects we know of, and we would like to be part of the community that's creating it, as well as developing on it once the network goes live. This proposal is just the first step in creating what we hope will be a large Polkadot team. 
 
 ## Team members
-* Name of team leader
-* Names of team members
+* Alexander Mitrovich
+* Greg Zaytsev
 
 ## Team Website
-* https://usetech.com
+* http://usetech.com/blockchain.html
 
 ## Legal Structure
-Please provide name and registered address of the legal entity executing the project. These details can also be shared privately via our Google Form.
+These details will be shared privately via our Google Form.
 
 ## Team's experience
-Please describe the team's relevant experience
+Our team memebers each have more then 15 years of IT experience in managing projects and writing software for product companies and large enterprises alike. We created the Blockchain practice in 2016 and have done dozens of projects for clients accross the globe on variety of blochchains, but mostly on Ethereum. 
 
 ## Team Code Repos
 * https://github.com/gregzaitsev/platform-contracts
@@ -39,7 +39,7 @@ Please describe the team's relevant experience
 
 ## Team LinkedIn Profiles
 * https://www.linkedin.com/comm/in/gregory-zaitsev-95ba633
-
+* https://www.linkedin.com/in/alexandermitrovich/
 
 
 ## Development Roadmap
