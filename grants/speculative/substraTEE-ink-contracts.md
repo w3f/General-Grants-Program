@@ -90,5 +90,5 @@ As neither substrate nor ink are stable, we'll have to base our work on a recent
 
 (continuing Milestone numbering since substraTEE grant (M1-M4))
 
-- T0: Project start: favorably mid June 2019
+- T0: Project start: favorably mid July 2019
 - M5: T0 + 3 weeks (subject to holiday plans, TBD when we know the start date)
