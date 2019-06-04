@@ -10,7 +10,7 @@ The proposed system enables automatic updates and resource management for runnin
 
 1. Polkahub is a fast, scalable blockchain infrastructure component for Substrate parachains.
 
-2. Polkahub provides parachain developers with the ability to launch and manage network infrastructure in only a few clicks and the ability to provide public node access 
+2. Polkahub provides parachain developers with the ability to launch and manage network infrastructure using our command line utility and the ability to provide public node access 
 
 3. PolkaHub gives users the opportunity to get free cloud access to the diverse Polkadot ecosystem
 
@@ -18,38 +18,33 @@ The proposed system enables automatic updates and resource management for runnin
 
 5. Polkahub provides developers with a uniform standard for packaging and deploying applications to cloud infrastructure. 
 
-6. Polkahub provides the functionality to track and control of the parachain’s versions. So in the event of critical bugs arising, developers can update or roll back the version of the parachain using simple commands (clicking in a web-interface and/or working in a command line). 
+6. Polkahub provides the functionality to track and control of the parachain’s versions. So in the event of critical bugs arising, developers can update or roll back the version of the parachain using simple commands (via running specific commands in a command line). 
 
-7. Polkahub supports Node deployment to remote servers or cloud infrastructures via [git](https://en.wikipedia.org/wiki/Git). 
+7. Polkahub supports Node deployment to remote servers or cloud infrastructure via git. 
 
-8. Polkahub infrastructure is based on [buildpacks](https://buildpacks.io/) (industry standard for managing containers in the cloud).
+8. Polkahub infrastructure is based on buildpacks (industry standard for managing containers in the cloud).
 
 9. Buildpacks provides high-level interfaces for isolated environments within the node's execution. Easily scaled, managed and updated.
 
 10. No need to rely on DevOps and System Administration for managing parachain’s infrastructure - thanks to PolkaHub. You only git, command line and a simpleweb-interface. 
 
-11. No need to rely on DevOps and System Administration for managing parachain’s infrastructure - thanks to PolkaHub. You only git, command line and a simpleweb-interface. 
+11. Sample basic scenario - node deployment infrastructure using PolkaHub: 
+   * Download PolkaHub utility
+   
+   * Get deployment token via PolkaHub utility
+   
+   * Insert in command line “git push https://token.polkadhub.io master: development”, where master:development is an active branch of code. 
+   
+   * PolkaHub automatically creates buildpacks, installs all dependencies, sets needed settings and deploys application. 
+   
+   * When the process is completed the parachain will be accessible through a link https://testchain.polkahub.io/
+   
+   * wss://testchain.polkahub.io
+   
+   * Also, the developer can publish his parachain on the PolkaHub Explorer. The description and documentation for the project will be automatically sourced from the Readme and Docs folder. 
 
-12. Sample basic scenario - node deployment infrastructure using PolkaHub: 
-    * Sign up to PolkaHub
-    
-    * Create Project (parachain’s name, for example, testchain)
 
-    * Get access token to cloud infrastructure
-
-    * Insert in command line “git push https://token.polkadhub.io master: development”, where master:development is an active branch of code. 
-
-    * PolkaHub automatically creates buildpacks, installs all dependencies, sets needed settings and deploys application. 
-
-    * When the process is completed the parachain will be accessible through a link https://testchain.polkahub.io/
-
-    * wss://testchain.polkahub.io
-
-    * Next, the developer can install the PolkaHub’s command line utility for cloud infrastructure management (number of nodes, system settings, environment variables)
-
-    * Also, the developer can publish his parachain on the PolkaHub Explorer. The description and documentation for the project will be automatically sourced from the Readme and Docs folder. 
-
-13. Basic scenario for dapp developer: 
+12. Basic scenario for dapp developer: 
 
     * Visit https://explorer.polkahub.io
 
@@ -63,13 +58,11 @@ The proposed system enables automatic updates and resource management for runnin
 ## Why the Polkadot ecosystem needs Polkahub
 
 New languages, frameworks, version control systems, databases, architectures, and other bleeding-edge technologies are gaining ground in the space. Especially in fast changing environments as Web3. You need containers, microservices to support infrastructure work  All of this should be updated regularly too.
-We want to create a platform like Heroku for Web3. IT teams can manage this platform instead of building everything from scratch. All you need to launch your node or parachain - is a few clicks. Looks how it is easy in Heroku: 
+We want to create a platform like Heroku for Web3. IT teams can manage this platform instead of building everything from scratch. 
 
-![](https://i.imgur.com/eowDULN.png)
+Any developer of a decentralized application will be able to install the node he needs through our service in a command line. Our PaaS will not require any knowledge of DevOps from dApp developers. 
 
-
-Any developer of a decentralized application will be able to install the node he needs through our service in a few clicks. Our PaaS will not require any knowledge of DevOps from dApp developers. 
-For example, you have 2 nodes in your parachain. And you want to launch other 8 nodes. You enter to our solution, select 10 web.workers and click the “Launch” button. The PaaS infrastructure ensures that everything will launch and work correctly. 
+For example, you have 2 nodes in your parachain. And you want to launch other 8 nodes. You run a command with parameters - parachain / number of nodes etc. The PaaS infrastructure ensures that everything will launch and work correctly. 
 
 
 ## Feature list
@@ -82,11 +75,9 @@ For example, you have 2 nodes in your parachain. And you want to launch other 8 
 
 * Provides automated delivery of both OS-level and application-level dependency upgrades, efficiently handling day-2-day operations that are often difficult to manage with Dockerfiles.
 
-* Guarantees to safely apply patches without rebuilding and without unintentionally changing application behavior. 
-
 **Runtime**
 
-Your apps run inside smart containers in a fully managed runtime environment, Polkahub handles everything critical for production — configuration, orchestration, load balancing, failovers, logging, security, and more.
+Your apps run inside smart containers in a fully managed runtime environment.
 
 **Scale**
 
@@ -95,11 +86,6 @@ PaaS scales in an instant, both vertically and horizontally (look for an example
 **Sets of pre-built nodes**
 
 PaaS keeps buildpacks of different parachain nodes. You can select which node you need and install it. 
-
-**Add-On**
-
-GraphQL, NewRelic, LogDNA. Third-party services for system monitoring, analyzing and logging data.
-
 
 
 ## Ecosystem benefits
@@ -169,52 +155,36 @@ https://www.linkedin.com/in/dmitriy-serdtsev-8307b617b/
 Golang, Rust, Javascript (nodejs)
 
 ## Development Roadmap
-1 month: research and creation of the buildpacks API for Substrate Nodes. Technical Polkahub functionalities for this stage:
 
-* Creation of images for different Substrate nodes. 
+1 month: research and creation of the buildpacks API for Substrate Nodes. Technical Polkahub functionalities for this stage:: 
 
-* Updating Substrate Nodes using buildpacks’ high-level abstraction
-* Using buildpacks for launching Substrate-based networks.
+   * Creation of images for different Substrate nodes. 
+
+   * Updating Substrate Nodes using buildpacks’ high-level abstraction
+
+   * Using buildpacks for launching Substrate-based networks.
 
 2 month: building Hub / web-portal for buildpacks. We will be working on the creation of buildpacks for main projects in the Polkadot ecosystem and on the deployment of clusters for managing bulidpacks using [dokku](http://dokku.viewdocs.io) and [Flynn](https://flynn.io).  We  will create the specification on how to create buildpacks. Developers will be able to do it following our specification and will be able to upload their buildpacks to the portal. Other developers/users will be able to download different buildpacks. 
 
-3-4 month: Work on on PolkaHub’s web interface (frontend) for buildpacks management and monitoring. Developers will be able to browse through the portal, select a buildpack and install it to their servers via a console. 
+As a result it will be a web portal like https://thegraph.com with a set of builpacks. 
 
-5 month: development of web interface for managing buildpacks and API for Add-Ons.
-Any user will be able to install buildpacks from our web portal in a few clicks. 
-
-6 month: testing and launching
+3 month: testing and launching
 
 
 ## Milestones / Deliverables
 
 T+1: Full documentation of Polkahub PaaS the alongside technical design description. 
 
-T+3: Ready to use Funtionalities: 
+T+3: Ready to use Functionalities : 
 
 * Creation of buildpacks of existing parachains. 
 
-* Uploading buildpacks to our PaaS
-
-T+4: PaaS works with limited functionalities. 
-
-* Creation of buildpacks
-
-* Uploading buildpacks to PaaS
+* Uploading buildpacks to our PaaS (polkahub.io)
 
 * Installing buildpacks to your servers works through a command line. 
 
-T+5: beta-version
-
-* Everything working via web-interface: uploading / deploying buildpacks / launching new node.  
-
 * Tutorial / FAQ uploaded to github / web-portal. 
 
-T+6: PaaS is ready for launch
-
-* Explorer of Substrate Buildpacks (Polkahub)
-
-* Utilities for managing, monitoring Substrate Nodes
 
 ## Additional Information
 
@@ -226,15 +196,7 @@ Another one is https://github.com/w3f/polkadot-deployer that helps  deploying Po
 
 **How to check our deliverables** 
 
-We provide the Polkahub PaaS infrastructure. Therefore, to test the functionalities of the solution, you do not need to compile or install anything. All you need is to: 
-
-1. visit our portal, 
-
-2. decide which parachain node you want to install, 
-
-3. choose the appropriate buildpack 
-
-4. install it on your server with a few clicks. 
+We provide the Polkahub PaaS infrastructure. Therefore, to test the functionalities of the solution, you do not need to compile or install anything. Anyone can deploy a node from any supported by PolkaHub parachains to our cloud. 
 
 Then you can check on http://telemetry.polkadot.io that a new node has appeared on the network and is working correctly. 
 
