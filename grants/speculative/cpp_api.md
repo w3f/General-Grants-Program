@@ -6,6 +6,8 @@
 ### Brief Description
 Polkadot integration C++ API for Substrate allows to read chain information and state, block details, as well as sign and publish transactions in C++. It also allows to subscribe to substrate node websocket endpoints and receive data updates.
 
+POC is available here: https://github.com/usetech-llc/polkadot_api_cpp
+
 ### Why C++ API is Good for the Ecosystem
 While high quality well documented APIs help community integrate with products in general, C++ API will be especially helpful for financial sector as well as gaming industry. Financial companies are looking more and more towards crypto markets, and gaming assets become tokenized in the form of miscellaneous types of tokens, frequently cross-chain. Because of their high performance requirements, both industries historically accumulated large code bases in C++, so this API aims to greatly facilitate adoption of Polkadot for them.
 
