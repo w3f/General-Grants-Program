@@ -28,7 +28,7 @@ We see Polkadot as a very promissing technology that will be used for a large nu
 These details will be shared privately via our Google Form.
 
 ## Team's experience
-Our team memebers each have more then 15 years of IT experience in managing projects and writing software for product companies and large enterprises alike. We created the Blockchain practice in 2016 and have done dozens of projects for clients accross the globe on variety of blochchains, but mostly on Ethereum.
+Our team memebers each have more then 15 years of IT experience in managing projects and writing software for product companies and large enterprises alike. We created the Blockchain practice in 2016 and have done dozens of projects for clients accross the globe on variety of blochchains, mostly on Ethereum.
 
 ## Team Code Repos
 * https://github.com/gregzaitsev/platform-contracts
@@ -40,8 +40,8 @@ Our team memebers each have more then 15 years of IT experience in managing proj
 * https://github.com/usetech-llc/taklimakan-network
 
 ## Team LinkedIn Profiles
-* https://www.linkedin.com/comm/in/gregory-zaitsev-95ba633
 * https://www.linkedin.com/in/alexandermitrovich/
+* https://www.linkedin.com/comm/in/gregory-zaitsev-95ba633
 
 
 ## Development Roadmap
@@ -50,9 +50,9 @@ Project roadmap and financial plan will be shared privately via Google Form.
 Long term plans start with developing APIs for all mainstream languages as well as in-depth API improvement. As Polkadot community high level usecases evolve, API will adapt.
 
 Also, our team plans to implement broader spectrum of applications such as
+* Decentralized Non-Fungible Token Exchange
 * Multi-chain token issuance
 * Cross-chain Payment Gateways
-* Decentralized Non-Fungible Token Exchange
 * etc.
 
 ## Additional Information
@@ -61,7 +61,7 @@ Also, our team plans to implement broader spectrum of applications such as
 Proof of concept C++ API has been done, which successfully establishes connection to a public substrate node and retrieves a JSON string for method chain_getRuntimeVersion. Source code and preliminary documentation is available at this public repository:
 https://github.com/usetech-llc/polkadot_api_cpp
 
-### Are there any other projects similar to our? How is our project different?
+### Are there any other projects similar to yours? How is our project different?
 So far there has only been JavaScript API project: https://polkadot.js.org/api/
 
-Other mainstream languages are not yet covered. Our plan is to start with C++ and cover all mainstream languages/stacks such as Python, C#, Java, etc.
+Other mainstream languages are not yet covered. Our plan is to start with C++ and cover all mainstream languages/stacks such as Python, C#, Java, etc. We believe that having a wide coverage will greatly improve adoption of Polkadot among the software developers.
