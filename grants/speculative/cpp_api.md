@@ -1,4 +1,4 @@
-# Polkadot C++ API
+# Polkadot Substrate C++ API
 
 ## Project Description
 
