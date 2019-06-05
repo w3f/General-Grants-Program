@@ -132,6 +132,8 @@ Software Engineer, Consultant, Game Developer & reverse-engineering enthusiast. 
 
 Dmitriy is an experienced frontend developer with MSc in Computer Science and over 15 years experience, having shipped over 8 commercial projects, including those using DLT technology. Active participant of open-source projects and all things web3.0.
 
+**Dima Hursevich**
+Have more then 4 years of development expierence, including blockchain and trading projects. Dima's skills includes deep knowledge in Typescript, Redux, React Native. He was also engaged in mobile apps development, projects architecture optimization and functional updatings. Graduated from the Tomsk Polytechnic University, BSc Computer Science.
 
 ## Team Github
 
@@ -141,13 +143,19 @@ https://github.com/akropolisio/akropolis-polkadot
 ## Team Code Repos
 
 https://github.com/AlexanderMazaletskiy
+
 https://github.com/fzzr-
+
 https://github.com/in19farkt
+
+https://github.com/Burize/ 
 
 ## Team LinkedIn Profiles
 
 https://www.linkedin.com/in/alexander-mazaletskiy/
+
 https://www.linkedin.com/in/akozlovskij
+
 https://www.linkedin.com/in/dmitriy-serdtsev-8307b617b/
 
 ## Target Programming Language
@@ -156,34 +164,37 @@ Golang, Rust, Javascript (nodejs)
 
 ## Development Roadmap
 
-1 month: research and creation of the buildpacks API for Substrate Nodes. Technical Polkahub functionalities for this stage:: 
+1 month: research and creation of the buildpacks API for Substrate Nodes. Technical Polkahub functionalities for this stage:
 
-   * Creation of images for different Substrate nodes. 
+* Creation of images for different Substrate nodes. 
+* Updating Substrate Nodes using buildpacks’ high-level abstraction
 
-   * Updating Substrate Nodes using buildpacks’ high-level abstraction
+**Deliverables**:
+1. Buildpacks for 3 substrate-based parachains are created (for example, ChainX, ZeroChain, Edgeware)
+2. Deployment, management, updating nodes in PolkaHub
+3. Full documentation of Polkahub PaaS the alongside technical design description. 
 
-   * Using buildpacks for launching Substrate-based networks.
 
 2 month: building Hub / web-portal for buildpacks. We will be working on the creation of buildpacks for main projects in the Polkadot ecosystem and on the deployment of clusters for managing bulidpacks using [dokku](http://dokku.viewdocs.io) and [Flynn](https://flynn.io).  We  will create the specification on how to create buildpacks. Developers will be able to do it following our specification and will be able to upload their buildpacks to the portal. Other developers/users will be able to download different buildpacks. 
 
 As a result it will be a web portal like https://thegraph.com with a set of builpacks. 
 
+**Deliverables**: 
+1. Polkahub’s CLI (command line interface) for managing server and Substrate Nodes
+2. Node Deployment to production using buildpacks(setup paths for RPC, websockets  etc)
+3. Web portal 
+
+
 3 month: testing and launching
 
+**Deliverables**:
+1. Utility is tested (code coverage, bugfixes) of Polkahub and Polkahub Server
+2. The functionality of utility: 
+  * Using buildpacks for launching Substrate-based networks
+  * Uploading buildpacks to our PaaS (polkahub.io by default)
+  * Installing buildpacks to your servers works through a command line. 
+3. Tutorial for polkahub utility, polkahub server / FAQ uploaded to github / web-portal. 
 
-## Milestones / Deliverables
-
-T+1: Full documentation of Polkahub PaaS the alongside technical design description. 
-
-T+3: Ready to use Functionalities : 
-
-* Creation of buildpacks of existing parachains. 
-
-* Uploading buildpacks to our PaaS (polkahub.io)
-
-* Installing buildpacks to your servers works through a command line. 
-
-* Tutorial / FAQ uploaded to github / web-portal. 
 
 
 ## Additional Information
