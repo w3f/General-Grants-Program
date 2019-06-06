@@ -34,6 +34,8 @@ Blockweise Ltd.
 ## Team's experience
 1. [Jingtum Blockchain](https://github.com/jingtum) consensus layer, REST API, Javascript SDK.
 2. [Genesis Space](https://github.com/hanwencheng/GenesisMobile) - Ethereum based self-regulated mobile application.
+3. Longhash Berlin Hackathon 2018 Everitoken challenge winner.
+4. Longhash Berlin Hackathon 2019 MXC challenge winner.
 
 ## Team Code Repos
 * https://github.com/litentry/lintentry-runtime
@@ -43,6 +45,7 @@ Blockweise Ltd.
 
 ## Team LinkedIn Profiles
 * https://www.linkedin.com/in/hanwen-cheng-3bb928a7/
+* https://www.linkedin.com/in/risheng-xu-7bb39339/
 
 ## Development Roadmap
 
