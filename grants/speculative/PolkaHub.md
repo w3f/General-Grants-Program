@@ -211,6 +211,11 @@ We provide the Polkahub PaaS infrastructure. Therefore, to test the functionalit
 
 Then you can check on http://telemetry.polkadot.io that a new node has appeared on the network and is working correctly. 
 
+**Why do you need buildpacks-based utility?**
+
+Buildpacks is an isolated environment description format and standard for providing access to manage this environment. It can be used on any cloud service (Azure, AWS, Google Cloud) or Docker. 
+
+
 **Is it open source?** 
 
 Our code will be fully open source. Anyone can independently install our solution on their server following our tutorial and provide PaaS to Web3. 
