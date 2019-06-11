@@ -32,11 +32,15 @@
     * Bootstrapping a community around the idea of a next-generation smart-contract platform built on a modern technology stack 
     * Creating a proof-of-concept Dothereum testnet that allows for accessing the Ethereum state on request, block for block 
 * Dothereum Project Components:
-    1. Create a generic Go-based testnet for Dothereum to allow users running nodes and joining the network
-    2. Develop and deploy generalized parachain bridge module for Go to access Ethereum state on request, block for block
-    3. Implement a state-rent mechanism that enables developers to import, rent, and access state from the Ethereum blockchain on Dothereum
-    4. Enable Wasm smart-contract support with EVM backwards-compatibility
-
+    1. **M1** Gossamer-based Testnet - 1 month - $USD 33_333.34
+        * We will create a generic Go-based testnet for Dothereum to allow users running nodes and joining the network.
+        * We will deliver a working testnet based on Gossamer and instructions how to run a node and connect to the network.
+    2. **M2** Generalized Parachain-Bridge Module - 1 month - $USD 33_333.33
+        * We will develop and deploy generalized parachain bridge module for Go to access Ethereum state on request, block for block.
+        * We will deliver a working module along with a simple tutorial that explains how the parachain bridge can be used to access state on Ethereum.
+    3. **M3** Ethereum State-Rent Module  - 1 month - $USD 33_333.33
+        * We will implement a state-rent mechanism that enables developers to import, rent, and access state from the Ethereum blockchain on Dothereum.
+        * We will deliver a working module along with a simple tutorial that explains how a user can spin up one of our nodes and send a test transaction that proves how state-rent works.
 * Outlook beyond the testnet
     1. Deploying generic parachain bridges to enable legacy Ethereum developers to migrate tokens, contracts, and state
     2. Storing the pruned Ethereum state and making it available for the entire Polkadot ecosystem, i.e., to work with Edgeware contracts 
