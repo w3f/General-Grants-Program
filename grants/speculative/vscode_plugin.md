@@ -59,7 +59,7 @@ The guide is extended.
 
 
 
-##Long-term plans
+## Long-term plans
 We would like to continue developing tools and products for Polkadot, and not only in the area of editors and IDE’s.
 
 
