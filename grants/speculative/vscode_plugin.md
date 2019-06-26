@@ -45,16 +45,16 @@ My BOS Wallet. View Here
 ## Development Roadmap
 
 *  Milestone 1 – VSCode. Working with transactions – 28 working days – 100 DOT
-**  VS Code plugin/extension is represented in the form of a sidebar with control panel. 
-**  The plugin will allow users to:
-***  install a local Substrate node,
-***  setup a development chain,
-***  manage accounts,
-***  send test transactions.
-***  view output logs
-**  The extension parses node config and recognizes transaction types and inputs from a given chain. The control panel allows developers to send transactions to the chain and see logs and returned results from the executed transactions.
-**  Documentation: we will create a short tutorial that describes how to setup and use the plugin.
-**  Documentation: we will write documentation that describes the functionality of the plugin.
+ *  VS Code plugin/extension is represented in the form of a sidebar with control panel. 
+ *  The plugin will allow users to:
+  *  install a local Substrate node,
+  *  setup a development chain,
+  *  manage accounts,
+  *  send test transactions.
+  *  view output logs
+ *  The extension parses node config and recognizes transaction types and inputs from a given chain. The control panel allows developers to send transactions to the chain and see logs and returned results from the executed transactions.
+ *  Documentation: we will create a short tutorial that describes how to setup and use the plugin.
+ *  Documentation: we will write documentation that describes the functionality of the plugin.
 
  
  
