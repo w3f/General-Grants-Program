@@ -59,10 +59,10 @@ My BOS Wallet. View Here
  
  
 *  Milestone 2 – Smart-Contracts – 15 working days – 7000 USD
-**  The plugin contains controls for deploying and calling smart-contracts in a current development chain. 
-**  The plugin enables verification of transactions by checking for critical bugs.
-**  Documentation: A new tutorial will be created to guide users through the new features.
-**  Documentation: we will write documentation that describes the new functionality that we added to the plugin.
+   *  The plugin contains controls for deploying and calling smart-contracts in a current development chain. 
+   *  The plugin enables verification of transactions by checking for critical bugs.
+   *  Documentation: A new tutorial will be created to guide users through the new features.
+   *  Documentation: we will write documentation that describes the new functionality that we added to the plugin.
 
 * Note that we now have a preference to collect the financial information via our Google Form, or via a Google Document (paste the link into our Google Form).
 
