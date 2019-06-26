@@ -37,7 +37,7 @@ At the moment, most of our presentation material is held privately but we are ha
 Substrate is an example of a [Polkadot Runtime Environment](https://github.com/w3f/Web3-wiki/wiki/Polkadot-Runtime-Environment) that can be used to create blockchains (including parachains).
 
 # Logos
-* [Polkadot Logos](https://www.dropbox.com/sh/avobfu5pi8rffwa/AABaSxSwv_Tk_z8yYvVxGq-3a?dl=0)
+* [Polkadot Logos](https://www.dropbox.com/sh/j4qqz0qb1b2kufr/AAAy2OatSt57FLbj2OdGNVJTa/Polkadot%20Brand%20Assets/Polkadot%20Logotype/JPG?dl=0&subfolder_nav_tracking=1)
 * [Web3 Foundation Logos](https://www.dropbox.com/sh/giezcsj8a0ygo8p/AACHbx4nwXI3KvQLQq5g5wxLa?dl=0)
 
 # Meetup videos
