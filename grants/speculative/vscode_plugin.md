@@ -45,9 +45,9 @@ My BOS Wallet. View Here
 ## Development Roadmap
 
 *  Milestone 1 – VSCode. Working with transactions – 28 working days – 100 DOT
-  *  VS Code plugin/extension is represented in the form of a sidebar with control panel. 
-  *  The plugin will allow users to:
-   *  install a local Substrate node,
+  1.  VS Code plugin/extension is represented in the form of a sidebar with control panel. 
+  1.  The plugin will allow users to:
+    1.  install a local Substrate node,
   *  setup a development chain,
   *  manage accounts,
   *  send test transactions.
