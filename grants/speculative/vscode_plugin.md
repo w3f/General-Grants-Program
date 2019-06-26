@@ -45,24 +45,24 @@ My BOS Wallet. View Here
 ## Development Roadmap
 
 *  Milestone 1 – VSCode. Working with transactions – 28 working days – 100 DOT
-** VS Code plugin/extension is represented in the form of a sidebar with control panel. 
-** The plugin will allow users to:
-*** install a local Substrate node,
-*** setup a development chain,
-*** manage accounts,
-*** send test transactions.
-*** view output logs
-** The extension parses node config and recognizes transaction types and inputs from a given chain. The control panel allows developers to send transactions to the chain and see logs and returned results from the executed transactions.
-** Documentation: we will create a short tutorial that describes how to setup and use the plugin.
-** Documentation: we will write documentation that describes the functionality of the plugin.
+**  VS Code plugin/extension is represented in the form of a sidebar with control panel. 
+**  The plugin will allow users to:
+***  install a local Substrate node,
+***  setup a development chain,
+***  manage accounts,
+***  send test transactions.
+***  view output logs
+**  The extension parses node config and recognizes transaction types and inputs from a given chain. The control panel allows developers to send transactions to the chain and see logs and returned results from the executed transactions.
+**  Documentation: we will create a short tutorial that describes how to setup and use the plugin.
+**  Documentation: we will write documentation that describes the functionality of the plugin.
 
  
  
 *  Milestone 2 – Smart-Contracts – 15 working days – 7000 USD
-** The plugin contains controls for deploying and calling smart-contracts in a current development chain. 
-** The plugin enables verification of transactions by checking for critical bugs.
-** Documentation: A new tutorial will be created to guide users through the new features.
-** Documentation: we will write documentation that describes the new functionality that we added to the plugin.
+**  The plugin contains controls for deploying and calling smart-contracts in a current development chain. 
+**  The plugin enables verification of transactions by checking for critical bugs.
+**  Documentation: A new tutorial will be created to guide users through the new features.
+**  Documentation: we will write documentation that describes the new functionality that we added to the plugin.
 
 * Note that we now have a preference to collect the financial information via our Google Form, or via a Google Document (paste the link into our Google Form).
 
