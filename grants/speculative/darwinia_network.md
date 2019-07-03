@@ -47,46 +47,80 @@ Excellent technical expert in blockchain, core developer of BitShares 1.0, intel
 
 ## Development Roadmap
 
-1 month: research and developement of the POC-1 Testnet. Technical functionalities for this stage:
+### The specifications of the project including:
 
-* Research on the tokens economic and staking protocol of Darwinia Network, and finalized the design paper
-* Develop several SRML modules based on Substrate, and run a public testnet.
-* Develop on web wallet based on polkadot-js.
-* Develop an blockchain browser for the testnet to view blocks ans transactions.
+- Dual token model design and implementation, the native tokens are RING and KTON.
 
-**Deliverables**:
-1. A design paper introducing this project, and the technical structure of it, including token economics and staking.
-2. A public Darwinia network testnet, including telemetry.
-2. Web wallet interface for testing and playing with.
-3. A simple blockchain browser.
+    - RING token for payment and gas fees, can be locked to issue KTON
+    - KTON can only be created by locking RING, the amount issued depends on how long the RING will be locked.
+    - The draft of the specification is now located in RFC-0007 (English version is TBD)
 
+- The staking allocation in the solo model.
+    - Withdraw income support to KTON Token before transferring
+    - Support Treasury runtime within the staking
+    - Normal staking using locked KTON as voting tickets, and income are paid in RING
 
-2 month: Continue develop and testing with core SRML modules, including token, staking, gas model etc.
+- Migrating current contract runtime, and support paying gas fee using RING token
+- Cross-chain bridges supporting token cross-chain transferring between Ethereum(ERC-20)/Tron(TRC-20) and Darwinia network, fungible token and non-fungible tokens will be supported.
+    - The features will follow the design from Parity Bridge.
+    - The NFT cross-chain code protocol will follow the proposal from the Drawinia Network RFC-0005
+    - The current RING/KTON tokens on Evolution Land will use this feature to finish the cross-chain transfer.
+    - The current game NFTs on Evolution Land will use this feature to transfer between Ethereum/Tron through Darwinia Network.
+- Tools and Documents
+    - Web wallet providing user interface for users to interact with. M1
+    - Blockchain browser: help common user check transaction and data M2
+    - Tutorials for users and token holders about staking and nominating.
+    - Documents for validators to setup nodes and join the network
 
-As a result, there will be a POC-2 testnet launched with this new module in the substrate runtime.
+Currently we are developing based on Substrate 1.0 rc, to setup the initial POC-1 testnet.  Later we will refactor code to comply with latest Substrate 2.0 design and trait, as Substrate 2.0 has no stable release yet, we'd start from what is there (the POC-1 testnet release at the time of writing).  Changes to Substrate 2.0 might cause refactorings and delay the plan.
 
-**Deliverables**: 
-1. POC-2 Testnet published.
-2. New functions including converting Token RING to KTON.
-3. Using RING as fees and gas.
-4. Adopt KTON token in the process of staking.
+### Milestones
 
+- Start: already started, can view the current status of the project and development here:
+    - https://github.com/darwinia-network/darwinia
+    - https://github.com/darwinia-network/darwinia/milestone/1 (WIP)
+- M1 (2 weeks): Darwinia PoC1 Testnet.  Include RING/KTON token runtime and Grigott runtime(Issuing KTON buy locking RING). 
+    - Features and functions
+        - Research on the tokens economic and staking protocol of Darwinia Network, and finalized the design paper
+        - Develop several SRML modules based on Substrate, and run a public testnet.
+        - Develop a web wallet based on polkadot-js.
+        - Develop a blockchain browser for the testnet to view blocks and transactions.
+    - Deliverables
+        - Docker container running a Substrate node with a simple native token system runtime, can connect to testnet and syncing blocks.
+        - A design paper introducing this project, and the technical structure of it, including token economics and staking.
+        - Telemetry demonstrate the nodes status of the testnet
+        - A prototype web wallet for users and tester to play with.
 
-3 month: Polkadot bridge related functions support NFT and tokens swaping from Ethereum and TRON.
+- M2 (4 weeks): Darwinia PoC2 Testnet. Including staking runtime.
+    - Features and functions
+        - A simple blockchain browser.
+        - Staking runtime and functions.
+        - Web wallet updates to this new functions
+        - A simple blockchain browser.
+        - Testnet tokens faucet.
+    - Deliverables
+        - Docker container running a substrate node with staking runtime included, can connect to testnet and syncing blocks.
+        - Running node can get free tokens from faucet, and testing validator functions, running as validators. And normal users can support validators by nominating.
+        - Users and view the blockchain data and extrinsics using blockchain browser.
 
-As a result, there will be a POC-3 testnet launched with with these bridge and swap features.
-
-**Deliverables**:
-1. POC-3 Testnet published.
-2. Token and NFT bridging or swaping between Ethereum/TRON testnet and the POC-3 Testnet.
-3. Full functional web wallet support these functions.
-4. User friend blockchain browser.
-
-
-After that, there could more testnet for testing and preparing mainnet launch. It is expected that the Darwinia Network mainnet will be launched at Q4 2019.
-
-This Darwinia Network is based on Substrate and willing to connect to Polkadot finally. The grant award will be used to support the development of the project.
-
+- M3 (6 weeks): Darwinia PoC3 Testnet. Release candidate for mainnet launch(2019Q4), with runtimes including cross-chain NFT bridge, fungible token bridge between Ethereum and Tron, and experimental contract module.
+    - Features and functions
+        - Cross-chain NFT encoding and bridging Ethereum/TRON testnet and the POC-3 Testnet.
+        - Cross-chain fungible token bridging, from Ethereum ERC-20 and TRON TRC-20 to Darwinia’s native tokens, e.g. RING and KTON.
+        - Experimental contract runtime support. (Using pDSL for testing and experimental, only support command line)
+        - Upgraded web wallet and blockchain browser with better user experience.
+- Deliverables
+        - Docker container running a substrate node with NFT/Token swapping runtime included, can connect to testnet and syncing blocks.
+        - User can use web wallet to test the NFT and token bridging, e.g. transferring a NFT token from Ethereum testnet to Tron testnet. (Evolution Land’s alpha version, can be used as a scenario)
+        - Documents about how to deploy a sample contract on the experimental contract model
+        - Blockchain browser can view the NFT token’s encoding ids, and search NFT by id.
+ 
+After that, there could more testnet for testing and security auditing and preparing for the mainnet launch at Q4 2019. 
+This Darwinia Network is based on Substrate and willing to connect to Polkadot finally. The grant award will be used to support the release candidate version of the Solo model mainnet. The cost of each week(only R&D) is around $20k.
+We would be willing to requesting funding of $30K for this project. 
+ 
+For M1 milestone, we are willing to request $5K. For M2 milestone, we are willing to request $10K. For M3 milestone, we are willing to request $15K.
+We are ok to accept DOTs as payments, all in DOTs is good.
 
 ## Additional Information
 **Tech & Ecosystem**
