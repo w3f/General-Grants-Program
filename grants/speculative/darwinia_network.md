@@ -1,7 +1,7 @@
 # Darwinia Network
 
 ## Project Description
-We are building a game parachain (Darwinia Network) for Polkadot. Darwinia Network is an open, cross-chain protocol support games for cross-chain interaction in game logic and game assets. Meantime, we are developing Darwinia AppChain ,Darwinia AppChain is a set of blockchain development kits that can meet the needs of application developers for different blockchain customizations. With Darwinia AppChain ,developers can create blockchain game or dapp quickly and smoothly.
+Darwinia Network provides game developers the scalability, cross-chain interoperability, and NFT identifiability, with seamless integrations to Polkadot, bridges to all major blockchains, and on-chain RNG services.
 
 We created a multi-chain game world: Evolution Land, www.evolution.land. We will use Darwinia network for cross-chain operation for Evolution Land. EvolutionLand has been deployed and live on Ethereum and Tron, we are working to extend to EOS and PChain network in next iteration.
 
