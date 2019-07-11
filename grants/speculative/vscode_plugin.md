@@ -68,6 +68,24 @@ My BOS Wallet. View Here
    *  Documentation: A new tutorial will be created to guide users through the new features.
    *  Documentation: we will write documentation that describes the new functionality that we added to the plugin.
 
+*  Milestone 3 – Atom. Working with extrinsics & smart contracts – 18 working days - 7000 USD
+   *  Atom plugin/extension is represented in the form of a sidebar with control panel. 
+   *  The plugin will allow users to:
+      *  install a local Substrate node,
+      *  setup a development chain,
+      *  start/stop the development chain,
+      *  clear the chain data (for restarting chain from genesis),
+      *  manage accounts,
+      *  send test extrinsics,
+      *  view output logs.
+   *  The extension parses node config and recognizes extrinsics types (transactions or inherents) and inputs from a given chain. The control panel allows developers to send transactions to the chain and see logs and returned results from the executed transactions.
+   *  The plugin contains controls for deploying and calling smart-contracts in a current development chain.
+   *  User interface to easily list and send extrinsics. 
+   *  The plugin enables verification of extrinsics by checking for critical bugs. The choice of static analysis tool will be determined during the first week of milestone #1.
+   *  Documentation: we will create a tutorial that describes how to setup and use the plugin.
+   *  Documentation: we will write documentation that describes the functionality of the plugin.
+   *  Documentation: we will include detailed instructions on compiling and running the plugin, including a Docker container with all dependencies.
+
 * Note that we now have a preference to collect the financial information via our Google Form, or via a Google Document (paste the link into our Google Form).
 
 
