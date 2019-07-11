@@ -11,15 +11,15 @@ This bridge will allow to:
 * transfer any on-chain information between Ethereum and substrate.
 * transfer any token on Polkadot to an Ethereum ERC20 token.
 
-substraTEE-bridge will build light clients of both chains where block headers are stored in SGX sealed storage and transaction inclusion proofs are verified in Intel SGX enclaves. Backed value will be in custody of a set of TEEs. Correct execution is guaranteed by TEEs (Intel SGX).
+substraTEE-bridge will build light clients of both chains. Block headers are stored in SGX sealed storage and transaction inclusion proofs are verified in Intel SGX enclaves. Backed value will be in custody of a set of TEEs. Correct execution is guaranteed by TEEs (Intel SGX).
 
 In contrast to an approach like [XClaim](https://https//www.xclaim.io/), substraTEE-bridge provides the following advantages:
 
-* No full collateral needed. XClaim needs vaults (or *banks*) to lock collateral to the amount of backed value transferred through the bridge in order to punish misbehaving vaults. Because of the opportunity cost of locked capital, this would lead to higher fees for using such a bridge. In substraTEE-bridge, SGX guarantees for integrity of computation. Therefore there is no need for full collateralization.
+* No full collateral needed. XClaim needs vaults (or *banks*) to lock collateral to the amount of backed value transferred through the bridge in order to punish misbehaving vaults. Because of the opportunity cost of locked capital, this would lead to higher fees for using such a bridge. In substraTEE-bridge, SGX guarantees integrity of computation. Therefore there is no need for full collateralization.
 * No relay-contract with on-chain registry of block headers needed. Block headers are stored in the enclave's sealed storage. Less onchain storage is needed on the issuing chain.
 * Less transactions needed as there is no need for a collateralized issue commitment.
 
-The term ***light client*** is used abiguously in the scene. We follow the following usage of the term:
+The term ***light client*** is used abiguously in the scene. We use the following definition of light client:
 
 > a light client can be viewed as a client that downloads block headers by default, and verifies only a small portion of what needs to be verified, using a distributed hash table as a database for trie nodes in place of its local hard drive
 ([source](https://github.com/ethereum/wiki/wiki/Light-client-protocol))
@@ -30,20 +30,20 @@ With regard to the document [Polkadot Bridges: Design Considerations for bridgin
 
 As pointed out in XClaim, the CentralClaim protocol doesn't achieve *Redeemability* nor *Liveness*. In contrast to Xclaim we don't suggest a punishment scheme for fraudulent vaults as they have no economic incentive to misbehave in our scheme. Instead, we implement a shared custody of locked backing chain tokens (ETH) among a set of substraTEE-bridge enclaves. The set of substraTEE-bridge instances is unpermissioned, so anyone with suitable HW can register as a substraTEE-bridge along the design of [substraTEE](https://github.com/scs/substraTEE). A threshold signature scheme is applied in order to supply *Redeemability* and *Liveness*.
 
-The set of active substraTEE-bridge instances changes over time. Some instances will go offline, others will join. The multisig wallets will have to be updated with every mutation. One approach with improved forward security would be to generate new multisig wallets with every mutation. This way TEE's that do not update their SGX platform with the most recent patches will lose access to funds as they will be rejected remote attestation and therefore not be included in the new multisig set.
+The set of active substraTEE-bridge instances changes over time. Some instances will go offline, others will join. The multisig wallets will have to be updated with every mutation. One approach with improved forward security would be to generate new multisig wallets with every mutation (instead of updating members). This way TEE's that do not update their SGX platform with the most recent patches will lose access to funds as they will be rejected by the remote attestation process and therefore not be included in the new multisig set.
 
 We also need to guarantee *all-or-nothing fairness* (tx1 on the backing chain and tx2 on the issuing chain are either both included or both rejected). By using a TEE, we can make sure that bridges will correctly generate tx2 upon being shown a proof of inclusion for tx1. However, we can't guarantee that tx2 is included in the other chain by relying on a single TEE as the operator could prevent tx2 from being sent to the network among other attacks.  
-If users have many substraTEE-bridge operators to chose from, we rely on the fact that these operators have an economic incentive to follow the protocol: The can't access locked funds but they can collect fees. We only need M-of-N (configurable threshold) of these operators to play fair in order to guarantee *all-or-nothing fairness*.
+If users have many substraTEE-bridge operators to chose from, we rely on the fact that these operators have an economic incentive to follow the protocol: They can't access locked funds but they can collect fees. We only need M-of-N (configurable threshold) of these operators to play fair in order to guarantee *all-or-nothing fairness*.
 
 Further hardening (including timelocked transactions) is described in the [Tesseract Paper](https://eprint.iacr.org/2017/1153.pdf) and is left for future work if security audits require it.
 
 #### Reference Light Client Implementations
 
-Substrate as well as Ethereum clients geth and parity come with the option to run as light clients (i.e. `parity --light`). We suggest to port ethereum parity and substrate light clients' validation logic into SGX enclaves. While the networking can be conventional untrusted code, the tracking of block headers as well as the validation of merkle proofs need to be performed in SGX enclaves, so the bridge operator can convince others (the receiving chain) of the validity of a statement.
+Substrate as well as Ethereum clients geth and parity come with the option to run as light clients (i.e. `parity --light`). We suggest to port ethereum parity's and substrate's light clients' validation logic into SGX enclaves. While the networking can be conventional untrusted code, the tracking of block headers as well as the validation of merkle proofs need to be performed in SGX enclaves, so the bridge operator can convince others (the receiving chain) of the validity of a statement.
 
 #### Risks
 
-Vulnerabilities in SGX may lead to total loss of locked funds as well as infinate issuance of unredeemable PolkaETH. This risk is mitigated by our M-of-N threshold signature scheme. At least M enclaves must be compromised in order to do any harm.
+Vulnerabilities in SGX may lead to total loss of locked funds as well as infinite issuance of unredeemable PolkaETH. This risk is mitigated by our M-of-N threshold signature scheme. At least M enclaves must be compromised in order to do any harm.
 
 If remote attestation is compromised as well, fake enclaves can join the set of substraTEE-bridges and outnumber the existing set of bridges.
 
@@ -93,14 +93,14 @@ As an engineering services company SCS AG has more than 25 years of experience i
 
 Most programming experience in the following languages: C/C++, C#, Java, Python and VHDL.
 
-Alain Brenzikofer follows Blockchain developments since 2011. He works for SCS since 2012 where he started working on blockchain projects in 2016 and was appointed to lead a new department for "decentralized systems" in summer 2018. As a private initiative, he designed a new cryptocurrency ecosystem [encointer - An Ecological, Egalitarian and Private Cryptocurrency and Self-Sovereign Identity System](https://encointer.org) . A project he currently intends to realize based on Substrate (including this privacy extension).
+Alain Brenzikofer follows Blockchain developments since 2011. He works for SCS since 2012 where he started working on blockchain projects in 2016 and was appointed to lead a new department for "decentralized systems" in summer 2018. As a private initiative, he designed a new cryptocurrency ecosystem [encointer - An Ecological, Egalitarian and Private Cryptocurrency and Self-Sovereign Identity System](https://encointer.org) . A project he currently intends to realize based on Substrate.
 
 Our team is part of the [Quartierstrom project](https://quartier-strom.ch), implementing and currently field-testing a decentralized P2P energy market in Switzerland together with ETHZ, Bosch IoT Lab, HSLU and others.
 SCS is in charge of the development of a dynamic grid usage-tariff smart contract as well as privacy-by-design concepts for the decentralized energy auction, thereby investigating and evaluating Zero-Knowledge Proofs, Linkable Ring Signatures, Multi-Party Computation as well as Trusted Execution Environments.
 
 Moreover, we've developed a PoC for Electric Vehicle charging process on blockchain based on Parity Ethereum: https://youtu.be/xJUKNlV79pg
 
-For trusted sensor oracles, Alain wrote a [whitepaper on decentralized trusted timestmping](https://www.scs.ch/wp-content/uploads/2017/01/trusted-sensor-whitepaper.pdf).
+For trusted sensor oracles, Alain wrote a [whitepaper on decentralized trusted timestamping](https://www.scs.ch/wp-content/uploads/2017/01/trusted-sensor-whitepaper.pdf).
 
 Alain, Marcel and Christian are the core devlopers for substraTEE.
 
@@ -155,7 +155,7 @@ Milestones:
   * verify proof of inclusion for transactions on issuing chain
   * verify finalization of block
 * M2.2: *redeem*
-  * Alice calls *redeem(target-eth-address)* function of substraTEE-bridge runtime module on issuing chain. that module checks against available balance and burns redeemed PolkaETH.
+  * Alice calls *redeem(target-eth-address)* function of the substraTEE-bridge runtime module on issuing chain. That module checks against available balance and burns redeemed PolkaETH.
   * Alice sends tx inclusion proof (proof of burn) to substraTEE-bridge
   * substraTEE-bridge sends ETH to *target-eth-address*
   * Tutorial Demo
@@ -174,7 +174,7 @@ Future
 * M7: Security Audit
   * By some third party
 * M8: Deployment
-  * Deploy substraTEE-bridge for Polkadot Parachain and Ethereum Mainchain.
+  * Deploy substraTEE-bridge for Polkadot parachain and Ethereum mainchain.
   * Maintain one substraTEE-bridge instance at SCS
   * Motivate others to do the same
 * M9: Bidirectionality
