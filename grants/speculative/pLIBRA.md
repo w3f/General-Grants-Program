@@ -70,7 +70,7 @@ Before the team was founded, our team members has been worked in Google, DiDi Ch
 * Hang Yin: https://www.linkedin.com/in/hang-yin-167012a7/
 * Marvin Tong: https://www.linkedin.com/in/林-佟-0131b292/
 * Zhe Wang: https://www.linkedin.com/in/喆-王-0a99a038/
-* Jun Jiang
+* Jun Jiang: https://www.linkedin.com/in/jun-jiang-5b9b4153/
 * Xiaoxuan Tang: https://www.linkedin.com/in/xiaoxuan-tang-26628784/
 
 ## Development Roadmap
