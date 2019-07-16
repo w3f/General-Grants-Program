@@ -3,7 +3,7 @@ Polkaworld is a Polkadot Chinese community founded in June 2019 and co-sponsored
 ## What dose PolkaWorld Community do？
 **1.WeChat Subscription Account for PolkaWorld/ A website of** [polkaworld.org](http://polkaworld.org)
 
-We already established a WeChat Subscription Account PolkaWorld and a website of [polkaworld.org](http://polkaworld.org)**. **Mainly produce articles of Polkadot for polkafans who can learn about polkadot info in the first time.So far, we have produced 50+ articles in one month and attracted 2,345 polkafans. And next stage we will continue produce articles and plan to launch the website [polkaworld.org](http://polkaworld.org). Chinese fans can check all the information of Polkadot here, or navigate to Polkadot's official website and github website with simple click. We also registered a GitHub account, developers in PolkaWorld workshop can upload the code on [https://github.com/polkaworld-org](https://github.com/polkaworld-org)
+We already established a WeChat Subscription Account PolkaWorld and a website of [polkaworld.org](http://polkaworld.org). Mainly produce articles of Polkadot for polkafans who can learn about polkadot info in the first time.So far, we have produced 50+ articles in one month and attracted 2,345 polkafans. And next stage we will continue produce articles and plan to launch the website [polkaworld.org](http://polkaworld.org). Chinese fans can check all the information of Polkadot here, or navigate to Polkadot's official website and github website with simple click. We also registered a GitHub account, developers in PolkaWorld workshop can upload the code on [https://github.com/polkaworld-org](https://github.com/polkaworld-org)
 
 **2.PolkaWorld workshop for developers**
 
