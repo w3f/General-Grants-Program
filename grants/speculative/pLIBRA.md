@@ -1,4 +1,4 @@
-# Project name
+# pLIBRA
 
 ## Project Description
 pLIBRA is a privacy-preserving Libra powered by Private Contract on Polkadot. We aim to protect the privacy of Libra users. More specifically we will create:
