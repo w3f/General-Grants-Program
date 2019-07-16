@@ -125,6 +125,20 @@ Here is a list of things that have been implemented so far on both Substrate run
 - Follow/unfollow a blog.
 - List blog followers
 
+Below you can see the demos of working functionality (click on an image to watch on YouTube):
+
+#### Demo: Web UI
+
+[![Subsocial demo: Web UI](http://i3.ytimg.com/vi/dmz7cEjj1Eg/maxresdefault.jpg)](https://www.youtube.com/watch?v=dmz7cEjj1Eg)
+
+#### Demo: SRML part 1: Structs and storage
+
+[![Subsocial demo: SRML part 1: Structs and storage](http://i3.ytimg.com/vi/TRcp1QdLSrU/maxresdefault.jpg)](https://www.youtube.com/watch?v=TRcp1QdLSrU)
+
+#### Demo: SRML part 2: Events and extrinsics
+
+[![Subsocial demo: SRML part 2: Events and extrinsics](http://i3.ytimg.com/vi/ILDWLPUd0vs/maxresdefault.jpg)](https://www.youtube.com/watch?v=ILDWLPUd0vs)
+
 ### Are there any teams who have already contributed (financially) to the project?
 
 No.
