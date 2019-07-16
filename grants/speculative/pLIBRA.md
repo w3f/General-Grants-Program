@@ -26,7 +26,7 @@ Polkadot offers flexible cross-chain interoperation functionality. As the high u
 
 The core technology of pLIBRA is Privacy Contract. It brings trutless and privacy preserving Turing-Complete smart contract to Polkadot ecosystem and make pLIBRA possible.
 
-From late 2018, our team started to work on Turing-Complete Privacy Contract baded on trusted execution environment (TEE). It guarantees the security without compromising data privacy. The pLIBRA Privacy Contract runs a Libra light client inside the enclave. Thanks to Privacy Contract, on the one hand, the client can manage privkeys and sign transactions without utilising cpu intensive cryptographic. On the other hand, it gets privacy preserving token like Monero for free.
+From late 2018, our team started to work on Turing-Complete Privacy Contract based on trusted execution environment (TEE). It guarantees the security without compromising data privacy. The pLIBRA Privacy Contract runs a Libra light client inside the enclave. Thanks to Privacy Contract, on the one hand, the client can manage privkeys and sign transactions without utilising cpu intensive cryptographic. On the other hand, it gets privacy preserving token like Monero for free.
 
 The PoC is now based on Intel SGX, already supported by the mainstream servers. However the special hardware are only required by miners, not users.
 
@@ -51,7 +51,7 @@ HashForests was founded in late 2018 focusing on off-chain scaling and trusted e
 
 In June 2019 we started [LibraChina](https://libra-china.org), a communtiy focusing on promoting blockchain massive adoption and Libra technology. Since then we have developed a Libra testnet explorer [LibraBlock](https://librablock.io) and an online wallet is currently a work in progress.
 
-Before the team was founded, our team members has been worked in Google, DiDi Chuxing, Dji, and Liwoshuo, a famous China startup. We have blockchain experts who initiated Bitcoin Gold, a fork of Bitcoin and now its market cap is ranked around 25th. The team mainly write C++, Js, Rust, Ruby, and Python.
+Before the team was founded, our team members has been worked in Google, DiDi Chuxing, Dji, and Liwoshuo, a famous Chinese startup. We have blockchain experts who initiated Bitcoin Gold, a fork of Bitcoin and now its market cap is ranked around 25th. The team mainly write C++, Js, Rust, Ruby, and Python.
 
 * Hang Yin: Founder and Lead Developer of Bitcoin Gold. Senior Developer of Google. 10 years coding experience.
 * Marvin Tong: Senior Product Manager with 3 years experience . Worked in Tencent and Didi which both are the biggest Internet Companies in China. Good at Product Design and Business Development.
@@ -100,7 +100,7 @@ pLIBRA is based on Privacy Contract. We intend to extend the underlying infrastr
 - Permissionless computing power market
 - Deploy cross-parachain bridge
 - Bridge for trusted IoT devices
-- More TEE in addition to Intel SGX
+- More supported TEE hardware in addition to Intel SGX
 
 
 ## Additional Information
