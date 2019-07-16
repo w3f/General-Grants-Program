@@ -75,6 +75,7 @@ Before the team was founded, our team members has been worked in Google, DiDi Ch
 
 ## Development Roadmap
 
+- [pLIBRA One Pager](https://docs.google.com/document/d/e/2PACX-1vRpkf-xvEwDSglNHMKI2J8qC7F4JiB7kLv5kOwO_mJzg-bYRL545_3JxWaM-0rCX_iyHDb68zk3Sw75/pub)
 - M1 - 1 weeks Release the Technical Whitepaper
   - $500
 - M2 - 4 weeks: Privacy Contract infrastructure on Substrate as a Polkadot Parachain
