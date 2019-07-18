@@ -30,6 +30,10 @@ From late 2018, our team started to work on Turing-Complete Privacy Contract bas
 
 The PoC is now based on Intel SGX, already supported by the mainstream servers. However the special hardware are only required by miners, not users.
 
+### Open Source
+
+This is an open source project under Apache License 2.0. All the defined milestones will be available to the open source community.
+
 ## Team members
 * Hang Yin: Blockchain & Smart Contract system design
 * Jun Jiang: Privacy Smart Contract and SGX Kernel development
@@ -79,19 +83,32 @@ Before the team was founded, our team members has been worked in Google, DiDi Ch
 - M1 - 1 weeks Release the Technical Whitepaper
   - $500
 - M2 - 4 weeks: Privacy Contract infrastructure on Substrate as a Polkadot Parachain
-  - Script to launch Substrate and deploy a ERC-20 like token contract inside the enclave
+  - A Docker image to launch Substrate and deploy a ERC-20 like token contract inside the enclave
   - Run confidencial transaction tests with the test token
+  - Documentations:
+    - Guide: How to run the confidential transaction demo
+    - Design Doc: SGX based Privacy Contract on Substrate
+  - Users should be albe to follow the guide to run a Substrate node and send confidential transactions
   - $12,500
 - M3 - 2 weeks: Libra cross-chain bridge as a Privacy Contract
-  - Script to launch the bridge node
-  - Issue pLIBRA on Substrate side when receiving money on Libra side
-  - Brun pLIBRA on Substrate side and send the token to the withdraw address on Libra side
+  - Deposit: Issue pLIBRA on Substrate side when receiving money on Libra side
+  - Withdraw: Brun pLIBRA on Substrate side and send the token to the withdraw address on Libra side
+  - A Docker image to launch the bridge (a Substrate node, a Libra client worker inside the enclave, and a Libra proxy to feed updates to the Libra client)
+  - Documentations:
+    - Guide: How to deploy Libra bridge and transfer token between Libra and pLIBRA back and forth
+    - Design Doc: Libra Light wallet in SGX Enclaves
+  - Users should be able to follow the guide to run the system and do cross-chain Libra transferring
   - $6,000
 - M4 - 3 weeks: Final product with user interfaces
-  - Fully working cross-chain transferring
-  - Fully working Privacy Coin pLIBRA
+  - Launch pLIBRA testnet
+    - Fully working cross-chain transferring
+    - Fully working Privacy Coin pLIBRA
   - Cross-chain transferring function in our online Libra wallet
+  - Finalize the above design docs in M2 & M3
+  - Users can connect to the testnet by substrate or our online Libra wallet. They can transfer tokens between Libra and pLIBRA, and send confidential transaction on pLIBRA internally.
   - $11,000
+
+All the deliveriables for each milestone will be published in the open source repositories.
 
 ### Long Term Plan
 pLIBRA is based on Privacy Contract. We intend to extend the underlying infrastructure to a generic Turing-Complete contract platform as a Parachain called Phala Network. It will support:
