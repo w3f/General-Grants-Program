@@ -31,7 +31,7 @@ Later on, we can arrange different meetups in every month or another, depends on
 
 ## A. Signs & materials
 
-To be able to put up an event for Polkadot, we will need Polkadot to provide brand asset/style guide for both material design and digital graphic, so does the merchants as well. If shipment is an issue, we have local vendors who work closely with our team and offer competitive price as well. Although, our team won’t cover the merchant cost, the expense will still be guaranteed acceptable.
+To be able to put up an event for Polkadot, we will need Polkadot to provide brand asset/style guide for both material design, digital graphic and merchandise. If shipment is an issue, we have local vendors who work closely with our team and offer competitive price as well. Although, our team won’t cover the merchandise cost, the expense will still be guaranteed acceptable.
 
 ## B. Food & beverage
 
