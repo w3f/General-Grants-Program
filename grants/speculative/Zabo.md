@@ -41,20 +41,37 @@ Christopher Brown is a 10+ year software engineer with experience in Golang, Jav
 ## Development Roadmap
 We currently have a baseline MVP version published as v0.1.0 and will require 6 months to complete v1.0. For the Polkadot grant portion, we will require 2 months to complete. We intend on having 5 working full-time on this project. Total cost estimate shared in Google Form.
 
-Milestones:   
-* Research wallet providers intending to serve the Polkadot network (week 1)
-* Study current interfaces to these wallets and setup discussion with the wallet teams (weeks 2 - 4)
-* Choose wallets to include and design integration (weeks 5 - 6)
-* Setup Polkadot testnet collator for most viable parachain (weeks 5 - 6, in parallel)
-* Include wallets in the Zabo sandbox (weeks 7)
-* Include Polkadot data API in sandbox (weeks 7 - 8)
+### Milestone 1 - Research and Design - 1 month - $0
+We will research polkadot-js api and the polkadot-js extension, as well as current implementations in polkadot-ui and at polkadot.js.org/apps to design an easy interface capable of communicating with a locally hosted and remotely hosted node connected to the Alexander testnet (or its equivalent at the time of implementation). We will also design a proof of concept which shows how a web application can leverage a mobile wallet, such as Polkawallet, for account information and transaction signing through HTTP and deep linking.   
 
-The final goal will be at least 2 wallets serving the Polkadot ecosystem integrated into the Zabo sandbox. The Zabo sandbox also providing Polkadot testnet balance and transaction history data via API.
+  * Research the current Polkadot API's
+  * Design the following default substrate functions into the Zabo Client API:
+    - `query.balances.freeBalance()`
+    - `rpc.state.queryStorage()` to obtain historical storage entries for the connected wallet
+    - `tx.staking.bond()`
+    - `tx.staking.nominate()`
+    - `tx.staking.chill()`
+    - `tx.staking.unbond()`
+    - `tx.staking.withdrawUnbonded()`
+    - `tx.balances.transfer()`
+  * Design protocol to leverage mobile wallets from a web app.   
 
-We can receive payment at the end, when the Polkadot portion of our project is complete.
+We will deliver a fully documented Zabo interface at the end of this milestone.
 
+### Milestone 2 - Implement Design - 1 month - $12.5k
+We will implement the designed interface within the Zabo sandbox environment and make it available via the Zabo Client API. We will allow application users to select a local keystore, a polkadot-js extension managed keystore, or an address only connection to utilize the application powered by Zabo's Polkadot interface.
+
+We will deliver a simple web app capable of interacting with the Alexander testnet utilizing the developed API and make this application, as well as the Zabo Client API, available via a Docker image. The Zabo Client API will be open sourced and made available on Github.
+
+### Milestone 3 - Implement Mobile Wallet Protocol - 1 month - $12.5k
+We will build out the proof-of-concept protocol designed to allow a Zabo powered web application to leverage a mobile wallet keystore by using Polkawallet as an example target. We will fork the polkawallet-io React Native repository and allow extrinsic data to be sent to, signed, and sent back from the mobile wallet to the web application.
+
+We will deliver a Docker image containing a Polkawallet capable of signing a transfer request built in the Zabo powered web application and submitting it to the Alexander testnet.
+
+### Payment Type
 We would be willing to take 100% payment in DOTs.
 
+### Ongoing Support
 We intend to continue building out and supporting the Zabo API into the future as an ongoing concern. We plan on active engagment in the developer and user communities so that we can receive accurate feedback on development priorities.
 
 ## Additional Information
