@@ -1,55 +1,74 @@
-# Project name
+# Polkadot Substrate .NET API
 
 ## Project Description
-If this application is for a particular grant programme then please indicate that in the first line of this section.
 
-* Please provide a brief description of the project here. This is likely more important for speculative applications, but also worth providing some description here of the team's intent with the project.
-* An indication of why this project is good for the ecosystem.
-* An indication of how you will integrate this project into Substrate / Polkadot.
-* An indication of why your team is interested in creating this project.
+### Brief Description
+
+Polkadot integration .NET API for Substrate allows to read chain information and state, block details, as well as sign and publish transactions in C# or other .NET languages. It also allows to subscribe to substrate node websocket endpoints and receive data updates.
+
+Prior API implementation is done in C++ by our team and it is available here: https://github.com/usetech-llc/polkadot_api_cpp
+
+### Why .NET API is Good for the Ecosystem
+
+Well documented and maturely designed .NET API will attract great number of Microsoft developers from all over the world to Polkadot Blockchain. .NET Core, which is also included in the development plan, is the borderline between open source community and enterprise applications. Applications created with .NET Core API will be easily portable to larger enterprise solutions.
+
+### How .NET API Integrates into Substrate
+
+Substrate provides secure WebSocket endpoints, which are used directly by .NET API.
+
+### Why our Team is Interested
+
+We see Polkadot as a very promissing technology that will be used for a large number of use cases. It will greatly contribute to adoption of blockchain in powerful applications. It is technically one of the most ambitious blockchain projects we know of, and we would like to be part of the community that's creating it, as well as developing on it once the network goes live. This proposal is the second step after creating C++ API in creating what we hope will be a large Polkadot team. We also have a great team experience in Microsoft technologies.
 
 ## Team members
-* Name of team leader
-* Names of team members	
+* Alexander Mitrovich
+* Greg Zaytsev
 
-## Team Website	
-* https://...
+## Team Website
+* http://usetech.com/blockchain.html
 
-## Legal Structure 
-Please provide name and registered address of the legal entity executing the project. These details can also be shared privately via our Google Form.
+## Legal Structure
+These details will be shared privately via our Google Form.
 
 ## Team's experience
-Please describe the team's relevant experience
+Our team memebers each have more then 15 years of IT experience in managing projects and writing software for product companies and large enterprises alike. We created the Blockchain practice in 2016 and have done dozens of projects for clients accross the globe on variety of blochchains, mostly on Ethereum.
 
 ## Team Code Repos
-* https://github.com/<your_repo_1>
-* https://github.com/<your_repo_2>
+* https://github.com/usetech-llc/polkadot_api_cpp
+* https://github.com/usetech-llc/multichain_airdrop
+* https://github.com/usetech-llc/neupool
+* https://github.com/gregzaitsev/platform-contracts
+* https://github.com/gregzaitsev/wasmcharts_page
+* https://github.com/gregzaitsev/platform-frontend
+* https://github.com/usetech-llc/unicom
+* https://github.com/usetech-llc/votingrelay
+* https://github.com/usetech-llc/forever_coin
+* https://github.com/usetech-llc/taklimakan-network
 
 ## Team LinkedIn Profiles
-* https://www.linkedin.com/<person_1>
-* https://www.linkedin.com/<person_2>
+* https://www.linkedin.com/in/alexandermitrovich/
+* https://www.linkedin.com/comm/in/gregory-zaitsev-95ba633
 
 ## Development Roadmap
-Please add information setting into sufficient detail the following (usually two pages):
+Project roadmap and financial plan will be shared privately via Google Form.
 
-* The specifications of the software, delivered over a number of milestones. The detail must be such that after delivery we are able to examine whether the software meets the requirements agreed in the specifications, in order to be able to make any payments to you.
-* A time schedule on when each milestone will be achieved.
-* The required grant per milestone and the total amount requested. Grants can be in one of the fiat currencies CHF, EUR or USD or in DOTs or a combination of fiat and DOTs. Please reach out to grants@web3.foundation for discussing what amount in fiat and DOTs would be appropriate. 
-* Note that we now have a preference to collect the financial information via our Google Form, or via a Google Document (paste the link into our Google Form).
+Long term plans start with developing APIs for all mainstream languages as well as in-depth API improvement. As Polkadot community high level usecases evolve, API will adapt.
 
+Also, our team plans to implement broader spectrum of applications such as
 
-Note: It should be clear how the project will be working towards deployment on Substrate / Polkadot.
-
-Also helpful to know: what are the team’s long-term plans and intentions after the grant has been awarded?
-
+* Decentralized Non-Fungible Token Exchange
+* Multi-chain token issuance
+* Cross-chain Payment Gateways
+* etc.
 
 ## Additional Information
-Any additional information that you think is relevant to this application.
 
-These bullet points won't be applicable to all projects. Some of the information may have already been included in the description section, if so then no need to state it again.
+### What work has been done so far?
 
-* What work has been done so far?
-* Are there are any teams who have already contributed (financially) to the project?
-* Have you applied for other grants so far?
-* Are there any other projects similar to yours? 
-* How is your project different?
+C++ API is almost finished. Source code and preliminary documentation is available at this public repository: https://github.com/usetech-llc/polkadot_api_cpp
+
+### Are there any other projects similar to yours? How is our project different?
+
+So far there has only been JavaScript API project: https://polkadot.js.org/api/
+
+Other mainstream languages are not yet covered. Our initial plan was to start with C++. Next step is to cover C# and then other mainstream languages/stacks such as Python, Java, etc. We believe that having a wide coverage will greatly improve adoption of Polkadot among the software developers.
