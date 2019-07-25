@@ -51,9 +51,11 @@ Previously worked as Ethereum developers in various Solidity projects, counting 
 
 ## Development Roadmap
 
-### Milestone 1 - week 2-4 - ⅓ of requested funding
+Reimplement noted React components into Vue.js to reflect today functionality at date of accepting grant.
 
-Reimplement following React components into Vue.js to reflect today functionality at date of accepting grant: 
+### Milestone 1 - week 2-4 - ⅓ of requested funding
+ 
+[Build reusable components into Vue.js namely:](https://github.com/polkadot-js/ui/)
 
 * [ui-assets](https://github.com/polkadot-js/ui/tree/master/packages/ui-assets)
 * [ui-identicon](https://github.com/polkadot-js/ui/tree/master/packages/ui-identicon)
