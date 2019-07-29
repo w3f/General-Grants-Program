@@ -72,7 +72,7 @@ SCRUM Methodoligy with standups for all team members bi-weekly.
 
 10/17/2019 - Milestone 5: Runtime module development for substrate account decryption of runtime storage. 
 
-10/28/2019 - Milestone 6: Begin UI development for leveraging secret store bond with triplecheck module.
+10/28/2019 - Milestone 6: Begin UI development for leveraging secret store bond with triplecheck module. Begin documentation for the Triplecheck runtime module. 
 
 11/8/2019 - Milestone 7: Component UI development for interacting with Substrate and the Triplecheck module.
 
