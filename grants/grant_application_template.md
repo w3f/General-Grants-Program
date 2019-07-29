@@ -42,12 +42,12 @@ Please describe the team's relevant experience
 Distributed systems, blockchain networks, cyber security and anti-virus networks. Expirience developing ethereum applications, front-end (React, Angular), node / express middlewares, Python Flask servers.
 
 ## Team Code Repos
-* https://github.com/triplecheck
+* https://github.com/harishperfect/triplecheck
 * https://github.com/domsteil/c-chain
 
 ## Team LinkedIn Profiles
-* https://www.linkedin.com/domsteil
-* https://www.linkedin.com/harishprasana
+* https://www.linkedin.com/in/dominic-steil-b6092553
+* https://www.linkedin.com/in/harishprasanna
 
 ## Development Roadmap
 Please add information setting into sufficient detail the following (usually two pages):
