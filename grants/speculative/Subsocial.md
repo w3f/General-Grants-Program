@@ -40,6 +40,22 @@ https://github.com/dappforce/dappforce-subsocial-ui/tree/df/packages/df-blogs/sr
 The last repo is a Substrate node and it doesn’t include runtime modules because they are located in their own repo. The node repo is here:
 https://github.com/dappforce/dappforce-subsocial-node
 
+## Docker Containers
+
+### Run node + runtime:
+
+```sh
+docker run -d -p 30333:30333 -p 9944:9944 -v ~/dappforce:/data dappforce/subsocial-node:df-pre-ipfs joystream-node --dev --ws-external
+```
+
+### Run web UI:
+
+```sh
+docker run --rm -itd -p 80:80 dappforce/subsocial-ui:df-pre-ipfs
+```
+
+Go to http://localhost
+
 ## License
 
 GNU GPL v3.
