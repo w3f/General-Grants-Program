@@ -77,10 +77,20 @@ Currently we store all text content onchain. And in this milestone we want to re
 
 Store an edit history on IPFS + list of CIDs in Substrate storage in a corresponding struct: blog, post, comment or profile.
 
-- Save and view an edit history of a post
-- Save and view an edit history of a blog
-- Save and view an edit history of a comment
-- Save and view an edit history of a member profile. 
+- Save and view an edit history of a post.
+- Save and view an edit history of a blog.
+- Save and view an edit history of a comment.
+- Save and view an edit history of a member profile.
+
+#### What to expect?
+
+Users will be able to deploy a Substrate node and web UI that includes our modules. This will allow a user to send an extrinsic that let's them create a new blog, post or comment. A content of every new entity: name and description of a blog, title and body of a post, and a comment will be added to IPFS before extrinsic's sent to Substrate. A structure, ownership and IPFS CID of a new entity will be saved to Substrate storage.
+
+A user should be able to edit any their entities (blog/post/comment). An updated content of an entity will be added to IPFS and the new CID will replace the current CID in a related structure of an entity in Substrate storage. All previous CIDs of every entity after it's updated by a user will be stored in a structure field called `edit_history`. A user should be able to view an edit history of an updated entity on web UI.
+
+#### Documentation & Docker:
+
+Both documentation and Docker containers should be updated to reflect new features and changes introduced in this milestone.
 
 ### Milestone 2 – Reputation, Activity stream – 1 month – $10,000
 
@@ -88,7 +98,7 @@ Store an edit history on IPFS + list of CIDs in Substrate storage in a correspon
 
 - Update a comment rating after the comment upvoted/downvoted.
 - Update a post rating after it has been upvoted/downvoted.
-- Update a blog rating its post or comment to its post has been upvoted/downvoted.
+- Update a blog rating after its post has been upvoted/downvoted.
 - Update an account/member reputation after their post/comment upvoted/downvoted.
 
 #### Activity stream:
@@ -101,11 +111,23 @@ Store an edit history on IPFS + list of CIDs in Substrate storage in a correspon
 - Render an activity stream based on the accounts you follow.
 - Share a post with your followers (the post will be included in their activity stream).
 
+#### What to expect?
+
+Users will be able to deploy a Substrate node and web UI that includes our modules. This will allow a user to send an extrinsic that let's them to upvote or downvote a post or a comment. After a user voted on a post or a comment, a rating of post or comment should be updated respectively. A blog rating shoud be updated when a rating of its posts updated. An account/member reputation should be updated when a rating of their posts or comments updated. Ratings and reputation will be stored and updated in Substrate storage in related structures (blog, post, comment, account) and should be visible somewhere on web UI.
+
+A user should be able to follow another account or blog by sending an extrinsic. It should be possible to see all followers of an account or a blog, and accounts or blogs that an account is following. A user should be able to unfollow any blog or another account that they are following by sending an extrinsic.
+
+A user should have an activity stream on web UI that contains posts from blogs or by accounts that a current user follows. Also a user should be able to share an interesting post with their followers by sending an extrinsic. All shared posts will be included in acivity streams of user's followers.
+
+#### Documentation & Docker:
+
+Both documentation and Docker containers should be updated to reflect new features and changes introduced in this milestone.
+
 ### Milestone 3 – SEO, Full-text search – 1 month – $10,000
 
 #### SEO optimizations:
 
-It’s essential for any blogging platform or for a social network to be indexed by search engines so other people could find your blog or posts through a web search.
+It’s essential for any blogging platform or a social network to be indexed by the search engines so other people could find your blogs or posts through a web search.
 
 - Integration with Next.js for server-side rendering of read-only parts: view blog, post, comment, and public user’s profile.
 - Server-side rendering of a blog.
@@ -115,10 +137,20 @@ It’s essential for any blogging platform or for a social network to be indexed
 
 #### Full-text search:
 
-Implement it as a centralized service built on open-source technology: **ElasticSearch**. Currently, it’s hard to build a full-text search service in a decentralized way because we don’t have a proper incentivization model for technology that is not built on blockchain (as a full-text search is).
+Currently, it’s hard to build a full-text search service in a decentralized way because we don’t have a proper incentivization model for technology that is not built on blockchain (as a full-text search is). That's why we will implement it as a centralized service built on the open-source technology: [ElasticSearch](https://www.elastic.co/).
 
 - Full-text search for blogs.
 - Full-text search for posts.
+
+#### What to expect?
+
+Users will be able to deploy a Substrate node and web UI that includes our modules. This will allow a user to send an extrinsic that let's them create a new blog, post or comment or edit any of this entities. A web UI should support a server-side rendering of any blog, post or comment. This means that HTML content of a page that contains a blog or post should be rendered on a backend before sending this page to a user. This could be checked by looking at the source of the page in a any web browser.
+
+Text content of every blog and post should be indexed by ElasticSearch DB. This means that a user should be able to search for blog or post they are interested in by typing in a search input on the top of web UI. After "Search" button clicked, a user will see the search results (blogs, post) related to their search phrase.
+
+#### Documentation & Docker:
+
+Both documentation and Docker containers should be updated to reflect new features and changes introduced in this milestone.
 
 ## Additional Information
 
