@@ -232,5 +232,5 @@ The team is currently building a Substrate-based chain and is planning to integr
 To speed up development, we made the following design decisions:
 * @centrifuge/go-substrate-rpc-client will be using futures and channels
 * @centrifuge/go-substrate-rpc-client includes RPC methods, but initially not the convenience methods for Storage chain state, Extrinsics and Constants. These convenience methods will be easy to add in a 2nd step.
-* Encoding and decoding will be done using https://github.com/Joystream/parity-codec-go/tree/develop/withreflect
+* Encoding and decoding will be done using https://github.com/Joystream/parity-codec-go/tree/develop/withreflect or https://github.com/ChainSafe/gossamer/tree/development/codec
 * Number handling will be done using https://golang.org/pkg/math/big/ 
