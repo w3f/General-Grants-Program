@@ -30,7 +30,7 @@ Please describe the team's relevant experience
 * https://www.linkedin.com/<person_2>
 
 ## Development Roadmap
-Please add information setting into sufficient detail the following (usually two pages):
+Please ensure this section is sufficently detailed. The length will vary depending on the project but approximately 2 pages is a good guideline.
 
 * The specifications of the software, delivered over a number of milestones. The detail must be such that after delivery we are able to examine whether the software meets the requirements agreed in the specifications, in order to be able to make any payments to you.
 * A time schedule on when each milestone will be achieved.
