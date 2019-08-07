@@ -5,8 +5,8 @@
 If this application is in response to an RFP then please indicate this in the first line.
 
 * Please provide a brief description of the project here. This is likely more important for speculative applications, but also worth providing some description here of the team's intent with the project.
-* An indication of why this project is good for the ecosystem.
-* An indication of how you will integrate this project into Substrate / Polkadot.
+* An indication of why this project adds to community engagement.
+* An indication of how this project relates to Substrate and/or Polkadot.
 * An indication of why your team is interested in creating this project.
 
 ## Team members
@@ -22,16 +22,12 @@ Please provide name and registered address of the legal entity executing the pro
 ## Team's experience
 Please describe the team's relevant experience
 
-## Team Code Repos
-* https://github.com/<your_repo_1>
-* https://github.com/<your_repo_2>
-
 ## Team LinkedIn Profiles
 * https://www.linkedin.com/<person_1>
 * https://www.linkedin.com/<person_2>
 
-## Development Roadmap
-Please add information setting into sufficient detail the following (usually two pages):
+## Project Roadmap
+Please ensure this section is sufficently detailed. The length will vary depending on the project but approximately 2 pages is a good guideline.
 
 * The specifications of the software, delivered over a number of milestones. The detail must be such that after delivery we are able to examine whether the software meets the requirements agreed in the specifications, in order to be able to make any payments to you.
 * A time schedule on when each milestone will be achieved.
