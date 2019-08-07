@@ -6,7 +6,7 @@ If this application in response to an RFP then please indicate this on the first
 Please provide the following:
   * A brief description of the project.
   * An indication of why this project is good for the ecosystem.
-  * An indication of how you will integrate this project into Substrate / Polkadot.
+  * An indication of how this project is related to Substrate and/or Polkadot.
   * An indication of why your team is interested in creating this project.
 
 ## Team members
@@ -22,20 +22,26 @@ Please provide name and registered address of the legal entity executing the pro
 ## Team's experience
 Please describe the team's relevant experience.
 
-## Team Code Repos
-* https://github.com/<your_repo_1>
-* https://github.com/<your_repo_2>
+Possible information to include
+* Details of the team's experience in community enagagement
+* Details of the team's experience community engagement related to Polkadot and/or Substrate
+* A list of blockchain projects that the team has supported and the details of such support
+* Key geographies that the team operates in
+
 
 ## Team LinkedIn Profiles
 * https://www.linkedin.com/<person_1>
 * https://www.linkedin.com/<person_2>
 
-## Development Roadmap
-This section should break out the development roadmap into a number of milestones. Please ensure this section is sufficently detailed. The length will vary depending on the project but approximately 2 pages is a good guideline. It should also be clear how the project is realted to Substrate and/or Polkadot.
+## Project Roadmap
+This section should break out the project roadmap into a number of milestones. Each milestone should represent the completion of a specific event or task, for example a meet-up, hackathon or workshop.
 
 Please provide the following:
   * For each milestone:
-    * The specification of the software achieved after completion of each milestone. The level of detail must be high enough so that we are able to test that the software meets the specification.
+    * The details of the event/task that is to be completed after each milestone. This section will vary depending on the nature of the event or task but the description should help us get an idea of:
+      * The scale of event/task
+      * The segment of the community that it will engage
+      * Measurable indiciators that will determine whether the event/task is succesful or not.
     * The total amount of funding requested per milestone. Funding can be in fiat (CHF, EUR or USD) or in DOTs. It can also be in a combination of fiat and DOTs. Please reach out to grants@web3.foundation to discuss what amount in fiat and DOTs would be appropriate for your project.
   * A schedule indicating when each milestone will be achieved.
   * The team's long-term plans and intentions 
@@ -44,9 +50,3 @@ Note that we now have a preference to collect financial information (i.e. fundin
 
 ## Additional Information
 Any additional information that you think is relevant to this application that hasn't already been included.
-
-Possible additional information to include:
-* What work has been done so far?
-* Are there are any teams who have already contributed (financially) to the project?
-* Have you applied for other grants so far?
-* Are there any other projects similar to yours? If so, how is your project different?
