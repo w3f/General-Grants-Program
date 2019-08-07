@@ -1,8 +1,6 @@
 # Web3 Foundation Grants
 
-As part of our commitment to promoting the Web3 ecosystem, we offer a comprehensive grants program focused on funding software development, research, technical education and community enagement efforts. 
-
-Our focus is to support projects related to **Substrate** or **Polkadot**. For projects related to Ethereum, please apply for funding through [ECF](https://ecf.network/), which Web3 Foundation is a founding contributor of.
+As part of our commitment to promoting the Web3 ecosystem, we offer a comprehensive grants program focused on funding software development, research, technical education and community enagement efforts related to **Polkadot** and **Substrate**. 
 
 ## Process
 Please apply for a grant using the following process:
