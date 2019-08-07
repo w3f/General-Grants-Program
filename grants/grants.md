@@ -3,7 +3,7 @@
 As part of our commitment to promoting the Web3 ecosystem, we offer a comprehensive grants program focused on funding software development, research, technical education and community enagement efforts related to **Polkadot** and **Substrate**. 
 
 ## Process
-Please apply for a grant using the following process:
+If you are considering applying for a grant, please following the process below.
   
 1. **Determine the scope of your project**
    * Review the appropriate areas of interest:
@@ -14,6 +14,8 @@ Please apply for a grant using the following process:
    * Ensure your project falls within the appropriate guidelines
      * [Guidelines for community technical grants](#Guidelines-for-technical-grants)
      * [Guidelines for community engagament grants](#Guidelines-for-community-engagement-grants)
+     
+   Once you determine that your project falls within the areas of interest and guidlines above, proceed to the next step.
    
 1. **Application**
     1. Fill out the appropriate grant application form:
