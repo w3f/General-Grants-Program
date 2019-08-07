@@ -12,8 +12,8 @@ If you are considering applying for a grant, please follow the process below.
      
      If your idea isn&rsquo;t listed, but you think it&rsquo;s cool, you can send us an [email](mailto:grants@web3.foundation) or get in touch via Riot.
    * Ensure the scope of your project falls within the appropriate guidelines
-     * [Guidelines for community technical grants](#Guidelines-for-technical-grants)
-     * [Guidelines for community engagament grants](#Guidelines-for-community-engagement-grants)
+     * [Guidelines for technical grants](#Guidelines-for-technical-grants)
+     * [Guidelines for community engagement grants](#Guidelines-for-community-engagement-grants)
      
    Once you determine that your project falls within the areas of interest and corresponds to the guidelines above, proceed to the next step.
    
