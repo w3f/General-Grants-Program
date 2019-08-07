@@ -11,11 +11,11 @@ If you are considering applying for a grant, please follow the process below.
      * [Areas of interest for community engagement grants](#areas-of-interest-for-community-engagement-grants)
      
      If your idea isn&rsquo;t listed, but you think it&rsquo;s cool, you can send us an [email](mailto:grants@web3.foundation) or get in touch via Riot.
-   * Ensure your project falls within the appropriate guidelines
+   * Ensure the scope of your project falls within the appropriate guidelines
      * [Guidelines for community technical grants](#Guidelines-for-technical-grants)
      * [Guidelines for community engagament grants](#Guidelines-for-community-engagement-grants)
      
-   Once you determine that your project falls within the areas of interest and guidlines above, proceed to the next step.
+   Once you determine that your project falls within the areas of interest and corresponds to the guidelines above, proceed to the next step.
    
 1. **Application**
     1. Fill out the appropriate grant application form:
@@ -60,13 +60,13 @@ Any project requesting :
 
 Teams can apply for grants more than once, but they need to complete the previous project (as described in their application) before receiving additional funds. 
 
-Primarily, we are interested in projects that can be completed in 3 months or less. It is possible that further funding can occur, but we prefer projects to be smaller in nature and hence represent a more manageable risk. We would like to fund and deliver many projects in advance of Polkadot genesis.
+We are primarily interested in projects that can be completed in 3 months or less.
 
 ### Licensing
 In order to successfully receive grant funding for your application it is necessary for the project to have **open source** code. We prefer Apache 2.0 but the GNU GPL v3 license is also acceptable.
 
 ### Documentation
-To ensure ease-of-use we require all projects to create documentation that explains how their project works. At a minimu, written documentation is required for funding. Tutorials or videos are also helpful for new users to understand how to use the product.
+To ensure ease-of-use we require all projects to create documentation that explains how their project works. At a minimum, written documentation is required for funding. Tutorials or videos are also helpful for new users to understand how to use the product.
 
 ### Areas of interest for technical grants
 The W3F is interested in providing grants within the following areas of interest. If any of these topics are of interest to you then please make a speculative application to request funding for your project. 
