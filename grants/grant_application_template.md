@@ -1,7 +1,7 @@
 # Project name
 
 ## Project Description
-If this application is for a particular grant programme then please indicate that in the first line of this section.
+If this application in response to an RFP then please indicate this on the first line of this section.
 
 * Please provide a brief description of the project here. This is likely more important for speculative applications, but also worth providing some description here of the team's intent with the project.
 * An indication of why this project is good for the ecosystem.
