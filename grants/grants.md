@@ -1,6 +1,6 @@
 # Web3 Foundation Grants
 
-As part of our commitment to promoting the Web3 ecosystem, we offer a comprehensive grants program focused on funding software development, research, technical education and community enagement efforts related to **Polkadot** and **Substrate**. 
+As part of our commitment to promoting the Web3 ecosystem, we offer a comprehensive grants program focused on funding software development, research, technical education and community engagement efforts related to **Polkadot** and **Substrate**. 
 
 ## Process
 If you are considering applying for a grant, please follow the process below.
@@ -20,7 +20,7 @@ If you are considering applying for a grant, please follow the process below.
 1. **Application**
     1. Fill out the appropriate grant application form:
         * [technical grant application](https://docs.google.com/forms/d/e/1FAIpQLSfMfjiRmDQDRk-4OhNASM6BAKii7rz_B1jWtbCPkUh6N7M2ww/viewform)  
-       * [community enagement grant application](https://docs.google.com/forms/d/e/1FAIpQLSetcOWe18KQ2E2CkrlEclZ0jkUypw5N5iX1erVcF8TJJxizmQ/viewform)
+       * [community engagement grant application](https://docs.google.com/forms/d/e/1FAIpQLSetcOWe18KQ2E2CkrlEclZ0jkUypw5N5iX1erVcF8TJJxizmQ/viewform)
        
        Fully public applications are preferred. However, the forms above allow teams to make fully or partially private applications. Teams that chose to make a fully private application are done. Teams that have chosen to make a fully or partially public application should proceed to the next step.
        
@@ -146,7 +146,7 @@ The W3F is interested in providing grants within the following areas of interest
   * Universities/Professors
  
 ## Guidelines for community engagement grants
-Community engagament grants are intended to fund high-quality community engagement efforts such as meetups, workshops and hackathons.
+Community engagement grants are intended to fund high-quality community engagement efforts such as meetups, workshops and hackathons.
 
 The degree of financial support for each applicant is likely to be within the $3,000 to $10,000 range. The maximum funding for a single grant is $30,000.
 
@@ -160,5 +160,5 @@ Funding is available for any short-term strategy that promotes community engagem
 If any of these areas are of interest to you then please make a speculative application to request funding for your project. 
   
 ### Who we are interested in funding
-The community engagement program will only consider funding companies and teams with an established track record of succesful community engagement work. Grant funding for this category is not available to individuals.
+The community engagement program will only consider funding companies and teams with an established track record of successful community engagement work. Grant funding for this category is not available to individuals.
     
