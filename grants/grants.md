@@ -32,8 +32,7 @@ Please apply for a grant using the following process:
        1. Label the file as "project_name.md".
        1. Fill out the template with the details of your project.
        1. Once you have completed the application, click on "create new pull request".
-       1. The body of the pull request will show a template that requests an abstract of the project and the completion of a checklist. Please complete as appropriate. The **pull request template** can be viewed here: [Link](https://github.com/w3f/Web3-collaboration/blob/master/.github/PULL_REQUEST_TEMPLATE.md)
-       Please take care to include all necessary information!
+       1. The body of the pull request will show a template that requests an abstract of the project and the completion of a checklist. Please complete as appropriate and take care to include all necessary information. The **pull request template** can be viewed [here](https://github.com/w3f/Web3-collaboration/blob/master/.github/PULL_REQUEST_TEMPLATE.md).
        
 1. **Review**
    * The W3F will review the applications received, determine if more information is required and potentially schedule a call with the team.
