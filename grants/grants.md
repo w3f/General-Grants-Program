@@ -2,15 +2,15 @@
 
 As part of our commitment to promoting the Web3 ecosystem, we offer a comprehensive grants program focused on funding software development, research, technical education and community enagement efforts. 
 
-Our focus is to support projects that support **Substrate** or **Polkadot**. For projects related to Ethereum, please apply for funding through [ECF](https://ecf.network/), which Web3 Foundation is a founding contributor of.
+Our focus is to support projects related to **Substrate** or **Polkadot**. For projects related to Ethereum, please apply for funding through [ECF](https://ecf.network/), which Web3 Foundation is a founding contributor of.
 
 ## Process
 Please apply for a grant using the following process:
   
 1. **Determine the scope of your project**
    * Review the appropriate areas of interest:
-     * [Areas of interest for technical grants](#areas-of-interest-for-technical-grants).
-     * [Areas of interest for community engagement grants](#areas-of-interest-for-community-engagement-grants).
+     * [Areas of interest for technical grants](#areas-of-interest-for-technical-grants)
+     * [Areas of interest for community engagement grants](#areas-of-interest-for-community-engagement-grants)
      
      If your idea isn&rsquo;t listed, but you think it&rsquo;s cool, you can send us an [email](mailto:grants@web3.foundation) or get in touch via Riot.
    * Ensure your project falls within the appropriate guidelines
@@ -38,7 +38,7 @@ Please apply for a grant using the following process:
    * The W3F will review the applications received, determine if more information is required and potentially schedule a call with the team.
    
 1. **Decision**
-   * W3F will notify the applicants of whether their proposal has been accepted for grant funding or not.
+   * The W3F will notify the applicants of whether their proposal has been accepted for grant funding or not.
    * If a team is successful, further communication will be required to determine specific details around timelines and payment schedules.
    
 1. **Follow up**
@@ -50,7 +50,7 @@ Technical grants are intended to fund:
 * research
 * the production of software documentation and technical education material
 
-For more specific information on our funding priorities, please view our [areas of interest section](#Areas-of-interest) below.
+For more specific information on our funding priorities, please view our [areas of interest section](#areas-of-interest-for-technical-grants) below.
 
 The funding maximum for technical grants is $100,000 per project. Teams shouldn’t seek to cover 100% of their early-stage funding via W3F Grants alone.
 
