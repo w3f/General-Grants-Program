@@ -7,19 +7,19 @@ Our focus is to support projects that support **Substrate** or **Polkadot**. For
 ## Process
 Please apply for a grant using the following process:
   
-1. **Determine the scopt of your project**
+1. **Determine the scope of your project**
    * Review the appropriate areas of interest:
-     * [Areas of interest for technical grants](https://github.com/w3f/Web3-collaboration/blob/master/grants/grants.md#areas-of-interest-for-technical-grants).
-     * [Areas of interest for community engagement grants](https://github.com/w3f/Web3-collaboration/blob/master/grants/grants.md#areas-of-interest-for-community-engagement-grants).
+     * [Areas of interest for technical grants](#areas-of-interest-for-technical-grants).
+     * [Areas of interest for community engagement grants](#areas-of-interest-for-community-engagement-grants).
      
      If your idea isn&rsquo;t listed, but you think it&rsquo;s cool, you can send us an [email](mailto:grants@web3.foundation) or get in touch via Riot.
    * Ensure your project falls within the appropriate guidelines
-     * [Guidelines for community technical grants](https://github.com/w3f/Web3-collaboration/blob/master/grants/grants.md#Guidelines-for-technical-grants)
-     * [Guidelines for community engagament grants](https://github.com/w3f/Web3-collaboration/blob/master/grants/grants.md#Guidelines-for-community-engagement-grants)
+     * [Guidelines for community technical grants](#Guidelines-for-technical-grants)
+     * [Guidelines for community engagament grants](#Guidelines-for-community-engagement-grants)
    
 1. **Application**
     1. Fill out the appropriate grant application form:
-        * [technical grant application](https://docs.google.com/forms/d/e/1FAIpQLSfMfjiRmDQDRk4OhNASM6BAKii7rz_B1jWtbCPkUh6N7M2ww/viewform)  
+        * [technical grant application](https://docs.google.com/forms/d/e/1FAIpQLSfMfjiRmDQDRk-4OhNASM6BAKii7rz_B1jWtbCPkUh6N7M2ww/viewform)  
        * [community enagement grant application](https://docs.google.com/forms/d/e/1FAIpQLSetcOWe18KQ2E2CkrlEclZ0jkUypw5N5iX1erVcF8TJJxizmQ/viewform)
        
        Fully public applications are preffered. However, the forms above allow teams to make fully or partially private applications. Teams that chose to make a fully private application are done. Teams that have chosen to make a fully or partially public application should proceed to the next step.
@@ -51,7 +51,7 @@ Technical grants are intended to fund:
 * research
 * the production of software documentation and technical education material
 
-For more specific information on our funding priorities, please view our [areas of interest section](https://github.com/w3f/Web3-collaboration/blob/master/grants/grants.md#Areas%20of%20interest) below.
+For more specific information on our funding priorities, please view our [areas of interest section](#Areas-of-interest) below.
 
 The funding maximum for technical grants is $100,000 per project. Teams shouldn’t seek to cover 100% of their early-stage funding via W3F Grants alone.
 
