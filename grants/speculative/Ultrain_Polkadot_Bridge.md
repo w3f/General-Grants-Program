@@ -128,9 +128,22 @@ https://github.com/ultrain-os
     * Issue UGAS in Polka format, which is UGAS' reflection in Polkadot; 
     * Function Test 
 
+* Deliverables
+    * Provide below actions.
+        * lock_collateral, banker can lock collateral in Polkadot.
+        * redeem_ugas, customer can burn their PolkaUGAS by this action.
+        * get_who_redeem_ugas, the banker can call this function to get who redeem ugas.
+        * prove_ultrain_action, the banker can provide proof to polkadot module for Ultrain action, like release UGAS.
+        * unlock_collateral, the banker can get back collateral.
+
+* Documentation
+    * Function specification
+
+
 ### Milestone 2: 4 Weeks
 
 * Build the Parachain for Polkadot, which maintains the genesis block info and committee members of Ultrain.
+    * We'll provide Docker container for users
     * Function Test 
 
 * Documentation:
@@ -139,11 +152,14 @@ https://github.com/ultrain-os
 ### Milestone 3：4 Weeks
 
 * Realize Bank component on Ultrain’s chain, which has the functions below:
-    * Receive users' UGAS and lockup 
-    * Submit transaction data and merkle proof to Polkadot-Ultrain-Bridge 
+    * Receive users' UGAS and lockup
+    * Submit transaction data and merkle proof to Polkadot-Ultrain-Bridge
     * Release UGAS to user in Ultrain when he burn PolkaUGAS in Polkadot Parachain.
     * Integration test and deliver.
-
+* Deliverables
+    * Deploy bank contract in Ultrain
+    * Provide below action
+        * lock_ugas, lock UGAS to get PolkaUGAS.
 * Documentation
     * Function specification
 
