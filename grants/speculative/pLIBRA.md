@@ -22,11 +22,11 @@ We don’t think users should be watched or controlled by a company. Libra shoul
 
 Polkadot offers flexible cross-chain interoperation functionality. As the high users base and volume expectation, Polkadot can bring Libra to other blockchains business to release its full power for Libra users.
 
-### Privacy Contract
+### Confidential Contract
 
-The core technology of pLIBRA is Privacy Contract. It brings trutless and privacy preserving Turing-Complete smart contract to Polkadot ecosystem and make pLIBRA possible.
+The core technology of pLIBRA is Confidential Contract. It brings trustless and privacy preserving Turing-Complete smart contract to Polkadot ecosystem and make pLIBRA possible.
 
-From late 2018, our team started to work on Turing-Complete Privacy Contract based on trusted execution environment (TEE). It guarantees the security without compromising data privacy. The pLIBRA Privacy Contract runs a Libra light client inside the enclave. Thanks to Privacy Contract, on the one hand, the client can manage privkeys and sign transactions without utilising cpu intensive cryptographic. On the other hand, it gets privacy preserving token like Monero for free.
+From late 2018, our team started to work on Turing-Complete Confidential Contract based on trusted execution environment (TEE). It guarantees the security without compromising data privacy. The pLIBRA Confidential Contract runs a Libra light client inside the enclave. Thanks to Confidential Contract, on the one hand, the client can manage privkeys and sign transactions without utilising cpu intensive cryptographic. On the other hand, it gets privacy preserving token like Monero for free.
 
 The PoC is now based on Intel SGX, already supported by the mainstream servers. However the special hardware are only required by miners, not users.
 
@@ -53,7 +53,7 @@ HashForests (Wuhan) co. LTD, a startup company focusing on blockchain developmen
 
 HashForests was founded in late 2018 focusing on off-chain scaling and trusted execution environment technologies. We have developed a prototype of Intel SGX based smart contract and plugged it into a Graphene based blockchain. We have also developed a few DApps as proof of concept.
 
-In June 2019 we started [LibraChina](https://libra-china.org), a communtiy focusing on promoting blockchain massive adoption and Libra technology. Since then we have developed a Libra testnet explorer [LibraBlock](https://librablock.io) and an online wallet is currently a work in progress.
+In June 2019 we started [LibraChina](https://libra-china.org), a community focusing on promoting blockchain massive adoption and Libra technology. Since then we have developed a Libra testnet explorer [LibraBlock](https://librablock.io) and an online wallet is currently a work in progress.
 
 Before the team was founded, our team members has been worked in Google, DiDi Chuxing, Dji, and Liwoshuo, a famous Chinese startup. We have blockchain experts who initiated Bitcoin Gold, a fork of Bitcoin and now its market cap is ranked around 25th. The team mainly write C++, Js, Rust, Ruby, and Python.
 
@@ -82,17 +82,17 @@ Before the team was founded, our team members has been worked in Google, DiDi Ch
 - [pLIBRA One Pager](https://docs.google.com/document/d/e/2PACX-1vRpkf-xvEwDSglNHMKI2J8qC7F4JiB7kLv5kOwO_mJzg-bYRL545_3JxWaM-0rCX_iyHDb68zk3Sw75/pub)
 - M1 - 1 weeks Release the Technical Whitepaper
   - $500
-- M2 - 4 weeks: Privacy Contract infrastructure on Substrate as a Polkadot Parachain
+- M2 - 4 weeks: Confidential Contract infrastructure on Substrate as a Polkadot Parachain
   - A Docker image to launch Substrate and deploy a ERC-20 like token contract inside the enclave
   - Run confidencial transaction tests with the test token
   - Documentations:
     - Guide: How to run the confidential transaction demo
-    - Design Doc: SGX based Privacy Contract on Substrate
+    - Design Doc: SGX based Confidential Contract on Substrate
   - Users should be albe to follow the guide to run a Substrate node and send confidential transactions
   - $12,500
-- M3 - 2 weeks: Libra cross-chain bridge as a Privacy Contract
+- M3 - 2 weeks: Libra cross-chain bridge as a Confidential Contract
   - Deposit: Issue pLIBRA on Substrate side when receiving money on Libra side
-  - Withdraw: Brun pLIBRA on Substrate side and send the token to the withdraw address on Libra side
+  - Withdraw: Burn pLIBRA on Substrate side and send the token to the withdraw address on Libra side
   - A Docker image to launch the bridge (a Substrate node, a Libra client worker inside the enclave, and a Libra proxy to feed updates to the Libra client)
   - Documentations:
     - Guide: How to deploy Libra bridge and transfer token between Libra and pLIBRA back and forth
@@ -104,16 +104,16 @@ Before the team was founded, our team members has been worked in Google, DiDi Ch
     - Fully working cross-chain transferring
     - Fully working Privacy Coin pLIBRA
   - Cross-chain transferring function in our online Libra wallet
-  - Finalize the above design docs in M2 & M3
+  - Finalize the design docs in M2 & M3
   - Users can connect to the testnet by substrate or our online Libra wallet. They can transfer tokens between Libra and pLIBRA, and send confidential transaction on pLIBRA internally.
   - $11,000
 
 All the deliveriables for each milestone will be published in the open source repositories.
 
 ### Long Term Plan
-pLIBRA is based on Privacy Contract. We intend to extend the underlying infrastructure to a generic Turing-Complete contract platform as a Parachain called Phala Network. It will support:
+pLIBRA is based on Confidential Contract. We intend to extend the underlying infrastructure to a generic Turing-Complete contract platform as a Parachain called Phala Network. It will support:
 
-- Async privacy contract
+- Async Confidential Contract
 - Permissionless computing power market
 - Deploy cross-parachain bridge
 - Bridge for trusted IoT devices
@@ -124,7 +124,7 @@ pLIBRA is based on Privacy Contract. We intend to extend the underlying infrastr
 
 * What work has been done so far?
   * Libra blockchain explorer: [librablock.io](https://librablock.io)
-  * PoC of SGX based Privacy Contract
+  * PoC of SGX based Confidential Contract
   * Get familiar with the Libra light client
 * Are there are any teams who have already contributed (financially) to the project?
   * No.
