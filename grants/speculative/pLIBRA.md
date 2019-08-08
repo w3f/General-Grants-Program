@@ -99,10 +99,10 @@ Before the team was founded, our team members has been worked in Google, DiDi Ch
     - Design Doc: Libra Light wallet in SGX Enclaves
   - Users should be able to follow the guide to run the system and do cross-chain Libra transferring
   - $6,000
-- M4 - 3 weeks: Final product with user interfaces
+- M4 - 3 weeks: Final testnet product with user interfaces
   - Launch pLIBRA testnet
     - Fully working cross-chain transferring
-    - Fully working Privacy Coin pLIBRA
+    - Fully working Privacy Coin pLIBRA (testnet)
   - Cross-chain transferring function in our online Libra wallet
   - Finalize the design docs in M2 & M3
   - Users can connect to the testnet by substrate or our online Libra wallet. They can transfer tokens between Libra and pLIBRA, and send confidential transaction on pLIBRA internally.
@@ -111,7 +111,7 @@ Before the team was founded, our team members has been worked in Google, DiDi Ch
 All the deliveriables for each milestone will be published in the open source repositories.
 
 ### Long Term Plan
-pLIBRA is based on Confidential Contract. We intend to extend the underlying infrastructure to a generic Turing-Complete contract platform as a Parachain called Phala Network. It will support:
+pLIBRA is based on Confidential Contract. We intend to extend the underlying infrastructure to a general purpose Turing-Complete contract platform as a Parachain called Phala Network. It will support:
 
 - Async Confidential Contract
 - Permissionless computing power market
@@ -124,13 +124,19 @@ pLIBRA is based on Confidential Contract. We intend to extend the underlying inf
 
 * What work has been done so far?
   * Libra blockchain explorer: [librablock.io](https://librablock.io)
-  * PoC of SGX based Confidential Contract
+  * PoC of SGX based Confidential Contract: [sgx-token-poc](https://github.com/libra-china-org/sgx-token-poc)
   * Get familiar with the Libra light client
 * Are there are any teams who have already contributed (financially) to the project?
   * No.
 * Have you applied for other grants so far?
   * No.
 * Are there any other projects similar to yours?
-  * [Substrate SGX](https://github.com/libra-china-org/Web3-collaboration/blob/master/grants/speculative/substrate_sgx_proposal.md) is similar to our Private Contract implementation.
+  * [Substrate SGX](https://github.com/libra-china-org/Web3-collaboration/blob/master/grants/speculative/substrate_sgx_proposal.md) is similar to our TEE implementation.
+  * [Ekiden](https://arxiv.org/abs/1804.05141) is a published paper sharing part of the idea to build a confidential computing platform on a blockchain.
 * How is your project different?
-  * We focus on brining Libra ecosystem to Polkadot with privacy-preservation in a novel way while Substrate SGX is a specific SGX extension implementation.
+  * We focus on brining Libra ecosystem to Polkadot with privacy-preservation in a novel way.
+  * Substrate SGX is a specific SGX extension to Substrate. We are different in the product side and are designed for different scenarios.
+  * We adpot a similar design of the identity system with Ekiden but are different from them in two ways:
+    1. Our design improves the preformance notably by segregating queries and commands, and provides a fallback layer for catastrophes happens on hardware manufactories or zero-day vulnerabilities.
+    2. Ekiden / OasisLabs's product focuses on cloud computing while we focus on bring the Confidential Contract solution to blockchains.
+
