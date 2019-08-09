@@ -80,25 +80,26 @@ Before the team was founded, our team members has been worked in Google, DiDi Ch
 ## Development Roadmap
 
 - [pLIBRA One Pager](https://docs.google.com/document/d/e/2PACX-1vRpkf-xvEwDSglNHMKI2J8qC7F4JiB7kLv5kOwO_mJzg-bYRL545_3JxWaM-0rCX_iyHDb68zk3Sw75/pub)
-- M1 - 1 weeks Release the Technical Whitepaper
+- M1 - 1 week: Release the Technical Whitepaper
   - $500
-- M2 - 4 weeks: Confidential Contract infrastructure on Substrate as a Polkadot Parachain
+- M2 - 3 weeks: A minimal Confidential Contract on Substrate
+  - Build a minimal single-node Confidential Contract on Substrate with some existing infrastructure (i.e. Substrate SGX)
   - A Docker image to launch Substrate and deploy a ERC-20 like token contract inside the enclave
   - Run confidencial transaction tests with the test token
   - Documentations:
     - Guide: How to run the confidential transaction demo
     - Design Doc: SGX based Confidential Contract on Substrate
   - Users should be albe to follow the guide to run a Substrate node and send confidential transactions
-  - $12,500
-- M3 - 2 weeks: Libra cross-chain bridge as a Confidential Contract
+  - $8,500
+- M3 - 4 weeks: a single node version of the Libra bridge
   - Deposit: Issue pLIBRA on Substrate side when receiving money on Libra side
   - Withdraw: Burn pLIBRA on Substrate side and send the token to the withdraw address on Libra side
   - A Docker image to launch the bridge (a Substrate node, a Libra client worker inside the enclave, and a Libra proxy to feed updates to the Libra client)
   - Documentations:
     - Guide: How to deploy Libra bridge and transfer token between Libra and pLIBRA back and forth
-    - Design Doc: Libra Light wallet in SGX Enclaves
+    - Design Doc: Libra Light wallet in SGX Enclavese
   - Users should be able to follow the guide to run the system and do cross-chain Libra transferring
-  - $6,000
+  - $10,000
 - M4 - 3 weeks: Final testnet product with user interfaces
   - Launch pLIBRA testnet
     - Fully working cross-chain transferring
@@ -110,6 +111,8 @@ Before the team was founded, our team members has been worked in Google, DiDi Ch
 
 All the deliveriables for each milestone will be published in the open source repositories.
 
+Please note that we intend to apply the grant to cover the core part of pLIBRA bridge. So the 4 milestones target a working testnet with a single-node SGX worker. When the underlying Confidential Contract platform Phala Network is ready, it will be trivial to scale pLIBRA up as a public service with production ready security and availablity. The development of Phala Network is not a part of this grant.
+
 ### Long Term Plan
 pLIBRA is based on Confidential Contract. We intend to extend the underlying infrastructure to a general purpose Turing-Complete contract platform as a Parachain called Phala Network. It will support:
 
@@ -119,6 +122,7 @@ pLIBRA is based on Confidential Contract. We intend to extend the underlying inf
 - Bridge for trusted IoT devices
 - More supported TEE hardware in addition to Intel SGX
 
+When Phala Network is ready (the timeline is roughly aligned with the launch of Libra mainnet), we would like to launch the full pLIBRA project with enhanced security (i.e. availibility, governance and incentives).
 
 ## Additional Information
 
@@ -135,8 +139,7 @@ pLIBRA is based on Confidential Contract. We intend to extend the underlying inf
   * [Ekiden](https://arxiv.org/abs/1804.05141) is a published paper sharing part of the idea to build a confidential computing platform on a blockchain.
 * How is your project different?
   * We focus on brining Libra ecosystem to Polkadot with privacy-preservation in a novel way.
-  * Substrate SGX is a specific SGX extension to Substrate. We are different in the product side and are designed for different scenarios.
+  * Substrate SGX is a specific SGX extension to Substrate. We are different in the product side and are designed for different scenarios. We'd like to reuse and share some core components with Substrate SGX as much as possible.
   * We adpot a similar design of the identity system with Ekiden but are different from them in two ways:
     1. Our design improves the preformance notably by segregating queries and commands, and provides a fallback layer for catastrophes happens on hardware manufactories or zero-day vulnerabilities.
     2. Ekiden / OasisLabs's product focuses on cloud computing while we focus on bring the Confidential Contract solution to blockchains.
-
