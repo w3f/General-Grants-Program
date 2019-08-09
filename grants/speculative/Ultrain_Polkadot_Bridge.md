@@ -120,7 +120,7 @@ https://github.com/ultrain-os
  
 
 ## Development Roadmap
-### Milestone 1： 6 Weeks
+### Milestone 1： 5 Weeks
 
 * Develop the substrate module as Ultrain interface, and this module will enable the functions below:
     * Receive, verify and maintain the most recent N block heads of Ultrain chain, and become the light client end of Ultrain.
@@ -135,40 +135,51 @@ https://github.com/ultrain-os
         * get_who_redeem_ugas, the banker can call this function to get who redeem ugas.
         * prove_ultrain_action, the banker can provide proof to polkadot module for Ultrain action, like release UGAS.
         * unlock_collateral, the banker can get back collateral.
+    * Docker Containers for user.
 
 * Documentation
     * Function specification
 
-
-### Milestone 2: 4 Weeks
-
-* Build the Parachain for Polkadot, which maintains the genesis block info and committee members of Ultrain.
-    * We'll provide Docker container for users
-    * Function Test 
-
-* Documentation:
-    * Function specification
-
-### Milestone 3：4 Weeks
+### Milestone 2：5 Weeks
 
 * Realize Bank component on Ultrain’s chain, which has the functions below:
     * Receive users' UGAS and lockup
     * Submit transaction data and merkle proof to Polkadot-Ultrain-Bridge
     * Release UGAS to user in Ultrain when he burn PolkaUGAS in Polkadot Parachain.
-    * Integration test and deliver.
+    * Function test and deliver.
 * Deliverables
     * Deploy bank contract in Ultrain
     * Provide below action
         * lock_ugas, lock UGAS to get PolkaUGAS.
+    * Docker container
+        * Provide Ultrain Env to test the bank contract
 * Documentation
     * Function specification
 
+### Milestone 3: 4 Weeks
+
+* Deliverables
+    * Build the Parachain for Polkadot, which maintains the genesis block info and committee members of Ultrain.
+    * Provide Docker container for users
+* Integration Test
+    * As Banker, I want to lock collateral in PolkaUGAS
+    * As User, I want to lock UGAS and get PolkaUGAS
+    * As User, I want to provide proof of UGAS locking
+    * As User, I want to burn PolkaUGAS and get UGAS back
+    * As Banker, I want to provide proof of UGAS releasing
+    * As Banker, I want to get get collateral back when I release related UGAS.
+
+* Documentation:
+    * Function specification
 
 
 ### Further plan
 * In further plan, it can bridge more POS chain, which has compatible transaction format.
 
 We will assign 5 experts to finish the Polkadot-Ultrain-Bridge in 3 month.
+
+## License
+GNU GPL v3.
 
 
 ## Additional Information
