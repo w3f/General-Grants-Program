@@ -24,6 +24,8 @@ If you are considering applying for a grant, please follow the process below.
        
        Fully public applications are preferred. However, the forms above allow teams to make fully or partially private applications. Teams that chose to make a fully private application are done. Teams that have chosen to make a fully or partially public application should proceed to the next step.
        
+       We recommend checking out the "[How successfully apply](https://medium.com/web3foundation/web3-foundation-grants-wave-two-recipients-16d9b996501d)" section at the end of the Wave 2 grant winners blog post. It gives the best indication of what a good roadmap should look like, plus it outlines the criteria of what we look for in an application.
+       
     1. Fully or partially public applications should be made via a pull request to this repo by following the steps below.
        1. Fork this repository.
        1. In the newly created fork, create a copy of the [application template](https://github.com/w3f/Web3-collaboration/blob/master/grants/grant_application_template.md).
