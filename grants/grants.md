@@ -18,13 +18,17 @@ If you are considering applying for a grant, please follow the process below.
    Once you determine that your project falls within the areas of interest and corresponds to the guidelines above, proceed to the next step.
    
 1. **Application**
+
+    We recommend checking out the "[How successfully apply](https://medium.com/web3foundation/web3-foundation-grants-wave-two-recipients-16d9b996501d)" section at the end of the Wave 2 grant winners blog post. It gives the best indication of what a good roadmap should look like, plus it outlines the criteria of what we look for in an application.
+       
     1. Fill out the appropriate grant application form:
+    
+        Partially public applications that limit financial information (e.g. funding amount requested) to the Google form are preferred. However, teams are free to make fully public applications as well as fully private applications. 
+    
         * [technical grant application](https://docs.google.com/forms/d/e/1FAIpQLSfMfjiRmDQDRk-4OhNASM6BAKii7rz_B1jWtbCPkUh6N7M2ww/viewform)  
        * [community engagement grant application](https://docs.google.com/forms/d/e/1FAIpQLSetcOWe18KQ2E2CkrlEclZ0jkUypw5N5iX1erVcF8TJJxizmQ/viewform)
        
-       Fully public applications are preferred. However, the forms above allow teams to make fully or partially private applications. Teams that chose to make a fully private application are done. Teams that have chosen to make a fully or partially public application should proceed to the next step.
-       
-       We recommend checking out the "[How successfully apply](https://medium.com/web3foundation/web3-foundation-grants-wave-two-recipients-16d9b996501d)" section at the end of the Wave 2 grant winners blog post. It gives the best indication of what a good roadmap should look like, plus it outlines the criteria of what we look for in an application.
+        Teams that chose to make a fully private application are done. Teams that have chosen to make a fully or partially public application should proceed to the next step.
        
     1. Fully or partially public applications should be made via a pull request to this repo by following the steps below.
        1. Fork this repository.
