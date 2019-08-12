@@ -19,7 +19,7 @@ If you are considering applying for a grant, please follow the process below.
    
 1. **Application**
 
-    We recommend checking out the "[How successfully apply](https://medium.com/web3foundation/web3-foundation-grants-wave-two-recipients-16d9b996501d)" section at the end of the Wave 2 grant winners blog post. It gives the best indication of what a good roadmap should look like, plus it outlines the criteria of what we look for in an application.
+    We recommend checking out the "[How successfully apply](https://medium.com/web3foundation/web3-foundation-grants-wave-two-recipients-16d9b996501d)" section at the end of the Wave 2 grant winners blog post. It gives an indication of what a good roadmap should look like, plus it outlines the criteria of what we look for in an application.
        
     1. Fill out the appropriate grant application form:
     
