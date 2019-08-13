@@ -36,11 +36,9 @@ This section should break out the development roadmap into a number of milestone
 Please provide the following:
   * For each milestone:
     * The specification of the software achieved after completion of each milestone. The level of detail must be high enough so that we are able to test that the software meets the specification.
-    * The total amount of funding requested per milestone. Funding can be in fiat (CHF, EUR or USD) or in DOTs. It can also be in a combination of fiat and DOTs. Please reach out to grants@web3.foundation to discuss what amount in fiat and DOTs would be appropriate for your project.
+    * For applications with public financial information, please include total amount of funding requested per milestone. Funding can be in fiat (CHF, EUR or USD) or in DOTs. It can also be in a combination of fiat and DOTs. Please reach out to grants@web3.foundation to discuss what amount in fiat and DOTs would be appropriate for your project.
   * A schedule indicating when each milestone will be achieved.
   * The team's long-term plans and intentions 
-
-Note that we now have a preference to collect financial information (i.e. funding per milestone) via our Google Form, or via a Google Document link pasted into the link into our Google Form.
 
 ## Additional Information
 Any additional information that you think is relevant to this application that hasn't already been included.
