@@ -17,7 +17,7 @@ Please provide the following:
 * https://...
 
 ## Legal Structure 
-Please provide name and registered address of the legal entity executing the project. These details can also be shared privately via our Google Form.
+Please provide name and registered address of the legal entity executing the project. These details can also be shared privately via our Google Form used for your application.
 
 ## Team's experience
 Please describe the team's relevant experience.
