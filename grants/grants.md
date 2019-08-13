@@ -10,7 +10,7 @@ If you are considering applying for a grant, please follow the process below.
      * [Areas of interest for technical grants](#areas-of-interest-for-technical-grants)
      * [Areas of interest for community engagement grants](#areas-of-interest-for-community-engagement-grants)
      
-     If your idea isn&rsquo;t listed, but you think it&rsquo;s cool, you can send us an [email](mailto:grants@web3.foundation) or get in touch via Riot.
+     If your idea isn&rsquo;t listed, but you think it&rsquo;s cool, you can send us an [email](mailto:grants@web3.foundation) and tell us about it.
    * Ensure the scope of your project falls within the appropriate guidelines
      * [Guidelines for technical grants](#Guidelines-for-technical-grants)
      * [Guidelines for community engagement grants](#Guidelines-for-community-engagement-grants)
