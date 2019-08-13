@@ -21,7 +21,7 @@ If you are considering applying for a grant, please follow the process below.
 
     We recommend checking out the "[How successfully apply](https://medium.com/web3foundation/web3-foundation-grants-wave-two-recipients-16d9b996501d)" section at the end of the Wave 2 grant winners blog post. It gives an indication of what a good roadmap should look like, plus it outlines the criteria of what we look for in an application.
        
-    1. Fill out the appropriate grant application form:
+    1. Fill out the appropriate Google form for your grant application:
     
         Partially public applications that limit financial information (e.g. funding amount requested) to the Google form are preferred. However, teams are free to make fully public applications as well as fully private applications. 
     
