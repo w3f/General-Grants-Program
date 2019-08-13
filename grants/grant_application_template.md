@@ -31,7 +31,7 @@ Please describe the team's relevant experience.
 * https://www.linkedin.com/<person_2>
 
 ## Development Roadmap
-This section should break out the development roadmap into a number of milestones. Please ensure this section is sufficently detailed. The length will vary depending on the project but approximately 2 pages is a good guideline. It should also be clear how the project is realted to Substrate and/or Polkadot.
+This section should break out the development roadmap into a number of milestones. Please ensure this section is sufficently detailed. The length will vary depending on the project but approximately 2 pages is a good guideline. It should also be clear how the project is related to Substrate and/or Polkadot.
 
 Please provide the following:
   * For each milestone:
