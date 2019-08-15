@@ -95,7 +95,7 @@ The W3F is interested in providing grants within the following areas of interest
       * Application specific parachains with a good product story
     * Adaptations of existing blockchains as parachains
   * Protocol integrations
-    * Bridges to other blockchains
+    * Bridges to other blockchains ([Link](https://github.com/w3f/Web3-collaboration/issues/155))
       * Ethereum
       * Bitcoin
       * ZCash
@@ -114,7 +114,7 @@ The W3F is interested in providing grants within the following areas of interest
     * Node explorers
     * Statistical analytics
   * UI
-    * Wallets (Besides Metamask-like wallets at the moment!)
+    * Wallets (including Metamask-like wallets)
     * Libraries
     * Mobile integration
   * ~~Alternative Polkadot Runtime Environment implementation~~ ([Link](https://github.com/w3f/Web3-collaboration/issues/12))
