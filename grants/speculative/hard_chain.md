@@ -4,15 +4,15 @@ decentralized incentive community
 ## Project Description
 * The whole solution is to create a decentralized incentive community for KOL or star.
 * The project will deliver a smart device can sync data in substrate and interact with blockchain.
-* There are two kinds of parachains, both star chain for smart contract algorithm and DID chain for decentralized ID.
+* There are two kinds of Parachains, both star chain for smart contract algorithm and DID chain for decentralized ID.
 * The Dapp run on both Android and IoS.
-* The parachain wallet can show token and DID, transfer token.
+* The Parachain wallet can show token and DID, transfer token.
 
 ## Team members
 * Jun: full time researcher and developer
 * Yongpeng: for backenk server
 * Xuewen: for smart device
-* Zhixin: for parachain wallet
+* Zhixin: for Parachain wallet
 
 ## Team Website	
 * https://hardchain-lab.github.io
@@ -46,26 +46,25 @@ Wallet: complete the UI design and work flow
 
 * October 2019
 
-Runtime: complete DID chain smart contract based on substrate, running as a new separate parachain.
+Runtime: complete DID chain smart contract based on substrate, running as a new separate Parachain.
 API server: accept the query from Dapp about DID address, DID ownership and the request of change ownership.
-Device: run a new image of DID parachain, create DID for device and send transaction to change ownership, add new attribute and so on.
+Device: run a new image of DID Parachain, create DID for device and send transaction to change ownership, add new attribute and so on.
 Dapp: show the DID of fans, the DID of device. track the ownership change and attribute binding history
-Wallet: generate key pair, sign transaction, send transaction, staking and so on.
+Wallet: generate key pair, sign transaction, send transaction and so on.
 
 * November 2019
 
-Runtime: templatize the star coin smart contract, contract can be customized according to requirement.
-API server: stablize the server and improve efficiency.
+Runtime: template the star coin smart contract, contract can be customized according to requirement.
+API server: stable the server and improve efficiency.
 Parachain Wallet: a wallet can keep the Sr25519 secret, sign for transaction. show tokens, devices and DIDs. 
-Wallet: show token in Kusama network and integrate with Kusama
 
 * Future
 
 1. integrate with Kusama test network and test against it.
-2. cross chain functionalities, DID parachain can interact with Start Coin parachain.
-3. wallet can support more tokens such as Kum, Dot and all tokens issued in parachain.
+2. cross chain function, DID Parachain can interact with Start Coin Parachain.
+3. wallet can support more tokens such as Kum, Dot and all tokens issued in Parachain.
 4. whole solution used in real business case
-5. easily customized parachain and Dapp according to personized requirements
+5. easily customized Parachain and Dapp according to personalized requirements
 
 ## Licensing
 * GNU GPL v3 license.
