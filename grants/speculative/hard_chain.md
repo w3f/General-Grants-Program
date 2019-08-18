@@ -33,10 +33,10 @@ No
 
 * Zhixin: Android and Dapp expert, experience in wallet for BTC, ETH and so on.
 
-## Development Roadmap
+## Development road-map
 We will start the project from August, understand Substrate and Polkadot. Details as following:
 
-* Septerber 2019
+* September 2019
 
 Runtime: complete start chain smart contract based on substrate
 API server: accept the basic query from Dapp, including the balance, events and transactions.
@@ -70,6 +70,6 @@ Parachain Wallet: a wallet can keep the Sr25519 secret, sign for transaction. sh
 * GNU GPL v3 license.
 
 ## Budget
-* We need about 30K dollar to complete the first three months requirements. We can accept the fiat or equailent DOT. 
+* We need about 30K dollar to complete the first three months requirements. We can accept the fiat or equivalent DOT. 
 Four engineers will participate the project
 
