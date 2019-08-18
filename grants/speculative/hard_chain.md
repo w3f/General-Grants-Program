@@ -56,7 +56,8 @@ Wallet: generate key pair, sign transaction, send transaction and so on.
 
 Runtime: template the star coin smart contract, contract can be customized according to requirement.
 API server: stable the server and improve efficiency.
-Parachain Wallet: a wallet can keep the Sr25519 secret, sign for transaction. show tokens, devices and DIDs. 
+Documentation: write document to instruct how to deploy chain, issue start coin and activate device.
+Wallet: a wallet can show tokens, device owner and DIDs. 
 
 * Future
 
