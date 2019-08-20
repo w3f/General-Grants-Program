@@ -2,7 +2,7 @@
 Laminar is a DeFi protocol company providing open finance building blocks such as stable currency and margin trading protocols. Flowchain is one of the focusing R&D projects.
 
 ## Project Description
-We are building a high throughput low cost specialised trading parachain for Polkadot using Laminar's Flow Protocol. We have been R&D our protocol on Ethereum, and ultimately we aim to bridge the on-and-off ramp trading experience with the scale and speed needed, hence we are extending our R&D to Polkadot and substrate. We already have high networth customer base to tap into for our intended Ethereum mainnet launch, and we believe this will accelerate adoption and bring meaningful transactions to Polkadot and the DeFi industry in general.
+We are building a high throughput low cost specialised trading parachain for Polkadot using Laminar's Flow Protocol. We have been R&D our protocol on Ethereum, and ultimately we aim to bridge the on-and-off ramp trading experience with the scale and speed needed, hence we are extending our R&D to Polkadot and substrate. We already have high net worth customer base to tap into for our intended Ethereum mainnet launch, and we believe this will accelerate adoption and bring meaningful transactions to Polkadot and the DeFi industry in general.
 
 Flowchain will include the following parts:
   * Flowchain parachain: with synthetic asset protocol as base building block, a DeX for traders, lenders and risk takers.
@@ -13,7 +13,7 @@ Flowchain will include the following parts:
 * Ruitao Su (CEO）
 * Bryan Chen (CTO)
 * Bette Chen (COO, PM)
-* Atonia Chen (Chief Economist)
+* Antonia Chen (Chief Economist)
 * Tony Yang (Chief Financial Advisor)
 
 ## Team Website
@@ -29,11 +29,11 @@ The team has extensive experience in blockchain development (substrate and Ether
 
 * Bryan (his github handle `xlc` should be very familiar to you) is a core contributor to substrate codebase, a Polkadot community ambassador, and substrate/polkadot lecturer at `YiKuaiLianXi`. He has extensive experience as a full-stack developer, and was previously blockchain architect at Centrality.ai leading charge of core blockchain and associated services development (https://github.com/cennznet). He graduated from University of Auckland with a Bachelor of Engineering specialising in Software.
 
-* Bette has more than a decade product/program/project management experience (with various company awards) in software and high-tech industry. She was previously Product Manager at Centrality, led development of PoS public blockchain, various protocols including dex, identity & permission, asset management etc and built decentralised ecosystem (https://github.com/cennznet, https://cennznetdocs.com/, https://www.onfinality.io/). She graduated from University of Auckland with a Bachelor of Engineering specialising in Software, and an MBA from University of Otago and Duke Fuqua School of Business.
+* Bette has more than a decade product/program/project management experience (with various company awards) in software and high-tech industry. She was previously Product Manager at Centrality, led development of PoS public blockchain, various protocols including DeX, identity & permission, asset management etc and built decentralised ecosystem (https://github.com/cennznet, https://cennznetdocs.com/, https://www.onfinality.io/). She graduated from University of Auckland with a Bachelor of Engineering specialising in Software, and an MBA from University of Otago and Duke Fuqua School of Business.
 
 * Dr. Antonia Chen completed her PHD dissertation in Microeconomics from University of Auckland. She has decade long experience in tech startups, and has previously designed a dual-token economic model for a public blockchain. She has presented her work in various international Microeconomics conferences. She advises the Laminar team anything economics and modelling.
 
-* Tony is financial market veteran with 20+ year extensive experience as trading manager, dealer, and market maker. He was previously Chief Dealer of a multi-national financial institution, and has managed annual multi-billion dollar (in USD) investment porfortlio. He advises the Laminar team anything finance and trading.
+* Tony is financial market veteran with 20+ year extensive experience as trading manager, dealer, and market maker. He was previously Chief Dealer of a multi-national financial institution, and has managed annual multi-billion dollar (in USD) investment portfolio. He advises the Laminar team anything finance and trading.
 
 ## Team Code Repos
 * https://github.com/laminar-protocol/flowchain
@@ -52,7 +52,7 @@ MVP Flowchain will be a 3 month project, with the following milestones
 * M3: Implementation of price oracle and other features (2 weeks)
 * M4: UI Design & SDK (2 weeks in parallel as above)
 * M5: Implement Flowchain financial service app (4 weeks)
-* M6: Integrate all parts, liqudity injection and dry run (2 weeks)
+* M6: Integrate all parts, liquidity injection and dry run (2 weeks)
 
 ## Additional Information
 * Work has been done so far
