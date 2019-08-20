@@ -53,10 +53,9 @@ MVP Flowchain will be a 3 month project, with the following milestones
 
 * M1: R&D protocol design and verification based on work has been done for Flow Protocol (2 weeks)
 * M2: Implementation of runtime modules of synthetic asset and DeX protocol (3 weeks)
-* M3: Implementation of price oracle and other features (2 weeks)
-* M4: UI Design & SDK (2 weeks in parallel as above)
-* M5: Implement Flowchain financial service app (4 weeks)
-* M6: Integrate all parts, liquidity injection and dry run (2 weeks)
+* M3: Implementation of price oracle and other features, UI Design & SDK (2 weeks)
+* M4: Implement Flowchain financial service app (4 weeks)
+* M5: Integrate all parts, liquidity injection and dry run (2 weeks)
 
 ## Additional Information
 * Work has been done so far
