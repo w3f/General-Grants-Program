@@ -25,7 +25,7 @@ Private limited company.
 ## Team's experience
 The team has extensive experience in blockchain development (substrate and Ethereum in particular) with complimentary expertise in product, full-stack dev, economics, financial markets, and partnership development.
 
-* Ruitao has decades successful software and app development experience (with iTune awards and App store featured apps). In the past few year, as Centrality's CTO, he has successfully delivered ICO projects raised over 300+ million worth of ETH via tgeapp.com, developed next-gen blockchain platform, built various smart contracts, protocols and first-of-its-kind dApps. He has also built various partnership including fiancial institutes to support Laminar's mission.
+* Ruitao has decades successful software and app development experience (with iTune awards and App store featured apps). In the past few year, as Centrality's CTO, he has successfully delivered ICO projects raised over 300+ million worth of ETH via https://tgeapp.com, developed next-gen blockchain platform, built various smart contracts, protocols and first-of-its-kind dApps. He has also built various partnership including fiancial institutes to support Laminar's mission.
 
 * Bryan (his github handle `xlc` should be very familiar to you) is a core contributor to substrate codebase, a Polkadot community ambassador, and substrate/polkadot lecturer at `YiKuaiLianXi`. He has extensive experience as a full-stack developer, and was previously blockchain architect at Centrality.ai leading charge of core blockchain and associated services development (https://github.com/cennznet). He graduated from University of Auckland with a Bachelor of Engineering specialising in Software. 
 
