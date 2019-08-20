@@ -27,7 +27,7 @@ The team has extensive experience in blockchain development (substrate and Ether
 
 * Ruitao has decades of successful software and app development experience (with awards from Apple, NZ HiTech, and others). In the past few years, as Centrality's CTO, he has successfully delivered decentralized token token generation platforms (tgeapp.com) raised over $300+ million worth of Ether, developed next-gen blockchain platform, built various smart contracts, protocols and first-of-its-kind dApps. He has also built various partnership including financial institutes to support Laminar's mission.
 
-* Bryan (his github handle `xlc` should be very familiar to you) is a core contributor to substrate codebase, a Polkadot community ambassador, and substrate/polkadot lecturer at `YiKuaiLianXi`. He has extensive experience as a full-stack developer, and was previously blockchain architect at Centrality.ai leading charge of core blockchain and associated services development (https://github.com/cennznet). He graduated from University of Auckland with a Bachelor of Engineering specialising in Software.
+* Bryan (his github handle [xlc](https://github.com/xlc) should be very familiar to you) is a core contributor to substrate codebase, a Polkadot community ambassador, and substrate/polkadot lecturer at `YiKuaiLianXi`. He has extensive experience as a full-stack developer, and was previously blockchain architect at Centrality.ai leading charge of core blockchain and associated services development (https://github.com/cennznet). He graduated from University of Auckland with a Bachelor of Engineering specialising in Software.
 
 * Bette has more than a decade product/program/project management experience (with various company awards) in software and high-tech industry. She was previously Product Manager at Centrality, led development of PoS public blockchain, various protocols including dex, identity & permission, asset management etc and built decentralised ecosystem (https://github.com/cennznet, https://cennznetdocs.com/, https://www.onfinality.io/). She graduated from University of Auckland with a Bachelor of Engineering specialising in Software, and an MBA from University of Otago and Duke Fuqua School of Business.
 
@@ -58,14 +58,14 @@ MVP Flowchain will be a 3 month project, with the following milestones
 * Work has been done so far
 1. We are drafting and verifying various aspects of the Flow Protocol, which will be the basis for the Flowchain.
 2. We are implementing PoC on Ethereum.
-3. We are already very experienced with substrate development, example previous substrate work (https://github.com/cennznet/cennznet).
+3. We are already very experienced with substrate development, example previous substrate work (https://github.com/cennznet/cennznet, https://github.com/xlc/substrate-kitties).
 
-* Are there are any teams who have already contributed (financially) to the project?
+* Are there are any teams who have already contributed (financially) to the project?  
 All the work so far is funded by Laminar. We want to extend our R&D to Polkadot platform for reasons mentioned above, hence this grant application.
 
-* Have you applied for other grants so far?
+* Have you applied for other grants so far?  
 No.
 
-* Are there any other projects similar to yours? If so, how is your project different?
+* Are there any other projects similar to yours? If so, how is your project different?  
 Akropolis on Polkadot, but they focus on informal economy. On Ethereum, in the likes of Market Protocol (for derivative trading), DyDx (for margin trading), MakerDAO (as lending provider) etc.
 Liquidity is a common challenge in this space. We believe we have a new approach to liquidity provision with new game theory and ability to bridge on-and-off ramp players. As for MakerDAO, they will be our partner on Ethereum, and we will provide complimentary services to it.
