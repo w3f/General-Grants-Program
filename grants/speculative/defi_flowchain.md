@@ -13,6 +13,7 @@ Flowchain will include the following parts:
 * Ruitao Su (CEO）
 * Bryan Chen (CTO)
 * Bette Chen (COO, PM)
+* Ermal Kaleci (Senior Software Engineer) 
 * Antonia Chen (Chief Economist)
 * Tony Yang (Chief Financial Advisor)
 
@@ -31,6 +32,8 @@ The team has extensive experience in blockchain development (substrate and Ether
 
 * Bette has more than a decade product/program/project management experience (with various company awards) in software and high-tech industry. She was previously Product Manager at Centrality, led development of PoS public blockchain, various protocols including dex, identity & permission, asset management etc and built decentralized ecosystem (https://github.com/cennznet, https://cennznetdocs.com/, https://www.onfinality.io/). She graduated from University of Auckland with a Bachelor of Engineering specializing in Software, and an MBA from University of Otago and Duke Fuqua School of Business.
 
+* Ermal is a talented app developer ([ermalkaleci](https://github.com/ermalkaleci)) contributed to a number of featured and award winning mobile applications (e.g. https://www.apple.com/healthcare/). He has previously developed KYC identity app, blockchain wallet and singer app.....
+
 * Dr. Antonia Chen holds a PhD in Economics from University of Auckland. She has over a decade experience in tech startups, Microeconomics and Mathematical Social Science research field. She has previously designed a dual-token economic model for a public blockchain. She has presented her work in various international conferences. She advises the Laminar team anything economics and modeling.
 
 * Tony is financial market veteran with 20+ year extensive experience as trading manager, dealer, and market maker. He was previously Chief Dealer of a multi-national financial institution, and has managed annual multi-billion dollar (in USD) investment portfolio. He advises the Laminar team anything finance and trading.
@@ -42,6 +45,7 @@ The team has extensive experience in blockchain development (substrate and Ether
 * https://www.linkedin.com/in/ruitaosu/<Ruitao Su>
 * https://www.linkedin.com/in/xiliang-chen-1ba8ba52/<Bryan Chen>
 * https://www.linkedin.com/in/bette-chen/<Bette Chen>
+* https://www.linkedin.com/in/ermal-kaleci-98445287/<Ermal Kaleci>
 * Dr. Antonia Chen and Tony Yang have no LinkedIn profile
 
 ## Development Roadmap
