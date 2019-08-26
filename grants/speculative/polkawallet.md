@@ -41,7 +41,7 @@ Jack Lin is the creator of [Tron Chrome Wallet](https://chrome.google.com/websto
 
 ## Development Roadmap
 
-### 1. Wallet infrastructure
+### 1. Wallet infrastructure - 4 weeks - $10000 
 
 At the stage 1, the HD wallet infrastructure will be setup, including:
 
@@ -50,13 +50,13 @@ At the stage 1, the HD wallet infrastructure will be setup, including:
 * Derive DOT address from private key
 * UI design
 
-### 2. Adding functionalities
+### 2. Adding functionalities - 4 weeks - $10000
 
 * Check balance using explorer API
 * Send / Receive DOT
 * Check transaction history
 
-### 3. SDK and Documentation
+### 3. SDK and Documentation - 4 weeks - $10000
 
 * At this stage, we will be providing the core wallet functionality as a separate swift framework, so that it can be reused by other app developers.
 
