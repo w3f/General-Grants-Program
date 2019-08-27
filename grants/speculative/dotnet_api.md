@@ -66,7 +66,7 @@ Also, our team plans to implement broader spectrum of applications such as
 
 ### What work has been done so far?
 
-C++ API is finished. Source code and documentation are available at this public repository: https://github.com/usetech-llc/polkadot_api_cpp
+C++ API is delivered. Source code and documentation are available at this public repository: https://github.com/usetech-llc/polkadot_api_cpp
 
 ### Are there any other projects similar to yours? How is our project different?
 
