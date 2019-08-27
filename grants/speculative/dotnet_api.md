@@ -23,6 +23,7 @@ We see Polkadot as a very promissing technology that will be used for a large nu
 ## Team members
 * Alexander Mitrovich
 * Greg Zaytsev
+* Maksim Styrgin
 
 ## Team Website
 * http://usetech.com/blockchain.html
@@ -31,7 +32,7 @@ We see Polkadot as a very promissing technology that will be used for a large nu
 These details will be shared privately via our Google Form.
 
 ## Team's experience
-Our team memebers each have more then 15 years of IT experience in managing projects and writing software for product companies and large enterprises alike. We created the Blockchain practice in 2016 and have done dozens of projects for clients accross the globe on variety of blochchains, mostly on Ethereum.
+Our team members each have more then 15 years of IT experience in managing projects and writing software for product companies and large enterprises alike. We created the Blockchain practice in 2016 and have done dozens of projects for clients across the globe on variety of blochchains, mostly on Ethereum.
 
 ## Team Code Repos
 * https://github.com/usetech-llc/polkadot_api_cpp
@@ -65,10 +66,10 @@ Also, our team plans to implement broader spectrum of applications such as
 
 ### What work has been done so far?
 
-C++ API is almost finished. Source code and preliminary documentation is available at this public repository: https://github.com/usetech-llc/polkadot_api_cpp
+C++ API is finished. Source code and documentation are available at this public repository: https://github.com/usetech-llc/polkadot_api_cpp
 
 ### Are there any other projects similar to yours? How is our project different?
 
 So far there has only been JavaScript API project: https://polkadot.js.org/api/
 
-Other mainstream languages are not yet covered. Our initial plan was to start with C++. Next step is to cover C# and then other mainstream languages/stacks such as Python, Java, etc. We believe that having a wide coverage will greatly improve adoption of Polkadot among the software developers.
+Other mainstream languages are not yet covered. After C++ API (completed), the next step is to cover C# and then other mainstream languages/stacks such as Python, Java, etc. We believe that having a wide coverage will greatly improve adoption of Polkadot among the software developers.
