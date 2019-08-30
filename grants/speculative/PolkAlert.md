@@ -84,7 +84,10 @@ Please add information setting into sufficient detail the following (usually two
 
 - The specifications of the software, delivered over a number of milestones. The detail must be such that after delivery we are able to examine whether the software meets the requirements agreed in the specifications, in order to be able to make any payments to you.
 
-  - Phase 1 - the first ½ of funding - week 2-4:
+  **Phase 1 - the first ½ of funding - week 2-4:**
+  
+  (with respective documentation)
+  
     - a) all validators and their stats
         - validator as a block producer of certain blockchain
       - weight
@@ -99,7 +102,11 @@ Please add information setting into sufficient detail the following (usually two
         - number of slashes with sum of stake that has been taken away as punishment
     - b) pre-selected list of validators
       -  validators which are staking on your behalf
-  - Phase 2 - the second ½ of funding - week 4-10:
+      
+  **Phase 2 - the second ½ of funding - week 4-10:**
+  
+  (with respective documentation)
+  
     - a) Alert when some malicious validator activity occurred
       - double signing
         - when one validator produce 2 blocks with the same validator key
@@ -110,20 +117,24 @@ Please add information setting into sufficient detail the following (usually two
         -  when node is offline for a particular time
       - cancel your nomination and transfer funds to backup wallet
         - when validator is offline for some period of time
-  - Phase 3 (optional):
+       
+       **You can test these phases by connecting polkadot/apps interface to some node and see new app Polkalert there which            shows real-time data**
+       
+  **Phase 3 (optional):**
     - choose your validator similar like in getstaker.com
 
 **Architecture**
 
-- Local substrate node running
+- Local running substrate node
 
-- React frontend (part of polkadot/apps)
+- React frontend (as part of polkadot/apps)
 
 - Node.js backend application running on the same server as local substrate node
 
 - external Node.js backend application - pings your own node automatically, to find out that your node is offline and send you an email about it (no manual setup required from node owner, automatic when local backend application set up)
 
-- A time schedule on when each milestone will be achieved.
+**Time schedule**
+
   - Phase 1:
     - 60 MDs
   - Phase 2:
@@ -137,6 +148,10 @@ Please add information setting into sufficient detail the following (usually two
 Also helpful to know: what are the team&#39;s long-term plans and intentions after the grant has been awarded?
 
   - in the near future, we want to do more low-level engineering as we have strong math backgrounds, but before that we want to take lighter high level application as first peek. Rust is a must
+  
+**Licensing**
+
+MIT software license
 
 **Additional Information**
 
