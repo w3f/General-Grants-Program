@@ -149,6 +149,9 @@ Shanghai Dejiang information technology co. LTD
 <https://github.com/polkawallet-io/>
 
 ## Development Roadmap
+
+The MVP following 3 milestones: 
+
 ### Milestone 1
 
 - Design stable coin module, mortgage pool module, write white paper.
