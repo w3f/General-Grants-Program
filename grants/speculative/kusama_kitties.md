@@ -83,3 +83,14 @@ A MVP version is hosted at https://xlc.github.io/kitties-ui/#/kitties
 ## Open Source License
 
 GPLv3
+
+## Long term plan
+
+There are two purpose of this project:
+
+- To have fun.
+  - I would like to make this an intersting project for developers to contribute and for everyone to play with.
+- Used as a reference for my Substrate course.
+  - I will keep it maintained to show off the latest Substrate development best practices.
+  - Maintaining a chain in the wild will surely be a valuable lesson for every blockchain developers.
+
