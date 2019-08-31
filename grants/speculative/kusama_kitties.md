@@ -40,6 +40,8 @@ A MVP version is hosted at https://xlc.github.io/kitties-ui/#/kitties
 
 ## Development Roadmap
 
+- Modules: https://hackmd.io/fWVqjThkRxW7RzHgD7Iw2g
+
 - Milestone 1: MVP
   - A simple dApp allow people to breed and trade kitty
   - Work:
