@@ -92,5 +92,5 @@ No.
 Akropolis on Polkadot, but they focus on informal economy. On Ethereum, in the likes of Market Protocol (for derivative trading), DyDx (for margin trading), MakerDAO (as lending provider) etc.
 Liquidity is a common challenge in this space. We believe we have a new approach to liquidity provision with new game theory and ability to bridge on-and-off ramp players. As for MakerDAO, they will be our partner on Ethereum, and we will provide complimentary services to it.
 
-* Open Source License
+* Open Source License:
 We intend to use GPLv3 for now and switch to Apache 2.0 when Substrate changes Apache 2.0.
