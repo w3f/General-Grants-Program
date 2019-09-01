@@ -52,10 +52,29 @@ The team has extensive experience in blockchain development (substrate and Ether
 MVP Flowchain will be a 3 month project, with the following milestones
 
 * M1: R&D protocol design and verification based on work has been done for Flow Protocol (2 weeks)
-* M2: Implementation of runtime modules of synthetic asset and DeX protocol (3 weeks)
-* M3: Implementation of price oracle and other features, UI Design & SDK (2 weeks)
+  - we will create and publish technical specification and runtime module design under our license plan (see below)
+
+* M2: Implementation of runtime modules of synthetic asset (3 weeks)
+  - we will implement the synthetic asset runtime modules with the following functions: 
+    - implement fToken
+    - synthetic asset module to deposit fund, mint fToken, withdraw, get bid/ask price
+    - liquidity pool to get spread and get collateral ratio
+    - oracle that connect to designated price feeds
+  - we will deliver a running chain with these modules, and a tutorial using this protocol via the polkadot ui.
+
+* M3: Implementation of margin trading modules and other features, UI Design & SDK (2 weeks)
+  - we are finalizing the details of this part, but will include the following features:
+    - create long and short for selected margin positions e.g. short 10 times EURUSD, close position and tracking profit / loss
+    - liquidity pool to manage collateral
+  - we will deliver a running chain with these modules, and a tutorial using this protocol
+
 * M4: Implement Flowchain financial service app (4 weeks)
+  - we will implement the web app with the following feature: wallet connection, exchange prices for symbols, deposit, exchange fToken (e.g. fEUR), and a simple DeX that can long and short margin positions
+  - we will deliver a working web application with these features, and a tutorial to use it
+
 * M5: Integrate all parts, liquidity injection, dry run and documentation (2 weeks)
+  - we will go live with the asset and margin trading platform with liquidity and providers on board.
+  - we will provide an updated tutorial for participating as trader and liquidity provider, and tutorial for using the asset and trading SDK and the modules for developers to build on top of.
 
 ## Additional Information
 * Work has been done so far
@@ -72,3 +91,6 @@ No.
 * Are there any other projects similar to yours? If so, how is your project different?  
 Akropolis on Polkadot, but they focus on informal economy. On Ethereum, in the likes of Market Protocol (for derivative trading), DyDx (for margin trading), MakerDAO (as lending provider) etc.
 Liquidity is a common challenge in this space. We believe we have a new approach to liquidity provision with new game theory and ability to bridge on-and-off ramp players. As for MakerDAO, they will be our partner on Ethereum, and we will provide complimentary services to it.
+
+* Open Source License
+We intend to use GPLv3 for now and switch to Apache 2.0 when Substrate changes Apache 2.0.
