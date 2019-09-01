@@ -66,7 +66,7 @@ MVP Flowchain will be a 3 month project, with the following milestones
   - we are finalizing the details of this part, but will include the following features:
     - create long and short for selected margin positions e.g. short 10 times EURUSD, close position and tracking profit / loss
     - liquidity pool to manage collateral
-  - we will deliver a running chain with these modules, and a tutorial using this protocol
+  - we will deliver a running chain with these modules, docker image to set a Flowchain node, and a tutorial using this protocol
 
 * M4: Implement Flowchain financial service app (4 weeks)
   - we will implement the web app with the following feature: wallet connection, exchange prices for symbols, deposit, exchange fToken (e.g. fEUR), and a simple DeX that can long and short margin positions
