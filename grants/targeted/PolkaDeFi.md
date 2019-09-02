@@ -189,9 +189,11 @@ The MVP following 3 milestones:
 ### Milestone 3
 
 - Implementation risk control module, including: 
-  - Unified settlement module;
-  - Target price feed module;
-  - Authority module;
+  - Unified settlement module：
+    - carge(): Close the system and reimburse the POD to the holder. This function is used for system iteration upgrade or emergency handling when design defects are found;
+    - cash(): POD holder to call this function for redemption;
+  - Target price feed module, cyclical price feeding function;
+  - Authority module, administrator authority system, system management interface;
 - Front-end operation interface client (UI Layer).
 
 - Deliverables:  Public Github. <https://github.com/PolkaDeFi-io/PolkaDeFi>
