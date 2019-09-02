@@ -154,22 +154,47 @@ The MVP following 3 milestones:
 
 ### Milestone 1
 
-- Design stable coin module, mortgage pool module, write white paper.
+- Design stable coin system, write white paper, including: 
 
+  - CDP(Collateralized Debt Positions) record engine;
+  - Unified settlement module;
+  - Target price feed module;
+  - Authority module;
+  - Liquidator module;
+  - Explain the detailed business logic;
+
+- Deliverables:  Public Github. <https://github.com/PolkaDeFi-io/PolkaDeFi-white-paper>
 - Duration: 1 month.
 
 ### Milestone 2
 
-- Implementation CDP(escort debt position) engine.
-- And front-end operation interface client.
+- Implementation CDP(Collateralized Debt Positions) record engine in Substrate runtime, including:
 
+  - open(): Create a new CDP;
+  - Owners;
+  - L-DOT collateral;
+  - Debt;
+  - Safe(): To determine if a CDP is a good mortgage, Safe() gets the Price information from the Target Price Feed and compares the CDP debt Price with the mortgage Price;
+  - give(): Transfer ownership;
+  - lock(): Deposit L-DOT collateral;
+  - free(): Withdraw L-DOT collateral;
+  - draw(): Create POD(print on demand, stable coin);
+  - wipe(): Return POD;
+  - shut(): clear all CDP debt, unlock all collateral, and delete the record;
+  - Liquidator module;
+
+- Deliverables:  Public Github. <https://github.com/PolkaDeFi-io/PolkaDeFi>
 - Duration: 1 month.
 
 ### Milestone 3
 
-- Implementation risk control module, including: unified settlement module, feed price module, authority module, clearing module, etc
-- And front-end operation interface client.
+- Implementation risk control module, including: 
+  - Unified settlement module;
+  - Target price feed module;
+  - Authority module;
+- Front-end operation interface client (UI Layer).
 
+- Deliverables:  Public Github. <https://github.com/PolkaDeFi-io/PolkaDeFi>
 - Duration: 1 month.
 
 ### Further plan
