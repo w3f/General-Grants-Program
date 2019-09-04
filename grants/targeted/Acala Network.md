@@ -74,7 +74,7 @@ Once the POD is generated, the holder of the POD generates a corresponding amoun
 
 In the end, the debt will lock the L-DOT until the user repays the POD and pays interest and a stable fee before returning the L-DOT.
 
-#### 3.3 POD is the blood of PolkaDeFi
+#### 3.3 POD is the blood of Acala network
 
 ![3.3-image](https://github.com/jiangfuyao/PolkaDeFi-images/raw/master/3.3.png)
 
@@ -145,7 +145,7 @@ Shanghai Dejiang information technology co. LTD
 
 ## Team Code Repos
 
-<https://github.com/polkawallet-io/Acala>
+<https://github.com/AcalaNetwork>
 
 ## Development Roadmap
 
@@ -162,7 +162,7 @@ The MVP following 3 milestones:
   - Liquidator module;
   - Explain the detailed business logic;
 
-- Deliverables:  Public Github. <https://github.com/polkawallet-io/Acala-white-paper>
+- Deliverables:  Public Github. <https://github.com/AcalaNetwork/Acala-white-paper>
 - Duration: 1 month.
 
 ### Milestone 2
@@ -182,7 +182,7 @@ The MVP following 3 milestones:
   - shut(): clear all CDP debt, unlock all collateral, and delete the record;
   - Liquidator module;
 
-- Deliverables:  Public Github. <https://github.com/polkawallet-io/Acala>
+- Deliverables:  Public Github. <https://github.com/AcalaNetwork/Acala>
 - Duration: 1 month.
 
 ### Milestone 3
@@ -195,7 +195,7 @@ The MVP following 3 milestones:
   - Authority module, administrator authority system, system management interface;
 - Front-end operation interface client (UI Layer).
 
-- Deliverables:  Public Github. <https://github.com/polkawallet-io/Acala>
+- Deliverables:  Public Github. <https://github.com/AcalaNetwork/Acala>
 - Duration: 1 month.
 
 ### Further plan
@@ -206,7 +206,7 @@ The MVP following 3 milestones:
 
 - Risk control parameter adjustment (2 weeks)
 
-- The user layer and PolkaDeFi layer 2.
+- The user layer and Acala layer 2.
 
 ## License
 
@@ -222,6 +222,6 @@ GNU GPL v3.
 * Have you applied for other grants so far?
    * No
 * Are there any other projects similar to yours? 
-   * Flowchain DeFi trading parachain. But the focus of the business is different., and products can cooperate with each other.
+   * Flowchain DeFi trading parachain. But the focus of the business is different, and products can cooperate with each other.
 * How is your project different?
    * We focus on the stable coin system part. Use DOTs at Staking and other assets to generate stable coin. Both to enjoy Staking rewards and the liquidity released can once again participate in the Polkadot network.
