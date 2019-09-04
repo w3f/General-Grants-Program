@@ -86,18 +86,35 @@ Relevant projects to the goal are below:
 
 ## **Development Roadmap**
 
-The milestones are spread out over a total of 3 months as following:
+The milestones are spread out over a total of 3 months as following. We anticipate starting this work as soon as we are able to fund the development:
 
+#### Month One - equivalent of $33,000 USD in DOTs
 - M0: Aggregate all the cryptography tools importable in a portable rust library (1 week)
     - Pairing/bellman/sapling-crypto as pure rust libraries
-- M1: Build sparse-merkle tree module to store Pedersen hashes (2 weeks)
+- M1: Build sparse-merkle tree module to store Pedersen hashes (3 weeks) 
+
+#### Month Two - equivalent of $33,000 USD in DOTs
 - M2: Build off-chain method of creating proofs (3 weeks)
-    - Proofs are initially stored on Commonwealth which we are in the process of open-sourcing. Proofs can then be stored on IPFS
+    - Proofs are initially stored on Commonwealth which we are in the process of open-sourcing. Proofs can then be stored on IPFS.
+    - We need to have a way of generating these proofs off-chain, so that they can eventually be submitted on-chain. This requires writing Rust based program for doing the following
+    - Given a merkle root, a leaf node, the preimage of the leaf node, and a standard membership proof, we want to generate a zero-knowledge membership proof that hides the preimage secret data.
+    - The public inputs for the prover are the nullifier and the merkle root
+    - The private inputs for the prover are the secret preimage data and the merkle path proof
 - M3: Build ability to verify proofs using bellman-verifier on chain (2 weeks)
+    - We first need to generate a verification key. We will likely want to run a multi-party computation/ceremony to generate a random seed, destroy toxic waste, etc.
+    - Above, we recall the public parameters of the prover. They are the nullifier and merkle root. Thus, when someone wants to verify an identity attestation on chain, they will expose the nullifier to the on-chain module. This will record the nullifier so re-use is impossible.
+    - Once the data is marshalled and we ensure that the submitted nullifier has not been used, we will verify the proof data using the bellman verifier.
+
+#### Month Three - equivalent of $33,000 where half is in DOTs and USD
 - M4: Upgrade Edgeware identity module to store verified identity auxiliary data (2 weeks)
+    - We need to integrate a new main verify function into the identity module and create necessary helper functions for marshaling data into the proper format.
+    - We will use a governance proposal to upgrade the Edgeware Chain so that proofs can be verified. We will make available the identity module for other parachains to use.
+    - We will provide adequate documentation for use by other parachains.
 - M5: Integration into the Commonwealth UI (2 weeks)
-    - UI should verify proofs to generate badges that other users can see
+    - UI should verify proofs to generate badges that other users can see or pull verifications directly from chain.
     - Create some forums such that only those who can prove some membership are allowed to post or validate
+    - Integrate into Edgeware, ChainX, Polkadot, Kusama, and Alexander Testnet?
+
 
 ## **Additional Information**
 
