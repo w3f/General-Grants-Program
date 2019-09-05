@@ -108,11 +108,11 @@ This project will be executed in two full months and can commence as soon as the
 
 #### Milestone 1: duration: 4 weeks
 Basic application architecture with all artifacts
-- Artefact 1: `py-scale-codec` repository in the `polkascan` organization on Github
-- Artefact 2: `py-substrate-interface` repository in the `polkascan` organization on Github
-- Artefact 3: `substrate-interface-api` repository in the `polkascan` organization on Github
-- Artefact 4: `substrate-interface-gui` repository in the `polkascan` organization on Github
-- Artefact 5: `substrate-interface` repository in the `polkascan` organization on Github
+- Artifact 1: `py-scale-codec` repository in the `polkascan` organization on Github
+- Artifact 2: `py-substrate-interface` repository in the `polkascan` organization on Github
+- Artifact 3: `substrate-interface-api` repository in the `polkascan` organization on Github
+- Artifact 4: `substrate-interface-gui` repository in the `polkascan` organization on Github
+- Artifact 5: `substrate-interface` repository in the `polkascan` organization on Github
 
 Full compatibility with native Substrate JSON-RPC
 - Author RPC-methods
@@ -212,11 +212,11 @@ RPC 10.6. runtime_getConstantByBlockNumber(module, storageFunction, blockNumber)
 ```
 
 Documentation
-- Artefact 1: Getting started with the Python SCALE-codec
-- Artefact 2: Getting started with the Python Substrate Interface
-- Artefact 3: Documentation and usage of all RPC-methods for use with Postman
-- Artefact 4: Documentation and usage of all RPC-methods with the GUI 
-- Artefact 5: Running the Python Substrate API
+- Artifact 1: Getting started with the Python SCALE-codec
+- Artifact 2: Getting started with the Python Substrate Interface
+- Artifact 3: Documentation and usage of all RPC-methods for use with Postman
+- Artifact 4: Documentation and usage of all RPC-methods with the GUI 
+- Artifact 5: Running the Python Substrate API
 
 Payout: 12,500 USD
 
@@ -254,16 +254,18 @@ RPC 14.1. runtime_composeCall(module, callFunction[, params]) // Composes a SCAL
 ```
 
 Documentation
-- Artefact 1: Getting started with the Python SCALE-codec
-- Artefact 2: Getting started with the Python Substrate Interface
-- Artefact 3: Documentation and usage of all RPC-methods for use with Postman
-- Artefact 4: Documentation and usage of all RPC-methods with the GUI 
-- Artefact 5: Running the Python Substrate API
+- Artifact 1: Getting started with the Python SCALE-codec
+- Artifact 2: Getting started with the Python Substrate Interface
+- Artifact 3: Documentation and usage of all RPC-methods for use with Postman
+- Artifact 4: Documentation and usage of all RPC-methods with the GUI 
+- Artifact 5: Running the Python Substrate API
 
 Payout: 12,500 USD
 
 ## Outlook
 This project should lead to the go-to library/application for any application developer that intends to interact with any Substrate-runtime. The artifacts of this project provide a rich API to the Substrate-runtime with full decoding context.
+
+This project should lead to WEB3SCAN's Polkasource product-line to service public/private node services which enriched APIs beyond the basic JSON-RPC API that Substrate offers.
 
 The generalized Python Substrate API aligns with our mid-term objective of building a full Python-based implementation of the Polkadot Runtime Environment (PRE). Critical components for building a Python PRE are: 1) SCALE-codec, 2) Trie DB, 3) Libp2p Networking, 4) Consensus Babe/Grandpa. 5) WASM interpreter. Time can work in our favor since some components (3 and 5) may be available soon due to work in neighboring communities.
 
