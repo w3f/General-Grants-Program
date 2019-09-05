@@ -241,14 +241,14 @@ RPC 12.4. runtime_removeCustomType(specVersion, type) // Removes one specific cu
 RPC 12.5. runtime_resetCustomTypes(specVersion) // Removes all custom types and their respective decoding context for a specific runtime specification
 ```
 
-- Runtime RPC-methods for runtime storage functions
+- Runtime RPC-methods for runtime storage functions (examples in appendix 1)
 ```
 RPC 13.1. runtime_getState(module, storageFunction[, params]) // Retrieves SCALE-decoded JSON-data of one specific runtime StorageFunction of the current state by calling the storageFunction with SCALE-decoded inputs 
 RPC 13.2. runtime_getStateByBlockHash(module, storageFunction[, params], hash) // Retrieves SCALE-decoded JSON-data of one specific runtime StorageFunction of a distinct historical state by blockHash by calling the storageFunction with SCALE-decoded inputs 
 RPC 13.3. runtime_getStateByBlockNumber(module, storageFunction[, params], blockNumber) // Retrieves SCALE-decoded JSON-data of one specific runtime StorageFunction of a distinct historical state by blockNumber by calling the storageFunction with SCALE-decoded inputs 
 ```
 
-- Runtime RPC-methods for runtime call functions
+- Runtime RPC-methods for runtime call functions (examples in appendix 2)
 ```
 RPC 14.1. runtime_composeCall(module, callFunction[, params]) // Composes a SCALE-encoded extrinsic payload of a specific transaction type ready for signing by an external library
 ```
@@ -278,7 +278,7 @@ The generalized Python Substrate API aligns with our mid-term objective of build
 The Python Substrate API application stack is distinct from the other projects mentioned in this paragraph for the obvious reason that it is a Python implementation, in contrast to the languages of the other implementations. Another key difference with the other projects is that our Python Substrate API project not only provides generalized libraries for the respective programming language, but also provides a generalized application that services enriched JSON-RPC endpoints with SCALE-decoded input and output. Thus extending the user-base of the artifacts of this project from Python developers to any developer capable of working with JSON-data.
 
 ## Appendix
-### Storage functions available through RPC for Kusama network
+### Appendix 1: Storage functions available through RPC for Kusama network
 ```
 attestations.RecentParaBlocks({inputparams})
 attestations.ParaBlockAttestations({inputparams})
@@ -427,3 +427,91 @@ treasury.ProposalCount({inputparams})
 treasury.Proposals({inputparams})
 treasury.Approvals({inputparams})
 ````
+
+### Appendix 2: Call functions available through RPC for Kusama network
+```
+attestations.more_attestations({inputparams})
+authorship.set_uncles({inputparams})
+babe.set_pending_secondary_slots_change({inputparams})
+balances.force_transfer({inputparams})
+balances.set_balance({inputparams})
+balances.transfer({inputparams})
+claims.claim({inputparams})
+council.execute({inputparams})
+council.propose({inputparams})
+council.set_members({inputparams})
+council.vote({inputparams})
+democracy.cancel_queued({inputparams})
+democracy.cancel_referendum({inputparams})
+democracy.delegate({inputparams})
+democracy.emergency_cancel({inputparams})
+democracy.external_propose({inputparams})
+democracy.external_propose_default({inputparams})
+democracy.external_propose_majority({inputparams})
+democracy.fast_track({inputparams})
+democracy.propose({inputparams})
+democracy.proxy_vote({inputparams})
+democracy.remove_proxy({inputparams})
+democracy.resign_proxy({inputparams})
+democracy.second({inputparams})
+democracy.set_proxy({inputparams})
+democracy.undelegate({inputparams})
+democracy.veto_external({inputparams})
+democracy.vote({inputparams})
+elections.present_winner({inputparams})
+elections.proxy_set_approvals({inputparams})
+elections.reap_inactive_voter({inputparams})
+elections.remove_member({inputparams})
+elections.retract_voter({inputparams})
+elections.set_approvals({inputparams})
+elections.set_desired_seats({inputparams})
+elections.set_presentation_duration({inputparams})
+elections.set_term_duration({inputparams})
+elections.submit_candidacy({inputparams})
+finalitytracker.final_hint({inputparams})
+grandpa.report_misbehavior({inputparams})
+imonline.heartbeat({inputparams})
+parachains.deregister_parachain({inputparams})
+parachains.register_parachain({inputparams})
+parachains.set_heads({inputparams})
+session.set_keys({inputparams})
+slots.bid({inputparams})
+slots.bid_renew({inputparams})
+slots.elaborate_deploy_data({inputparams})
+slots.fix_deploy_data({inputparams})
+slots.new_auction({inputparams})
+slots.set_offboarding({inputparams})
+staking.bond({inputparams})
+staking.bond_extra({inputparams})
+staking.chill({inputparams})
+staking.force_new_era({inputparams})
+staking.force_no_eras({inputparams})
+staking.nominate({inputparams})
+staking.set_controller({inputparams})
+staking.set_invulnerables({inputparams})
+staking.set_payee({inputparams})
+staking.set_validator_count({inputparams})
+staking.unbond({inputparams})
+staking.validate({inputparams})
+staking.withdraw_unbonded({inputparams})
+sudo.set_key({inputparams})
+sudo.sudo({inputparams})
+system.fill_block({inputparams})
+system.kill_storage({inputparams})
+system.remark({inputparams})
+system.set_code({inputparams})
+system.set_heap_pages({inputparams})
+system.set_storage({inputparams})
+technicalcommittee.execute({inputparams})
+technicalcommittee.propose({inputparams})
+technicalcommittee.set_members({inputparams})
+technicalcommittee.vote({inputparams})
+technicalmembership.add_member({inputparams})
+technicalmembership.remove_member({inputparams})
+technicalmembership.reset_members({inputparams})
+technicalmembership.swap_member({inputparams})
+timestamp.set({inputparams})
+treasury.approve_proposal({inputparams})
+treasury.propose_spend({inputparams})
+treasury.reject_proposal({inputparams})
+```
