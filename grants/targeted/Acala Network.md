@@ -155,21 +155,7 @@ The MVP following 3 milestones:
 
 ### Milestone 1
 
-- Design stable coin system, write white paper, including: 
-
-  - CDP(Collateralized Debt Positions) record engine;
-  - Unified settlement module;
-  - Target price feed module;
-  - Authority module;
-  - Liquidator module;
-  - Explain the detailed business logic;
-
-- Deliverables:  Public Github. <https://github.com/AcalaNetwork/Acala-white-paper>
-- Duration: 1 month.
-
-### Milestone 2
-
-- Implementation CDP(Collateralized Debt Positions) record engine in Substrate runtime, including:
+- Implementation CDP(Collateralized Debt Positions) record engine part one in Substrate runtime, including:
 
   - open(): Create a new CDP;
   - Owners;
@@ -179,6 +165,14 @@ The MVP following 3 milestones:
   - give(): Transfer ownership;
   - lock(): Deposit L-DOT collateral;
   - free(): Withdraw L-DOT collateral;
+  
+- Deliverables:  Public Github. <https://github.com/AcalaNetwork/Acala>
+- Duration: 1 month.
+
+### Milestone 2
+
+- Implementation CDP(Collateralized Debt Positions) record engine part two in Substrate runtime, including:
+
   - draw(): Create POD(print on demand, stable coin);
   - wipe(): Return POD;
   - shut(): clear all CDP debt, unlock all collateral, and delete the record;
