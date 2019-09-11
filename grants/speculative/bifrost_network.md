@@ -8,8 +8,9 @@ Bifrost uses the cross-chain mode of the transfer bridge to access multiple PoS 
 ![bifrost-structure-chart](https://cdn.liebi.com/resource/images/bifrost-structure-chart.png)
 
 ## Team members
-* Edwin（Full Stack Engineer, Blockchain Engineer, CTO）
-* Lurpis (Full Stack Engineer, Blockchain Engineer)
+* Edwin Wang（Full Stack Engineer, CTO）
+* Lurpis Wang (Full Stack Engineer)
+* Jianping Deng (RUST & C++ Engineer)
 
 ## Team Website 
 * https://bifrost.codes
