@@ -48,6 +48,13 @@ The team has extensive experience in blockchain development (substrate and Ether
 * https://www.linkedin.com/in/ermal-kaleci-98445287/<Ermal Kaleci>
 * Dr. Antonia Chen and Tony Yang have no LinkedIn profile
 
+## Team Github Profiles
+* Ruitao Su: https://github.com/rsu
+* Bryan Chen:  https://github.com/xlc
+* Bette Chen: https://github.com/bette7
+* Erma Kaleci: https://github.com/ermalkaleci
+* Antonia Chen: https://github.com/Antonia-Chen
+
 ## Development Roadmap
 MVP Flowchain will be a 3 month project, with the following milestones
 
@@ -75,6 +82,10 @@ MVP Flowchain will be a 3 month project, with the following milestones
 * M5: Integrate all parts, liquidity injection, dry run and documentation (2 weeks)
   - we will go live with the asset and margin trading platform with liquidity and providers on board.
   - we will provide an updated tutorial for participating as trader and liquidity provider, and tutorial for using the asset and trading SDK and the modules for developers to build on top of.
+
+Assumptions:
+- there is a stablecoin that we can use as building block for our protocol. While we have taken initiative with various parties in the polkadot community and in the financial world to explore stablecoin options, it in itself is a standalone project and is outside the scope of this particular grant application project.
+- ideally there is a trustless Ethereum bridge that we can use to pipe value from our Ethereum contracts into the parachain for high speed trading. We also have discussions with various parties to explore options, and are willing to contribute, but it in itself again warrants a separate project and is outside the scope of this project.
 
 ## Additional Information
 * Work has been done so far
