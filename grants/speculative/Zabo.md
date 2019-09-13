@@ -42,7 +42,7 @@ Christopher Brown is a 10+ year software engineer with experience in Golang, Jav
 We currently have a baseline MVP version published as v0.1.0 and will require 6 months to complete v1.0. For the Polkadot grant portion, we will require 2 months to complete. We intend on having 5 working full-time on this project. Total cost estimate shared in Google Form.
 
 ### Milestone 1 - Research and Design - 1 month - $0
-We will research polkadot-js api and the polkadot-js extension, as well as current implementations in polkadot-ui and at polkadot.js.org/apps to design an easy interface capable of communicating with a locally hosted and remotely hosted node connected to the Alexander testnet (or its equivalent at the time of implementation). We will also design a proof of concept which shows how a web application can leverage a mobile wallet, such as Polkawallet, for account information and transaction signing through HTTP and deep linking.   
+We will research polkadot-js api and the polkadot-js extension, as well as current implementations in polkadot-ui and at polkadot.js.org/apps to design open source js and golang sdks capable of communicating with a locally hosted and remotely hosted node connected to the Alexander testnet (or its equivalent at the time of implementation). We will also design a proof of concept which shows how a web application can leverage a mobile wallet, such as Polkawallet, for account information and transaction signing through HTTP and deep linking.   
 
   * Research the current Polkadot API's
   * Design the following default substrate functions into the Zabo Client API:
@@ -56,17 +56,17 @@ We will research polkadot-js api and the polkadot-js extension, as well as curre
     - `tx.balances.transfer()`
   * Design protocol to leverage mobile wallets from a web app.   
 
-We will deliver a fully documented Zabo interface at the end of this milestone.
+We will deliver fully documented sdks at the end of this milestone.
 
 ### Milestone 2 - Implement Design - 1 month - $12.5k
-We will implement the designed interface within the Zabo sandbox environment and make it available via the Zabo Client API. We will allow application users to select a local keystore, a polkadot-js extension managed keystore, or an address only connection to utilize the application powered by Zabo's Polkadot interface.
+We will implement the designed sdks and make them available via github. These sdks will allow application users to select a local keystore, a polkadot-js extension managed keystore, or provide a public address, read only connection to utilize an application powered by the Polkadot sdks.
 
-We will deliver a simple web app capable of interacting with the Alexander testnet utilizing the developed API and make this application, as well as the Zabo Client API, available via a Docker image. The Zabo Client API will be open sourced and made available on Github.
+We will deliver a simple web app capable of interacting with the Alexander testnet utilizing the developed SDKs and make this application available via a Docker image. The application will also be open sourced and made available on Github.
 
-### Milestone 3 - Implement Mobile Wallet Protocol - 1 month - $12.5k
-We will build out the proof-of-concept protocol designed to allow a Zabo powered web application to leverage a mobile wallet keystore by using Polkawallet as an example target. We will fork the polkawallet-io React Native repository and allow extrinsic data to be sent to, signed, and sent back from the mobile wallet to the web application.
+### Milestone 3 - Implement Mobile Wallet Protocol - 2 months - $12.5k
+We will build out a proof-of-concept protocol designed to allow the sdk powered web application to leverage a mobile wallet keystore. This protocol will allow extrinsic data to be sent to, signed, and sent to the recipient network.
 
-We will deliver a Docker image containing a Polkawallet capable of signing a transfer request built in the Zabo powered web application and submitting it to the Alexander testnet.
+We will deliver a protocol capable of integrating with Polkawallet, imToken, and Enzyme. We will either work with these teams to implement a working proof of concept capable of signing a transfer request sent by the protocol and submitting it to the Alexander testnet, or fork at least one of these projects to implement the proof of concept ourselves.
 
 ### Payment Type
 We would be willing to take 100% payment in DOTs.
