@@ -88,6 +88,8 @@ Please add information setting into sufficient detail the following (usually two
   
   (with respective documentation)
   
+  React frontend app integrated into polkadot UI/apps will show:
+  
     - a) all validators and their stats
         - validator as a block producer of certain blockchain
       - weight
@@ -118,20 +120,25 @@ Please add information setting into sufficient detail the following (usually two
       - cancel your nomination and transfer funds to backup wallet
         - when validator is offline for some period of time
        
-       **You can test these phases by connecting polkadot/apps interface to some node and see new app Polkalert there which            shows real-time data**
+       **Phase 1 and Phase 2 can be tested by connecting polkadot/apps interface to some node and see new app Polkalert there which shows real-time data**
        
   **Phase 3 (optional):**
     - choose your validator similar like in getstaker.com
 
 **Architecture**
 
-- Local running substrate node
+- Local running substrate node (Alexander testnet)
 
 - React frontend (as part of polkadot/apps)
 
 - Node.js backend application running on the same server as local substrate node
 
 - external Node.js backend application - pings your own node automatically, to find out that your node is offline and send you an email about it (no manual setup required from node owner, automatic when local backend application set up)
+
+- all data will be fetched through Polkadot JS API on Alexander testnet
+https://polkadot.js.org/api/api/#api-selection
+if not sufficient, then lower level RPC calls will be made
+
 
 **Time schedule**
 
