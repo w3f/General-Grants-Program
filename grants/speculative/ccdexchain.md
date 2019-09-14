@@ -3,6 +3,10 @@
 We are building a cross-chain bridge for Polkadot. 
 The publickey algorithm used by the polkadot network is ed25519/sr25519, we want to design an algorithm based on MPC that can support distributed generation of EDDSA signature. Based on our previous work, the ECDSA distributed signature of the cross-chain bridging BTC and ETH networks has been implemented. Combined with the EDDSA algorithm, the nodes of the polkadot parallel chain can decentralized cross-chain with the BTC, ETH and other networks.
 
+Here is a high-level overview of the ccdexchain arch.
+
+![ccdexchain-arch](https://raw.githubusercontent.com/ccdex/cc-docs/master/polkadot/bridge/ccdexchain-arch.png)
+
 * The general approach to bridge design.
 
 We implementing the decentralization of private key control assets through the MPC algorithm. This means that a private key controlled account(MPC Account) can be controlled by multiple keys. These keys are generated cooperatively by multiple p2p network nodes through the MPC algorithm.  
@@ -25,8 +29,31 @@ The ccdexchain monitors the user's MPC account, if a new deposit transaction occ
 
 After user send the withdrawal transaction on the MPC contract of the substitute/polkadot, contract burn the polkaBTC/ETH, and the ccdexchain is triggered to generate a corresponding withdrawal transaction. This transaction also requires MPC nodes to reach consensus and collaborative distributed signatures,  which can ensure the security of withdrawal and burn assets. 
 
-You can find more details here:
-https://ccdex.top/docs
+## Requirements
+
+* Safety
+
+Ccdexchain only allow finalized transactions from external chains into our Polkadot bridge. In the event of a 51% attack on the external chain, ccdexchain bridge is able to detect attacks and respond by suspending deposit and withdraw completely. In the event of an attack on the bridge protocol, as long as n-k+1 honest relayers exists, the attack can not to harm safety,  because all the operation need more than k nodes distrubited signature. 
+
+* Liveness 
+
+User can obtain PolkaBTC/ETH over the ccdexchain bridge as long as an equivalent amount of backed assets locked.
+
+* Consistency
+
+The assets of the custodian bank and the polkadot issued assets are 1:1, the bridge is only allowing issuing assets on Polkadot if the equivalent value of it is backed on the external chain. Issue polkaBTC/ETH need k/n ccdexchain nodes distributed signature, every node need to verify the locked assets before sign the issue transaction.
+
+* Redeemability
+
+User that own PolkaBTC/ETH assets can redeem them to the backed BTC/ETH cryptocurrency at anytime.
+
+* Auditability
+
+All external chain deposit and withdrawal transaction hash are recorded on the ccdexchain, and external transactions and internal transactions are one-to-one correspondence, and each transaction can be audited.
+
+* Scalability
+
+The design of  bridge protocol is based on the ECDSA/EDDSA signature algorithm. All cryptocurrency using this signature algorithm can be supported, which makes CCDEXChain scalable.
 
 ## Team Members
 * Dr. Chengshi Gao - Lead
