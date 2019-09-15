@@ -54,12 +54,7 @@ Excellent technical expert in blockchain, core developer of BitShares 1.0, intel
 
 ### The specifications of the project including:
 
-There are some new challenges and different concern when providing a cross-chain solution for NFT compared to XClaim's framework. It will meet the following requirements:
-
-* Safety
-* Liveness
-* Consistency
-* Redeemability
+There are some new challenges and different concern when providing a cross-chain solution for NFT compared to XClaim's framework. 
 
 It can also been split into three parts:
 
@@ -83,6 +78,36 @@ It can also been split into three parts:
         * Details Diagram and algorithm about the design. 
         
 - NFT Standards on Polkadot, and the design on normalization process for bridged tokens to resolve indentifiability and resolution issues.
+
+
+It will meet the following requirements[TBD]:
+
+* Safety
+
+
+* Liveness
+
+
+* Consistency
+
+* Redeemability
+
+Architecture and proccess
+
+- Architecture on the issuing blockchain (Parachain architecture).
+Parachain which support smart contract and chainRelay. Same with the assumption of XClaim.
+[TBD]
+
+- Architecture on the backing blockchain (the external chain).
+Support light-client, smart contract and chainRelay. Different with XClaim in the design of Collateral and Vault.
+The Vault are required to implement in chainRelay, can honestly do the instructions from "iSC" on issuing chain.
+
+- How the process works to mint tokens on Polkadot.
+Similar to the issue protocol of XClaim. But the vault are not required to put sufficient collateral on issuing chain.
+
+- How the process works to redeem tokens from Polkadot.
+Similar to the redeem of XClaim. But the vault are can only release to the account told by issuing contract or not. From rational economic assumption, vault will get no benefit for with-holding the release.
+[TBD]
 
 Currently we are still drafting the specification. We will focus on the scope of resolving challenge problems about how to do cross-chain non-fungible token inter-operations.
 
