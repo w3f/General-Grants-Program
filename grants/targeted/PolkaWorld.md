@@ -63,34 +63,41 @@ You can click here to read some articles they produces：
 
 We just set up a volunteer translation team recently. They are very powerful and will translate the information and articles of Polkadot and Web 3 in the first time. Since it was just established, it has been translated 10 articles and will make more contributions to the Polkadot community. Volunteer translation articles can be found on our public account PolkaWorld and  website [polkaworld.org](http://polkaworld.org). 
 ## Development Roadmap
-**Milestone 1 ：（1 month）**
-* Established a WeChat Subscription Account PolkaWorld 
-* Launch the **website of** **[polkaworld.org](http://polkaworld.org)**
-* Produce 30 articles 
-* Recruit and develop 30 feverish enthusiasts
-* Translate 10 articles 
+**Milestone 1 ：（1 month）**  
 
-**Milestone 2 ：（1 month）**
-* Host 4 PolkaWorld workshops
-* Produce 30 articles 
-* Recruit and develop 30 feverish enthusiasts
-* Host 4 AMA
-* Translate 10 articles 
+1.Established a WeChat Subscription Account PolkaWorld 
+
+2.Launch the  website of [polkaworld.org](http://polkaworld.org) 
+
+3.Produce 10-15 articles 
+
+4.Recruit and develop 30 feverish enthusiasts  
+
+5.Translate 20 articles 
+
+
+**Milestone 2 ：（1 month）**  
+
+1.Host 4 PolkaWorld workshops  
+
+2.Produce 10-15 articles, translate 20 articles   
+
+3.Recruit and develop 30 feverish enthusiasts  
+
+4.Host 4 AMA  
 
 **Milestone 3：（1 month）**
-* Host 4 PolkaWorld workshops
 
-* Host a hackathon
+1.Host 4 PolkaWorld workshops  
 
-* Produce 30 articles 
+2.Produce 10-15 articles, translate 20 articles   
 
-* Recruit and develop 30 feverish enthusiasts
+3.Recruit and develop 30 feverish enthusiasts  
 
-* Host 4 AMA
+4.Host 4 AMA  
 
-* Translate 10 articles 
+5.Host a hackathon  
 
-* Set up a PolkaWorld Community Foundation
 
 ----
 
