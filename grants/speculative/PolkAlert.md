@@ -25,7 +25,7 @@ If this application is for a particular grant programme then please indicate tha
   - Peter Kris
 - Names of team members
   - Gleb Urvanov - Backend
-    - PhD from Nuclear university Moscow - track record of mobile OS engineering, machine learning, smart contracts
+    - PhD dropout from Nuclear university Moscow - track record of mobile OS engineering, machine learning, smart contracts
   - Peter Kris - project management
     - generalist, full stack dev, crypto long timer since early days, leader of blockunison.com
   - Jakub Gregus - consulting product
@@ -102,23 +102,20 @@ Please add information setting into sufficient detail the following (usually two
         - % of block rewards how much validator takes for his work (and how much nominators will eventually get)
       - sum of penalties
         - number of slashes with sum of stake that has been taken away as punishment
-    - b) pre-selected list of validators
-      -  validators which are staking on your behalf
       
   **Phase 2 - the second ½ of funding - week 4-10:**
   
   (with respective documentation)
   
     - a) Alert when some malicious validator activity occurred
-      - double signing
+      - double signing notification
         - when one validator produce 2 blocks with the same validator key
-      - double spend attempts
-      - downtime
+      - try to detect double spend attempts notification
+        - where it’s possible to check
+      - downtime notification
         - when my local node is not online
-      - restart your node automatically
-        -  when node is offline for a particular time
-      - cancel your nomination and transfer funds to backup wallet
-        - when validator is offline for some period of time
+      - restart your node notification
+        -  when node is offline for a particular time, send notification via webhook to allow you to restart the node 
        
        **Phase 1 and Phase 2 can be tested by connecting polkadot/apps interface to some node and see new app Polkalert there which shows real-time data**
        
