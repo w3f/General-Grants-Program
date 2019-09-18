@@ -42,7 +42,7 @@ Christopher Brown is a 10+ year software engineer with experience in Golang, Jav
 We currently have a baseline MVP version published as v0.1.0 and will require 6 months to complete v1.0. For the Polkadot grant portion, we will require 2 months to complete. We intend on having 5 working full-time on this project. Total cost estimate shared in Google Form.
 
 ### Milestone 1 - Research and Design - 1 month - $0
-We will research polkadot-js api and the polkadot-js extension, as well as current implementations in polkadot-ui and at polkadot.js.org/apps to design open source js and golang sdks capable of communicating with a locally hosted and remotely hosted node connected to the Alexander testnet (or its equivalent at the time of implementation). We will also design a proof of concept which shows how a web application can leverage a mobile wallet, such as Polkawallet, for account information and transaction signing through HTTP and deep linking.   
+We will research polkadot-js api and the polkadot-js extension, as well as current implementations in polkadot-ui and at polkadot.js.org/apps to design open source js and golang sdks capable of communicating with a locally hosted and remotely hosted node connected to the Alexander testnet (or its equivalent at the time of implementation). We will also design a proof of concept which shows how a web application can leverage mobile wallets for account information and transaction signing through HTTP and deep linking.   
 
   * Research the current Polkadot API's
   * Design the following default substrate functions into the Zabo Client API:
@@ -66,7 +66,7 @@ We will deliver a simple web app capable of interacting with the Alexander testn
 ### Milestone 3 - Implement Mobile Wallet Protocol - 2 months - $12.5k
 We will build out a proof-of-concept protocol designed to allow the sdk powered web application to leverage a mobile wallet keystore. This protocol will allow extrinsic data to be sent to, signed, and sent to the recipient network.
 
-We will deliver a protocol capable of integrating with Polkawallet, imToken, and Enzyme. We will either work with these teams to implement a working proof of concept capable of signing a transfer request sent by the protocol and submitting it to the Alexander testnet, or fork at least one of these projects to implement the proof of concept ourselves.
+We will deliver a protocol capable of integrating with Polkawallet, Speckle, and Enzyme for Polkadot functionality. We will also deliver the capability to execute cryptocurrency transactions through Ledger, Trezor, and Metamask. This protocol will also interoperate with the WalletConnect protocol to support those mobile wallets. For Polkadot functionality, we will either work with these teams to implement a working proof of concept capable of signing a request and submitting it to the Alexander testnet, or fork at least one of these projects to implement the proof of concept ourselves.
 
 ### Payment Type
 We would be willing to take 100% payment in DOTs.
