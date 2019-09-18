@@ -4,7 +4,7 @@ datdot
 bridge (between Dat Protocol and Substrate)
 * but also includes a new runtime module
 * The result will be able to run as a parachain or parathread
-* it's also about distributed file storage
+* would enable access to large file storage to substrate
 
 ## Project Description
 * RFP https://github.com/w3f/Web3-collaboration/issues/155
