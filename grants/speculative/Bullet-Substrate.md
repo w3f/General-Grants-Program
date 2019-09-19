@@ -20,7 +20,7 @@ The outstanding features of Bullet-Substrate are as following:
 The high level principle is as follows.
 
 <div align="center">
-<img src="https://user-images.githubusercontent.com/19221132/65102812-ec3f4200-d9fe-11e9-8f5d-0c4f1d3322ec.png" width="600px">
+<img src="https://user-images.githubusercontent.com/55380676/65235088-8808a500-db08-11e9-88a8-012a3d5fdf77.png" width="600px">
 </div>
 
 
