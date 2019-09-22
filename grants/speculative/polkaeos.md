@@ -70,7 +70,7 @@ In Developping, there may be more developers for polkaeos to make it finished mo
 - M1 - 3 week: Polkaeos chain base implementation
   - Design a Abstract blockchain Architecture for verify ordered extrinsics hold by each nodes.
   - Implement the blockchain based on Substrate, which can verify the ordered extrinsics hold by each nodes, in next Milestone, the extrinsics will be Blocks Header and Key Action from eosio.
-  - After this Milestone, we can get a chain which can verify sequence extrinsics got in offchain by each nodes, this chain can also used to implement other bridges.
+  - After this Milestone, we can get a chain which can verify sequence extrinsics got in offchain by each nodes, this chain can also used to implement other bridges which all node in bridge is also a node in other chain.
   - $5,500
 
 - M2 - 5 weeks: EOSIO light node implementation for polkaeos.
@@ -78,14 +78,14 @@ In Developping, there may be more developers for polkaeos to make it finished mo
   - Implement EOSIO P2P protocol for polkaeos.
   - Verify the EOSIO block header in polkaeos offchain.
   - Make a EOSIO Data Storage for polkaeos.
-  - After this Milestone, a node in polkaeos also a node in eosio.
+  - After this Milestone, a node in polkaeos also a node in eosio, the polkaeos can sync blocks and be a light node in EOSIO network to verify the block it got.
   - $9,500
 
 - M3 - 2 weeks: Implement EOSIO to Polkaeos State Mapping
   - Implement contacts to in EOSIO, which make a assert to state in EOSIO RAM.
   - Make handler in polkaeos for cross-chain actions.
   - Verify the EOSIO block Datas by chain implement in M1.
-  - After this Milestone, polkaeos can mapping state from EOSIO.
+  - After this Milestone, polkaeos can mapping state from EOSIO, that mean EOS can be transfer into polkaeos chain.
   - $3,500
 
 - M4 - 2 weeks: Implement Polkaeos to EOSIO State Mapping
@@ -93,16 +93,19 @@ In Developping, there may be more developers for polkaeos to make it finished mo
   - Implement miners(or transfer workers) push contract in EOSIO.
   - Implement the verify to the miners, include the miner fisherman.
   - Implement the miners registry process in both polkaeos and EOSIO.
+  - After this Milestone, use tools (like substrate-ui) can complete transfer state form polkaeos to EOSIO by hand)
   - $3,500
 
 - M5 - 3 weeks: Tools and Documentations
   - Implement the node for miners, which can do transfer work automatically.
   - Some API for polkaeos to get chain state.
   - Documentations for polkaeos.
+  - After this Milestone a miner node can be used by miner which transfer state to EOSIO and check other miner automatically. also there will be some api to help user get chain sync state by polkaeos, then we will complate all documentations need by startup testnet.  
   - $5,500
 
 - M6 - 1 weeks: Startup polkaeos testnet
   - Launch a polkaeos testnet
+  - After this Milestone, we will make polkaeos testnet ready, start a testnet between Kusama and ENU( which is same with EOS, but more cheap, if ENU cannot work, the testnet will between a EOSIO testnet )
   - $2,000
 
 All the deliveriables for each milestone will be published in the open source repositories.
