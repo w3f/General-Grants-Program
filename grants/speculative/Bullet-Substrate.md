@@ -60,6 +60,8 @@ The milestones are spread out over a total of 3 months as following:
 * M3: Implementation of balance privacy (4 weeks)
 * M4: Implementation of a confidential contract assets (2 weeks)
 
+ In the future, we will continue to attention Bullet-proof on the latest research results and continuously optimize the performance and security of the privacy transactions.
+
 ## Additional Information
 ### What work has been done so far?
 Complete the the theoretical research for the optimization for the Bullet-proof and some simulation of the optimization.
