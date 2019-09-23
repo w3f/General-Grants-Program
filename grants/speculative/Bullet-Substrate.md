@@ -1,6 +1,6 @@
 # Bullet-Substrate tool
 ## Project Description
-This project is an privacy-protecting tool kit for parachain based on the Bullet-proof protocol. Bullet-Substrate tool is basically designed as a privacy tool for blockchain based on Substrate to impletement private transaction. 
+This project is a privacy-protecting tool kit for parachain based on the Bullet-proof protocol. Bullet-Substrate tool is basically designed as a privacy tool for blockchain based on Substrate to implement private transaction. 
 
 The comparison of Bullet-proof and other privacy techniques can be found [Sonic: Zero-Knowledge SNARKs from Linear-Size Universal and Updatable Structured Reference Strings](https://eprint.iacr.org/2019/099.pdf) 
 
