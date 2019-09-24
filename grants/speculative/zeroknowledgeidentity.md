@@ -18,7 +18,7 @@ Linking a token balance:
     
     **Constraints**: Both A and B need EDG to send txs
     
-    1. A needs to send tx to get into SMT group
+    1. A needs to send tx to get into Sparse Merkle Tree group
     2. B needs to send tx to prove he knows A's secret in the group
     
     Problem that can't be solve, how does B get EDG without exposing his identity? Someone else needs to do so on B's behalf
@@ -26,7 +26,7 @@ Linking a token balance:
 Membership of a group:
 
     A user who qualifies for a certain group will do the following:
-    1. Upon receiving membership in the group, add a leaf node to a SMT
+    1. Upon receiving membership in the group, add a leaf node to a Sparse Merkle Tree
     	(a merkle tree as a group name)
     2. This leaf node will have the form Hash(Hash(secret||nullifier)||accountId)
     3. To prove membership, a user submits a proof proving they know the preimage (secret||nullifier) to a leaf node
@@ -36,8 +36,10 @@ Linking web2 identity
     A user who wishes to link a web2 identity will do the following:
     1. Register their identity using Edgeware's Identity Service (edgeware-watcher).
     2. Attest to their identity and include a leaf node Hash(Hash(secret||nullifier)||accountId||web3Identity)
-    3. If the identity passes verification, this leaf node is appended to the SMT
-    4. To prove membership, a user submits a proof proving they know the preimage (secret||nullifier) of the leaf node
+    3. If the identity passes verification, this leaf node is appended to the Sparse Merkle Tree
+    4. To prove membership, a user submits a proof proving they know the preimage (secret||nullifier) of the leaf node, exposing the nullifier
+    5. The prover must link an account that will act on behalf of the Web2 identity, this can only happen once.
+    6. Similarly if we want to allow it, we can let this linked account transfer ownership of the identity (risky/allows selling identities)
 
 ***Nullifiers***: nullifiers are needed to prevent re-submitting proofs for auxiliary accounts.
 
@@ -84,33 +86,54 @@ Relevant projects to the goal are below:
 
 [https://www.linkedin.com/in/raykyri/](https://www.linkedin.com/in/raykyri/)
 
+## General Project Practices
+- All code will be delivered in a dockerized/container format
+- All code will be documented with guides on how to run
+
 ## **Development Roadmap**
 
 The milestones are spread out over a total of 3 months as following. We anticipate starting this work as soon as we are able to fund the development:
 
 #### Month One - equivalent of $33,000 USD in DOTs
 - M0: Aggregate all the cryptography tools importable in a portable rust library (1 week)
-    - Pairing/bellman/sapling-crypto as pure rust libraries
-- M1: Build sparse-merkle tree module to store Pedersen hashes (3 weeks) 
+    - Rust libraries ported into no_std environment
+    - [pairing](https://github.com/LayerXcom/zero-chain/tree/master/core/pairing)
+    - [bellman](https://github.com/LayerXcom/zero-chain/tree/master/core/bellman-verifier)
+    - [jubjub](https://github.com/LayerXcom/zero-chain/blob/master/core/jubjub)
+- M1: Build sparse-merkle tree Substrate module to store Pedersen hashes (3 weeks)
+    - Support for `insert`ion into the tree on-chain, where roots will be recalculated after transaction success
+    - Support for non-private verification of merkle proofs on-chain
+    - Support for storage and retrieval of current leaf hashes in the tree
+    - Support for verification of a finite number of past merkle roots to ensure we can process multiple verifications between transactions.
+    - Documentation for functions and storage values
+    - Tests of functionality for insertion and verification of merkle path proofs
 
 #### Month Two - equivalent of $33,000 USD in DOTs
 - M2: Build off-chain method of creating proofs (3 weeks)
-    - Proofs are initially stored on Commonwealth which we are in the process of open-sourcing. Proofs can then be stored on IPFS.
-    - We need to have a way of generating these proofs off-chain, so that they can eventually be submitted on-chain. This requires writing Rust based program for doing the following
+    - A CLI/binary written in Rust for generating proofs of membership, given the current list of leaves in the Sparse Merkle Tree.
+    - Proofs will initially be stored on Commonwealth which we are in the process of open-sourcing. Proofs can then be stored on IPFS.
     - Given a merkle root, a leaf node, the preimage of the leaf node, and a standard membership proof, we want to generate a zero-knowledge membership proof that hides the preimage secret data.
     - The public inputs for the prover are the nullifier and the merkle root
     - The private inputs for the prover are the secret preimage data and the merkle path proof
+    - Documentation for using the CLI/binary, which should interact with the Substrate module
 - M3: Build ability to verify proofs using bellman-verifier on chain (2 weeks)
+    - A Substrate module or addition to an existing substrate module (more functions) that allow verifying ZK-proofs of membership in the Sparse Merkle Tree designed above.
     - We first need to generate a verification key. We will likely want to run a multi-party computation/ceremony to generate a random seed, destroy toxic waste, etc.
     - Above, we recall the public parameters of the prover. They are the nullifier and merkle root. Thus, when someone wants to verify an identity attestation on chain, they will expose the nullifier to the on-chain module. This will record the nullifier so re-use is impossible.
     - Once the data is marshalled and we ensure that the submitted nullifier has not been used, we will verify the proof data using the bellman verifier.
+    - Tests of functionality in the Substrate module
+    - CLI functions for sending the proper extrinsics to verify proofs.
 
 #### Month Three - equivalent of $33,000 where half is in DOTs and USD
 - M4: Upgrade Edgeware identity module to store verified identity auxiliary data (2 weeks)
+    - A Substrate module or additional functions that fit into existing Substrate module from above.
+    - The functionality will include, creating/attesting/verifying identities, inserting identities leaf hashes into a Sparse Merkle Tree, and verifying ZK-proofs of membership of identities in a Sparse Merkle Tree.
     - We need to integrate a new main verify function into the identity module and create necessary helper functions for marshaling data into the proper format.
     - We will use a governance proposal to upgrade the Edgeware Chain so that proofs can be verified. We will make available the identity module for other parachains to use.
     - We will provide adequate documentation for use by other parachains.
 - M5: Integration into the Commonwealth UI (2 weeks)
+    - The functionality will include UI components for registering identities, attesting to the on-chain, inserting them into a Sparse Merkle Tree, and finally verifying them with an auxiliary account using a ZK-proof.
+    - The UI components will discern if extrinsics are successful, letting the user know any and all errors.
     - UI should verify proofs to generate badges that other users can see or pull verifications directly from chain.
     - Create some forums such that only those who can prove some membership are allowed to post or validate
     - Integrate into Edgeware, ChainX, Polkadot, Kusama, and Alexander Testnet?
