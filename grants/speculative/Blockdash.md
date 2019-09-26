@@ -65,10 +65,9 @@ Blockdash Ltd. (Hong Kong) - not incorporated yet
 
 #### 8. Our roadmap and milestons
 
-- Total grant needed (Milestones 1-3): $84,000
-- Development time: 3 months
+Development time: 3 months
 
-#### Milestone 1 - Concept & UI/UX   ($20,000 development costs + $8,000 operational costs; approx. 4 weeks)
+#### Milestone 1 - Concept & UI/UX   (approx. 4 weeks)
 - Blockdash open source business concept for Polkadot.  
 - Evaluation of relevant features and metrics for validators. 
 - Design of in-house valuation metrics.
@@ -79,7 +78,7 @@ Blockdash Ltd. (Hong Kong) - not incorporated yet
 - Incorporate the user feedback.
 - User accounts for advanced services and features.
 
-#### Milestone 2 - Dashboard ($20,000 development costs + $8,000 operational costs; approx. 4 weeks)
+#### Milestone 2 - Dashboard (approx. 4 weeks)
 - User can monitor the network statistics.
 - User can view a list of networks. 
 - User can search a specific network.
@@ -90,7 +89,7 @@ Blockdash Ltd. (Hong Kong) - not incorporated yet
 - Visualisation of validator performance.
 - Validator accounts and advanced listing features. 
 
-#### Milestone 3 - Engagement ($20,000 development costs + $8,000 operational costs; approx. 4 weeks)
+#### Milestone 3 - Engagement (approx. 4 weeks)
 - User can receive browser notification when a validator goes offline.
 - User can receive email notification for updates.
 - Users and validators can subscribe for research & monitoring report.
