@@ -1,50 +1,118 @@
-# Project name
-
+< W3F grant application >
+# **Blockdash - dashboard your blockchain network**
 ## Project Description
-If this application in response to an RFP then please indicate this on the first line of this section.
+#### 1. Current problem in POS networks
+- Hard to find information about validators for everybody (transparency)
+- What are the largest validators in the POS network?
+- How decentralized is the network? Are there any hidden validators which have the most traffic in the network?
+- Monitoring (e.g. downtime) of validators only possible with technical knowledge. If a validator is down, it is a loss for the validator and the network.
+- Validators have to actively search for information e.g. in case of mandatory validator updates
+- How reliable is a validator?
 
-Please provide the following:
-  * A brief description of the project.
-  * An indication of why this project is good for the ecosystem.
-  * An indication of how you will integrate this project into Substrate / Polkadot.
-  * An indication of why your team is interested in creating this project.
 
-## Team members
-* Name of team leader
-* Names of team members	
+#### 2. What is Blockdash?
+- Monitor the healthstate of your validator with Blockdash at one click (e.g. get immediately informed when your validator is down, what is the current version of your validator etc.)
+- Visualize the validators performance at one click
+- Business Intelligence for validators
+- Zoom into the POS network to a validator level and get detailed information about:
+	- Overview of all validators in a network
+	- What are the largest validators in the network?
+	- How many transactions are on the validator?
+	- ROI of a validator?
+	- Fee structure of a validator
 
-## Team Website	
-* https://...
 
-## Legal Structure 
-Please provide the name and registered address of the legal entity executing the project. These details can also be shared privately via the Google Form used for your application.
+#### 3. Our solution
+- Monitor the network
+- Search or zoom in to the validators you are interested in
+- Independent rating and grading system of validators
+- View the most important health information (offline / online time of a validator, get informed when a validator is double-signing blocks etc.)
+- Get notifications about validators slashing
+- Subscribe for monitoring or timely update news for your validator
+- Different membership options and featured extras such as direct support, business intelligence, weekly reports.
 
-## Team's experience
-Please describe the team's relevant experience.
 
-## Team Code Repos
-* https://github.com/<your_repo_1>
-* https://github.com/<your_repo_2>
+#### 4. Team members
+Jonas Bosch - Co-Founder Blockdash 
+https://www.linkedin.com/in/jonas-bosch
 
-## Team LinkedIn Profiles
-* https://www.linkedin.com/<person_1>
-* https://www.linkedin.com/<person_2>
+Sergej Stein - Co-Founder Blockdash
+https://www.linkedin.com/in/sergej-stein
 
-## Development Roadmap
-This section should break out the development roadmap into a number of milestones. Please ensure this section is sufficently detailed. The length will vary depending on the project but approximately 2 pages is a good guideline. It should also be clear how the project is related to Substrate and/or Polkadot.
 
-Please provide the following:
-  * For each milestone:
-    * The specification of the software achieved after completion of each milestone. The level of detail must be high enough so that we are able to test that the software meets the specification.
-    * For applications with public financial information, please include total amount of funding requested per milestone. Funding can be in fiat (CHF, EUR or USD) or in DOTs. It can also be in a combination of fiat and DOTs. Please reach out to grants@web3.foundation to discuss what amount in fiat and DOTs would be appropriate for your project.
-  * A schedule indicating when each milestone will be achieved.
-  * The team's long-term plans and intentions 
+#### 5. Team Experience
+Jonas Bosch (Co-Founder)
++10 years experience in IT and IT Security; started with a classical IT apprenticeship (IT professional for system integration) and graduated in business informatics with focus on IT Security; worked with different blockchain startups to utilize their business, mainly supporting the technical parts
 
-## Additional Information
+Sergej Stein (Co-Founder)
++10 years Entrepreneurship & Finance (started with E-Commerce projects in 2010); graduated from Germany’s leading business school (Frankfurt School of Finance & Management), worked as Analyst for renowned rating agency; became Head of Finance at Ethereum DeFi Start-Up with approx. $400M valuation in Q4 2017; Co-founded DLT Capital in Q1 2018; works for 3 years full-time in crypto
+
+Supporters:
+
+- https://dlt-capital.com (Operations & Funding)
+- https://blockxlabs.com/ (Tech & Development)
+- Other in-house developers
+
+
+#### 6. Team Website
+Main Project Website: 
+www.blockdash.io (under construction)
+
+
+#### 7. Legal Structure
+Blockdash Ltd. (Hong Kong) - not incorporated yet
+
+
+#### 8. Our roadmap and milestons
+
+- Total grant needed (Milestones 1-3): $84,000
+- Development time: 3 months
+
+#### Milestone 1 - Concept & UI/UX   ($20,000 development costs + $8,000 operational costs; approx. 4 weeks)
+- Blockdash open source business concept for Polkadot.  
+- Evaluation of relevant features and metrics for validators. 
+- Design of in-house valuation metrics.
+- Corporate Design & Brand Style Guide.
+- The application designed in Adobe XD.
+- Click-through prototype for the user demo and feedback.
+- Video capture to get the community excited.
+- Incorporate the user feedback.
+- User accounts for advanced services and features.
+
+#### Milestone 2 - Dashboard ($20,000 development costs + $8,000 operational costs; approx. 4 weeks)
+- User can monitor the network statistics.
+- User can view a list of networks. 
+- User can search a specific network.
+- User can pick a network to view more details (info page):
+	- Rating & grading
+	- Uptime / downtime
+	- Last blocks
+- Visualisation of validator performance.
+- Validator accounts and advanced listing features. 
+
+#### Milestone 3 - Engagement ($20,000 development costs + $8,000 operational costs; approx. 4 weeks)
+- User can receive browser notification when a validator goes offline.
+- User can receive email notification for updates.
+- Users and validators can subscribe for research & monitoring report.
+- Social media accounts for more user engagement.
+- Long-term sustainability & growth plan with revenue and profit.
+
+#### 9. Additional Information
 Any additional information that you think is relevant to this application that hasn't already been included.
-
 Possible additional information to include:
-* What work has been done so far?
-* Are there are any teams who have already contributed (financially) to the project?
-* Have you applied for other grants so far?
-* Are there any other projects similar to yours? If so, how is your project different?
+
+What work has been done so far?
+
+- We got familiar with Polkadot and visited various Web3 events, researched the best company location for this project, sketched the website and secured the basic infrastructure and domains. A polkadot validator was set-up on the testnet.
+
+Are there are any teams who have already contributed (financially) to the project?
+
+- Blockdash Ltd. is self-funded so far. 
+
+Have you applied for other grants so far?
+
+- No.
+
+Are there any other projects similar to yours? If so, how is your project different?
+
+- Nothing directly related to Polkadot. Tezos has a similar project: https://www.tezos-nodes.com/. Our strategic goal is to support ALL Web3 protocols and their validators once we have established the Polkadot validator dashboard.
