@@ -31,11 +31,12 @@ Please describe the team's relevant experience.
 * https://www.linkedin.com/<person_2>
 
 ## Development Roadmap
-This section should break out the development roadmap into a number of milestones. Please ensure this section is sufficently detailed. The length will vary depending on the project but approximately 2 pages is a good guideline. It should also be clear how the project is related to Substrate and/or Polkadot.
+This section should break out the development roadmap into a number of milestones. Please ensure this section is sufficently detailed. The length will vary depending on the project but approximately 2 pages is a good guideline. It should also be clear how the project is related to Substrate and/or Polkadot. Additionally, you can mention your preferred license here. The default license is Apache 2.0. 
 
 Please provide the following:
   * For each milestone:
     * The specification of the software achieved after completion of each milestone. The level of detail must be high enough so that we are able to test that the software meets the specification.
+    * If possible, include a tutorial and a docker image to make it easier for us to evaluate your software. 
     * For applications with public financial information, please include total amount of funding requested per milestone. Funding can be in fiat (CHF, EUR or USD) or in DOTs. It can also be in a combination of fiat and DOTs. Please reach out to grants@web3.foundation to discuss what amount in fiat and DOTs would be appropriate for your project.
   * A schedule indicating when each milestone will be achieved.
   * The team's long-term plans and intentions 
