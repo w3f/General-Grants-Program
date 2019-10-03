@@ -68,13 +68,7 @@ Polkadot template presentation: [here](https://docs.google.com/presentation/d/1m
 
 Substrate template presentation: [here](https://docs.google.com/presentation/d/1dhaoLb5V2K_vDe4EJlUcKwePD1nMktr57fOdSo8bHns/edit#slide=id.g45ee0ba2ab_3_12)
 
-[Polkadot Logotype Black](https://www.dropbox.com/sh/aj77gnj4azmursy/AAAoNHsEEbe0sck5iXbsyG4da/Polkadot%20Logotype/PNG?dl=0&preview=Polkadot_Logotype_black.png&subfolder_nav_tracking=1)
-
-[Polkadot Logotype Color](https://www.dropbox.com/sh/aj77gnj4azmursy/AAAoNHsEEbe0sck5iXbsyG4da/Polkadot%20Logotype/PNG?dl=0&preview=Polkadot_Logotype_color.png&subfolder_nav_tracking=1)
-
-[Polkadot Logotype White with pink DOT](https://www.dropbox.com/sh/aj77gnj4azmursy/AAAoNHsEEbe0sck5iXbsyG4da/Polkadot%20Logotype/PNG?dl=0&preview=Polkadot_Logotype_white+pink.png&subfolder_nav_tracking=1)
-
-[Polkadot Logotype White](https://www.dropbox.com/sh/aj77gnj4azmursy/AAAoNHsEEbe0sck5iXbsyG4da/Polkadot%20Logotype/PNG?dl=0&preview=Polkadot_Logotype_white.png&subfolder_nav_tracking=1)
+[Polkadot Logos found here .ZIP file](https://polkadot.network/brand)
 
 ## Post-event feedback <a name="post"></a>
 After your event you can consider leaving feedback for how your experience was working with us and what we could do to help improve your meetup going off without a hitch! 
