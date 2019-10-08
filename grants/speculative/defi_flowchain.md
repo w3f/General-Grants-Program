@@ -18,7 +18,7 @@ Flowchain will include the following parts:
 * Tony Yang (Chief Financial Advisor)
 
 ## Team Website
-Our website is under construction.
+https://laminar.one
 
 ## Legal Structure
 Private limited company.
@@ -66,8 +66,10 @@ MVP Flowchain will be a 3 month project, with the following milestones
     - implement fToken
     - synthetic asset module to deposit fund, mint fToken, withdraw, get bid/ask price
     - liquidity pool to get spread and get collateral ratio
-    - oracle that connect to designated price feeds
-  - we will deliver a running chain with these modules, and a tutorial using this protocol via the polkadot ui.
+    - oracle module for accessing external price feed, and allow operator to submit price feed
+  - we will deliver a running chain with these modules, together with a docker image, and a tutorial using this protocol via the polkadot ui.
+  - we will deploy multiple oracle servers to increase fault tolerance; we will also set up monitoring service to monitor oracle server status and price fluctuation
+  - all runtime modules in this and following milestones will be shipped with unit tests
 
 * M3: Implementation of margin trading modules and other features, UI Design & SDK (2 weeks)
   - we are finalizing the details of this part, but will include the following features:
@@ -104,4 +106,4 @@ Akropolis on Polkadot, but they focus on informal economy. On Ethereum, in the l
 Liquidity is a common challenge in this space. We believe we have a new approach to liquidity provision with new game theory and ability to bridge on-and-off ramp players. As for MakerDAO, they will be our partner on Ethereum, and we will provide complimentary services to it.
 
 * Open Source License:
-We intend to use GPLv3 for now and switch to Apache 2.0 when Substrate changes Apache 2.0.
+We will use Apache 2.0.
