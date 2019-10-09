@@ -87,14 +87,14 @@ Please add information setting into sufficient detail the following (usually two
   **Phase 1 - the first ½ of funding - week 2-4:**
   
   (with respective documentation)
-  
+  License: Apache 2.0
   React frontend app integrated into polkadot UI/apps will show:
   
     - a) all validators and their stats
         - validator as a block producer of certain blockchain
       - weight
         - whole amount of stake that has been bonded from this validator and from his nominators
-      - ffline states
+      - offline states
         - number of times the node has been caught offline
       - blocks for last 24h
         - numbers of blocks produced by this node
@@ -106,7 +106,13 @@ Please add information setting into sufficient detail the following (usually two
   **Phase 2 - the second ½ of funding - week 4-10:**
   
   (with respective documentation)
+  License: Apache 2.0
   
+    Alerting will be done:
+    1. webhook, to allow programmatically any type of alert
+    2. setup for external emailing service. User will be prompted while installation to optionally provide his email address
+    
+    Alerts:
     - a) Alert when some malicious validator activity occurred
       - double signing notification
         - when one validator produce 2 blocks with the same validator key
@@ -155,7 +161,7 @@ Also helpful to know: what are the team&#39;s long-term plans and intentions aft
   
 **Licensing**
 
-MIT software license
+Apache 2.0 software license
 
 **Additional Information**
 
