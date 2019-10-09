@@ -39,7 +39,10 @@ The team has extensive experience in blockchain development (substrate and Ether
 * Tony is financial market veteran with 20+ year extensive experience as trading manager, dealer, and market maker. He was previously Chief Dealer of a multi-national financial institution, and has managed annual multi-billion dollar (in USD) investment portfolio. He advises the Laminar team anything finance and trading.
 
 ## Team Code Repos
+* Protocol documentation and Ethereum reference implementation: https://github.com/laminar-protocol/flow-protocol-ethereum
+* Protocol whitepapers: https://github.com/laminar-protocol/flow-protocol-whitepaper
 * https://github.com/laminar-protocol/flowchain
+* Oracle: https://hackmd.io/2JtsjvzAQqq5QqFox5lufg?view
 
 ## Team LinkedIn Profiles
 * https://www.linkedin.com/in/ruitaosu/<Ruitao Su>
