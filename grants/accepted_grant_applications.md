@@ -2,12 +2,14 @@
 
 This page gives an overview of accepted grants and a link to their GitHubs. 
 
+---
+
 ## Table of Contents
 
-- [Wave 0](#-wave-0)
-- [Wave 1 - First Quarter 2019](#-wave-1)
-- [Wave 2 - Second Quarter 2019](#-wave-2)
-- [Wave 3 - Third Quarter 2019](#-wave-3)
+- [Wave 0](#wave-0)
+- [Wave 1 - First Quarter 2019](#wave-1)
+- [Wave 2 - Second Quarter 2019](#wave-2)
+- [Wave 3 - Third Quarter 2019](#wave-3)
 
 ## Wave 0
 - [ChainSafe](https://chainsafe.io/) - Gossamer: A Go implementation of the Polkadot Runtime Environment ([GitHub](https://github.com/ChainSafe/gossamer))
