@@ -225,4 +225,5 @@ Financial information is sent by the Google form.
 
 
 ## Additional Information
-Any additional information that you think is relevant to this application that hasn't already been included.
+
+Nil.
