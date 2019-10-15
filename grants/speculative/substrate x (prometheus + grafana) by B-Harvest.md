@@ -47,22 +47,28 @@
 
 ### Deliverables
 
-- PRs on substrate and polkadot repository allowing prometheus exporter built in as a default feature, including its configuration
+- PRs on substrate and polkadot repository allowing prometheus exporter built in as a default feature, including its configuration.
 - a public repository which allows users to easily adapt prometheus-grafana server with built-in pages and alarming features.
+- All deliverable repositories provided will have Apache 2 license.
+
+### Feature Testing Environment
+
+- We will provide a procedure to adopt the new feature into Kusama so that anyone can test the new Prometheus-Grafana feature.
+- We will also provide a guide to adopt this feature on mainnet Polkadot when it is launched
 
 ### Milestones
 
--   *(1 weeks)*
-    Consult with substrate devs to agree on PR implementation details
+-   *(4 weeks)*
+    Consult with substrate devs to agree on PR implementation details and develope prometheus exporter built in substrate with basic data spec
 
--   *(3 weeks)*
-    Develope prometheus exporter built in substrate with basic data spec
+-   *(2 weeks)*
+    Expand the data spec provided by prometheus with broader range with optionality by configuration and provide a public repository for prometheus-grafana easy installation using implemented prometheus exporter in substrate
 
--   *(1 weeks)*
-    Expand the data spec provided by prometheus with broader range with optionality by configuration
 
--   *(1 weeks)*
-    Provide a public repository for prometheus-grafana easy installation using implemented prometheus exporter in substrate
+
+### Commitment
+
+We understand that our role as a granted contributor is a significant responsibility and will make it a priority. We will do our best to deliver the product as quality as possible with due diligence.
 
 ## Additional Information
 
