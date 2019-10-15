@@ -18,7 +18,7 @@ This page gives an overview of accepted grants and a link to their GitHubs. Keep
 -   [Validators](http://validators.com/) - Open Source Scalable Cluster ([GitHub](https://github.com/Validators))
 -   [Enzyme](http://blockxlabs.com/) - Browser extension wallet
 -   [Speckle OS](https://www.speckleos.io/) - Browser extension wallet ([GitHub](https://github.com/SpeckleOS/speckle-browser-extension))
--   [Noise Explorer](https://symbolic.software/) - Rust code generator for formally verified (Noise/ cryptographic) handshakes ([GitHub](https://github.com/SymbolicSoft/noiseexplorer))
+-   [Noise Explorer](https://symbolic.software/) - Rust code generator for formally verified (Noise/ cryptographic) handshakes ([Source Code](https://source.symbolic.software/noiseexplorer/noiseexplorer))
 -   [Protos](http://protosmanagement.com/) - Open Source Node Explorer
 -   [Supercomputing Systems](https://www.scs.ch/) - Substrate Transaction Privacy using Intel SGX ([GitHub](https://github.com/scs/substraTEE))
 
