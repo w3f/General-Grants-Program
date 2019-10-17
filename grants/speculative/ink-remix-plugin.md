@@ -22,8 +22,10 @@ Further on deploy command to multiple networks would be built at the top when in
 Company in Republic of Croatia
 
 ## Team's experience
-* Edi is a blockchain architect and technical writer working on multiple projects in the blockchain space with previous experience working for both RChain and Ethereum. Similar tool that he has built is https://rchain.cloud/ where he learned a lot about scalling solutions like this and UX. Also a DevOps guy that is fascinated by power of modern tools like Kubernetes.
-* Darko is a senior full-stack developer specialized in Spring, Node.js and React development with extensive knowledge of linux systems. 
+* Edi is a blockchain architect and technical writer working on multiple projects in the blockchain space with previous experience working for both RChain and Ethereum. Similar tool that he has built is https://rchain.cloud/ where he learned a lot about scalling solutions like this and UX. Also a DevOps guy that is fascinated by power of modern tools like Kubernetes. (https://github.com/edisinovcic)
+* Darko is a senior full-stack developer specialized in Spring, Node.js and React development with extensive knowledge of linux systems. (https://github.com/dark64)
+
+Companies Github: https://github.com/blockchain-it-hr
 
 We've also previously built ZoKrates as a Remix plugin (zkSNARKs on Ethererum) that is wasm based and it runs all inside React plugin and rchain.cloud which is a IDE built on the same principle as our proposition.
 
