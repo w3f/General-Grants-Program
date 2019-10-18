@@ -151,6 +151,7 @@ Alex is a BSc Electrical Engineering and Electrotechnologies. His skills include
 
 https://github.com/akropolisio
 https://github.com/akropolisio/akropolisOS-chain-node 
+https://github.com/akropolisio/polkadai-bridge
 
 ## Team Code Repos
 
