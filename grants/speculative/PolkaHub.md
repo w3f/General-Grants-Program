@@ -22,37 +22,47 @@ The proposed system enables automatic updates and resource management for runnin
 
 7. Polkahub supports Node deployment to remote servers or cloud infrastructure via git. 
 
-8. Polkahub infrastructure is based on buildpacks (industry standard for managing containers in the cloud).
+8. Polkahub infrastructure is based on  Docker Container Services such as Kubernetes.
 
-9. Buildpacks provides high-level interfaces for isolated environments within the node's execution. Easily scaled, managed and updated.
+9. Docker provides high-level interfaces for isolated environments within the node's execution. Easily scaled, managed and updated.
 
-10. No need to rely on DevOps and System Administration for managing parachain’s infrastructure - thanks to PolkaHub. You only git, command line and a simpleweb-interface. 
+10. No need to rely on DevOps and System Administration for managing parachain’s infrastructure - thanks to PolkaHub. You only git, command line and a simple web-interface. 
 
-11. Sample basic scenario - node deployment infrastructure using PolkaHub: 
-   * Download PolkaHub utility
-   
-   * Get deployment token via PolkaHub utility
-   
-   * Insert in command line “git push https://token.polkadhub.io master: development”, where master:development is an active branch of code. 
-   
-   * PolkaHub automatically creates buildpacks, installs all dependencies, sets needed settings and deploys application. 
-   
-   * When the process is completed the parachain will be accessible through a link https://testchain.polkahub.io/
-   
-   * wss://testchain.polkahub.io
-   
-   * Also, the developer can publish his parachain on the PolkaHub Explorer. The description and documentation for the project will be automatically sourced from the Readme and Docs folder. 
+11. PolkaHub provides web interface containing description of existing parachains:
 
+* What’s the purpose of this chain, what problems does it solve
 
-12. Basic scenario for dapp developer: 
+* Documentation
 
-    * Visit https://explorer.polkahub.io
+* Configuration/Installation guides
 
-    * Select parachain, read its documentation. 
+* RPC link
 
-    * Copy RPC / Websocket links
+12. Sample basic scenario - node deployment infrastructure using PolkaHub: 
 
-    * Build apps for this parachain
+* Download PolkaHub utility
+
+* Get deployment token via PolkaHub utility
+
+* Insert in command line “git push https://token.polkadhub.io master: development”, where master:development is an active branch of code. 
+
+* PolkaHub automatically creates images, installs all dependencies, sets needed settings and deploys application. 
+
+* When the process is completed the parachain will be accessible through a link https://testchain.polkahub.io/
+wss://testchain.polkahub.io
+
+* Also, the developer can publish his parachain on the PolkaHub Explorer. The description and documentation for the project will be automatically sourced from the Readme and Docs folder. 
+
+13. Basic scenario for dapp developer: 
+
+* Visit https://explorer.polkahub.io
+
+* Select parachain, read its documentation. 
+
+* Copy RPC / Websocket links
+
+* Build apps for this parachain
+
 
 
 ## Why the Polkadot ecosystem needs Polkahub
@@ -67,7 +77,7 @@ For example, you have 2 nodes in your parachain. And you want to launch other 8 
 
 ## Feature list
 
-**Buildpacks (smart container)**
+**Smart container**
 
 * Provide a balance of control that reduces the operational burden on developers and supports enterprise operators who manage apps at scale.
 
@@ -117,83 +127,89 @@ Recent team updates:
 
 * [Partnership](https://medium.com/akropolis/empowering-informal-economies-via-defi-poa-network-and-akropolis-announce-their-partnership-d8abe8bd0c74) with POA Network (xDAI chain), towards better UX standards for end-user adoption.
 
-* [Latest development update](https://medium.com/akropolis/akropolis-development-update-82aaee0f5ee2) featuring work up-to-date, future plans and sneak peek of MVP (out until the end of June)
+* [Latest development update](https://medium.com/akropolis/akropolis-development-update-august-2019-2b54318566a1?source=collection_home---4------0-----------------------) featuring work up-to-date, future plans and sneak peek of MVP
 
 
 **Alex Maz (CTO)**:
 
 Blockchain engineer, educator and an active founding member of St.Petersburg Blockchain Association, Alex graduated with BSc Applied Mathematics and Computing Sciences and is a PhD (cand.) Machine Learning. Blockchain developer and miner since 2012, he has 16 scientific publications focussing on natural language recognition and 10 commercially implemented applications to his name. Alex has shipped products in fintech, banking, and gaming, and is passionate about educating the new generation of blockchain developers. Full-stack developer with over 15 years experience (C#/.NET, Golang,  Java, Solidity).
 
-**Alex Koz (Blockchain R&D)**
-
-Software Engineer, Consultant, Game Developer & reverse-engineering enthusiast. OSS enthusiast, active contributor of DDG, Haxe. Over 15 years of development of real-world applications since 2000. Worked for many companies such as SmartGames, Dulton Media, Games.Mail.ru, Leo Burnett, Rambler, Clickberry, and others.
-
 **Dmitriy Serdcev (Senior Frontend Developer)**
 
-Dmitriy is an experienced frontend developer with MSc in Computer Science and over 15 years experience, having shipped over 8 commercial projects, including those using DLT technology. Active participant of open-source projects and all things web3.0.
+Dmitriy is an experienced frontend developer with MSc in Computer Science. He has15 years of experience in the field,  and has shipped over 8 commercial projects, including those using DLT technology. 
 
-**Dima Hursevich**
-Have more then 4 years of development expierence, including blockchain and trading projects. Dima's skills includes deep knowledge in Typescript, Redux, React Native. He was also engaged in mobile apps development, projects architecture optimization and functional updatings. Graduated from the Tomsk Polytechnic University, BSc Computer Science.
+**Andrew Orlov**
+
+Andrew is a MSc Computer systems, Complexes and Networks. His skills include Rust, Erlang, Elixir, Python, Haskell, WASM, Polkadot/Substrate. He has 13+ years in commercial software development.
+
+
+**Alex Gnatovskyi**
+
+Alex is a BSc Electrical Engineering and Electrotechnologies. His skills include Rust, NodeJs, Python, React, Polkadot/Substrate. Alex has 2.5+ years of commercial development experience.
 
 ## Team Github
 
 https://github.com/akropolisio
-https://github.com/akropolisio/akropolis-polkadot
+https://github.com/akropolisio/akropolisOS-chain-node 
 
 ## Team Code Repos
 
-https://github.com/AlexanderMazaletskiy
-
-https://github.com/fzzr-
-
 https://github.com/in19farkt
 
-https://github.com/Burize/ 
+https://github.com/AlexanderMazaletskiy
+
+https://github.com/andor0 
+
+https://github.com/alekspickle 
 
 ## Team LinkedIn Profiles
 
 https://www.linkedin.com/in/alexander-mazaletskiy/
 
-https://www.linkedin.com/in/akozlovskij
-
 https://www.linkedin.com/in/dmitriy-serdtsev-8307b617b/
 
 ## Target Programming Language
 
-Golang, Rust, Javascript (nodejs)
+Rust, Javascript (nodejs)
 
 ## Development Roadmap
 
-1 month: research and creation of the buildpacks API for Substrate Nodes. Technical Polkahub functionalities for this stage:
+**1 Milestone - Architecture & Tech design**
 
-* Creation of images for different Substrate nodes. 
-* Updating Substrate Nodes using buildpacks’ high-level abstraction
+1. Technical and design Specs delivery 
 
-**Deliverables**:
-1. Buildpacks for 3 substrate-based parachains are created (for example, ChainX, ZeroChain, Edgeware)
-2. Deployment, management, updating nodes in PolkaHub
-3. Full documentation of Polkahub PaaS the alongside technical design description. 
+2. AkropolisOSChain’s docker image 
 
+3.  Polkahub-cli functionality: 
 
-2 month: building Hub / web-portal for buildpacks. We will be working on the creation of buildpacks for main projects in the Polkadot ecosystem and on the deployment of clusters for managing bulidpacks using [dokku](http://dokku.viewdocs.io) and [Flynn](https://flynn.io).  We  will create the specification on how to create buildpacks. Developers will be able to do it following our specification and will be able to upload their buildpacks to the portal. Other developers/users will be able to download different buildpacks. 
+- Deploy existing image (we will use AkropolisOSChain as an demo) to Kubernetes
 
-As a result it will be a web portal like https://thegraph.com with a set of builpacks. 
+- PolkaHub version system (support different node versions) - ability to deploy different versions of node to Kubernetes
 
-**Deliverables**: 
-1. Polkahub’s CLI (command line interface) for managing server and Substrate Nodes
-2. Node Deployment to production using buildpacks(setup paths for RPC, websockets  etc)
-3. Web portal 
+**2 Milestone - Stable version of polkahub-cli**
 
+1. Polkahub’s CLI (command line interface) for server management and Substrate Nodes: 
 
-3 month: testing and launching
+- Authorisation functionality - ability to get auth token via PolkaHub CLI
 
-**Deliverables**:
-1. Utility is tested (code coverage, bugfixes) of Polkahub and Polkahub Server
-2. The functionality of utility: 
-  * Using buildpacks for launching Substrate-based networks
-  * Uploading buildpacks to our PaaS (polkahub.io by default)
-  * Installing buildpacks to your servers works through a command line. 
-3. Tutorial for polkahub utility, polkahub server / FAQ uploaded to github / web-portal. 
+- Working polkahub-cli using auth token: Insert in command line “git push https://token.polkadhub.io master: development”, where master:development is an active branch of code. 
+
+2. Polkahub support of continuous integration/continuous deployment tools: PolkaHub automatically creates images, installs all dependencies, sets needed settings and deploys application. When the process is completed the parachain will be accessible through a link https://testchain.polkahub.io/
+
+**3 Milestone - Bug Fixing & Documentation**
+
+1. Ready-for-deployment docker images for Kusama, Alexander
+
+2. Web portal with description of existing parachains:
+
+- What’s the purpose of this chain, what problems does it solve
+
+- Documentation
+
+- Configuration/Installation guides
+
+- RPC link
+
 
 
 
@@ -211,9 +227,6 @@ We provide the Polkahub PaaS infrastructure. Therefore, to test the functionalit
 
 Then you can check on http://telemetry.polkadot.io that a new node has appeared on the network and is working correctly. 
 
-**Why do you need buildpacks-based utility?**
-
-Buildpacks is an isolated environment description format and standard for providing access to manage this environment. It can be used on any cloud service (Azure, AWS, Google Cloud) or Docker. 
 
 
 **Is it open source?** 
