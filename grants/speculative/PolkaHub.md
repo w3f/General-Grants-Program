@@ -1,5 +1,9 @@
 # PolkaHub. Scalable Blockchain Infrastructure
 
+## Updates since prior version 
+
+We will build using Kubernetes instead of Flynn. This will somewhat increase the scope of our work (which we will absorb at our expense), however as a trade-off it will allow us to maintain a  more unified development process of PaaS by coding it entirely on Rust (Kubernetes) vs switching to Go (Flynn).
+
 
 ## Introduction
 This proposal features “Platform-as-a-Service (PaaS) for Substrate Nodes”: inspired by [Heroku](https://heroku.com), aiming to create a managed container system, with one-click services for deploying and running different parachain. 
