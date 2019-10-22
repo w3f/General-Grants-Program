@@ -142,6 +142,41 @@ The creation, distribution, transfer, and destruction of user’s cross-chain as
 - Bridge interface protocol
 - Custom command for cli
 
+## Overview
+##### Milestone 1
+Use RUST to refactor the base component library of the EOS method, enabling the Substrate Runtime Module to build EOS Block, transaction, initiate RPC, rewrite P2P Message, generate public and private keys, and verify.
+
+##### Milestone 2
+Improve the SPV client, support Bifrost node and EOS node P2P protocol communication, EOS local network, test network, main network outbound block monitoring and filtering, complete the block header Merkel tree verification, and initiate multi-signal transactions from Bifrost to EOS network , complete the EOS network transfer bridge contract deployment.
+
+##### Milestone 3
+The interoperable bridge runtime module development enables the interoperable bridge to complete Bifrost and EOS bidirectional operation, package Bifrost EOS interoperable bridge node docker image, open interoperable bridge interface protocol, and complete custom interactive commands.
+ 
+## Demo
+##### Milestone 1
+1. Install RUST
+```
+# curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
+```
+
+2. Clone rust-eos repository
+```
+# git clone https://github.com/bifrost-codes/rust-eos
+```
+
+3. Run Cargo test
+```
+# cargo test
+# test result: SUCCESSED. 100 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out
+```
+
+##### Milestone 2
+on the way…
+
+##### Milestone 3
+on the way…
+
+
 ## Additional Information
 The Roadmap related code will be packaged into a docker container for verification, and the EOS interoperable bridge will be released at the Bifrost POC-3 stage. We hope to apply $30k of grant support to drive the development of a generic EOS interoperability transfer bridge. DOT and USDT We are happy to accept :)
 
