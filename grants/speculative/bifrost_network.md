@@ -146,8 +146,6 @@ The creation, distribution, transfer, and destruction of user’s cross-chain as
 ##### Milestone 1
 Use RUST to refactor the base component library of the EOS method, enabling the Substrate Runtime Module to build EOS Block, transaction, initiate RPC, rewrite P2P Message, generate public and private keys, and verify.
 
-Developers can use the `cargo test` directive in Instructions for environment testing and refer to the generated test case for development reference.
-
 ##### Milestone 2
 Improve the SPV client, support Bifrost node and EOS node P2P protocol communication, EOS local network, test network, main network outbound block monitoring and filtering, complete the block header Merkel tree verification, and initiate multi-signal transactions from Bifrost to EOS network , complete the EOS network transfer bridge contract deployment.
 
@@ -156,7 +154,7 @@ The interoperable bridge runtime module development enables the interoperable br
  
 ## Demo
 ##### Milestone 1
-RUST-EOS is the Substrate component library, run the following command to use the test case, Tips: complete use case in the test case.
+RUST-EOS is the Substrate component library, run the following command for environment testing and refer to the generated test case for development reference.
 
 1. Install RUST
 ```
