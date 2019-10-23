@@ -1,44 +1,76 @@
-# Global Polkadot Meetups
-We invite people across the globe to organise Polkadot meetups in their local cities.
+# Host a Polkadot & Web 3 Community Meetup
+This guide has the goal of getting you set up best on hosting your first Web 3 community meetups. The Web 3 community can host, source funding, acquire swag, and learn how to host your own Meetup or workshop here. This guide covers the main steps you need to get your own meetup off the ground. 
 
-There is no requirement to contact us, but we think there is a lot to be gained from working together. We are keen to talk with people who can work in a self-directed manner. We envision that meetups will mainly be organised through meetup.com since this seems to be the defacto standard for creating local meetup groups. The plan is to have multiple active meetup groups across the world.
+**There are 4 main steps to consider.**
+1. [Applying to Run a Meetup](#apply)
+2. [Planning & Organization](#planning)
+3. [Hosting your Meetup](#host)
+4. [Post event Feedback](#post) 
+ 
 
-# Create an "Issue" to get started
-On the [issues page](https://github.com/w3f/Web3-collaboration/issues) you can see past meetups the community has organized. If you see your city listed then feel free to reply, if you don't see your city listed then feel free to open a new issue (please follow the naming convention being used). This is where you can coordinate with other community members!
+## Applying to run a meetup <a name="apply"></a>
 
-**Template Issue**
+**Apply to organize a meetup** [here](https://airtable.com/shrl0S6GoqkSozR7C)
 
-* What is the plan:
-* Number of people on your team:
-* Do you need help from W3F:
-* Do you need help from the community:
 
-To gain a better understanding what of your response should look like, we recommend reading over the examples page:
+## Planning & Organization <a name="planning"></a>
 
-[Response Examples](https://github.com/w3f/Web3-collaboration/blob/master/response-examples.md)
+**A. Fundamental steps (co-founders of meetup) & Budget**
 
-# Apply for funding
-Web3 Foundation is committed to supporting organizations of all sizes that engage and expand the Web 3.0 and Polkadot communities. If you are interested in hosting an event or setting up a community organization, you can apply for a grant [here](https://docs.google.com/forms/d/1Jqi_P6T5ECX_WTHZ6qqKhxgd51-ivRUNoLT80H7UZ1U/edit).
+<ol>  i.	The first step to a successful (recurring) meetup in ensuring you have a solid team of co-founders to help carry the weight. It’s crucial if you intend to continually grow a community around a meetup to select a dedicated crew to help out with the organization, planning, promotion, food & drinks etc. It’s also best to ahead of time agree on certain aspects (eg. food planner, A/V guy, marketing) you’ll be responsible for at the planning for each meetup. 
+  
+  ii.	The next most important thing to consider is budget, most meetup planning starts 4-6 weeks before the meetup, and it’s suggested to get your meetup page live at least 3 weeks before the actual date so you can estimate successfully the amount of food & drinks. Consider that most meetups have 50-70% attendance on the final RSVP #’s so keep the budget in mind for that.
+  
+  iii. Many times the event space can be provided in locations for free, if you need help finding an event location some good    resources are usually, universities, entrepreneur centers & social locations. Meetup.com provides a good resource on this topic.
+  </ol>
+   
+   
+**B. Speakers & or materials needed (for presentations)**
 
-# How to host a Polkadot meetup
-We have published a guide on how to host a good meetup, please see here: [how to host a meetup](https://github.com/w3f/Web3-collaboration/blob/master/howtohostameeup.md)
+<ol>i.Consider who your speaker will be and find out what presentation materials they may need. In many cases a presenter may be comfortable creating their own materials, templated resources are also provided for custom materials.
+</ol>
 
-# Presentation material
-At the moment, most of our presentation material is held privately but we are happy to share with meetup organisers.
+**C. Marketing & signups (what platform will you use)**
 
-* **Polkadot** template Presentation: [Link](https://docs.google.com/presentation/d/1cV_qalyxvnBkiSTamRB4D8VTekgMS84aNBby0hmRXU4/edit?usp=sharing)
-* Fabian & Rob's presentation: introduction to Polkadot + consensus and finality: [Link](https://docs.google.com/presentation/d/1I0Q6jOhz-oj8yJ4-f0a1HlV1G8gVMTFjy-Ipk_Bn4h0/edit?usp=sharing)
-* Edward Thomson's presentation slides that has an intro to W3F and **Polkadot**. It covers the problems Polkadot is solving, plus there is section on consensus and finality: [Link](https://docs.google.com/presentation/d/1DjusMwuHi4ubqcwbBGlidPqff7kNpMaFqGSnenrpyxI/edit?usp=sharing), [Video](https://www.video.ethz.ch/events/2018/web3.html)
-* Rob Habermeier's presentation on Interoperability with **Polkadot**: [Link](https://docs.google.com/presentation/d/1wQf_4ipFRGHLxqsQjCmWWKKH-Qspn1dAA6a7P9Tk3A4/edit?usp=sharing)
-* Slides from Gavin Wood's **Substrate** presentation at EventHorizon18: [Link](https://slides.com/paritytech/paritysubstrate)
-* Slides from Gavin Wood's **Substrate** and Governance presentation at EdCon18: [Link](https://slides.com/paritytech/polkadot-governance)
-* Slides from Gavin Wood's **Substrate** presentation at Web3Summit: [Link](https://docs.google.com/presentation/d/15gQ4-8lP3ivGnCigW_K8QiygsW2YNPETOwe2SaTllZY/edit?usp=sharing)
+<ol>i.For marketing you may consider reaching out to local community groups that you are connected with in your region, many times other meetups in your area can be a great resource for new growth of your meetup. 
 
-Substrate is an example of a [Polkadot Runtime Environment](https://github.com/w3f/Web3-wiki/wiki/Polkadot-Runtime-Environment) that can be used to create blockchains (including parachains).
+ii.Make sure your messaging is concise in clear in what the goals of the meetup are, eg. is this a group that intends to run / host multiple meetups; or are you just getting your feet wet with a one-off event. Also consider who the main audience for your meetup topic may be.
+</ol>
 
-# Logos
-* [Polkadot Logos](https://www.dropbox.com/sh/avobfu5pi8rffwa/AABaSxSwv_Tk_z8yYvVxGq-3a?dl=0)
-* [Web3 Foundation Logos](https://www.dropbox.com/sh/giezcsj8a0ygo8p/AACHbx4nwXI3KvQLQq5g5wxLa?dl=0)
+**D. Timelines & Agenda**
 
-# Meetup videos
-Watch previous meetup videos on the Web3 Foundation [Youtube](https://www.youtube.com/channel/UClnw_bcNg4CAzF772qEtq4g). 
+<ol>i.In practice it’s best to plan your meetup at least 6 weeks ahead of time. You’ll want to announce your meetup at least 3 weeks before the event, so you’ll be able to plan the food & drinks in advance.</ol>
+
+
+## Hosting your meetup/s <a name="host"></a>
+
+**A. Signs & materials**
+
+*Make sure your meetup is easy to find! If your venue may not be in plain view from the street/posted address, please post directional signs around the vicinity to ensure everyone’s arrival. 
+		
+
+**B. Food & beverage**
+
+We typically see pizza and beer as the standard at our meetups, but whenever available, we encourage local specialties! For example, we offered various local Chinese delicacies at our recent meetups around mainland China, just as we offered top-notch Mission district tacos at our recent meetup in San Francisco.
+ 
+Altogether, plan to organize enough food for your expected RSVPs, but providing a feast is not necessary.
+
+
+**C. A/V** 
+Whenever possible, we encourage co-organizers to collect slides from presenters at least a few days in advance. This allows the co-organizer to upload all presentation materials to a platform like Google drive, so the transitions between speakers can be quick and efficient.
+ 
+When this isn’t possible, it is important to make sure that the venue offers all standard A/V assets (HDMI, USB-C, or any Thunderbolt adapters). Speakers should prepare their slides or any visual materials in a 16:9 format to maintain consistency across presentations over the course of the event. 
+
+
+**D. Available Presentation / Design assets for the community** 
+
+Polkadot template presentation: [here](https://docs.google.com/presentation/d/1mJRdIbddrmn9lemhh2yqjXY6BglxrzmZBG1wxl_gdvo/edit?usp=sharing)
+
+Substrate template presentation: [here](https://docs.google.com/presentation/d/1dhaoLb5V2K_vDe4EJlUcKwePD1nMktr57fOdSo8bHns/edit#slide=id.g45ee0ba2ab_3_12)
+
+[Polkadot Logos found here .ZIP file](https://polkadot.network/brand)
+
+## Post-event feedback <a name="post"></a>
+After your event you can consider leaving feedback for how your experience was working with us and what we could do to help improve your meetup going off without a hitch! 
+[here](https://airtable.com/shr44bEJL7fMpiaSG)
+
