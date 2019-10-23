@@ -58,7 +58,7 @@ The above specifications fall into three categories:
 
 ## Development Roadmap
 To build a tool compliant with the above specifications, the below milestones will be set:
-* **Milestone 1 - Adapt P.A.N.I.C. to Substrate (22 MDs)**:
+* **Milestone 1 - Adapt P.A.N.I.C. to Substrate (23 MDs)**:
   * Research about data sources and what can be alerted on. This includes reaching out to other users to target the specific needs of the community. The result is a list of alerts, such as “No. of peers decreased from x to y”
   * Implement monitors and alerts, including a data source wrapper with the necessary parsing of data to make querying cleaner and reusable
   * Adapt Telegram interaction to Substrate-based nodes
@@ -66,12 +66,14 @@ To build a tool compliant with the above specifications, the below milestones wi
   * Implement setup and re-configuration process
   * Unit, integration, and system testing and optimisations
   * Package the working product as a docker container
-* **Milestone 2 - Implement web UIs (18 MDs)**:
+  * Basic documentation on design and setup
+* **Milestone 2 - Implement web UIs (19 MDs)**:
   * Design and mockups
   * Implementation and connections to P.A.N.I.C. for the configuration UI
   * Implementation and connections to P.A.N.I.C. for the dashboard UI
   * Testing and optimisations
   * Add the two web UIs to the docker container
+  * Basic documentation on design and setup
 * **Milestone 3 - Documentation and Further Testing (11 MDs)**:
   * Security assessment
   * Documentation equivalent in detail to that in v1.0.0 of the current P.A.N.I.C on the design and features of its various components of the tool
@@ -86,11 +88,13 @@ The following deliverables will be available once the milestones are reached:
   * Working and tested alerter that satisfies points 1 to 7 of the specification.
   * The alerter packaged as a docker container.
   * Report outlining the results of the testing and any optimisations applied.
+  * Basic documentation on design and setup.
 * At milestone 2:
   * Working configuration web UI that satisfies point 8 of the specification.
   * Working dashboard web UI that satisfies point 9 of the specification.
   * The two UIs packaged in the same docker container as the alerter.
   * Report outlining the results of the tests and any optimisations applied.
+  * Basic documentation on design and setup.
 * At milestone 3:
   * Documentation on design and features of the tool and its components.
   * Documentation on setup and running of the tool and its requirements.
