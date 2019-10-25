@@ -42,6 +42,7 @@ If you are considering applying for a grant, please follow the process below.
        
 1. **Review**
    * The W3F will review the applications received, determine if more information is required and potentially schedule a call with the team.
+   * Parity Technologies may also assist in the review of some applications.
    
 1. **Decision**
    * The W3F will notify the applicants of whether their proposal has been accepted for grant funding or not.
