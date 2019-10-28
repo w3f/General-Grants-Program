@@ -9,14 +9,15 @@ This page gives an overview of accepted grants and a link to their GitHubs. Keep
 - [Wave 1 - First Quarter 2019](#wave-1)
 - [Wave 2 - Second Quarter 2019](#wave-2)
 - [Wave 3 - Third Quarter 2019](#wave-3)
+- [Wave 4 - Fourth Quarter 2019](#wave-4)
 
 ## Wave 1
 -   [ChainSafe](https://chainsafe.io/) - Polkadot Runtime Environment in Go (via an RFP) ([GitHub](https://github.com/ChainSafeSystems/gossamer))
 -   [Soramitsu](https://soramitsu.co.jp/) - Polkadot Runtime Environment in C++ (via an RFP) ([GitHub](https://github.com/soramitsu/kagome))
--   [Polkascan](https://polkascan.io/) - Open Source Block Explorer ([GitHub](https://github.com/polkascan))
+-   [WEB3SCAN](https://www.web3scan.com/) - Polkascan: Open Source Block Explorer ([GitHub](https://github.com/polkascan))
 -   [Polkawallet](https://polkawallet.io/) - Mobile Wallet ([GitHub](https://github.com/polkawallet-io/polkawallet-RN))
 -   [Validators](http://validators.com/) - Open Source Scalable Cluster ([GitHub](https://github.com/Validators))
--   [Enzyme](http://blockxlabs.com/) - Browser extension wallet
+-   [BlockX Labs](http://blockxlabs.com/) - Enzyme Browser extension wallet ([GitHub](https://github.com/blockxlabs/enzyme))
 -   [Speckle OS](https://www.speckleos.io/) - Browser extension wallet ([GitHub](https://github.com/SpeckleOS/speckle-browser-extension))
 -   [Noise Explorer](https://symbolic.software/) - Rust code generator for formally verified (Noise/ cryptographic) handshakes ([Source Code](https://source.symbolic.software/noiseexplorer/noiseexplorer))
 -   [Protos](http://protosmanagement.com/) - Open Source Node Explorer
@@ -51,3 +52,11 @@ This page gives an overview of accepted grants and a link to their GitHubs. Keep
 -   SubSocial - SRML and UI for decentralized communities ([GitHub](https://github.com/dappforce/dappforce-subsocial-node))
 -   [pLibra ](https://plibra.io/)- Bridge between Polkadot and a Libra chain ([GitHub](https://github.com/libra-china-org))
 -   [Wiv ](http://wiv.io/)- Supply chain modules and front-end UI ([GitHub](https://github.com/wivtech))
+
+## Wave 4
+- [Genesis Lab](https://genesislab.net/) - Validator Tracker ([GitHub](https://github.com/genesis-lab-team))
+- [Usetech](http://usetech.com/blockchain.html) - Substrate API in .NET ([GitHub](https://github.com/usetech-llc/polkadot_api_dotnet))
+- [BlockX Labs](http://blockxlabs.com/) - Enzyme Browser extension wallet ([GitHub](https://github.com/blockxlabs/enzyme))
+- [WEB3SCAN](https://www.web3scan.com/) - Python API client ([GitHub](https://github.com/polkascan))
+- [Block Unison](https://blockunison.com/) - Polkalert: Validator Monitoring 
+
