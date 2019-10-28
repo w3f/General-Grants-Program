@@ -152,20 +152,4 @@ The W3F is interested in providing grants within the following areas of interest
 * Researchers
   * Universities/Professors
  
-## Guidelines for community engagement grants
-Community engagement grants are intended to fund high-quality community engagement efforts such as meetups, workshops and hackathons.
-
-The degree of financial support for each applicant is likely to be within the $3,000 to $10,000 range. The maximum funding for a single grant is $30,000.
-
-### Areas of interest for community engagement grants
-Funding is available for any short-term strategy that promotes community engagement. This statement is purposefully vague as we wish to be open to applications that promote community engagement in creative ways. However, we believe the majority of approved applications will be for events such as:
-
-  * Meetups (check out our [meetup kit](https://github.com/w3f/Web3-collaboration/blob/master/meetups.md) with how-to's and materials)
-  * Workshops (e.g. setting up a Polkadot node or writing a Substrate Runtime Module)
-  * Hackathons
-  
-If any of these areas are of interest to you then please make a speculative application to request funding for your project. 
-  
-### Who we are interested in funding
-The community engagement program will only consider funding companies and teams with an established track record of successful community engagement work. Grant funding for this category is not available to individuals.
     
