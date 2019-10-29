@@ -8,12 +8,12 @@ If you are considering applying for a grant, please follow the process below.
 1. **Determine the scope of your project**
    * Review the appropriate areas of interest:
      * [Areas of interest for technical grants](#areas-of-interest-for-technical-grants)
-     * [Areas of interest for community engagement grants](#areas-of-interest-for-community-engagement-grants)
+     * Areas of interest for community engagement grants (the community engagement grants program is currently on-hold)
      
      If your idea isn&rsquo;t listed, but you think it&rsquo;s cool, you can send us an [email](mailto:grants@web3.foundation) and tell us about it.
    * Ensure the scope of your project falls within the appropriate guidelines
      * [Guidelines for technical grants](#Guidelines-for-technical-grants)
-     * [Guidelines for community engagement grants](#Guidelines-for-community-engagement-grants)
+     * Guidelines for community engagement grants (the community engagement grants program is currently on-hold)
      
    Once you determine that your project falls within the areas of interest and corresponds to the guidelines above, proceed to the next step.
    
@@ -26,13 +26,12 @@ If you are considering applying for a grant, please follow the process below.
         Partially public applications that limit financial information (e.g. funding amount requested) to the Google form are preferred. However, teams are free to make fully public applications as well as fully private applications. 
     
         * [technical grant application](https://docs.google.com/forms/d/e/1FAIpQLSfMfjiRmDQDRk-4OhNASM6BAKii7rz_B1jWtbCPkUh6N7M2ww/viewform)  
-       * [community engagement grant application](https://docs.google.com/forms/d/e/1FAIpQLSetcOWe18KQ2E2CkrlEclZ0jkUypw5N5iX1erVcF8TJJxizmQ/viewform)
-       
+        
         Teams that chose to make a fully private application are done. Teams that have chosen to make a fully or partially public application should proceed to the next step.
        
     1. Fully or partially public applications should be made via a pull request to this repo by following the steps below.
        1. Fork this repository.
-       1. In the newly created fork, create a copy of the [technical grant template](https://github.com/w3f/Web3-collaboration/blob/master/grants/grant_application_template.md) or the [community engagament grant template](https://github.com/w3f/Web3-collaboration/blob/master/grants/grant_application_template_community.md).
+       1. In the newly created fork, create a copy of the [technical grant template](https://github.com/w3f/Web3-collaboration/blob/master/grants/grant_application_template.md).
            * Most applications should go into the [speculative](https://github.com/w3f/Web3-collaboration/tree/master/grants/speculative) sub-folder.
            * In the few cases where the application is a response to specific RFP then the application should go into the [targeted](https://github.com/w3f/Web3-collaboration/tree/master/grants/targeted) sub-folder.
        1. Label the file as "project_name.md".
