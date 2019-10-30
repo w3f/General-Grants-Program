@@ -45,7 +45,26 @@ Incorporated in Japan
 
 ## Development Roadmap
 
-Add it shortly. 
+Plasm Development + OVM implementation
+
+* **Milestone1: Plasm DApps reward mechanism + OVM specification 8 weeks** 
+    * We will implement the DApps reward mechanism called [Plasm Treasury](https://www.reddit.com/r/dot/comments/d6uhqa/new_incentive_design_on_parachain/) on Plasm Network.
+    * Make an OVM specification for Substrate.
+    * Make a document about how to implement OVM on Substrate.
+* **Milestone2: Lockdrop runtime module + OVM contract implementation 8 weeks**
+    * Implement a Lockdrop module so that every project can use Lockdrop. 
+    * Make a set of OVM contract libraries with ink!(smart contract language on Substrate).
+    * Make a documentation about above specifications.
+* **Milestone3: Plasm Operator trading + OVM Child chain implementation 5 weeks**
+    * Implement the logics of Plasm operator trading.
+    * Implement child chains that correspond to OVM.
+    * More speficically, we will implemet the connectors between Plasm child chain and Substrate OVM contract.
+* **Milestone4: Documentation & Tutrial**
+
+
+#### What is Plasm operator trading?
+
+Operator trading is a mechanism to buy and sell the right to be a Plasma operator. Since the right is tradable, this is similer to M&A. A plasma operator gets constant basic income by creating Plapps owning to Plasm treasury. If the Plapp is meaningful for the community, the creator receives higher revenue. As a result, other players may want the right to operate the Plapp. The successor will receive the reward instead of a previous operator. The important thing is that the buyer does not need to take over the operation itself though the buyer has ownership. Through this mechanim, we assume that the new off-chain market will be created. 
 
 ## Additional Information
 
@@ -59,7 +78,7 @@ We have been developing Plasm Network and launched the first testnet and publish
 
 ### Have you applied for other grants so far?
 
-* Yes. We have applied Plasm in the wave2.
+* Yes. We have applied Plasm in the wave2 and finished all milestones. This is a continuous application.
 
 ### Are there any other projects similar to yours?
 
