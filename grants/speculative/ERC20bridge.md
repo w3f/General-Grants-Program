@@ -243,7 +243,7 @@ Apache 2.0
 
 ### Exhibit A. Ethereum to Substrate Transfers
 
-<img src="https://github.com/akropolisio/Web3-collaboration/blob/apeir99n-erc20bridge/grants/speculative/images/bridge1.png" alt="drawing" />
+<img src="https://github.com/akropolisio/Web3-collaboration/blob/apeir99n-erc20bridge/grants/speculative/images/bridge2.png" alt="drawing" />
 
 1. Sender calls **setTransfer**(amount, recipient) function and gets messageID - unique identifier of bridge transfer.
 
@@ -283,7 +283,7 @@ Types:
 
 ### Exhibit B:  Substrate to Ethereum transfers
 
-<img src="https://github.com/akropolisio/Web3-collaboration/blob/apeir99n-erc20bridge/grants/speculative/images/bridge2.png" alt="drawing" />
+<img src="https://github.com/akropolisio/Web3-collaboration/blob/apeir99n-erc20bridge/grants/speculative/images/bridge1.png" alt="drawing" />
 
 1. Sender calls **set_transfer**(recipient, amount) function and gets messageID - unique identifier of bridge transfer.
 
