@@ -12,8 +12,6 @@
 *SubstrateDAI which will work independently for now, and aims to participate in the auction after the Polkadot launch to become a parachain in the network. Therefore SubstrateDAI (sDAI for short) has the possibility of being one of the first (if not the only) stablecoin chain on Polkadot, and could be leveraged by other parachains for DeFi or other applications.*
 
 
-## Acknowledgements
-We would like to thank @igorpoa and @afri for review and helpful feedback.
 
 
 ## Reference Documentation
