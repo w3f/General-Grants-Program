@@ -1,5 +1,4 @@
-# [PoC] ERC20 – Polkadot Bridge
-
+# PolkaBridge
 
 
 
