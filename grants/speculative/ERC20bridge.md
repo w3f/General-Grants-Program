@@ -25,7 +25,7 @@ In preparation of this specification, the following documents have been consider
 
 4. [XCLAIM: Trustless, Interoperable, Cryptocurrency-Backed Assets](https://eprint.iacr.org/2018/643.pdf)
 
-PoC Demonstration
+## PoC Demonstration
 
 1. [Demo](https://polkadai-bridge.akropolis.io)
 
