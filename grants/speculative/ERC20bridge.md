@@ -24,9 +24,9 @@ In preparation of this specification, the following documents have been consider
 
 PoC Demonstration
 
-1. [https://polkadai-bridge.akropolis.io](https://polkadai-bridge.akropolis.io)
+1. [Demo](https://polkadai-bridge.akropolis.io)
 
-2. [https://github.com/akropolisio/POC-polkadai-bridge](https://github.com/akropolisio/POC-polkadai-bridge)
+2. [Github](https://github.com/akropolisio/POC-polkadai-bridge)
 
 3. [Demo video](https://www.dropbox.com/s/8nic1r7932e5iyj/Screen%20Recording%202019-09-27%20at%2018.01.30.mov?dl=0)
 
