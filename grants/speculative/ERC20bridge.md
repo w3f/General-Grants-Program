@@ -243,7 +243,6 @@ Apache 2.0
 
 - Define bridge validators set (3-4 well-known blockchain companies)
 
-- Report from security auditor
 
 
 ## Appendices
