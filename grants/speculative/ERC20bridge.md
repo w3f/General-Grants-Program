@@ -60,15 +60,15 @@ Ethereum chain:
 
 1. Token bridge contract
 
-2. the contract receives requests from the user to relay assets (tokens) to the SubstrateDAI, the corresponding amount of tokens is locked on the contract
+2. The contract receives requests from the user to relay assets (tokens) to the SubstrateDAI, the corresponding amount of tokens is locked on the contract
 
-3. the contract allows to limit bridge operations: minimum/maximum amount of tokens per one transaction and maximum amount of tokens per day
+3. The contract allows to limit bridge operations: minimum/maximum amount of tokens per one transaction and maximum amount of tokens per day
 
-4. the contract provides a permanent address for the bridge operations
+4. The contract provides a permanent address for the bridge operations
 
-5. the contract manages the list of bridge validators, a bridge validator can be added or removed from the list
+5. The contract manages the list of bridge validators, a bridge validator can be added or removed from the list
 
-6. the contract collects confirmation calls from the bridge validators, checks if enough confirmations collected and releases the tokens
+6. The contract collects confirmation calls from the bridge validators, checks if enough confirmations collected and releases the tokens
 
 SubstrateDAI chain: 
 
