@@ -16,7 +16,7 @@ In preparation of this specification, the following documents have been consider
 
 1. [Polkadot Bridges RFP](https://github.com/w3f/Web3-collaboration/issues/155)
 
-2. [https://docs.google.com/document/d/1yMpiSAAvGeRebLlzl5fmcq_LloIViperTw4UUEuQYzM/edit](https://docs.google.com/document/d/1yMpiSAAvGeRebLlzl5fmcq_LloIViperTw4UUEuQYzM/edit)
+2. [Polkadot Bridges RFP doc](https://docs.google.com/document/d/1yMpiSAAvGeRebLlzl5fmcq_LloIViperTw4UUEuQYzM/edit)
 
 3. [Polkadot Bridges: Design Considerations for Bridging to PoW Chains](https://hackmd.io/UVzp6Z-bRAOo9Ny531yhmA)
 
