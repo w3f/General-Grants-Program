@@ -220,7 +220,7 @@ The following work has already been completed by the team at own cost:
 - PoC: 
 	- Multi-sig smart contract on Solidity
 	- Substrate module for bridge validators
-	- Simple UI/UX
+	- [Simple UI/UX](https://polkadai-bridge.akropolis.io/)
 - Basic documentation of the PoC functionality (Appendices: Exhibit A, Appendices: Exhibit B.)
 
 The Development roadmap below assumes a 3-month delivery. We split it into a weekly schedule of 13 weeks to reflect the nature of the workload and aid in your assessment of key deliverables: granular specification work at first, followed by focussed development. 
@@ -239,7 +239,7 @@ Technical and design specification delivery
 
 **Deliverables:**
 
-The detailed specification of the abstract architecture of a decentralized bridge between Ethereum and Substrate-based chain with diagrams according to Polkadot Bridges RFP. 
+The detailed specification of the abstract architecture of a decentralized bridge between Ethereum and Substrate-based chain with diagrams according to [Polkadot Bridges RFP](https://docs.google.com/document/d/1yMpiSAAvGeRebLlzl5fmcq_LloIViperTw4UUEuQYzM/edit). 
 
 ### 2 Milestone: DAO-like bridge validator management  (3-4 weeks) 
 We will add DAO-like voting functionality for bridge validators (one validator - one vote) for managing bridge parameters: 
