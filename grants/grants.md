@@ -8,12 +8,12 @@ If you are considering applying for a grant, please follow the process below.
 1. **Determine the scope of your project**
    * Review the appropriate areas of interest:
      * [Areas of interest for technical grants](#areas-of-interest-for-technical-grants)
-     * Areas of interest for community engagement grants (the community engagement grants program is currently on-hold)
+     * ~~Areas of interest for community engagement grants~~ (the community engagement grants program is currently on-hold)
      
      If your idea isn&rsquo;t listed, but you think it&rsquo;s cool, you can send us an [email](mailto:grants@web3.foundation) and tell us about it.
    * Ensure the scope of your project falls within the appropriate guidelines
      * [Guidelines for technical grants](#Guidelines-for-technical-grants)
-     * Guidelines for community engagement grants (the community engagement grants program is currently on-hold)
+     * ~~Guidelines for community engagement grants~~ (the community engagement grants program is currently on-hold)
      
    Once you determine that your project falls within the areas of interest and corresponds to the guidelines above, proceed to the next step.
    
