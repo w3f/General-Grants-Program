@@ -147,8 +147,8 @@ Recent team updates:
 - Winner of a 0x+Coinlist DeFi Hackathon. Developed a new economic primitive ["Committments to Future Cashflows"](http://cashflowrelay.com/)
 
 - [C2FC Implementation on Substrate](https://github.com/akropolisio/akropolis-polkadot) and its [telemetry](https://telemetry.polkadot.io/#/Akropolis).
-POC implementation of [Ethereum-Polkadot bridge](https://github.com/akropolisio/POC-polkadai-bridge). 
-Last development updates include launch [DAO module with DeFi integrations](https://medium.com/akropolis/akropolis-launches-the-first-testnet-afo-governance-module-9fbde56ce33f) and [tools for Polkadot ecosystem](https://medium.com/akropolis/akropolis-development-update-august-2019-2b54318566a1) (Browser extension and Staking Portal). 
+- POC implementation of [Ethereum-Polkadot bridge](https://github.com/akropolisio/POC-polkadai-bridge). 
+- Last development updates include launch [DAO module with DeFi integrations](https://medium.com/akropolis/akropolis-launches-the-first-testnet-afo-governance-module-9fbde56ce33f) and [tools for Polkadot ecosystem](https://medium.com/akropolis/akropolis-development-update-august-2019-2b54318566a1) (Browser extension and Staking Portal). 
 
 
 **Alex Maz (CTO)**
@@ -213,35 +213,114 @@ Rust, Javascript/Typescript, Solidity
 
 Apache 2.0
 
-## Development Roadmap
+## Development Roadmap & Milestones
 
-**1 Milestone - full specification (1 month)**
-
-- Technical and design specs delivery 
-
-- Basic documentation of the PoC functionality
+The following work has already been completed by the team at own cost: 
 
 - PoC: 
 	- Multi-sig smart contract on Solidity
 	- Substrate module for bridge validators
-	- Simple UI/UX. 
- 
+	- Simple UI/UX
+- Basic documentation of the PoC functionality (Appendices: Exhibit A, Appendices: Exhibit B.)
 
-**2 Milestone - implementation (2nd-3rd month)**
+The Development roadmap below assumes a 3-month delivery. We split it into a weekly schedule of 13 weeks to reflect the nature of the workload and aid in your assessment of key deliverables: granular specification work at first, followed by focussed development. 
 
-- Technical and design Specs delivery 
-
-- Bridge Monitoring tool
-
-- Validators managing functionality (ability to add/remove validator, finality options, etc)
-
-- Managing daily limits and other options in order to minimize possible damage in case of attacks
-
-- Validator nodes incentivization (bridge fee, slashing, etc)
- 
-**3 Milestone - security audit & launch (4rd-5th month)**
+After the 3-month roadmap is completed, we propose the following: 
 
 - Define bridge validators set (3-4 well-known blockchain companies)
+
+- Security audit
+
+- Launch bridge
+ 
+### 1 Milestone:  full specification (2 weeks)
+
+Technical and design specification delivery 
+
+**Deliverables:**
+
+The detailed specification of the abstract architecture of a decentralized bridge between Ethereum and Substrate-based chain with diagrams according to Polkadot Bridges RFP. 
+
+### 2 Milestone: DAO-like bridge validator management  (3-4 weeks) 
+We will add DAO-like voting functionality for bridge validators (one validator - one vote) for managing bridge parameters: 
+
+- add validator/remove validator 
+
+- stop bridge/launch the bridge
+
+**Deliverables:**
+
+1. We will provide a tutorial on how to use this functionality, with examples of use and installation.
+
+2. We will provide the simple UI, which allows bridge validator owners to call functioвns specified in the milestone. 
+As a result of calling functions, voting will be launched. Other validators will be able to vote for or against the application. Applications received the majority of votes will be accepted and will lead to change the set of validators or stop/launch bridge. 
+
+3. We will provide fully documented code, specs, and test coverage of all important functions. 
+
+4. Ethereum smart contracts will be deployed to Ropsten/Kovan or Rinkeby. 
+
+### 3 Milestone: DAO-like managing of bridge settings  (5-6 weeks)
+ 
+ We will add DAO-like voting functionality for bridge validators (one validator - one vote) for managing bridge parameters: 
+
+- manage transaction volumes, max/min transaction amount, max daily limits 
+
+- finality settings: how many blocks are waiting for confirmation on the side of Ethereum and on the side of Substrate.
+
+**Deliverables:**
+
+1. We will provide a tutorial of how to use this functionality, with examples of use and installation.
+
+2. We will provide the simple UI, which allows bridge validator owner to call functions specified in the milestone.
+As a result of calling functions, voting will be launched. Other validators will be able to vote for or against the application. Applications received the majority of votes will be accepted and will lead to a change of bridge parameters. 
+
+3. We will provide fully documented code, specs, and test coverage of all important functions.
+
+4. Ethereum smart contracts will be deployed to Ropsten/Kovan or Rinkeby. 
+
+### 4 Milestone: changing bridge parameters on Substrate-side  (7-8 weeks)
+
+We will develop an SRML module for a validator that will read parameters from Ethereum DAO and transfer them to a Substrate-based chain.
+
+**Deliverables:**
+
+1. We will provide a tutorial on how to use this functionality, with examples of use and installation.
+
+2. We will provide tutorials on how to test this functionality using polkadot-js. 
+The user will be able to look at the bridge parameters on the Substrate-side and verify that when changing the bridge parameters on the Ethereum-side, information about the bridge parameters is updated on the Substrate-side
+
+3. We will provide a fully documented code of SRML modules, specs, and test coverage of all important functions. We will provide Substrate-chain with deployed SRML-module. 
+
+4. We will provide docker containers for testing functionality
+
+### 5 Milestone: Validators incentivization (9-10 weeks)
+We will add validator incentivization functionality: 
+
+- bridge validator locks some funds as collateral, that can be slashed in case of the validator is going offline or is dishonest
+
+- bridge gets fees for transferring tokens from one side to another and distributes it among bridge validators proportionally
+
+**Deliverables:**
+
+1. We will provide a tutorial on how to use this functionality, with examples of use and installation.
+
+2. We will provide tutorials on how to test this functionality.
+
+3. We will provide a fully documented code of Smart-contracts and SRML modules, specs, and test coverage of all important functions.
+
+4. We will provide docker containers for testing functionality
+
+### 6 Milestone: Bridge monitoring tool (11-13 weeks)
+
+We will provide a validator monitoring tool: simple UX showing list of validators and their status (online/offline), list of transfers through bridge and number of locked tokens. 
+
+**Deliverables:**
+
+1. We will provide a tutorial on how to use this functionality, with examples of use and installation
+
+2. Command-line tool written in Rust
+
+3. Backend in Rust and UI for browsing functionality described above
 
 
 
