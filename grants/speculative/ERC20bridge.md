@@ -5,18 +5,24 @@
 
 ## Abstract
 
+*As a first step towards Ethereum-Polkadot interoperability, we have been working on an ERC20-Polkadot bridge. Please note that the proposed solution can be easily modified to be an Ethereum-Polkadot bridge vs ERC20-Polkadot version.*  
+
 *In order to implement an ERC20 bridge we created a special Substrate-based chain (SubstrateDAI). The bridge validator nodes are launched together with the oracles of the token bridge and are separate software modules. The oracles listen to one of the chains (Ethereum or SubstrateDAI) and register bridge-related events, perform actions to approve relay requests from validators by collecting signatures, and send confirmation of approval to the other side of the bridge. The Ethereum to SubstrateDAI transfer will result in the creation of a newly minted token on SubstrateDAI chain known as sDAI.*
 
 *SubstrateDAI which will work independently for now, and aims to participate in the auction after the Polkadot launch to become a parachain in the network. Therefore SubstrateDAI (sDAI for short) has the possibility of being one of the first (if not the only) stablecoin chain on Polkadot, and could be leveraged by other parachains for DeFi or other applications.*
+
+
+## Acknowledgements
+We would like to thank @igorpoa and @afri for review and helpful feedback.
 
 
 ## Reference Documentation
 
 In preparation of this specification, the following documents have been considered:
 
-1. [Polkadot Bridges RFP](https://github.com/w3f/Web3-collaboration/issues/155)
+1. [Polkadot Bridges RFP - Github](https://github.com/w3f/Web3-collaboration/issues/155)
 
-2. [Polkadot Bridges RFP doc](https://docs.google.com/document/d/1yMpiSAAvGeRebLlzl5fmcq_LloIViperTw4UUEuQYzM/edit)
+2. [Polkadot Bridges RFP](https://docs.google.com/document/d/1yMpiSAAvGeRebLlzl5fmcq_LloIViperTw4UUEuQYzM/edit)
 
 3. [Polkadot Bridges: Design Considerations for Bridging to PoW Chains](https://hackmd.io/UVzp6Z-bRAOo9Ny531yhmA)
 
@@ -98,6 +104,10 @@ SubstrateDAI to Ethereum:
 Detailed process flow is described in Appendices: Exhibit B.
 
 ## Satisfaction of Requirements
+
+In our specification, we sought to pre-empt the requirements outlined in  [Polkadot Bridges RFP - Github](https://github.com/w3f/Web3-collaboration/issues/155) and [Polkadot Bridges RFP - Gdoc](https://docs.google.com/document/d/1yMpiSAAvGeRebLlzl5fmcq_LloIViperTw4UUEuQYzM/edit).
+
+
 **Security:**
 
 - Tokens can be issued in the Substrate-chain only after the ERC20 tokens are locked on the bridge contract [implemented in PoC];
