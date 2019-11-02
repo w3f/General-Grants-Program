@@ -224,7 +224,15 @@ The following work has already been completed by the team at own cost, and revie
 - Basic documentation: Appendices: Exhibit A, Appendices: Exhibit B.
 
 Building on the completed and reviewed PoC, we propose a development roadmap below assuming a 3-month delivery. We split it into a weekly schedule of 13 weeks to reflect the agile nature of the workload and aid in the assessment of key deliverables. Once specification is approved, weekly deliverables can be bundled together if preferred. 
- 
+
+After the 3-month roadmap is completed, we propose the following:
+
+- Define bridge validators set (3-4 well-known blockchain companies)
+
+- Security audit
+
+- Launch bridge
+
 ### 1 Milestone:  full specification (2 weeks)
 
 Technical and design specification delivery 
