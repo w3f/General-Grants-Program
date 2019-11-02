@@ -239,7 +239,7 @@ Technical and design specification delivery
 
 **Deliverables:**
 
-The detailed specification of the abstract architecture of a decentralized bridge between Ethereum and Substrate-based chain with diagrams according to [Polkadot Bridges RFP](https://docs.google.com/document/d/1yMpiSAAvGeRebLlzl5fmcq_LloIViperTw4UUEuQYzM/edit). 
+A detailed architecture specification of a bridge between Ethereum and Substrate-based chain with diagrammes according to [Polkadot Bridges RFP](https://docs.google.com/document/d/1yMpiSAAvGeRebLlzl5fmcq_LloIViperTw4UUEuQYzM/edit). 
 
 ### 2 Milestone: DAO-like bridge validator management  (3-4 weeks) 
 We will add DAO-like voting functionality for bridge validators (one validator - one vote) for managing bridge parameters: 
