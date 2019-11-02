@@ -122,7 +122,7 @@ the bridge supports any ERC20 token and any address pairs <Ethereum, Substrate> 
 
 **Redemption option**: implemented without any restriction in PoC
 
-**Consistency:** tokens can be issued in the Substrate-chain only after the ERC20 tokens are locked on the bridge contract. [PoC]
+**Consistency:** tokens can be issued in the Substrate-chain only after the ERC20 tokens are locked on the bridge contract. [implemented in PoC].
 
 **Auditability:** all bridge transactions can be tracked using the block explorer (etherscan and polkadot-js). 
 
@@ -215,23 +215,15 @@ Apache 2.0
 
 ## Development Roadmap & Milestones
 
-The following work has already been completed by the team at own cost: 
+The following work has already been completed by the team at own cost, and reviewed by the MakerDAO team: 
 
 - PoC: 
 	- Multi-sig smart contract on Solidity
 	- Substrate module for bridge validators
 	- [Simple UI/UX](https://polkadai-bridge.akropolis.io/)
-- Basic documentation of the PoC functionality (Appendices: Exhibit A, Appendices: Exhibit B.)
+- Basic documentation: Appendices: Exhibit A, Appendices: Exhibit B.
 
-The Development roadmap below assumes a 3-month delivery. We split it into a weekly schedule of 13 weeks to reflect the nature of the workload and aid in your assessment of key deliverables: granular specification work at first, followed by focussed development. 
-
-After the 3-month roadmap is completed, we propose the following: 
-
-- Define bridge validators set (3-4 well-known blockchain companies)
-
-- Security audit
-
-- Launch bridge
+Building on the completed and reviewed PoC, we propose a development roadmap below assuming a 3-month delivery. We split it into a weekly schedule of 13 weeks to reflect the agile nature of the workload and aid in the assessment of key deliverables. Once specification is approved, weekly deliverables can be bundled together if preferred. 
  
 ### 1 Milestone:  full specification (2 weeks)
 
@@ -321,7 +313,6 @@ We will provide a validator monitoring tool: simple UX showing list of validator
 2. Command-line tool written in Rust
 
 3. Backend in Rust and UI for browsing functionality described above
-
 
 
 ## Appendices
