@@ -97,7 +97,9 @@ Jonathan Perkins will be an engineer on the project and will be in charge of pro
 
 ### Specification Details
 
-### Account Methods
+#### RPC Endpoints
+
+##### Account Methods
 
 - author_insertKey
 
@@ -109,7 +111,7 @@ Jonathan Perkins will be an engineer on the project and will be in charge of pro
 
 - author_submitExtrinsic
 
-### chain
+##### Chain
 
 - chain_getBlock
 
@@ -123,15 +125,15 @@ Jonathan Perkins will be an engineer on the project and will be in charge of pro
 
 - chain_subscribeNewHeads
 
-### contracts
+##### Contracts
 
 - contracts_call
 
-### rpc
+##### Rpc
 
 - rpc_methods
 
-### state
+##### State
 
 - state_call
 
@@ -161,7 +163,7 @@ Jonathan Perkins will be an engineer on the project and will be in charge of pro
 
 - state_subscribeStorage
 
-### system
+##### System
 
 - system_chain
 
