@@ -92,3 +92,89 @@ Jonathan Perkins will be an engineer on the project and will be in charge of pro
 - Tutorial w/ examples & diagrams
 
 #### Payout: \$10,000 USD
+
+## Additional Information
+
+### Specification Details
+
+#### RPC Endpoints
+
+##### Account Methods
+
+- author_insertKey
+
+- author_pendingExtrinsics
+
+- author_removeExtrinsic
+
+- author_rotateKeys
+
+- author_submitExtrinsic
+
+##### Chain
+
+- chain_getBlock
+
+- chain_getBlockHash
+
+- chain_getFinalizedHead
+
+- chain_getHeader
+
+- chain_subscribeFinalizedHeads
+
+- chain_subscribeNewHeads
+
+##### Contracts
+
+- contracts_call
+
+##### Rpc
+
+- rpc_methods
+
+##### State
+
+- state_call
+
+- state_getChildKeys
+
+- state_getChildStorage
+
+- state_getChildStorageHash
+
+- state_getChildStorageSize
+
+- state_getKeys
+
+- state_getMetadata
+
+- state_getRuntimeVersion
+
+- state_getStorage
+
+- state_getStorageHash
+
+- state_getStorageSize
+
+- state_queryStorage
+
+- state_subscribeRuntimeVersion
+
+- state_subscribeStorage
+
+##### System
+
+- system_chain
+
+- system_health
+
+- system_name
+
+- system_networkState
+
+- system_peers
+
+- system_properties
+
+- system_version
