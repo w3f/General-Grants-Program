@@ -48,19 +48,44 @@ Incorporated in Japan
 Plasm Development + OVM implementation
 
 * **Milestone1: Plasm DApps reward mechanism + OVM specification 8 weeks** 
-    * We will implement the DApps reward mechanism called [Plasm Treasury](https://www.reddit.com/r/dot/comments/d6uhqa/new_incentive_design_on_parachain/) on Plasm Network.
-    * Make an OVM specification for Substrate.
-    * Make a document about how to implement OVM on Substrate.
-* **Milestone2: Lockdrop runtime module + OVM contract implementation 8 weeks**
-    * Implement a Lockdrop module so that every project can use Lockdrop. 
-    * Make a set of OVM contract libraries with ink!(smart contract language on Substrate).
-    * Make a documentation about above specifications.
-* **Milestone3: Plasm Operator trading + OVM Child chain implementation 5 weeks**
-    * Implement the logics of Plasm operator trading.
-    * Implement child chains that correspond to OVM.
-    * More speficically, we will implemet the connectors between Plasm child chain and Substrate OVM contract.
-* **Milestone4: Documentation & Tutrial**
 
+* **M1: Plasm Operator Trading**
+    * Implementing the logics of Plasm operator trading.
+    * Plasm Operator trading is an SRML.
+    * Making a UI demo by using Polkadot JS.
+    * Basic documentation to explain how to obtain and test the software.
+    * Delivering the software inside a Docker container.
+* **M2: OVM Specification**
+    * OVM is proposed by Plasma Group and its contract and client are still under the development. So we will keep contributing to make general design and implementation of OVM and especially in this grant, we make a specification for Substrate & Polkadot.
+    * Making a documentation about how to implement OVM on Plasm Network.
+* **M3: DApps Reward Mechanism**
+    * Implementing the logics of Plasm DApps reward mechanism.
+    * We will make a SRML so that other projects can reuse this mechanism.
+    * Make a demo.
+    * Basic documentation to explain how to obtain and test the software.
+    * Delivering the software inside a Docker container.
+* **Milestone 4: Lockdrop Module**
+    * Implementing Lockdrop modules (for Substrate) so that everyone can use Lockdrop.
+    * This is ETH lockdrop contract and BTC lockdrop contract (script).
+    * Basic documentation to explain how to obtain and test the software.
+    * Delivering the software inside a Docker container.
+* **Milestone 5: OVM Plasma contract**
+    * Designing minimal OVM Plasma contracts written in ink!.
+    * Designing a shared commitment and deposit contract.
+    * Designing and implementing Universal Adjudication Contract and dispute resolution logic for Substrate contracts.
+    * Implementing basic predicates (a little piece of smart contracts that function as either an atomic proposition or logical operator) to construct a smart contract that resolves L2 disputes for Substrate
+    * Combining the basic predicates, we will add a necessary set of predicates for Plasma and offline atomic swap.
+    * Basic documentation to explain how to obtain and test the software.
+    * Delivering the software inside a Docker container.
+* **Milestone 6: Substrate adapter of Plasma child chain**
+    * Designing L1 adapter for Substrate from plasma childchain.
+    * Implementing L1 adapter for Substrate from plasma childchain.
+    * Basic documentation to explain how to obtain and test the software.
+    * Delivering the software inside a Docker container.
+* **Milestone 7: Documentation and Optimization**
+    * Writing a document for smart contract development on Plasm
+    * Adding a code generator for Substrate to the OVM compiler, which enables optimized claim size and dispute cost (TBD)
+    * Make a demo and a tutorial in English and in Japanese.
 
 #### What is Plasm operator trading?
 
