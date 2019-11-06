@@ -47,8 +47,6 @@ Incorporated in Japan
 
 Plasm Development + OVM implementation
 
-* **Milestone1: Plasm DApps reward mechanism + OVM specification 8 weeks** 
-
 * **M1: Plasm Operator Trading**
     * Implementing the logics of Plasm operator trading.
     * Plasm Operator trading is an SRML.
