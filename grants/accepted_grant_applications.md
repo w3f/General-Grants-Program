@@ -32,7 +32,7 @@ This page gives an overview of accepted grants and a link to their GitHubs. Keep
 -   [ZeroChain](https://layerx.co.jp/) - Zero knowledge transactions in Substrate ([GitHub](https://github.com/LayerXcom/zero-chain))
 -   [Robonomics](https://aira.life/en/) - Substrate modules for controlling robots ([GitHub](https://github.com/airalab/substrate-node-robonomics))
 -   [Avado](https://ava.do/) - Polkadot node deployment with consumer hardware (GitHub)
--   [Plasm](https://staked.co.jp/) - Plasma modules for Substrate ([GitHub](https://github.com/stakedtechnologies/Plasm))
+-   [Staked](https://staked.co.jp/) - Plasma modules for Substrate ([GitHub](https://github.com/stakedtechnologies/Plasm))
 -   [HOPR](https://hopr.network/) - Substrate integration with this P2P messaging protocol ([GitHub](https://github.com/validitylabs/HOPR-PL-Substrate))
 -   [Mailchain](https://mailchain.xyz/) - a Multi-Blockchain Messaging Application ([GitHub](https://github.com/mailchain))
 -   [Usetech](http://usetech.com/blockchain.html) - Polkadot C++ API ([GitHub](https://github.com/usetech-llc/polkadot_api_cpp))
@@ -59,4 +59,11 @@ This page gives an overview of accepted grants and a link to their GitHubs. Keep
 - [BlockX Labs](http://blockxlabs.com/) - Enzyme Browser extension wallet ([GitHub](https://github.com/blockxlabs/enzyme))
 - [WEB3SCAN](https://www.web3scan.com/) - Python API client ([GitHub](https://github.com/polkascan))
 - [Block Unison](https://blockunison.com/) - Polkalert: Validator Monitoring 
-
+- [Bandot](http://bandot.io/) - Stablecoin ([GitHub](https://github.com/bandotorg/Bandot))
+- [Laminar One](https://laminar.one/) - FlowChain parachain with SDK and App ([GitHub](https://github.com/laminar-protocol/flowchain))
+- [Staked](https://staked.co.jp/) - Ink! Playground ([GitHub](https://github.com/stakedtechnologies/ink-playground))
+- [B-Harvest](https://bharvest.io/) - Node Monitoring Tool ([GitHub](https://github.com/b-harvest))
+- [Simply VC](https://simply-vc.com.mt/) - P.A.N.I.C. Validator alerting solution
+- [Ethworks](https://ethworks.io/) - Polkadot{.js} extension improvements ([GitHub](https://github.com/ethWorks))
+- [Lyken Software Solutions](https://lyken.rs/) - Investigation of runtime compilation
+- [Blockchain IT](blockchain-it.hr) - Ink! Remix Plugin ([GitHub](https://github.com/blockchain-it-hr/ink-remix-plugin))
