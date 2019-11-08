@@ -8,12 +8,12 @@ If you are considering applying for a grant, please follow the process below.
 1. **Determine the scope of your project**
    * Review the appropriate areas of interest:
      * [Areas of interest for technical grants](#areas-of-interest-for-technical-grants)
-     * [Areas of interest for community engagement grants](#areas-of-interest-for-community-engagement-grants)
+     * ~~Areas of interest for community engagement grants~~ (the community engagement grants program is currently on-hold)
      
      If your idea isn&rsquo;t listed, but you think it&rsquo;s cool, you can send us an [email](mailto:grants@web3.foundation) and tell us about it.
    * Ensure the scope of your project falls within the appropriate guidelines
      * [Guidelines for technical grants](#Guidelines-for-technical-grants)
-     * [Guidelines for community engagement grants](#Guidelines-for-community-engagement-grants)
+     * ~~Guidelines for community engagement grants~~ (the community engagement grants program is currently on-hold)
      
    Once you determine that your project falls within the areas of interest and corresponds to the guidelines above, proceed to the next step.
    
@@ -26,13 +26,12 @@ If you are considering applying for a grant, please follow the process below.
         Partially public applications that limit financial information (e.g. funding amount requested) to the Google form are preferred. However, teams are free to make fully public applications as well as fully private applications. 
     
         * [technical grant application](https://docs.google.com/forms/d/e/1FAIpQLSfMfjiRmDQDRk-4OhNASM6BAKii7rz_B1jWtbCPkUh6N7M2ww/viewform)  
-       * [community engagement grant application](https://docs.google.com/forms/d/e/1FAIpQLSetcOWe18KQ2E2CkrlEclZ0jkUypw5N5iX1erVcF8TJJxizmQ/viewform)
-       
+        
         Teams that chose to make a fully private application are done. Teams that have chosen to make a fully or partially public application should proceed to the next step.
        
     1. Fully or partially public applications should be made via a pull request to this repo by following the steps below.
        1. Fork this repository.
-       1. In the newly created fork, create a copy of the [technical grant template](https://github.com/w3f/Web3-collaboration/blob/master/grants/grant_application_template.md) or the [community engagament grant template](https://github.com/w3f/Web3-collaboration/blob/master/grants/grant_application_template_community.md).
+       1. In the newly created fork, create a copy of the [technical grant template](https://github.com/w3f/Web3-collaboration/blob/master/grants/grant_application_template.md).
            * Most applications should go into the [speculative](https://github.com/w3f/Web3-collaboration/tree/master/grants/speculative) sub-folder.
            * In the few cases where the application is a response to specific RFP then the application should go into the [targeted](https://github.com/w3f/Web3-collaboration/tree/master/grants/targeted) sub-folder.
        1. Label the file as "project_name.md".
@@ -42,6 +41,7 @@ If you are considering applying for a grant, please follow the process below.
        
 1. **Review**
    * The W3F will review the applications received, determine if more information is required and potentially schedule a call with the team.
+   * Parity Technologies may also assist in the review of some applications.
    
 1. **Decision**
    * The W3F will notify the applicants of whether their proposal has been accepted for grant funding or not.
@@ -151,20 +151,4 @@ The W3F is interested in providing grants within the following areas of interest
 * Researchers
   * Universities/Professors
  
-## Guidelines for community engagement grants
-Community engagement grants are intended to fund high-quality community engagement efforts such as meetups, workshops and hackathons.
-
-The degree of financial support for each applicant is likely to be within the $3,000 to $10,000 range. The maximum funding for a single grant is $30,000.
-
-### Areas of interest for community engagement grants
-Funding is available for any short-term strategy that promotes community engagement. This statement is purposefully vague as we wish to be open to applications that promote community engagement in creative ways. However, we believe the majority of approved applications will be for events such as:
-
-  * Meetups (check out our [meetup kit](https://github.com/w3f/Web3-collaboration/blob/master/meetups.md) with how-to's and materials)
-  * Workshops (e.g. setting up a Polkadot node or writing a Substrate Runtime Module)
-  * Hackathons
-  
-If any of these areas are of interest to you then please make a speculative application to request funding for your project. 
-  
-### Who we are interested in funding
-The community engagement program will only consider funding companies and teams with an established track record of successful community engagement work. Grant funding for this category is not available to individuals.
     
