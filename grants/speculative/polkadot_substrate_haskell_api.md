@@ -56,10 +56,12 @@ Jonathan Perkins will be an engineer on the project and will be in charge of pro
 
 #### Deliverables:
 
-- Live repo for Haskell Substrate/Polkadot API with a readme that describes how to run, test & contribute
+- Live repo for Haskell Substrate/Polkadot API with a readme
+- Documentation that describes how to run and test
 - Docker environment with working local testnet
 - CI for building & testing
 - Haskell implementation of the SCALE codec (https://github.com/paritytech/parity-scale-codec)
+- Documentation for SCALE library
 - Type definitions for substrate types and codecs
 
 #### Payout: \$10,000 USD
@@ -72,6 +74,7 @@ Jonathan Perkins will be an engineer on the project and will be in charge of pro
 
 - Basic Substrate RPC implementation
 - Tests for RPC implementation
+- Documentation for RPC library
 - Metadata parsing library
 - Tests for metadata parsing library
 - Template Haskell for generating clients based off of API metadata
@@ -152,11 +155,6 @@ subscribeNewHeads :: ConduitT () Header m a
 
 ```
 
-
-
-
-
-
 ##### Contracts
 
 ```haskell
@@ -189,44 +187,58 @@ getChildStorageHash :: StorageKey -> StorageKey -> Maybe Hash -> m Hash
 -- | RPC Method: state_getChildStorageSize
 getChildStorageSize :: StorageKey -> StorageKey -> Maybe Hash -> m U64Int
 
--- | RPC Method: state_getChildStorageSize
-getChildStorageSize :: StorageKey -> StorageKey -> Maybe Hash -> m U64Int
+-- | RPC Method: state_getKeys
+getKeys :: StorageKey -> Maybe Hash -> m [StorageKey]
+
+-- | RPC Method: state_getMetadata
+getMetaData :: Maybe Hash -> m Metadata
+
+-- | RPC Method: state_getRuntimeVersion
+getRuntimeVersion :: Maybe Hash -> m RuntimeVersion
+
+-- | RPC Method: state_getStorage
+getStorage :: StorageKey -> Maybe Hash -> m StorageData
+
+-- | RPC Method: state_getStorageHash
+getStorageHash :: StorageKey -> Maybe Hash -> m Hash
+
+-- | RPC Method: state_getStorageSize
+getStorageSize :: StorageKey -> Maybe Hash -> m U64Int
+
+-- | RPC Method: state_queryStorage
+queryStorage :: [StorageKey] -> Hash -> Maybe Hash -> m [StorageChangeSet]
+
+-- | RPC Method: state_subscribeRuntimeVersion
+subscribeRuntimeVersion :: ConduitT () Header m a
+
+-- | RPC Method: state_subscribeStorage
+subscribeStorage :: [StorageKeys] -> ConduitT () Header m a
+
 ```
-
-
-
-
-
-- state_getKeys
-
-- state_getMetadata
-
-- state_getRuntimeVersion
-
-- state_getStorage
-
-- state_getStorageHash
-
-- state_getStorageSize
-
-- state_queryStorage
-
-- state_subscribeRuntimeVersion
-
-- state_subscribeStorage
 
 ##### System
 
-- system_chain
+```haskell
 
-- system_health
+-- | RPC Method: system_chain
+chain :: m String
 
-- system_name
+-- | RPC Method: system_health
+health :: m Health
 
-- system_networkState
+-- | RPC Method: system_name
+name :: m String
 
-- system_peers
+-- | RPC Method: system_networkState
+networkState :: m NetworkState
 
-- system_properties
+-- | RPC Method: system_peers
+peers :: m [PeerInfo]
 
-- system_version
+-- | RPC Method: system_properties
+properties :: m ChainProperties
+
+-- | RPC Method: system_version
+version :: m String
+
+```
