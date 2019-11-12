@@ -119,8 +119,8 @@ insertKey :: KeyType -> SubstrateURI -> PublicKey -> m ByteString
 pendingExtrinsics :: m [Extrinsic]
 
 -- | RPC Method: author_removeExtrinsic
-removeExtrinsic :: Extrinsic -> m [Hash]
-removeExtrinsicByHash :: Hash -> m [Hash]
+removeExtrinsic :: [Extrinsic] -> m [Hash]
+removeExtrinsicByHash :: [Hash] -> m [Hash]
 
 -- | RPC Method: author_rotateKeys
 rotateKeys :: m ByteString
