@@ -4,6 +4,8 @@ This is a public repository to help coordinate our collaboration efforts with te
 
 Our view is that the Polkadot platform will play a pivotal role in the Web 3 ecosystem. To get a better idea of how we think about the ecosystem, we invite you to look at our proposed [Web 3 tech stack](https://github.com/w3f/Web3-wiki/wiki/Tech-Stack).
 
+---
+
 - [About us](#about-us)
 - [How this repo will be used](#how-this-repo-will-be-used)
   - [Polkadot ecosystem issues](#polkadot-ecosystem-issues)
