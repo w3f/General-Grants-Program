@@ -17,7 +17,7 @@ Having only one single Rust implementation presents two major portability proble
 * If Rust cross-compiler is not available (like for many embedded CPUs), linking or pinvoking of Rust library becomes impossible
 * When Rust compiler or cross-compiler is available, pinvoking of Rust library is platform dependent and in many cases (e.g. with .NET) is not solved by finding an appropriate compiler: Some additional code tweaks are needed
 
-Having multiple implementations of SR25519 will allo developers in multiple langauges to integrate with Substrate natively without Rust dependency.
+Having multiple implementations of SR25519 will allow developers in multiple langauges to integrate with Substrate natively without Rust dependency.
 
 ### How SR25519 Ports Integrates into Substrate
 
@@ -25,7 +25,7 @@ SR25519 is one of the signing algorithms Substrate uses. Alexander testnet versi
 
 ### Why our Team is Interested
 
-We've been working on several Client APIs for Substrate, noticed this portability problem and got interested. This is an exceiting problem to solve, and we believe it will make jobs of many Substrate developers easier.
+We've been working on several Client APIs for Substrate, noticed this portability problem and got interested. This is an exciting problem to solve, and we believe it will make jobs of many Substrate developers easier.
 
 ## Team members
 * Alexander Mitrovich
