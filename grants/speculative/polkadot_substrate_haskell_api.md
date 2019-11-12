@@ -101,49 +101,101 @@ Jonathan Perkins will be an engineer on the project and will be in charge of pro
 
 ##### Account Methods
 
-- author_insertKey
+```haskell
+-- | RPC Method: account_nextIndex
+nextIndex :: AccountId -> m Index
+```
 
-- author_pendingExtrinsics
+##### Author Methods
 
-- author_removeExtrinsic
+```haskell
+-- | RPC Method: author_insertKey
+insertKey :: KeyType -> SubstrateURI -> PublicKey -> m ByteString
 
-- author_rotateKeys
+-- | RPC Method: author_pendingExtrinsics
+pendingExtrinsics :: m [Extrinsic]
+
+-- | RPC Method: author_removeExtrinsic
+removeExtrinsic :: Extrinsic -> m [Hash]
+removeExtrinsicByHash :: Hash -> m [Hash]
+
+-- | RPC Method: author_rotateKeys
+rotateKeys :: m ByteString
 
 - author_submitExtrinsic
+-- | RPC Method: author_submitExtrinsic
+submitExtrinsic :: Extrinsic -> m Hash
+```
 
 ##### Chain
 
-- chain_getBlock
+```haskell
+-- | RPC Method: chain_getBlock
+getBlock :: Maybe Hash -> m SignedBlock
 
-- chain_getBlockHash
+-- | RPC Method: chain_getBlockHash
+getBlockHash :: Maybe BlockNumber -> m Hash
 
-- chain_getFinalizedHead
+-- | RPC Method: chain_getFinalizedHead
+getFinalizedHead :: m Hash
 
-- chain_getHeader
+-- | RPC Method: chain_getHeader
+getHeader :: Maybe Hash -> m Header
 
-- chain_subscribeFinalizedHeads
+-- | RPC Method: chain_subscribeFinalizedHeads
+--   `ConduitT` may change if a preferred stream processing library is found.
+subscribeFinalizedHeads :: ConduitT () Header m a
 
-- chain_subscribeNewHeads
+-- | RPC Method: chain_subscribeNewHeads
+--   `ConduitT` may change if a preferred stream processing library is found.
+subscribeNewHeads :: ConduitT () Header m a
+
+```
+
+
+
+
+
 
 ##### Contracts
 
-- contracts_call
+```haskell
+-- | RPC Method: contracts_call
+call :: ContractCallRequest -> Maybe Hash -> m ContractExecResult
+```
 
 ##### Rpc
 
-- rpc_methods
+```haskell
+-- | RPC Method: rpc_methods
+methods :: m RpcMethods
+```
 
 ##### State
 
-- state_call
+```haskell
+-- | RPC Method: state_call
+call :: Method -> ByteString -> Maybe Hash -> m ByteString
 
-- state_getChildKeys
+-- | RPC Method: state_getChildKeys
+getChildKeys :: StorageKey -> StorageKey -> Maybe Hash -> m [StorageKey]
 
-- state_getChildStorage
+-- | RPC Method: state_getChildStorage
+getChildStorage :: StorageKey -> StorageKey -> Maybe Hash -> m StorageData
 
-- state_getChildStorageHash
+-- | RPC Method: state_getChildStorageHash
+getChildStorageHash :: StorageKey -> StorageKey -> Maybe Hash -> m Hash
 
-- state_getChildStorageSize
+-- | RPC Method: state_getChildStorageSize
+getChildStorageSize :: StorageKey -> StorageKey -> Maybe Hash -> m U64Int
+
+-- | RPC Method: state_getChildStorageSize
+getChildStorageSize :: StorageKey -> StorageKey -> Maybe Hash -> m U64Int
+```
+
+
+
+
 
 - state_getKeys
 
