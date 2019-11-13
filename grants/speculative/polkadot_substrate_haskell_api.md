@@ -125,7 +125,6 @@ removeExtrinsicByHash :: [Hash] -> m [Hash]
 -- | RPC Method: author_rotateKeys
 rotateKeys :: m ByteString
 
-- author_submitExtrinsic
 -- | RPC Method: author_submitExtrinsic
 submitExtrinsic :: Extrinsic -> m Hash
 ```
