@@ -56,10 +56,12 @@ Jonathan Perkins will be an engineer on the project and will be in charge of pro
 
 #### Deliverables:
 
-- Live repo for Haskell Substrate/Polkadot API with a readme that describes how to run, test & contribute
+- Live repo for Haskell Substrate/Polkadot API with a readme
+- Documentation that describes how to run and test
 - Docker environment with working local testnet
 - CI for building & testing
 - Haskell implementation of the SCALE codec (https://github.com/paritytech/parity-scale-codec)
+- Documentation for SCALE library
 - Type definitions for substrate types and codecs
 
 #### Payout: \$10,000 USD
@@ -72,6 +74,7 @@ Jonathan Perkins will be an engineer on the project and will be in charge of pro
 
 - Basic Substrate RPC implementation
 - Tests for RPC implementation
+- Documentation for RPC library
 - Metadata parsing library
 - Tests for metadata parsing library
 - Template Haskell for generating clients based off of API metadata
@@ -101,80 +104,141 @@ Jonathan Perkins will be an engineer on the project and will be in charge of pro
 
 ##### Account Methods
 
-- author_insertKey
+```haskell
+-- | RPC Method: account_nextIndex
+nextIndex :: AccountId -> m Index
+```
 
-- author_pendingExtrinsics
+##### Author Methods
 
-- author_removeExtrinsic
+```haskell
+-- | RPC Method: author_insertKey
+insertKey :: KeyType -> SubstrateURI -> PublicKey -> m ByteString
 
-- author_rotateKeys
+-- | RPC Method: author_pendingExtrinsics
+pendingExtrinsics :: m [Extrinsic]
+
+-- | RPC Method: author_removeExtrinsic
+removeExtrinsic :: [Extrinsic] -> m [Hash]
+removeExtrinsicByHash :: [Hash] -> m [Hash]
+
+-- | RPC Method: author_rotateKeys
+rotateKeys :: m ByteString
 
 - author_submitExtrinsic
+-- | RPC Method: author_submitExtrinsic
+submitExtrinsic :: Extrinsic -> m Hash
+```
 
 ##### Chain
 
-- chain_getBlock
+```haskell
+-- | RPC Method: chain_getBlock
+getBlock :: Maybe Hash -> m SignedBlock
 
-- chain_getBlockHash
+-- | RPC Method: chain_getBlockHash
+getBlockHash :: Maybe BlockNumber -> m Hash
 
-- chain_getFinalizedHead
+-- | RPC Method: chain_getFinalizedHead
+getFinalizedHead :: m Hash
 
-- chain_getHeader
+-- | RPC Method: chain_getHeader
+getHeader :: Maybe Hash -> m Header
 
-- chain_subscribeFinalizedHeads
+-- | RPC Method: chain_subscribeFinalizedHeads
+--   `ConduitT` may change if a preferred stream processing library is found.
+subscribeFinalizedHeads :: ConduitT () Header m a
 
-- chain_subscribeNewHeads
+-- | RPC Method: chain_subscribeNewHeads
+--   `ConduitT` may change if a preferred stream processing library is found.
+subscribeNewHeads :: ConduitT () Header m a
+
+```
 
 ##### Contracts
 
-- contracts_call
+```haskell
+-- | RPC Method: contracts_call
+call :: ContractCallRequest -> Maybe Hash -> m ContractExecResult
+```
 
 ##### Rpc
 
-- rpc_methods
+```haskell
+-- | RPC Method: rpc_methods
+methods :: m RpcMethods
+```
 
 ##### State
 
-- state_call
+```haskell
+-- | RPC Method: state_call
+call :: Method -> ByteString -> Maybe Hash -> m ByteString
 
-- state_getChildKeys
+-- | RPC Method: state_getChildKeys
+getChildKeys :: StorageKey -> StorageKey -> Maybe Hash -> m [StorageKey]
 
-- state_getChildStorage
+-- | RPC Method: state_getChildStorage
+getChildStorage :: StorageKey -> StorageKey -> Maybe Hash -> m StorageData
 
-- state_getChildStorageHash
+-- | RPC Method: state_getChildStorageHash
+getChildStorageHash :: StorageKey -> StorageKey -> Maybe Hash -> m Hash
 
-- state_getChildStorageSize
+-- | RPC Method: state_getChildStorageSize
+getChildStorageSize :: StorageKey -> StorageKey -> Maybe Hash -> m U64Int
 
-- state_getKeys
+-- | RPC Method: state_getKeys
+getKeys :: StorageKey -> Maybe Hash -> m [StorageKey]
 
-- state_getMetadata
+-- | RPC Method: state_getMetadata
+getMetaData :: Maybe Hash -> m Metadata
 
-- state_getRuntimeVersion
+-- | RPC Method: state_getRuntimeVersion
+getRuntimeVersion :: Maybe Hash -> m RuntimeVersion
 
-- state_getStorage
+-- | RPC Method: state_getStorage
+getStorage :: StorageKey -> Maybe Hash -> m StorageData
 
-- state_getStorageHash
+-- | RPC Method: state_getStorageHash
+getStorageHash :: StorageKey -> Maybe Hash -> m Hash
 
-- state_getStorageSize
+-- | RPC Method: state_getStorageSize
+getStorageSize :: StorageKey -> Maybe Hash -> m U64Int
 
-- state_queryStorage
+-- | RPC Method: state_queryStorage
+queryStorage :: [StorageKey] -> Hash -> Maybe Hash -> m [StorageChangeSet]
 
-- state_subscribeRuntimeVersion
+-- | RPC Method: state_subscribeRuntimeVersion
+subscribeRuntimeVersion :: ConduitT () Header m a
 
-- state_subscribeStorage
+-- | RPC Method: state_subscribeStorage
+subscribeStorage :: [StorageKeys] -> ConduitT () Header m a
+
+```
 
 ##### System
 
-- system_chain
+```haskell
 
-- system_health
+-- | RPC Method: system_chain
+chain :: m String
 
-- system_name
+-- | RPC Method: system_health
+health :: m Health
 
-- system_networkState
+-- | RPC Method: system_name
+name :: m String
 
-- system_peers
+-- | RPC Method: system_networkState
+networkState :: m NetworkState
 
-- system_properties
+-- | RPC Method: system_peers
+peers :: m [PeerInfo]
 
-- system_version
+-- | RPC Method: system_properties
+properties :: m ChainProperties
+
+-- | RPC Method: system_version
+version :: m String
+
+```
