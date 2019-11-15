@@ -67,3 +67,4 @@ This page gives an overview of accepted grants and a link to their GitHubs. Keep
 - [Ethworks](https://ethworks.io/) - Polkadot{.js} extension improvements ([GitHub](https://github.com/ethWorks))
 - [Lyken Software Solutions](https://lyken.rs/) - Investigation of runtime compilation
 - [Blockchain IT](blockchain-it.hr) - Ink! Remix Plugin ([GitHub](https://github.com/blockchain-it-hr/ink-remix-plugin))
+- [Kadena](https://www.kadena.io/) - Pact feasibility study ([GitHub](https://github.com/kadena-io/))
