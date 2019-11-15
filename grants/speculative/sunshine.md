@@ -71,7 +71,7 @@ David Craven was a core developer at Parity. During his time at Parity, he made 
 
 Work has been done so far
 * mechanism design in [documentation](https://web3garden.github.io/sunshine-book/) (which is now a bit outdated but contains the thoughts behind a previous iteration of the runtime, much of which will stay the same depending on feedback from user research during the first milestone)
-* (Amar and David) already experienced with substrate development, working on the primary source of documentation on runtime architecture patterns
+* (Amar and David) already experienced with substrate development
 * (David) already experienced with rust and substrate RPCs
 
 ### Have you applied to other grants so far?
