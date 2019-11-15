@@ -1,21 +1,23 @@
 # Sunshine by Web3 Garden
 
-Web3 Garden is committed to building infrastructure to empower the underprivileged and liberate the oppressed. Sunshine is one of the flagship projects.
+Web3 Garden is committed to building infrastructure to empower the underprivileged and liberate the oppressed. **sunshine** is one of the flagship projects.
 
 ## Project Background
 
-We are designing and building a library of governance-oriented modules for a Polkadot parachain. This aligns with the Web3 Hermit governance parachain, but the scope of the initial grant is more narrow than a generic "DAO" chain.
+We are building governance modules with user interfaces for Polkadot parachains. This aligns with the Web3 Hermit governance parachain, but the scope of the initial grant is more narrow than a generic "DAO chain". Even so, it is worth noting that these modules might be useful for parachain governance in the absence of a canonical DAO chain (parachains can easily just configure these modules and add them to their chain instead of accessing them through SPREE or some other trusted communication channel).
 
-This grant application is for the design and implementation of four loosely coupled modules, a runtime to configure the modules to support instances of `sunshine` fund coordination mechanisms, and a Polkadot-js interface for user interaction. The three-month objective includes
-* four loosely coupled modules
-* a Polkadot-js user interface for organizations that use the modules
-* a CLI tool for testing modules by constructing extrinsics with `substrate-ext`
+This grant application is for the design and implementation of four loosely coupled modules, a runtime to configure the modules, and a Polkadot-js interface for user interaction. The three-month objective includes
+* four loosely coupled runtime modules with a runtime that supports instances of [**sunshine**](https://web3garden.github.io/sunshine-book/) as an example configuration
+* a Polkadot-js user interface for organizations to use the modules
+* a CLI tool for testing the modules by constructing extrinsics with [`substrate-subxt`](https://github.com/paritytech/substrate-subxt/)
 
-Sunshine uses four modules:
-1. Court: define dispute conditions for each milestone associated with a grant and the repercussions — execute live accordingly
-2. Bank: define the pool of funds, its members, and the conditions for membership `=>` uses instances of `vote` for each `council` (based on `treasury`)
-3. Vote: define and configure voting algorithms to govern courts or banks
-4. Futarchy: define metagovernance `=>` how the vote module can change according to the preferences of stakeholders `=>` push the limits of application-based governance with metagovernance
+The runtime will configure four modules:
+1. `court`: define dispute conditions for each milestone associated with a grant and the dispute resolution conditions `=>` uses instances of `vote` and `futarchy` for governance of the court's rules
+2. `bank`: define the pool of funds, its members, and the conditions for membership `=>` uses instances of `vote` for each `committee` to make decisions, optional use of `futarchy` for enhanced forward guidance on spending decisions (possibly enforced by collateral requirements)
+3. `vote`: define and configure voting algorithms to govern courts or banks (*special features used: runtime instancing, offchain-workers*)
+4. `futarchy`: define how the vote module can change according to the preferences of stakeholders `=>` push the limits of application-based governance with metagovernance  (*special features used: runtime instancing, offchain-workers*)
+
+The milestones and plan are described in detail further below. The first month will be dedicated to user research and interface design to derive the required functionality for each module. The second month will be dedicated to building the modules and constructing a runtime. The third month will be dedicated to testing and rewriting the modules (for increased modularity by abstracting shared behavior into traits).
 
 ## Legal Structure
 
@@ -23,57 +25,57 @@ Private limited company
 
 ## Team Background
 
-As the leading contributor and maintainer of the [Substrate Recipes](https://github.com/substrate-developer-hub/recipes), Amar has devoted the past eight months to identifying and studying common design patterns used to build runtimes with substrate. He has been designing the modules to support sunshine for the past eight months while at Parity. He presented on the project at Sub0 and more recently organized the module requirements in the [sunshine documentation](https://web3garden.github.io/sunshine-book/).
+Amar Singh has devoted the past eight months to writing the [Substrate Recipes](https://github.com/substrate-developer-hub/recipes), a collection of best practices for building modules and runtimes with substrate. He presented [Building DAOs on Substrate](https://www.youtube.com/watch?v=eguDIG11nW8) at Sub0 and, more recently, [presented at DOTcon](https://youtu.be/l9omXAWhWDM?t=101) with a [proposal for Polkadot's monetary policy](https://github.com/web3garden/monetary-futarchy). Amar will be designing and developing the modules and runtime. 
+* [LinkedIn](https://www.linkedin.com/in/amar-singh-148043ba)
+* [Github](https://github.com/4meta5)
 
-Most recently, Amar spent some time studying the `rust-libp2p` codebase to implement some behavior for `s/kademlia`. This experience exposed him to high quality Rust code that abstracts shared behavior into traits and designs generic APIs around the trait objects. During this time, he was mentored by David Craven, an ex-Parity core developer and author of [substrate-ext](), an RPC for generating extrinsics to send to Substrate nodes. An extension of this project will be built for testing the modules as part of the second and third milestones. David will mentor this part of the project and contribute as necessary to build the tooling described further below.
+Noah Gallant is the founder of [Sight](https://sight.design/) where he works with companies, non-profits, governments, and universities to innovate with empathy and sustainability in mind. He is interested in bringing accessible, human-centered design principles to blockchain technology. With this in mind, he will lead the user research pursued in milestone (1) to inform the design of the modules, runtime, and UI.
+* [LinkedIn](https://www.linkedin.com/in/noah-gallant-9696078b)
+* [Github](https://github.com/NoahGallant)
 
-During Amar's last month working full-time at Parity, he will focus on documenting the tooling around testing and benchmarking substrate runtimes. This work will inform the design of the loosely coupled modules proposed in this grant and the testing of the configured runtime. His work on this has already [begun](https://github.com/substrate-developer-hub/recipes/pull/81).
+David Craven was a core developer at Parity. During his time at Parity, he made significant contributions to `substrate/core` and built [substrate-subxt](https://github.com/paritytech/substrate-subxt) before leaving the company to work on [rust-p2p](https://github.com/rust-p2p). David will be helping Amar build a command line tool for milestones (2) and (3) to test runtimes in the command line. This tool builds on [`substrate-subxt`](https://github.com/paritytech/substrate-subxt/) to construct extrinsics and send them to a running node via RPC.
+* [LinkedIn](https://www.linkedin.com/in/dvc94ch)
+* [Github](https://github.com/dvc94ch)
 
-**\A ppl**
-* linkedin
-* github profiles
+**Jake?**
 
-Noah __
+**Jack Platts?**
 
-Jake __
+## <a href="https://github.com/web3garden/">Team Code Repos</a>
 
-David Craven
-
-ADVISOR:
-- Jack Platts for business development and alignment with demand
-
-## Team Code Repos
-
-* sunshine
-* sunscreen-ui (place frontend design css?)
-* monetary futarchy (upgrade proposals for monetary policy...)
-* rpc3p0?
+* [sunshine](https://github.com/web3garden/sunshine)
+* [sunshine-docs](https://github.com/web3garden/sunshine-book)
+* [monetary-futarchy](https://github.com/web3garden/monetary-futarchy)
 
 # Development Roadmap
 
-## MILESTONE 1: Design and Document Spec for Module Library
-- user research for interfacing with fund coordination committees - "what governance mechanisms serve a useful purpose and what structure adds unnecessary complexity?"
-- focus on using React and specifying the required types for Polkadot.js (and planning the corresponding required Substrate types) `=>` **should have a documentation-based spec for all the modules**
-- documentation will define a few use cases like open source funding or charity-based governance
+## MILESTONE 1: Design and Document Specification
+- user research report for fund coordination committees; the goal is to attain greater clarity as to "what governance mechanisms serve a useful purpose and what structure adds unnecessary complexity?" (Noah and Amar)
+- **documentation** for required types for each module, their required functionality, and the required (new) type conversions between Polkadot-js and the substrate runtime (Noah and Amar)
+- documentation will include a section for the research report to define prioritized features for a few use cases like open source funding, charity governance (liberal radicalism), and lending pools (Noah and Amar)
 
-## MILESTONE 2: UI and Finish MVP Demo with Command Line Tool
-* basic version of all modules with tests
-* basic UI for sunshine as an instance that uses the four modules
-* command line demo with RPCs based on substrate-ext
+## MILESTONE 2: 2/4 Modules with Runtime and UI
+- implementation of `vote` and `bank` modules (Amar)
+- runtime with `vote` and `bank` modules configured (Amar)
+- Polkadot-js libraries with types for interfaces that use `vote` and `bank` modules (Noah)
+- start work on a local node RPC compatible with `substrate-subxt` for comprehensive testing of the modules (David and Amar)
 
-## MILESTONE 3: Docs, Demos, and Finished Modules
-* four finished modules with a `traits` module for shared behavior
-* command line demos for testing (and possibly benchmarking) the configured organizations
-* UI for organizations with certain features (maybe a standardized process for adding features with UIs)
+## MILESTONE 3: Docs, Runtime, and CLI Tool for Runtime Testing
+- `vote`, `bank`, `court`, `futarchy` modules (Amar)
+- runtime with modules configured to support `sunshine` instances (Amar)
+- command line tool for testing the runtime on a live node (David)
+- Polkadot-js UI for `sunshine` instances configured and deployed on the runtime (Noah)
+- *documentation for all the components*
 
 # Additional Information
 
 Work has been done so far
-* design of mechanisms in this documentation
-* already experienced with substrate development, working on the primary source of documentation on runtime architecture patterns
+* mechanism design in [documentation](https://web3garden.github.io/sunshine-book/) (which is now a bit outdated but contains the thoughts behind a previous iteration of the runtime, much of which will stay the same depending on feedback from user research during the first milestone)
+* (Amar and David) already experienced with substrate development, working on the primary source of documentation on runtime architecture patterns
+* (David) already experienced with rust and substrate RPCs
 
-Have you applied to other grants so far?
+### Have you applied to other grants so far?
 No.
 
-Are there any projects similar to yours? If so, how is your project different?
-Flowchain seems to be oriented around the governance of DeFi based stability protocols that assume coordination of liquidity provision. Our governance modules may compliment the governance and participation in the Laminar protocol. We believe that we will introduce nuanced governance that lends itself to increased flexibility for applications with changing requirements.
+### Are there any projects similar to yours? If so, how is your project different?
+Flowchain's innovative design seems to stem from nuanced governance of DeFi based stability protocols that require greater coordination of liquidity provision. Our modules may compliment these modules, but the focus of our work is not to innovate on the mechanism design. Instead, we would like to design usable and accessible interfaces with runtime module APIs designed to facilitate user interaction. The auxiliary tooling proposed for our second and third milestone will be used to more rigorously test the runtime and instill confidence in the underlying implementation.
