@@ -1,8 +1,8 @@
-# à pois by Swisscom Blockchain
+# APOIS by Swisscom Blockchain
 
 ## Project Description
 
-à pois by Swisscom Blockchain is a set of tools with the aim to easly deploy and monitor Validators through multiple deployment templates on the most popular cloud platforms using modern devops tools such as Ansible, Terraform, Azure Resource Manager, AWS Resource Manager, etc.
+APOIS by Swisscom Blockchain is a set of tools with the aim to easly deploy and monitor Validators through multiple deployment templates on the most popular cloud platforms using modern devops tools such as Ansible, Terraform, Azure Resource Manager, AWS Resource Manager, etc.
 The main focus of the project is the **Kubernetes Operator**. The Operator will make it easy for anyone to set up their own, sophisticated Polkadot validator including a highly secured network of sentry nodes.
 This will help making the network as a whole more robust and less prone to attacks on individuals, thus increasing its trustworthyness.
 
