@@ -37,7 +37,9 @@ David Craven was a core developer at Parity. During his time at Parity, he made 
 * [LinkedIn](https://www.linkedin.com/in/dvc94ch)
 * [Github](https://github.com/dvc94ch)
 
-**Jake?**
+Jacob Chase-Lubitz is product strategist with five years of experience designing multi-sided platforms and business models, crafting product roadmaps, and managing development projects. He served as Director of Product Development at Everybill LLC, where he lead the design of an [award-winning concept for a healthcare payment platform](http://www.abillyoucanunderstand.com/winners-list/everybill). In his current role as Product Strategist at Artory GmbH, Jake is responsible for conducting customer research and forming go-to-market and pricing strategy. 
+* [LinkedIn](https://www.linkedin.com/in/jchaselubitz/)
+* [Github](https://github.com/jchaselubitz)
 
 **Jack Platts?**
 
