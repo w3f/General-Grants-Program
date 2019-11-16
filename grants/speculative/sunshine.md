@@ -4,7 +4,9 @@
 
 ## Project Background
 
-We are building governance modules with user interfaces for Polkadot parachains. This aligns with the Web3 Hermit governance parachain, but the scope of the initial grant is **limited to [describe module concept]xxx. It is not** a generic "DAO chain". These modules will be useful for parachain governance in the absence of a canonical DAO chain (parachains can easily configure these modules and add them to their chain instead of accessing them through SPREE or some other trusted communication channel).
+We are building governance modules with user interfaces for Polkadot parachains. This aligns with the Web3 Hermit governance parachain, but the scope of the initial grant is four modules that can be configured into a runtime with a UI to deploy and support instances of fund coordination organizations as described in the [documentation](https://web3garden.github.io/sunshine-book/).
+
+This proposal is NOT for a generic "DAO chain", but the modules will be useful for parachain governance in the absence of a canonical chain for governance; parachains can configure these modules and add them to their chain in lieu of accessing them through SPREE or some other trusted communication channel.
 
 This grant application is for the design and implementation of four loosely coupled modules, a runtime to configure the modules, and a Polkadot-js interface for user interaction. The three-month objective includes
 * four loosely coupled runtime modules with a runtime that supports instances of [**sunshine**](https://web3garden.github.io/sunshine-book/) as an example configuration
