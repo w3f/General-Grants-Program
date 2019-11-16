@@ -4,7 +4,7 @@
 
 ## Project Background
 
-We are building governance modules with user interfaces for Polkadot parachains. This aligns with the Web3 Hermit governance parachain, but the scope of the initial grant is more narrow than a generic "DAO chain". Even so, it is worth noting that these modules might be useful for parachain governance in the absence of a canonical DAO chain (parachains can easily just configure these modules and add them to their chain instead of accessing them through SPREE or some other trusted communication channel).
+We are building governance modules with user interfaces for Polkadot parachains. This aligns with the Web3 Hermit governance parachain, but the scope of the initial grant is **limited to [describe module concept]xxx. It is not** a generic "DAO chain". These modules will be useful for parachain governance in the absence of a canonical DAO chain (parachains can easily configure these modules and add them to their chain instead of accessing them through SPREE or some other trusted communication channel).
 
 This grant application is for the design and implementation of four loosely coupled modules, a runtime to configure the modules, and a Polkadot-js interface for user interaction. The three-month objective includes
 * four loosely coupled runtime modules with a runtime that supports instances of [**sunshine**](https://web3garden.github.io/sunshine-book/) as an example configuration
@@ -40,8 +40,6 @@ David Craven was a core developer at Parity. During his time at Parity, he made 
 Jacob Chase-Lubitz is product strategist with five years of experience designing multi-sided platforms and business models, crafting product roadmaps, and managing development projects. He served as Director of Product Development at Everybill LLC, where he lead the design of an [award-winning concept for a healthcare payment platform](http://www.abillyoucanunderstand.com/winners-list/everybill). In his current role as Product Strategist at Artory GmbH, Jake is responsible for conducting customer research and forming go-to-market and pricing strategy. 
 * [LinkedIn](https://www.linkedin.com/in/jchaselubitz/)
 * [Github](https://github.com/jchaselubitz)
-
-**Jack Platts?**
 
 ## <a href="https://github.com/web3garden/">Team Code Repos</a>
 
