@@ -1,6 +1,7 @@
 # Sunshine by Web3 Garden
 
-[Web3 Garden](https://web3.garden) is committed to building infrastructure to empower the underprivileged and liberate the oppressed. [**sunshine**](https://sunshine.community) is one of the flagship projects.
+[Web3 Garden](https://web3.garden) is committed to building infrastructure for creating stable, well-governed communities on Substrate.
+[**sunshine**](https://sunshine.community) is one of the flagship projects.
 
 ## Project Background
 
