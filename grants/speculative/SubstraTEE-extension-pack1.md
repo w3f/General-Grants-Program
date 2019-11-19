@@ -25,19 +25,57 @@ This extension pack will add:
   * security audit by external entity security hardening (including known issues)
   * (optional) a public testnet running a demo case
 
+## Team members
 
+* Alain Brenzikofer: @brenzi on github, Department Head, Developer
+* Marcel Frei: @electronix on github, Project Manager for substraTEE, Developer
+* Christian Langenbacher: @clang on github, Developer
+* Sabine Proll: @sabinep, Developer
+* Juraj Skripsky: @jskripsky on github, Rust-Guru, Reviewer
 
-## Checklist
-- [x] The [grants](https://github.com/w3f/Web3-collaboration/blob/master/grants/grants.md) document has been read and understood.
-- [x] The [Google Form](https://docs.google.com/forms/d/e/1FAIpQLSfMfjiRmDQDRk-4OhNASM6BAKii7rz_B1jWtbCPkUh6N7M2ww/viewform) will be completed accurately. Note that the Google Form requires the pull request URL.
-- [x] Abstract (above) is succinct and complete.
-- [x] The application is being included into the correct directory: either '[targeted](https://github.com/w3f/Web3-collaboration/tree/master/grants/targeted)' or '[speculative](https://github.com/w3f/Web3-collaboration/tree/master/grants/speculative)'.
-- [x] The application includes a project description.
-- [ ] The application includes all names of team members.
-- [ ] The application includes a description of the team's experience.
-- [ ] The application includes all necessary links (e.g. GitHub and LinkedIn)
-- [x] The "Development Roadmap" section in the application has a timeline of development ("milestones").
-- [x] The "Development Roadmap" section in the application has an estimate of funds required.
-- [x] The "Development Roadmap" section gives an indication of the team's long term plans.
-- [x] The "Development Roadmap" section includes [documentation](https://github.com/w3f/Web3-collaboration/blob/master/grants/grants.md#documentation) as a deliverable for at least one milestone.
+## Team Website
+
+* https://www.scs.ch/en/about-scs/departments/decentralized-systems/
+
+## Legal Structure
+
+Swiss AG
+
+## Team's experience
+
+As an engineering services company SCS AG has more than 25 years of experience in the fields of electronics, software and system design. Profound know-how, solid methodological competence as well as efficient project management are the foundation of our success.
+
+Most programming experience in the following languages: C/C++, C#, Java, Python and VHDL.
+
+Alain Brenzikofer follows Blockchain developments since 2011. He works for SCS since 2012 where he started working on blockchain projects in 2016 and was appointed to lead a new department for "decentralized systems" in summer 2018. As a private initiative, he designed a new cryptocurrency ecosystem [encointer - An Ecological, Egalitarian and Private Cryptocurrency and Self-Sovereign Identity System](https://encointer.org) . A project he currently intends to realize based on Substrate (including this privacy extension).
+
+Our team is part of the [Quartierstrom project](https://quartier-strom.ch), implementing and currently field-testing a decentralized P2P energy market in Switzerland together with ETHZ, Bosch IoT Lab, HSLU and others.
+SCS is in charge of the development of a dynamic grid usage-tariff smart contract as well as privacy-by-design concepts for the decentralized energy auction, thereby investigating and evaluating Zero-Knowledge Proofs, Linkable Ring Signatures, Multi-Party Computation as well as Trusted Execution Environments.
+
+Moreover, we've developed a PoC for Electric Vehicle charging process on blockchain based on Parity Ethereum: https://youtu.be/xJUKNlV79pg
+
+For trusted sensor oracles, Alain wrote a [whitepaper on decentralized trusted timestmping](https://www.scs.ch/wp-content/uploads/2017/01/trusted-sensor-whitepaper.pdf).
+
+Alain, Marcel and Christian are the core devlopers for substraTEE.
+
+A few further blockchain projects are subject to NDAs.
+
+## Team Code Repos
+
+* https://github.com/scs/substraTEE
+* https://github.com/scs
+* https://github.com/brenzi
+* https://github.com/encointer
+
+## Team LinkedIn Profiles
+
+(Not all on LinkedIn)
+
+https://www.linkedin.com/in/alain-brenzikofer-9a4480165/
+
+https://www.linkedin.com/in/christian-langenbacher-baa629182/
+
+https://www.linkedin.com/in/juraj-skripsky-4338a217/
+
+https://www.linkedin.com/in/sabine-proll-5a7118153/
 
