@@ -1,4 +1,4 @@
-## Grant Application
+## SubstraTEE extension pack 1
 
 This application is (select one):
 - [x] Speculative (use this by default)
