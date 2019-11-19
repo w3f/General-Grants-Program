@@ -58,7 +58,7 @@ This page gives an overview of accepted grants and a link to their GitHubs. Keep
 - [Usetech](http://usetech.com/blockchain.html) - Substrate API in .NET ([GitHub](https://github.com/usetech-llc/polkadot_api_dotnet))
 - [BlockX Labs](http://blockxlabs.com/) - Enzyme Browser extension wallet ([GitHub](https://github.com/blockxlabs/enzyme))
 - [WEB3SCAN](https://www.web3scan.com/) - Python API client ([GitHub](https://github.com/polkascan))
-- [Block Unison](https://blockunison.com/) - Polkalert: Validator Monitoring ([GitHub](https://github.com/galacticcouncil/polkalert))
+- [Galactic Council](https://github.com/galacticcouncil) - Polkalert: Validator Monitoring ([GitHub](https://github.com/galacticcouncil/polkalert))
 - [Bandot](http://bandot.io/) - Stablecoin ([GitHub](https://github.com/bandotorg/Bandot))
 - [Laminar One](https://laminar.one/) - FlowChain parachain with SDK and App ([GitHub](https://github.com/laminar-protocol/flowchain))
 - [Staked](https://staked.co.jp/) - Ink! Playground ([GitHub](https://github.com/stakedtechnologies/ink-playground))
