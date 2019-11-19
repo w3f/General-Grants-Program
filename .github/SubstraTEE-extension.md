@@ -1,7 +1,7 @@
 ## Grant Application
 
 This application is (select one):
-- [ ] Speculative (use this by default)
+- [x] Speculative (use this by default)
 - [ ] an RFP response
 
 
@@ -9,7 +9,7 @@ This application is (select one):
 
 This application is (select one):
 - [ ] Public (fully)
-- [ ] Public with private finances
+- [x] Public with private finances
 
 
 ### Abstract
