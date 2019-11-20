@@ -1,5 +1,5 @@
 # Acala Stablecoin Network by Acala Foundation
-Acala Foundation nurtures and stewards applications in the fields of decentralized finance protocols particularly those that can serve as open finance building blocks such as stable currency. Acala Stablecoin Network is a focal R&D project initiated by the Acala Foundation. The Acala Foundation is founded by Laminar and Polkawallet both of whom are participants and contributors of the Polkadot ecosystem. The Acala Foundation aims to broaden its membership and industry participation as we progress.
+Acala Foundation nurtures and stewards applications in the fields of decentralized finance protocols particularly those that can serve as open finance building blocks such as stable currency. Acala Stablecoin Network is a focal R&D project initiated by the Acala Foundation. The Acala Foundation is founded by [Laminar](https://laminar.one/) and [Polkawallet](https://polkawallet.io/) both of whom are participants and contributors of the Polkadot ecosystem. The Acala Foundation aims to broaden its membership and industry participation as we progress.
 
 ## Project Description
 We are building a decentralized, multi-collateralized, cross-chain, community-owned stablecoin system - the Acala Network, to enable true economic interoperability and scalability. Along with the system, we are also building an economic model and governance framework to sustain the development, and continuous participation in the Polkadot ecosystem (e.g. as parachain or parathread), until ultimately transitioning the network to community ownership. The Acala Network will serve as a building block for other DeFi applications, such as Laminar Flowchain, and will provide new use cases for quality assets in the Polkadot ecosystem, such as DOT and XBTC from ChainX. 
@@ -14,7 +14,7 @@ The Acala Network will include the following parts
   * Acala dApp: integrate with selected Polkadot wallet, to enable minting Acala Dollars, managing debt positions and governance etc. 
 
 ## Team members
-This project is a collaboration of Laminar and Polkawallet through Acala Foundation. The project team consists members from both parties.
+This project is a collaboration of Laminar and Polkawallet through the Acala Foundation. The project team consists members from both parties.
 
 **Team Polkawallet**
 * Fuyao Jiang (Co-CEO)
@@ -40,15 +40,15 @@ The legal structure of Acala Foundation is being set up in Singapore. Meanwhile 
 
 ## Team's experience
 **Team Polkawallet**
-* Fuyao Jiang is the founder of Polkawallet. He is an early Polkadot community members, who has taken the Polkawallet project from inception to implementation. He was Polkadot's early Chinese community organizer, community opinion leader, and Polkadot evangelist, who has spent over 8,000 hours in community building and development.
+* Fuyao is the founder of Polkawallet. He is an early Polkadot community members, who has taken the Polkawallet project from inception to implementation. He was Polkadot's early Chinese community organizer, community opinion leader, and Polkadot evangelist, who has spent over 8,000 hours in community building and development.
 
-* Jianjiang Wang holds a Bachelor's degree of Software Engineering from Sichuan University. He has 4-years experience in blockchain core development. He was formerly a senior engineer at Meituan, core developer at Hashgard public chain, and Cosmos contributor. He is Substrate Framework early researcher. 
+* Jianjiang holds a Bachelor's degree of Software Engineering from Sichuan University. He has 4-years experience in blockchain core development. He was formerly a senior engineer at Meituan, core developer at Hashgard public chain, and Cosmos contributor. He is Substrate Framework early researcher. 
 
-* Yuzhu Liu has a Master's degree of Social Science from MSU. He previously worked at the Bank of the Russian Federation & EverBright Securities Investment. He once led the Entrepreneur Trade Promotion Association between China and Russia, with trade volume exceeding 100 million RMB. He was also former Supply Chain Financial Products Manager at China Entrepreneur Association.
+* Yuzhu has a Master's degree of Social Science from MSU. He previously worked at the Bank of the Russian Federation & EverBright Securities Investment. He once led the Entrepreneur Trade Promotion Association between China and Russia, with trade volume exceeding 100 million RMB. He was also former Supply Chain Financial Products Manager at China Entrepreneur Association.
 
-* Hao Qiu is a senior blockchain full stack development engineer. He is also a Substrate runtime developer. Formerly Hashgard core developer. He is proficient in distributed financial blockchain development.
+* Hao is a senior blockchain full stack development engineer. He is also a Substrate runtime developer. Formerly Hashgard core developer. He is proficient in distributed financial blockchain development.
 
-* Xiaoxuan Yang has 4-years PR experience and marketing operations. She is proficient in finance, and IT. She holds a Master's degree from Shanghai University of Finance and Economics. She was former project content operations and PR manager at Qtum, responsible for brand planning, content planning, event management, and growth. She is experienced in maintaining media resources and relations, monitoring media analytics and handling PR events.
+* Xiaoxuan has 4-years PR experience and marketing operations. She is proficient in finance, and IT. She holds a Master's degree from Shanghai University of Finance and Economics. She was former project content operations and PR manager at Qtum, responsible for brand planning, content planning, event management, and growth. She is experienced in maintaining media resources and relations, monitoring media analytics and handling PR events.
 
 **Team Laminar**
 * Ruitao has decades of successful software and app development experience (with awards from Apple, NZ HiTech, and others). He is co-founder and CEO of Laminar. In the past few years, as Centrality's CTO, he has successfully delivered decentralized token token generation platforms (https://tgeapp.com) raised over $300+ million worth of Ether, developed next-gen blockchain platform, built various smart contracts, protocols and first-of-its-kind dApps. He has also built various partnership including financial institutes to support Laminar's mission.
@@ -64,7 +64,6 @@ The legal structure of Acala Foundation is being set up in Singapore. Meanwhile 
 ## Team Code Repos
 * Acala Network documentation and implementation: https://github.com/AcalaNetwork/Acala
 * Whitepaper: https://github.com/AcalaNetwork/Acala-white-paper
-* Runtime module design: 
 
 ## Team LinkedIn Profiles
 **Team Polkawallet**
@@ -80,10 +79,12 @@ The legal structure of Acala Foundation is being set up in Singapore. Meanwhile 
 
 ## Team Github Profiles
 
+**Team Polkawallet**
 * Fuyao Jiang: https://github.com/jiangfuyao
 * Jianjiang Wang: https://github.com/wangjj9219
 * Hao Qiu: https://github.com/qwer951123
 
+**Team Laminar**
 * Ruitao Su: https://github.com/rsu
 * Bryan Chen:  https://github.com/xlc
 * Bette Chen: https://github.com/bette7
@@ -92,7 +93,7 @@ The legal structure of Acala Foundation is being set up in Singapore. Meanwhile 
 
 
 ## Development Roadmap
-The Acala Network MVP will be a 3 month project, aims to deliver a running Substrate chain testnet providing multi-collateralized stable US Dollars - the Acala Dollar with simple council type governance. Upon testnet launch, we will implement a basic version of its economic model and work towards an Initial Parachain Offering. Participation in the IPO auction will depend upon readiness of the Polkadot network. 
+The Acala Network MVP will be a 3 month project, aims to deliver a running Substrate chain testnet providing multi-collateralized stable US Dollars - the Acala Dollar, with basic (council type) governance. Upon testnet launch, we will implement a basic version of its economic model and work towards an Initial Parachain Offering. Participation in the IPO auction will depend upon readiness of the Polkadot network. 
 
 * M1: Economic model, governance design, and IPO plan (1 weeks)
   - we will create and publish relevant whitepapers
