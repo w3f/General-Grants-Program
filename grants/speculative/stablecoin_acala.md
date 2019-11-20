@@ -1,0 +1,134 @@
+# Acala Stablecoin Network by Acala Foundation
+Acala Foundation nurtures and stewards applications in the fields of decentralized finance protocols particularly those that can serve as open finance building blocks such as stable currency. Acala Stablecoin Network is a focal R&D project initiated by the Acala Foundation. The Acala Foundation is founded by Laminar and Polkawallet both of whom are participants and contributors of the Polkadot ecosystem. The Acala Foundation aims to broaden its membership and industry participation as we progress.
+
+## Project Description
+We are building a decentralized, multi-collateralized, cross-chain, community-owned stablecoin system - the Acala Network, to enable true economic interoperability and scalability. Along with the system, we are also building an economic model and governance framework to sustain the development, and continuous participation in the Polkadot ecosystem (e.g. as parachain or parathread), until ultimately transitioning the network to community ownership. The Acala Network will serve as a building block for other DeFi applications, such as Laminar Flowchain, and will provide new use cases for quality assets in the Polkadot ecosystem, such as DOT and XBTC from ChainX. 
+
+The Acala Network will include the following parts
+  * An economic model for the Acala Network and IPO plan etc.
+  * The first stablecoin product: 1 Acala Dollar = 1 US Dollar
+  * Acala chain using Substrate to enable multi-collateral Acala Dollar including the following modules:
+    * The Token module with multi-currency support and the Oracle module from the [Open Runtime Library (ORML)](https://github.com/laminar-protocol/open-runtime-module-library), which we are developing and are open-sourced for the community to use and build upon
+    * Various modules specific to manage collateral debt positions, risks, auctions, governance etc.
+  * Acala Network SDKs: to empower developer community to build upon and integrate with the Acala Network
+  * Acala dApp: integrate with selected Polkadot wallet, to enable minting Acala Dollars, managing debt positions and governance etc. 
+
+## Team members
+This project is a collaboration of Laminar and Polkawallet through Acala Foundation. The project team consists members from both parties.
+
+**Team Polkawallet**
+* Fuyao Jiang (Co-CEO)
+* Yuzhu Liu (Collaboration)
+* Jianjiang Wang (Rust developer)
+* Hao Qiu (Full-stack developer)
+* Xiaoxuan Yang (PR)
+
+**Team Laminar**
+* Ruitao Su (Co-CEO)
+* Bryan Chen (Advisor & Architect)
+* Bette Chen (Operations & Product)
+* Antonia Chen (Chief Economist)
+* Shaun Wang (Rust developer)
+* Rust developer - hiring
+* Front-end developer - hiring
+
+## Team Website	
+* https://acala.network
+
+## Legal Structure 
+The legal structure of Acala Foundation is being set up in Singapore. Meanwhile the two teams are under legal agreement for collaboration.
+
+## Team's experience
+**Team Polkawallet**
+* Fuyao Jiang is the founder of Polkawallet. He is an early Polkadot community members, who has taken the Polkawallet project from inception to implementation. He was Polkadot's early Chinese community organizer, community opinion leader, and Polkadot evangelist, who has spent over 8,000 hours in community building and development.
+
+* Jianjiang Wang holds a Bachelor's degree of Software Engineering from Sichuan University. He has 4-years experience in blockchain core development. He was formerly a senior engineer at Meituan, core developer at Hashgard public chain, and Cosmos contributor. He is Substrate Framework early researcher. 
+
+* Yuzhu Liu has a Master's degree of Social Science from MSU. He previously worked at the Bank of the Russian Federation & EverBright Securities Investment. He once led the Entrepreneur Trade Promotion Association between China and Russia, with trade volume exceeding 100 million RMB. He was also former Supply Chain Financial Products Manager at China Entrepreneur Association.
+
+* Hao Qiu is a senior blockchain full stack development engineer. He is also a Substrate runtime developer. Formerly Hashgard core developer. He is proficient in distributed financial blockchain development.
+
+* Xiaoxuan Yang has 4-years PR experience and marketing operations. She is proficient in finance, and IT. She holds a Master's degree from Shanghai University of Finance and Economics. She was former project content operations and PR manager at Qtum, responsible for brand planning, content planning, event management, and growth. She is experienced in maintaining media resources and relations, monitoring media analytics and handling PR events.
+
+**Team Laminar**
+* Ruitao has decades of successful software and app development experience (with awards from Apple, NZ HiTech, and others). He is co-founder and CEO of Laminar. In the past few years, as Centrality's CTO, he has successfully delivered decentralized token token generation platforms (https://tgeapp.com) raised over $300+ million worth of Ether, developed next-gen blockchain platform, built various smart contracts, protocols and first-of-its-kind dApps. He has also built various partnership including financial institutes to support Laminar's mission.
+
+* Bryan (his github handle [xlc](https://github.com/xlc) should be very familiar to you) is a core contributor to substrate codebase, a Polkadot community ambassador, and substrate/polkadot lecturer at `YiKuaiLianXi`. He is co-founder and CTO of Laminar He has extensive experience as a full-stack developer, and was previously blockchain architect at Centrality.ai leading charge of core blockchain and associated services development (https://github.com/cennznet). He graduated from University of Auckland with a Bachelor of Engineering specializing in Software.
+
+* Bette has more than a decade product/program/project management experience (with various company awards) in software and high-tech industry. She is co-founder and COO of Laminar. She was previously Product Manager at Centrality, led development of PoS public blockchain, various protocols including dex, identity & permission, asset management etc and built decentralized ecosystem (https://github.com/cennznet, https://cennznetdocs.com/, https://www.onfinality.io/). She graduated from University of Auckland with a Bachelor of Engineering specializing in Software, and an MBA from University of Otago and Duke Fuqua School of Business.
+
+* Dr. Antonia Chen holds a PhD in Economics from University of Auckland. She is co-founder and chief-economist of Laminar. She has over a decade experience in tech startups, Microeconomics and Mathematical Social Science research field. She has previously designed a dual-token economic model for a public blockchain. She has presented her work in various international conferences. She advises the Laminar team anything economics and modeling.
+  
+* Shaun Wang ([shaopengw](https://github.com/shaopengw)) has been contributing to several Polkadot ecosystem open source libraries, including Substrate, parity-common, type-metadata etc. He has solid software engineering experience, and was a core developer in Centrality blockchain team. He joined the first Substrate hackthon (PolkaWorld Hackthon) and won the second place (the FOSS team).
+
+## Team Code Repos
+* Acala Network documentation and implementation: https://github.com/AcalaNetwork/Acala
+* Whitepaper: https://github.com/AcalaNetwork/Acala-white-paper
+* Runtime module design: 
+
+## Team LinkedIn Profiles
+**Team Polkawallet**
+* https://www.linkedin.com/in/%E5%AF%8C%E8%80%80-%E5%A7%9C-599609159/ <Fuyao Jiang>
+* https://www.linkedin.com/in/%E5%81%A5%E6%B1%9F-%E7%8E%8B-95859210b/ <Jianjiang Wang>
+
+**Team Laminar**
+* https://www.linkedin.com/in/ruitaosu/<Ruitao Su>
+* https://www.linkedin.com/in/xiliang-chen-1ba8ba52/<Bryan Chen>
+* https://www.linkedin.com/in/bette-chen/<Bette Chen>
+* https://www.linkedin.com/in/shaopeng-wang/<Shaun Wang>
+* Dr. Antonia Chen has no LinkedIn profile
+
+## Team Github Profiles
+
+* Fuyao Jiang: https://github.com/jiangfuyao
+* Jianjiang Wang: https://github.com/wangjj9219
+* Hao Qiu: https://github.com/qwer951123
+
+* Ruitao Su: https://github.com/rsu
+* Bryan Chen:  https://github.com/xlc
+* Bette Chen: https://github.com/bette7
+* Antonia Chen: https://github.com/Antonia-Chen
+* Shaun Wang: https://github.com/shaopengw
+
+
+## Development Roadmap
+The Acala Network MVP will be a 3 month project, aims to deliver a running Substrate chain testnet providing multi-collateralized stable US Dollars - the Acala Dollar with simple council type governance. Upon testnet launch, we will implement a basic version of its economic model and work towards an Initial Parachain Offering. Participation in the IPO auction will depend upon readiness of the Polkadot network. 
+
+* M1: Economic model, governance design, and IPO plan (1 weeks)
+  - we will create and publish relevant whitepapers
+
+* M2: R&D multi-collateral Acala Dollar protocol based on Substrate and Polkadot + UX design (2 weeks)
+  - we will create and publish technical specification and runtime module designs under our license plan
+
+* M3: Implementation of Oracle, Multi-Currency Token, and Auction modules (2 weeks)
+  - we will publish these modules under the Open Runtime Library
+  - we will use and develop Acala specific implementation such as AuctionHandler
+  - we will deploy oracle servers and set up monitoring services
+  - all runtime modules in this and following milestones will be shipped with unit tests
+
+* M4: Implementation of stablecoin specific modules (6 weeks)
+  - we will implement runtime modules to support the main functionalities: open/modify position, liquidation auction handler, basic governance etc. outlined in the design
+  - we will deliver a running chain with these modules, docker image to set up  a Acala node, a SDK library, and a tutorial using this protocol
+
+* M5: Implement Acala dApp, integrate all parts, and documentation (4 weeks)
+  - we will implement a web dApp to include these features: borrow Acala dollar and manage positions, simple governance
+  - we will deliver a working web application with these features, and a tutorial to use it
+  - we will launch testnet with all parts integrated, provide documentation and tutorials to end-users and developers to use the dApp and SDKs
+
+## Additional Information
+* Work has been done so far
+1. We are drafting and verifying the economic model of the Acala Network, please see links in the Team Code Repos section for more details
+2. We are drafting technical specification and design of runtime modules
+3. We are building common runtime modules such as multi-asset token that will be used in the Acala Stablecoin Network project
+
+* Are there are any teams who have already contributed (financially) to the project?  
+This project is funded by Laminar and Polkawallet through the Acala Foundation.
+
+* Have you applied for other grants so far? 
+Laminar and Polkawallet had previously received grants from Web3 respectively. But Acala Foundation or Acala Stablecoin Network project has not received other grants.
+
+* Are there any other projects similar to yours? If so, how is your project different?  
+MakerDAO's v2 multi-collateral DAI would be a reference implementation for decentralized stablecoin. While we are inspired by many aspects of the MakerDAO project, the Acala Network will deliver a cross-chain solution, with unique economic model to eventually evolve into a community-owned network in the Polkadot ecosystem, and will leverage Substrate's unique properties for implementation.
+
+* Open Source License:
+We will use Apache 2.0.
