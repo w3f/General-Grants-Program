@@ -1,5 +1,5 @@
 # Acala Stablecoin Network by Acala Foundation
-Acala Foundation nurtures and stewards applications in the fields of decentralized finance protocols particularly those that can serve as open finance building blocks such as stable currency. Acala Stablecoin Network is a focal R&D project initiated by the Acala Foundation. The Acala Foundation is founded by [Laminar](https://laminar.one/) and [Polkawallet](https://polkawallet.io/) both of whom are participants and contributors to the Polkadot ecosystem. The Acala Foundation aims to broaden its membership and industry participants as we progress.
+Acala Foundation nurtures and stewards applications in the fields of decentralized finance protocols particularly those that can serve as open finance building blocks such as stable currency. Acala Stablecoin Network is a focal R&D project initiated by the Acala Foundation. The Acala Foundation is founded by [Laminar](https://laminar.one/) and [Polkawallet](https://polkawallet.io/) both of whom are contributors to the Polkadot ecosystem. The Acala Foundation aims to broaden its membership and industry participants as we progress.
 
 ## Project Description
 We are building a decentralized, multi-collateralized, cross-chain, community-owned stablecoin system - the Acala Network, to enable true economic interoperability and scalability. Along with the system, we are also building an economic model and governance framework to sustain the development, and continuous participation in the Polkadot ecosystem (e.g. as parachain or parathread), until ultimately transitioning the network to community ownership. The Acala Network will serve as a building block for other DeFi applications, such as Laminar Flowchain, and will provide new use cases for quality assets in the Polkadot ecosystem, such as DOT and XBTC from ChainX. 
@@ -8,8 +8,8 @@ The Acala Network will include the following parts
  * An economic model for the Acala Network and IPO plan etc.
  * The first stablecoin product: 1 Acala Dollar = 1 US Dollar
  * Acala chain using Substrate to enable multi-collateral Acala Dollar including the following modules:
- * The Token module with multi-currency support and the Oracle module from the [Open Runtime Library (ORML)](https://github.com/laminar-protocol/open-runtime-module-library), which we are developing and are open-sourced for the community to use and build upon
- * Various modules specific to manage collateral debt positions, risks, auctions, governance, etc.
+   * The Token module with multi-currency support and the Oracle module from the [Open Runtime Library (ORML)](https://github.com/laminar-protocol/open-runtime-module-library), which we are developing and are open-sourced for the community to use and build upon
+   * Various modules specific to manage collateral debt positions, risks, auctions, governance, etc.
  * Acala Network SDKs: to empower developer community to build upon and integrate with the Acala Network
  * Acala dApp: integrate with selected Polkadot wallet, to enable minting Acala Dollars, managing debt positions, and governance, etc. 
 
@@ -97,47 +97,48 @@ The legal structure of the Acala Foundation is being set up in Singapore. Meanwh
 The Acala Network MVP will be a 3-month project, aims to deliver a running Substrate chain testnet providing multi-collateralized stable US Dollars - the Acala Dollar, with basic (council type) governance. Upon the testnet launch, we will implement a basic version of its economic model and work towards an Initial Parachain Offering. Participation in the IPO auction will depend upon the readiness of the Polkadot network. 
 
 * M1: Economic model, governance design, and IPO plan + technical design (2 weeks)
- - we will create and publish relevant whitepapers
- - R&D multi-collateral Acala Dollar protocol based on Substrate and Polkadot, we will publish technical spec and runtime module designs
- - dApp UX design
+  - we will create and publish relevant whitepapers
+  - R&D multi-collateral Acala Dollar protocol based on Substrate and Polkadot, we will publish technical spec and runtime module designs
+  - dApp UX design
 
 * M2: Implementation of Oracle, Multi-Currency Token, and Auction modules (2 weeks)
- - we will publish these modules under the Open Runtime Library
- - we will use and develop Acala specific implementation such as AuctionHandler
- - we will deploy oracle servers and set up monitoring services
- - all runtime modules in this and following milestones will be shipped with unit tests
+  - we will publish these modules under the Open Runtime Library
+  - we will use and develop Acala specific implementation such as AuctionHandler
+  - we will deploy oracle servers and set up monitoring services
+  - all runtime modules in this and following milestones will be shipped with unit tests
 
 * M3: Implementation of stablecoin specific modules (4 weeks)
- - we will implement runtime modules to support the main functionalities: CDP and CDP engines, liquidation auction manager, outlined in the design
- - we will deliver a running chain with these modules, docker image to set up an Acala node, an SDK library, and a tutorial using this protocol
+  - we will implement runtime modules to support the main functionalities: CDP and CDP engines, liquidation auction manager, outlined in the design
+  - we will deliver a running chain with these modules, docker image to set up an Acala node, an SDK library, and a tutorial using this protocol
 
 * M4: Implementation of basic economic model and governance (2 weeks)
- - we will implement runtime modules for basic economic model and governance (council voting) based on our white-paper and design
- - we will perform runtime upgrade on testnet to include these functionalities, and provide relevant documentation for the community
+  - we will implement runtime modules for basic economic model and governance (council voting) based on our white-paper and design
+  - we will perform runtime upgrade on testnet to include these functionalities, and provide relevant documentation for the community
 
 * M5: Implement the Acala dApp, integrate all parts, and documentation (4 weeks)
- - we will implement a web dApp to include these features: create CDP to generate Acala dollar, manage positions, and simple governance
- - we will deliver a working web application with these features, and a tutorial to use it
- - we will launch testnet with all parts integrated, provide documentation and tutorials to end-users and developers to use the dApp and SDKs
+  - we will implement a web dApp to include these features: create CDP to generate Acala dollar, manage positions, and simple governance
+  - we will deliver a working web application with these features, and a tutorial to use it
+  - we will launch testnet with all parts integrated, provide documentation and tutorials to end-users and developers to use the dApp and SDKs
 
 Assumptions:
 - the inter-chain communication protocol for Polkadot is available, and a cross-chain token standard is formalized
+- cumulus is ready to run parachain collector nodes
 - ideally, the Ethereum bridge is available to bring Ethereum assets to Acala Network as collaterals
 
 ## Additional Information
 * Work has been done so far
-1. We are drafting and verifying the economic model of the Acala Network, please see links in the Team Code Repos section for more details
-2. We are drafting technical specification and design of runtime modules
-3. We are building common runtime modules such as multi-asset token that will be used in the Acala Stablecoin Network project
+  1. We are drafting and verifying the economic model of the Acala Network, please see links in the Team Code Repos section for more details
+  2. We are drafting technical specification and design of runtime modules
+  3. We are building common runtime modules such as multi-asset token that will be used in the Acala Stablecoin Network project
 
 * Are there any teams who have already contributed (financially) to the project? 
-So far this project is funded by Laminar and Polkawallet.
+  So far this project is funded by Laminar and Polkawallet.
 
 * Have you applied for other grants so far? 
-Laminar and Polkawallet had previously received grants from Web3 respectively. But Acala Foundation or Acala Stablecoin Network project has not received other grants.
+  Laminar and Polkawallet had previously received grants from Web3 respectively. But Acala Foundation or Acala Stablecoin Network project has not received other grants.
 
 * Are there any other projects similar to yours? If so, how is your project different? 
-MakerDAO's v2 multi-collateral DAI would be a reference implementation for decentralized stablecoin. While we are inspired by many aspects of the MakerDAO project, the Acala Network will deliver a cross-chain solution, with a unique economic model to eventually evolve into a community-owned network in the Polkadot ecosystem, and will leverage Substrate's unique properties for implementation.
+  MakerDAO's v2 multi-collateral DAI would be a reference implementation for decentralized stablecoin. While we are inspired by many aspects of the MakerDAO project, the Acala Network will deliver a cross-chain solution, with a unique economic model to eventually evolve into a community-owned network in the Polkadot ecosystem, and will leverage Substrate's unique properties for implementation.
 
 * Open Source License:
-We will use Apache 2.0.
+  We will use Apache 2.0.
