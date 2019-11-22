@@ -35,7 +35,7 @@ Provided in the Google Form.
 - For the NEO Fundation we built Seraph ID, a set of tools that can be used by dApps developers and users to leverage Self-Sovereign identity capabilities. It relies on the W3C standards providing DID and verifiable claims functionalities. The set of tools comprehend a C# Smart Contract an SDK and a chrome extention wallet with dapp communication.
 - We audited part of the Energy Web Foundation codebase (Work done together with Chainsecurity, who audited the Solidity Smart Contracts)
 - Strong DevOps and Node deployment experience gained building our DAPPI Product (Node Hosting and gateway)
-- Experience in Solidity gained building ERC20 Smart Contracts with extended functionalities and a Smart Contract Factory to easly deploy ERC20 and ERC721 trough UI and using
+- Experience in Solidity gained building a Smart Contract Factory to easly deploy and manage open zeppelin contracts using
   the proxy pattern.
 
 ## Company Code Repository
@@ -52,7 +52,7 @@ Templates to reduce the time required to setup and run a Polkadot node and all i
 2. Ansible templates for provisioning (validator) nodes, its libraries and tools
 3. All templates will be available for Azure, AWS and GCP
 
-The goal is to simplify Polkadot (validator) node deployment so that it only takes one command to have the infrastructure up and running.
+The goal is to enable a scalable cluster and simplify Polkadot (validator,sentry) node deployment so that it only takes one command to have the infrastructure up and running.
 
 ### Kubernetes Operator for Validator deployment
 
