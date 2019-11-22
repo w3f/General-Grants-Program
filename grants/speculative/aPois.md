@@ -69,7 +69,9 @@ The resulting Operator will be able to do the following tasks:
 The Operator will make it easy for anyone to set up their own, sophisticated Polkadot validator including a highly secured network of sentry nodes.
 This will help making the network as a whole more robust and less prone to attacks on individuals, thus increasing its trustworthyness.
 
-## Development Roadmap
+## Operator Development Roadmap
+
+### Milestones
 
 * **Milestone 1 - Operator Setup**:
   * Create Go based operator structure
@@ -92,6 +94,15 @@ This will help making the network as a whole more robust and less prone to attac
   * Interconnecting node networks
   * Finalize documentation
 
+### Deliverables
+* **Milestone 1**:
+  * Operator that is able to do a simple one-time deploy of sentry nodes and validator
+
+* **Milestone 2**:
+  * Operator that supports modification of the deployments of a sentry node cluster and validator on-the-fly
+
+* **Milestone 3**:
+  * Resources deployed through the operator can be monitored with Prometheus and can be connected over different deployments
 ## Longer-Term
 
 We are very interested in POS blockchains and Polkadot appears as one of the more promising and interesting from a technological point of view. We are facinated by the
