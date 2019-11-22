@@ -34,8 +34,8 @@ Provided in the Google Form.
 - We built a python wrapper of the Rust Indy SDK.
 - For the NEO Fundation we built Seraph ID, a set of tools that can be used by dApps developers and users to leverage Self-Sovereign identity capabilities. It relies on the W3C standards providing DID and verifiable claims functionalities. The set of tools comprehend a C# Smart Contract an SDK and a chrome extention wallet with dapp communication.
 - We audited part of the Energy Web Foundation codebase (Work done together with Chainsecurity, who audited the Solidity Smart Contracts)
-- Strong DevOps and Node deployment expirience gained building our DAPPI Product (Node Hosting and gateway)
-- Expirience in Solidity gained building ERC20 Smart Contracts with extended functionalities and a Smart Contract Factory to easly deploy ERC20 and ERC721 trough UI and using
+- Strong DevOps and Node deployment experience gained building our DAPPI Product (Node Hosting and gateway)
+- Experience in Solidity gained building ERC20 Smart Contracts with extended functionalities and a Smart Contract Factory to easly deploy ERC20 and ERC721 trough UI and using
   the proxy pattern.
 
 ## Company Code Repository
@@ -106,7 +106,7 @@ This will help making the network as a whole more robust and less prone to attac
 ## Longer-Term
 
 We are very interested in POS blockchains and Polkadot appears as one of the more promising and interesting from a technological point of view. We are facinated by the
-decentralized bft/nakamoto consensus algorithms that use Proof of Stake; our long-term vision is to build a strong expirience on all of these networks and integrate them in our Swisscom Blockchain DAPPI service.
+decentralized bft/nakamoto consensus algorithms that use Proof of Stake; our long-term vision is to build a strong experience on all of these networks and integrate them in our Swisscom Blockchain DAPPI service.
 
 ## Additional Information
 
