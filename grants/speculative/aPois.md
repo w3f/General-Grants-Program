@@ -52,7 +52,7 @@ Templates to reduce the time required to setup and run a Polkadot node and all i
 2. Ansible templates for provisioning (validator) nodes, its libraries and tools
 3. All templates will be available for Azure, AWS and GCP
 
-The goal is to enable a scalable cluster and simplify Polkadot (validator,sentry) node deployment so that it only takes one command to have the infrastructure up and running.
+The goal is to simplify Polkadot (validator,sentry) node deployment so that it only takes one command to have the infrastructure up and running with a scalable cluster.
 
 ### Kubernetes Operator for Validator deployment
 
