@@ -18,19 +18,20 @@ This project is a collaboration of Laminar and Polkawallet through the Acala Fou
 
 **Team Polkawallet**
 * Fuyao Jiang (Co-CEO)
-* Yuzhu Liu (Collaboration)
-* Jianjiang Wang (Rust developer)
-* Hao Qiu (Full-stack developer)
-* Xiaoxuan Yang (PR)
+* Yuzhu Liu (Collaboration | Full-time)
+* Jianjiang Wang (Rust developer | Full-time)
+* Hao Qiu (Full-stack developer | Full-time)
+* Xiaoxuan Yang (PR | Full-time)
+* Full-time full-stack developer - hiring
 
 **Team Laminar**
 * Ruitao Su (Co-CEO)
-* Bryan Chen (Advisor & Architect)
-* Bette Chen (Operations & Product)
-* Antonia Chen (Chief Economist)
-* Shaun Wang (Rust developer)
-* Rust developer - hiring
-* Front-end developer - hiring
+* Bryan Chen (Advisor & Architect | Part-time)
+* Bette Chen (Operations & Product | Part-time)
+* Antonia Chen (Chief Economist | Part-time)
+* Shaun Wang (Rust developer | Full-time)
+* Full-time Rust developer - hiring
+* Full-time Front-end developer - hiring
 
 ## Team Website 
 * https://acala.network
@@ -62,8 +63,9 @@ The legal structure of the Acala Foundation is being set up in Singapore. Meanwh
 * Shaun Wang ([shaopengw](https://github.com/shaopengw)) has been contributing to several Polkadot ecosystem open source libraries, including Substrate, parity-common, type-metadata, etc. He has solid software engineering experience and was a core developer in Centrality blockchain team. He was a core member of the runner-up team JOSS at first Polkadot/Substrate hackathon.
 
 ## Team Code Repos
-* Acala Network documentation and implementation: https://github.com/AcalaNetwork/Acala
-* Whitepaper: https://github.com/AcalaNetwork/Acala-white-paper
+* [Acala Network documentation and implementation](https://github.com/AcalaNetwork/Acala)
+* [Economic Whitepaper](https://github.com/AcalaNetwork/Acala-white-paper/blob/master/ACALA_Token_Economy_Working_Paper_4Nov2019.pdf)
+* [The Honzon Protocol documentation](https://github.com/AcalaNetwork/Acala/wiki)
 
 ## Team LinkedIn Profiles
 
