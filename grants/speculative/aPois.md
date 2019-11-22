@@ -71,7 +71,26 @@ This will help making the network as a whole more robust and less prone to attac
 
 ## Development Roadmap
 
-TBD
+* **Milestone 1 - Operator Setup**:
+  * Create Go based operator structure
+  * Define CRD spec for validator sentry nodes
+  * Define CRD spec for validator node
+  * Deployment of CRD through Kubernetes native resources
+  * Connection between sentry nodes and validator
+  * Basic documentation
+
+* **Milestone 2 - Operator Functions**:
+  * Data persistence support
+  * Node cluster scaling support
+  * Updating of node versions
+  * Secure communications
+
+* **Milestone 3 - Validation and Measurement**
+  * Testing and optimisations
+  * Metrics support using Prometheus
+  * Support different methods of exposing node endpoints
+  * Interconnecting node networks
+  * Finalize documentation
 
 ## Longer-Term
 
