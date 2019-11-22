@@ -4,7 +4,7 @@
 
 APOIS by Swisscom Blockchain is a set of tools with the aim to easly deploy and monitor Validators through multiple deployment templates on the most popular cloud platforms using modern devops tools such as Ansible, Terraform, Azure Resource Manager, AWS Resource Manager, etc.
 The main focus of the project is the **Kubernetes Operator**. The Operator will make it easy for anyone to set up their own, sophisticated Polkadot validator including a highly secured network of sentry nodes.
-This will help making the network as a whole more robust and less prone to attacks on individuals, thus increasing its trustworthyness.
+This will help making the network as a whole more robust and less prone to attacks on individuals, thus increasing its trustworthiness.
 
 ## Team Members:
 
@@ -63,11 +63,11 @@ The resulting Operator will be able to do the following tasks:
 2. Use Custom Resource Definitions (CRD) to describe a valid validator sentry deployment on a Kubernetes cluster
 3. Secure the communication between the sentry nodes themselves and the validator
 4. The possibility to provision a validator node as well within Kubernetes in the deployed secure environment
-5. Expose all required ports and enpoints of the nodes for cluster monitoring using Prometheus
+5. Expose all required ports and endpoints of the nodes for cluster monitoring using Prometheus
 6. Possibility to connect the node network to another one setup on a different cluster through the operator (also supporting other cloud providers)
 
 The Operator will make it easy for anyone to set up their own, sophisticated Polkadot validator including a highly secured network of sentry nodes.
-This will help making the network as a whole more robust and less prone to attacks on individuals, thus increasing its trustworthyness.
+This will help making the network as a whole more robust and less prone to attacks on individuals, thus increasing its trustworthiness.
 
 ## Operator Development Roadmap
 
