@@ -31,7 +31,7 @@ Please describe the team's relevant experience.
 * https://www.linkedin.com/<person_2>
 
 ## Development Roadmap
-This section should break out the development roadmap into a number of milestones. Please ensure this section is sufficently detailed. The length will vary depending on the project but approximately 2 pages is a good guideline. It should also be clear how the project is related to Substrate and/or Polkadot. Additionally, you can mention your preferred license here. The default license is Apache 2.0. 
+This section should break out the development roadmap into a number of milestones. Please ensure this section is sufficiently detailed. The length will vary depending on the project but approximately 2 pages is a good guideline. It should also be clear how the project is related to Substrate and/or Polkadot. Additionally, you can mention your preferred license here. The default license is Apache 2.0. 
 
 Please provide the following:
   * For each milestone:
