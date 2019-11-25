@@ -64,6 +64,7 @@ The legal structure of the Acala Foundation is being set up in Singapore. Meanwh
 
 ## Team Code Repos
 * [Acala Network documentation and implementation](https://github.com/AcalaNetwork/Acala)
+* [Open Runtime Module Library](https://github.com/laminar-protocol/open-runtime-module-library)
 * [Economic Whitepaper](https://github.com/AcalaNetwork/Acala-white-paper/blob/master/ACALA_Token_Economy_Working_Paper_4Nov2019.pdf)
 * [The Honzon Protocol documentation](https://github.com/AcalaNetwork/Acala/wiki)
 
@@ -98,33 +99,49 @@ The legal structure of the Acala Foundation is being set up in Singapore. Meanwh
 ## Development Roadmap
 The Acala Network MVP will be a 3-month project, aims to deliver a running Substrate chain testnet providing multi-collateralized stable US Dollars - the Acala Dollar, with basic (council type) governance. Upon the testnet launch, we will implement a basic version of its economic model and work towards an Initial Parachain Offering. Participation in the IPO auction will depend upon the readiness of the Polkadot network. 
 
-* M1: Economic model, governance design, and IPO plan + technical design (2 weeks)
+* **M1: Economic model, governance design, and IPO plan + technical design (2 weeks)**
   - we will create and publish relevant whitepapers
   - R&D multi-collateral Acala Dollar protocol based on Substrate and Polkadot, we will publish technical spec and runtime module designs
   - dApp UX design
 
-* M2: Implementation of Oracle, Multi-Currency Token, and Auction modules (2 weeks)
+* **M2: Implementation of Oracle, Multi-Currency Token, and Auction modules (2 weeks)**
   - we will publish these modules under the Open Runtime Library
+    - `token`: while the balance module handles the native token on the Acala Network, the token module supports additional multiple assets on the chain, to manage balance and transfer tokens.
+    - `currencies`: makes the Acala Network a multi-currency chain by aggregating the srml-balances and orml-tokens
+    - `oracle`: is an implementation of DataProvider, and a common price feeding module, storing incoming price in a key/value map.
+    - `prices`: provides the price for an asset in chosen base currency; it uses asset prices in USD from DataProvider
+    - `auction`: is a common auction interface for bidding on an item. How a particular auction is performed and settled is managed by individual implementation of AuctionHandler
   - we will use and develop Acala specific implementation such as AuctionHandler
   - we will deploy oracle servers and set up monitoring services
   - all runtime modules in this and following milestones will be shipped with unit tests
-
-* M3: Implementation of stablecoin specific modules (4 weeks)
-  - we will implement runtime modules to support the main functionalities: CDP and CDP engines, liquidation auction manager, outlined in the design
   - we will deliver a running chain with these modules, docker image to set up an Acala node, an SDK library, and a tutorial using this protocol
 
-* M4: Implementation of basic economic model and governance (2 weeks)
-  - we will implement runtime modules for basic economic model and governance (council voting) based on our white-paper and design
-  - we will perform runtime upgrade on testnet to include these functionalities, and provide relevant documentation for the community
+* **M3: Implementation of stablecoin specific modules (4 weeks)**
+  - we will implement runtime modules to support the main functionalities
+    - `honzon`: is the proxy module that users will interact with for stablecoin functionalities such as create, update and transfer CDPs
+    - `cdp_engine`: manages auctions, risks (to enforce stability fees, collateral ratio, debt ceiling, debt to asset ratio etc.), and liquidation
+    - `auction_manager`: implements AuctionHandler and handles collateral, surplus and deficit auctions, manages auction parameters such as increment size, and duration etc.
+    - `cdp`: manages maps of debt positions for accounts and collaterals, updates debt positions by updates aUSD balance via the debit module, and updates collateral balances
+    - `debits`: accounts for debt balance for a given collateral when a loan or cdp is created/updated/closed, based on collateral to aUSD exchange rate; it also takes into account of stability fee (or interest rate) and updates the debit exchange ratio every period (e.g. every block)
+    - `other modules`: primitives module defines constants such as collateral currencies supported, support module for defining types
+  - we will deliver a running chain with these modules, docker image to set up an Acala node, an SDK library, and a tutorial using this protocol
 
-* M5: Implement the Acala dApp, integrate all parts, and documentation (4 weeks)
+* **M4: Implementation of basic economic model and governance (2 weeks)**
+  - we will implement runtime modules for basic economic model and governance
+    - basic economic model: implement ACA network token for paying transaction fee, for paying stability fee, and as auction asset in case of insufficient collaterals
+    - basic governance: set up the `council` module for a federated voting process with whitelisted council members 
+  - we will perform runtime upgrade on testnet to include these functionalities, and provide relevant documentation for the community
+  - we will deliver a running chain with these modules, docker image to set up an Acala node, an SDK library, and a tutorial using this protocol
+
+* **M5: Implement the Acala dApp, integrate all parts, and documentation (4 weeks)**
   - we will implement a web dApp to include these features: create CDP to generate Acala dollar, manage positions, and simple governance
   - we will deliver a working web application with these features, and a tutorial to use it
+  - The code for this project will be available publicly and a docker image will be available for download
   - we will launch testnet with all parts integrated, provide documentation and tutorials to end-users and developers to use the dApp and SDKs
 
-Assumptions:
+**Assumptions:**
 - the inter-chain communication protocol for Polkadot is available, and a cross-chain token standard is formalized
-- cumulus is ready to run parachain collector nodes
+- Cumulus is ready to run parachain collector nodes
 - ideally, the Ethereum bridge is available to bring Ethereum assets to Acala Network as collaterals
 
 ## Additional Information
