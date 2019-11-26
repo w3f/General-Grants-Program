@@ -72,6 +72,8 @@ Jacob Chase-Lubitz is product strategist with five years of experience designing
 
 # Additional Information
 
+Each milestone will be one month. We plan to start in January 2020 and finish all objectives under milestone 3 by the end of March 2020. All code will be delivered inside docker containers.
+
 Work has been done so far
 * mechanism design in [documentation](https://web3garden.github.io/sunshine-book/) (which is now a bit outdated but contains the thoughts behind a previous iteration of the runtime, much of which will stay the same depending on feedback from user research during the first milestone)
 * (Amar and David) already experienced with substrate development
