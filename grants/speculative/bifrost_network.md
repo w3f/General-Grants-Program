@@ -15,6 +15,7 @@ We expects that as the Polkadot and Substrate ecosystem matures, we will be able
 * Edwin Wang（Full Stack Engineer, CTO）
 * Lurpis Wang (Full Stack Engineer)
 * Jianping Deng (RUST & C++ Engineer)
+* Alex Yu (RUST Engineer)
 
 ## Team experience
 Bifrost is a project developed by Liebi technology based on substrate. Bifrost technology prototype is the underlying technology of the Liebi Pool. The Liebi Pool will also be the first application built on the Bifrost, Bifrost is also an open platform, we hope to provide more capabilities to the staking economy.
