@@ -68,6 +68,7 @@ Build Substrate IDE for Mac OS with features listed below
   - Fill parameters in a generated form
   - Sign transaction and push to the blockchain
   - View execution result
+- Documentations for each components and the IDE
  
 Each of the above components can be started separately as individual apps.
 Substrate IDE will combine the components together as a single application.
@@ -109,6 +110,7 @@ Build Substrate IDE for Windows and Linux operating systems with the same featur
   - Create new keypair
   - Save available keypairs
   - Sign transactions with Polkadot-js extension
+- Documentations for each components and the IDE
 
 As mentioned above, each component will be open sourced but the IDE itself will remain close sourced for now.
 
