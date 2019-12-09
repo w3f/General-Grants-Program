@@ -23,7 +23,7 @@ The aim of our project as a whole is to switch from the current NEP-5 chain to a
  [Phase 2](#phase-2) -
 Expand on initial infrastructure to develop easy to understand documentation for utilization of DBC services to build further applications within the ecosystem. Outline Polkadot parachain connectivity.
 
-DeepBrain Chain will be good for the ecosystem as it provides a platform for decentralized compute, something that has dramatically reduced the costs when compared with centralized cloud services. This has large potential for any number of reasons. One of the more specific purposes being backup services to any chains that require it. New features could be implemented and expanded on by developers within the Substrate/Polkadot ecoystem, including other successful grantees.
+DeepBrain Chain will be good for the ecosystem as it provides a platform for decentralized compute, something that has dramatically reduced the costs when compared with centralized cloud services. This has large potential for any number of reasons. One of the more specific purposes being backup services to any chains that require it. New features could be implemented and expanded on by developers within the Substrate/Polkadot ecosystem, including other successful grantees.
 
 Streamlined services for developers within the ecosystem, would mean less time working with third party platforms and instead could utilize a service directly provided through Substrate/Polkadot, with better support and documentation for their needs.
 
@@ -94,30 +94,63 @@ We have chosen to use [GNU General Public License v3.0](https://choosealicense.c
 ## Phase 1
 
 - **Milestone 1 — Core focus on infrastructure setup — 1 month**
-  - [ ] Our first major objective is to successfully launch the DeepBrain Chain Mainchain which is constructed from the Substrate blockchain framework.  
-    - [ ] Articles of this process will be documented for future projects looking to migrate to a Substrate/Polkadot blockchain.  We will be focused on moving away from the [NEO](https://neo.org/) platform ([NEP-5 Token](https://docs.neo.org/tutorial/en-us/9-smartContract/What_is_nep5.html)).  At a later date documents on migrating from [Ethereum](https://ethereum.org/) ([ERC-20 Token Standard](https://eips.ethereum.org/EIPS/eip-20)) to the DeepBrain Chain Mainchain will be produced too.  The [VisionX](https://www.visionx.org/) project, which is an incubation from the DeepBrain Chain foundation, is currently using an ERC-20 token.  The date on the latter is undetermined and probably out of this scope of these drafted milestones.
+  - [ ] Our first major objective is to successfully launch the DeepBrain Chain Mainchain which is constructed from the Substrate blockchain framework.
+    * The basic functions of this chain will be released in Milestone 1, simply as groundwork to the Milestone 2 expansion. 
+    - [ ] Treasury
+    - [ ] Governance
+    - [ ] Articles of this process will be documented for future projects looking to migrate to a Substrate/Polkadot blockchain.  We will be focused on moving away from the [NEO](https://neo.org/) platform ([NEP-5 Token](https://docs.neo.org/tutorial/en-us/9-smartContract/What_is_nep5.html)).  At a later date documents on migrating from [Ethereum](https://ethereum.org/) ([ERC-20 Token Standard](https://eips.ethereum.org/EIPS/eip-20)) to the DeepBrain Chain Mainchain will be produced too. 
+     * The [VisionX](https://www.visionx.org/) project, which is an incubation from the DeepBrain Chain foundation, is currently using an ERC-20 token.  The date on the latter is undetermined and probably out of this scope of these drafted milestones.
+    
     - [ ] We will provide docker images, docker-compose and helm charts to execute nodes and ease the development process going forward.  Also, any custom shell or PowerShell scripts produced will be made readily available.  Most of these are already constructed and will be accessible to the general public soon.
-    - [ ] We plan to run a third-party security audit of the blockchain prior to release.
-  - [ ] Deploy a native Substrate or ERC-20 based token, via [Ink!](https://substrate.dev/docs/en/ecosystem/contracts/ink), as an integration module developed for exchanges to swap new tokens over.  Included are various tools for wallet construction and usage; such as [Subkey](https://substrate.dev/docs/en/ecosystem/subkey), APIs and Wasm based wallets.
+  - [ ] Deploy a native Substrate or ERC-20 based token, via [Ink!](https://substrate.dev/docs/en/ecosystem/contracts/ink), as an integration method for end-users and exchanges to swap new tokens over.
+      - [ ] [Subkey](https://substrate.dev/docs/en/ecosystem/subkey) with `--network dbc-mainchain` to create wallets via cli.
+      - [ ] Web wallet that creates accounts on the mainchain.
+      - [ ] JSON-RPC access to create and interact with wallets.
+      - [ ] A runtime module that will save to the chain itself.  This will record a NEP-5 address inputed by end-users to IPFS on the chain, with the newly created Substrate based wallet address.  This will happen after the NEP-5 token has been verified by sending a randomized amount to an issued wallet address.
   - [ ] Complete a successful token swap of the DBC token for the foundation, mining and teams pre-allocated budgets already set forth.
   - [ ] Open token swap to the general public via the DeepBrain Chain website.
-
+- [ ] Deliver a guide on usage, which will include instructions on how to  compile, download and run the code successfully.  Including deploying the chain, transferring and testing tokens, swapping current tokens.
+  
 - **Milestone 2 — Core focus on community integration — 1 month**
-  - [ ] Launch a beta Governance dashboard for public testing with a native substrate token.  Create base template for use by any project to utilize going forward.
+  - [ ] We will build a custom runtime module, that will serve as a supernode, which is a collective of at least 9 staked nodes with a minimum of 20 million DBC Tokens and a max stake of 50 million on each node. (This can be increased when all community nodes, excluding dev/team, hit their cap and once proposal has been passed by supernodes) - this will not be accessible publicly until Milestone 3. 
+  * Node types:
+    * 1 x community low stakes node (no minimum stake, max 500k stake) 
+    * 1 x team/community dev node (only can be staked by community devs and team) 
+    * 7 x standard community nodes (can be hosted via community site, or hosted privately if verification/KYC/proof of intent and capability all checks out)
+        * Minimum individual stake: 1m
+        * Max stake: 12.5m (25% initial total node cap)
+    
+    - [ ] Staking Rewards
+  - [ ] Launch a beta Governance dashboard for public testing with a native Substrate token.  Create base template for use by any project to utilize going forward.
+      The dashboard is a web application for decentralized collaboration and governance. 
+    - [ ] Proposal submission for use of treasury tokens, change of core mechanics such as chain fees, reward rates, supernode max caps etc.
+    - [ ] Proposals will include submission criteria and outline expected targets of each goal. Comment section under each proposal for feedback and direct discussions. 
+    - [ ] Live chat and forum for discussion of proposals and project. 
+    - [ ] Governance - voting deadlines for each submitted proposal
   - [ ] Expand on governance features within staking ecosystem to ensure complete automation of network from outside attacks.
-  - [ ] Benchmarking tools for overall block performance and node election.
-
+  - [ ] Benchmarking tools for overall block performance and node election via web application. 
+      - [ ] Integrated node election within web dashboard
+      - [ ] Telemetry integration for node performance to gauge block production, uptime, number of votes cast per each node/node activity. 
+          - Users should be able to access this dashboard to elect and stake on community nodes. Telemetry should provide users information on node activity, such as which nodes put forth the most proposals, which nodes have the most individual users, which nodes are the most active with voting. 
+  - [ ] Deliver a guide on usage, which will include instructions on how to  compile, download and run the code successfully. 
+    - [ ] This will include a custom Web3 account with dev privileges. Community proposals will be active at this time and you can fully take part in live governance. 
+  
 - **Milestone 3 — Core focus on product integration — 1 month**
   - [ ] Launch beta dashboard for AI developers to utilize compute through western website (via [dbc.team](https://dbc.team) portal)
+      - [ ] Main feature of this dashboard will initially be for AI developers to rent compute directly from suppliers using the DBC API.
+      - [ ] Filter and search function to find the best node (geolocation, stats, reputation, hardware specifications)
+      - [ ] Wallet to store tokens and make payments for compute. 
   - [ ] Smart contract development for renting via DBC cloud compute API (replacing NEP5 Payment streams)
-  - [ ] Improve UI and ease of use of current DBC dashboard. Improve compute node search functions.
+      - [ ] Smart contract for automatic payment from consumer to provider. We will therefore not act as a middle man in the payment structure. Tokens will go directly from User A to Provider A. 
+      - [ ] Contracts will determine refund schedules for nodes that do not supply exact hours of use/go off-line. 
   - [ ] Introduce public supernodes into the project.  The governance will be used for node election usage.
   - [ ] Launch incentive service for Substrate/Polkadot developers to build out DApps (both AI specific or non specific). Ideally to use DBC network for the benefit of Substrate/Polkadot or their project as a whole.
+  - [ ] Deliver a guide on usage, which will include instructions on how to  compile, download and run the code successfully.
 
 ## Phase 2 - Long term
 
 After successful deployment and completion of Phase 1, we plan to continue development of the network and it's accessibility regardless of any future grants or funding.
-
+    
 This will include research and development of connecting with Polkadot services.
 
 Developing dashboard with DBC API for Substrate/Polkadot developers to utilize DBC compute or AI services.
@@ -126,7 +159,7 @@ Further incentive programs for Substrate/Polkadot developers to get started with
 
 The main focus after Phase 1 will still be:
 
-- The development of our English cloud product
+- The development of our English cloud product, including a full release of the AI developer dashboard. 
 
 - The security and smooth operation of community governance, voting/proposal applications to ensure no bad actors can manipulate the network.
 
