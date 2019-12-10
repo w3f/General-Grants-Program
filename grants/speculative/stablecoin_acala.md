@@ -97,7 +97,7 @@ The legal structure of the Acala Foundation is being set up in Singapore. Meanwh
 * Shaun Wang: https://github.com/shaopengw
 
 ## Development Roadmap
-The Acala Network MVP will be a 3-month project, aims to deliver a running Substrate chain testnet providing multi-collateralized stable US Dollars - the Acala Dollar, with basic (council type) governance. Upon the testnet launch, we will implement a basic version of its economic model and work towards an Initial Parachain Offering. Participation in the IPO auction will depend upon the readiness of the Polkadot network. 
+`The Acala Network MVP` will be a 3-month project, aims to deliver a running Substrate chain testnet providing multi-collateralized stable US Dollars - the Acala Dollar, with basic (council type) governance. Upon the testnet launch, we will implement a basic version of its economic model and work towards an Initial Parachain Offering. Participation in the IPO auction will depend upon the readiness of the Polkadot network. 
 
 * **M1: Economic model, governance design, and IPO plan + technical design (2 weeks)**
   - we will create and publish relevant whitepapers
@@ -139,7 +139,13 @@ The Acala Network MVP will be a 3-month project, aims to deliver a running Subst
   - The code for this project will be available publicly and a docker image will be available for download
   - we will launch testnet with all parts integrated, provide documentation and tutorials to end-users and developers to use the dApp and SDKs
 
-**Assumptions:**
+**Scope of Delivery**
+`The Acala Network MVP` testnet will be an independent chain, with the functionalities specified above, without depending on inter-chain communication protocol nor Cumulus. The testnet can use our multi-currency module to mint test collateral assets such as BTC/ETH/DOT to simulate bridging or cross-chain assets. The following items are **out of scope** of this grant application but remain as objectives of the full (production) Acala project plan, they will be implemented once the dependent components are ready
+- enable cross-chain aUSD
+- make assets from other networks available on Acala network: other parachains or other blockchains
+- participate in IPO and joining Polkadot as parachain
+
+**Dependent Components (ideal to have but not compulsory)**
 - the inter-chain communication protocol for Polkadot is available, and a cross-chain token standard is formalized
 - Cumulus is ready to run parachain collector nodes
 - ideally, the Ethereum bridge is available to bring Ethereum assets to Acala Network as collaterals
