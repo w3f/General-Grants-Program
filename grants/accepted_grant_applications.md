@@ -74,4 +74,5 @@ This page gives an overview of accepted grants and a link to their GitHubs. Keep
 - [Archipel](https://archipel.id/) - Solution to resolve high availability problem of Validator nodes in PoS ([GitHub](https://github.com/RangerMauve))
 - [Zondax](https://zondax.ch/) - Flexible TrustZone-based HSM stack ([GitHub](https://github.com/ZondaX))
 - [Usetech](http://usetech.com/blockchain.html) - SR25519 library in pure C and C# ([GitHub](https://github.com/usetech-llc/))
+- [Akropolis](https://akropolis.io/) - PolkaHub - Heroku-like infrastructure for node deployment ([GitHub](https://github.com/akropolisio))
 
