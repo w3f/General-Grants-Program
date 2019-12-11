@@ -75,4 +75,7 @@ This page gives an overview of accepted grants and a link to their GitHubs. Keep
 - [Zondax](https://zondax.ch/) - Flexible TrustZone-based HSM stack ([GitHub](https://github.com/ZondaX))
 - [Usetech](http://usetech.com/blockchain.html) - SR25519 library in pure C and C# ([GitHub](https://github.com/usetech-llc/))
 - [Akropolis](https://akropolis.io/) - PolkaHub - Heroku-like infrastructure for node deployment ([GitHub](https://github.com/akropolisio))
+- [Pixura](https://pixura.io/) - Substrate API client in Haskell ([GitHub](https://github.com/Pixura))
+- [HashQuark](https://www.hashquark.io/) - Validator Dashboard ([GitHub](https://github.com/hashquark-research))
+- [Stacktical](https://stacktical.com/) - Performance Management Runtime Modules ([GitHub](https://github.com/Stacktical))
 
