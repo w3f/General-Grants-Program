@@ -2,6 +2,15 @@
 
 As part of our commitment to promoting the Web3 ecosystem, we offer a comprehensive grants program focused on funding software development, research, technical education and community engagement efforts related to **Polkadot** and **Substrate**. 
 
+---
+
+- [Process](#process)
+- [Guidelines for technical grants](#guidelines-for-technical-grants)
+  - [Licensing](#licensing)
+  - [Documentation](#documentation)
+  - [Areas of interest for technical grants](#areas-of-interest-for-technical-grants)
+  - [Who we are interested in funding](#who-we-are-interested-in-funding)
+
 ## Process
 If you are considering applying for a grant, please follow the process below.
   
@@ -75,7 +84,7 @@ In order to successfully receive grant funding for your application it is necess
 To ensure ease-of-use we require all projects to create documentation that explains how their project works. At a minimum, written documentation is required for funding. Tutorials or videos are also helpful for new users to understand how to use the product.
 
 ### Areas of interest for technical grants
-The W3F is interested in providing grants within the following areas of interest. If any of these topics are of interest to you then please make a speculative application to request funding for your project. 
+The W3F is interested in providing grants within the following areas of interest. If any of these topics are of interest to you then please make a speculative application to request funding for your project. Feel free to also take a look at the [accepted grant applications](https://github.com/w3f/Web3-collaboration/blob/master/grants/accepted_grant_applications.md).
 
 * **Software development**
   * Development and deployment tooling
@@ -150,5 +159,3 @@ The W3F is interested in providing grants within the following areas of interest
   * Established teams with a track record
 * Researchers
   * Universities/Professors
- 
-    

@@ -1,16 +1,29 @@
 # Web3-collaboration
-This is a public repository to help coordinate our collaboration efforts with teams working in the Web 3 ecosystem. In order to build a better web, the Web3 Foundation will help to coordinate the efforts of teams working towards this common goal. The coordination of efforts will include helping to connect teams, cross-promote the products and protocols, as well as provide strategic grants.
+
+This is a public repository to help coordinate our collaboration efforts with teams working in the Web 3 ecosystem. In order to build a better web, the Web3 Foundation will help to coordinate the efforts of teams working towards this common goal. The coordination of efforts will include helping to connect teams, cross-promote the products and protocols, as well as provide strategic [grants](https://github.com/w3f/Web3-collaboration/blob/master/grants/grants.md).
 
 Our view is that the Polkadot platform will play a pivotal role in the Web 3 ecosystem. To get a better idea of how we think about the ecosystem, we invite you to look at our proposed [Web 3 tech stack](https://github.com/w3f/Web3-wiki/wiki/Tech-Stack).
 
-## About us - Web3 Foundation
+---
+
+- [About us](#about-us)
+- [How this repo will be used](#how-this-repo-will-be-used)
+  - [Polkadot ecosystem issues](#polkadot-ecosystem-issues)
+  - [Web3 ecosystem issues](#web3-ecosystem-issues)
+- [Who we are looking for](#who-we-are-looking-for)
+- [Submission process guidelines](#submission-process-guidelines)
+- [Polkadot Meetups](#polkadot-meetups)
+- [Additional information](#additional-information)
+- [Real-time conversation](#real-time-conversation)
+
+
+## About us
 For more information about the Web3 Foundation please visit the ["About Us"](https://github.com/w3f/Web3-wiki/wiki/Web3-Mission-and-Background/_edit) page on our wiki. 
 
 ## How this repo will be used
-In this repository, we will facilitate collaboration via issue tracking. Essentially, the problems and ideas which we believe to be important will appear on the [issues](https://github.com/w3f/Web3-collaboration/issues) page. It is also possible for project teams to suggest new ideas: to do so simply create a new issue.
+In this repository, we will facilitate collaboration via issue tracking and [grants](https://github.com/w3f/Web3-collaboration/blob/master/grants/grants.md). Essentially, the problems and ideas which we believe to be important will appear on the [issues](https://github.com/w3f/Web3-collaboration/issues) page. It is also possible for project teams to suggest new ideas: to do so simply create a new issue.
 
-
-## Polkadot ecosystem issues
+### Polkadot ecosystem issues
 Here are some of the important issue areas that we would love for the community to collaborate with us on.
 
 Development issues:
@@ -20,13 +33,8 @@ Development issues:
 
 More information on development collaboration can be found in the development collaboration document: [development doc](https://github.com/w3f/Web3-collaboration/blob/master/development.md)
 
-### Testing Polkadot
-If you want to test our software then there aren't really any requirements, just download and have fun. Obviously, we would greatly appreciate constructive feedback and any heads up on bugs that you might find.
-
-
-## Web3 ecosystem issues
-Please see our development collaboration document for further details (once available):  [development doc](https://github.com/w3f/Web3-collaboration/blob/master/development.md)
-
+### Web3 ecosystem issues
+Please see our development collaboration document for further details:  [development doc](https://github.com/w3f/Web3-collaboration/blob/master/development.md)
 
 ## Who we are looking for
 The ideal candidates are people who can work in a self-directed manner and are able to manage their own time and resources in order to hit the necessary targets. For meetups, it is possible to do this single-handedly although for larger coding projects we expect teams of multiple members will be typical.
@@ -52,12 +60,10 @@ Below is a template for responding to issues. If you are offering collaboration 
 
 If you would like to see some example responses then check out the following document in this repo: [response-examples.md](https://github.com/w3f/Web3-collaboration/blob/master/response-examples.md)
 
-
 ## Polkadot Meetups
 We have multiple active meetup groups across the world. Find more information on the following doc: [Link](https://github.com/w3f/Web3-collaboration/blob/master/meetups.md). We encourage you to note your interest in the [issues](https://github.com/w3f/Web3-collaboration/issues) section of this repo and find collaborators in your local area!
 
-
-## Looking for further information?
+## Additional information
 
 * [W3F Website](https://web3.foundation)
 * [W3F Forum](https://forum.web3.foundation)
