@@ -20,6 +20,10 @@ Indexer interacts with Substrate/Polkadot via RPC interface, and CE acts as a tr
 
 ### An indication of why your team is interested in creating this project.
 
+Currently available solution from Polkascan serves its needs well. We would like to expand capabilities of indexers and create a flexible indexer that is less dependent on concrete runtime configuration and opens capabilities to many high performance dApps including ones that require their own runtime modules and new transaction types.
+
+CE is a very needed (and missing) part for any blockchain. Operating with preset hardcoded node is an obvious vulnerability for a dApp because this single node may be attacked. We are interested in improving network security so, this problem is of our interest as well. 
+
 ## Team members
 * Alexander Mitrovich
 * Greg Zaytsev
