@@ -1,13 +1,24 @@
 # PostgreSQL Indexer and Consensus Ensurer
 
 ## Project Description
-If this application in response to an RFP then please indicate this on the first line of this section.
 
-Please provide the following:
-  * A brief description of the project.
-  * An indication of why this project is good for the ecosystem.
-  * An indication of how you will integrate this project into Substrate / Polkadot.
-  * An indication of why your team is interested in creating this project.
+### A brief description of the project.
+
+Indexer analyses metadata and produces database schema from it, then it scans blocks, extracts data from transactions and saves it to database tables.
+
+CE ensures that the node a dApp communicates to entered consensus with the rest of the network.
+
+### An indication of why this project is good for the ecosystem.
+
+Indexer will enable creating applications with high performance requirements.
+
+CE will add missing layer of security that is assumed to be present in any blockchain network.
+
+### An indication of how you will integrate this project into Substrate / Polkadot.
+
+Indexer interacts with Substrate/Polkadot via RPC interface, and CE acts as a transparent layer for a client API (so that dApps will not need to change), but the set of nodes to interact with will be managed by CE instead of application maintainers.
+
+### An indication of why your team is interested in creating this project.
 
 ## Team members
 * Name of team leader
