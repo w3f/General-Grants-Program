@@ -57,6 +57,6 @@ Our areas of interest in Polkadot and Substrate are around:
 C++ and C# APIs are delivered. Source code and documentation are available at these public repositories: 
 * https://github.com/usetech-llc/polkadot_api_cpp
 * https://github.com/usetech-llc/polkadot_api_dotnet
-sr25519 porting to C is implemented, available here:
+* sr25519 porting to C is implemented, available here:
 * https://github.com/usetech-llc/sr25519
-We have already completed most of the development for the Indexer, to insure we undestand the limits of the possible implementation
+* We have already completed most of the development for the Indexer, to insure we undestand the limits of the possible implementation
