@@ -62,13 +62,16 @@ Itering has a complete and professional team from technology to operation. The t
 ### Milestones
 
 * M1 (2 weeks): Implement scale codec low level data format
+
 * M2 (2 weeks): Implement types of substrate, support dynamic type generation from json
-* M3 (2 weeks): Metadata(versioned)  support
+
+* M3 (2 weeks): Metadata(versioned) support
+
 * M4 (2 weeks): Full compatibility with native Substrate API
 
-For M1 milestone, we are willing to request $5K. For M2 milestone, we are willing to request $5K. For M3 milestone, we are willing to request $5K. For M4 milestone, we are willing to request $5K.
+All milestones will include documents for explaining how to use the features.
 
-We are ok to accept DOTs as payments, all in DOTs is good.
+After these are completed, this project will be used in subsequent projects and adjusted according to actual usage, which may include: better exception handling, and add support for other substrate-based chains.
 
 ## Additional Information
 
