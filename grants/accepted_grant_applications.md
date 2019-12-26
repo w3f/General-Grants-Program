@@ -78,4 +78,5 @@ This page gives an overview of accepted grants and a link to their GitHubs. Keep
 - [Pixura](https://pixura.io/) - Substrate API client in Haskell ([GitHub](https://github.com/Pixura))
 - [HashQuark](https://www.hashquark.io/) - Validator Dashboard ([GitHub](https://github.com/hashquark-research))
 - [Stacktical](https://stacktical.com/) - Performance Management Runtime Modules ([GitHub](https://github.com/Stacktical))
+- [Sean Young](https://www.mess.org/) — Solidity to WASM compiler ([GitHub](https://github.com/hyperledger-labs/solang))
 
