@@ -61,7 +61,7 @@ This page gives an overview of accepted grants and a link to their GitHubs. Keep
 - [Galactic Council](https://github.com/galacticcouncil) - Polkalert: Validator Monitoring ([GitHub](https://github.com/galacticcouncil/polkalert))
 - [Bandot](http://bandot.io/) - Stablecoin ([GitHub](https://github.com/bandotorg/Bandot))
 - [Laminar One](https://laminar.one/) - FlowChain parachain with SDK and App ([GitHub](https://github.com/laminar-protocol/flowchain))
-- [Staked](https://staked.co.jp/) - Ink! Playground ([GitHub](https://github.com/stakedtechnologies/ink-playground))
+- [Stake Technologies](https://stake.co.jp/) - Ink! Playground ([GitHub](https://github.com/staketechnologies/ink-playground))
 - [B-Harvest](https://bharvest.io/) - Node Monitoring Tool ([GitHub](https://github.com/b-harvest))
 - [Simply VC](https://simply-vc.com.mt/) - P.A.N.I.C. Validator alerting solution
 - [Ethworks](https://ethworks.io/) - Polkadot{.js} extension improvements ([GitHub](https://github.com/ethWorks))
