@@ -79,4 +79,5 @@ This page gives an overview of accepted grants and a link to their GitHubs. Keep
 - [HashQuark](https://www.hashquark.io/) - Validator Dashboard ([GitHub](https://github.com/hashquark-research))
 - [Stacktical](https://stacktical.com/) - Performance Management Runtime Modules ([GitHub](https://github.com/Stacktical))
 - [Sean Young](https://www.mess.org/) — Solidity to WASM compiler ([GitHub](https://github.com/hyperledger-labs/solang))
+- [Chain Security](https://chainsecurity.com/) — Tool for validating correctness of Polkadot runtimes ([GitHub](https://github.com/ChainSecurity))
 
