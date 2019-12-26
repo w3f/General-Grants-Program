@@ -136,3 +136,34 @@ that explains the motivation as well as the feasibility of the implementation.
 - Support for hardware wallets
 - Partial claims of the available tokens
 - Production quality user interfaces
+- Pre-genesis migration tooling
+
+### Similar projects
+
+#### Polkadot Claims
+
+The right to receive DOTs or KSMs (the Kusama testing DOTs) is granted by
+participating in the Polkadot ICO that was done on Ethereum.
+
+For pre-genesis DOT claims, there is an
+[Ethereum smart contract](https://github.com/w3f/polkadot-claims) you interact
+with to publish your Polkadot address with a proof of ownership. This works well
+because the source system (Ethereum) is a smart contracting platform. In
+contrast to Polkadot Claims, this grant application does not require the source
+system to perform custom operations for the claim. It could even be a chain that
+stopped at the point of the migration.
+
+For post-genesis claims, there is the
+[Claims runtime module](https://github.com/paritytech/polkadot/blob/v0.7.10/runtime/src/claims.rs#L17),
+which is very similar to what this grant application wants to achieve. The main
+difference is that the source system is fixed to Ethereum and cannot easily be
+adjusted. We propose a migration tool whereby the account balances in the target
+system can be imported from all types of data sets (typically blockchain state
+dumps) and the verification algorithm is injected.
+
+Polkadot's Claims runtime module relies on unsigned transactions that don't pay
+fees, which is a simple solution for the chicken-egg problem. However, it might
+create a potential for spam, which needs to be carefully analyzed.
+
+In conclusion, the Ethereum smart contract and the Claims runtime module are
+specific tools, while Migrate to Substrate is highly customizable.
