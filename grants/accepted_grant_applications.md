@@ -49,7 +49,7 @@ This page gives an overview of accepted grants and a link to their GitHubs. Keep
 -   [Geefu](https://www.geefu.net/) - Vue JS components for Polkadot JS apps ([GitHub](https://github.com/vue-polkadot))
 -   [Centrifuge](https://centrifuge.io/) - Substrate Go API client ([GitHub](http://github.com/centrifuge))
 -   [Litentry](https://www.litentry.com/) - Identity modules and corresponding UIs ([GitHub](https://github.com/litentry/litentry-runtime))
--   SubSocial - SRML and UI for decentralized communities ([GitHub](https://github.com/dappforce/dappforce-subsocial-node))
+-   [DappForce](http://dappforce.io) - SubSocial - Substrate module and web UI for decentralized communities ([GitHub](https://github.com/dappforce/dappforce-subsocial))
 -   [pLibra ](https://plibra.io/)- Bridge between Polkadot and a Libra chain ([GitHub](https://github.com/libra-china-org))
 -   [Wiv ](http://wiv.io/)- Supply chain modules and front-end UI ([GitHub](https://github.com/wivtech))
 
