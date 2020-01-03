@@ -5,12 +5,12 @@
 
 ## Project Background
 
-We are building governance modules with user interfaces for Polkadot parachains. This aligns with the Web3 Hermit governance parachain, but the scope of the initial grant is four modules that can be configured into a runtime with a UI to deploy and support instances of fund coordination organizations as described in the [documentation](https://web3garden.github.io/sunshine-book/).
+We are building governance modules with user interfaces for Polkadot parachains. This aligns with the Web3 Hermit governance parachain, but the scope of the initial grant is four modules that can be configured into a runtime with a UI to deploy and support instances of fund coordination organizations as described in the [documentation](https://web3garden.github.io/sunshine-spec/).
 
 This proposal is NOT for a generic "DAO chain", but the modules will be useful for parachain governance in the absence of a canonical chain for governance; parachains can configure these modules and add them to their chain in lieu of accessing them through SPREE or some other trusted communication channel.
 
 This grant application is for the design and implementation of four loosely coupled modules, a runtime to configure the modules, and a Polkadot-js interface for user interaction. The three-month objective includes
-* four loosely coupled runtime modules with a runtime that supports instances of [**sunshine**](https://web3garden.github.io/sunshine-book/) as an example configuration
+* four loosely coupled runtime modules with a runtime that supports instances of [**sunshine**](https://web3garden.github.io/sunshine-spec/) as an example configuration
 * a Polkadot-js user interface for organizations to use the modules
 * a CLI tool for testing the modules by constructing extrinsics with [`substrate-subxt`](https://github.com/paritytech/substrate-subxt/)
 
@@ -47,7 +47,7 @@ Jacob Chase-Lubitz is product strategist with five years of experience designing
 ## <a href="https://github.com/web3garden/">Team Code Repos</a>
 
 * [sunshine](https://github.com/web3garden/sunshine)
-* [sunshine-docs](https://github.com/web3garden/sunshine-book)
+* [sunshine-docs](https://github.com/web3garden/sunshine-spec)
 * [monetary-futarchy](https://github.com/web3garden/monetary-futarchy)
 
 # Development Roadmap
@@ -75,7 +75,7 @@ Jacob Chase-Lubitz is product strategist with five years of experience designing
 Each milestone will be completed within one month, starting in January 2020 and finishing all objectives under milestone 3 by the end of March 2020. All code will be delivered inside docker containers.
 
 Work has been done so far
-* mechanism design in [documentation](https://web3garden.github.io/sunshine-book/) (which is now a bit outdated but contains the thoughts behind a previous iteration of the runtime, much of which will stay the same depending on feedback from user research during the first milestone)
+* mechanism design in [documentation](https://web3garden.github.io/sunshine-spec/) (which is now a bit outdated but contains the thoughts behind a previous iteration of the runtime, much of which will stay the same depending on feedback from user research during the first milestone)
 * (Amar and David) already experienced with substrate development
 * (David) already experienced with rust and substrate RPCs
 
