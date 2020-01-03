@@ -20,7 +20,7 @@ Please provide the following:
 Please provide the name and registered address of the legal entity executing the project. These details can also be shared privately via the Google Form used for your application.
 
 ## Team's experience
-Please describe the team's relevant experience.  If the project involves development work, then we'd appreciated if you can single out a few interesting code commits made by team members on their past projects.  We'll glance at whole repositories too, but not if they contain many vendored dependnecies, which often makes commits easier. 
+Please describe the team's relevant experience.  If the project involves development work, then we'd appreciated if you can single out a few interesting code commits made by team members on their past projects.  We'll glance at whole repositories too, but not if they contain many vendored dependencies, which often makes commits easier. 
 
 ## Team Code Repos
 * https://github.com/<your_repo_1>
