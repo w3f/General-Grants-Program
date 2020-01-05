@@ -91,6 +91,11 @@ A set of tutorials will be published:
 
 Becoming a Parachain is out of scope for this proposal because details are not yet well known on how to become a parachain on Kusama. Moreover, SubstraTEE uses custom host-calls for its runtime which will not work for Parachains without modifications (only affects remote attestation of TEE’s).
 
+### Timeline
+T0: project start (upon agreement)
+M1: T0 + 3 months
+M2: T0 + 4 months
+
 ## Long-Term Plans
 Encointer aims at becoming a parathread or parachain on Polkadot. Once the *Cantillon* testnet shows stable performance and acceptable scalability, the launch of mainnet is planned 
 
