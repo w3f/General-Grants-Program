@@ -11,6 +11,8 @@ Encointer enables decentralized identities (DID) to be uniquely bound to real pe
 ## Team members
 
 * Alain Brenzikofer: @brenzi on github, Department Head, Developer
+
+extended team on request:
 * Marcel Frei: @electronix on github, Project Manager for substraTEE, Developer
 * Christian Langenbacher: @clangenb on github, SubstraTEE Developer
 
