@@ -8,13 +8,13 @@ Definex is a Financial market protocol that provides both liquid money markets f
 ## Team members
 * Constance Yuan
 * Jamie Cheng
-*  Khalid Mazouz
-*  Kyli Bing 
-*  Kelvin Chen
-*  Terence Ge
-*  Miracle Lee
-*  Robbie Li
-*  Charly Chen
+* Khalid Mazouz
+* Kyli Bing 
+* Kelvin Chen
+* Terence Ge
+* Miracle Lee
+* Robbie Li
+* Charly Chen
  
 ## Team website
 * https://definex.io/
@@ -32,7 +32,7 @@ Definex is a Financial market protocol that provides both liquid money markets f
 
 ## Team LinkedIn Profiles
 * Constance Yuan:
-* Jamie Cheng: https://www.linkedin.com/in/starit/
+* Jamie Cheng: 
 * Khalid Mazouz: https://www.linkedin.com/in/khalid-mazouz-89397547/
 * Kyli Bing: https://www.linkedin.com/in/kyli-bing-63a32159/
 * Kelvin Chen: https://www.linkedin.com/in/k%CE%BElvin-ch%CE%BEn-a49a5181/
