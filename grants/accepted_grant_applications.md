@@ -33,7 +33,7 @@ This page gives an overview of accepted grants and a link to their GitHubs. Keep
 -   [ZeroChain](https://layerx.co.jp/) - Zero knowledge transactions in Substrate ([GitHub](https://github.com/LayerXcom/zero-chain))
 -   [Robonomics](https://aira.life/en/) - Substrate modules for controlling robots ([GitHub](https://github.com/airalab/substrate-node-robonomics))
 -   [Avado](https://ava.do/) - Polkadot node deployment with consumer hardware (GitHub)
--   [Staked](https://staked.co.jp/) - Plasma modules for Substrate ([GitHub](https://github.com/stakedtechnologies/Plasm))
+-   [Stake Technologies](https://stake.co.jp/) - Plasma modules for Substrate ([GitHub](https://github.com/stakedtechnologies/Plasm))
 -   [HOPR](https://hopr.network/) - Substrate integration with this P2P messaging protocol ([GitHub](https://github.com/validitylabs/HOPR-PL-Substrate))
 -   [Mailchain](https://mailchain.xyz/) - a Multi-Blockchain Messaging Application ([GitHub](https://github.com/mailchain))
 -   [Usetech](http://usetech.com/blockchain.html) - Polkadot C++ API ([GitHub](https://github.com/usetech-llc/polkadot_api_cpp))
@@ -84,3 +84,8 @@ This page gives an overview of accepted grants and a link to their GitHubs. Keep
 
 ## Wave 5
 - [Bifrost](https://bifrost.codes/) - EOS interoperable bridge ([GitHub](https://github.com/bifrost-codes))
+- [Entropy Labs](https://entropylabs.hk) - A toolkit for building and deploying applications with substrate
+- [Papers GmbH](https://airgap.it) - AirGap - Desktop (+mobile) wallet for Polkadot ([GitHub](https://github.com/airgap-it))
+- [Stake Technologies](https://stake.co.jp/) - Plasm Chain + OVM Implementation ([GitHub](https://github.com/stakedtechnologies/))
+- [Usetech](http://usetech.com/blockchain.html) - PostgreSQL Indexer and Consensus Insurer ([GitHub](https://github.com/usetech-llc/))
+- [ACALA PTE. LTD.](https://acala.network/) - A decentralized stablecoin platform 
