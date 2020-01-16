@@ -12,7 +12,7 @@ Further, the session keys are not all necessarily of the same type. For example,
 
 ### History
 
-SCS has developed SubstraTEE based on Intel SGX technology with a grant from the web3 foundation. After fulfilling that grant with the delivery of M4, SCS continued the development on its own and has reached M5, adding a private token transfer implementation that allows to instantiate a pallet-balances module within an enclave. A pending grant proposal shall allow SubstraTEE to perform light client verifications inside the enclave to allow trustless reading of chain state from the enclave state transition function (STF) and verifying inclusion proofs for arbitrary extrinsics.
+SCS has developed SubstraTEE based on Intel SGX technology with a grant from the web3 foundation. After fulfilling that grant with the delivery of M4, SCS continued the development on its own and has reached M5, adding a private token transfer implementation that allows to instantiate a pallet-balances module within an enclave. A [pending grant proposal](https://github.com/w3f/Web3-collaboration/pull/214) shall allow SubstraTEE to perform light client verifications inside the enclave to allow trustless reading of chain state from the enclave state transition function (STF) and verifying inclusion proofs for arbitrary extrinsics.
 
 ### Technical Concept
 
@@ -55,7 +55,7 @@ At this stage the signer is just a “poor-man’s HSM”. No real mitigation of
 
 Next, we use substraTEE’s light client functionality (to be developed with a pending grant proposal) to make sure the payload to be signed is a block linking to the tip of the chain. Moreover, we keep track of all blocks that have been signed by the enclave.
 
-Replay protection will be implemented based on the ROTE protocol. This protocol leverages a distributed set of SGX machines. As long as at least one enclave is online that hasn’t suffered a rollback, the integrity of each enclave is guaranteed.
+Replay protection will be implemented based on the [ROTE protocol](https://eprint.iacr.org/2017/048.pdf). This protocol leverages a distributed set of SGX machines. As long as at least one enclave is online that hasn’t suffered a rollback, the integrity of each enclave is guaranteed.
 
 #### Benefit for validators
 For high-availability setups with redundant validator machines, a single remote signer can protect against double-signing. However, if the signer goes offline, the redundancy of validator nodes is futile.
@@ -95,6 +95,8 @@ SCS is in charge of the development of a dynamic grid usage-tariff smart contrac
 Moreover, we've developed a PoC for Electric Vehicle charging process on blockchain based on Parity Ethereum: https://youtu.be/xJUKNlV79pg
 
 For trusted sensor oracles, Alain wrote a [whitepaper on decentralized trusted timestamping](https://www.scs.ch/wp-content/uploads/2017/01/trusted-sensor-whitepaper.pdf).
+
+Alain has [presented SubstraTEE and encointer at sub0.1](https://youtu.be/i3-eVuxrt5k)
 
 Alain, Marcel and Christian are the core developers for substraTEE.
 
