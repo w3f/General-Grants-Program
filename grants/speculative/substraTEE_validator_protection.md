@@ -16,6 +16,8 @@ SCS has developed SubstraTEE based on Intel SGX technology with a grant from the
 
 ### Technical Concept
 
+*based on our previously published [technical concept](https://github.com/scs/substraTEE/blob/master/validator-protection/VALIDATOR_PROTECTION_PROPOSALS.md)*
+
 We strongly discourage simple remote signing schemes because they do not provide additional security under our problem statement. Just protecting the key from leaking doesn’t protect from slashing if an attacker manages to have fake blocks signed by the remote signer. Instead, we must make sure that 
 the private session key can never leak
 only legit payloads can be signed with the session key.
