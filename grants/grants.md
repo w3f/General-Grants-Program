@@ -1,4 +1,4 @@
-# Web3 Foundation Legacy Grants Program
+# Web3 Foundation General Grants Program
 
 As part of our commitment to promoting the Web3 ecosystem, we offer a comprehensive grants program focused on funding software development, research, technical education and community engagement efforts related to **Polkadot** and **Substrate**. 
 
