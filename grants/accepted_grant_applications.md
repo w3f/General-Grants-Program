@@ -89,3 +89,6 @@ This page gives an overview of accepted grants and a link to their GitHubs. Keep
 - [Stake Technologies](https://stake.co.jp/) - Plasm Chain + OVM Implementation ([GitHub](https://github.com/stakedtechnologies/))
 - [Usetech](http://usetech.com/blockchain.html) - PostgreSQL Indexer and Consensus Insurer ([GitHub](https://github.com/usetech-llc/))
 - [ACALA PTE. LTD.](https://acala.network/) - A decentralized stablecoin platform 
+- [ETCDEV](https://emeraldpay.io/) - Polkadot Network Crawler ([GitHub](https://github.com/emeraldpay))
+- [Xaya](https://xaya.io/) - Decentralised Complex Gaming([GitHub](https://github.com/xaya))
+- [Celer](https://www.celer.network/) - Layer 2 Scaling Infrastructure ([GitHub](https://github.com/celer-network))
