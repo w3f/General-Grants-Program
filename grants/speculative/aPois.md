@@ -76,7 +76,7 @@ This will help making the network as a whole more robust and less prone to attac
   * Node cluster scaling support
   * Updating of node versions
   * Secure communications
-  * Documentation for points above
+  * Documentation for the points above
 
 * **Milestone 3 - Validation and Measurement**
   * Testing and refactoring 
