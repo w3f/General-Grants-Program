@@ -76,9 +76,10 @@ This will help making the network as a whole more robust and less prone to attac
   * Node cluster scaling support
   * Updating of node versions
   * Secure communications
+  * Documentation for points above
 
 * **Milestone 3 - Validation and Measurement**
-  * Testing and optimisations
+  * Testing and refactoring 
   * Metrics support using Prometheus
   * Support different methods of exposing node endpoints
   * Interconnecting node networks
