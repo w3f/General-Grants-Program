@@ -17,7 +17,7 @@ Our first project on Polkadot will be a Decentralized exchange named Dotdex.
 * Bobbie
 
 ## Team Website	
-* https://github.com/jc1991x/dotdex
+* https://dotdex.cc
 
 ## Legal Structure 
 Incorporated in Shanghai,China
@@ -82,6 +82,7 @@ Dotdex is born for decentralized trading, which will explore new form of decentr
 
 ### Are there are any teams who have already contributed (financially) to the project?
 No.
+
 ### Have you applied for other grants so far?
 No.
 
