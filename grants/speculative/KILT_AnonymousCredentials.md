@@ -1,17 +1,26 @@
-# KILT Anonymous Credentials
+# Substrate Anonymous Credentials
 
 ## Project Description
 
-Anonymous Credentials enable entities to obtain revocable credentials from trusted attesters (issuers) and show (some properties of) these credentials to multiple verifiers. The anonymisation ensures that multiple verifiers are unable to track a specific credential presenter entity by correlating the presenter's identity through colluding (sharing data) with each other.
+Anonymous Credentials enable entities to obtain revocable credentials from trusted attesters (issuers) and show these credentials to multiple verifiers without revealing any identifiable information. The anonymisation ensures that multiple verifiers are unable to track a specific credential presenter entity by correlating the presenter's identity through colluding (sharing data) with each other.
 
-The [Gabi](https://github.com/privacybydesign/gabi) is an open-source Go implementation of the Idemix attribute based anonymous credential system (originally developed by IBM Research, currently integrated in [Hyperledger Fabric](https://hyperledger-fabric.readthedocs.io/en/release-1.4/idemix.html)).
+Idemix is one of the already existing attribute based anonymous credential systems (originally developed by IBM Research, currently integrated in [Hyperledger Fabric](https://hyperledger-fabric.readthedocs.io/en/release-1.4/idemix.html)).
 This anonymous credential suite has the following privacy properties:
 - Unforgeability: no claim presenter can prove possession of attributes that were not issued to him by the attester.
 - Multi-show unlinkability: if a verifier is presented the same credential twice, it is impossible for her to tell whether both presentations originated from the same credential or from two different ones.
 - Decoupled attesters and verifiers: the attester is not involved in the verification of credentials.
 - Selective disclosure: any subset of attributes contained in a credential can be disclosed.
 
-The goal of the project is to extend the set of tools that enable privacy in the Polkadot ecosystem and web3 by developing the necessary integrations of the Gabi library into the KILT/Substrate/Polkadot API stack. Completing this endeavor will enable the Substrate/Polkadot ecosystem to effortlessly use Idemix type Anonymous Credentials. Any project that handles personal identities/attributes will be able to benefit form integrating the KILT SDK in their project, or they can include the software components underlying our SDK (portable Gabi Library, Revocations SRML).
+Idemix credentials by default do not use a blockchain, as they were rather intended for industry usecases when this scheme was conceived (issuer being a central entity). Here we try to open up this scheme for general use in a decentralized way. The issuer is the individual attester (and not the blockchain eg. KILT) in our model. The huge advantage of the Gabi approach is that the claimer can randomize the signatures for each presentation of the credential (enabling the privacy feature for the claimer), while the special revocation accumulators preserve the anonymity of the credentials.
+
+
+The [Gabi](https://github.com/privacybydesign/gabi) is an open-source Go implementation of the primitives based on the [Idemix specification](https://domino.research.ibm.com/library/cyberdig.nsf/1e4115aea78b6e7c85256b360066f0d4/eeb54ff3b91c1d648525759b004fbbb1?OpenDocument). 
+* The credentials are **signed** using the ***Camenisch-Lysyanskaya (CL) Signature Scheme*** which is described [here](https://groups.csail.mit.edu/cis/pubs/lysyanskaya/cl02b.pdf) and in 4.4 of the spec. 
+* The **issuance** of a credential is described in section 6.1.1 of the spec. Implementation (e.g. [build credential](https://github.com/privacybydesign/gabi/blob/ce779395f4c98898f21f8c49f71f4b3353995127/builder.go#L119), [issuer](https://github.com/privacybydesign/gabi/blob/ce779395f4c98898f21f8c49f71f4b3353995127/issuer.go#L29)) does not precisely follow the specification, some features are not implemented by Gabi (e.g. range proofs on attributes).
+* The credential **presentation** to a verifier is described in spec 6.2.3 ([disclose attributes](https://github.com/privacybydesign/gabi/blob/ce779395f4c98898f21f8c49f71f4b3353995127/credential.go#L101)) & 6.2.11 ([verify](https://github.com/privacybydesign/gabi/blob/ce779395f4c98898f21f8c49f71f4b3353995127/proofs.go#L187))
+* **Revocation** is [accomplished](https://github.com/privacybydesign/gabi/blob/revocation/revocation/api.go) using [RSA-B Accumulators](https://link.springer.com/content/pdf/10.1007%2F3-540-45708-9_5.pdf). 
+
+The goal of this project is to extend the set of tools that enable privacy in the Polkadot ecosystem and web3 by developing the necessary integrations of the Gabi library into the Substrate/Polkadot API stack. Completing this endeavor will enable the Polkaverse (including our Substrate based KILT Protocol) to effortlessly use attribute based Anonymous Credentials. Any project that handles personal identities/attributes will be able to benefit form integrating the software components (Portable Gabi Library, Revocations SRML) created during this project.
 
 ## Team members
 * Timo Welde (Team Lead)
@@ -32,7 +41,7 @@ AG Charlottenburg HRB 193450 B
 ## Team's experience
 We are a diverse team with 30+ years experience in software development, mathematics and research in computer science.
 
-* **Timo** is a Full Stack Developer, working in Blockchain Technology since 2016. He has a proven track record in Open Source development and was part of the Thunder Core Team (thunder.org). Timo graduated in Computer Science at the Berlin University of Technology.
+* **Timo** is a Full Stack Developer, working in Blockchain Technology since 2016. He has a proven track record in Open Source development and was part of the [Thunder](https://thunder.org) Core Team. Timo graduated in Computer Science at the Berlin University of Technology.
 [JS/TS, Rust, Python C, C#, Objective-C]
 
 * **Marton** is a Research Scientist with experience in telecommunications, network science and neuroscience. He holds a master’s degree in electrical engineering and PhD in computer science from Budapest University of Technology and Economics.
@@ -66,17 +75,14 @@ We are a diverse team with 30+ years experience in software development, mathema
 
 ## Development Roadmap
 
-- **Milestone 1 - Creating Credentials** (6 weeks):
-Goal: wrap the Gabi Go library into a WASM component to make it compatible with the JavaScript based stack (client side).
-  - Portable Gabi library (without credential revocation)
+- **Milestone 1 - Creating Anonymous Credentials with Gabi** (4 weeks):  
+*Goal:* Wrap the Gabi Go library into a WASM component to make it compatible with JavaScript (client side).
     - Converting existing Go Gabi Library into WASM (*done*)
     - Exposing functionality as JavaScript API (*done*)
     - Add unit and functional tests (*in progress*)
-  - Integration into KILT SDK
-    - Add integration tests
 
-- **Milestone 2 - Revocation** (4 weeks):
-Goal: build the necessary components to handle revocations on the blockchain side.
+- **Milestone 2 - Revocation SRML** (4 weeks):  
+*Goal:* Build the necessary components to handle revocations on the blockchain side.
   - Research and refine concept
   - Add functionality into portable Gabi library and JavaScript API
   - Create SRML for Gabi revocation
@@ -86,12 +92,11 @@ Goal: build the necessary components to handle revocations on the blockchain sid
   - Create JavaScript module for the SRML
     - JavaScript API for accumulator handling
     - Add integration tests
-  - Integration into KILT SDK
 
-- **Milestone 3 - Documentation** (2 weeks)
-Goal: make our solution easily accessible for the developer community
-  - Write documentation for new features in the KILT SDK Docs
-  - Write tutorial on how to use the the KILT Anonymous Credential Suite
+- **Milestone 3 - Documentation** (2 weeks)  
+*Goal:* Make our solution easily accessible for the developer community.
+  - Write documentation for features of Substrate Anonymous Credentials (Portable Gabi Library and Revocations SRML)
+  - Write tutorial on how to use the the Substrate Anonymous Credentials
   - Write medium article to explain the concepts
   - Publicise our solution on social networks
 
@@ -116,3 +121,12 @@ Time effort estimation is provided in a way that 2 developers are working on the
       - Privacy-friendly identity platform for authentication and signing attributes with open source go codebase using the Gabi library.
       - In contrast to their solution, where it is the attester’s responsibility to always keep her accumulator database online, our solution writes and maintains the accumulators of attesters on the blockchain. Thus we enable a wider range of end users to become attesters in an effortless way that is more aligned to the principles of web3.
       - Moreover, in IRMA when someone requests revocation but the accumulator witness is out of date, it [needs to be updated before a revocation](https://irma.app/docs/revocation/#revocation-updates) can go through. If the age of the witness has passed a certain threshold the credential holder has to contact the attester’s IRMA server to download updates, and this might harm the user’s privacy towards the attester. By writing the accumulators on chain we might be able to mitigate such a privacy issue.
+
+    - [Sovrin](https://sovrin.org/) by Evernym
+        - An open source self-sovereign identity project based on IBM Hyperledger. They also use the CL Signature scheme with revocations, but their system is anchored on a permissioned blockchain network and it is incompatible with the Polkaverse.
+
+
+    - [W3C Verifiable Credentials (VC) Specification](https://w3c.github.io/vc-data-model/#zero-knowledge-proofs)
+
+        - The latest version of the VC spec supports implementing CL Signatures in Verifiable Credentials ([example](https://w3c.github.io/vc-data-model/#example-24-a-verifiable-credential-that-supports-cl-signatures)).
+
