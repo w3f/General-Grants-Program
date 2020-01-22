@@ -92,3 +92,7 @@ This page gives an overview of accepted grants and a link to their GitHubs. Keep
 - [ETCDEV](https://emeraldpay.io/) - Polkadot Network Crawler ([GitHub](https://github.com/emeraldpay))
 - [Xaya](https://xaya.io/) - Decentralised Complex Gaming([GitHub](https://github.com/xaya))
 - [Celer](https://www.celer.network/) - Layer 2 Scaling Infrastructure ([GitHub](https://github.com/celer-network))
+- [Cryptoeconomics Lab](https://www.cryptoeconomicslab.com/) - Substrate adapter of Plasma child chain ([GitHub](https://github.com/cryptoeconomicslab))
+- [Centrifuge](https://centrifuge.io/) - Substrate / Ethereum Bridge ([GitHub](https://github.com/centrifuge/))
+- Advanca - Privacy-preserving general-purpose compute/storage layer 
+- [Nodle](https://nodle.io) - Securely identify, certify and verify IoT devices ([GitHub](http://github.com/NodleCode/))
