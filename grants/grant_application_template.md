@@ -1,12 +1,13 @@
 # Project name
 
 ## Project Description
-If this application is for a particular grant programme then please indicate that in the first line of this section.
+If this application in response to an RFP then please indicate this on the first line of this section.
 
-* Please provide a brief description of the project here. This is likely more important for speculative applications, but also worth providing some description here of the team's intent with the project.
-* An indication of why this project is good for the ecosystem.
-* An indication of how you will integrate this project into Substrate / Polkadot.
-* An indication of why your team is interested in creating this project.
+Please provide the following:
+  * A brief description of the project.
+  * An indication of why this project is good for the ecosystem.
+  * An indication of how you will integrate this project into Substrate / Polkadot.
+  * An indication of why your team is interested in creating this project.
 
 ## Team members
 * Name of team leader
@@ -16,11 +17,10 @@ If this application is for a particular grant programme then please indicate tha
 * https://...
 
 ## Legal Structure 
-Please provide details of entity, if any, e.g. legal structure (GmbH, Foundation, LLC) and legal seat.
+Please provide the name and registered address of the legal entity executing the project. These details can also be shared privately via the Google Form used for your application.
 
 ## Team's experience
-Please describe the team's relevant experience
-
+Please describe the team's relevant experience.  If the project involves development work, then we'd appreciated if you can single out a few interesting code commits made by team members on their past projects.  We'll glance at whole repositories too, but not if they contain many vendored dependencies, which often makes commits easier. 
 
 ## Team Code Repos
 * https://github.com/<your_repo_1>
@@ -31,25 +31,21 @@ Please describe the team's relevant experience
 * https://www.linkedin.com/<person_2>
 
 ## Development Roadmap
-Please add information setting into sufficient detail the following (usually two pages):
+This section should break out the development roadmap into a number of milestones. Please ensure this section is sufficiently detailed. The length will vary depending on the project but approximately 2 pages is a good guideline. It should also be clear how the project is related to Substrate and/or Polkadot. Additionally, you can mention your preferred license here. The default license is Apache 2.0. 
 
-* The specifications of the software, delivered over a number of milestones. The detail must be such that after delivery we are able to examine whether the software meets the requirements agreed in the specifications, in order to be able to make any payments to you.
-* A time schedule on when each milestone will be achieved.
-* The required grant per milestone. This can be in one of the fiat currencies CHF, EUR or USD or in DOTs or a combination of fiat and DOTs. Please reach out to grants@web3.foundation for discussing what amount in fiat and DOTs would be appropriate.
-
-
-Note: It should be clear how the project will be working towards deployment on Substrate / Polkadot.
-
-Also helpful to know: what are the team’s long-term plans and intentions after the grant has been awarded?
-
+Please provide the following:
+  * For each milestone:
+    * The specification of the software achieved after completion of each milestone. The level of detail must be high enough so that we are able to test that the software meets the specification.
+    * If possible, include a tutorial and a docker image to make it easier for us to evaluate your software. 
+    * For applications with public financial information, please include total amount of funding requested per milestone. Funding can be in fiat (CHF, EUR or USD) or in DOTs. It can also be in a combination of fiat and DOTs. Please reach out to grants@web3.foundation to discuss what amount in fiat and DOTs would be appropriate for your project.
+  * A schedule indicating when each milestone will be achieved.
+  * The team's long-term plans and intentions 
 
 ## Additional Information
-Any additional information that you think is relevant to this application.
+Any additional information that you think is relevant to this application that hasn't already been included.
 
-These bullet points won't be applicable to all projects. Some of the information may have already been included in the description section, if so then no need to state it again.
-
+Possible additional information to include:
 * What work has been done so far?
 * Are there are any teams who have already contributed (financially) to the project?
 * Have you applied for other grants so far?
-* Are there any other projects similar to yours? 
-* How is your project different?
+* Are there any other projects similar to yours? If so, how is your project different?
