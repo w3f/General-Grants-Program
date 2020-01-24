@@ -96,3 +96,4 @@ This page gives an overview of accepted grants and a link to their GitHubs. Keep
 - [Centrifuge](https://centrifuge.io/) - Substrate / Ethereum Bridge ([GitHub](https://github.com/centrifuge/))
 - Advanca - Privacy-preserving general-purpose compute/storage layer 
 - [Nodle](https://nodle.io) - Securely identify, certify and verify IoT devices ([GitHub](http://github.com/NodleCode/))
+- [Figment](https://figment.network/) - DotHub: Information Hub for validators and delegators ([GitHub](https://github.com/figment-networks/dothub))
