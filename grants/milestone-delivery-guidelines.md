@@ -7,7 +7,7 @@ The submission should contain the following information:
  * **Link to the open-source code/delivery** (including the correct open-source license)
  * **Basic [testing guide](#testing-guide)** 
  * **A list of the [milestone deliveries](#milestone-deliveries)**
- * **Any [Additional information](#additional-nformation)**
+ * **Any [additional information](#additional-information)**
 
 ## Testing Guide
 
