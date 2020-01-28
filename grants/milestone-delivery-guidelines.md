@@ -6,14 +6,14 @@ The submission should contain the following information:
  * **Name of the grant project**
  * **Link to the open-source code/delivery** (including the correct open-source license)
  * **Basic [testing guide](#testing-guide)** 
- * **A list of the [milestone deliveries](#milestone-deliveries)**
+ * **A list of the [milestone deliverables](#milestone-deliverables)**
  * **Any [additional information](#additional-information)**
 
 ## Testing Guide
 
-Please provide documentation on how to install and/or test the delivery. Ideally, this is done in the form of a publicly available readme file or something similiar, so that others can potentially leverage the project and learn from it. 
+Please provide documentation on how to install, compile and/or test the delivery. Ideally, this is done in the form of a publicly available readme file or something similiar, so that others can potentially leverage the project and learn from it. 
 
-## Milestone Deliveries
+## Milestone Deliverables
 
 Please provide a list of all deliverables of the milestone extracted from the initial application and a link to the deliverable itself.
 
