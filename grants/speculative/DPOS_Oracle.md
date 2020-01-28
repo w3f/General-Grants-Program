@@ -92,7 +92,7 @@ Russian LLC
 
 We are planning to further develop the project under Apache 2 license. 
 
-We will provide after-delivery support, consult the teams on any issues that may potentially arise and fix the bugs and errors on the way. 
+We will provide comprehensive documentation and wiki with tutorials to support teams using the solution. We will also fix the bugs and errors that may arise on the way.
 
 ## Additional Information
 
