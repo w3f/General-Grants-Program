@@ -69,7 +69,7 @@ Russian LLC
     * Set consists of parameterizable values (`AccountId` in our case).
     * Selection is made by voting with a parameterizable asset (an asset (i.e. a token) is created via SRML module "assets").
   - Realization of the 'table-score' (voting) js app using [polkadot-js](https://github.com/polkadot-js).
-  - We will deliver a working module for managing entities in the DPoS style along with a js app. Additionally, we’ll deliver a simple tutorial on using `table-score` as a standalone module.
+  - We will deliver a working module for managing entities in the DPoS style along with a js app in the forms of both source code and Docker/Docker Swarm demo images. Additionally, we’ll deliver a simple tutorial on using `table-score` as a standalone module.
 
 * 4-6 weeks:
   - an 'oracle-dpos' SRML module. The module will:
@@ -78,7 +78,7 @@ Russian LLC
     * Calculate and publish some value
     * Optionally, reward source accounts.
   - Realization of an oracle app using [polkadot-js-apps](https://github.com/polkadot-js/apps).
-  - We will deliver a working oracle module along with an app, which shows the current state of the oracle. Additionally, we’ll deliver a tutorial on using the oracle’s on-chain and js parts.
+  - We will deliver a working oracle module along with an app, which shows the current state of the oracle in the forms of both source code and Docker/Docker Swarm demo images. Additionally, we’ll deliver a tutorial on using the oracle’s on-chain and js parts.
 
 * 7-10 weeks: an off-chain oracle part and testing
   - Implement an offchain oracle part using [rust-api](https://github.com/scs/substrate-api-client). The part will:
@@ -88,7 +88,7 @@ Russian LLC
     * Alternatively, execute data collection custom code
     * Send the data to the oracle blockchain part
   - Realization of reparametrization app using voting and [polkadot-js-apps](https://github.com/polkadot-js/apps).
-  - We will deliver a well-documented solution containing on-chain, off-chain and GUI parts along with a demonstration scenario that is easy to run using [MixBytes Tank](https://github.com/mixbytes/tank).
+  - We will deliver a well-documented solution containing on-chain, off-chain and GUI parts along with a demonstration scenario that is easy to run using [MixBytes Tank](https://github.com/mixbytes/tank). The scenario will provision a network infrastructure and deploy corresponding Docker containers.
 
 We are planning to further develop the project under Apache 2 license. 
 
