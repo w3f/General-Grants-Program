@@ -19,6 +19,8 @@ server has its own separate admistrator interface to manage hosted keys. This
 server hides the tidy details of managing keys from the Substrate and exposes
 signing request APIs only to the Polkadot Substrate.
 
+![proposed architecture](polkadot_kms.png)
+
 In this project, we have three stages to complete the job to introduce a KMS to
 Polkadot Substrate:
 1. design and implement a remote signing S/W module inside the Polkadot
@@ -127,10 +129,10 @@ The project is supposed to end in 8.5 ~ 9 months.
 Would be Apache 2.0.
 
 ### Future plan
-Our long-term plan is to integrate PALLET X (hard wallet developed by Penta
+Our long-term plan is to integrate PALLET X (cold wallet developed by Penta
 Security) and Polkadot. This project is the first attempt to lay a bridge
 between the two. We are planning to launch 2 more projects afterwards:
-- PALLET X hard wallet integration
+- PALLET X cold wallet integration
     - use PALLET X as a key management and signing server
         - may use Polkadot KMS(implemented in this project) and treat PALLET X
           as one of various HSMs
@@ -140,7 +142,7 @@ between the two. We are planning to launch 2 more projects afterwards:
     - support Polkadot transactions directly in PALLET X
 
 ## Additional Information
-We have good knowledge about blockchain technology, and developed our own hard
+We have good knowledge about blockchain technology, and developed our own cold
 wallet for various of cryptocurrencies. One notable previous product is a
 PALLET series.
 
