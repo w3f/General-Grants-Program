@@ -99,3 +99,5 @@ This page gives an overview of accepted grants and a link to their GitHubs. Keep
 - [Figment](https://figment.network/) - DotHub: Information Hub for validators and delegators ([GitHub](https://github.com/figment-networks/dothub))
 - [Lunie](http://lunie.io/) - Web and mobile wallet ([GitHub](https://github.com/luniehq/lunie))
 - [Web3 Gardens](https://web3.garden) - Runtime modules and UI for creating stable, well-governed communities on Substrate ([GitHub](https://github.com/web3garden/sunshine))
+- [Itering](https://itering.com/) - Ruby Substrate API ([GitHub](https://github.com/itering))
+- [WEB3SCAN](https://www.web3scan.com/) - Identity Pallet for Polkascan ([GitHub](https://github.com/polkascan))
