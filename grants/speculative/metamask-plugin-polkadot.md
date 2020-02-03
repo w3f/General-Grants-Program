@@ -72,6 +72,8 @@ Some of the other projects that we have been working on can be found on our [web
 * Create documentation on how to integrate snap into your dapp
 * Create PR integrating snap into https://github.com/polkadot-js/apps/tree/master/packages/app-accounts dapp
 
+We'll keep this plugin updated in case of Metamask API breaking changes. We hope Metamask will expose API to allow UI modification
+in which case we plan to apply for additional grants to enhance Metamask experience in Polkadot space.
 
 ## Additional Information
 * **What work has been done so far?**
