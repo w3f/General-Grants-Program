@@ -101,3 +101,4 @@ This page gives an overview of accepted grants and a link to their GitHubs. Keep
 - [Web3 Gardens](https://web3.garden) - Runtime modules and UI for creating stable, well-governed communities on Substrate ([GitHub](https://github.com/web3garden/sunshine))
 - [Itering](https://itering.com/) - Ruby Substrate API ([GitHub](https://github.com/itering))
 - [WEB3SCAN](https://www.web3scan.com/) - Identity Pallet for Polkascan ([GitHub](https://github.com/polkascan))
+- [Swisscom Blockchain AG](https://www.blockchain.swisscom.com/) - Kubernetes Operator for Sentry nodes or Validators deployment ([GitHub](https://github.com/swisscom-blockchain))
