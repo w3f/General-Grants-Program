@@ -44,7 +44,7 @@ If you are considering applying for a grant, please follow the process below.
        1. Fork this repository.
        1. In the newly created fork, create a copy of the [technical grant template](https://github.com/w3f/Web3-collaboration/blob/master/grants/grant_application_template.md).
            * Most applications should go into the [speculative](https://github.com/w3f/Web3-collaboration/tree/master/grants/speculative) sub-folder.
-           * In the few cases where the application is a response to specific RFP then the application should go into the [targeted](https://github.com/w3f/Web3-collaboration/tree/master/grants/targeted) sub-folder.
+           * In the few cases where the application is a response to specific RFP then the application should go into the [rfps](https://github.com/w3f/Web3-collaboration/tree/master/grants/rfps) sub-folder.
        1. Label the file as "project_name.md".
        1. Fill out the template with the details of your project.
        1. Once you have completed the application, click on "create new pull request".

@@ -96,3 +96,10 @@ This page gives an overview of accepted grants and a link to their GitHubs. Keep
 - [Centrifuge](https://centrifuge.io/) - Substrate / Ethereum Bridge ([GitHub](https://github.com/centrifuge/))
 - Advanca - Privacy-preserving general-purpose compute/storage layer 
 - [Nodle](https://nodle.io) - Securely identify, certify and verify IoT devices ([GitHub](http://github.com/NodleCode/))
+- [Figment](https://figment.network/) - DotHub: Information Hub for validators and delegators ([GitHub](https://github.com/figment-networks/dothub))
+- [Lunie](http://lunie.io/) - Web and mobile wallet ([GitHub](https://github.com/luniehq/lunie))
+- [Web3 Gardens](https://web3.garden) - Runtime modules and UI for creating stable, well-governed communities on Substrate ([GitHub](https://github.com/web3garden/sunshine))
+- [Itering](https://itering.com/) - Ruby Substrate API ([GitHub](https://github.com/itering))
+- [WEB3SCAN](https://www.web3scan.com/) - Identity Pallet for Polkascan ([GitHub](https://github.com/polkascan))
+- [Swisscom Blockchain AG](https://www.blockchain.swisscom.com/) - Kubernetes Operator for Sentry nodes or Validators deployment ([GitHub](https://github.com/swisscom-blockchain))
+- [Polkastats](https://polkastats.io/) - Polkadot/Kusama network statistics ([GitHub](https://github.com/Colm3na/polkastats-v3))
