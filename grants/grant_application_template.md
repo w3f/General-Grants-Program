@@ -48,4 +48,4 @@ Possible additional information to include:
 * What work has been done so far?
 * Are there are any teams who have already contributed (financially) to the project?
 * Have you applied for other grants so far?
-* Are there any other projects similar to yours? If so, how is your project different?
+* Are there any other projects similar to yours? If so, how is your project different?  
