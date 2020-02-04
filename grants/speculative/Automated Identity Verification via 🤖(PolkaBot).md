@@ -9,7 +9,7 @@ To empower frequent and constructive use of on-chain governance, trust is a nece
 
 It may help, however, if the account is linked to a real person with a known and proven history. This can be done by an automated, reliable and easy to use identity verification process, which is the ultimate goal of this project. 
 
-These are the components characterising the concept:
+These are the components characterizing the concept:
 
 *  Riot as the user interface
 *  🤖 as the guiding registry assistant
@@ -18,7 +18,7 @@ These are the components characterising the concept:
 
 ### Why is this project good for the ecosystem
  
-We believe that identity is a very important feature. It will be in high demand especially when businesses start using Polkadot. However, to really bring added value the validation process needs to be more secure and as comfortable for the user as possible.
+We believe that identity is a very important feature. It will be in high demand especially when businesses start using Polkadot. However, to bring added value the validation process needs to be more secure and as comfortable for the user as possible.
 
 That's why we propose an automated identity verification process.
 
@@ -31,7 +31,7 @@ We are not developing something that will directly be integrated into Substrate.
 
 ### Why is our team interested in creating this project
 
-Wilfried Kopp (Chevdor), is currently operating Registrar #1 and therefore personally involved in the topic. He is also the author and main maintainer of 🤖 which provides first hand knowledge regarding the integration.
+Wilfried Kopp (Chevdor), is currently operating Registrar #1 and therefore personally involved in the topic. He is also the author and main maintainer of 🤖 which provides first-hand knowledge regarding the integration.
 
 Furthermore we, KI decentralized, want to further support the development of Polkadot as we think it is one of the most interesting Blockchain Projects out there and we want to see it unleashing its full potential, especially with corporate users.
 
@@ -57,10 +57,10 @@ The KI decentralized website can be found at [KI decentralized](https://www.ki-d
 
 ### Team's experience
 
-> Please describe the team's relevant experience.  If the project involves development work, then we'd appreciated if you can single out a few interesting code commits made by team members on their past projects.
+> Please describe the team's relevant experience.  If the project involves development work, then we'd appreciated it if you can single out a few interesting code commits made by team members on their past projects.
 
 
-KI decentralized GmbH is a Blockchain implementation partner focussed on developing DLT applications. Most of the team members started exchanging ideas about Blockchain on numerous Bitcoin Cologne Meetups as early as 2013. This let eventually to the foundation of KI decentralized in February 2017.
+KI decentralized GmbH is a Blockchain implementation partner focussed on developing DLT applications. Most of the team members started exchanging ideas about Blockchain on numerous Bitcoin Cologne Meetups as early as 2013. This led eventually to the foundation of KI decentralized in February 2017.
 
 Since then, our team gathered project experience with business leaders such as Commerzbank, Daimler, Lanxess and LBBW and technologies such as Bitcoin, Ethereum, Corda, Hyperledger, Polkadot, Lightning & Raiden.
 
@@ -75,7 +75,7 @@ He has also made the original Docker images for Polkadot and Substrate:
 - [PolkaBot Repo](https://gitlab.com/Polkabot/polkabot)
 - [Srtool: Runtime Verifier](https://gitlab.com/chevdor/srtool) + [article](https://www.chevdor.com/tags/srtool/)
 
-**Constantin Vennekel** has expertise in Bitcoin, Lightning and Ethereum. He does run Polkadot nodes since PoC1, (Kusama: `ConTa 4 Polka`, `🚀 ConTa 🚀`).
+**Constantin Vennekel** has expertise in Bitcoin, Lightning, and Ethereum. He does run Polkadot nodes since PoC1, (Kusama: `ConTa 4 Polka`, `🚀 ConTa 🚀`).
 
 **Viktor Freudenhammer** is a Product Owner and Consultant with expertise in syncing business needs with technology offers.
 
@@ -98,7 +98,7 @@ The Roadmap can best be understood with the following diagram:
 
 ### Milestone 1: Start of the identification process - 2 weeks - EUR 7'000
 
-Milestone 1 covers development groundwork and the set-up of the identification process.
+Milestone 1 covers the development of groundwork and the set-up of the identification process.
 
 * [ ] Setup environment & dev. tools
 * [ ] Definition of the 🤖 commands
