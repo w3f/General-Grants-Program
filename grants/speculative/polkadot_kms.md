@@ -72,11 +72,11 @@ TBA
 
 ## Development Roadmap
 ### Milestones and schedule
-1. **first design round** (1-2 weeks)
+1. **first design round** (1 week)
     1. design overall architecture
     1. design communication protocol spec between Polkadot Substrate and KMS
     1. fix the key type and digital signature algorithm
-1. implement dummy client and server (2 weeks)
+1. implement dummy client and server (1 week)
     1. implement core of signing function
     1. implement dummy signing server before full-pledged KMS<br/>
        (accept signing request and respond the signature generated with the
@@ -87,8 +87,8 @@ TBA
     1. replace core signing code with the remote signing module
     1. test the basic functionality with the dummy server
     1. test the signing protocol soundness
-1. Minestone #1 ends (1.5 months from the beginning)
-1. **second design round** (1-2 weeks)
+1. Minestone #1 ends (1 month from the beginning)
+1. **second design round** (1 week)
     1. design internal key management framework
         1. general housekeeping
         1. secure key generation
@@ -96,34 +96,34 @@ TBA
     1. design authentication mechanism between Polkadot and KMS
     1. adjust communication protocol
     1. design code structure for signing material preparation (e.g. block hash)
-1. remote signing within Substrate (1 months)
+1. remote signing within Substrate (0.5 months)
     1. plug the remote signing module into Substrate code base
         1. modify signing material preparation ocde
     1. maintain a separate branch
     1. test with the dummy server
     1. test with a working Substrate with a testnet
-1. minimal KMS (2 months)
+1. minimal KMS (0.5 months)
     1. implement key management features
         1. general housekeeping
         1. secure key generation
         1. secure key destroying
-1. authentication (1 month)
+1. authentication (0.5 month)
     1. implement authentication feature both on signing client(Substrate) and
        server(KMS)
     1. test accordingly
-1. Minestone #2 ends (6 months from the beginning)
-1. **third design round** (1-2 weeks)
+1. Minestone #2 ends (2.75 months from the beginning)
+1. **third design round** (1 week)
     1. select several HSM devie types
     1. design HSM interface
         1. univeral HSM API layer
         1. individual HSM API driver for each HSM type
     1. (if necessary) adjust key management feature
-1. HSM (2 months)
+1. HSM (1 month)
     1. implement HSM interface
     1. command channel: key management(generation and destroying) in HSM
-1. Minestone #3 ends (8.5 months from the beginning)
+1. Minestone #3 ends (4 months from the beginning)
 
-The project is supposed to end in 8.5 ~ 9 months.
+The project is supposed to end in 4 months from the beginning.
 
 ### License
 Would be Apache 2.0.
@@ -146,4 +146,4 @@ We have good knowledge about blockchain technology, and developed our own cold
 wallet for various of cryptocurrencies. One notable previous product is a
 PALLET series.
 
-One thing to note is that we borrow the basic idea from Tendermint KMS.
+One thing to note is that we borrow the general idea of adding a remote signer from Tendermint KMS.
