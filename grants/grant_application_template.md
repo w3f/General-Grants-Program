@@ -46,6 +46,7 @@ For each milestone:
 * Please include total amount of funding requested per milestone. Funding can be in fiat (CHF, EUR or USD) or in DOTs. It can also be in a combination of fiat and DOTs. Please reach out to grants@web3.foundation to discuss what amount in fiat and DOTs would be appropriate for your project.
 * Please note that we require documentation (e.g. tutorials) in each milestone. This ensures that the code can be widely used by the community.
 * Please commit to providing a docker container for the delivery of your project. 
+* Please indicate the number of Full-Time Employees working on each milestone, and include the number of days along with their cost per day.
 
 ### Milestone 1 — Implement Substrate Modules — 1 month — $10,000
 * We will create a Substrate module that will... (Please list the functions that will be coded for the first milestone).
