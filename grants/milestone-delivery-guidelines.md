@@ -11,7 +11,7 @@ The submission should contain the following information:
 
 ## Testing Guide
 
-Please provide documentation on how to install, compile and/or test the delivery. Ideally, this is done in the form of a publicly available readme file or something similiar, so that others can potentially leverage the project and learn from it. 
+Please provide documentation on how to install, compile and/or test the delivery. Ideally, this is done in the form of a publicly available readme file or something similiar, so that others can potentially leverage the project and learn from it. For the installation, we prefer docker images to avoid issues with versions and dependencies.
 
 ## Milestone Deliverables
 
