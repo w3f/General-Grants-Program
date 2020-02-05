@@ -31,9 +31,17 @@ Polkadot Substrate:
    work with or without HSM)
 
 ## Team members
-TBA
-* Name of team leader
-* Names of team members	
+Leader
+* SangGyoo Sim, Ph.D. (CTO of Penta Security Systems)
+
+Members
+* Yeon-Hyeong Yang
+* Jaehong Ahn
+* Sehyun Park
+* Hyungsuk Kang
+* MinWoo Nam
+* David Kwak
+* Elaina Yoon
 
 ## Team Website	
 * https://www.pentasecurity.com (English)
@@ -51,9 +59,11 @@ Fax (+82) 2-786-5281<br/>
 ## Team's experience
 Founded on its data encryption technology in 1997, Penta Security Systems is a
 leading provider of web and data security products, solutions and services:
-- WAPPLES: Web Application Firewall
-- D'Amo, D'Amo KMS, D'Amo PKI: Data Encryption and Key Management Solutions
-- 
+* CIS: Cryptography module
+* ISign+: Authentication, FIDO, CA
+* WAPPLES: Web Application Firewall
+* D'Amo, D'Amo KMS, D'Amo PKI: Data Encryption and Key Management Solutions
+* PALLET X, Z, M, C, S: Blockchain Wallet Series
 
 You can find the company history at
 [website](https://www.pentasecurity.com/company/about-us/penta-security-history/).
@@ -66,9 +76,14 @@ You can find the code repositories at [github](https://github.com/amolabs).
 * https://github.com/pentasecurity/polkadot-kms (not yet)
 
 ## Team LinkedIn Profiles
-TBA
-* https://www.linkedin.com/<person_1>
-* https://www.linkedin.com/<person_2>
+* https://www.linkedin.com/in/sanggyoosim
+* https://www.linkedin.com/in/yeon-hyeong-yang-a00b6966
+* https://www.linkedin.com/in/jaehong-ahn
+* https://www.linkedin.com/in/sehyun-park-533b70177
+* https://www.linkedin.com/in/hyungsukkang
+* https://www.linkedin.com/in/minwoo-nam-9a490621
+* https://www.linkedin.com/in/david-kwak-24331249
+* https://www.linkedin.com/in/elainayoon
 
 ## Development Roadmap
 ### Milestones and schedule
