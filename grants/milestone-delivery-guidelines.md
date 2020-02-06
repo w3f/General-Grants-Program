@@ -15,12 +15,14 @@ Please provide documentation on how to install, compile, run, and/or test the de
 
 ## Milestone Deliverables
 
-Please provide a list of all deliverables of the milestone extracted from the initial application (see Annex 1 of the Agreement) and a link to the deliverable itself. Add additional notes to the deliverable, especially in case it deviates from the initial contract. Furthermore, please ensure the repo has the correct open-source license.
+Please provide a list of milestone deliverables. This list should closely reflect the list of deliverables shown in Annex 1 of the grant contract. Each item in the list should include a link to the deliverable itself. If necessary, please highlight anything that deviates from the contract and include further information that you think is relevant to deliverable.
 
 | Number | Deliverable | Link | Notes |
 | ------------- | ------------- | ------------- |------------- |
 | 1. | ... |...| ...| 
 | 2.  | ... |...| ...| 
+
+Please ensure the repo has the correct open-source license.
 
 ## Additional Information
 
