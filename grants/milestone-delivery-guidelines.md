@@ -4,7 +4,7 @@ We kindly ask you to consider the following guidelines when you submit a milesto
 
 The submission should contain the following information: 
  * **Name of the grant project**
- * **Link to the open-source code/delivery** (including the correct open-source license)
+ * **Link to the open-source code/delivery** 
  * **Basic [testing guide](#testing-guide)** 
  * **A list of the [milestone deliverables](#milestone-deliverables)**
  * **Any [additional information](#additional-information)**
@@ -15,7 +15,7 @@ Please provide documentation on how to install, compile and/or test the delivery
 
 ## Milestone Deliverables
 
-Please provide a list of all deliverables of the milestone extracted from the initial application (see Annex 1 of the Agreement) and a link to the deliverable itself. Add additional notes to the deliverable, especially in case it deviates from the initial contract. 
+Please provide a list of all deliverables of the milestone extracted from the initial application (see Annex 1 of the Agreement) and a link to the deliverable itself. Add additional notes to the deliverable, especially in case it deviates from the initial contract. Furthermore, please ensure the repo has the correct open-source license.
 
 | Number | Deliverable | Link | Notes |
 | ------------- | ------------- | ------------- |------------- |
