@@ -15,7 +15,7 @@ Please provide documentation on how to install, compile and/or test the delivery
 
 ## Milestone Deliverables
 
-Please provide a list of all deliverables of the milestone extracted from the initial application (see Annex1 of the Agreement) and a link to the deliverable itself. Add additional notes to the deliverable, especially in case it deviates from the initial contract. 
+Please provide a list of all deliverables of the milestone extracted from the initial application (see Annex 1 of the Agreement) and a link to the deliverable itself. Add additional notes to the deliverable, especially in case it deviates from the initial contract. 
 
 | Number | Deliverable | Link | Notes |
 | ------------- | ------------- | ------------- |------------- |
