@@ -103,3 +103,5 @@ This page gives an overview of accepted grants and a link to their GitHubs. Keep
 - [WEB3SCAN](https://www.web3scan.com/) - Identity Pallet for Polkascan ([GitHub](https://github.com/polkascan))
 - [Swisscom Blockchain AG](https://www.blockchain.swisscom.com/) - Kubernetes Operator for Sentry nodes or Validators deployment ([GitHub](https://github.com/swisscom-blockchain))
 - [Polkastats](https://polkastats.io/) - Polkadot/Kusama network statistics ([GitHub](https://github.com/Colm3na/polkastats-v3))
+- [Supercomputing Systems](https://www.scs.ch/) - SubstraTEE extension pack ([GitHub](https://github.com/scs/substraTEE))
+- [Encointer](https://encointer.org/) - An Ecological, Egalitarian and Private Cryptocurrency and Self-Sovereign Identity System ([GitHub](https://github.com/encointer))
