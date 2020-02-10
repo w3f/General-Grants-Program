@@ -72,7 +72,7 @@ This page gives an overview of accepted grants and a link to their GitHubs. Keep
 - [STAFI Protocol](http://www.stafi.io/) - Stafi is a protocol to provide liquidity for staking assets ([GitHub](https://github.com/stafiprotocol/stafi-node))
 - [Vision Baker](https://playproject.io/) - DatDot - Dat protocol for Polkadot ([GitHub](https://github.com/playproject-io/datdot))
 - [Speckle OS](https://www.speckleos.io/) - Integrating additional features into Speckle OS ([GitHub](https://github.com/SpeckleOS/speckle-browser-extension))
-- [Archipel](https://archipel.id/) - Solution to resolve high availability problem of Validator nodes in PoS ([GitHub](https://github.com/RangerMauve))
+- [Archipel](https://archipel.id/) - Solution to resolve high availability problem of Validator nodes in PoS ([GitHub](https://github.com/luguslabs/archipel))
 - [Zondax](https://zondax.ch/) - Flexible TrustZone-based HSM stack ([GitHub](https://github.com/ZondaX))
 - [Usetech](http://usetech.com/blockchain.html) - SR25519 library in pure C and C# ([GitHub](https://github.com/usetech-llc/))
 - [Akropolis](https://akropolis.io/) - PolkaHub - Heroku-like infrastructure for node deployment ([GitHub](https://github.com/akropolisio))
