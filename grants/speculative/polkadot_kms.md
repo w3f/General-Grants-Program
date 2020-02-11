@@ -87,7 +87,7 @@ You can find the code repositories at [github](https://github.com/amolabs).
 
 ## Development Roadmap
 ### Milestones and schedule
-1. **first design round** (1 week)
+1. **first round** (1 week) - 10k USD
     1. design overall architecture
     1. design communication protocol spec between Polkadot Substrate and KMS
     1. fix the key type and digital signature algorithm
@@ -103,7 +103,7 @@ You can find the code repositories at [github](https://github.com/amolabs).
     1. test the basic functionality with the dummy server
     1. test the signing protocol soundness
 1. Minestone #1 ends (1 month from the beginning)
-1. **second design round** (1 week)
+1. **second round** (1 week) - 30k USD
     1. design internal key management framework
         1. general housekeeping
         1. secure key generation
@@ -127,7 +127,7 @@ You can find the code repositories at [github](https://github.com/amolabs).
        server(KMS)
     1. test accordingly
 1. Minestone #2 ends (2.75 months from the beginning)
-1. **third design round** (1 week)
+1. **third round** (1 week) - 10k USD
     1. select several HSM devie types
     1. design HSM interface
         1. univeral HSM API layer
