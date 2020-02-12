@@ -18,15 +18,14 @@ For smaller technology grants up to **$30k**, which are tracked **transparently*
 - [:information_source: License](#information_source-license)
 
 ## :clipboard: About 
-For more information about the Web3 Foundation please visit the ["About"](https://web3.foundation/about/) of our website. 
+As part of our commitment to promoting the Web3 ecosystem, we offer a comprehensive grants program focused on funding software development, research, technical education and community engagement efforts related to Polkadot and Substrate.
+For more information about the Web3 Foundation please visit the [About page](https://web3.foundation/about/) of our website. 
 
 ## :pencil: Process
 If you are considering applying for a grant, please follow the process below.
   
 1. **Determine the scope of your project**
-   * Review the [Areas of interest](./grants/areas_of_interest.md)
-     
-     If your idea isn&rsquo;t listed, but you think it&rsquo;s cool, you can send us an [email](mailto:grants@web3.foundation) and tell us about it.
+   * Review the [Areas of interest](./grants/areas_of_interest.md). If your idea isn&rsquo;t listed, but you think it&rsquo;s cool, you can send us an [email](mailto:grants@web3.foundation) and tell us about it.
    * Ensure the scope of your project falls within the [:bookmark_tabs: Guidelines for technical grants](#bookmark_tabs-guidelines-for-technical-grants)
     
    Once you determine that your project falls within the areas of interest and corresponds to the guidelines above, proceed to the next step.
@@ -55,6 +54,7 @@ If you are considering applying for a grant, please follow the process below.
        
 1. **Review**
    * The W3F will review the applications received, determine if more information is required and potentially schedule a call with the team.
+   * To help to speed up the review process, take a look at the [Milestone Deliverables Guidelines](./grants/milestone-deliverables-guidelines.md)
    * Parity Technologies may also assist in the review of some applications.
    
 1. **Decision**
