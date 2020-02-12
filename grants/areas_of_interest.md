@@ -6,15 +6,15 @@ or [Open Grants Program](https://github.com/w3f/Open-Grants-Program).
 Feel free to also take a look at the [accepted grant applications](https://github.com/w3f/Web3-collaboration/blob/master/grants/accepted_grant_applications.md).
 
 - [:clipboard: Polkadot Stack](#clipboard-polkadot-stack)
-- [:pencil: Layers of Polkadot Stack](#layers-of-polkadot-stack)
- - [Browsers and Wallets](#browsers-and-wallets)
- - [Tools, APIs and Languages](#Tools,-APIs-and-Languages)
- - [Standards](#standards)
- - [Parachains and Bridges](#parachains_and_bridges)
- - [Network Maintenance Tools](#network-maintenance-tools)
- - [Signatures](#signatures)
- - [WASM](#wasm)
- - [Rust](#rust)
+- [:bookmark_tabs: Layers of Polkadot Stack](#bookmark_tabs-layers-of-polkadot-stack)
+  - [Browsers and Wallets](#browsers-and-wallets)
+  - [Tools, APIs and Languages](#Tools,-APIs-and-Languages)
+  - [Standards](#standards)
+  - [Parachains and Bridges](#parachains-and-bridges)
+  - [Network Maintenance Tools](#network-maintenance-tools)
+  - [Signatures](#signatures)
+  - [WASM](#wasm)
+  - [Rust](#rust)
 
 ## :clipboard: Polkadot Stack 
 
@@ -43,7 +43,7 @@ Polkadot Stack is a subset of Web3 Stack, which consists of technologies contrib
 
 Polkadot Stack is meant to be used for decentralised application (Dapp) development within many possible verticals.
 
-## :pencil: Layers of Polkadot Stack
+## :bookmark_tabs: Layers of Polkadot Stack
 
 In the below sections you can find a list of different layers of the Polkadot Stack.
 
@@ -78,7 +78,7 @@ In the below sections you can find a list of different layers of the Polkadot St
 | Smart Contract Security | Security Framework  |
 | Easy integration testing | Benchmarking | 
 | File Storage | | tools integrating Polkadot and file storage protocols
-| Clear performance expectations | TODO | Transaction throughput, networking performance testing
+| Clear performance expectations |  | Transaction throughput, networking performance testing
 
 ### Parachains and Bridges
 
