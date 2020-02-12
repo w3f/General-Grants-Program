@@ -6,33 +6,29 @@ For smaller technology grants up to **$30k**, which are tracked **transparently*
 
 ---
 
-- [About us](#clipboard-about-us)
-- [Process](#process)
-- [Guidelines for technical grants](#guidelines-for-technical-grants)
+- [:clipboard: About](#clipboard-about)
+- [:pencil: Process](#pencil-process)
+- [:bookmark_tabs: Guidelines for technical grants](#bookmark_tabs-guidelines-for-technical-grants)
   - [Licensing](#licensing)
   - [Documentation](#documentation)
-  - [Areas of Interest](#areas-of-interest)
   - [Who we are interested in funding](#who-we-are-interested-in-funding)
 - [:bulb: Help](#bulb-help)
   - [Additional information](#additional-information)
   - [Real-time conversation](#real-time-conversation)
+- [:information_source: License](#information_source-license)
 
-## :clipboard: About us 
-For more information about the Web3 Foundation please visit the ["About Us"](https://github.com/w3f/Web3-wiki/wiki/Web3-Mission-and-Background/_edit) page on our wiki. 
+## :clipboard: About 
+For more information about the Web3 Foundation please visit the ["About"](https://web3.foundation/about/) of our website. 
 
-## Process
+## :pencil: Process
 If you are considering applying for a grant, please follow the process below.
   
 1. **Determine the scope of your project**
-   * Review the appropriate areas of interest:
-     * [Areas of interest for technical grants](#areas-of-interest-for-technical-grants)
-     * ~~Areas of interest for community engagement grants~~ (the community engagement grants program is currently on-hold)
+   * Review the [Areas of interest](./grants/areas_of_interest.md)
      
      If your idea isn&rsquo;t listed, but you think it&rsquo;s cool, you can send us an [email](mailto:grants@web3.foundation) and tell us about it.
-   * Ensure the scope of your project falls within the appropriate guidelines
-     * [Guidelines for technical grants](#Guidelines-for-technical-grants)
-     * ~~Guidelines for community engagement grants~~ (the community engagement grants program is currently on-hold)
-     
+   * Ensure the scope of your project falls within the [:bookmark_tabs: Guidelines for technical grants](#bookmark_tabs-guidelines-for-technical-grants)
+    
    Once you determine that your project falls within the areas of interest and corresponds to the guidelines above, proceed to the next step.
    
 1. **Application**
@@ -68,7 +64,7 @@ If you are considering applying for a grant, please follow the process below.
 1. **Follow up**
    * Once progress has started, the W3F will want to have follow up conversations to see how the project is progressing.
 
-## Guidelines for Technical Grants
+## :bookmark_tabs: Guidelines for Technical Grants
 Technical grants are intended to fund **Polkadot** and **Substrate** specific projects in the following areas:
 
 * software development
@@ -93,9 +89,6 @@ In order to successfully receive grant funding for your application it is necess
 ### Documentation
 To ensure ease-of-use we require all projects to create documentation that explains how their project works. At a minimum, written documentation is required for funding. Tutorials or videos are also helpful for new users to understand how to use the product.
 
-### Areas of Interest
-You can find our area of interest [here](./grants/areas_of_interest.md).
-  
 ### Who we are interested in funding
 
 * Individuals
@@ -120,3 +113,6 @@ You can find our area of interest [here](./grants/areas_of_interest.md).
 We have Riot channels for real-time discussions on Web3 and Polkadot. Join the conversations.
 * [Web3 Foundation](https://riot.im/app/#/room/#web3foundation:matrix.org)
 * [Polkadot Watercooler](https://riot.im/app/#/room/#polkadot-watercooler:matrix.org)
+
+## :information_source: License
+[Apache License 2.0](https://github.com/w3f/Open-Grants-Program/blob/master/LICENSE) © Web3 Foundation 
