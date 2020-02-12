@@ -1,69 +1,113 @@
-# Web3-collaboration
+# Web3 Foundation General Grants Program
 
-This is a public repository to help coordinate our collaboration efforts with teams working in the Web 3 ecosystem. In order to build a better web, the Web3 Foundation will help to coordinate the efforts of teams working towards this common goal. The coordination of efforts will include helping to connect teams, cross-promote the products and protocols, as well as provide strategic [grants](https://github.com/w3f/Web3-collaboration/blob/master/grants/grants.md).
+As part of our commitment to promoting the Web3 ecosystem, we offer a comprehensive grants program focused on funding software development, research, technical education and community engagement efforts related to **Polkadot** and **Substrate**. 
 
-Our view is that the Polkadot platform will play a pivotal role in the Web 3 ecosystem. To get a better idea of how we think about the ecosystem, we invite you to look at our proposed [Web 3 tech stack](https://github.com/w3f/Web3-wiki/wiki/Tech-Stack).
+For smaller technology grants up to **$30k**, which are tracked **transparently** on GitHub and disbursed in **bitcoin**, see also our new [Open Grants Program](https://github.com/w3f/Open-Grants-Program). 
 
 ---
 
-- [About us](#about-us)
-- [How this repo will be used](#how-this-repo-will-be-used)
-  - [Polkadot ecosystem issues](#polkadot-ecosystem-issues)
-  - [Web3 ecosystem issues](#web3-ecosystem-issues)
-- [Who we are looking for](#who-we-are-looking-for)
-- [Submission process guidelines](#submission-process-guidelines)
-- [Polkadot Meetups](#polkadot-meetups)
-- [Additional information](#additional-information)
-- [Real-time conversation](#real-time-conversation)
+- [About us](#clipboard-about-us)
+- [Process](#process)
+- [Guidelines for technical grants](#guidelines-for-technical-grants)
+  - [Licensing](#licensing)
+  - [Documentation](#documentation)
+  - [Areas of Interest](#areas-of-interest)
+  - [Who we are interested in funding](#who-we-are-interested-in-funding)
+- [:bulb: Help](#bulb-help)
+  - [Additional information](#additional-information)
+  - [Real-time conversation](#real-time-conversation)
 
-
-## About us
+## :clipboard: About us 
 For more information about the Web3 Foundation please visit the ["About Us"](https://github.com/w3f/Web3-wiki/wiki/Web3-Mission-and-Background/_edit) page on our wiki. 
 
-## How this repo will be used
-In this repository, we will facilitate collaboration via issue tracking and [grants](https://github.com/w3f/Web3-collaboration/blob/master/grants/grants.md). Essentially, the problems and ideas which we believe to be important will appear on the [issues](https://github.com/w3f/Web3-collaboration/issues) page. It is also possible for project teams to suggest new ideas: to do so simply create a new issue.
+## Process
+If you are considering applying for a grant, please follow the process below.
+  
+1. **Determine the scope of your project**
+   * Review the appropriate areas of interest:
+     * [Areas of interest for technical grants](#areas-of-interest-for-technical-grants)
+     * ~~Areas of interest for community engagement grants~~ (the community engagement grants program is currently on-hold)
+     
+     If your idea isn&rsquo;t listed, but you think it&rsquo;s cool, you can send us an [email](mailto:grants@web3.foundation) and tell us about it.
+   * Ensure the scope of your project falls within the appropriate guidelines
+     * [Guidelines for technical grants](#Guidelines-for-technical-grants)
+     * ~~Guidelines for community engagement grants~~ (the community engagement grants program is currently on-hold)
+     
+   Once you determine that your project falls within the areas of interest and corresponds to the guidelines above, proceed to the next step.
+   
+1. **Application**
 
-### Polkadot ecosystem issues
-Here are some of the important issue areas that we would love for the community to collaborate with us on.
+    We recommend checking out the "[How successfully apply](https://medium.com/web3foundation/web3-foundation-grants-wave-two-recipients-16d9b996501d)" section at the end of the Wave 2 grant winners blog post. It gives an indication of what a good roadmap should look like, plus it outlines the criteria of what we look for in an application.
+       
+    1. Fill out the appropriate Google form for your grant application:
+    
+        Partially public applications that limit financial information (e.g. funding amount requested) to the Google form are preferred. However, teams are free to make fully public applications as well as fully private applications. 
+    
+        * [Apply here for a Technical Grant](https://docs.google.com/forms/d/e/1FAIpQLSfMfjiRmDQDRk-4OhNASM6BAKii7rz_B1jWtbCPkUh6N7M2ww/viewform)
+        
+        Teams that chose to make a fully private application are done. Teams that have chosen to make a fully or partially public application should proceed to the next step.
+       
+    1. Fully or partially public applications should be made via a pull request to this repo by following the steps below.
+       1. Fork this repository.
+       1. In the newly created fork, create a copy of the [technical grant template](https://github.com/w3f/Web3-collaboration/blob/master/grants/grant_application_template.md).
+           * Most applications should go into the [speculative](https://github.com/w3f/Web3-collaboration/tree/master/grants/speculative) sub-folder.
+           * In the few cases where the application is a response to specific RFP then the application should go into the [rfps](https://github.com/w3f/Web3-collaboration/tree/master/grants/rfps) sub-folder.
+       1. Label the file as "project_name.md".
+       1. Fill out the template with the details of your project.
+       1. Once you have completed the application, click on "create new pull request".
+       1. The body of the pull request will show a template that requests an abstract of the project and the completion of a checklist. Please complete as appropriate and take care to include all necessary information. The **pull request template** can be viewed [here](https://github.com/w3f/Web3-collaboration/blob/master/.github/PULL_REQUEST_TEMPLATE.md).
+       
+1. **Review**
+   * The W3F will review the applications received, determine if more information is required and potentially schedule a call with the team.
+   * Parity Technologies may also assist in the review of some applications.
+   
+1. **Decision**
+   * The W3F will notify the applicants of whether their proposal has been accepted for grant funding or not.
+   * If a team is successful, further communication will be required to determine specific details around timelines and payment schedules.
+   
+1. **Follow up**
+   * Once progress has started, the W3F will want to have follow up conversations to see how the project is progressing.
 
-Development issues:
-* Build core technology.
-* Test core technology.
-* Create general ecosystem components.
+## Guidelines for Technical Grants
+Technical grants are intended to fund **Polkadot** and **Substrate** specific projects in the following areas:
 
-More information on development collaboration can be found in the development collaboration document: [development doc](https://github.com/w3f/Web3-collaboration/blob/master/development.md)
+* software development
+* research
+* the production of software documentation and technical education material
 
-### Web3 ecosystem issues
-Please see our development collaboration document for further details:  [development doc](https://github.com/w3f/Web3-collaboration/blob/master/development.md)
+For more specific information on our funding priorities, please view our [areas of interest section](#areas-of-interest-for-technical-grants) below.
 
-## Who we are looking for
-The ideal candidates are people who can work in a self-directed manner and are able to manage their own time and resources in order to hit the necessary targets. For meetups, it is possible to do this single-handedly although for larger coding projects we expect teams of multiple members will be typical.
+The funding maximum for technical grants is $100,000 per project. Teams shouldn’t seek to cover 100% of their early-stage funding via W3F Grants alone.
 
-The Web3 Foundation is here to provide guidance and cross-team coordination, and in some cases we will be able to provide funding too.
+Any project requesting :
+* **$30k or less** will receive approval the fastest.
+* **$31k - 100k** will need to wait longer for a decision.
 
-If these issues are of interest to you then please comment on an open issue, or create a new issue, and provide the relevant information (refer to the submission process guidelines).
+Teams can apply for grants more than once, but they need to complete the previous project (as described in their application) before receiving additional funds. 
 
-## Submission process guidelines
-To help collaborate with us to build the next generation of the web we would be grateful if you could supply the information listed below about you and your team (where applicable). In cases where funding is also required please add information that pertains the additional points listed below.
+We are primarily interested in projects that can be completed in **3 months** or less.
 
-### Standard Response Template
-Below is a template for responding to issues. If you are offering collaboration help then we would appreciate getting to know the key details as clearly as possible. You are free to modify the template to suit your response, but we are aiming for structured correspondence with the community.
+### Licensing
+In order to successfully receive grant funding for your application it is necessary for the project to have **open source** code. We prefer Apache 2.0 but the GNU GPL v3 license is also acceptable.
 
-**Template**
+### Documentation
+To ensure ease-of-use we require all projects to create documentation that explains how their project works. At a minimum, written documentation is required for funding. Tutorials or videos are also helpful for new users to understand how to use the product.
 
-* What is the plan:
-* Number of people on your team:
-* Do you need help from W3F:
-* Do you need help from the community:
+### Areas of Interest
+You can find our area of interest [here](./grants/areas_of_interest.md).
+  
+### Who we are interested in funding
 
-**Examples**
+* Individuals
+  * Developers, anyone in the community
+* Companies/Teams
+  * Established teams with a track record
+* Researchers
+  * Universities/Professors
 
-If you would like to see some example responses then check out the following document in this repo: [response-examples.md](https://github.com/w3f/Web3-collaboration/blob/master/response-examples.md)
+## :bulb: Help
 
-## Polkadot Meetups
-We have multiple active meetup groups across the world. Find more information on the following doc: [Link](https://github.com/w3f/Web3-collaboration/blob/master/meetups.md). We encourage you to note your interest in the [issues](https://github.com/w3f/Web3-collaboration/issues) section of this repo and find collaborators in your local area!
-
-## Additional information
+### Additional information
 
 * [W3F Website](https://web3.foundation)
 * [W3F Forum](https://forum.web3.foundation)
@@ -72,8 +116,7 @@ We have multiple active meetup groups across the world. Find more information on
 * [Web 3.0 Wiki](https://github.com/w3f/Web3-wiki/wiki)
 * [Web 3.0 Reddit](https://www.reddit.com/r/web3)
 
-## Real-time conversation
+### Real-time conversation
 We have Riot channels for real-time discussions on Web3 and Polkadot. Join the conversations.
 * [Web3 Foundation](https://riot.im/app/#/room/#web3foundation:matrix.org)
 * [Polkadot Watercooler](https://riot.im/app/#/room/#polkadot-watercooler:matrix.org)
-

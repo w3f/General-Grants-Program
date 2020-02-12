@@ -7,32 +7,54 @@ Feel free to also take a look at the [accepted grant applications](https://githu
 
 - [:clipboard: Polkadot Stack](#clipboard-polkadot-stack)
 - [:pencil: Layers of Polkadot Stack](#layers-of-polkadot-stack)
+ - [Browsers and Wallets](#browsers-and-wallets)
+ - [Tools, APIs and Languages](#Tools,-APIs-and-Languages)
+ - [Standards](#standards)
+ - [Parachains and Bridges](#parachains_and_bridges)
+ - [Network Maintenance Tools](#network-maintenance-tools)
+ - [Signatures](#signatures)
+ - [WASM](#wasm)
+ - [Rust](#rust)
 
 ## :clipboard: Polkadot Stack 
 
 The Grants Programs seeks to allocate resources to projects that are beneficial to the advancement of the Polkadot Stack.
 Polkadot Stack is a subset of Web3 Stack, which consists of technologies contributing to Polkadot implementation (below in stack) or rely on Polkadot protocol (above in stack).
+
+```
+|------|--------|------------|
+| DeFi | Gaming | Provenance |
+|______|________|____________|
+            Dapps
+|--------------------------/-|
+| Browsers, Wallets       /  |
+|------------------------/---|
+| Tools, Apis, Languages/    |
+|----------------------/-----|
+| 2nd layer protocols /      |
+|--------------------/-------|
+| Chains            /  other |
+|------------------/---    --|
+| *Polkadot*      |   tech   |
+|------------------\---------|
+| P2P, Crypto, Wasm \        |
+|--------------------\-------|
+```
+
 Polkadot Stack is meant to be used for decentralised application (Dapp) development within many possible verticals.
 
 ## :pencil: Layers of Polkadot Stack
 
 In the below sections you can find a list of different layers of the Polkadot Stack.
 
-### Parachains and Bridges
+### Browsers and Wallets
 
-| Need | Existing Projects | Priority  
-|-|-|-
-|Scalable Transactions | Plasma, State Channel Network| DAG parachains, Roll-up, Second Order Relay Chains, Other Side Chains
-| Bridges|  Ethereum, Bitcoin, Libra | Bridge Hub , Zcash, Ethereum 
-| Privacy | zk-SNARKs+obfuscation , pLibra | zk-SNARKs
-| Off-Chain | TEE  |
-| Financial Chains | Stablecoin , Trading Parachain  | Stablecoin, Decentralised exchanges
-| Smart contract chains | ink! | smart contract chains based on existing toolchains, chains with novel security approaches, sharded smart contract chains
-| Access to real world data | Oracle | Oracle Parachain
-| Identity | Decentralised Identity , Zero Knowledge Identity  | 
-| Verifiable Claims | Attestation |
-| Computation | | Golem, Truebit or similar integrations
-| Enable specific use-cases | Robotic parachain , SRML for social networks , SRML for supply chain , SLA SRML | Application-specific parachains with good product stories (e.g file storage, name resolution chain)
+| Need | Existing Projects | Priority
+|-|-|- 
+| Desktop Wallets | Browser Extensions | Desktop wallet, Web (burner) wallets + Faucet, Multisignature wallet
+| Mobile Wallets| Mobile Wallets | Web (burner) wallets + faucet, Multisignature wallet
+| Hardware Wallets | Ledger, NGRAVE |Trezor
+| Governance participation | Polkawallet, Enzyme |Governance interface
 
 ### Standards
 
@@ -58,14 +80,21 @@ In the below sections you can find a list of different layers of the Polkadot St
 | File Storage | | tools integrating Polkadot and file storage protocols
 | Clear performance expectations | TODO | Transaction throughput, networking performance testing
 
-### Browsers and Wallets
+### Parachains and Bridges
 
-| Need | Existing Projects | Priority
-|-|-|- 
-| Desktop Wallets | Browser Extensions | Desktop wallet, Web (burner) wallets + Faucet, Multisignature wallet
-| Mobile Wallets| Mobile Wallets | Web (burner) wallets + faucet, Multisignature wallet
-| Hardware Wallets | Ledger, NGRAVE |Trezor
-| Governance participation | Polkawallet, Enzyme |Governance interface
+| Need | Existing Projects | Priority  
+|-|-|-
+|Scalable Transactions | Plasma, State Channel Network| DAG parachains, Roll-up, Second Order Relay Chains, Other Side Chains
+| Bridges|  Ethereum, Bitcoin, Libra | Bridge Hub , Zcash, Ethereum 
+| Privacy | zk-SNARKs+obfuscation , pLibra | zk-SNARKs
+| Off-Chain | TEE  |
+| Financial Chains | Stablecoin , Trading Parachain  | Stablecoin, Decentralised exchanges
+| Smart contract chains | ink! | smart contract chains based on existing toolchains, chains with novel security approaches, sharded smart contract chains
+| Access to real world data | Oracle | Oracle Parachain
+| Identity | Decentralised Identity , Zero Knowledge Identity  | 
+| Verifiable Claims | Attestation |
+| Computation | | Golem, Truebit or similar integrations
+| Enable specific use-cases | Robotic parachain , SRML for social networks , SRML for supply chain , SLA SRML | Application-specific parachains with good product stories (e.g file storage, name resolution chain)
 
 ### Network Maintenance Tools
 
@@ -82,7 +111,7 @@ In the below sections you can find a list of different layers of the Polkadot St
 |-|-|-
 | |
 
-### Signatures (ed25519, sr25519, BLS)
+### Signatures
 
 | Need | Existing Projects | Priority
 |-|-|-
