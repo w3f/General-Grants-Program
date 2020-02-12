@@ -105,3 +105,4 @@ This page gives an overview of accepted grants and a link to their GitHubs. Keep
 - [Polkastats](https://polkastats.io/) - Polkadot/Kusama network statistics ([GitHub](https://github.com/Colm3na/polkastats-v3))
 - [Supercomputing Systems](https://www.scs.ch/) - SubstraTEE extension pack ([GitHub](https://github.com/scs/substraTEE))
 - [Encointer](https://encointer.org/) - An Ecological, Egalitarian and Private Cryptocurrency and Self-Sovereign Identity System ([GitHub](https://github.com/encointer))
+- [FlexDapps](https://flexdapps.com/) - Gantree is a full-service node infrastructure toolkit for Substrate-based blockchains ([GitHub](https://github.com/flex-dapps))
