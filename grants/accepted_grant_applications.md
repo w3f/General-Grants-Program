@@ -61,7 +61,7 @@ This page gives an overview of accepted grants and a link to their GitHubs. Keep
 - [WEB3SCAN](https://www.web3scan.com/) - Python API client ([GitHub](https://github.com/polkascan))
 - [Galactic Council](https://github.com/galacticcouncil) - Polkalert: Validator Monitoring ([GitHub](https://github.com/galacticcouncil/polkalert))
 - [Bandot](http://bandot.io/) - Stablecoin ([GitHub](https://github.com/bandotorg/Bandot))
-- [Laminar One](https://laminar.one/) - FlowChain parachain with SDK and App ([GitHub](https://github.com/laminar-protocol/flowchain))
+- [Laminar One](https://laminar.one/) - LaminarChain: High performance Flow Protocols powering synthetic asset and margin trading ([GitHub](https://github.com/laminar-protocol/laminar-chain))
 - [Stake Technologies](https://stake.co.jp/) - Ink! Playground ([GitHub](https://github.com/staketechnologies/ink-playground))
 - [B-Harvest](https://bharvest.io/) - Node Monitoring Tool ([GitHub](https://github.com/b-harvest))
 - [Simply VC](https://simply-vc.com.mt/) - P.A.N.I.C. Validator alerting solution
