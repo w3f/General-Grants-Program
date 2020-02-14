@@ -1,30 +1,35 @@
 # Project name
 
+Data Highway Mining
+
 ## Project Description
 
-Data Highway Mining is an inclusive approach that will realize an extended inter-chain outreach by incentivizing different communities  to diversify their means of participation. It will also incentivize usage of LPWAN secure hardware.
+### A brief description of the project.
 
 Usage of Data Highway token mining involves a holder of certain tokens such as ERC-20 MXC, IOTA or DOT tokens to configure a time period to lock some of their tokens in a smart contract or to just hold that quantity in an account, and this is recorded in the Data Highway token mining configuration runtime module. Users are also incentivized to share usage of their LPWAN hardware on the Data Highway by configuring a time period throughout which they can ensure its uptime will be maintained.
 
 A Data Highway token mining oracle service is used to take samples of how many tokens are in that account or locked in the smart contract at random times over the defined time period, and the results are recorded on the Data Highway token mining sampling runtime module. Likewise there will be a Data Highway hardware mining oracle service that will take samples of whether a users configured hardware is online at randome times over the defined time period, and record the results on the Data Highway hardware mining runtime module.
 
-After the end of the the time period the Data Highway's token mining eligibility runtime module calculates a mining speed boost that the holder of those tokens may claim (i.e. 1.2x), and the Data Highway's hardware mining eligibility runtime module calculates a mining speed boost that the owner of the shared LPWAN hardware may claim (i.e. 1.2x).
+After the end of the the time period the Data Highway's token mining eligibility runtime module uses the Data Highway's token mining rates runtime module to calculate a mining speed boost that the holder of those tokens may claim (i.e. 1.2x), and the Data Highway's hardware mining eligibility runtime module uses the Data Highway's hardware mining rates runtime module to calculate a mining speed boost that the owner of the shared LPWAN hardware may claim (i.e. 1.2x).
 
 After user's claim their eligibility using the Data Highway's token/hardware mining claims runtime module respectively, that mining speed boost will be applied to that users staking rewards that result from them participating in the Data Highway as a validator or nominator to secure the parachain.
 
-Similar projects:
-* Edgeware's lock-drop
-* ChainX's inter-chain asset mining
+### An indication of why this project is good for the ecosystem.
 
-If this application in response to an RFP then please indicate this on the first line of this section.
+Data Highway Mining has been architected across multiple runtime modules to maintain a separation of concerns to improve developability and ease on-chain upgrades through DAO governance.
 
-Please provide the following:
-  * A brief description of the project.
-  * An indication of why this project is good for the ecosystem.
-  * An indication of how you will integrate this project into Substrate / Polkadot.
-  * An indication of why your team is interested in creating this project.
+Data Highway Mining is an inclusive approach that will realize a broadened inter-chain outreach by incentivizing different communities to diversify their means of participation and encourage investment from new participants. It will also incentivize usage of LPWAN secure hardware.
+
+### An indication of how you will integrate this project into Substrate / Polkadot.
+
+Data Highway Mining is a Substrate-based chain that will become a parachain using Cumulus.
+
+### An indication of why your team is interested in creating this project.
+
+Data Highway Mining will incentivize new and diversified channels of investment and inter-chain participation, which is crucial to grow the IoT community of the Polkadot ecosystem.
 
 ## Team members
+
 * Xin Hu (Data Highway Mining Lead）
 * Aaron Waegener (Data Highway Mining Business Development)
 * Siwon Kim (Data Highway Mining Business Development)
@@ -32,6 +37,8 @@ Please provide the following:
 * Jeff Stahlnecker (Data Highway Mining Project Manager)
 * Luke Schoen (Data Highway Mining Blockchain Developer)
 * Shiun Chen (Data Highway Mining Blockchain Developer)
+* Gal Rogozinski (Data Highway Blockchain Developer)
+* Alon Elmaliah (Data Highway Blockchain Developer)
 * Suhee Lee (Data Highway Mining UX)
 * Namgyeong Cho (Data Highway Mining Frontend Developer)
 * Christian Groeschel (Data Highway Mining DevOps)
@@ -39,27 +46,36 @@ Please provide the following:
 * Stefan Bachmann (Data Highway Mining QA)
 * Aslan Mehrabi (Data Highway Data Scientist)
 
-* **TODO** - Update the above list of team members if necessary
+## Team Website
 
-## Team Website	
 * http://datahighway.com/
 
-## Legal Structure 
+## Legal Structure
+
 Name: Data Highway
 Address: DAO on the Polkadot Network
 
 ## Team's experience
-* Luke Schoen uses handle [ltfschoen](https://github.com/ltfschoen) on Github.
+
+Please describe the team's relevant experience.  If the project involves development work, then single out a few interesting code commits made by team members on their past projects.
+
+* Luke Schoen
+  * Github handle [ltfschoen](https://github.com/ltfschoen)
   * Recently he has contributed to the following:
     * Data Highway development. He built the node and wrote the whitepaper https://github.com/DataHighway-com
     * Edgeware testnet validator. He built a validator guide https://github.com/ltfschoen/edgeware-node
-  * Previously he worked at Parity primarily on the following:
+  * Previously he worked at Parity primarily on the following open-source projects:
     * Polkadot.js. Example PR https://github.com/polkadot-js/apps/pull/336
     * Parity Fether. Example PR https://github.com/paritytech/fether/pull/332
     * Parity Ethereum. Example PR https://github.com/paritytech/parity-ethereum/pull/10657
   * Prior to that he was a full-stack Ethereum DApp developer.
+    * Peerism. Published a commuity Truffle Box https://www.trufflesuite.com/boxes/peerai-api
 
-* TODO - Please describe the team's relevant experience.  If the project involves development work, then we'd appreciated if you can single out a few interesting code commits made by team members on their past projects.  We'll glance at whole repositories too, but not if they contain many vendored dependencies, which often makes commits easier. 
+* Gal Rogozinski
+  * Github handle [GalRogozinski](https://github.com/GalRogozinski)
+
+* Alon Elmaliah
+  * Github handle [alon-e](https://github.com/alon-e)
 
 ## Team Code Repos
 * https://github.com/DataHighway-com/node
@@ -70,10 +86,11 @@ Address: DAO on the Polkadot Network
 * https://github.com/DataHighway-com/whitepaper
 
 ## Team LinkedIn Profiles
+
 * Luke Schoen [Linkedin](https://www.linkedin.com/in/ltfschoen/)
-* https://www.linkedin.com/<person_2>
 
 ## Development Roadmap
+
 This section should break out the development roadmap into a number of milestones. Since the milestones will appear in the grant contract, it helps to have as much detail as possible. Whenever milestones are delivered, we refer to the contract to ensure that everything has been delivered as expected.
 
 Here is a reminder of the main criteria of our grants:
@@ -113,13 +130,38 @@ For each milestone:
 * We will provide both inline documentation of the code and a basic tutorial describing how the compatibility layer can be used and tested.
 
 ## Future Plans
-* Please include the team's long-term plans and intentions.
+
+The Data Highway future plans include preparation of the following specifications and deliverables:
+
+* Data Highway Mining (Whitepaper, Testnet, Mainnet)
+* Data Highway Inter-Chain Data Market (Whitepaper, Testnet, Mainnet)
+* Data Highway Roaming (Whitepaper, Testnet, Mainnet)
+* Data Highway DAO (Whitepaper, Testnet, Mainnet)
 
 ## Additional Information
 Any additional information that you think is relevant to this application that hasn't already been included.
 
-Possible additional information to include:
-* What work has been done so far?
-* Are there are any teams who have already contributed (financially) to the project?
-* Have you applied for other grants so far?
-* Are there any other projects similar to yours? If so, how is your project different?  
+### What work has been done so far?
+
+* Data Highway Mining Whitepaper (Final draft)
+* Data Highway Mining Runtime Modules (configuration, rates, samples, eligibility, claims)
+* Data Highway Mining Documentation and API
+* Data Highway Mining Website
+* Data Highway Mining Oracle (MXC ERC-20 tokens)
+* Data Highway Mining Inter-Chain Bridge Contract (MXC ERC-20 tokens)
+
+### Are there are any teams who have already contributed (financially) to the project?
+
+No
+
+### Have you applied for other grants so far?
+
+No
+
+### Are there any other projects similar to yours? If so, how is your project different?  
+
+Similar projects:
+* Edgeware's lock-drop
+* ChainX's inter-chain asset mining
+
+Data Highway will be an IoT parachain on the Polkadot network 
