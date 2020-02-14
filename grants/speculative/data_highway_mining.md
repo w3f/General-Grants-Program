@@ -99,7 +99,6 @@ MVP of the Data Highway Mining will be a 4 month project with the following mile
     * Concept Design & Review and update whitepaper (technical specification of protocol and runtime design) under a Creative Commons license plan
   * Duration: 4 weeks
   * Full-Time Employees: Luke Schoen
-  * Cost Per Day: 1200 USD
   * Funding: 5,000 USD equivalent in DOTs
 
 ### Milestone 2: Phase 2 (Preliminary Design, Implementation, and Documentation)
@@ -129,7 +128,6 @@ MVP of the Data Highway Mining will be a 4 month project with the following mile
   * Target date: February 2020
   * Duration: 4 weeks
   * Full-Time Employees: Luke Schoen
-  * Cost Per Day: 1200 USD
   * Funding: 15,000 USD equivalent in DOTs
 
 ### Milestone 3: Phase 3 (Detailed Design, Implementation, Documentation, and Testnet)
@@ -156,7 +154,6 @@ MVP of the Data Highway Mining will be a 4 month project with the following mile
   * Target date: March 2020
   * Duration: 4 weeks
   * Full-Time Employees: Luke Schoen
-  * Cost Per Day: 1200 USD
   * Funding: 20,000 USD equivalent in DOTs
 
 ### Milestone 4: Phase 4 (Testnet)
@@ -178,7 +175,6 @@ MVP of the Data Highway Mining will be a 4 month project with the following mile
   * Target date: April 2020
   * Duration: 4 weeks
   * Full-Time Employees: Luke Schoen
-  * Cost Per Day: 1200 USD
   * Funding: 20,000 USD equivalent in DOTs
 
 ### Milestone 5: Phase 5 (Testnet)
@@ -201,7 +197,6 @@ MVP of the Data Highway Mining will be a 4 month project with the following mile
   * Target date: May 2020
   * Duration: 4 weeks
   * Full-Time Employees: Luke Schoen
-  * Cost Per Day: 1200 USD
   * Funding: 20,000 USD equivalent in DOTs
 
 ### Milestone 6: Phase 6 (Mainnet)
@@ -220,7 +215,6 @@ MVP of the Data Highway Mining will be a 4 month project with the following mile
   * Target date: June 2020
   * Duration: 4 weeks
   * Full-Time Employees: Luke Schoen
-  * Cost Per Day: 1200 USD
   * Funding: 20,000 USD equivalent in DOTs
 
 ## Funds Required Overall
