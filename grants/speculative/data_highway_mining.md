@@ -33,6 +33,7 @@ Data Highway Mining will incentivize new and diversified channels of investment 
 * Xin Hu (Data Highway Mining Lead）
 * Aaron Waegener (Data Highway Mining Business Development)
 * Siwon Kim (Data Highway Mining Business Development)
+* Piotr Świątek Brzeziński (Data Highway Mining Hardware)
 * Stéphane Letz (Data Highway Mining Marketing)
 * Jeff Stahlnecker (Data Highway Mining Project Manager)
 * Luke Schoen (Data Highway Mining Blockchain Developer)
@@ -91,43 +92,140 @@ Please describe the team's relevant experience.  If the project involves develop
 
 ## Development Roadmap
 
-This section should break out the development roadmap into a number of milestones. Since the milestones will appear in the grant contract, it helps to have as much detail as possible. Whenever milestones are delivered, we refer to the contract to ensure that everything has been delivered as expected.
+MVP of the Data Highway Mining will be a 4 month project with the following milestones:
 
-Here is a reminder of the main criteria of our grants:
-* Focus on Substrate / Polkadot related projects.
-* Max $100k.
-* Timeframe: up to 3 months is ideal.
-* Open source license (the preferred license is Apache 2.0)
+### Milestone 1: Phase 1 (Concept Design)
+  * Design
+    * Concept Design & Review and update whitepaper (technical specification of protocol and runtime design) under a Creative Commons license plan
+  * Duration: 4 weeks
+  * Full-Time Employees: Luke Schoen
+  * Cost Per Day: 1200 USD
+  * Funding: 5,000 USD equivalent in DOTs
 
-Below we provide an **example roadmap**. In the descriptions it should be clear how the project is related to Substrate and/or Polkadot. We recommend that the scope of the work can fit within a 3 month period and that teams structure their roadmap as 1 month = 1 milestone. It is always best to describe the functionality we should expect, plus how we can check that such functionality exists in the product.
+### Milestone 2: Phase 2 (Preliminary Design, Implementation, and Documentation)
+  * Design
+    * Preliminary Design & Review of Substrate runtime modules and update whitepaper.
+    * Preliminary Design & Review of Data Highway Mining App UI
+  * Implementation & Testing
+    * Preliminary Implementation of Substrate-based chain published on Github (open-source), with separate token-specific and hardware-specific runtime modules and associated oracle services. All runtime modules shall be shipped with unit and integration tests.
+      * Runtime modules
+        * Configuration runtime modules. To define the period of lock time and associated asset to mine (i.e. token asset holding to remain available or hardware assets to remain online over a specific period of time)
+        * Rates runtime modules. To define the maximum rate multiplier that may be claimed, which varies based on outcomes of sampling and calculation of their eligibility 
+        * Sampling runtime modules. To access external data fed by oracle services that take samples of the amount of tokens locked or whether the hardware is online at random times during the configured period of lock time.
+        * Eligibility runtime modules
+        * Claims runtime modules
+        * Asset runtime module. To mint, distribute, and transfer Testnet DHX tokens
+      * Oracle services. Initial MVP oracle server shall be deployed.
+  * Documentation
+    * Preliminary Documentation website including:
+      * API reference
+      * Tutorial for interaction using the Polkadot.js UI
+        * Token mining
+  * Deployment
+    * Compatibility with most recent stable commit from the Substrate repository
+    * Running chain containing all the above modules
+    * Releases shall be tagged and include a Docker image
+    * Licensing shall be open-source using Apache 2.0 (or as otherwise recommended)
+  * Target date: February 2020
+  * Duration: 4 weeks
+  * Full-Time Employees: Luke Schoen
+  * Cost Per Day: 1200 USD
+  * Funding: 15,000 USD equivalent in DOTs
 
-For each milestone:
-* Please be sure to include a specification of the software. The level of detail must be enough so that we are able to test that the software meets the specification.
-* Please include total amount of funding requested per milestone. Funding can be in fiat (CHF, EUR or USD) or in DOTs. It can also be in a combination of fiat and DOTs. Please reach out to grants@web3.foundation to discuss what amount in fiat and DOTs would be appropriate for your project.
-* Please note that we require documentation (e.g. tutorials) in each milestone. This ensures that the code can be widely used by the community.
-* Please commit to providing a docker container for the delivery of your project. 
-* Please indicate the number of Full-Time Employees working on each milestone, and include the number of days along with their cost per day.
+### Milestone 3: Phase 3 (Detailed Design, Implementation, Documentation, and Testnet)
 
-### Milestone 1 — Implement Substrate Modules — 1 month — $10,000
-* We will create a Substrate module that will... (Please list the functions that will be coded for the first milestone).
-* We will deliver a working module, along with a simple tutorial that explains how a user can (for example) spin up one of our Substrate nodes. Once the node is up, it will be possible to send test transactions that will show how the new functionality works.
-* The code will have proper unit-test coverage to ensure functionality and robustness.
-* We will build a Docker image with our Substrate chain and the compatibility layer, demonstrating its functionality.
-* We will provide both inline documentation of the code and a basic tutorial describing how the compatibility layer can be used and tested.
+  * Design
+    * Detailed Design & Review of Substrate runtime modules and update whitepaper.
+    * Detailed Design & Review of Data Highway Mining App UI
+    * Preliminary Design to Integrate the Data Highway Mining App UI into LPWAN App Server (Go-based application https://github.com/mxc-foundation/lpwan-app-server) using the Go Substrate RPC client.
 
-### Milestone 2 — Additional features — 1 month — $10,000
-* We will create a... (Describe the next round of features and functions that will be added).
-* We will deliver... (Explain how you will demonstrate that the functionality you built will work as intended).
-* The code will have proper unit-test coverage to ensure functionality and robustness.
-* We will build a Docker image with our Substrate chain and the compatibility layer, demonstrating its functionality.
-* We will provide both inline documentation of the code and a basic tutorial describing how the compatibility layer can be used and tested.
+  * Implementation & Testing
+    * Detailed Implementation implementation of Substrate-based chain
+        * Oracle services. Multiple oracle servers shall be deployed to increase the fault tolerance.
+        * Monitoring services. To monitor the oracle server status health and audit data that they feed to the runtime modules.
+  * Documentation
+    * Detailed Documentation website including:
+      * SDK reference
+      * Tutorial for interaction using the Polkadot.js UI
+        * Hardware mining
+  * Deployment
+    * Compatibility with most recent stable commit from the Substrate repository
+    * Running chain containing all the above modules
+    * Releases shall be tagged and include a Docker image
+    * Testnet using PoA collators
+  * Target date: March 2020
+  * Duration: 4 weeks
+  * Full-Time Employees: Luke Schoen
+  * Cost Per Day: 1200 USD
+  * Funding: 20,000 USD equivalent in DOTs
 
-### Milestone 3 — Additional features — 1 month — $10,000
-* We will create a... (Describe the next round of features and functions that will be added).
-* We will deliver... (Explain how you will demonstrate that the functionality you built will work as intended).
-* The code will have proper unit-test coverage to ensure functionality and robustness.
-* We will build a Docker image with our Substrate chain and the compatibility layer, demonstrating its functionality.
-* We will provide both inline documentation of the code and a basic tutorial describing how the compatibility layer can be used and tested.
+### Milestone 4: Phase 4 (Testnet)
+
+  * Design
+    * Final Design & Review of Substrate runtime modules and update whitepaper.
+    * Final Design & Review of Data Highway Mining App UI
+    * Final Design to Integrate the Data Highway Mining App UI into LPWAN App Server (Go-based application https://github.com/mxc-foundation/lpwan-app-server) using the Go Substrate RPC client.
+  * Implementation & Testing
+    * Preliminary Implementation of Data Highway Mining App UI
+    * Final Implementation & Review of Substrate-based chain
+  * Documentation
+    * Final Documentation & Review
+  * Deployment
+    * Compatibility with most recent stable commit from the Substrate repository
+    * Running chain containing all the above modules
+    * Releases shall be tagged and include a Docker image
+    * Testnet using NPoS collators
+  * Target date: April 2020
+  * Duration: 4 weeks
+  * Full-Time Employees: Luke Schoen
+  * Cost Per Day: 1200 USD
+  * Funding: 20,000 USD equivalent in DOTs
+
+### Milestone 5: Phase 5 (Testnet)
+
+  * Design
+    * Integration Design & Review of Substrate runtime modules and update whitepaper.
+  * Implementation & Testing
+    * Detailed Implementation of Data Highway Mining App UI
+    * Final Implementation & Review of Substrate-based chain
+    * Preliminary Implementation to Integrate the Data Highway Mining App UI into LPWAN App Server (Go-based application https://github.com/mxc-foundation/lpwan-app-server) using the Go Substrate RPC client.
+  * Documentation
+    * Final Documentation website & Review
+  * Deployment
+    * Compatibility with most recent stable commit from the Substrate repository
+    * Running chain containing all the above modules
+    * Releases shall be tagged and include a Docker image
+    * Testnet using NPoS collators ported to Polkadot network Parachain using Substrate's Cumulus Framework or the Parachain Development Kit (PDK)
+    * Parachain Slot Auction on Polkadot Testnet
+  * Assumption: Polkadot Mainnet Launch in April 2020
+  * Target date: May 2020
+  * Duration: 4 weeks
+  * Full-Time Employees: Luke Schoen
+  * Cost Per Day: 1200 USD
+  * Funding: 20,000 USD equivalent in DOTs
+
+### Milestone 6: Phase 6 (Mainnet)
+
+  * Implementation & Testing
+    * Mainnet on Polkadot network Parachain including on-chain upgrades (if any)
+    * Final Implementation of Data Highway Mining App UI
+    * Final Implementation to Integrate the Data Highway Mining App UI into LPWAN App Server (Go-based application https://github.com/mxc-foundation/lpwan-app-server) using the Go Substrate RPC client.
+  * Documentation
+    * Incorporate Final Review Comments into Documentation website
+  * Deployment
+    * Compatibility with most recent stable commit from the Substrate repository
+    * Running chain containing all the above modules
+    * Releases shall be tagged and include a Docker image
+    * Testnet using NPoS collators
+  * Target date: June 2020
+  * Duration: 4 weeks
+  * Full-Time Employees: Luke Schoen
+  * Cost Per Day: 1200 USD
+  * Funding: 20,000 USD equivalent in DOTs
+
+## Funds Required Overall
+
+100,000 USD equivalent in DOTs
 
 ## Future Plans
 
@@ -139,7 +237,13 @@ The Data Highway future plans include preparation of the following specification
 * Data Highway DAO (Whitepaper, Testnet, Mainnet)
 
 ## Additional Information
-Any additional information that you think is relevant to this application that hasn't already been included.
+
+### Funding
+
+### Releases
+
+* Releases shall be tagged and include a Docker image
+* Licensing shall be open-source using Apache 2.0 (or as otherwise preferred)
 
 ### What work has been done so far?
 
@@ -152,7 +256,7 @@ Any additional information that you think is relevant to this application that h
 
 ### Are there are any teams who have already contributed (financially) to the project?
 
-No
+MXC Foundation gGmbH is a non-profit that has financed part of milestones M1 and part of M2. However we wish to use funding from a grant application to proceed with subsequent milestones and integrate into the Polkadot platform as a parachain.
 
 ### Have you applied for other grants so far?
 
