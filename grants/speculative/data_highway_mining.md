@@ -179,7 +179,7 @@ MVP of the Data Highway Mining will be a 4 month project with the following mile
   * Compatibility with most recent stable commit from the Substrate repository
   * Running chain containing all the above modules
   * Releases shall be tagged and include a Docker image
-  * Licensing shall be open-source using Apache 2.0 (or as otherwise recommended)
+  * Licensing shall be open-source using GNU GPL v3 for consistency with Substrate (or Apache 2.0 if required)
 * Target date: February 2020
 * Duration: 4 weeks
 * Full-Time Employees: Luke Schoen
