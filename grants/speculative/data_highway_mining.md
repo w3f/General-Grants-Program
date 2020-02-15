@@ -2,6 +2,10 @@
 
 Data Highway Mining
 
+## Abstract
+
+Data Highway Mining may involve participation through token mining or hardware mining initially. Token mining rewards the user with a Mining Speed Boost (MSB) to incentivize participants to hold and lock certain tokens for a period of time, whereas hardware mining rewards them with a MSB to incentivize owners of certain hardware to maintain its uptime over a period of time. The MSB is a multiplier that is determined through sampling their eligibility with oracle services. Users that are eligible for a MSB must claim it in order for it to increase the staking rewards that they may receive as a result of them participating as a Proof of Stake (PoS) validator or nominator on the Data Highway.
+
 ## Project Description
 
 ### A brief description of the project.
