@@ -39,6 +39,7 @@ We are interested in this project because we have a passion in DeFi, we love the
     __Jakub Gregus__
     - product consultant
     - blockchain and DeFi researcher with bold opinions on management of liquidity pools and aggregating them
+    - Zee Prime Capital partner
     
     __Peter Kris__
     - project / product management
