@@ -1,56 +1,56 @@
 # Project name
 
-Data Highway Mining
+DataHighway Mining
 
 ## Abstract
 
-Data Highway Mining will involve participation through either token mining or IoT hardware mining initially. Token mining rewards the user with a Mining Speed Boost (MSB) to incentivize participants to hold and lock certain tokens for a period of time, whereas hardware mining rewards them with a MSB to incentivize owners of certain hardware to maintain its uptime over a period of time. The MSB is a multiplier that is determined through sampling their eligibility with oracle services. Users that are eligible for a MSB must claim it in order for it to increase the staking rewards that they may receive as a result of them participating as a Proof of Stake (PoS) validator or nominator on the Data Highway.
+DataHighway Mining will involve participation through either token mining or IoT hardware mining initially. Token mining rewards the user with a Mining Speed Boost (MSB) to incentivize participants to hold and lock certain tokens for a period of time, whereas hardware mining rewards them with a MSB to incentivize owners of certain hardware to maintain its uptime over a period of time. The MSB is a multiplier that is determined through sampling their eligibility with oracle services. Users that are eligible for a MSB must claim it in order for it to increase the staking rewards that they may receive as a result of them participating as a Proof of Stake (PoS) validator or nominator on the DataHighway.
 
 ## Project Description
 
 ### A brief description of the project.
 
-Data Highway Mining will involve token mining and hardware mining initially. Data Highway token mining involves a holder of certain tokens such as MXC (Ethereum ERC-20 token), IOTA or DOT tokens to configure a time period to lock some of their tokens in a smart contract or to just hold that quantity in an account. This information is recorded in the Data Highway token mining configuration runtime module. Users are also incentivized to share access to their LPWAN hardware on the Data Highway by configuring a time period throughout which they are willing to ensure its uptime will be maintained.
+DataHighway Mining will involve token mining and hardware mining initially. DataHighway token mining involves a holder of certain tokens such as MXC (Ethereum ERC-20 token), IOTA or DOT tokens to configure a time period to lock some of their tokens in a smart contract or to just hold that quantity in an account. This information is recorded in the DataHighway token mining configuration runtime module. Users are also incentivized to share access to their LPWAN hardware on the DataHighway by configuring a time period throughout which they are willing to ensure its uptime will be maintained.
 
-A Data Highway token mining oracle service is used to take samples of how many tokens are in that account or locked in the smart contract at random times over the defined time period, and the results are recorded on the Data Highway token mining sampling runtime module. Likewise there will be a Data Highway hardware mining oracle service that will take samples of whether a users' configured hardware is online at random times over the defined time period. The samples will be recorded on the Data Highway hardware mining sampling runtime module.
+A DataHighway token mining oracle service is used to take samples of how many tokens are in that account or locked in the smart contract at random times over the defined time period, and the results are recorded on the DataHighway token mining sampling runtime module. Likewise there will be a DataHighway hardware mining oracle service that will take samples of whether a users' configured hardware is online at random times over the defined time period. The samples will be recorded on the DataHighway hardware mining sampling runtime module.
 
-After the end of the the time period the Data Highway's token mining eligibility runtime module uses the Data Highway's token mining rates runtime module to calculate a Mining Speed Boost (MSB) that the holder of those tokens may claim (i.e. 1.2x). Likewise, the Data Highway's hardware mining eligibility runtime module uses the Data Highway's hardware mining rates runtime module to calculate a mining speed boost that the owner of the shared LPWAN hardware may claim (i.e. 1.2x).
+After the end of the the time period the DataHighway's token mining eligibility runtime module uses the DataHighway's token mining rates runtime module to calculate a Mining Speed Boost (MSB) that the holder of those tokens may claim (i.e. 1.2x). Likewise, the DataHighway's hardware mining eligibility runtime module uses the DataHighway's hardware mining rates runtime module to calculate a mining speed boost that the owner of the shared LPWAN hardware may claim (i.e. 1.2x).
 
-After user's claim their eligibility using the Data Highway's token/hardware mining claims runtime module, that MSB will be applied to that user's staking rewards, which result from them participating in the Data Highway as a Proof of Stake (PoS) validator or nominator to secure the parachain.
+After user's claim their eligibility using the DataHighway's token/hardware mining claims runtime module, that MSB will be applied to that user's staking rewards, which result from them participating in the DataHighway as a Proof of Stake (PoS) validator or nominator to secure the parachain.
 
 ### An indication of why this project is good for the ecosystem.
 
-Data Highway Mining has been architected across multiple runtime modules to maintain a separation of concerns to improve developability and ease on-chain upgrades through DAO governance.
+DataHighway Mining has been architected across multiple runtime modules to maintain a separation of concerns to improve developability and ease on-chain upgrades through DAO governance.
 
-Data Highway Mining is an inclusive approach that will realize a broadened inter-chain outreach by incentivizing different communities to diversify their means of participation and encourage investment from new participants. It will also incentivize usage of LPWAN secure hardware.
+DataHighway Mining is an inclusive approach that will realize a broadened inter-chain outreach by incentivizing different communities to diversify their means of participation and encourage investment from new participants. It will also incentivize usage of LPWAN secure hardware.
 
 ### An indication of how you will integrate this project into Substrate / Polkadot.
 
-Data Highway Mining is a Substrate-based chain that will become a parachain using Cumulus.
+DataHighway Mining is a Substrate-based chain that will become a parachain using Cumulus.
 
 ### An indication of why your team is interested in creating this project.
 
-Data Highway Mining will incentivize new and diversified channels of investment and inter-chain participation, which is crucial to grow the IoT community of the Polkadot ecosystem.
+DataHighway Mining will incentivize new and diversified channels of investment and inter-chain participation, which is crucial to grow the IoT community of the Polkadot ecosystem.
 
 ## Team members
 
-* Xin (Sheen) Hu (Data Highway Mining Lead）
-* Aaron Wagener (Data Highway Mining Business Development)
-* Siwon Kim (Data Highway Mining Business Development)
-* Piotr Świątek Brzeziński (Data Highway Mining Hardware)
-* Jakub Chmielarz (Data Highway Hardware)
-* Stéphane Letz (Data Highway Mining Marketing)
-* Jeff Stahlnecker (Data Highway Mining Project Manager)
-* Luke Schoen (Data Highway Mining Blockchain Developer)
-* Shiun Chen (Data Highway Mining Blockchain Developer)
-* Suhee Lee (Data Highway Mining UX)
-* Namgyeong Cho (Data Highway Mining Frontend Developer)
-* Christian Groeschel (Data Highway Mining DevOps)
-* Lixuan Jia (Data Highway Mining QA)
-* Stefan Bachmann (Data Highway Mining QA)
-* Aslan Mehrabi (Data Highway Data Scientist)
-* Gal Rogozinski (Data Highway Blockchain Developer)
-* Alon Elmaliah (Data Highway Blockchain Developer)
+* Xin (Sheen) Hu (DataHighway Mining Lead）
+* Aaron Wagener (DataHighway Mining Business Development)
+* Siwon Kim (DataHighway Mining Business Development)
+* Piotr Świątek Brzeziński (DataHighway Mining Hardware)
+* Jakub Chmielarz (DataHighway Hardware)
+* Stéphane Letz (DataHighway Mining Marketing)
+* Jeff Stahlnecker (DataHighway Mining Project Manager)
+* Luke Schoen (DataHighway Mining Blockchain Developer)
+* Shiun Chen (DataHighway Mining Blockchain Developer)
+* Suhee Lee (DataHighway Mining UX)
+* Namgyeong Cho (DataHighway Mining Frontend Developer)
+* Christian Groeschel (DataHighway Mining DevOps)
+* Lixuan Jia (DataHighway Mining QA)
+* Stefan Bachmann (DataHighway Mining QA)
+* Aslan Mehrabi (DataHighway Data Scientist)
+* Gal Rogozinski (DataHighway Blockchain Developer)
+* Alon Elmaliah (DataHighway Blockchain Developer)
 
 ## Team Website
 
@@ -58,7 +58,7 @@ Data Highway Mining will incentivize new and diversified channels of investment 
 
 ## Legal Structure
 
-Name: Data Highway
+Name: DataHighway
 Address: DAO on the Polkadot Network
 
 ## Team's experience
@@ -71,13 +71,13 @@ Possible information to include
 
 ### A list of blockchain projects that the team has supported and the details of such support
 
-The team have collaborated together to start making the Data Highway a reality.
+The team have collaborated together to start making the DataHighway a reality.
 
-Xin (Sheen) Hu, Aaron Wagener, and Piotr Świątek Brzeziński are from the MXC Foundation gGmbH's and MatchX's Executive Team. They have created the vision of the Data Highway.
+Xin (Sheen) Hu, Aaron Wagener, and Piotr Świątek Brzeziński are from the MXC Foundation gGmbH's and MatchX's Executive Team. They have created the vision of the DataHighway.
 
 Siwon Kim and Jeff Stahlnecker are experts in community engagement and power MXC's Blog https://blog.mxc.org/ and Telegram community of over 5,000 users.
 
-Xin Hu, Piotr Świątek Brzeziński, and Jakub Chmielarz are building revolutionary secure IoT hardware and AI solutions. Data Highway Mining will incentivize use of such hardware or similar equivalent.  
+Xin Hu, Piotr Świątek Brzeziński, and Jakub Chmielarz are building revolutionary secure IoT hardware and AI solutions. DataHighway Mining will incentivize use of such hardware or similar equivalent.  
 
 Stéphane Letz and Suhee Lee provide graphic designs and videography that captivates the community and to support the business development and marketing teams.   
 
@@ -96,13 +96,13 @@ He previously worked at Parity primarily on the following open-source projects:
 Prior to that he was a full-stack Ethereum DApp developer on open-source projects such as:
 * Peerism, where he published a commuity Truffle Box https://www.trufflesuite.com/boxes/peerai-api
 
-He has leveraged his prior experience at Parity and support from the Substrate Builders Program to build the Data Highway's Substrate-based node so far.
+He has leveraged his prior experience at Parity and support from the Substrate Builders Program to build the DataHighway's Substrate-based node so far.
 
-With support from the rest of the team he was able to produce the Data Highway whitepaper https://github.com/DataHighway-com, which includes Data Highway Mining.
+With support from the rest of the team he was able to produce the DataHighway whitepaper https://github.com/DataHighway-DHX, which includes DataHighway Mining.
 
-Christian Groeschel is a DevOps expert. He is using Kubernetes to build a Continuous Integration (CI) pipeline for testing and deploying Data Highway parachain builds using Docker. He is also creating monitoring tools. 
+Christian Groeschel is a DevOps expert. He is using Kubernetes to build a Continuous Integration (CI) pipeline for testing and deploying DataHighway parachain builds using Docker. He is also creating monitoring tools. 
 
-Lixuan Jia is a QA expert who is supported by Stefan Bachmann to oversee the Data Highway.
+Lixuan Jia is a QA expert who is supported by Stefan Bachmann to oversee the DataHighway.
 
 Gal Rogozinski [(GalRogozinski)](https://github.com/GalRogozinski) and Alon Elmaliah [(alon-e)](https://github.com/alon-e)are leaders from IOTA who are proficient across cryptography and will be sought upon to achieve the inter-chain mining objectives, as necessary.
 
@@ -113,20 +113,24 @@ Gal Rogozinski [(GalRogozinski)](https://github.com/GalRogozinski) and Alon Elma
 
 ## Team Code Repos
 
-Data Highway repositories:
+DataHighway repositories:
 
-* Data Highway Substrate-based Blockchain Node
-  * Github: https://github.com/DataHighway-com/node
-* Data Highway Documentation
-  * Gitub: https://github.com/DataHighway-com/documentation
-  * Website: https://dev.datahighway.com/docs
-* Data Highway Whitepaper
-  * Github: https://github.com/DataHighway-com/whitepaper
-* Data Highway Website
-  * Github: https://github.com/DataHighway-com/website
+* DataHighway Substrate-based Blockchain Node
+  * Github: https://github.com/DataHighway-DHX/node
+* DataHighway Documentation
+  * Gitub: https://github.com/DataHighway-DHX/documentation
+  * Website: https://dev.datahighway.com/
+* DataHighway Whitepaper
+  * Github: https://github.com/DataHighway-DHX/whitepaper
+* DataHighway Website
+  * Github: https://github.com/DataHighway-DHX/website
   * Website: http://datahighway.com/
-* Data Highway API
-  * https://github.com/DataHighway-com/api
+* DataHighway API
+  * https://github.com/DataHighway-DHX/api
+
+## Team Twitter Account
+
+* https://twitter.com/DataHighway_DHX
 
 ## Team LinkedIn Profiles
 
@@ -152,14 +156,14 @@ Rust, Go, React, Kubernetes, Docker
 
 ## Development Roadmap
 
-MVP of the Data Highway Mining will be a 4 month project with the following milestones:
+MVP of the DataHighway Mining will be a 4 month project with the following milestones:
 
 ### Milestone 1: Phase 1 (Preliminary Design, Implementation, and Documentation)
 
 * Design
   * Concept Design & Review and update whitepaper (technical specification of protocol and runtime design) under a Creative Commons license plan
   * Preliminary Design & Review of Substrate runtime modules and update whitepaper.
-  * Preliminary Design & Review of Data Highway Mining App UI based on SpeckleOS
+  * Preliminary Design & Review of DataHighway Mining App UI based on SpeckleOS
 * Implementation & Testing
   * Preliminary Implementation of Substrate-based chain published on Github (open-source), with separate token-specific and hardware-specific runtime modules and associated oracle services. All runtime modules shall be shipped with unit and integration tests.
     * Runtime modules
@@ -189,8 +193,8 @@ MVP of the Data Highway Mining will be a 4 month project with the following mile
 
 * Design
   * Detailed Design & Review of Substrate runtime modules and update whitepaper.
-  * Detailed Design & Review of Data Highway Mining App UI
-  * Preliminary Design to Integrate the Data Highway Mining App UI into LPWAN App Server (Go-based application https://github.com/mxc-foundation/lpwan-app-server) using the Go Substrate RPC client.
+  * Detailed Design & Review of DataHighway Mining App UI
+  * Preliminary Design to Integrate the DataHighway Mining App UI into MXC's LPWAN App Server (Go-based application https://github.com/mxc-foundation/lpwan-app-server) using the Go Substrate RPC client.
 
 * Implementation & Testing
   * Detailed Implementation implementation of Substrate-based chain
@@ -215,10 +219,10 @@ MVP of the Data Highway Mining will be a 4 month project with the following mile
 
 * Design
   * Final Design & Review of Substrate runtime modules and update whitepaper.
-  * Final Design & Review of Data Highway Mining App UI
-  * Final Design to Integrate the Data Highway Mining App UI into LPWAN App Server (Go-based application https://github.com/mxc-foundation/lpwan-app-server) using the Go Substrate RPC client.
+  * Final Design & Review of DataHighway Mining App UI
+  * Final Design to Integrate the DataHighway Mining App UI into MXC's LPWAN App Server (Go-based application https://github.com/mxc-foundation/lpwan-app-server) using the Go Substrate RPC client.
 * Implementation & Testing
-  * Preliminary Implementation of Data Highway Mining App UI
+  * Preliminary Implementation of DataHighway Mining App UI
   * Final Implementation & Review of Substrate-based chain
 * Documentation
   * Final Documentation & Review
@@ -238,9 +242,9 @@ MVP of the Data Highway Mining will be a 4 month project with the following mile
 * Design
   * Integration Design & Review of Substrate runtime modules and update whitepaper.
 * Implementation & Testing
-  * Detailed Implementation of Data Highway Mining App UI
+  * Detailed Implementation of DataHighway Mining App UI
   * Final Implementation & Review of Substrate-based chain
-  * Preliminary Implementation to Integrate the Data Highway Mining App UI into LPWAN App Server (Go-based application https://github.com/mxc-foundation/lpwan-app-server) using the Go Substrate RPC client.
+  * Preliminary Implementation to Integrate the DataHighway Mining App UI into MXC's LPWAN App Server (Go-based application https://github.com/mxc-foundation/lpwan-app-server) using the Go Substrate RPC client.
 * Documentation
   * Final Documentation website & Review
 * Deployment
@@ -259,8 +263,8 @@ MVP of the Data Highway Mining will be a 4 month project with the following mile
 
 * Implementation & Testing
   * Mainnet on Polkadot network Parachain including on-chain upgrades (if any)
-  * Final Implementation of Data Highway Mining App UI
-  * Final Implementation to Integrate the Data Highway Mining App UI into LPWAN App Server (Go-based application https://github.com/mxc-foundation/lpwan-app-server) using the Go Substrate RPC client.
+  * Final Implementation of DataHighway Mining App UI
+  * Final Implementation to Integrate the DataHighway Mining App UI into MXC's LPWAN App Server (Go-based application https://github.com/mxc-foundation/lpwan-app-server) using the Go Substrate RPC client.
 * Documentation
   * Incorporate Final Review Comments into Documentation website
 * Deployment
@@ -279,12 +283,12 @@ MVP of the Data Highway Mining will be a 4 month project with the following mile
 
 ## Future Plans
 
-The Data Highway future plans include preparation of the following specifications and deliverables:
+The DataHighway future plans include preparation of the following specifications and deliverables:
 
-* Data Highway Mining (Whitepaper, Testnet, Mainnet)
-* Data Highway Inter-Chain Data Market (Whitepaper, Testnet, Mainnet)
-* Data Highway Roaming (Whitepaper, Testnet, Mainnet)
-* Data Highway DAO (Whitepaper, Testnet, Mainnet)
+* DataHighway Mining (Whitepaper, Testnet, Mainnet)
+* DataHighway Inter-Chain Data Market (Whitepaper, Testnet, Mainnet)
+* DataHighway Roaming (Whitepaper, Testnet, Mainnet)
+* DataHighway DAO (Whitepaper, Testnet, Mainnet)
 
 ## Additional Information
 
@@ -297,12 +301,12 @@ The Data Highway future plans include preparation of the following specification
 
 ### What work has been done so far?
 
-* Data Highway Mining Whitepaper (Final draft)
-* Data Highway Mining Runtime Modules (configuration, rates, samples, eligibility, claims)
-* Data Highway Mining Documentation and API
-* Data Highway Mining Website
-* Data Highway Mining Oracle (MXC ERC-20 tokens)
-* Data Highway Mining Inter-Chain Bridge Contract (MXC ERC-20 tokens)
+* DataHighway Mining Whitepaper (Final draft)
+* DataHighway Mining Runtime Modules (configuration, rates, samples, eligibility, claims)
+* DataHighway Mining Documentation and API
+* DataHighway Mining Website
+* DataHighway Mining Oracle (MXC ERC-20 tokens)
+* DataHighway Mining Inter-Chain Bridge Contract (MXC ERC-20 tokens)
 
 ### Are there are any teams who have already contributed (financially) to the project?
 
@@ -318,4 +322,4 @@ Similar projects:
 * Edgeware's lock-drop
 * ChainX's inter-chain asset mining
 
-Data Highway will be an IoT parachain on the Polkadot network 
+DataHighway will be an IoT parachain on the Polkadot network 
