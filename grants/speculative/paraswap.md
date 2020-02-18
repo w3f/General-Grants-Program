@@ -11,7 +11,7 @@ When demand will be validated, we will consider other AMM models in the future.
 
 We will develop a pallet that implements XYK model to allow:
 
-1. Internal Parachain swapping through Assets pallet
+1. Internal Parachain swapping through Generic Assets pallet
 2. External swapping between two other parachains (through XCMP)
 
 We are interested in this project because we have a passion in DeFi, we love the orderbooks and we have a great team fit for this implementation.
