@@ -100,4 +100,5 @@ Product-wise it can develop in two directions:
 We're behind the [Polkalert](https://www.polkalert.com) (Substrate node monitoring tool)
 and [API explorer](https://apiexplorer.polkalert.com/) (Substrate chain API inspection tool).
 
-We have a running PoC of XYK pallet on a remote Subtrate node (to be provided) 
+We have a running PoC of XYK pallet on a remote Subtrate node
+[Github repo of PoC](https://github.com/gleb-urvanov/substrate-xyk) 
