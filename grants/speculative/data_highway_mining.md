@@ -117,11 +117,9 @@ DataHighway repositories:
 
 * DataHighway Substrate-based Blockchain Node
   * Github: https://github.com/DataHighway-DHX/node
-* DataHighway Documentation
+* DataHighway Documentation & Whitepaper
   * Gitub: https://github.com/DataHighway-DHX/documentation
   * Website: https://dev.datahighway.com/
-* DataHighway Whitepaper
-  * Github: https://github.com/DataHighway-DHX/whitepaper
 * DataHighway Website
   * Github: https://github.com/DataHighway-DHX/website
   * Website: http://datahighway.com/
