@@ -1,6 +1,8 @@
-# Web3 Foundation Grants
+# Web3 Foundation General Grants Program
 
 As part of our commitment to promoting the Web3 ecosystem, we offer a comprehensive grants program focused on funding software development, research, technical education and community engagement efforts related to **Polkadot** and **Substrate**. 
+
+For smaller technology grants up to **$30k**, which are tracked **transparently** on GitHub and disbursed in **bitcoin**, see also our new [Open Grants Program](https://github.com/w3f/Open-Grants-Program). 
 
 ---
 
@@ -34,7 +36,7 @@ If you are considering applying for a grant, please follow the process below.
     
         Partially public applications that limit financial information (e.g. funding amount requested) to the Google form are preferred. However, teams are free to make fully public applications as well as fully private applications. 
     
-        * [technical grant application](https://docs.google.com/forms/d/e/1FAIpQLSfMfjiRmDQDRk-4OhNASM6BAKii7rz_B1jWtbCPkUh6N7M2ww/viewform)  
+        * [Apply here for a Technical Grant](https://docs.google.com/forms/d/e/1FAIpQLSfMfjiRmDQDRk-4OhNASM6BAKii7rz_B1jWtbCPkUh6N7M2ww/viewform)
         
         Teams that chose to make a fully private application are done. Teams that have chosen to make a fully or partially public application should proceed to the next step.
        
@@ -42,7 +44,7 @@ If you are considering applying for a grant, please follow the process below.
        1. Fork this repository.
        1. In the newly created fork, create a copy of the [technical grant template](https://github.com/w3f/Web3-collaboration/blob/master/grants/grant_application_template.md).
            * Most applications should go into the [speculative](https://github.com/w3f/Web3-collaboration/tree/master/grants/speculative) sub-folder.
-           * In the few cases where the application is a response to specific RFP then the application should go into the [targeted](https://github.com/w3f/Web3-collaboration/tree/master/grants/targeted) sub-folder.
+           * In the few cases where the application is a response to specific RFP then the application should go into the [rfps](https://github.com/w3f/Web3-collaboration/tree/master/grants/rfps) sub-folder.
        1. Label the file as "project_name.md".
        1. Fill out the template with the details of your project.
        1. Once you have completed the application, click on "create new pull request".
@@ -60,7 +62,8 @@ If you are considering applying for a grant, please follow the process below.
    * Once progress has started, the W3F will want to have follow up conversations to see how the project is progressing.
 
 ## Guidelines for technical grants
-Technical grants are intended to fund:
+Technical grants are intended to fund **Polkadot** and **Substrate** specific projects in the following areas:
+
 * software development
 * research
 * the production of software documentation and technical education material
@@ -71,11 +74,11 @@ The funding maximum for technical grants is $100,000 per project. Teams shouldnâ
 
 Any project requesting :
 * **$30k or less** will receive approval the fastest.
-* **$31 - 100k** will need to wait longer for a decision.
+* **$31k - 100k** will need to wait longer for a decision.
 
 Teams can apply for grants more than once, but they need to complete the previous project (as described in their application) before receiving additional funds. 
 
-We are primarily interested in projects that can be completed in 3 months or less.
+We are primarily interested in projects that can be completed in **3 months** or less.
 
 ### Licensing
 In order to successfully receive grant funding for your application it is necessary for the project to have **open source** code. We prefer Apache 2.0 but the GNU GPL v3 license is also acceptable.
