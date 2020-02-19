@@ -107,4 +107,4 @@ This page gives an overview of accepted grants and a link to their GitHubs. Keep
 - [Encointer](https://encointer.org/) - An Ecological, Egalitarian and Private Cryptocurrency and Self-Sovereign Identity System ([GitHub](https://github.com/encointer))
 - [FlexDapps](https://flexdapps.com/) - Gantree is a full-service node infrastructure toolkit for Substrate-based blockchains ([GitHub](https://github.com/flex-dapps))
 - [Matter Labs](https://matter-labs.io) - Zinc/RedShift ZK programming framework ([GitHub](https://github.com/matter-labs))
-- [Second State](https://www.secondstate.io/) - Bridging Ethereum Tools and Smart Contracts into Substrate Ecosystem([GitHub](https://github.com/second-state))
+- [Second State](https://www.secondstate.io/) - Bridging Ethereum Tools and Smart Contracts into Substrate Ecosystem ([GitHub](https://github.com/second-state))
