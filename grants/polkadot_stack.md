@@ -1,15 +1,11 @@
 # Open Source Polkadot Stack
 
-> The goal of this page is to provide an overview of the open-source polkadot tech stack. At the moment it's far from complete. 
-
-If you want to actively contribute to the polkadot stack and you are looking for funding, please make an application via the 
-[General Grants Program](https://github.com/w3f/Web3-collaboration/blob/master/grants/grants.md) 
-or [Open Grants Program](https://github.com/w3f/Open-Grants-Program). 
-Feel free to also take a look at the [accepted grant applications](https://github.com/w3f/Web3-collaboration/blob/master/grants/accepted_grant_applications.md).
+The goal of this page is to provide an overview of the open-source polkadot tech stack. At the moment it's far from complete. 
 
 ---
 
 - [:clipboard: About](#clipboard-about)
+- [:battery: Funding](#battery-funding)
 - [:bookmark_tabs: Layers of Polkadot Stack](#bookmark_tabs-layers-of-polkadot-stack)
   - [:iphone: Explorer and Wallets](#iphone-explorer-and-wallets)
   - [:wrench: Tools, APIs and Languages](#wrench-tools-apis-and-languages)
@@ -42,10 +38,15 @@ Polkadot Stack is a subset of the Web3 Stack, which consists of **open-source** 
 | P2P, Crypto, Wasm \        |
 |--------------------\-------|
 ```
+## :battery: Funding
+
+If you want to actively contribute to the polkadot stack and you are looking for funding, please make an application via the 
+[General Grants Program](https://github.com/w3f/Web3-collaboration/blob/master/grants/grants.md) 
+or [Open Grants Program](https://github.com/w3f/Open-Grants-Program). Keep in mind that we are generally interested in funding more than one solution for a specific field. Also, we have an interest in keeping existing technology up to date, in case older projects are no longer maintained. 
 
 ## :bookmark_tabs: Layers of Polkadot Stack
 
-In the below sections you can find a list of different layers of the Polkadot Stack. Keep in mind that we are generally interested in funding more than one solution for a specific field. Also, we have an interest in keeping existing technology up to date, in case older projects are no longer maintained.  
+In the below sections you can find a list of different layers of the Polkadot Stack. 
 
 ### :iphone: Explorer and Wallets
 
