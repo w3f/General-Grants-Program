@@ -1,6 +1,6 @@
 # Open Source Polkadot Stack
 
-> The goal of this page is to provide an overview of the polkadot tech stack. At the moment it's far from complete. 
+> The goal of this page is to provide an overview of the open-source polkadot tech stack. At the moment it's far from complete. 
 
 If you want to actively contribute to the polkadot stack and you are looking for funding, please make an application via the 
 [General Grants Program](https://github.com/w3f/Web3-collaboration/blob/master/grants/grants.md) 
@@ -120,7 +120,7 @@ In the below sections you can find a list of different layers of the Polkadot St
 
 ## :construction_worker: Contributing
 
-Pull requests, issues, or other contributions from the community are encouraged!  However, the final decision to add content will be made by the Web3 Foundation.
+Pull requests, issues, or other contributions from the community are encouraged!  You can not only add specific projects but also potentially interesting fields/areas, which are currently missing in the tech stack. 
 
 :heavy_exclamation_mark: All technologies listed above need to be open-source. Ideally, the links lead directly to the code. 
 
