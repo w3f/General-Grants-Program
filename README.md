@@ -50,7 +50,7 @@ To ensure ease-of-use we require all projects to create documentation that expla
 If you are considering applying for a grant, please follow the process below.
   
 1. **Determine the scope of your project**
-   * Review the [areas of interest page](./grants/areas_of_interest.md). If your idea isn&rsquo;t listed, but you think it&rsquo;s cool, you can send us an [email](mailto:grants@web3.foundation) and tell us about it.
+   * Review the [areas of interest page](./grants/areas_of_interest.md) and take a look at the [accepted grant applications](https://github.com/w3f/Web3-collaboration/blob/master/grants/accepted_grant_applications.md). If your idea isn&rsquo;t listed, but you think it&rsquo;s cool, you can send us an [email](mailto:grants@web3.foundation) and tell us about it.
    * Ensure the scope of your project falls within the [:bookmark_tabs: Guidelines](#bookmark_tabs-guidelines)
     
    Once you determine that your project falls within the [areas of interest page](./grants/areas_of_interest.md) and corresponds to the guidelines above, proceed to the next step.
