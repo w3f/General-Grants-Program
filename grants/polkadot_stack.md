@@ -13,7 +13,7 @@ Feel free to also take a look at the [accepted grant applications](https://githu
 - [:bookmark_tabs: Layers of Polkadot Stack](#bookmark_tabs-layers-of-polkadot-stack)
   - [:iphone: Explorer and Wallets](#iphone-explorer-and-wallets)
   - [:wrench: Tools, APIs and Languages](#wrench-tools-apis-and-languages)
-  - [:link: Chains Modules and Bridges](#link-chains-modules-and-bridges)
+  - [:link: Chains and Modules](#link-chains-and-modules)
   - [:black_circle: Host](#black_circle-host)
   - [:electric_plug: Network Maintenance Tools](#electric_plug-network-maintenance-tools)
   - [:black_nib: Signatures](#black_nib-signatures)
@@ -58,38 +58,40 @@ In the below sections you can find a list of different layers of the Polkadot St
 | Multisignature Wallets| 
 | Hardware Wallets | [Ledger](https://github.com/ZondaX/ledger-polkadot), [NGRAVE](https://ngrave.io/) 
 | Explorer | [Polkascan](https://github.com/polkascan), [Polkastats](https://polkastats.io/)
-| Governance participation | 
+| Validator Dashboard | [DotHub](https://github.com/figment-networks/dothub), [Polkacube](https://github.com/hashquark-io)
 
 ### :wrench: Tools APIs and Languages
 
 | Need | Existing Projects  
 |-|-
 | Parachain Dev Kits | [Gantree](https://github.com/flex-dapps)| 
-| Polkadot RPC clients | [Go](https://github.com/centrifuge/go-substrate-rpc-client), [.Net](https://github.com/usetech-llc/polkadot_api_dotnet), [C++](https://github.com/usetech-llc/polkadot_api_cpp), Rust, [Javascript](https://github.com/polkadot-js/api), [Ruby](https://github.com/itering/scale.rb), [Python](https://github.com/polkascan/substrate-interface-api), [Java](https://github.com/polkadot-java)
+| Polkadot RPC clients | [Go](https://github.com/centrifuge/go-substrate-rpc-client), [.Net](https://github.com/usetech-llc/polkadot_api_dotnet), [C++](https://github.com/usetech-llc/polkadot_api_cpp), [Haskell](https://github.com/Pixura), [Javascript](https://github.com/polkadot-js/api), [Ruby](https://github.com/itering/scale.rb), [Python](https://github.com/polkascan/substrate-interface-api), [Java](https://github.com/polkadot-java)
 | Easy Runtime Development | [VS Plugin](https://github.com/everstake/vscode-plugin-substrate), [Atom Code Plugin](https://github.com/everstake/atom-plugin-substrate), [Substrate Playground](https://github.com/paritytech/substrate-playground) 
-| Easy Smart Contract Development | [ink-playground](https://github.com/staketechnologies/ink-playground/tree/master) 
-| Runtime Security | K specifications for the SRML (Runtime Verification) 
-| Smart Contract Languages | Solidity, Ink!
-| Smart Contract Security | Security Framework  
-| Easy integration testing | Benchmarking  
+| Easy Smart Contract Development | [ink-playground](https://github.com/staketechnologies/ink-playground/tree/master), [Ink! Remix Plugin](https://github.com/blockchain-it-hr/ink-remix-plugin) 
+| Runtime Security | [K specifications](https://github.com/kframework/wasm-semantics)
+| Smart Contract Languages | [Solang](https://github.com/hyperledger-labs/solang), [Ink!](https://github.com/paritytech/ink)
+| Smart Contract Security |   
+| Easy integration testing |   
 | File Storage | 
 | Performance Testing |  
 
-### :link: Chains Modules and Bridges
+### :link: Chains and Modules
 
-| Need | Existing Projects | Priority  
-|-|-|-
-| Scalable Transactions | [Plasm](https://github.com/staketechnologies/Plasm), [Gunclear](https://github.com/GunClear)
-| Bridges|  Ethereum, Bitcoin, Libra  
-| Privacy | zk-SNARKs+obfuscation , [pLibra](https://github.com/libra-china-org) 
-| Off-Chain | TEE  |
-| Financial Chains | [Laminar Chain](https://github.com/laminar-protocol/laminar-chain) 
+| Need | Existing Projects  
+|-|-
+| Scalable Transactions | [Plasm](https://github.com/staketechnologies/Plasm), [Celer](https://github.com/celer-network), [Gunclear](https://github.com/GunClear)
+| Bridges|   [Ethereum](https://github.com/centrifuge/) 
+| Privacy | [ZeroChain](https://github.com/LayerXcom/zero-chain), [pLibra](https://github.com/libra-china-org) 
+| Off-Chain | [substraTEE](https://github.com/scs/substraTEE)
+| Financial Chains | [Laminar Chain](https://github.com/laminar-protocol/laminar-chain), [Acala](https://acala.network/) 
 | Smart contract chains | [Edgeware](https://github.com/hicommonwealth) 
-| Access to real world data | Oracle 
+| Access to real world data | [Oracle by Laminar](https://github.com/laminar-protocol/open-runtime-module-library/tree/master/oracle) 
 | Identity | [Caelum Labs](https://gitlab.com/caelum-tech/lorena) 
-| Verifiable Claims | Attestation 
+| Verifiable Claims | [KILT](https://github.com/KILTprotocol) 
+| Supply chain| [Wiv](https://github.com/wivtech/Substrate-SupplyChain)
+| Social Networking | [SubSocial](https://github.com/dappforce/dappforce-subsocial)
 | Computation | 
-| Enable specific use-cases | Robotic parachain , SRML for social networks , SRML for supply chain , SLA SRML 
+| Enable specific use-cases | [Robonomics](https://github.com/airalab/substrate-node-robonomics)
 
 ### :black_circle: Host
 
@@ -105,7 +107,7 @@ In the below sections you can find a list of different layers of the Polkadot St
 | Need | Existing Projects 
 |-|- 
 | Secure validator setup | [Trutzone-based HSM](https://github.com/ZondaX)  
-| Validator Deployment Tools| [Polkadot Package Manager](https://github.com/Blockdaemon/bpm-sdk), Hardware Node Deployment 
+| Validator Deployment Tools| [Polkadot Package Manager](https://github.com/Blockdaemon/bpm-sdk) 
 | Validator explorer/monitoring | [P.A.N.I.C.](https://github.com/SimplyVC/panic_polkadot), [Polkalert](https://github.com/galacticcouncil/polkalert)   
 
 ### :black_nib: Signatures
