@@ -1,4 +1,4 @@
-# Areas of Interest
+# Polkadot Stack
 
 If any of these topics below are of interest to you then please make an application via the 
 [General Grants Program](https://github.com/w3f/Web3-collaboration/blob/master/grants/grants.md) 
@@ -7,7 +7,7 @@ Feel free to also take a look at the [accepted grant applications](https://githu
 
 ---
 
-- [:clipboard: Polkadot Stack](#clipboard-polkadot-stack)
+- [:clipboard: About](#clipboard-about)
 - [:bookmark_tabs: Layers of Polkadot Stack](#bookmark_tabs-layers-of-polkadot-stack)
   - [:iphone: Explorer and Wallets](#iphone-explorer-and-wallets)
   - [:wrench: Tools, APIs and Languages](#wrench-tools-apis-and-languages)
@@ -17,7 +17,7 @@ Feel free to also take a look at the [accepted grant applications](https://githu
   - [WASM](#wasm)
   - [Rust](#rust)
 
-## :clipboard: Polkadot Stack 
+## :clipboard: About 
 
 The Grants Programs seeks to allocate resources to projects that are beneficial to the advancement of the Polkadot Stack.
 Polkadot Stack is a subset of the Web3 Stack, which consists of technologies contributing to Polkadot or Kusama implementation (below in stack) or rely on the Polkadot or Kusama protocol (above in stack).
@@ -64,7 +64,7 @@ In the below sections you can find a list of different layers of the Polkadot St
 | Need | Existing Projects | Priority  
 |-|-|- 
 |Development of Specific Chains | Substrate + Cumulus | Parachain dev kits
-| Polkadot RPC clients | Go, .Net, C++, Rust, Javascript, Python, Java, | Web3 Compatible API for Substate EVM Chains
+| Polkadot RPC clients | [Go](https://github.com/centrifuge/go-substrate-rpc-client), [.Net](https://github.com/usetech-llc/polkadot_api_dotnet), [C++](https://github.com/usetech-llc/polkadot_api_cpp), Rust, Javascript, [Ruby](https://github.com/itering/scale.rb), [Python](https://github.com/polkascan/substrate-interface-api), [Java](https://github.com/polkadot-java), | Web3 Compatible API for Substate EVM Chains
 | Runtime writing from different languages | Rust (Substrate), Go , C++ | AssemblyScript
 | Easy Runtime Development | IDE (VS/Atom Code Plugin), Playground | 
 | Runtime Security | K specifications for the SRML (Runtime Verification) |
