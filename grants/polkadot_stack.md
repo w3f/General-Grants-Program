@@ -1,6 +1,6 @@
 # Polkadot Stack
 
-If any of these topics below are of interest to you then please make an application via the 
+If you want to actively contribute to the polkadot stack and you are looking for funding, please make an application via the 
 [General Grants Program](https://github.com/w3f/Web3-collaboration/blob/master/grants/grants.md) 
 or [Open Grants Program](https://github.com/w3f/Open-Grants-Program). 
 Feel free to also take a look at the [accepted grant applications](https://github.com/w3f/Web3-collaboration/blob/master/grants/accepted_grant_applications.md).
@@ -19,8 +19,7 @@ Feel free to also take a look at the [accepted grant applications](https://githu
 
 ## :clipboard: About 
 
-The Grants Programs seeks to allocate resources to projects that are beneficial to the advancement of the Polkadot Stack.
-Polkadot Stack is a subset of the Web3 Stack, which consists of technologies contributing to Polkadot or Kusama implementation (below in stack) or rely on the Polkadot or Kusama protocol (above in stack).
+Polkadot Stack is a subset of the Web3 Stack, which consists of technologies contributing to [Polkadot](https://polkadot.network/), [Kusama](https://kusama.network/) or [Substrate](https://substrate.dev/) (below in stack) or rely on it (above in stack).
 
 ```
 |------|--------|------------|
@@ -44,7 +43,7 @@ Polkadot Stack is a subset of the Web3 Stack, which consists of technologies con
 
 ## :bookmark_tabs: Layers of Polkadot Stack
 
-In the below sections you can find a list of different layers of the Polkadot Stack. Keep in mind that we are generally interested in funding more than one solution for a specific field. Also, we have an interest in keeping existing technology up to date. In case older projects are no longer maintained.  
+In the below sections you can find a list of different layers of the Polkadot Stack. Keep in mind that we are generally interested in funding more than one solution for a specific field. Also, we have an interest in keeping existing technology up to date, in case older projects are no longer maintained.  
 
 ### :iphone: Explorer and Wallets
 
