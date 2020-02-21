@@ -93,6 +93,7 @@ In the below sections you can find a list of different layers of the Polkadot St
 | Social Networking | [SubSocial](https://github.com/dappforce/dappforce-subsocial)
 | Messaging | [HOPR](https://github.com/validitylabs/HOPR-PL-Substrate), [Mailchain](https://github.com/mailchain)
 | File Storage | [DatDot](https://github.com/playproject-io/datdot)
+| Name Service| [Substrate Names](https://github.com/xaya/substrate-names)
 | Computation | 
 | Enable specific use-cases | [Robonomics](https://github.com/airalab/substrate-node-robonomics)
 
