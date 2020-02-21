@@ -72,6 +72,7 @@ We're gathering blockchain talent across SK/CZ/UK/RU markets, have been involved
 **First milestone: Core functionality**
 
 Time estimation: week 1-4
+(with respective documentation)
 
 1. Automated Market Making exchange, allowing instantaneous trade between different assets. Technical implementation: the solution will be provided in form of open source Substrate pallet, operating with Generic Assets (by Substrate) and thus reusable by any other substrate-based blockchain supporting the pallet.  
 
@@ -106,6 +107,7 @@ Technical implementation:
 **Second milestone: Advanced functionality**
 
 Time estimation: week 4-8
+(with respective documentation)
 
 1.  Native blockchain asset (currency) will be introduced, and holding or using the native asset will alter (reduce) exchange fees.
 
