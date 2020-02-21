@@ -72,7 +72,7 @@ The MVP following 3 milestones，the first MVP version will support Polkadot and
 - Duration: 1 month
 - Support restore account
 - Support send & receive assets
-- Support view the historical transctions
+- Support view the historical transactions
 
 ### Milestone 3
 - Duration: 1 month
