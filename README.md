@@ -2,7 +2,7 @@
 
 As part of our commitment to promoting the Web3 ecosystem, we offer a comprehensive grants program focused on funding software development and research efforts related to **Polkadot** and **Substrate**. 
 
-For smaller technology grants up to **$30k**, which are tracked **transparently** on GitHub and disbursed in **bitcoin**, see also our new [Open Grants Program](https://github.com/w3f/Open-Grants-Program). 
+For smaller technology grants up to **$30k**, which are tracked **transparently** on GitHub and disbursed in **bitcoin**, see our new [Open Grants Program](https://github.com/w3f/Open-Grants-Program). 
 
 ---
 
@@ -57,13 +57,13 @@ If you are considering applying for a grant, please follow the process below.
    
 1. **Application**
 
-    We recommend checking out the "[How successfully apply](https://medium.com/web3foundation/web3-foundation-grants-wave-two-recipients-16d9b996501d)" section at the end of the Wave 2 grant winners blog post. It gives an indication of what a good roadmap should look like, plus it outlines the criteria of what we look for in an application.
+    We recommend checking out the [technical grant template](https://github.com/w3f/Web3-collaboration/blob/master/grants/grant_application_template.md). It gives an indication of what a good roadmap should look like, plus it outlines the criteria of what we look for in an application.
        
     1. Fill out the Google form for your grant application by clicking the following link: [:arrow_right: Apply here](https://docs.google.com/forms/d/e/1FAIpQLSfMfjiRmDQDRk-4OhNASM6BAKii7rz_B1jWtbCPkUh6N7M2ww/viewform)
     
         Partially public applications that limit financial information (e.g. funding amount requested) to the Google form are preferred. However, teams are free to make fully public applications as well as fully private applications. 
         
-        Teams that chose to make a fully private application are done. Teams that have chosen to make a fully or partially public application should proceed to the next step.
+        Teams that chose to make a fully private application are done once this form is complete. Teams that have chosen to make a fully or partially public application should proceed to the next step.
        
     1. Fully or partially public applications should be made via a pull request to this repo by following the steps below.
        1. Fork this repository.
@@ -91,6 +91,7 @@ If you are considering applying for a grant, please follow the process below.
 
 * Individuals
   * Developers, anyone in the community
+  * Note: all contracts need to be signed with legal entities (e.g. an LLC / Ltd).
 * Companies/Teams
   * Established teams with a track record
 * Researchers
