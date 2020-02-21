@@ -28,7 +28,7 @@ Technical grants are intended to fund **Polkadot** and **Substrate** specific pr
 * research
 * the production of software documentation and technical education material
 
-For more specific information on our funding priorities, please view the [Polkadot Stack](./grants/polkadot_stack.md) and take a look at the [accepted grant applications](https://github.com/w3f/Web3-collaboration/blob/master/grants/accepted_grant_applications.md).
+For more specific information on our funding priorities, please view the [Polkadot Stack](./polkadot_stack.md) and take a look at the [accepted grant applications](https://github.com/w3f/Web3-collaboration/blob/master/grants/accepted_grant_applications.md).
 
 The funding maximum for technical grants is $100,000 per project. Teams shouldn’t seek to cover 100% of their early-stage funding via W3F Grants alone.
 
@@ -50,10 +50,10 @@ To ensure ease-of-use we require all projects to create documentation that expla
 If you are considering applying for a grant, please follow the process below.
   
 1. **Determine the scope of your project**
-   * Review the [Polkadot Stack](./grants/polkadot_stack.md) and take a look at the [accepted grant applications](https://github.com/w3f/Web3-collaboration/blob/master/grants/accepted_grant_applications.md). If your idea isn&rsquo;t listed, but you think it&rsquo;s cool, you can send us an [email](mailto:grants@web3.foundation) and tell us about it.
+   * Review the [Polkadot Stack](./polkadot_stack.md) and take a look at the [accepted grant applications](https://github.com/w3f/Web3-collaboration/blob/master/grants/accepted_grant_applications.md). If your idea isn&rsquo;t listed, but you think it&rsquo;s cool, you can send us an [email](mailto:grants@web3.foundation) and tell us about it.
    * Ensure the scope of your project falls within the [:bookmark_tabs: Guidelines](#bookmark_tabs-guidelines)
     
-   Once you determine that your project falls within the [Polkadot Stack](./grants/polkadot_stack.md) and corresponds to the guidelines above, proceed to the next step.
+   Once you determine that your project falls within the [Polkadot Stack](./polkadot_stack.md) and corresponds to the guidelines above, proceed to the next step.
    
 1. **Application**
 
@@ -85,7 +85,7 @@ If you are considering applying for a grant, please follow the process below.
    
 1. **Follow up**
    * Once progress has started, the W3F will want to have follow up conversations to see how the project is progressing.
-   * To help to speed up the milestone evaluation process, take a look at the [Milestone Deliverables Guidelines](./grants/milestone-deliverables-guidelines.md)
+   * To help to speed up the milestone evaluation process, take a look at the [Milestone Deliverables Guidelines](./milestone-deliverables-guidelines.md)
 
 ### Who we are interested in funding
 
