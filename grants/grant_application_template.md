@@ -60,14 +60,14 @@ For each milestone:
 * We will deliver... (Explain how you will demonstrate that the functionality you built will work as intended).
 * The code will have proper unit-test coverage to ensure functionality and robustness.
 * We will build a Docker image with (e.g.) our Substrate chain, demonstrating its functionality.
-* We will provide both inline documentation of the code and a basic tutorial describing how the compatibility layer can be used and tested.
+* We will provide both inline documentation of the code and a basic tutorial describing how the software can be used and tested.
 
 ### Milestone 3 — Additional features — 1 month — $10,000
 * We will create a... (Describe the next round of features and functions that will be added).
 * We will deliver... (Explain how you will demonstrate that the functionality you built will work as intended).
 * The code will have proper unit-test coverage to ensure functionality and robustness.
 * We will build a Docker image with (e.g.) our Substrate chain, demonstrating its functionality.
-* We will provide both inline documentation of the code and a basic tutorial describing how the compatibility layer can be used and tested.
+* We will provide both inline documentation of the code and a basic tutorial describing how the software can be used and tested.
 
 ## Future Plans
 * Please include the team's long-term plans and intentions.
