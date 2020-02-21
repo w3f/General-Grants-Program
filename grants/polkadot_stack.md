@@ -66,7 +66,7 @@ In the below sections you can find a list of different layers of the Polkadot St
 | Need | Existing Projects  
 |-|-
 | Parachain Dev Kits | [Gantree](https://github.com/flex-dapps)| 
-| Polkadot RPC clients | [Go](https://github.com/centrifuge/go-substrate-rpc-client), [.Net](https://github.com/usetech-llc/polkadot_api_dotnet), [C++](https://github.com/usetech-llc/polkadot_api_cpp), [Haskell](https://github.com/Pixura), [Javascript](https://github.com/polkadot-js/api), [Ruby](https://github.com/itering/scale.rb), [Python](https://github.com/polkascan/substrate-interface-api), [Java](https://github.com/polkadot-java)
+| Polkadot RPC clients | [Go](https://github.com/centrifuge/go-substrate-rpc-client), [.Net](https://github.com/usetech-llc/polkadot_api_dotnet), [C++](https://github.com/usetech-llc/polkadot_api_cpp), [Haskell](https://github.com/Pixura), [Javascript](https://github.com/polkadot-js/api), [Ruby](https://github.com/itering/scale.rb), [Python](https://github.com/polkascan/substrate-interface-api), [Java](https://github.com/polkadot-java), [Rust](https://github.com/scs/substrate-api-client)
 | Easy Runtime Development | [VS Plugin](https://github.com/everstake/vscode-plugin-substrate), [Atom Code Plugin](https://github.com/everstake/atom-plugin-substrate), [Substrate Playground](https://github.com/paritytech/substrate-playground) 
 | Easy Smart Contract Development | [ink-playground](https://github.com/staketechnologies/ink-playground/tree/master), [Ink! Remix Plugin](https://github.com/blockchain-it-hr/ink-remix-plugin) 
 | Runtime Security | [K specifications](https://github.com/kframework/wasm-semantics)
@@ -83,13 +83,15 @@ In the below sections you can find a list of different layers of the Polkadot St
 | Bridges|   [Ethereum by Centrifuge](https://github.com/centrifuge/), [EOS by Bifrost](https://github.com/bifrost-codes) 
 | Privacy | [ZeroChain](https://github.com/LayerXcom/zero-chain), [pLibra](https://github.com/libra-china-org) 
 | Off-Chain | [substraTEE](https://github.com/scs/substraTEE)
-| Financial Chains | [Laminar Chain](https://github.com/laminar-protocol/laminar-chain), [Acala](https://acala.network/), [Centrifuge](https://github.com/centrifuge/), [Stafi](https://github.com/stafiprotocol/stafi-node) 
+| Financial Chains | [Laminar Chain](https://github.com/laminar-protocol/laminar-chain), [Acala](https://acala.network/), [Centrifuge](https://github.com/centrifuge/), [Stafi](https://github.com/stafiprotocol/stafi-node), [Bandot](https://github.com/bandotorg/Bandot),  
 | Smart contract chains | [Edgeware](https://github.com/hicommonwealth) 
 | Access to real world data | [Oracle by Laminar](https://github.com/laminar-protocol/open-runtime-module-library/tree/master/oracle) 
-| Identity | [Caelum Labs](https://gitlab.com/caelum-tech/lorena) 
-| Verifiable Claims | [KILT](https://github.com/KILTprotocol) 
+| Identity | [Caelum Labs](https://gitlab.com/caelum-tech/lorena), [Litentry](https://github.com/litentry/litentry-runtime) 
+| IoT | [Nodle](https://github.com/NodleCode/)
+| Verifiable Claims | [KILT](https://github.com/KILTprotocol), [Dock](https://github.com/docknetwork) 
 | Supply chain| [Wiv](https://github.com/wivtech/Substrate-SupplyChain)
 | Social Networking | [SubSocial](https://github.com/dappforce/dappforce-subsocial)
+| Messaging | [HOPR](https://github.com/validitylabs/HOPR-PL-Substrate), [Mailchain](https://github.com/mailchain)
 | File Storage | [DatDot](https://github.com/playproject-io/datdot)
 | Computation | 
 | Enable specific use-cases | [Robonomics](https://github.com/airalab/substrate-node-robonomics)
@@ -108,7 +110,8 @@ In the below sections you can find a list of different layers of the Polkadot St
 | Need | Existing Projects 
 |-|- 
 | Secure validator setup | [Trutzone-based HSM](https://github.com/ZondaX)  
-| Deployment Tools| [Polkadot Package Manager](https://github.com/Blockdaemon/bpm-sdk), [PolkaHub](https://github.com/akropolisio/polkahub-monorepo) 
+| High availability setup | [Archipel](https://github.com/luguslabs/archipel)
+| Deployment Tools| [Polkadot Package Manager](https://github.com/Blockdaemon/bpm-sdk), [PolkaHub](https://github.com/akropolisio/polkahub-monorepo), [Avado](https://github.com/AvadoDServer/AVADO-DNP-Polkadot-custom) 
 | Validator monitoring | [P.A.N.I.C.](https://github.com/SimplyVC/panic_polkadot), [Polkalert](https://github.com/galacticcouncil/polkalert), [B-Harvest](https://github.com/nodebreaker0-0/substrate/tree/prometheus_v0.3)   
 
 ### :black_nib: Signatures
