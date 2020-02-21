@@ -1,4 +1,4 @@
-# Open Source Polkadot Stack
+# Open Source Polkadot Stack [WIP!]
 
 The goal of this page is to provide an overview of the open-source polkadot tech stack. At the moment it's far from complete. 
 
@@ -70,10 +70,9 @@ In the below sections you can find a list of different layers of the Polkadot St
 | Easy Runtime Development | [VS Plugin](https://github.com/everstake/vscode-plugin-substrate), [Atom Code Plugin](https://github.com/everstake/atom-plugin-substrate), [Substrate Playground](https://github.com/paritytech/substrate-playground) 
 | Easy Smart Contract Development | [ink-playground](https://github.com/staketechnologies/ink-playground/tree/master), [Ink! Remix Plugin](https://github.com/blockchain-it-hr/ink-remix-plugin) 
 | Runtime Security | [K specifications](https://github.com/kframework/wasm-semantics)
-| Smart Contract Languages | [Solang](https://github.com/hyperledger-labs/solang), [Ink!](https://github.com/paritytech/ink)
+| Smart Contract Languages | [Solang](https://github.com/hyperledger-labs/solang), [Ink!](https://github.com/paritytech/ink), [Pact](https://github.com/kadena-io/)
 | Smart Contract Security |   
 | Easy integration testing |   
-| File Storage | 
 | Performance Testing |  
 
 ### :link: Chains and Modules
@@ -81,16 +80,17 @@ In the below sections you can find a list of different layers of the Polkadot St
 | Need | Existing Projects  
 |-|-
 | Scalable Transactions | [Plasm](https://github.com/staketechnologies/Plasm), [Celer](https://github.com/celer-network), [Gunclear](https://github.com/GunClear)
-| Bridges|   [Ethereum](https://github.com/centrifuge/) 
+| Bridges|   [Ethereum by Centrifuge](https://github.com/centrifuge/), [EOS by Bifrost](https://github.com/bifrost-codes) 
 | Privacy | [ZeroChain](https://github.com/LayerXcom/zero-chain), [pLibra](https://github.com/libra-china-org) 
 | Off-Chain | [substraTEE](https://github.com/scs/substraTEE)
-| Financial Chains | [Laminar Chain](https://github.com/laminar-protocol/laminar-chain), [Acala](https://acala.network/) 
+| Financial Chains | [Laminar Chain](https://github.com/laminar-protocol/laminar-chain), [Acala](https://acala.network/), [Centrifuge](https://github.com/centrifuge/), [Stafi](https://github.com/stafiprotocol/stafi-node) 
 | Smart contract chains | [Edgeware](https://github.com/hicommonwealth) 
 | Access to real world data | [Oracle by Laminar](https://github.com/laminar-protocol/open-runtime-module-library/tree/master/oracle) 
 | Identity | [Caelum Labs](https://gitlab.com/caelum-tech/lorena) 
 | Verifiable Claims | [KILT](https://github.com/KILTprotocol) 
 | Supply chain| [Wiv](https://github.com/wivtech/Substrate-SupplyChain)
 | Social Networking | [SubSocial](https://github.com/dappforce/dappforce-subsocial)
+| File Storage | [DatDot](https://github.com/playproject-io/datdot)
 | Computation | 
 | Enable specific use-cases | [Robonomics](https://github.com/airalab/substrate-node-robonomics)
 
@@ -108,14 +108,14 @@ In the below sections you can find a list of different layers of the Polkadot St
 | Need | Existing Projects 
 |-|- 
 | Secure validator setup | [Trutzone-based HSM](https://github.com/ZondaX)  
-| Validator Deployment Tools| [Polkadot Package Manager](https://github.com/Blockdaemon/bpm-sdk) 
-| Validator explorer/monitoring | [P.A.N.I.C.](https://github.com/SimplyVC/panic_polkadot), [Polkalert](https://github.com/galacticcouncil/polkalert)   
+| Deployment Tools| [Polkadot Package Manager](https://github.com/Blockdaemon/bpm-sdk), [PolkaHub](https://github.com/akropolisio/polkahub-monorepo) 
+| Validator monitoring | [P.A.N.I.C.](https://github.com/SimplyVC/panic_polkadot), [Polkalert](https://github.com/galacticcouncil/polkalert), [B-Harvest](https://github.com/nodebreaker0-0/substrate/tree/prometheus_v0.3)   
 
 ### :black_nib: Signatures
 
 | Need | Existing Projects 
 |-|-
-| Ecosystem around a single version of crypto | 
+| SR25519 | [C](https://github.com/usetech-llc/sr25519), [C#](https://github.com/usetech-llc/sr25519_dotnet)
 | Easy multisig scheme | 
 
 
