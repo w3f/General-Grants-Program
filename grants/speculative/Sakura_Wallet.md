@@ -84,6 +84,7 @@ The MVP following 3 milestones，the first MVP version will support Polkadot and
 ### Further Plan
 
 - Support more parachains assets.
+- Support staking and governance.
 
 ## Licensing
 
