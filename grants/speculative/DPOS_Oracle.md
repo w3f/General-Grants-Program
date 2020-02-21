@@ -96,12 +96,30 @@ We will provide comprehensive documentation and wiki with tutorials to support t
 
 ## Additional Information
 
+### Business plan
+
+We are currently working on a Defi-specific DPoS project that will include a parachain and a wallet. The DPoS oracle and the multisig wallet (DOT wallet) are designed specifically for Polkadot, while parachain is a separate project. 
+
+The DPoS oracle will be built on top of that parachain and serve as a complementary tool for the multisig wallet. Both tools are meant to boost Polkadot ecosystem growth being compatible with/reused by other parachains and increase DOT token adoption and usage.
+
+The solution could serve as an integral part of many future DeFi projects. Some Polkadot ecosystem projects may be using the solution since it will be able to cover their needs. They will be able to benefit from the ready-made code by simply configuring it as required. No extra development is needed.
+
 ### What work has been done so far?
-* [PoC of table-score and oracle-dpos modules](https://github.com/mixbytes/substrate-dpos-oracle)
+* [Basic implementations of table-score and oracle-dpos modules](https://github.com/mixbytes/substrate-dpos-oracle)
 
 ### Have you applied for other grants so far?
 * https://github.com/w3f/Web3-collaboration/blob/master/grants/speculative/MixBytes_Tank.md
 * C++ PRE implementation
 
 ### Are there any other projects similar to yours?
-Not that we are aware of
+
+| Project                                  | General purpose oracle | Polkadot support | Decentralized oracle governance | Off-chain part |
+|------------------------------------------|------------------------|------------------|---------------------------------|----------------|
+| DPoS oracle                              | Yes                    | Yes              | Yes                             | Yes            |
+| Chainlink                                | Yes                    | No               | No                              | Yes            |
+| Laminar                                  | Yes                    | Yes              | No                              | No             |
+| Bifrost Network                          | No                     | Yes              | -                               | -              |
+| Acala Network (uses Laminar oracle)      | Yes                    | Yes              | No                              | No             |
+| https://github.com/katalchain/blockchain | Yes                    | Yes              | No                              | No             |
+
+We believe that decentralized reliable oracles are especially relevant for DeFi projects. The fact that the recent hack of bZx project involved oracle manipulations proves our statement. 
