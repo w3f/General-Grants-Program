@@ -52,21 +52,21 @@ For each milestone:
 * We will create a Substrate module that will... (Please list the functions that will be coded for the first milestone).
 * We will deliver a working module, along with a simple tutorial that explains how a user can (for example) spin up one of our Substrate nodes. Once the node is up, it will be possible to send test transactions that will show how the new functionality works.
 * The code will have proper unit-test coverage to ensure functionality and robustness.
-* We will build a Docker image with our Substrate chain and the compatibility layer, demonstrating its functionality.
-* We will provide both inline documentation of the code and a basic tutorial describing how the compatibility layer can be used and tested.
+* We will build a Docker image with (e.g.) our Substrate chain, demonstrating its functionality.
+* We will provide both inline documentation of the code and a basic tutorial describing how the software can be used and tested.
 
 ### Milestone 2 — Additional features — 1 month — $10,000
 * We will create a... (Describe the next round of features and functions that will be added).
 * We will deliver... (Explain how you will demonstrate that the functionality you built will work as intended).
 * The code will have proper unit-test coverage to ensure functionality and robustness.
-* We will build a Docker image with our Substrate chain and the compatibility layer, demonstrating its functionality.
+* We will build a Docker image with (e.g.) our Substrate chain, demonstrating its functionality.
 * We will provide both inline documentation of the code and a basic tutorial describing how the compatibility layer can be used and tested.
 
 ### Milestone 3 — Additional features — 1 month — $10,000
 * We will create a... (Describe the next round of features and functions that will be added).
 * We will deliver... (Explain how you will demonstrate that the functionality you built will work as intended).
 * The code will have proper unit-test coverage to ensure functionality and robustness.
-* We will build a Docker image with our Substrate chain and the compatibility layer, demonstrating its functionality.
+* We will build a Docker image with (e.g.) our Substrate chain, demonstrating its functionality.
 * We will provide both inline documentation of the code and a basic tutorial describing how the compatibility layer can be used and tested.
 
 ## Future Plans
