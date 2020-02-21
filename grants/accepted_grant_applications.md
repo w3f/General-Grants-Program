@@ -32,7 +32,7 @@ This page gives an overview of accepted grants and a link to their GitHubs. Keep
 -   [Gunclear](https://gunclear.io/) - Private secure data storage solution using Plasma Cash in Substrate ([GitHub](https://github.com/GunClear))
 -   [ZeroChain](https://layerx.co.jp/) - Zero knowledge transactions in Substrate ([GitHub](https://github.com/LayerXcom/zero-chain))
 -   [Robonomics](https://aira.life/en/) - Substrate modules for controlling robots ([GitHub](https://github.com/airalab/substrate-node-robonomics))
--   [Avado](https://ava.do/) - Polkadot node deployment with consumer hardware (GitHub)
+-   [Avado](https://ava.do/) - Polkadot node deployment with consumer hardware ([GitHub](https://github.com/AvadoDServer/AVADO-DNP-Polkadot-custom))
 -   [Stake Technologies](https://stake.co.jp/) - Plasma modules for Substrate ([GitHub](https://github.com/stakedtechnologies/Plasm))
 -   [HOPR](https://hopr.network/) - Substrate integration with this P2P messaging protocol ([GitHub](https://github.com/validitylabs/HOPR-PL-Substrate))
 -   [Mailchain](https://mailchain.xyz/) - a Multi-Blockchain Messaging Application ([GitHub](https://github.com/mailchain))
