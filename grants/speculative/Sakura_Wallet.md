@@ -10,9 +10,9 @@ Multi-platform support:
 
 ## Why this project is good for the ecosystem?
 
-- Provide a more convenient way to manage DOTs and most parachains assets on Mac, Windows and Linux. There will be more and more parachains in the future, we hope that users can manage DOTs and other parachains assets in one place.
+- Provide a more convenient way to manage DOTs and most parachains assets on Mac, Windows and Linux. There will be more and more parachains in the future, we hope that users can manage DOTs and most parachains assets in one place.
 
-- The private key is self-owned, the code is also open source. Simplicity, convenient and security are the important characteristics of Sakura Wallet, . Currently we have a beta version [UI](https://free.modao.cc/app/e28c820ad8f37333312fef08577f87e9bb94ace4) to view, please note that the design will be continuously optimized before the MVP version is released. You can also view our code on [Github](https://github.com/dotpaytech/sakura) to see how we support multiple platforms.
+- The private key is self-owned, the code is also open source. Simplicity, convenient and security are the important characteristics of Sakura Wallet, currently we have a beta version [UI](https://free.modao.cc/app/e28c820ad8f37333312fef08577f87e9bb94ace4) to view, please note that the design will be continuously optimized before the MVP version is released. You can also view our code on [Github](https://github.com/dotpaytech/sakura) to see how we support multiple platforms.
 
 - Support custom ENDPOINT, we will build RPC server of Polkadot and Kusama in the Asian area to improve the user's network experience.
 
