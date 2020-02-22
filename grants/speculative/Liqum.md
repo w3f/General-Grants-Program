@@ -110,6 +110,8 @@ Deliverables: Common process operations, i.e.
 * Interpreter Data
 * Data Factories
 
+Funding: 10,080 USD
+
 ### Milestone 2
 
 Duration: 1 month
@@ -119,6 +121,8 @@ Deliverables: Process specific rules, i.e.
 * Data & Scripts
 * Resource Access Control
 
+Funding: 10,080 USD
+
 ### Milestone 3
 
 Duration: 1 month
@@ -127,6 +131,8 @@ Deliverables: On-chain and off-chain communication, i.e.
 
 * Event Log
 * Interchain Bridge
+
+Funding: 9,120 USD
 
 Each milestone will be delivered together with documentation, tutorials, examples, and a Docker container, that allow checking that the code functions as described above.
 
