@@ -22,7 +22,7 @@ Think of it as a BPM system, but available globally to all the actors, as oppose
 
 We aim to create a process execution engine on top of Substrate. The key idea is to generate ink! smart contracts capable of interpreting a BPMN process model, represented as a space-optimized data structure, that can be dynamically modified at any time.
 
-Each set of smart contracts embodies control flow logic, data structure state, and specific external user defined tasks & scripts, that are compiled directly from a BPMN model. Then, we extract compilation artifacts, such as element indexes, their respective encoded types, and condition tables. Smart contracts are initialized through Polkadot apps api and linked together by their respective AccountId`s. Together, they form an executable process representation.
+Each set of smart contracts embodies control flow logic, data structure state, and specific external user defined tasks & scripts, that are compiled directly from a BPMN model. Then, we extract compilation artifacts, such as element indexes, their respective encoded types, and condition tables. Smart contracts are initialized through Polkadot apps api and linked together by their respective AccountId's. Together, they form an executable process representation.
 
 At this stage we are building an on-chain part of the project, but you can learn more about the next steps in the Future Plans section below.
 
