@@ -22,7 +22,14 @@ Rob and Mitchell are employees of Insight, an existing US-based company that has
 
 DevOps developer in residence at Insight who focuses primarily on blockchain infrastructure. Focussing primarily on building automated deployments of validator nodes for the ICON blockchain, he is now looking to extend these patterns into other blockchains. Prior to Insight, he worked in the oil and gas industry founding a data science startup and working for a major operator.
 
-[Github](https://github.com/robc-io), [Medium](https://medium.com/@robcannonxyz)
+[Github](https://github.com/robc-io), [Medium](https://medium.com/@robcannonxyz), [Linkedin](https://www.linkedin.com/in/rob-cannon-21571317/)
+
+**Richard Mah**
+
+Holding a PhD in neuroscience, Richard has deep experience in the intersection between advanced data analysis and high performance computing. During his PhD, he employed a wide variety of machine learning techniques to automate the analysis of clinical data with a microservices-based architecture on Kubernetes. Since then, he became an Insight fellow working on immutable deployments of validator node infrastructure focusing specifically on monitoring and alarms.
+
+[Github](https://github.com/shinyfoil), [Website](https://www.richardmah.com/), [Linkedin](https://www.linkedin.com/in/richardmah/)
+
 
 **Mitchell Krawiec-Thayer**
 
@@ -46,9 +53,7 @@ The basics for building the necessary infrastructure with a packer, ansible, and
 
 The real challenge with this proposal is to minimize the sync time needed to scale out public facing nodes which requires either pre-synced images or downloading the DB directly from a peer.  Pre-syncing is done from taking images off a "source of truth" node and keeping a CDN updated with snapshots that can be pulled down with the latest blocks.  Downloading the DB from a peer is the existing W3F approach and is as simple as scaling out the application from scratch.  While API vendors like Infura favor the pre-syncing approach, both options have their own benefits and will be explored through a series of benchmarks.  
 
-**Milestone 1: IaC Modules**
-
-[1-2 months]
+**Milestone 1: IaC Modules** - 2 months
 
 ---
 
@@ -57,9 +62,7 @@ The real challenge with this proposal is to minimize the sync time needed to sca
 - Build agent to trigger periodic snapshots being taken to object store
 - Build logging and monitoring exporters and service discovery agents
 
-**Milestone 2: Benchmarking**
-
-[1 Month] 
+**Milestone 2: Benchmarking** - 1 month 
 
 ---
 
