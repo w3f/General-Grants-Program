@@ -43,7 +43,7 @@ The Polkadot Tech Stack is a subset of the Web 3.0 Tech Stack, which consists of
 The Web3 Foundation's [General Grants Program](https://github.com/w3f/Web3-collaboration/blob/master/grants/grants.md) 
 and [Open Grants Program](https://github.com/w3f/Open-Grants-Program) are focused on funding development work to build out all layers of the Polkadot Tech Stack. Please use the preceding links to apply for funding for relevant projects.
 
-To get a better understanding of the projects we consider most relevant you can explore a detailed breakdown of the various layers of stack, below. We divide each of the layers into the various *components* which we feel are most important. We then highlight some of the *exisiting projects* that address these components as well as *some projects we would like to fund*.
+To get a better understanding of the projects we consider most relevant you can explore a detailed breakdown of the various layers of stack, below. We divide each of the layers into the various *components* which we feel are most important. We then highlight some of the *exisiting projects* that address these components as well as some *specific projects we would like to fund*.
 
 We typically like to fund more than one project for each component so if you see a component with 1 or 0 exisiting projects then it's likely that we would consider an application in this area. In order to consider funding a proposal that addresses a component with many existing projects then we would need to be persuaded that this proposal brought unique value to the ecosystem. Such value could be in many forms including but not limited to differentiated functionality, better user experience, the attraction of new users to the ecosystem or a high-likelihood that the technology would be maintained for a long period of time.
 
@@ -55,7 +55,7 @@ In the below sections you can find a list of different layers of the Polkadot St
 
 ### :iphone: Explorer and Wallets
 
-| Components | Existing projects | Some projects we would like to fund
+| Components | Existing projects | Specific projects we would like to fund
 |-|-|-
 | Desktop Wallets | [AirGap](https://github.com/airgap-it/airgap-wallet)
 | Browser Extensions | [Polkadot{.js}](https://github.com/polkadot-js/extension), [Enzyme](https://getenzyme.dev/), [Speckle OS](https://www.speckleos.io/)  
@@ -68,7 +68,7 @@ In the below sections you can find a list of different layers of the Polkadot St
 
 ### :wrench: Tools APIs and Languages
 
-| Components | Existing projects | Some projects we would like to fund 
+| Components | Existing projects | Specific projects we would like to fund 
 |-|-|-
 | Parachain Dev Kits | [Gantree](https://github.com/flex-dapps)| 
 | Polkadot RPC clients | [Go](https://github.com/centrifuge/go-substrate-rpc-client), [.Net](https://github.com/usetech-llc/polkadot_api_dotnet), [C++](https://github.com/usetech-llc/polkadot_api_cpp), [Haskell](https://github.com/Pixura), [Javascript](https://github.com/polkadot-js/api), [Ruby](https://github.com/itering/scale.rb), [Python](https://github.com/polkascan/substrate-interface-api), [Java](https://github.com/polkadot-java), [Rust](https://github.com/scs/substrate-api-client)
@@ -82,7 +82,7 @@ In the below sections you can find a list of different layers of the Polkadot St
 
 ### :link: Chains and Modules
 
-| Components | Existing projects | Some projects we would like to fund
+| Components | Existing projects | Specific projects we would like to fund
 |-|-|-
 | Scalable Transactions | [Plasm](https://github.com/staketechnologies/Plasm), [Celer](https://github.com/celer-network), [Gunclear](https://github.com/GunClear)
 | Bridges|   [Ethereum by Centrifuge](https://github.com/centrifuge/), [EOS by Bifrost](https://github.com/bifrost-codes) 
@@ -104,7 +104,7 @@ In the below sections you can find a list of different layers of the Polkadot St
 
 ### :black_circle: Host
 
-| Components | Existing projects | Some projects we would like to fund 
+| Components | Existing projects | Specific projects we would like to fund 
 |-|-|-
 | Rust | [Substrate](https://github.com/paritytech/substrate)
 | C++ | [Kagome](https://github.com/soramitsu/kagome)
@@ -113,7 +113,7 @@ In the below sections you can find a list of different layers of the Polkadot St
 
 ### :electric_plug: Network Maintenance Tools
 
-| Components | Existing projects | High Priority Projects 
+| Components | Existing projects | Specific projects we would like to fund
 |-|-|-
 | Secure validator setup | [Trutzone-based HSM](https://github.com/ZondaX)  
 | High availability setup | [Archipel](https://github.com/luguslabs/archipel)
@@ -122,7 +122,7 @@ In the below sections you can find a list of different layers of the Polkadot St
 
 ### :black_nib: Signatures
 
-| Components | Existing projects | Some projects we would like to fund
+| Components | Existing projects | Specific projects we would like to fund
 |-|-|-
 | SR25519 | [C](https://github.com/usetech-llc/sr25519), [C#](https://github.com/usetech-llc/sr25519_dotnet)
 | Easy multisig scheme | 
