@@ -55,7 +55,7 @@ In the below sections you can find a list of different layers of the Polkadot St
 
 ### :iphone: Explorer and Wallets
 
-| Components | Existing projects | Some specific projects we would like to fund
+| Components | Existing projects | Potentially interesting projects
 |-|-|-
 | Desktop Wallets | [AirGap](https://github.com/airgap-it/airgap-wallet)
 | Browser Extensions | [Polkadot{.js}](https://github.com/polkadot-js/extension), [Enzyme](https://getenzyme.dev/), [Speckle OS](https://www.speckleos.io/)  
@@ -69,7 +69,7 @@ In the below sections you can find a list of different layers of the Polkadot St
 
 ### :wrench: Tools APIs and Languages
 
-| Components | Existing projects | Some specific projects we would like to fund 
+| Components | Existing projects | Potentially interesting projects 
 |-|-|-
 | Parachain Dev Kits | [Gantree](https://github.com/flex-dapps)| [Minimal Parachain Dev Kit](https://github.com/w3f/General-Grants-Program/issues/204) |
 | Polkadot RPC clients | [Go](https://github.com/centrifuge/go-substrate-rpc-client), [.Net](https://github.com/usetech-llc/polkadot_api_dotnet), [C++](https://github.com/usetech-llc/polkadot_api_cpp), [Haskell](https://github.com/Pixura), [Javascript](https://github.com/polkadot-js/api), [Ruby](https://github.com/itering/scale.rb), [Python](https://github.com/polkascan/substrate-interface-api), [Java](https://github.com/polkadot-java), [Rust](https://github.com/scs/substrate-api-client) | [Web3 Compatible API for Substate EVM Chains](https://docs.google.com/document/u/1/d/1LL_uXGvhihaC7928WmWT7yYlThN8c8HI_0u7h-JKlk0/edit?usp=drive_fs&ouid=113079615530164190769)|
@@ -83,7 +83,7 @@ In the below sections you can find a list of different layers of the Polkadot St
 
 ### :link: Chains and Modules
 
-| Components | Existing projects | Some specific projects we would like to fund
+| Components | Existing projects | Potentially interesting projects
 |-|-|-
 | Scalable Transactions | [Plasm](https://github.com/staketechnologies/Plasm), [Celer](https://github.com/celer-network), [Gunclear](https://github.com/GunClear)| Roll-ups, DAG-based consensus mechanisms, |
 | Bridges|   [Ethereum by Centrifuge](https://github.com/centrifuge/), [EOS by Bifrost](https://github.com/bifrost-codes)| ZCash, Ethereum, Tendermint | 
@@ -108,7 +108,7 @@ In the below sections you can find a list of different layers of the Polkadot St
 
 ### :black_circle: Host
 
-| Components | Existing projects | Some specific projects we would like to fund 
+| Components | Existing projects | Potentially interesting projects
 |-|-|-
 | Rust | [Substrate](https://github.com/paritytech/substrate)
 | C++ | [Kagome](https://github.com/soramitsu/kagome)
@@ -117,7 +117,7 @@ In the below sections you can find a list of different layers of the Polkadot St
 
 ### :electric_plug: Network Maintenance Tools
 
-| Components | Existing projects | Some specific projects we would like to fund
+| Components | Existing projects | Potentially interesting projects
 |-|-|-
 | Secure validator setup | [Trutzone-based HSM](https://github.com/ZondaX)  
 | High availability setup | [Archipel](https://github.com/luguslabs/archipel)
@@ -126,7 +126,7 @@ In the below sections you can find a list of different layers of the Polkadot St
 
 ### :black_nib: Signatures
 
-| Components | Existing projects | Some specific projects we would like to fund
+| Components | Existing projects | Potentially interesting projects
 |-|-|-
 | SR25519 | [C](https://github.com/usetech-llc/sr25519), [C#](https://github.com/usetech-llc/sr25519_dotnet)
 | Easy multisig scheme | 
