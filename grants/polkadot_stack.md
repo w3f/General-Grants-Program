@@ -63,8 +63,9 @@ In the below sections you can find a list of different layers of the Polkadot St
 | Web (burner) Wallets| 
 | Multisignature Wallets| 
 | Hardware Wallets | [Ledger](https://github.com/ZondaX/ledger-polkadot), [NGRAVE](https://ngrave.io/) 
-| Explorer | [Polkascan](https://github.com/polkascan), [Polkastats](https://polkastats.io/)
-| Validator Dashboard | [DotHub](https://github.com/figment-networks/dothub), [Polkacube](https://github.com/hashquark-io)
+| Block Explorers | [Polkascan](https://github.com/polkascan), [Polkastats](https://polkastats.io/)
+| Validator Dashboards | [DotHub](https://github.com/figment-networks/dothub), [Polkacube](https://github.com/hashquark-io)
+| Node Explorers |
 
 ### :wrench: Tools APIs and Languages
 
@@ -75,7 +76,7 @@ In the below sections you can find a list of different layers of the Polkadot St
 | Easy Runtime Development | [VS Plugin](https://github.com/everstake/vscode-plugin-substrate), [Atom Code Plugin](https://github.com/everstake/atom-plugin-substrate), [Substrate Playground](https://github.com/paritytech/substrate-playground) | [AssemblyScript Runtime Generation](https://github.com/w3f/General-Grants-Program/issues/159)|
 | Easy Smart Contract Development | [ink-playground](https://github.com/staketechnologies/ink-playground/tree/master), [Ink! Remix Plugin](https://github.com/blockchain-it-hr/ink-remix-plugin) 
 | Runtime Security | [K specifications](https://github.com/kframework/wasm-semantics)
-| Smart Contract Languages | [Solang](https://github.com/hyperledger-labs/solang), [Ink!](https://github.com/paritytech/ink), [Pact](https://github.com/kadena-io/)| AssemblyScript, Functional Programming Languages |
+| Smart Contract Languages | [Solang](https://github.com/hyperledger-labs/solang), [Ink!](https://github.com/paritytech/ink), [Pact](https://github.com/kadena-io/)| AssemblyScript, Functional Programming Languages, other languages with developed toolchains |
 | Smart Contract Security |   
 | Easy integration testing |   
 | Performance Testing |  
@@ -89,7 +90,7 @@ In the below sections you can find a list of different layers of the Polkadot St
 | Privacy | [ZeroChain](https://github.com/LayerXcom/zero-chain), [pLibra](https://github.com/libra-china-org) 
 | Off-Chain | [substraTEE](https://github.com/scs/substraTEE)
 | Financial Chains | [Katal Chain](https://github.com/katalchain), [Laminar Chain](https://github.com/laminar-protocol/laminar-chain), [Acala](https://acala.network/), [Centrifuge](https://github.com/centrifuge/), [Stafi](https://github.com/stafiprotocol/stafi-node), [Bandot](https://github.com/bandotorg/Bandot),  
-| Smart contract chains | [Edgeware](https://github.com/hicommonwealth) 
+| Smart contract chains | [Edgeware](https://github.com/hicommonwealth) | sharded smart contract chains, smart contract chains with novel security approaches, smart contract chains based on exisiting toolchains|
 | Access to real world data | [Oracle by Laminar](https://github.com/laminar-protocol/open-runtime-module-library/tree/master/oracle), [Oracle by Katal Chain](https://github.com/katalchain/blockchain/tree/master/modules/oracle) 
 | Identity | [Caelum Labs](https://gitlab.com/caelum-tech/lorena), [Litentry](https://github.com/litentry/litentry-runtime) 
 | IoT | [Nodle](https://github.com/NodleCode/)
@@ -103,6 +104,7 @@ In the below sections you can find a list of different layers of the Polkadot St
 | Enable specific use-cases | [Robonomics](https://github.com/airalab/substrate-node-robonomics)
 | Secret store |
 | Universal Naming Service |
+| Licensing |
 
 ### :black_circle: Host
 
