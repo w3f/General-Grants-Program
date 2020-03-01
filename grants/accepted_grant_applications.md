@@ -108,3 +108,4 @@ This page gives an overview of accepted grants and a link to their GitHubs. Keep
 - [FlexDapps](https://flexdapps.com/) - Gantree is a full-service node infrastructure toolkit for Substrate-based blockchains ([GitHub](https://github.com/flex-dapps))
 - [Matter Labs](https://matter-labs.io) - Zinc/RedShift ZK programming framework ([GitHub](https://github.com/matter-labs))
 - [Second State](https://www.secondstate.io/) - Bridging Ethereum Tools and Smart Contracts into Substrate Ecosystem ([GitHub](https://github.com/second-state))
+- [Sensio.Group](https://www.sensio.group/) - Substrate modules + UI that focus on photo copyright and privacy ([GitLab](https://gitlab.com/sensio_group))
