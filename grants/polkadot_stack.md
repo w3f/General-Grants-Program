@@ -13,6 +13,7 @@ The goal of this page is to provide an overview of the open-source Polkadot Tech
   - [:black_circle: Host](#black_circle-host)
   - [:electric_plug: Network Maintenance Tools](#electric_plug-network-maintenance-tools)
   - [:black_nib: Signatures](#black_nib-signatures)
+  - [:satellite: Networking](#satellite-networking)
 - [:construction_worker: Contributing](#construction_worker-contributing)
 
 ## :clipboard: About 
@@ -134,6 +135,11 @@ In the below sections you can find a list of different layers of the Polkadot St
 | Validator HSMs| |
 | Validator HSM-like solutions|
 
+### :satellite: Networking
+
+| Components | Existing projects | Potentially interesting projects
+|-|-|-
+| DHT crawler | [Go](https://github.com/atredispartners/dht-crawler-polkadot)
 
 ## :construction_worker: Contributing
 
