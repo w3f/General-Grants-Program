@@ -1,6 +1,6 @@
 # Open Source Polkadot Stack [WIP!]
 
-The goal of this page is to provide an overview of the open-source Polkadot Tech Stack. At the moment it's a work-in-progress, 
+The goal of this page is to provide an overview of the open-source Polkadot/Kusama Tech Stack. At the moment it's a work-in-progress. 
 
 ---
 
