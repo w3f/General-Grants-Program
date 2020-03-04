@@ -109,5 +109,5 @@ This page gives an overview of accepted grants and a link to their GitHubs. Keep
 - [Matter Labs](https://matter-labs.io) - Zinc/RedShift ZK programming framework ([GitHub](https://github.com/matter-labs))
 - [Second State](https://www.secondstate.io/) - Bridging Ethereum Tools and Smart Contracts into Substrate Ecosystem ([GitHub](https://github.com/second-state))
 - [Sensio.Group](https://www.sensio.group/) - Substrate modules + UI that focus on photo copyright and privacy ([GitLab](https://gitlab.com/sensio_group))
-- [Kilt](https://kilt.io/) - KILT Anonymous Credentials ([GitHub](https://github.com/KILTprotocol))
+- [KILT](https://kilt.io/) - Substrate Anonymous Credentials ([GitHub](https://github.com/KILTprotocol))
 - [Node Factory](nodefactory.io) - Metamask plugin for Polkadot ([GitHub](https://github.com/nodefactoryIo))
