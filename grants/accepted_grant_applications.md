@@ -110,4 +110,5 @@ This page gives an overview of accepted grants and a link to their GitHubs. Keep
 - [Second State](https://www.secondstate.io/) - Bridging Ethereum Tools and Smart Contracts into Substrate Ecosystem ([GitHub](https://github.com/second-state))
 - [Sensio.Group](https://www.sensio.group/) - Substrate modules + UI that focus on photo copyright and privacy ([GitLab](https://gitlab.com/sensio_group))
 - [KILT](https://kilt.io/) - Substrate Anonymous Credentials ([GitHub](https://github.com/KILTprotocol))
-- [Node Factory](nodefactory.io) - Metamask plugin for Polkadot ([GitHub](https://github.com/nodefactoryIo))
+- [Node Factory](https://www.nodefactory.io/) - Metamask plugin for Polkadot ([GitHub](https://github.com/nodefactoryIo))
+- [Interlay](https://www.interlay.io/) - Trustless BTC-Polkadot Bridge ([GitLab](https://gitlab.com/interlay/polkabtc-spec))
