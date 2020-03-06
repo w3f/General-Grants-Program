@@ -112,3 +112,4 @@ This page gives an overview of accepted grants and a link to their GitHubs. Keep
 - [KILT](https://kilt.io/) - Substrate Anonymous Credentials ([GitHub](https://github.com/KILTprotocol))
 - [Node Factory](https://www.nodefactory.io/) - Metamask plugin for Polkadot ([GitHub](https://github.com/nodefactoryIo))
 - [Interlay](https://www.interlay.io/) - Trustless BTC-Polkadot Bridge ([GitLab](https://gitlab.com/interlay/polkabtc-spec))
+- [Stake Technologies](https://stake.co.jp/) - ECDSA for Polkadot JS ([GitHub](https://github.com/staketechnologies/apps))
