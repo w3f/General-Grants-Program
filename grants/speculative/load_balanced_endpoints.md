@@ -1,10 +1,10 @@
 ## **Project Description**
 
-This project focuses on building a common set of infrastructure as code modules used to deploy autoscaling sentry layers and public nodes for DoS protection and load balanced endpoints. The project aims to integrate into the existing polkadot-secure-validator architecture and serve as drop in replacements for the single node / multi-provider public node deployments with secure tunnels to the validator node on a private network. Code will use the existing DevOps patterns already adopted by the Web3 Foundation and extend them with additional e2e testing, automation, and benchmarking. The proposal will lay the ground work for more advanced load balanced API endpoints and caching solutions by proving out simpler patterns for serving archival requests.
+This project focuses on building a set of load balanced endpoints for the Polkadot and Substrate chains. Specifically, we will be building a common set of reusable modules that can be deployed on each cloud provider. Development will initially focus on a VM based architecture for building autoscaling archival nodes but will transition to a cloud native Kubernetes based deployment with intelligent routing and caching layers. We will then build templates whereby microservices can be developed by Insight data engineering fellows in a repeatable manner. The project will give users easy to use deployments for hosting their own full nodes and evolve into a managed API service. Code will use existing DevOps patterns already adopted by the Web3 Foundation and extend them with additional e2e testing, automation, and benchmarking.
 
 ## **Team members**
 
-- Lead Engineer: Rob Cannon
+- Engineers: Richard Mah, Rob Cannon
 - Principal Investigator: Mitchell Krawiec-Thayer, Ph.D.
 
 ## **Team Website**
@@ -14,7 +14,7 @@ This project focuses on building a common set of infrastructure as code modules 
 
 ## **Legal Structure**
 
-Rob and Mitchell are employees of Insight, an existing US-based company that has been supporting specialized engineers since 2012.
+Rob and Mitchell are employees of Insight, an existing US-based company that has been supporting specialized engineers since 2012. Richard will be brought on as a contractor focusing on this grant for the duration. 
 
 ## **Team's experience**
 
@@ -39,8 +39,11 @@ Decentralized Consensus Lead at Insight, mentor for Insight Residents. Have been
 
 ## Team Code Repos
 
+**All repos WIP / examples of deployment strategy** 
 - [https://github.com/insight-infrastructure/terragrunt-polkadot](https://github.com/insight-infrastructure/terragrunt-polkadot)
-- [https://github.com/insight-infrastructure/terraform-polkadot-aws-sentry-node](https://github.com/insight-infrastructure/polkadot-terragrunt)
+- [https://github.com/insight-infrastructure/terraform-polkadot-aws-network](https://github.com/insight-infrastructure/terraform-polkadot-aws-network)
+- [https://github.com/insight-infrastructure/terraform-polkadot-aws-sentry-node](https://github.com/insight-infrastructure/terraform-polkadot-aws-sentry-node)
+- [https://github.com/insight-infrastructure/terraform-polkadot-gcp-network](https://github.com/insight-infrastructure/terraform-polkadot-gcp-network)
 
 ## Team LinkedIn Profiles
 
@@ -49,38 +52,86 @@ Decentralized Consensus Lead at Insight, mentor for Insight Residents. Have been
 
 ## Development Roadmap
 
-The basics for building the necessary infrastructure with a packer, ansible, and terraform based workflow are in place. Minimal templating is performed over configuration files with actions triggered off a single Makefile to deploy the stack. 
+There are two basic types of repos. 
 
-The real challenge with this proposal is to minimize the sync time needed to scale out public facing nodes which requires either pre-synced images or downloading the DB directly from a peer.  Pre-syncing is done from taking images off a "source of truth" node and keeping a CDN updated with snapshots that can be pulled down with the latest blocks.  Downloading the DB from a peer is the existing W3F approach and is as simple as scaling out the application from scratch.  While API vendors like Infura favor the pre-syncing approach, both options have their own benefits and will be explored through a series of benchmarks.  
+1. Terraform modules to deploy the infrastructure 
+2. Terragrunt scaffolding to house the deployment of the individual terraform modules 
 
-**Milestone 1: IaC Modules** - 2 months
+All deployment steps are wrapped with terraform including calling packer builds, ansible configuration, and deployment of helm charts. These terraform modules are then wrapped with terragrunt which have all the parameters exposed through configuration files that are rendered with Jinja.  This way, we can go from a high level configuration file that then informs the critical parameters we want to adjust across the whole stack.  It also decouples the templating side of the configuration management from the terraform module itself.  Other terraform projects taken up by W3F perform rendering within the terraform modules themselves which inhibits their ability to be reused in other contexts.  By contrast, the modules we build can be reused directly in a variety of contexts without rendering.  Thus while the goal of this project is to build load balanced endpoints, the modules can easily be repurposed for validator node sentry layers.  
+
+The first major design decision was to decide on whether to build the endpoints with VMs or on Kubernetes.  While the ultimate goal of this project is to build a microservices based architecture with intelligent routing and a caching layer for pre-indexed queries, we felt that initially we should focus on building a viable version 1 endpoint for archival queries.  Since archival nodes will be run on optimized instances with directly attached nvme volumes, the VM based nodes will likely stay in place for when intelligent routing and caching layers are added on.  
+
+One of the real challenges with this proposal is to minimize the sync time needed to scale out public facing nodes which requires either pre-synced images or downloading the DB directly from a peer.  Pre-syncing is done from taking images off a "source of truth" node and keeping a CDN updated with snapshots that can be pulled down with the latest blocks.  Downloading the DB from a peer is the existing W3F approach and is as simple as scaling out the application from scratch.  While API vendors like Infura favor the pre-syncing approach, both options have their own benefits and will be explored through a series of benchmarks.
+
+**Milestone 1: IaC Modules**
+
+**1 months - 12.5k USD**
 
 ---
 
-- Build source of truth nodes and autoscaling groups on AWS, Azure, and GCP with terraform
-- Build integration testing with terratest over all providers 
-- Build agent to trigger periodic snapshots being taken to object store
-- Build logging and monitoring exporters and service discovery agents
+**Goals:**
 
-**Milestone 2: Benchmarking** - 1 month 
+- Build autoscaling groups, load balancers, and networking modules on AWS, Azure, GCP, and Digital Ocean with terraform, ansible, and packer packaged as reusable modules.
+- Build module and scaffolding level CI tooling and testing with terratest
+- Integrate logging and monitoring exporters and service discovery agents
+- Expose v1 endpoint for full archival queries
+
+**Deliverables:**
+
+- Network modules for each provider - 4 repos
+- Autoscaling groups and load balancers for each provider - 4 repos
+- Documentation to support deployment processes
+
+**Milestone 2: Benchmarking**
+
+**1/2 Month - 6.25k USD**
 
 ---
 
-- Build load balancer and reverse proxy layer 
-- Integrate with existing secure validator CLI and/or build own CLI tool to support multiple node configurations
-- Build testbench for various types of benchmarking to optimize scaling policies and source of truth node snapshot increments
-- Build helm chart distribution 
+- Conduct brief study to determine optimal scaling policies for autoscaling groups
+- Determine metrics and thresholds to inform what chain size will require syncing optimizations (pre-synced images + CDN)
 
-### Long Term Plans
+**Deliverables:**
+
+- Optimization of scaling policies for autoscaling groups
+- Report to W3F with findings and discuss next steps to handle syncing optimizations
+
+**Milestone 3: Kubernetes Modules**
+
+**1.5 months - 18.75k USD**
+
+---
+
+- Build kubernetes clusters and associated provider specific manifests to bootstrap the clusters in line with the existing [polkadot-deployer](https://github.com/w3f/polkadot-deployer) tool.
+- Build API gateway and service proxy for intelligent routing and caching layers
+- Build microservice templates from which Insight data engineering fellows can build pre-indexed endpoints off of
+- ETL pipelines for supporting pre-indexed queries
+
+**Deliverables:**
+
+- Kubernetes cluster modules and manifests for each provider - 4 infrastructure repos
+- API gateway (likely Ambassador) and service proxy (likely Envoy) along with associated helm charts to build service mesh and supporting observability services - 1 repo or contributions to existing [polkadot-charts](https://github.com/w3f/polkadot-charts) repo
+- Microservice cookiecutter templates
+    - Flask (Python) - 1 repo
+    - FastAPI (Python) - 1 repo
+- Airflow ETL tools for batch processing - Contribute to [github.com/blockchain-etl/polkadot-etl](https://github.com/blockchain-etl/polkadot-etl)
+- Documentation to support deployment process
+
+### **Long Term Plans**
 
 ---
 
 - Comprehensive library of IaC modules that can be used and repurposed in a variety of contexts
-- CLI tooling and API endpoints for deploying modular sets of self-healing infrastructure
-- Caching layers and ETL pipelines to build indexed data endpoints to mimic Infura functionality
+- CLI tooling for deploying modular sets of self-healing infrastructure
+- Microservices library to expose pre-indexed queries
+- Additional versions of the API to reference different parachains
 
-## Additional Information
+## **Additional Information**
 
-While it is important for decentralized network operations to avoid homogeneity, certain components that have a low impact on the diversity of the network are prime targets for standardization. We feel that as the ecosystem grows, having a battle-tested set of modules will prove to be very valuable for best practice to be shared around the community.
+While it is important for decentralized network operations to avoid homogeneity, certain components that have a low impact on the diversity of the network are prime targets for standardization. We feel that as the ecosystem grows, having a battle-tested set of reusable modules will prove to be very valuable for best practice to be shared around the community.
 
-The methodology of pre-syncing images off a "source of truth" node was inspired by Infura's architectural pattern as within the context of ethereum, it is unreasonable to scale nodes with autoscaling groups when the nodes themselves take many hours to sync from scratch. As the polkadot ecosystem grows and hence the size of the chain data, it will be critical for operators to easily adopt best practices so that they are ready to scale out their infrastructure as the increase in API requests grows.
+CLI's are useful for making the deployments easily reconfigurable but can become quite opinionated when building in how optionality is expressed.  Right now we leverage [cookiecutter](https://github.com/cookiecutter/cookiecutter) for both exposing a simple CLI for rendering scaffolding configs but also in how we plan on giving our Insight fellows starting points for their projects.  Because we want to make sure our Insight fellows have the necessary boilerplate code to begin their projects, we are building libraries of starter packages to facilitate the productionization of their projects.  
+
+This project will get us to the doorstep of being building out various microservice endpoints that will make use of different types of caching and persistence layers.  These types of endpoints make for fantastic Insight data engineering projects which we hope to recruit a number of fellows to take on during the session starting in June 2020 and beyond.  Time permitting, we will be building boilerplate architectures to support both real-time and batch queries against a number of backends for different types of microservices. A month before this particular grant comes to an end, we will be soliciting feedback to inform what endpoints are most interesting to the foundation. 
+
+What we are mainly focused on for now is creating a open framework from which additional APIs can be built. As new parachains come online, we hope to create additional endpoints to support their specialized requests.
