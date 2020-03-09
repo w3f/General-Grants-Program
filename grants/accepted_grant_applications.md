@@ -114,3 +114,5 @@ This page gives an overview of accepted grants and a link to their GitHubs. Keep
 - [Interlay](https://www.interlay.io/) - Trustless BTC-Polkadot Bridge ([GitLab](https://gitlab.com/interlay/polkabtc-spec))
 - [Stake Technologies](https://stake.co.jp/) - ECDSA for Polkadot JS ([GitHub](https://github.com/staketechnologies/apps))
 - [Obsidian Labs](https://www.obsidians.io/) - Substrate IDE ([GitHub](https://github.com/ObsidianLabs)) 
+- [Definex](https://definex.io/) - A financial market protocol ([GitHub](https://github.com/definex/definex-libs)) 
+- [Attic Lab](https://atticlab.net/) - Multisignature Wallet Standardization/PSP ([GitHub](https://github.com/w3f/PSPs)) 
