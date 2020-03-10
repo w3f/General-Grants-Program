@@ -100,7 +100,7 @@ pubkeyToAddress(PubkeyBundle, prefix): Address
 total 4 functions
 
 * We will deliver the modules signing transactions for open source access and the integration into Neuma, a multichain chrome extension, and access to Polkadot assets into neuma based wallets and apps. We wrap the existing API into an abstract interface to simplify integration for our wallet partners which wants to connect to multiple chains, Polkadot, Eth, Cosmos, Tezos, and also to connect to our multi chain name service the IOV Name Service.
-* The code will have proper unit-test coverage to ensure functionality and robustness. The testing will be possible through CLI.
+* The code will have proper unit-test coverage to ensure functionality and robustness. The testing will be possible through CLI. If you like, we can also add it into Neuma chrome extension so that it can be test with GUI as well (about 1 day of work).
 * We will build a Docker image with (e.g.) our Substrate chain, demonstrating its functionality.
 * We will provide both inline documentation of the code and a basic tutorial describing how the software can be used and tested.
 
