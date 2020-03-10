@@ -76,8 +76,9 @@ getFeeQuote(transaction): Fee
 withDefaultFee(UnsignedTransaction): UT
 searchTransactionsById(TransactionId): Transaction[]
  
-* We will deliver the first module for Polkadot/Substrate compatibility with IOV Core multichain library.
+* We will deliver the first module for Polkadot/Substrate compatibility with IOV Core multichain library. This is going to be an RPC client in JS. We would be wrapping your existing API client into IOV's abstraction layer.
 * The code will have proper unit-test coverage to ensure functionality and robustness.
+* The testing will be possible though CLI.
 * We will provide both inline documentation of the code and a basic tutorial describing how the software can be used and tested.
 
 ##Milestone 2 — Derive new addresses and sign transactions — 1 month — EUR 15,000
@@ -98,8 +99,8 @@ isValidAddress
 pubkeyToAddress(PubkeyBundle, prefix): Address
 total 4 functions
 
-* We will deliver the modules signing transactions for open source access and the integration into Neuma, a multichain chrome extension, and access to Polkadot assets into neuma based wallets and apps.
-* The code will have proper unit-test coverage to ensure functionality and robustness.
+* We will deliver the modules signing transactions for open source access and the integration into Neuma, a multichain chrome extension, and access to Polkadot assets into neuma based wallets and apps. We wrap the existing API into an abstract interface to simplify integration for our wallet partners which wants to connect to multiple chains, Polkadot, Eth, Cosmos, Tezos, and also to connect to our multi chain name service the IOV Name Service.
+* The code will have proper unit-test coverage to ensure functionality and robustness. The testing will be possible through CLI.
 * We will build a Docker image with (e.g.) our Substrate chain, demonstrating its functionality.
 * We will provide both inline documentation of the code and a basic tutorial describing how the software can be used and tested.
 
@@ -131,8 +132,8 @@ SCReaderBalanceOf(contractAddress): BN
 createSCSwapId(): SwapId
 buildSCTransferCall(unsigned: SendTransaction): Uint8Array
 buildErc20ApproveCall(unsigned: SCApproveTransaction): Uint8Array
-* We will deliver a functional cross chain atomic swap protocol compatible with Polkadot.
-* The code will have proper unit-test coverage to ensure functionality and robustness.
+* We will deliver a functional cross chain atomic swap protocol compatible with Polkadot. The intentions would be to provide atomic swap between 2 Substrate based chains. This will be a Substrate module (so written in Rust) as well as the wrapping into IOV Core.
+* The code will have proper unit-test coverage to ensure functionality and robustness. The testing will be possible through CLI.
 * We will build a Docker image with (e.g.) our Substrate chain, demonstrating its functionality.
 * We will provide both inline documentation of the code and a basic tutorial describing how the software can be used and tested.
 
