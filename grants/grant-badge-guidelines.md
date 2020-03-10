@@ -1,5 +1,7 @@
 # Guidelines for Web3 Foundation Grants Program Badge
 
+<img align="right" width="400" src="../src/badge_black.svg">
+
 As part of the program, we want to help winning teams acknowledge their grants publicly
 while observing the foundation’s guidelines.
 
