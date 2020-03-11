@@ -48,9 +48,10 @@ This document put into word the budget submitted in google doc.
 
 Here is a reminder of the main criteria of our grants:
 * We are focusing on making Polkadot/Substrate chains more accessible.
-* Total grant EUR 60k.
 * Timeframe: around 4 months for 1 dev, with several milestones
+* Total grant EUR 60k. The cost includes PM and other people involved, not only the dev. I just meant that the development time is for 1 dev.
 * Open source license Apache 2.0
+
 
 ##Milestone 1 — Connecting to Polkadot/Substrate chain — 1 month — EUR 15,000
 * We will create a Substrate module that will connect to Polkadot chains to get data in the generic way.
