@@ -35,31 +35,48 @@ In 2017 he founded Lyken Software Solutions, which has been offering Rust-adjace
 ## Development Roadmap
 
 ### Milestone 1 — Low-overhead trait system profiling — 1 month — $10,000
-We will implement `-Z self-profile`/[`measureme`](https://github.com/rust-lang/measureme) support for the Rust compiler's trait system operations, using proven techniques to record detailed information without introducing timing inaccuracies.
+The Rust Compiler "Self-Profiling" feature is available through the nightly-only `-Z self-profile` flag and [`measureme`](https://github.com/rust-lang/measureme) tools, which include [documentation on profiling the Rust Compiler](https://github.com/rust-lang/measureme/blob/master/summarize/Readme.md#profiling-the-nightly-compiler).
 
-This kind of fine-grained accurate profiling information will be essential to understanding where time is being spent on redundant work, and where we should focus all further efforts.
+We will integrate the Rust Compiler's trait system operations with the Self-Profiling feature, using proven techniques to record detailed information (i.e. specific traits and types being operated on) without introducing timing inaccuracies.
+
+We will demonstrate this new profiling data in a report, showing, for representative Polkadot and Substrate crates:
+* how much of the compilation is spent in the trait system (which previously would've showed up on profiles as part of type-checking and borrow-checking)
+* the most common types or traits, accounting for a significant fraction of the time spent in the trait system
+* any examples we can find of redundant or outright wasteful trait system operations which still take non-trivial amounts of time
+
+Our report will also include all of the steps we performed to collect and analyze the profiling data.
+
+This kind of fine-grained accurate profiling information will be essential to understanding where time is being wasted, and where we should focus all further efforts.
 
 ### Milestone 2 — Improved trait system caching — 1 month — $10,000
-We will increase the effectiveness of caches in the Rust compiler's trait system in a variety of ways, which may include:
+We've identified defficiencies in the caching performed by the Rust Compiler's trait system, which we'll be able to better analyze once **Milestone 1** is completed.
+
+We will then address them, to increase the effectiveness of caching in the Rust Compiler's trait system. Some of the potential changes we're considering to that end are:
 * precomputing "type flags" for type/trait system lists, not just types
 * introducing fast paths for common simple cases
 * distinguishing bounds that mention generic parameters from those that do not
 * removing non-global (i.e. per-inference-context) caches
 * replacing obsolete "freshening" with the newer "canonicalization"
-* caching more of the "trait (impl) selection" process
+* incorporating postprocessing (e.g. "candidate confirmation") into the cached data
 
 The above list is not exhaustive, as other opportunities may present themselves.
 
-We will provide measurements across Polkadot and Substrate demonstrating the reduction in compile times from these changes.
+We will demonstrate the reduction in compile times from these changes in a report, showing:
+* overall changes in compile times across Polkadot and Substrate
+* differences in the fine-grained profiling data from **Milestone 1**, in both the number of operations performed and their average duration
 
 ### Milestone 3 — Global caching for associated type projection — 1 month — $10,000
-We will extend the existing associated type projection caching in the Rust compiler to be shared across the entire compilation, similarly to the rest of the trait system, and including any applicable advances from **Milestone 2**.
+The Rust Compiler does not currently cache resolving associated types (i.e. "projecting" them) for the whole compilation at all, but rather only within individual (e.g. function) definitions.
 
-We will provide measurements across Polkadot and Substrate demonstrating the reduction in compile times from these changes.
+We will extend the existing associated type projection caching in the Rust Compiler to be shared across the entire compilation, similarly to the rest of the trait system, and including any applicable techniques from **Milestone 2**.
+
+We will demonstrate the reduction in compile times from these changes in a report, showing:
+* overall changes in compile times across Polkadot and Substrate
+* differences in the fine-grained profiling data from **Milestone 2**, in both the number of operations performed and their average duration
 
 ## Future Plans
-Long-term, we may contribute to the Chalk project, especially its integration into the Rust compiler and the performance of the resulting system.
-But in the meanwhile we will continue to look for potential improvements in the current Rust compiler codebase.
+Long-term, we may contribute to the Chalk project, especially its integration into the Rust Compiler and the performance of the resulting system.
+But in the meanwhile we will continue to look for potential improvements in the current Rust Compiler codebase.
 
 ## Additional Information
 We have already done some quick and approximate data gathering, which suggests that up to a quarter of `polkadot-runtime-common`'s checking time (i.e. comparable with debug mode build times) is spent doing redundant work in the trait system.
