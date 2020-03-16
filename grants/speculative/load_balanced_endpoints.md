@@ -78,16 +78,21 @@ empower them to excel at their engineering initiatives.
 
 ## Team Code Repos
 
-**All repos WIP / examples of deployment strategy**
-- [https://github.com/insight-infrastructure/terragrunt-polkadot](https://github.com/insight-infrastructure/terragrunt-polkadot)
-- [https://github.com/insight-infrastructure/terraform-polkadot-aws-network](https://github.com/insight-infrastructure/terraform-polkadot-aws-network)
-- [https://github.com/insight-infrastructure/terraform-polkadot-aws-sentry-node](https://github.com/insight-infrastructure/terraform-polkadot-aws-sentry-node)
-- [https://github.com/insight-infrastructure/terraform-polkadot-gcp-network](https://github.com/insight-infrastructure/terraform-polkadot-gcp-network)
+**Current list of project related repos - WIP**
+- [terragrunt-polkadot](https://github.com/insight-infrastructure/terragrunt-polkadot)
+- [terraform-polkadot-aws-network](https://github.com/insight-infrastructure/terraform-polkadot-aws-network)
+- [terraform-polkadot-aws-sentry-node](https://github.com/insight-infrastructure/terraform-polkadot-aws-sentry-node)
+- [terraform-polkadot-gcp-network](https://github.com/insight-infrastructure/terraform-polkadot-gcp-network)
+- [terraform-polkadot-gcp-asg-node](https://github.com/insight-infrastructure/terraform-polkadot-gcp-asg-node)
+- [terraform-polkadot-do-network](https://github.com/insight-infrastructure/terraform-polkadot-do-network)
+- [terraform-polkadot-azure-network](https://github.com/insight-infrastructure/terraform-polkadot-azure-network)
+- [terraform-polkadot-azure-asg-node](https://github.com/insight-infrastructure/terraform-polkadot-azure-asg-node)
 
 ## Team LinkedIn Profiles
 
 - [https://www.linkedin.com/in/mitchellpkt/](https://www.linkedin.com/in/mitchellpkt/)
 - [https://www.linkedin.com/in/rob-cannon-21571317/](https://www.linkedin.com/in/rob-cannon-21571317/)
+- [https://www.linkedin.com/in/richardmah/](https://www.linkedin.com/in/richardmah/)
 
 ## Development Roadmap
 
@@ -135,7 +140,7 @@ of benchmarks.
 
 ### **Milestone 1: IaC Modules**
 
-**1 months - 12.5k USD**
+**1 Month - 10k USD + 24 b-dots**
 
 ---
 
@@ -156,7 +161,7 @@ packaged as reusable modules.
 
 ### **Milestone 2: Benchmarking**
 
-**1/2 Month - 6.25k USD**
+**1/2 Month - 5k USD + 12 b-dots**
 
 ---
 
@@ -173,7 +178,7 @@ optimizations
 
 ### **Milestone 3: Kubernetes Modules**
 
-**1.5 months - 18.75k USD**
+**1 Month - 9k USD + 24 b-dots**
 
 ---
 
@@ -181,9 +186,6 @@ optimizations
 to bootstrap the clusters in line with the existing
 [polkadot-deployer](https://github.com/w3f/polkadot-deployer) tool.
 - Build API gateway and service proxy for intelligent routing and caching layers
-- Build microservice templates from which Insight data engineering
-fellows can build pre-indexed endpoints off of
-- ETL pipelines for supporting pre-indexed queries
 
 **Deliverables:**
 
@@ -193,12 +195,19 @@ infrastructure repos
 along with associated helm charts to build service mesh and supporting
 observability services - 1 repo or contributions to existing
 [polkadot-charts](https://github.com/w3f/polkadot-charts) repo
+- Documentation to support deployment process
+
+### **Reach Goals: Microservice Templates**
+
+- Build microservice templates from which Insight data engineering fellows can build specialized endpoints from
+- Recruit 10 Insight data engineering fellows to build additional endpoints and data pipelines and 3 dev ops fellows for productionizing and packaging of endpoints 
+
+**Deliverables:**
+
+- Airflow ETL tools for batch processing - Contribute to [github.com/blockchain-etl/polkadot-etl](https://github.com/blockchain-etl/polkadot-etl)
 - Microservice cookiecutter templates
     - Flask (Python) - 1 repo
     - FastAPI (Python) - 1 repo
-- Airflow ETL tools for batch processing - Contribute to
-[github.com/blockchain-etl/polkadot-etl](https://github.com/blockchain-etl/polkadot-etl)
-- Documentation to support deployment process
 
 ### **Long Term Plans**
 
