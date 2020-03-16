@@ -139,7 +139,7 @@ In the below sections you can find a list of different layers of the Polkadot St
 
 | Components | Existing projects | Potentially interesting projects
 |-|-|-
-| DHT crawler | [Go](https://github.com/atredispartners/dht-crawler-polkadot)
+| DHT crawler | [Go](https://github.com/atredispartners/dht-crawler-polkadot), [Kotlin](https://github.com/emeraldpay/polkabot)
 
 ## :construction_worker: Contributing
 
