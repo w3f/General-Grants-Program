@@ -4,7 +4,7 @@
 
 Crust implements the incentive layer protocol for decentralized storage. It is adaptable to multiple storage layer protocols such as IPFS, and provides support for the application layer. Crust's architecture also has the capability of supporting a decentralized computing layer and building a decentralized cloud ecosystem.
 
-### Crust contains 3 major layers
+Crust contains 3 major layers:
 
 1. GPoS (Guaranteed Proof of Stake) consensus layer. GPoS consensus uses storage resources as a guarantee. It encourages nodes to provide more storage resources, and improves the security and robustness of the network.
 2. MPoW (Meaningful Proof of Work) layer. Based on the Trusted Execution Environment (TEE) technology, MPoW mechanism quantifies storage resource usage and generates corresponding work report in a reliable way.
@@ -45,7 +45,7 @@ Crust uses Substrate in three major ways:
 
 ## Team Linkedin Profiles
 
-- [https://www.linkedin.com/in/chen-bao-6b0a4125/](https://www.linkedin.com/in/chen-bao-6b0a4125/);
+- [https://www.linkedin.com/in/chen-bao-6b0a4125/](https://www.linkedin.com/in/chen-bao-6b0a4125/)
 - [https://www.linkedin.com/in/lie-wang-b2292955/](https://www.linkedin.com/in/lie-wang-b2292955/)
 - [https://www.linkedin.com/in/zikunfan/](https://www.linkedin.com/in/zikunfan/)
 
