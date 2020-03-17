@@ -28,9 +28,14 @@ Crust uses Substrate in three major ways:
 
 ## Team Members
 
-- **Chen Bao** - Founder, Business Development.
+- **Chen Bao** - Founder, Project Manager, Business Development.
 - **Lie Wang** - Co-Founder, Product Manager, Technical Advisor.
 - **Zikun Fan** - Co-Founder, Technical Leader.
+- **Yang Zhao** - Full-Stack Lead Developer.
+- **Yao Zhao** - Full-Stack Developer.
+- **Dean Yan** - Product Designer.
+- **Shengnan Yang** - Frontend Developer.
+- **Hui Yu** - Server-Side Developer.
 
 ## Team Website
 
@@ -48,6 +53,8 @@ Crust uses Substrate in three major ways:
 - [https://www.linkedin.com/in/chen-bao-6b0a4125/](https://www.linkedin.com/in/chen-bao-6b0a4125/)
 - [https://www.linkedin.com/in/lie-wang-b2292955/](https://www.linkedin.com/in/lie-wang-b2292955/)
 - [https://www.linkedin.com/in/zikunfan/](https://www.linkedin.com/in/zikunfan/)
+- [https://www.linkedin.com/in/yang-zhao-2b42921a2/](https://www.linkedin.com/in/yang-zhao-2b42921a2/)
+- [https://www.linkedin.com/in/dean-yan-717784100/](https://www.linkedin.com/in/dean-yan-717784100/)
 
 ## Legal Structure
 
@@ -57,7 +64,6 @@ Clouderium Technologies Co.,Ltd in Shanghai, China.
 
 **Chen Bao**  
 Chen Bao has more than 10 years’ working experience of financial investment. He manages the company’s funds (total amount about 1 billion CNY) as the investment director. He invested some crypto projects in the past 3 years and founded Winsun Capital.
-
 Chen Bao was the co-founder of Lava project, which is a decentralized digital infrastructure based on Proof-of-Capacity with over 500PB network capacity.
 
 **Lie Wang**  
@@ -66,6 +72,13 @@ Lie has been working in IT industry for over 14 years. He worked in Microsoft an
 **Zikun Fan**  
 Zikun is experienced in both cloud computing and blockchain technologies. Zikun got his master degree in Computer Science from ZheJiang University and majored in distributed cloud computing. He received the PhD offer from CERCS Lab of Georgia Tech.
 Zikun worked in Microsoft on Azure Kubernetes, distributed computing and blockchain based projects.
+
+**Yang Zhao**  
+Yang has extensive work experience in the fields of security and distributed storage. Yang graduated from the Department of Electronics of Tsinghua University and obtained his master's degree in the complex network laboratory. He has participated in many open source projects and made significant contributions. Yang worked in Microsoft on cyber security, distributed storage and big data based projects.
+
+**Dean Yan**  
+Dean is experienced in information security and blockchain technologies. Dean got his master degree in Computer Science from Nanjing University of Posts and Telecommunications and majored in opportunistic network. Before Crust project, Dean has been working in Cisco on supply chain blockchain based projects, one of his innovation projects was announced in global Development@Cisco conference.
+
 
 ## Development Roadmap
 
@@ -80,6 +93,9 @@ Zikun worked in Microsoft on Azure Kubernetes, distributed computing and blockch
     - Implement TEE storage monitoring;
 3. Storage Service
     - Provide basic meaningful user data storage;
+4. Documentation
+    - Finish technical whitepaper;
+    - Provide wiki on how to join Alphanet;
 
 ### M2: BetaNet - 8 weeks
 
@@ -93,6 +109,9 @@ Zikun worked in Microsoft on Azure Kubernetes, distributed computing and blockch
     - Provide fully functional storage management and download mechanism;
     - Provide basic storage market and retrieval market;
     - Provide SDKs to upper layer applications and platforms;
+4. Documentation
+    - Finish economic design document;
+    - Provide wiki that contains Crust brief, the guidance on how to join Betanet, and how to test storage service;
 
 ### M3: MainNet – 8 weeks
 
@@ -107,6 +126,9 @@ Zikun worked in Microsoft on Azure Kubernetes, distributed computing and blockch
     - Support multiple underlying storage protocols;
     - Provide fully functional storage market and retrieval market;
     - Implement layer2 flexible storage services including object storage;
+4. Documentation
+    - Publish the finalized version of economic document and technical whitepaper;
+    - Provide the wiki and guidance on how to join Crust network and how to use storage service;
 
 ## Additional Information
 
