@@ -116,3 +116,4 @@ This page gives an overview of accepted grants and a link to their GitHubs. Keep
 - [Obsidian Labs](https://www.obsidians.io/) - Substrate IDE ([GitHub](https://github.com/ObsidianLabs)) 
 - [Definex](https://definex.io/) - A financial market protocol ([GitHub](https://github.com/definex/definex-libs)) 
 - [Attic Lab](https://atticlab.net/) - Multisignature Wallet Standardization/PSP ([GitHub](https://github.com/w3f/PSPs)) 
+- [ImToken](https://token.im/) - Multi-chain non-custodial mobile and hardware wallet for iOS & Android ([GitHub](https://github.com/consenlabs/))
