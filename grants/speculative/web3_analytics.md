@@ -2,24 +2,24 @@
 
 ## Project Description
 
-Web3 Analytics is a decentralized Google Analytics alternative aiming to give users the full control of their data. It provides web performance measurement, customized statistics, and data visualization dashboard. With the power of TEE, users' personal data are kept secretly and can only be used in an approved way. As a result, users literally get the 100% control of their data.
+Web3 Analytics is a decentralized Google Analytics alternative aiming to give users the full control of their data. It provides web performance measurement, customized statistics, and data visualization dashboard. With the power of TEE, users' personal data are kept secretly and can only be used in ways approved by users. As a result, users literally get the 100% control of their data.
 
 ### The Problem
 
-We are going to build a decentralized off-chain data management and statistics tool to solve the following problems:
+We are going to build a decentralized off-chain event tracking and analytics tool to solve the privacy problem:
 
-* Web3 developers have no choice but to trust big internet companies and use online statistics tools like Google Analytics. (More than 70% of the websites are using Google Analytics)
-* However in such centralized solutions, the big companies control all the users data. Users have no way to download or delete their data, neither decide how the data is used by others.
+* Web3 developers have no choice but to trust centralized tools like Google Analytics. (More than 70% of the websites are using Google Analytics)
+* The big internet companies control all the users data. Users have no way to download or delete their data, neither decide how the data is used by others.
 * Finally, users and developers cannot profit from the additional value created by their data.
 
-### How to Protect Personal Data?
+### How to Protect Personal Data
 
 ![](https://i.imgur.com/j6E7mnI.png)
 
-* In Web3 Analytics SDK, the user data is end-to-end encrypted. The encrypted data is stored in a decentralized storage network.
-* Only the user and the confidential smart contract has the access of the encryption key. Therefore users can manage the data, the access permission of the data, and can also delete the data on their own. The confidential contract only analyze the data in ways authorized by the user in a TEE enclave.
-* Authorized confidential contract can analyze the encrypted user data and output the analysis results. The results are displayed on W3A data visualization dashboard.
-* All the analysis requests are logged on the blockchain. When the analysis is a part of the data trading, the value of the deal is recorded transparently on the blockchain, and the profit of the deal can be distributed to the data owners in a transparent way. Details are discussed in the next section.
+* In Web3 Analytics, the user data is end-to-end encrypted between the user browser and the backend (a confidential contract). The encrypted data is stored in a decentralized storage network.
+* Only the user and the confidential smart contract has the access of the encryption key. Therefore users can manage the data and the access of the data.
+* Only authorized confidential contracts can analyze the encrypted user data and output the analysis results. The raw data never gets out of the TEE while the analysis results can be displayed on a dashboard.
+* All the analysis requests are logged on the blockchain. When the analysis is a part of the data trading, the value of the deal is recorded, and the profit of the deal can be distributed to the data owners in a transparent way.
 
 ### Features
 
@@ -113,12 +113,12 @@ Before the team was founded, our team members has been worked in Google, DiDi Ch
 ## Development Roadmap
 
 * M1: Web SDK & ad-hoc backend
-  * 3 weeks, $20k
+  * 2 weeks, $15k
   * JS SDK to collect predefined and customized stats in Web apps. The traffic is e2e encrypted.
   * An ad-hoc backend with CLI to showcase the SDK
   * Docker image to deploy the backend and a demo web page. Can see and query the collected data in the CLI. Users can check and delete the owned data.
 * M2: Implement the backend as a confidential contract
-  * 4 weeks, $30k
+  * 5 weeks, $35k
   * Move the ad-hoc backend to a confidential smart contract based on Phala.Network. So the data is secure.
   * Docker image to deploy the backend contract in Phala.Network dev net. Can query and manage the data as in M1 in the CLI.
 * M3: Dashboard, data visualization, and Data Plaza frontend
@@ -129,24 +129,30 @@ Before the team was founded, our team members has been worked in Google, DiDi Ch
 * M4: User-side personal data console
   * 3 weeks, $20k
   * Replace the user-side personal data console CLI by a WebUI
-  * Docker iamge to deploy the frontend and backend in M2, M3, plus the personal data console frontend. Users can check, manage, and delete their collected data.
+  * Docker image to deploy the frontend and backend in M2, M3, plus the personal data console frontend. Users can check, manage, and delete their collected data.
 * M5: Documentations and launch of the public beta version
   * 2 weeks, $10k
   * Documentation for deployment, integration and contribution.
   * Launch the above works as a public service (beta) and invite Web3 developers to try it out.
   * Launch the public website and build the community for W3A.
 
-All the deliveriables for each milestone will be published in the open source repositories.
+All the deliverables for each milestone will be published in the open source repositories.
 
 The grant will cover the development of W3A till its first public beta. As mentioned earlier, the storage is semi-decentralized but we will switch to a pure decentralized way as soon as possible.
 
 ## Additional Information
 
 * What work has been done so far?
-  * Phala.Network blockchain Substrate runtime (WIP)
-  * Phala.Network TEE miner runtime (WIP)
-  * Phala.Network blockchain-TEE bridge
-  * Data Plaza PoC (confidential contract and frontend)
+  * Phala.Network MVP (via pLIBRA M2)
+    * Blockchain Substrate runtime ([repo](https://github.com/Phala-Network/phala-blockchain))
+    * TEE miner runtime  ([repo](https://github.com/Phala-Network/phala-pruntime))
+    * Blockchain-TEE bridge  ([repo](https://github.com/Phala-Network/phala-blockchain))
+  * Data Plaza PoC ([contract](https://github.com/Phala-Network/phala-pruntime/blob/master/enclave/src/contracts/data_plaza.rs) and [frontend](https://github.com/Phala-Network/phala-polka-apps/tree/master/packages/app-phala/src))
+  * W3A WIP (50%-90%)
+    * Data collection Web SDK
+    * Centralized (mock) backend
+    * Personal data console frontend
+    * Developer dashboard
 * Are there are any teams who have already contributed (financially) to the project?
   * No.
 * Have you applied for other grants so far?
@@ -154,4 +160,4 @@ The grant will cover the development of W3A till its first public beta. As menti
 * Are there any other projects similar to yours?
   * We are the first decentralized Google Analytics alternative. To our knowledge, there's no similar project.
   * Phala.Network's TEE-Blockchain hybrid architecture design is similar to [Ekiden](https://arxiv.org/abs/1804.05141) but supports cross-contract/blockchain interoperability in addition. Thus we can fit into the Web3 technology stack better.
-  * Both Phala.Network and [Substrate SGX](https://github.com/libra-china-org/Web3-collaboration/blob/master/grants/speculative/substrate_sgx_proposal.md) uses TEE technology and we are likely to share some components in the future.
+  * Both Phala.Network and [Substrate SGX](https://github.com/libra-china-org/Web3-collaboration/blob/master/grants/speculative/substrate_sgx_proposal.md) use TEE technology and we share some common components.
