@@ -39,6 +39,8 @@ The Rust Compiler "Self-Profiling" feature is available through the nightly-only
 
 We will integrate the Rust Compiler's trait system operations with the Self-Profiling feature, using proven techniques to record detailed information (i.e. specific traits and types being operated on) without introducing timing inaccuracies.
 
+We will submit these changes as a Pull Request to the official Rust Compiler repository ([`rust-lang/rust`](https://github.com/rust-lang/rust) on GitHub).
+
 We will demonstrate this new profiling data in a report, showing, for representative Polkadot and Substrate crates:
 * how much of the compilation is spent in the trait system (which previously would've showed up on profiles as part of type-checking and borrow-checking)
 * the most common types or traits, accounting for a significant fraction of the time spent in the trait system
@@ -61,6 +63,8 @@ We will then address them, to increase the effectiveness of caching in the Rust 
 
 The above list is not exhaustive, as other opportunities may present themselves.
 
+We will submit these changes as Pull Requests to the official Rust Compiler repository ([`rust-lang/rust`](https://github.com/rust-lang/rust) on GitHub).
+
 We will demonstrate the reduction in compile times from these changes in a report, showing:
 * overall changes in compile times across Polkadot and Substrate
 * differences in the fine-grained profiling data from **Milestone 1**, in both the number of operations performed and their average duration
@@ -69,6 +73,8 @@ We will demonstrate the reduction in compile times from these changes in a repor
 The Rust Compiler does not currently cache resolving associated types (i.e. "projecting" them) for the whole compilation at all, but rather only within individual (e.g. function) definitions.
 
 We will extend the existing associated type projection caching in the Rust Compiler to be shared across the entire compilation, similarly to the rest of the trait system, and including any applicable techniques from **Milestone 2**.
+
+We will submit these changes as Pull Requests to the official Rust Compiler repository ([`rust-lang/rust`](https://github.com/rust-lang/rust) on GitHub).
 
 We will demonstrate the reduction in compile times from these changes in a report, showing:
 * overall changes in compile times across Polkadot and Substrate
