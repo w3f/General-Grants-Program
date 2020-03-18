@@ -140,6 +140,12 @@ All the deliverables for each milestone will be published in the open source rep
 
 The grant will cover the development of W3A till its first public beta. As mentioned earlier, the storage is semi-decentralized but we will switch to a pure decentralized way as soon as possible.
 
+## Long term plans
+
+* Move to a fully decentralized storage
+* Launch (mainnet) as the first decentralized analytics protocol
+* Build a personal data market on the W3A data exchange protocol
+
 ## Additional Information
 
 * What work has been done so far?
