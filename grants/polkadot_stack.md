@@ -67,7 +67,7 @@ In the below sections you can find a list of different layers of the Polkadot St
 | Block Explorers | [Polkascan](https://github.com/polkascan), [Polkastats](https://polkastats.io/)
 | Validator Dashboards | [DotHub](https://github.com/figment-networks/dothub), [Polkacube](https://github.com/hashquark-io)
 | Node Explorers |
-| Governance Dashboards |
+| Governance Dashboards | [Polkassembly](https://github.com/paritytech/polkassembly)
 
 ### :wrench: Tools APIs and Languages
 
