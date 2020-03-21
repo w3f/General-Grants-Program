@@ -1,14 +1,16 @@
 # PolkadotIDE
 
 ## Project Description
-PolkadotIDE is a cloud-based IDE on Polkadot. We aim to provide a swift cloud-based IDE for Polkadot without any downloading, setting up, and building process.
-Our ambition is to develop:
+PolkadotIDE is a cloud-based IDE on Polkadot. We aim to provide a swift cloud-based IDE for Polkadot without any downloading, setting up, and building process. Our ambition is to develop:
 
-* A cloud-based IDE that help develop and deploy with one click.
 
-* A complete IDE that can support all sustrate contract language.
+* A cloud-based IDE that helps develop, compile, and deploy with one click.
 
-* A Developer ecosystem that help the new designers have a quick start.
+* A complete IDE that can support all Substrate contract language.
+
+* A Developer ecosystem that helps the new designers have a quick start.
+
+We will provide all code of PolkadotIDE frontend in a GitHub repo with the following open-source license: Apache 2.0.
 
 ## Team members
 * Xiao Wu: cloud-based IDE design 
@@ -45,28 +47,50 @@ We will build a cloud-based IDE - PolkadotIDE without any downloading, setting u
 
 Please provide the following:
 
-* M1 - 3 days: Release the developer plan for proof of concept
-- $500
+* M1 - Research and development of the Proof-of Concept
+Duration: 3 weeks
+Funding: $8,000
 
-* M2 - 2 week: Build the POC. 
+- We will create documents and plans of how we will proceed with building PolkadotIDE
 - Build the compiler service and back-end system for PolkadotIDE POC.
-- Agile design and hacthon the front-end PolkadotIDE POC.
+- Agile design and hatch on the front-end PolkadotIDE POC.
 - Connect the back-end and front-end.
-- Compile the sustrate contract with POC.
-- $7500
-* M3 - 2 week: Build the MVP.
+
+- The POC will allow for compiling Ink! Contracts.
+- The code will be published on Github. We will provide simple instructions for downloading, compiling, and running our code.
+- Documentation will be created and delivered along with our code according to the Web3 Milestone Deliverables Guidelines
+
+
+* M2 - Build the MVP
+Duration: 2 weeks
+Funding: $10,000
 - List the compiler service and back-end system with a stable server. 
 - A front-end MVP with all the basic functions working.
+The front-end will be available in Chinese and English.
+The basic functions of the front-end will be:
+*Editor functionalities: 
+**User can edit the contract in the IDE
+**Code highlight and auto-completion 
+**User can save and download the files
+*User can compile contracts
+*User can deploy the compiled contracts 
+*User can use templates provided in the IDE
 - Test with the community and provide compile service for developers.
-- $10000
-* M4 - 4 week: Alpha version PolkadotIDE.
+- The code will be published on Github. We will provide simple instructions for downloading, compiling, and running our code.
+- Documentation will be created and delivered along with our code according to the Web3 Milestone Deliverables Guidelines
+
+
+* M3 - Complete alpha version PolkadotIDE
+Duration: 4 weeks
+Funding: $12,000
 - Finish alpha version of PolkadotIDE.
-- Link IDE with polkadotide.com and polkaide.com.
-- UI/UX design for alpha version.
-- Code templates and examples.
-- Substrate contract language imaging and complete.
+- Make IDE available  on polkadotide.com and polkaide.com.
+- Finish UI/UX design for alpha version.
+- We will provide code templates and examples.
+- Ink contract language highlight and auto-completion .
 - Bring developer ecosystem directly into Polkadot.
-- $12000
+- The code will be published on Github. We will provide simple instructions for downloading, compiling, and running our code.
+- Documentation will be created and delivered along with our code according to the Web3 Milestone Deliverables Guidelines.
 
 
 #### Long Term Plan 
