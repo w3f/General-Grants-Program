@@ -128,4 +128,4 @@ We win many award and incentives. We also get angel and pre-A investments. We th
 We believe in potential of Polkadot and sustrate, that is why we want to build PolkadotIDE. 
 
 * Are there any other projects similar to yours? If so, how is your project different?
-Remix. It only support Eth. We are the largest cloud-based IDE for blockchain, we can bring top developers from LIbra, Cocos and many other chain to Polkadot.
+Remix. It only support Eth. We are the largest cloud-based IDE for blockchain, we can bring top developers from LIbra, Cocos and many other chain to Polkadot. 
