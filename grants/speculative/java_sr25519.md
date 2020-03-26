@@ -1,4 +1,4 @@
-# Project name
+# Java SR25519 Implementation
 
 Java implementation of Schnorr signature scheme on Ristretto version of Ed25519.
 
