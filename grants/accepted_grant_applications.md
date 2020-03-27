@@ -11,6 +11,7 @@ This page gives an overview of accepted grants and a link to their GitHubs. Keep
 - [Wave 3 - Third Quarter 2019](#wave-3)
 - [Wave 4 - Fourth Quarter 2019](#wave-4)
 - [Wave 5 - First Quarter 2020](#wave-5)
+- [Wave 6 - Second Quarter 2020](#wave-6)
 
 ## Wave 1
 -   [ChainSafe](https://chainsafe.io/) - Polkadot Runtime Environment in Go (via an RFP) ([GitHub](https://github.com/ChainSafeSystems/gossamer))
@@ -77,7 +78,7 @@ This page gives an overview of accepted grants and a link to their GitHubs. Keep
 - [Usetech](http://usetech.com/blockchain.html) - SR25519 library in pure C and C# ([GitHub](https://github.com/usetech-llc/))
 - [Akropolis](https://akropolis.io/) - PolkaHub - Heroku-like infrastructure for node deployment ([GitHub](https://github.com/akropolisio))
 - [Pixura](https://pixura.io/) - Substrate API client in Haskell ([GitHub](https://github.com/Pixura))
-- [HashQuark](https://www.hashquark.io/) - Validator Dashboard ([GitHub](https://github.com/hashquark-research))
+- [HashQuark](https://www.hashquark.io/) - Validator Dashboard ([GitHub](https://github.com/hashquark-io))
 - [Stacktical](https://stacktical.com/) - Performance Management Runtime Modules ([GitHub](https://github.com/Stacktical))
 - [Sean Young](https://www.mess.org/) - Solidity to WASM compiler ([GitHub](https://github.com/hyperledger-labs/solang))
 - [Chain Security](https://chainsecurity.com/) - Tool for validating correctness of Polkadot runtimes ([GitHub](https://github.com/ChainSecurity))
@@ -121,4 +122,7 @@ This page gives an overview of accepted grants and a link to their GitHubs. Keep
 - [Lyken](https://lyken.rs/) - Rust trait system revamp ([GitHub](https://github.com/LykenSol))
 - [Chorus One](https://chorus.one/) - Grandpa light client in Tendermint ([GitHub](https://github.com/ChorusOne))
 
-
+## Wave 6
+- [Protofire](https://protofire.io/) - Failover mechanism for validators ([GitHub](https://github.com/protofire))
+- [HashQuark](https://www.hashquark.io/) - Validator Dashboard Phase 2 ([GitHub](https://github.com/hashquark-io))
+- [BUIDL Labs](https://buidllabs.io/) - YieldScan Staking Dashboard ([GitHub](https://github.com/thevantageproject/))
