@@ -126,3 +126,4 @@ This page gives an overview of accepted grants and a link to their GitHubs. Keep
 - [Protofire](https://protofire.io/) - Failover mechanism for validators ([GitHub](https://github.com/protofire))
 - [HashQuark](https://www.hashquark.io/) - Validator Dashboard Phase 2 ([GitHub](https://github.com/hashquark-io))
 - [BUIDL Labs](https://buidllabs.io/) - YieldScan Staking Dashboard ([GitHub](https://github.com/thevantageproject/))
+- BoBao Technologies - PolkaKey an electron app to generate Polkadot addresses + tutorials ([GitHub](https://github.com/w3finance/PolkaKey))
