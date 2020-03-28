@@ -60,7 +60,7 @@ In the below sections you can find a list of different layers of the Polkadot St
 
 | Components | Existing projects | Potentially interesting projects
 |-|-|-
-| Desktop Wallets | [AirGap](https://github.com/airgap-it/airgap-wallet), [Sakura](https://github.com/dotpaytech/sakura)
+| Desktop Wallets | [AirGap](https://github.com/airgap-it/airgap-wallet), [Sakura](https://github.com/w3finance/sakura)
 | Browser Extensions | [Polkadot{.js}](https://github.com/polkadot-js/extension), [Enzyme](https://getenzyme.dev/), [Speckle OS](https://www.speckleos.io/)  
 | Mobile Wallets| [Lunie](http://lunie.io/), [Polkawallet](https://polkawallet.io/), [Parity Signer](https://github.com/paritytech/parity-signer)  
 | Web (burner) Wallets| 
