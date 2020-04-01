@@ -85,17 +85,20 @@ Dean is experienced in information security and blockchain technologies. Dean go
 ### M1: AlphaNet – 6 weeks
 
 1. GPoS
-    - Implement basic staking mechanism based on Substrate;
-    - Provide limited staking;
-    - Implement GPoS based on BABE/GRANDPA algorithm;
+   - Implement valid stakes based on works from MPoW;
+   - Implement active checking based on validators and guarantor’s action;
+   - Implement passive checking;
+   - Implement validator set election algorithm;
+   - Implement reward distribution based on valid stakes;
 2. MPoW
-    - Implement TEE node onboarding and verification;
-    - Implement TEE storage monitoring;
+   - Implement TEE node onboarding and verification;
+   - Implement TEE dynamic storage management(empty and meaningful storage);
+   - Implement TEE storage monitoring;
 3. Storage Service
-    - Provide basic meaningful user data storage;
+   - Provide basic meaningful user storage order;
 4. Documentation
-    - Finish technical whitepaper;
-    - Provide wiki on how to join Alphanet;
+   - Finish technical whitepaper;
+   - Provide wiki on how to join Alphanet;
 
 ### M2: BetaNet - 8 weeks
 
