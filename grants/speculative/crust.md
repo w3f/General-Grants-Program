@@ -79,30 +79,28 @@ Yang has extensive work experience in the fields of security and distributed sto
 **Dean Yan**  
 Dean is experienced in information security and blockchain technologies. Dean got his master degree in Computer Science from Nanjing University of Posts and Telecommunications and majored in opportunistic network. Before Crust project, Dean has been working in Cisco on supply chain blockchain based projects, one of his innovation projects was announced in global Development@Cisco conference.
 
-
 ## Development Roadmap
 
 ### M1: AlphaNet – 6 weeks
 
-1. GPoS
-   - Implement valid stakes based on works from MPoW;
-   - Implement active checking based on validators and guarantor’s action;
-   - Implement passive checking;
-   - Implement validator set election algorithm;
-   - Implement reward distribution based on valid stakes;
-2. MPoW
-   - Implement TEE node onboarding and verification;
-   - Implement TEE dynamic storage management(empty and meaningful storage);
-   - Implement TEE storage monitoring;
+1. MPoW
+   - Implement work report runtime module to quantify storage volume and monitor storage status. Users will be able to check Crust nodes’ empty and meaningful storage volume and status through Crust explorer.
+   - Implement TEE (SGX solution) node onboarding and on-chain verification. Nodes with SGX CPU can join Crust network. Users will be able to see nodes’ TEE identity through Crust explorer.
+   - Implement dynamic storage scaling feature (including both empty and meaningful storage) to improve network availability. Once nodes’ physical storage space changes, node owners will be able to see nodes’ storage volume automatically changes next era through Crust explorer, without additional steps like node restart or enrollment.
+2. GPoS
+   - Implement the feature to set stake limitation based on storage volume reported by MPoW work report. Users will be able to check nodes’ (both validators and candidates) stake limit and valid stake through Crust explorer.
+   - Implement active stake check based on validators and guarantors’ actions. Users will not be able to stake/vote exceed any node’s staking limit at any time, and a node will not be able to become a validator with no stake limit claimed.
+   - Implement passive stake check. At the end of each era, while nodes’ stake limit could be changed according to factors like whole network storage volume and local volume, the stake limit and guarantors’ valid voting stake will be changed accordingly. Users should be able to see the change through Crust explorer.
+   - Implement validator set election algorithm. It selects validators from high to low according to the nodes’ total stakes. Users will be able to see validator set changes at each era through Crust explorer.
 3. Storage Service
-   - Provide basic meaningful user storage order;
+   - Provide basic meaningful storage capabilities. Storage API will be finalized in M2. In M1 Crust AlphaNet will provide basic IPFS interfaces. Users will be able to get/put files through Crust AlphaNet’s IPFS interfaces. In addition, users will be able to see the meaningful storage volume changes accordingly through Crust explorer.
 4. Documentation
-   - Finish technical whitepaper;
-   - Provide wiki on how to join Alphanet;
+   - Finish technical white paper and publish on Crust website.
+   - Provide wiki on how to explore Alphanet on GitHub.
 
 ### M2: BetaNet - 8 weeks
 
- 1. GPoS
+1. GPoS
     - Provide fully functional GPoS consensus, including storage based staking limitation and staking allocation;
     - Provide fully functional reward and slash mechanism;
 2. MPoW
