@@ -94,6 +94,7 @@ In the below sections you can find a list of different layers of the Polkadot St
 | Privacy | [ZeroChain](https://github.com/LayerXcom/zero-chain), [pLibra](https://github.com/libra-china-org) 
 | Off-Chain | [substraTEE](https://github.com/scs/substraTEE)
 | Financial Chains | [Katal Chain](https://github.com/katalchain), [Laminar Chain](https://github.com/laminar-protocol/laminar-chain), [Acala](https://acala.network/), [Centrifuge](https://github.com/centrifuge/), [Stafi](https://github.com/stafiprotocol/stafi-node), [Bandot](https://github.com/bandotorg/Bandot), [Definex](https://github.com/y2labs-0sh) 
+| DEXs | [OAX Foundation](https://github.com/OAXFoundation), [Cybex](https://github.com/alexxuyang/substrate-dex) | DEX with privacy and confidentiality features such as those found in a [dark pool](https://en.wikipedia.org/wiki/Dark_pool) 
 | Smart contract chains | [Edgeware](https://github.com/hicommonwealth), [EVM Module](https://substrate.dev/docs/en/next/conceptual/runtime/contracts/evm_module) | sharded smart contract chains, smart contract chains with novel security approaches, smart contract chains based on exisiting toolchains|
 | Access to real world data | [Oracle by Laminar](https://github.com/laminar-protocol/open-runtime-module-library/tree/master/oracle), [Oracle by Katal Chain](https://github.com/katalchain/blockchain/tree/master/modules/oracle) 
 | Identity | [Caelum Labs](https://gitlab.com/caelum-tech/lorena), [Litentry](https://github.com/litentry/litentry-runtime) 
