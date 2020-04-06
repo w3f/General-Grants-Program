@@ -66,7 +66,7 @@ In the below sections you can find a list of different layers of the Polkadot St
 | Web (burner) Wallets| 
 | Multisignature Wallets| 
 | Hardware Wallets | [Ledger](https://github.com/ZondaX/ledger-polkadot), [NGRAVE](https://ngrave.io/) 
-| Block Explorers | [Polkascan](https://github.com/polkascan), [Polkastats](https://polkastats.io/)
+| Block Explorers | [Polkascan](https://github.com/polkascan), [Polkastats](https://polkastats.io/), [Subscan](https://github.com/itering/subscan)
 | Validator Dashboards | [DotHub](https://github.com/figment-networks/dothub), [Polkacube](https://github.com/hashquark-io)
 | Node Explorers |
 | Governance Dashboards | [Polkassembly](https://github.com/paritytech/polkassembly)
