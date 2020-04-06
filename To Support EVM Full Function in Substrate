@@ -1,0 +1,55 @@
+# To Support EVM Full Function in Substrate
+
+## Project Description
+EVM is important in Substrate framework. With EVM, Substrate can be easily compatible with Ethereum ecosystem. Existing module provide the EVM module itself and a lot relevent should be done to fully support EVM in Substrate for example to store smart contract in db and 
+to provide rpc for deploy smart contract. This project intents to support EVM full function in sustrate with above functions.
+
+## Team members
+* Jeff Cao
+* Steve Lv, James Liao
+
+## Team Website	
+* https://pchain.org
+
+## Legal Structure 
+In Google Form
+
+## Team's experience
+We worked in blockchain since 2015 and developed many blockchain systems and applications including pchain.
+
+## Team Code Repos
+* https://github.com/pchain-org/
+
+
+## Team LinkedIn Profiles
+* https://sg.linkedin.com/in/feng-cao-79364814
+* https://cn.linkedin.com/in/lv-steven-093a8240
+
+## Development Roadmap
+
+### Milestone 1 — Implement Hello World Smart Constract with pallet-evm in Substrate — 2.5 month 
+* We will setup dev environment，code analytics on substrate，and debug solidity bin-code with pallet-evm.
+* We will deliver an integrated pallet-evm in substrate enviroment with an runable hello world smart contract in solidity.
+* The code will have proper unit-test coverage to ensure functionality and robustness.
+* We will build a Docker image with the substrate enviroment, demonstrating its functionality.
+* We will provide both inline documentation of the code and a basic tutorial describing how the software can be used and tested.
+
+### Milestone 2 — Implement storage of solidity smart contract with db in Substrate — 2,5 month
+* We will create a storage layer to store the solidity smart contract into DB.
+* We will deliver the storage layer with all required functions to store the solidity smart contract into DB.
+* The code will have proper unit-test coverage to ensure functionality and robustness.
+* We will build a Docker image with our substrate chain, demonstrating its functionality.
+* We will provide both inline documentation of the code and a basic tutorial describing how the software can be used and tested.
+
+### Milestone 3 — Implement rpc for deploying smart contract — 2 month
+* We will create a group of rpc for deploying smart contract.
+* We will deliver the rpc interfaces and their implatation to enable the end user to deploy smart contract.
+* The code will have proper unit-test coverage to ensure functionality and robustness.
+* We will build a Docker image with our Substrate chain, demonstrating its functionality.
+* We will provide both inline documentation of the code and a basic tutorial describing how the software can be used and tested.
+
+## Future Plans
+* We will build parachain to connect Sustrate with PCHAIN.
+
+## Additional Information
+  
