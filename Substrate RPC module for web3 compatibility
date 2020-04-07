@@ -1,8 +1,8 @@
-# To Support EVM Full Function in Substrate
+# Substrate RPC module for web3 compatibility
 
 ## Project Description
-EVM is important in Substrate framework. With EVM, Substrate can be easily compatible with Ethereum ecosystem. Existing module provide the EVM module itself and a lot relevent should be done to fully support EVM in Substrate for example to store smart contract in db and 
-to provide rpc for deploy smart contract. This project intents to support EVM full function in sustrate with above functions.
+EVM is important in Substrate framework. With EVM, Substrate can be easily compatible with Ethereum ecosystem. Existing module provide the EVM module itself and a lot relevent should be done to fully support EVM in Substrate, specifically to provide rpc proxy with web3 compatability.
+This project intents to develop a Substrate RPC module for web3 compatibility.
 
 ## Team members
 * Jeff Cao
@@ -34,16 +34,18 @@ We worked in blockchain since 2015 and developed many blockchain systems and app
 * We will build a Docker image with the substrate enviroment, demonstrating its functionality.
 * We will provide both inline documentation of the code and a basic tutorial describing how the software can be used and tested.
 
-### Milestone 2 — Implement storage of solidity smart contract with db in Substrate — 2,5 month
-* We will create a storage layer to store the solidity smart contract into DB.
-* We will deliver the storage layer with all required functions to store the solidity smart contract into DB.
+### Milestone 2 — Implement storage of additional indexing of data with db in Substrate — 2.5 month
+* We will create a storage layer to store the additional indexing of data into DB including Transactions-by-hash，Receipts
+and Logs.
+* We will deliver the storage layer with all required functions to store indexing of data into DB.
 * The code will have proper unit-test coverage to ensure functionality and robustness.
 * We will build a Docker image with our substrate chain, demonstrating its functionality.
 * We will provide both inline documentation of the code and a basic tutorial describing how the software can be used and tested.
 
-### Milestone 3 — Implement rpc for deploying smart contract — 2 month
-* We will create a group of rpc for deploying smart contract.
-* We will deliver the rpc interfaces and their implatation to enable the end user to deploy smart contract.
+### Milestone 3 — Implement RPC proxy or Substrate RPC extension for web3 compatibility — 2 month
+* We will develop a separate binary (RPC proxy), or built as Substrate RPC extension. We will determine that after Milestone 1.
+ We will take Substrate’s state root as the returned blocks state root.
+* We will deliver the RPC proxy and their implatation to enable the end user to access Substrate in web3 compatibilible way.
 * The code will have proper unit-test coverage to ensure functionality and robustness.
 * We will build a Docker image with our Substrate chain, demonstrating its functionality.
 * We will provide both inline documentation of the code and a basic tutorial describing how the software can be used and tested.
