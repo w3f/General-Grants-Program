@@ -4,7 +4,7 @@
 
 [Subsocial](http://subsocial.network) is a set of Substrate v2 pallets with web UI that allows anyone to launch a decentralized censorship-resistant social network aka community. Every community will be running on its own Substrate chain. Such decentralized communities could be connected via a Polkadot-based relay chain.
 
-Subsocial is a long-term project and would like to become a Kusama parachain in the near future. It could serve as a social UI to Kusama governance. This means that people can participate in discussions around council applications, runtime upgrates, referenda, treasury proposals, etc in a trylly decentralized and transparent way.
+Subsocial is a long-term project and would like to become a Kusama parachain in the near future. It could serve as a social UI to Kusama governance. This means that people can participate in discussions around council applications, runtime upgrades, referenda, treasury proposals, etc in a trylly decentralized and transparent way.
 
 The keys points that we want to address in this grant application:
 - Refactor Subsocial v1 SRML to Substrate v2 pallets.
@@ -14,13 +14,16 @@ The keys points that we want to address in this grant application:
 
 ## Team Members
 
-**Alex Siman** – Software Architect and Project Manager at Subsocial. Alex is a Polkadot Ambassador, a founder of “Polkadot Ukraine”, and a blockchain and UI developer at Joystream.org – a user-governed video platform built on top of Substrate. He has been building complex web apps since 2008. In 2017 he started to write smart contracts on Solidity and integrate them with dapps. Since 2019 he has been developing Substrate modules and building custom UIs for them with Polkadot API. Links: [GitHub](https://github.com/siman), [LinkedIn](https://www.linkedin.com/in/alexsiman/)
+**Alex Siman** – Software Architect and Project Manager at Subsocial. Alex is a Polkadot Ambassador, a founder of “Polkadot Ukraine”. He has been building complex web apps since 2008. In 2017, he started to write smart contracts on Solidity and integrate them with dapps. Since 2019 he has been developing Substrate modules and building custom UIs for them with Polkadot API. Links: [GitHub](https://github.com/siman), [LinkedIn](https://www.linkedin.com/in/alexsiman/)
 
-**Oleg** – Frontend Developer (TypeScript, React). Oleg develops UI for Subsocial using a fork of Polkadot.js Apps. His main contribution to this project can be found in UI repo:
+**Oleg** – Front-end Developer (TypeScript, React). Oleg develops UI for Subsocial. His main contribution to this project can be found in Subsocial UI repo:
 https://github.com/dappforce/dappforce-subsocial-ui/commits?author=mell-old
 
-**Vlad** – Backend Developer (Rust, C++). Vlad writes SRML and tests for Subsocial. His main contribution to this project can be found in Substrate runtime repo:
+**Vlad** – Back-end Developer (Rust, C++). Vlad writes SRML and tests for Subsocial. His main contribution to this project can be found in Substrate runtime repo:
 https://github.com/dappforce/dappforce-subsocial-runtime/commits?author=F3Joule
+
+**Aleksandr** – Front-end Developer (TypeScript, React). Aleksandr develops UI for Subsocial. His main contribution to this project can be found in pull requests to Subsocial UI repo:
+https://github.com/dappforce/dappforce-subsocial-ui/pulls?q=is%3Apr+author%3Asagaidak+
 
 ## Team Website
 
@@ -50,173 +53,336 @@ GNU GPL v3.
 
 ## Development Roadmap
 
-*NOTE*: Blog and space are synonyms in this document because later (in M3) we want to merge `Blog` with `Profile` and name this new structure as `Space`.
+### Milestone 1 - Move to Substrate v2
 
-### Milestone 1
+#### Substrate: Move the runtime from Substrate v1 to v2.
 
-#### Substrate Pallets
+The current Subsocial is based on Substrate v1 (April 2019).
+We are going to upgrade our codebase (both Substrate and UI sides) to Substrate v2 and corresponding Polkadot.js API libs. As a side-effect of this move, it will allow us to use Polkadot browser extension to sign extrinsics on UI.
 
-Move the runtime from Substrate v1 to v2.
+#### Substrate: Re-implement comments by reusing `Post` struct:
 
-Refactoring: Reimplement comments by reusing `Post` struct. We found out that Post and Comment structs share a lot. That's why it makes sense to have one struct instead of two. Also we want to support other kinds of posts such as Poll, Proposal, Runtime Upgrade, etc.
+We found out that `Post` and `Comment` structs have a lot in common. That's why it makes sense to have one more genericc struct instead of two separate. Also, we want to add support for other kinds of posts (in the later grants) such as (on-chain) `Poll`.
 
-New pallet: **Space Multi-Ownership**. Multiple accounts should be able to co-own a space (blog). This will reflect a real world situation like with startups or organizations where there are more then one co-founder. With this pallet it should be possible for a current owner of a space to add new co-owners and/or remove existing one, and/or change a threshold. All subsequent changes to the list of co-owners of a space can be executed only after `N` signs out of `M` co-owners, where `N` is a current threshold. Every space co-owner should be able to write a post to the space they co-own and make a new proposal to change a space co-owners and/or threshold.
+Updated `Post` structure will look something like this:
 
-New pallet: **Block (ban) Accounts per Space**. Blocked accounts should not be able to react (upvote/downvote) or comment on the posts of a space they are blocked at.
+```rust
+#[derive(Encode, Decode, Clone, Eq, PartialEq, RuntimeDebug)]
+pub struct Post<T: Trait> {
+  pub id: PostId,
+  pub created: WhoAndWhen<T>,
+  pub updated: Option<WhoAndWhen<T>>,
+  pub hidden: bool,
 
-#### Off-chain
+  pub blog_id: Option<BlogId>,
+  pub extension: PostExtension,
 
-IPFS: support uploading of images. It should be possible to upload images on such forms as: Edit Space, Edit Post.
+  pub ipfs_hash: Vec<u8>,
+  pub edit_history: Vec<PostHistoryRecord<T>>,
 
-#### Front-End
+  pub total_replies_count: u16,
+  pub shares_count: u16,
+  pub upvotes_count: u16,
+  pub downvotes_count: u16,
 
-Bump Polkadot.js libs and fix a lot of isses that will pop up after this.
+  pub score: i32,
+}
 
-Refactor Subsocial custom Substrate types to new format of how they should be described to be able to use them with newest Polkadot.js API.
+#[derive(Encode, Decode, Clone, Eq, PartialEq, RuntimeDebug)]
+pub struct PostUpdate {
+  pub blog_id: Option<BlogId>,
+  pub ipfs_hash: Option<Vec<u8>>,
+  pub hidden: Option<bool>,
+}
 
-Integrate UI with Polkadot browser extension.
+#[derive(Encode, Decode, Clone, Eq, PartialEq, RuntimeDebug)]
+pub struct PostHistoryRecord<T: Trait> {
+  pub edited: WhoAndWhen<T>,
+  pub old_data: PostUpdate,
+}
 
-Optimize data fetching from Substarte: Use a **multi query** to load array of comments, posts or spaces with one Substrate query. This means that the code that makes multiple requests to Substrate to retrieve get data from its storage via `api.query.[pallet].[storage]()` should be refactored to `api.query.[pallet].[storage].multi()` that is one request.
+#[derive(Encode, Decode, Clone, Copy, Eq, PartialEq, RuntimeDebug)]
+pub enum PostExtension {
+  RegularPost,
+  Comment(CommentExt),
+  SharedPost(PostId),
+}
 
-New feature: Move a post from one space to another. A user that is moving a post should own both spaces.
+#[derive(Encode, Decode, Clone, Copy, Eq, PartialEq, RuntimeDebug)]
+pub struct CommentExt {
+  parent_id: Option<PostId>,
+  root_post_id: PostId,
+}
 
-New screen: See **space (account) activity**. It should be possible to filter a space activity by type: Comments, Posts, Reactions, Follows, Spaces. This feature is similar to a user activity on Trello, GitHub or StackOverflow. This is essential in order to shed more light on good or bad actors in Kusama/Polkadot governance. *As a bonus:* this feature (sceeen) could be integrated with other project(s) that show(s) analytics on Kusama/Polkadot governance.
+impl Default for PostExtension {
+  fn default() -> Self {
+    PostExtension::RegularPost
+  }
+}
+```
 
-Space owners should be able to **hide a space, post, comment**: mark as them as `hidden` in Substrate and don't show on UI and don't include in user feed and notifications.
+Updated storage for comments will look something like this:
 
-##### New type of posts specific to Kusama governance:
+```
+/// Direct comments to the post.
+pub RootCommentIdsByPostId get(root_comment_ids_by_post_id): map PostId => Vec<PostId>;
 
+/// Replies to the direc comments.
+pub CommentIdsByRootCommentId get(comment_ids_by_root_comment_id): map PostId => Vec<PostId>;
+```
+
+Updated extrinsics for posts/comments creation/editing:
+
+```rust
+pub fn create_post(
+    origin, 
+    blog_id_opt: Option<BlogId>, 
+    extension: PostExtension, 
+    ipfs_h`ash: Vec<u8>
+) {}
+
+pub fn update_post(
+    origin, 
+    post_id: PostId, 
+    update: PostUpdate
+) {}
+```
+
+#### Substrate: New pallet: Blog Multi-Ownership:
+
+Multiple accounts should be able to co-own a blog. This will reflect a real world situation like with startups or organizations where there are more then one co-founder. With this pallet it should be possible for a current owner of a blog to add new co-owners and/or remove existing one, and/or change a threshold. All subsequent changes to the list of co-owners of a blog can be executed only after `N` signs out of `M` co-owners, where `N` is a current threshold. Every blog co-owner should be able to write a post to the blog they co-own and make a new proposal to change a blog co-owners and/or threshold.
+
+Possible structures for the new pallet (Space equals to Blog):
+
+```rust
+type SpaceId = u64;
+
+type ChangeId = u64;
+
+pub struct WhoAndWhen<T: system::Trait + pallet_timestamp::Trait> {
+  pub account: T::AccountId,
+  pub block: T::BlockNumber,
+  pub time: T::Moment,
+}
+
+/// This struct describes current owners of a particular space (blog).
+pub struct SpaceOwners<T: Trait> {
+  pub created: WhoAndWhen<T>,
+  pub space_id: SpaceId,
+  pub owners: Vec<T::AccountId>,
+  pub threshold: u16,
+  pub changes_count: u64,
+}
+
+/// This struct describes a change to space (blog) owners.
+pub struct Change<T: Trait> {
+  pub created: WhoAndWhen<T>,
+  pub id: ChangeId,
+  pub space_id: SpaceId,
+  pub add_owners: Vec<T::AccountId>,
+  pub remove_owners: Vec<T::AccountId>,
+  pub new_threshold: Option<u16>,
+  pub notes: Vec<u8>,
+  pub confirmed_by: Vec<T::AccountId>,
+  pub expires_at: T::BlockNumber,
+}
+```
+
+Possible storage:
+
+```
+SpaceOwnersBySpaceById get(space_owners_by_space_id): map SpaceId => Option<SpaceOwners<T>>;
+
+SpaceIdsOwnedByAccountId get(space_ids_owned_by_account_id): map T::AccountId => BTreeSet<SpaceId> = BTreeSet::new();
+
+NextChangeId get(next_change_id): ChangeId = 1;
+
+ChangeById get(change_by_id): map ChangeId => Option<Change<T>>;
+
+PendingChangeIdBySpaceId get(pending_change_id_by_space_id): map SpaceId => Option<ChangeId>;
+
+PendingChangeIds get(pending_change_ids): BTreeSet<ChangeId> = BTreeSet::new();
+
+ExecutedChangeIdsBySpaceId get(executed_change_ids_by_space_id): map SpaceId => Vec<ChangeId>;
+```
+
+Possible extrinsics:
+
+```rust
+/// Can be called during a new blog (space) creation. 
+pub fn create_space_owners(
+    origin,
+    space_id: SpaceId,
+    owners: Vec<T::AccountId>,
+    threshold: u16
+) {}
+
+/// Can be called by the current blog (space) owner to propose
+/// a change to the current ownership of the blog.
+pub fn propose_change(
+    origin,
+    space_id: SpaceId,
+    add_owners: Vec<T::AccountId>,
+    remove_owners: Vec<T::AccountId>,
+    new_threshold: Option<u16>,
+    notes: Vec<u8>
+) {}
+
+/// Can be called by any current blog owner to confirm a change.
+/// When a threshold reached, the change gets accepted.
+pub fn confirm_change(
+    origin,
+    space_id: SpaceId,
+    change_id: ChangeId
+) {}
+
+/// Can be called by the account that proposed this change.
+pub fn cancel_change(
+  origin,
+  space_id: SpaceId,
+  change_id: ChangeId
+) {}
+```
+
+#### Substrate: New pallet: Block (ban) Accounts per Blog:
+
+Blocked accounts should not be able to react (upvote/downvote) or comment on the posts of a blog they are blocked at. On UI part it should be possible to see a list of blocked accounts on a blog page.
+
+Possible storage (Scope equals to Blog here:
+
+```
+pub type ScopeId = u64;
+
+pub IsAccountBlockedInScope get(is_account_blocked_by_scope): map hasher(blake2_256) (ScopeId, T::AccountId) => bool = false;
+
+pub BlockedAccountsByScope get(blocked_accounts_by_scope): map hasher(blake2_256) ScopeId => BTreeSet<T::AccountId>;
+```
+
+Possible extrinsics:
+
+```rust
+/// Only a blog owner can block an account
+/// if this account is unblocked in this blog yet.
+pub fn block_account(
+    origin,
+    scope_id: ScopeId,
+    subject_acc: T::AccountId
+) {}
+
+/// Only a blog owner can block an account,
+/// if this account is blocked in this blog now.
+pub fn unblock_account(
+    origin,
+    scope_id: ScopeId,
+    subject_acc: T::AccountId
+) {}
+```
+
+#### UI: Bump Polkadot.js libs:
+ 
+Bump Polkadot.js libs and fix a lot of breaking issues that will pop up after this.
+
+#### UI: Refactor Subsocial's custom Substrate types:
+ 
+Refactor Subsocial's custom Substrate types to new format of how they should be described to use them with newest Polkadot.js API.
+
+#### UI: Integrate with Polkadot extension:
+
+Integrate UI with Polkadot.js browser extension. This will allow users to sign their Subsocial transactions via Polkadot.js extension.
+
+#### UI: Use multi-query to optimize data fetching from Substrate:
+
+Optimize data fetching from Substarte's storage: Use a **multi query** API to fetch the arrays of comments, posts or blogs with a single Substrate query. This means that the code that currently makes multiple requests to Substrate node to get data from its storage via `api.query.[pallet].[storage]()` should be refactored to `api.query.[pallet].[storage].multi()` – that is one request.
+
+#### UI: New feature: Move a post from one blog to another:
+
+A user (a post author) should be able to move their post from one blog to another. A user that is moving the post should own both blogs.
+
+#### Documentation & Docker:
+
+Both documentation and Docker containers should be updated to reflect new features and changes introduced in this milestone.
+
+### Milestone 2 - Kusama integration
+
+#### Substrate: Make off-chain data generic
+
+Make a field with **off-chain data** on such structures as `Blog` and `Post` more generic. Currently, every `Blog` adn `Post` has such fied as `ipfs_hash: Vec<u8>` where we store IPFS hash of off-chain content related to blog or post. It should be possible to specify not only IPFS hash, but also DAT id or a tuple of table with id of a private database (ex. MongoDB) in blog or post structures.
+
+What we have now:
+
+```rust
+pub struct Blog<T: Trait> {
+    // ...
+    pub ipfs_hash: Vec<u8>
+}
+
+pub struct Post<T: Trait> {
+    // ...
+    pub ipfs_hash: Vec<u8>
+}
+```
+
+This should be changed to something like this:
+
+```rust
+enum Payload {
+    IpfsHash(Vec<u8>),
+    DatId(Vec<u8>),
+    PrivateDb(
+        /// Table or collection name.
+        Vec<u8>,
+
+        /// Unique id in a table (relational DBs)
+        /// or document id (NoSQL DBs).
+        Vec<u8>
+    )
+}
+
+pub struct Blog<T: Trait> {
+    // ...
+    pub payload: Payload
+}
+
+pub struct Post<T: Trait> {
+    // ...
+    pub payload: Payload
+}
+``` 
+ 
+#### UI: New type of posts specific to Kusama governance:
+
+It should be possible to attach to a post on Subsocial the info about Kusama events such as:
 - Runtime upgrade.
 - Referendum.
 - Treasury proposal.
 
-##### Other Kusama integrations:
+In other words, the author of a runtime upgrade or referendum/treasury proposal, should be able to write a description to their upgrade or proposal to Kusama on Subsocial. And anyone else, that has a profile on Subsocial, will be able to comment on it.
 
-Show labels along with account address or space name: `Validator`, `Council member`, `Proposer`, etc.
+#### UI: Support Kusama Identity pallet:
 
-Integrate with Kusama Identity pallet: show such fields like Twitter, Riot, etc. plus show a `Verified` sign from registrars on a space page and preview in comments.
+Integrate with **Kusama Identity pallet**: Show such fields like Twitter, Riot handle, etc. plus show a `Verified` sign from Kusama registrars on Subsocial profiles' pages and profiles' previews in comments sections under the posts.
 
-#### Documentation & Docker:
+#### UI: Show Kusama role labels on profiles:
 
-Both documentation and Docker containers should be updated to reflect new features and changes introduced in this milestone.
+Show **role labels** along with account address or profile name: `Validator`, `Council member`, `Proposer`, etc. The info for labels should be based on the live chain info from Kusama nodes. Subsocial UI is going to connect to a selected Kusama node and get the info about the current list of validators, council members and proposers.
 
-### Milestone 2
+#### Off-chain: Upload images to IPFS and show on UI (a post page)
 
-#### Substrate Pallets
+IPFS: Support **uploading of images** when creating or editing a post. Currently, there is Edit Post form on Subsocial. There is a Markdown Editor that lets users to write posts in Markdown. Additionally to the text editing functionality, it should be possible to upload images to IPFS and attach them to the posts on Edit Post form. Then when rendering post, images should be inserted from IPFS into HTML.
 
-New pallet: **Post Tags**. Tag a post (up to 5-10 tags per post max). Tag names should be stored in Substrate and they should be unique per space. Tags with the same names but in different spaces are different tags with different ids.
+#### UI: New component: Profile/account activity:
 
-New pallet: **Poll**. Similar to polls on Twitter and Telegram. This kind of post is helpful in such situations when a proposer whants to ask Kusama/Polkadot community an opition about changin some parameter or other features update before making an actual proposal on-chain.
+New component: See **profile/account activity**. It should be possible to see a profile/account activity on their profile page. It should be possible to filter profile/account activity by activity type: Comments, Posts, Reactions, Follows, Blogs. This feature is similar to a user activity on Trello, GitHub or StackOverflow. This is essential functionality in order to shed more light on the good or bad actors in Kusama/Polkadot governance. *As a bonus:* this component could be integrated with other project(s) that show(s) analytics on Kusama/Polkadot governance.
 
-New pallet: **Mentions**. It should be possible to mention a space in a post by a space handle. On UI side the mentioning process should be similar to Twitter, when a user starts to type `@` and then a **@handle** of some space.
+Activity data will be loaded from off-chain storage stored in PostgreSQL tables. We already have tables for user activity, where we build personalized news feeds and notifications per account.
 
-#### Off-chain
+#### Substrate + UI: New feature: Hide blogs and posts:
 
-Improve offchain indexing of Substrate events (new space, post, reaction, etc). It should be possible to recover from a downtime of the offchain server and continue indexing of new spaces and post in order to create users' feeds and notifications.
-
-#### Front-End
-
-##### New React components:
-
-**Space Navigation Editor** like on Medium, where a space owner can specify what menu items they want to see on space layout. These menu items could be of different type: Outer URL, specific post, other space, posts filtered by tags.
-
-**Team Members**. If a space is an organization, it should be possible to specify who is on the team. This means that space owners should be able to create relationships between spaces: Organization Space <--> Team Member Space(s).
-
-**Space layout with navigation** menu and preview of team members, if this is an Organization Space.
-
-New type of post: **Poll**.
-
-Add tags to post in post editor.
-
-Sign up (unboarding).
-
-Sign in.
-
-##### User notifications:
-
-It should be possible to notify users about activity that they are subscribed to on other messengers and via in-browser push notifications. Looks like these ways of notificaiton are most popular withing Polkadot community:
-
-- Telegram (create a bot)
-- Riot (create a bot)
-- Web push
-
-##### New kinds of post:
-
-**Share a link** to outer site on Subsocial like you can share an outer link on Facebook, Twitter or Reddit. This should fetch a link preview and put its content on IPFS. This is sort of caching of fetched previews. Could be implemented as a new post extension "Link Preview". As a bonus: It could be possible to re-fetch a link preview.
-
-**Share a post** from Subsocial to outer social media sites like Facebook, Twitter, LinkedIn, Reddit, etc.
-
-##### Other UI features
-
-Support mentioning (@) in Markdown editor of post or comment. 
-
-Render mentions (in posts and comments) as a link to a corresponding space's page.
+Blog owners should be able to **hide their blogs and posts**: i.e. mark as them as `hidden` in Substrate storage. Substrate's web UI show respect this `hidden` field and don't show hidden entities on its UI. This also means that neither hidden blogs nor posts should not be included in users' feeds and notifications. 
 
 #### Documentation & Docker:
 
 Both documentation and Docker containers should be updated to reflect new features and changes introduced in this milestone.
-
-### Milestone 3
-
-#### Substrate Pallets
-
-Refactoring: Merge `Blog` and `Profile` Rust structs and their corresponding Substrate storages into a new `Space` struct. We found out that Blog and Profile structs share a lot. And such as we want to support other kinds of similar structs such as Project, Organization, Community, it makes sense to generalize them into a new extendable `Space` struct.
-
-Per-space score (reputation) of an account (space). This is way to secure good spaces (blogs) from bad actors that could cheat their score in a scammy spaces they own.
-
-New pallet: **Flag (report) a Post** to space moderators. Reports should be weighted by a per-space reputation of a reporting account (space). When reporting, an optiobal rationale could be provided.
-
-New pallet: **Topics** (part of `Tags` module). Topics can refer a group of related or alias Tags. Space owners should be able to created, and updated topics. Content of any topic should be saved on IPFS and can include a logo, name, description and related tags. CID of topic content's stored in a corresponding Substrate struct of a Topic.
-
-New pallet: **P2P Encrypted Messaging** aka one-to-one private on-chain (with content in IPFS) chat between two accounts.
-
-New pallet: **Recurring Payments** (aka paid subscriptions). A space owner(s) shoud be able to specifiy a beneficiary account that will receive recurring payments from the paid subscribers (aka fans). Fans (space followers) should be able to subscribe to any space that has paid subscriptions enabled. Every X blocks (specified by a space owner(s)), Y amount of native tokens should be transferred from every subscriber's account to a beneficiary account of a space. This pallet could be similar to [Ethereum ERC 1337](https://github.com/ethereum/EIPs/pull/1337) but still needs a research on what is the best way to implement it as a Substrate pallet.
-
-#### Off-chain
-
-Offchain + UI: Refactor the way how we build feed and notifications for users. Currently the offchain builds feed and notifications per account. But such as every account that wants to receive feed and notifications should have a space, it means that the offchain should build feed and notifications per space.
-
-Generate small compressed previews of uploaded images (space avatar, post cover image) and store them on IPFS. This is would help to load UI faster and make it lighter.
-
-Compress content of blog, post, comment when adding to IPFS. Look at such algos as snappy, lz4, deflate, etc. Maybe serialize content info with Proto Buffers instead of JSON? A research is required to understand if this makes sense in terms of CPU vs disk space consumption.
-
-#### Front-End
-
-##### New type of posts specific to Kusama governance:
-
-- Council application program.
-- Validator program.
-- Tip (reward awesome)
-
-##### Improvements: UX and accessibility
-
-UX: Onboarding process of new users. The process should be similar to what we see on Medium or Twitter: their UIs suggest a new user (right after a signup) to subscribe to tags / spaces (blogs) of interest.
-
-SEO: Generate a sitemap.xml for blogs and posts on server.
-  
-Add **i18n support**. Users should be able to switch UI to other supported languages. This doesn't mean that we are going to add translations per se, but rather to add support for internationalisation on UI.
-
-New screens: Posts of the Day/Week/Month/All time. This should be based on the amount of upvotes vs downvotes on posts of a certain period.
-
-**New UI themes**. Create a couple of modifications of our current UI theme or even adapt some open source HTML themes for blogs. Idea behind this feature is to show the community how flexible Subsocial is so they can fork it and create their own custom themes for their blogs/organizations.
-
-#### Documentation & Docker:
-
-Both documentation and Docker containers should be updated to reflect new features and changes introduced in this milestone.
-
-### Possible features (could be implemented)
-
-*Also we would like to implement the next features but not sure how much time and enffort it will take to implement all of the above features. So no promises here.*
-
-(**Maybe**) (Runtime): Split (refactor) Subsocial's mono pallet into a separate pallets: spaces (blogs), posts, reactions, follows, scores for a better re-usability and composability.
-
-(**Maybe**) (Runtime) Whitelist / blacklist tags that are allowed to use or restricted per space.
-
-(**Maybe**) (UI) Show notification bell on spaces that have new posts. (See on Reddit in side-menu).
-
-(**Maybe**) (Offchain) Add GraphQL support for feed and notifications. This would make it easier for the third-parties to integrate with Subsocial.
-
-(**Maybe**) (Runtime) Custom tx fee based on a score (reputation) of your space (account).
 
 ## Additional Information
 
@@ -236,7 +402,7 @@ Yes, applied for [the first technical grant](https://github.com/w3f/General-Gran
 
 ### Are there any other projects similar to yours?
 
-Steemit, Pepo, Pepeth, Voice (by EOS).
+Steemit, Pepeth, Akasha World, Voice (by EOS).
 
 ### How is your project different?
 
