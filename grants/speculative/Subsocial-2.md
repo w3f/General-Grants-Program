@@ -138,7 +138,7 @@ pub fn create_post(
     origin, 
     blog_id_opt: Option<BlogId>, 
     extension: PostExtension, 
-    ipfs_h`ash: Vec<u8>
+    ipfs_hash: Vec<u8>
 ) {}
 
 pub fn update_post(
