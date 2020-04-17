@@ -128,4 +128,5 @@ This page gives an overview of accepted grants and a link to their GitHubs. Keep
 - [BUIDL Labs](https://buidllabs.io/) - YieldScan Staking Dashboard ([GitHub](https://github.com/thevantageproject/))
 - BoBao Technologies - PolkaKey an electron app to generate Polkadot addresses + tutorials ([GitHub](https://github.com/w3finance/PolkaKey))
 - [Webassembly Security](https://webassembly-security.com/) - Improving security and resilience of WebAssembly runtimes ([GitHub](https://github.com/pventuzelo/wasm_runtimes_fuzzing))
-- [Finoa](https://finoa.io/) - C library for Substrate
+- [Finoa](https://finoa.io/) - C library for Substrate ([GitHub](https://github.com/finoabanking/substrate-c-tool))
+- [Crust Network](https://crust.network/) - Incentive layer protocol for decentralized storage ([GitHub](https://github.com/crustio))
