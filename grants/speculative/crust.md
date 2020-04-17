@@ -97,6 +97,12 @@ Dean is experienced in information security and blockchain technologies. Dean go
 4. Documentation
    - Finish technical white paper and publish on Crust website.
    - Provide wiki on how to explore Alphanet on GitHub.
+5. Open Source
+   - Provide a basic Github action including building and testing on Ubuntu in crustio/crust repo.
+   - Provide a basic Jenkins webhook including building and testing on Ubuntu in crustio/crust-tee repo.
+   - Provide a basic Github action including building on Ubuntu in crustio/crust-api repo.
+
+### Future Work
 
 ### M2: BetaNet - 8 weeks
 
