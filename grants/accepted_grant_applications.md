@@ -130,3 +130,4 @@ This page gives an overview of accepted grants and a link to their GitHubs. Keep
 - [Webassembly Security](https://webassembly-security.com/) - Improving security and resilience of WebAssembly runtimes ([GitHub](https://github.com/pventuzelo/wasm_runtimes_fuzzing))
 - [Finoa](https://finoa.io/) - C library for Substrate ([GitHub](https://github.com/finoabanking/substrate-c-tool))
 - [Crust Network](https://crust.network/) - Incentive layer protocol for decentralized storage ([GitHub](https://github.com/crustio))
+- [ETCDEV](https://emeraldpay.io/) - Polkadot Java Client ([GitHub](https://github.com/emeraldpay))
