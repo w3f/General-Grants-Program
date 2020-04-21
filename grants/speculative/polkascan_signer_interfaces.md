@@ -75,7 +75,7 @@ Please note the team also has other features and work items outside of this gran
     * docker-compose setup for at least Kusama network.
 
 ## Funds Required Overall
-30,000 USD
+30,000 USD. Willing to accept up to 70% of payment in vested DOTs.
 
 ### Timeline and Milestones
 This project will be executed in two full months and can commence as soon as the grant application is approved.
