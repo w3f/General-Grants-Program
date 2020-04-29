@@ -131,3 +131,4 @@ This page gives an overview of accepted grants and a link to their GitHubs. Keep
 - [Finoa](https://finoa.io/) - C library for Substrate ([GitHub](https://github.com/finoabanking/substrate-c-tool))
 - [Crust Network](https://crust.network/) - Incentive layer protocol for decentralized storage ([GitHub](https://github.com/crustio))
 - [ETCDEV](https://emeraldpay.io/) - Polkadot Java Client ([GitHub](https://github.com/emeraldpay))
+- [Zondax](http://zondax.ch/) - Ledger app for Polkadot/Kusama Phase 2 ([GitHub](https://github.com/ZondaX/ledger-polkadot))
