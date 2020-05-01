@@ -133,3 +133,4 @@ This page gives an overview of accepted grants and a link to their GitHubs. Keep
 - [ETCDEV](https://emeraldpay.io/) - Polkadot Java Client ([GitHub](https://github.com/emeraldpay))
 - [Zondax](http://zondax.ch/) - Ledger app for Polkadot/Kusama Phase 2 ([GitHub](https://github.com/ZondaX/ledger-polkadot))
 - [Soramitsu](https://soramitsu.co.jp/) - Polkaswap - “Uniswap” for the Polkadot ecosystem ([GitHub](https://github.com/soramitsu/polkaswap))
+- [LimeChain](https://github.com/LimeChain) - AssemblyScript SCALE Codec ([GitHub](https://github.com/LimeChain))
