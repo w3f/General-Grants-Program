@@ -95,7 +95,7 @@ This page gives an overview of accepted grants and a link to their GitHubs. Keep
 - [Celer](https://www.celer.network/) - Layer 2 Scaling Infrastructure ([GitHub](https://github.com/celer-network))
 - [Cryptoeconomics Lab](https://www.cryptoeconomicslab.com/) - Substrate adapter of Plasma child chain ([GitHub](https://github.com/cryptoeconomicslab))
 - [Centrifuge / ChainSafe](https://centrifuge.io/) - Substrate / Ethereum Bridge ([GitHub 1](https://github.com/centrifuge/) [Github 2](https://github.com/ChainSafe/ChainBridge))
-- Advanca - Privacy-preserving general-purpose compute/storage layer 
+- [Advanca](https://www.advanca.network/) - Privacy-preserving general-purpose compute/storage layer  ([GitHub](https://github.com/advanca))
 - [Nodle](https://nodle.io) - Securely identify, certify and verify IoT devices ([GitHub](http://github.com/NodleCode/))
 - [Figment](https://figment.network/) - DotHub: Information Hub for validators and delegators ([GitHub](https://github.com/figment-networks/dothub))
 - [Lunie](http://lunie.io/) - Web and mobile wallet ([GitHub](https://github.com/luniehq/lunie))
