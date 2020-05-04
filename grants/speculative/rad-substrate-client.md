@@ -7,14 +7,14 @@ Rad substrate client
 Substrate provides low-level RPC libraries to talk to nodes but nothing beyond.
 
 We’re building a functional Rust client to interact with nodes,
-that comes with domain objects, apis for constructing valid transactions, as well as
-an emulator for testing the runtime.
+that provides integration with domain objects, apis for constructing valid transactions, as well as
+an emulator for acceptance testing the runtime and client.
 
 ## Team members
 
 * Eleftherios Diakomichalis
 * Thomas Scholtes
-* Igor Zug
+* Igor Żuk
 * Nuno Alexandre
 
 ## Team Website	
@@ -41,8 +41,8 @@ Previously worked at SoundCloud, Contenful, Cosmos & more.
 
 ### Milestone 1 — Implement core functionalities — 1 month — $15,000
 
-We are developing a Rust client for substrate that provides concrete domain objects 
-as part of the SDK. By domain objects we mean, for example, a concrete type for a 
+We are developing a Rust client for substrate that provides integration with concrete domain objects 
+used in the Substrate runtime. By domain objects we mean, for example, a concrete type for a 
 transfer transaction, a type for the possible events and errors recorded by a transfer 
 transaction or a type for the account data stored on chain.
 
@@ -73,16 +73,19 @@ The emulator provides additional flexibility over using a running node to do dev
 
 We aim to make our client generic and reusable over the domain. This means that a
 different runtime implementation with different domain objects (transactions, state, events, errors) 
-can use the same client infrastructure.
+can use the same client infrastructure. We will write documentation and guides to make the client
+accessible to developers.
 
-### Milestone 3 — Documentation, user testing & performance improvements — 1 month — $15,000
+### Milestone 3 — User testing & advanced dApp functionality — 1 month — $15,000
 
-We aim to focus on documentation in order to improve the developer experience, as well as
-iterate over the core functionalities with more users beyond our team.
+We aim to learn from developers using the client what features and functionality
+they are missing most. A focus will be advanced dApp functionality and convenience, 
+for example transaction monitoring.
 
 ## Future Plans
 
 We will continue maintaining and evolving the client based on the ecosystem's needs.
+We’ll expand the client to be usable with light clients.
 
 ## Additional Information
 
