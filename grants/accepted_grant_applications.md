@@ -135,3 +135,4 @@ This page gives an overview of accepted grants and a link to their GitHubs. Keep
 - [Soramitsu](https://soramitsu.co.jp/) - Polkaswap - “Uniswap” for the Polkadot ecosystem ([GitHub](https://github.com/sora-xor/polkaswap-web))
 - [LimeChain](https://github.com/LimeChain) - AssemblyScript SCALE Codec ([GitHub](https://github.com/LimeChain))
 - [Insight](https://insightfellows.com/) - Load Balanced Endpoints ([GitHub](https://github.com/insight-infrastructure))
+- [Ethworks](https://ethworks.io/) - Polkadot.{js} Desktop Application ([GitHub](https://github.com/EthWorks/))
