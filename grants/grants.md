@@ -26,7 +26,6 @@ Technical grants are intended to fund **Polkadot** and **Substrate** specific pr
 
 * software development
 * research
-* the production of software documentation and technical education material
 
 For more specific information on our funding priorities, please view the [Polkadot Stack](./polkadot_stack.md) and take a look at the [accepted grant applications](https://github.com/w3f/Web3-collaboration/blob/master/grants/accepted_grant_applications.md).
 
