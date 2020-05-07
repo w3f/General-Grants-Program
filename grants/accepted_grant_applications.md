@@ -136,3 +136,5 @@ This page gives an overview of accepted grants and a link to their GitHubs. Keep
 - [LimeChain](https://github.com/LimeChain) - AssemblyScript SCALE Codec ([GitHub](https://github.com/LimeChain))
 - [Insight](https://insightfellows.com/) - Load Balanced Endpoints ([GitHub](https://github.com/insight-infrastructure))
 - [Ethworks](https://ethworks.io/) - Polkadot.{js} Desktop Application ([GitHub](https://github.com/EthWorks/))
+- [Usetech](http://usetech.com/blockchain.html) - NFT Tracking Module ([GitHub](https://github.com/usetech-llc/nft_parachain))
+- [Chevdor](https://www.chevdor.com/) - Polkabot ([GitHub](https://github.com/chevdor))
