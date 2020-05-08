@@ -138,3 +138,4 @@ This page gives an overview of accepted grants and a link to their GitHubs. Keep
 - [Ethworks](https://ethworks.io/) - Polkadot.{js} Desktop Application ([GitHub](https://github.com/EthWorks/))
 - [Usetech](http://usetech.com/blockchain.html) - NFT Tracking Module ([GitHub](https://github.com/usetech-llc/nft_parachain))
 - [Chevdor](https://www.chevdor.com/) - Polkabot ([GitHub](https://github.com/chevdor))
+- [Aleksandr Krupenkin](https://github.com/akru) - Haskell Web3 library ([GitHub](https://github.com/airalab/hs-web3))
