@@ -1,4 +1,4 @@
-# Web3 Foundation General Grants Program
+# General Grants Program
 
 <p align="center">
   <img src="../src/General_Grants_Program.png" style="width:1300px";>
