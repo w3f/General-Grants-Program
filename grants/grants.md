@@ -1,5 +1,9 @@
 # Web3 Foundation General Grants Program
 
+<p align="center">
+  <img src="../src/General_Grants_Program.png" style="width:1300px";>
+</p>
+
 As part of our commitment to promoting the Web3 ecosystem, we offer a comprehensive grants program focused on funding software development and research efforts related to **Polkadot** and **Substrate**. 
 
 For smaller technology grants up to **$30k**, which are tracked **transparently** on GitHub and disbursed in **bitcoin**, see our new [Open Grants Program](https://github.com/w3f/Open-Grants-Program). 
