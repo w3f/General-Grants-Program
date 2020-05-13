@@ -79,14 +79,75 @@ For the successful completion of this milestone we can define the following crit
     - “Core_execute_block” - Once called it will decode the Block Data parameters and return true. This function will be mocked in this first milestone.
     - “Core_initialize_block” - Once called it will decode its params. This function will be mocked in this first milestone. 
     - “BlockBuilder_apply_extrinsic” - Once called it will decode the Extrinsic param. This function will be mocked in this first milestone and will return an array of zero length (one byte zero value).
-    - “BlockBuilder_inherent_extrinsics” - Once called it will parse the Inherents-Data. This function will be mocked in this first milestone and return an empty array.
-The rest of the Entries (that are present in the specification) will be throwing unimplemented errors once called or mocked if it is required.
+    - “BlockBuilder_inherent_extrinsics” - Once called it will parse the Inherents-Data. This function will be mocked in this first milestone and return an empty array
+    - The rest of the Entries (that are present in the specification) will be throwing unimplemented errors once called or mocked if it is required.
 2. Extend the AssemblyScript SCALE library with the missing types that must be decoded.
 3. Compile the AssemblyScript into WASM blob and use it as a runtime in order verify that there is a successful communication between the Polkadot Host and the AS Runtime (although it won't be a functional one).
 4. We will provide both inline documentation of the code and a basic README tutorial describing how the WASM API Mock can be tested.
 
 **Full-Time Employees: 2**
+
 **Days: 15**
 
 ### Milestone 2 — Storage Module  — 18 days
 
+In this milestone we will implement the basic functionality for setting and getting storage from the AS Runtime using the Polkadot HOST API.
+
+For the successful completion of this milestone we must:
+1. Deliver the ability to:
+    - Set storage at a given key using the exposed “ext_storage_set” function
+    - Retrieve a storage value by a given key using the exposed “ext_storage_get” function
+    - Read a storage value by a given key and offset params using the exposed “ext_storage_read” function.
+    - Clear the storage of the given key and its value using the exposed “ext_storage_clear” function.
+    - Check whether a given key exists in the storage using the exposed “ext_storage_exists” function.
+2. Implement Accounts / Balances module such that:
+    - We are able to read the balance of an account
+    - We are able to change the balance of an account
+3. Extend the SCALE Library with the required types - Account / Balances.
+4. Be able to read the genesis account balances.
+5. Develop Unit tests for Storage Module read & write operations.
+6. Deliver both inline documentation of the code and a basic README tutorial describing how one can run the Storage Module tests.
+
+**Full-Time Employees: 2**
+
+**Days: 18**
+
+### Milestone 3 — Support for Aura consensus — 13 days
+
+In this milestone we will implement the Aura Module functionality into the AS Runtime.
+For the successful completion of this milestone we must:
+1. Implement the functionality for loading and setting the “authority list” defined in the genesis state.
+2. Implement Aura Runtime API “slot_duration” and “check_inherent” functions
+3. Develop Unit tests for the Aura module API.
+4. Deliver both inline documentation of the code and a basic README tutorial describing how one can run the Aura Runtime tests.
+5. Run our PoC Runtime using the Aura consensus.
+
+**Full-Time Employees: 2**
+
+**Days: 13**
+
+### Milestone 4 — State Transition function — 26 days
+
+In this milestone we will implement the State transition function into the AS Runtime. As part of the State transition function we will have to implement the previously mocked WASM API functions and more specifically, we must:
+1. Implement the “initialize_block”, “execute_block”, “finalize_block”, “apply_extrinsic”, “inherent_extrinsics”, “random_seed”, “validate_transaction”
+2. Develop Unit tests for the implemented runtime entries.
+
+For the successful completion of this milestone we must be able to run the PoC Runtime successfully. The runtime must be able to:
+1. Define genesis state and account balances
+2. Run its Aura consensus.
+3. Sync/Initialize/Execute blocks.
+4. Being able to process Account Balance transfers (Extrinsics)
+We will build a Docker image with our Substrate chain, using the PoC AS Runtime in order to demonstrate the functionality.
+
+**Full-Time Employees: 2**
+
+**Days: 26**
+
+### Future Plans
+After we deliver a PoC Runtime, we will evaluate the efforts for building alternative Runtimes and we will be able to provide feedback on the Polkadot Runtime specification and its integration with a Polkadot Host.
+
+Once we produce this PoC Runtime we would like to extend it and add more Modules and Pallets in the future. We would like to produce a framework that is well documented and is able to support developers in building their own AssemblyScript Runtimes.
+
+We will contact the AssemblyScript documentation maintainers to list the PoC Runtime and all of the utilities that we’ve implemented during this exploration period. This would benefit the AssemblyScript community as-well, as there are a lot of missing libraries.
+
+In mid to long term, LimeChain hopes to continuously add value to the Polkadot development community with further implementations, SDKs and libraries.
