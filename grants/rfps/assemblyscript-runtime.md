@@ -63,6 +63,8 @@ In addition to the ones listed above, anyone who wants to build AS runtime will 
 
 The diagram below will provide better understanding of the listed components.
 
+![runtime-diagram](https://raw.githubusercontent.com/LimeChain/General-Grants-Program/images-branch/grants/rfps/images/assemblyscript-runtime.jpg)
+
 We will start with the WASM API first, then we will proceed with implementing a Storage Module into the Runtime and the Aura module. Once we have all of these things we will implement the State transition function and all of its related dependencies. At the end of the development we should be able to run an Account-based chain using our PoC Runtime.
 
 The code will be released with Apache 2.0 license.
