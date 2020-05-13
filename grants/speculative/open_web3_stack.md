@@ -20,7 +20,15 @@ When we are building [Laminar](https://github.com/laminar-protocol) - synthetic 
 
 So we did the work to abstract and generalize all these common goodies, and we've been eating our own dog food so far. We now want to develop it further and open it up for wider communities to use and build upon. Specifically the three areas we are focusing on
 - **Open Runtime Module Library (ORML)**
+  - pallets: tokens, (multi) currencies, oracle, prices, auction, vesting, gradually-update, scheduled-update
+  - and more
 - **Guardian** generic monitoring framework
+  - The goal is to **by mere configuration**, we can set up a `Guardian` for a chain of concern, and a number of tasks for monitoring and execution
+  - tasks might be monitoring margin positions
+  - with arguments (e.g. monitor EUR and JPY pools)
+  - with conditions (if collateral < 110%)
+  - and actions (e.g. post to database service, or execute a script)
+  - See the intended outcome of Guardian [here](https://github.com/open-web3-stack/guardian/issues/1)
 - **Indexer** javascript library
   - it's developed with GraphQL API powered by Hasura
   - more lightweight and generic than existing projects e.g. usetech and polkastats, also lower level data handling are quite different, e.g. we are able to handle decode batch call
@@ -132,15 +140,6 @@ The team is made of experienced Substrate builders, various members are contribu
 | 1. | Basic Guardian feature complete | support Substrate generic chain tasks; able to configure by yaml |  
 | 2.  | Implementation for Kusama & Acala | Implement Substrate generic tasks e.g. query, implement Acala stablecoin tasks, e.g. monitor loans, various auctions; implement a bot example using task to monitor auction events, bid for auctions etc. |
 | 3.  | Documentation | Documentation, examples and tutorials will be provided for using these libraries | 
-
-**Guardian features**
-The goal is to **by mere configuration**, we can set up a `Guardian` for a chain of concern, and a number of tasks for monitoring and execution
-- tasks might be monitoring margin positions
-- with arguments (e.g. monitor EUR and JPY pools)
-- with conditions (if collateral < 110%)
-- and actions (e.g. post to database service, or execute a script)
-
-See the intended outcome of Guardian [here](https://github.com/open-web3-stack/guardian/issues/1)
 
 ### Milestone 3
 
