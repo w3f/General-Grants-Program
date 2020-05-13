@@ -58,47 +58,35 @@ Based on our research we have concluded that there are 3 major components that w
 - AssemblyScript SCALE Codec
 - Polkadot WASM API
 - Runtime Interface Client
+
 In addition to the ones listed above, anyone who wants to build AS runtime will have to implement Primitives and Modules depending on their use case. Most of the Primitives and Modules will be required in every Runtime (f.e Balances).
 
+The diagram below will provide better understanding of the listed components.
 
-Below we provide an **example roadmap**. In the descriptions it should be clear how the project is related to Substrate and/or Polkadot. We recommend that the scope of the work can fit within a 3 month period and that teams structure their roadmap as 1 month = 1 milestone. It is always best to describe the functionality we should expect, plus how we can check that such functionality exists in the product.
+We will start with the WASM API first, then we will proceed with implementing a Storage Module into the Runtime and the Aura module. Once we have all of these things we will implement the State transition function and all of its related dependencies. At the end of the development we should be able to run an Account-based chain using our PoC Runtime.
 
-For each milestone:
-* Please be sure to include a specification of the software. The level of detail must be enough so that we are able to test that the software meets the specification.
-* Please include total amount of funding requested per milestone. Funding can be in fiat (CHF, EUR or USD) or in DOTs. It can also be in a combination of fiat and DOTs. Please reach out to grants@web3.foundation to discuss what amount in fiat and DOTs would be appropriate for your project.
-* Please note that we require documentation (e.g. tutorials) in each milestone. This ensures that the code can be widely used by the community.
-* Please commit to providing a docker container for the delivery of your project. 
-* Please indicate the number of Full-Time Employees working on each milestone, and include the number of days along with their cost per day.
+The code will be released with Apache 2.0 license.
 
-### Milestone 1 — Implement Substrate Modules — 1 month — $10,000
-* We will create a Substrate module that will... (Please list the functions that will be coded for the first milestone).
-* We will deliver a working module, along with a simple tutorial that explains how a user can (for example) spin up one of our Substrate nodes. Once the node is up, it will be possible to send test transactions that will show how the new functionality works.
-* The code will have proper unit-test coverage to ensure functionality and robustness.
-* We will build a Docker image with (e.g.) our Substrate chain, demonstrating its functionality.
-* We will provide both inline documentation of the code and a basic tutorial describing how the software can be used and tested.
+Keep in mind that the estimates for the implementation of each milestone takes into account that AssemblyScript is not mature and a lot of the basic language utils do not exist. They must be implemented.
 
-### Milestone 2 — Additional features — 1 month — $10,000
-* We will create a... (Describe the next round of features and functions that will be added).
-* We will deliver... (Explain how you will demonstrate that the functionality you built will work as intended).
-* The code will have proper unit-test coverage to ensure functionality and robustness.
-* We will build a Docker image with (e.g.) our Substrate chain, demonstrating its functionality.
-* We will provide both inline documentation of the code and a basic tutorial describing how the software can be used and tested.
+### Milestone 1 — WASM API Mock — 15 days
 
-### Milestone 3 — Additional features — 1 month — $10,000
-* We will create a... (Describe the next round of features and functions that will be added).
-* We will deliver... (Explain how you will demonstrate that the functionality you built will work as intended).
-* The code will have proper unit-test coverage to ensure functionality and robustness.
-* We will build a Docker image with (e.g.) our Substrate chain, demonstrating its functionality.
-* We will provide both inline documentation of the code and a basic tutorial describing how the software can be used and tested.
+The Polkadot Host requires the WASM blob to provide an API. In this milestone we will define the Polkadot WASM API entries in our PoC AssemblyScript Runtime.
 
-## Future Plans
-* Please include the team's long-term plans and intentions.
+For the successful completion of this milestone we can define the following criteria:
+1. Deliver a mocked Polkadot HOST API in AssemblyScript. We will not implement all of the entries. More specifically:
+    - “Core_version” - Once called it will return the WASM runtime information as per the specification.
+    - “Core_execute_block” - Once called it will decode the Block Data parameters and return true. This function will be mocked in this first milestone.
+    - “Core_initialize_block” - Once called it will decode its params. This function will be mocked in this first milestone. 
+    - “BlockBuilder_apply_extrinsic” - Once called it will decode the Extrinsic param. This function will be mocked in this first milestone and will return an array of zero length (one byte zero value).
+    - “BlockBuilder_inherent_extrinsics” - Once called it will parse the Inherents-Data. This function will be mocked in this first milestone and return an empty array.
+The rest of the Entries (that are present in the specification) will be throwing unimplemented errors once called or mocked if it is required.
+2. Extend the AssemblyScript SCALE library with the missing types that must be decoded.
+3. Compile the AssemblyScript into WASM blob and use it as a runtime in order verify that there is a successful communication between the Polkadot Host and the AS Runtime (although it won't be a functional one).
+4. We will provide both inline documentation of the code and a basic README tutorial describing how the WASM API Mock can be tested.
 
-## Additional Information
-Any additional information that you think is relevant to this application that hasn't already been included.
+**Full-Time Employees: 2**
+**Days: 15**
 
-Possible additional information to include:
-* What work has been done so far?
-* Are there are any teams who have already contributed (financially) to the project?
-* Have you applied for other grants so far?
-* Are there any other projects similar to yours? If so, how is your project different?  
+### Milestone 2 — Storage Module  — 18 days
+
