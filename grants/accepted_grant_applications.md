@@ -141,3 +141,4 @@ This page gives an overview of accepted grants and a link to their GitHubs. Keep
 - [Aleksandr Krupenkin](https://github.com/akru) - Haskell Web3 library ([GitHub](https://github.com/airalab/hs-web3))
 - [WEB3SCAN](https://www.web3scan.com/) - Polkascan Signer Interfaces ([GitHub](https://github.com/polkascan))
 - [Fortmatic](https://fortmatic.com/) - SDK + Burner Wallet to implement Web 2.0 login for dapps ([GitHub](https://github.com/fortmatic))
+- [PureStake](https://www.purestake.com/) - Web3 Compatible API ([GitHub](https://github.com/PureStake))
