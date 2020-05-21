@@ -4,7 +4,7 @@
   <img src="./src/General_Grants_Program.png" style="width:1300px";>
 </p>
 
-As part of our commitment to promoting the Web3 ecosystem, we offer a comprehensive grants program focused on funding software development and research efforts related to **Polkadot** and **Substrate**. 
+As part of our commitment to promoting the Web3 ecosystem, we offer a comprehensive grants program focused on funding software development and research efforts related to **Polkadot**, **Kusama** and **Substrate**. 
 
 For smaller technology grants up to **$30k**, which are tracked **transparently** on GitHub and disbursed in **bitcoin**, see our new [Open Grants Program](https://github.com/w3f/Open-Grants-Program). 
 
@@ -16,6 +16,7 @@ For smaller technology grants up to **$30k**, which are tracked **transparently*
   - [Documentation](#documentation)
   - [Who we are interested in funding](#who-we-are-interested-in-funding)
 - [:pencil: Process](#pencil-process)
+- [:mailbox_with_mail: RFP Proposal](#mailbox_with_mail-rfp-proposal)
 - [:bulb: Help](#bulb-help)
   - [Additional information](#additional-information)
   - [Real-time conversation](#real-time-conversation)
@@ -99,6 +100,16 @@ If you are considering applying for a grant, please follow the process below.
   * Established teams with a track record
 * Researchers
   * Universities/Professors
+
+## :mailbox_with_mail: RFP Proposal
+
+If you are developing a project related to **Polkadot**, **Kusama** and/or **Substrate** and you think that certain tools/projects are missing in our [Polkadot Stack](./grants/polkadot_stack.md), feel free to submit an RFP proposal as descriptive below. We will check your proposal. If we think it’s useful for our ecosystem, we will create an RFP based on your proposal and try to find teams that might be interested in working on the RFP.  
+
+1. Fork this repository.
+1. In the newly created fork, create a copy of the [proposal template](https://github.com/w3f/Web3-collaboration/blob/master/grants/proposal_template.md).
+1. Label the file as "project_name.md".
+1. Fill out the template with the details of your project.
+1. Once you have completed the application, click on "create new pull request".
 
 ## :bulb: Help
 
