@@ -142,3 +142,4 @@ This page gives an overview of accepted grants and a link to their GitHubs. Keep
 - [WEB3SCAN](https://www.web3scan.com/) - Polkascan Signer Interfaces ([GitHub](https://github.com/polkascan))
 - [Fortmatic](https://fortmatic.com/) - SDK + Burner Wallet to implement Web 2.0 login for dapps ([GitHub](https://github.com/fortmatic))
 - [PureStake](https://www.purestake.com/) - Web3 Compatible API ([GitHub](https://github.com/PureStake))
+- [Phala.Network](https://phala.network/) - Web3 Analytics ([GitHub](https://github.com/Phala-Network/))
