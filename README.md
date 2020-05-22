@@ -103,7 +103,7 @@ If you are considering applying for a grant, please follow the process below.
 
 ## :mailbox_with_mail: RFP Proposal
 
-If you are developing a project related to **Polkadot**, **Kusama** and/or **Substrate** and you think that certain tools/projects are missing in our [Polkadot Stack](./grants/polkadot_stack.md), feel free to submit an RFP proposal as descriptive below. We will check your proposal. If we think it’s useful for our ecosystem, we will create an RFP based on your proposal and try to find teams that might be interested in working on the RFP.  
+If you are developing a project related to **Polkadot**, **Kusama** and/or **Substrate** and you think that certain tools/projects are missing in our [Polkadot Stack](./grants/polkadot_stack.md), feel free to submit an RFP proposal as described below. We will check your proposal. If we believe it’s useful for our ecosystem, we will create an RFP based on your idea and try to find teams that might be interested in working on the RFP.  
 
 1. Fork this repository.
 1. In the newly created fork, create a copy of the [proposal template](./grants/proposal_template.md).
