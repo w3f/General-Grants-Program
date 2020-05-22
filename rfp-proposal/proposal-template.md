@@ -11,7 +11,7 @@ Please describe exactly what and why you are interested in this RFP. Make sure t
 
 ## Deliverables :nut_and_bolt:
 
-Please list the potential deliverables of the project as detailed as possible. If possible please also estimate the required work and potential milestones below. 
+Please list the potential deliverables of the project as detailed as possible. If possible, please also estimate the required work and potential milestones below. 
 
 * **Total Estimated Duration:** Duration of the whole project
 * **Full-time equivalent (FTE):**  Workload of an employed person ([see](https://en.wikipedia.org/wiki/Full-time_equivalent)) 
@@ -29,4 +29,3 @@ Please add additional milestones in the same way.
 | ------------- | ------------- | ------------- |
 | 1. | Title of the deliverable | Please describe the deliverable here as detailed as possible |  
 | 2.  | ... |...|  
-
