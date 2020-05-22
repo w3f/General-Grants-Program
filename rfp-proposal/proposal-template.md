@@ -1,7 +1,7 @@
 # Title of the RFP Proposal
 
 * **Proposer:** GitHub username
-* **Project(s) your are currently working on** [related to Polkadot, Kusama and/or Substrate]: Link(s)
+* **Your Project(s):** [related to Polkadot, Kusama and/or Substrate]: Link(s)
 * **Projects you think this work could be useful for**: Link(s)
 * **Teams/People that could deliver the RFP** [optional]: Link(s)
 
