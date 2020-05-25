@@ -15,14 +15,13 @@ Please list the deliverables of the project in as much detail as possible. Pleas
 
 * **Total Estimated Duration:** Duration of the whole project
 * **Full-time equivalent (FTE):**  Amount of time (in days) required for a single person to complete this project ([see](https://en.wikipedia.org/wiki/Full-time_equivalent)) 
-* **Total Costs:** Amount of Payment in BTC for the whole project. The total amount of funding needs to be below the BTC equivalent of USD 30k at the time of submission.
-
+* **Total Costs:** Amount of Payment in USD for the whole project. 
 ### Milestone 1
 
 Please add additional milestones in the same way: 
 * **Estimated Duration:** Duration of milestone 1 
 * **FTE:**  Amount of time (in days) required for a single person to complete this milestone
-* **Costs:** Amount of Payment in BTC for milestone 1
+* **Costs:** Amount of Payment in USD for milestone 1
 
 
 | Number | Deliverable | Specification | 
