@@ -1,13 +1,13 @@
 # Title of the RFP Proposal
 
 * **Proposer:** GitHub username
-* **Your Project(s):** [related to Polkadot, Kusama and/or Substrate]: Link(s)
-* **Projects you think this work could be useful for**: Link(s)
+* **Your Project(s):** [optional]: Link(s)
+* **Projects you think this work could be useful for** [optional]: Link(s)
 * **Teams/People that could deliver the RFP** [optional]: Link(s)
 
 ## Project Description :page_facing_up: 
 
-Please describe exactly why you are proposing this RFP. Make sure to point out why it’s potentially useful for your project and whether or not it could be useful for other projects in the ecosystem.  
+Please describe exactly why you are proposing this RFP. Make sure to point out why it’s potentially useful for your project or other projects in the ecosystem.  
 
 ## Deliverables :nut_and_bolt:
 
