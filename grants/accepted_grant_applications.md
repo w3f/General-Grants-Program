@@ -143,3 +143,4 @@ This page gives an overview of accepted grants and a link to their GitHubs. Keep
 - [Fortmatic](https://fortmatic.com/) - SDK + Burner Wallet to implement Web 2.0 login for dapps ([GitHub](https://github.com/fortmatic))
 - [PureStake](https://www.purestake.com/) - Web3 Compatible API ([GitHub](https://github.com/PureStake))
 - [Phala.Network](https://phala.network/) - Web3 Analytics ([GitHub](https://github.com/Phala-Network/))
+- [TerenceGe](https://github.com/TerenceGe) - C implementation of Schnorrkel ([GitHub](https://github.com/TerenceGe/sr25519-donna))
