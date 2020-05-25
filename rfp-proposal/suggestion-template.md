@@ -1,4 +1,4 @@
-# Title of the RFP Suggestion
+# Title of the RFP Proposal
 
 * **Proposer:** GitHub username
 * **Your Project(s):** [related to Polkadot, Kusama and/or Substrate]: Link(s)
@@ -7,25 +7,24 @@
 
 ## Project Description :page_facing_up: 
 
-Please describe exactly what and why you are interested in this RFP. Make sure to point out why it’s potentially useful for your project, but also for other projects in our ecosystem.  
+Please describe exactly why you are proposing this RFP. Make sure to point out why it’s potentially useful for your project and whether or not it could be useful for other projects in the ecosystem.  
 
 ## Deliverables :nut_and_bolt:
 
-Please list the potential deliverables of the project as detailed as possible. If possible, please also estimate the required work and potential milestones below. 
+Please list the deliverables of the project in as much detail as possible. Please also estimate the amount of work required and try to divide the project into meaningful milestones.
 
 * **Total Estimated Duration:** Duration of the whole project
-* **Full-time equivalent (FTE):**  Workload of an employed person ([see](https://en.wikipedia.org/wiki/Full-time_equivalent)) 
-* **Total Costs:** Amount of Payment in BTC for the whole project. The total amount of funding needs to be below $30k at the time of submission.
-
+* **Full-time equivalent (FTE):**  Amount of time (in days) required for a single person to complete this project ([see](https://en.wikipedia.org/wiki/Full-time_equivalent)) 
+* **Total Costs:** Amount of Payment in USD for the whole project. 
 ### Milestone 1
 
-Please add additional milestones in the same way. 
+Please add additional milestones in the same way: 
 * **Estimated Duration:** Duration of milestone 1 
-* **FTE:**  Workload of an employed person for milestone 1
-* **Costs:** Amount of Payment in BTC for milestone 1
+* **FTE:**  Amount of time (in days) required for a single person to complete this milestone
+* **Costs:** Amount of Payment in USD for milestone 1
 
 
 | Number | Deliverable | Specification | 
 | ------------- | ------------- | ------------- |
 | 1. | Title of the deliverable | Please describe the deliverable here as detailed as possible |  
-| 2.  | ... |...|  
+| 2.  | ... |...| 
