@@ -130,6 +130,7 @@ In the below sections you can find a list of different layers of the Polkadot St
 | High availability setup | [Archipel](https://github.com/luguslabs/archipel)
 | Deployment Tools| [Polkadot Package Manager](https://github.com/Blockdaemon/bpm-sdk), [PolkaHub](https://github.com/akropolisio/polkahub-monorepo), [Avado](https://github.com/AvadoDServer/AVADO-DNP-Polkadot-custom) 
 | Validator monitoring | [P.A.N.I.C.](https://github.com/SimplyVC/panic_polkadot), [Polkalert](https://github.com/galacticcouncil/polkalert), [B-Harvest](https://github.com/nodebreaker0-0/substrate/tree/prometheus_v0.3)   
+| Validator payout management | | [Bäckerei](https://github.com/cryptiumlabs/backerei)
 
 ### :black_nib: Signatures
 
