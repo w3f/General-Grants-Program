@@ -108,6 +108,7 @@ In the below sections you can find a list of different layers of the Polkadot St
 | Public Voting System | | [Consul](https://github.com/consul/consul)
 | Messaging | [HOPR](https://github.com/validitylabs/HOPR-PL-Substrate), [Mailchain](https://github.com/mailchain)
 | File Storage | [DatDot](https://github.com/playproject-io/datdot)
+| IPFS Module / Connector |
 | Name Service| [Substrate Names](https://github.com/xaya/substrate-names)
 | Computation | 
 | Enable specific use-cases | [Robonomics](https://github.com/airalab/substrate-node-robonomics)
