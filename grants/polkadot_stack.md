@@ -104,6 +104,7 @@ In the below sections you can find a list of different layers of the Polkadot St
 | Verifiable Claims | [KILT](https://github.com/KILTprotocol), [Dock](https://github.com/docknetwork) 
 | Supply chain| [Wiv](https://github.com/wivtech/Substrate-SupplyChain)
 | Social Networking | [SubSocial](https://github.com/dappforce/dappforce-subsocial)
+| News/Media Fakt Checking | 
 | Messaging | [HOPR](https://github.com/validitylabs/HOPR-PL-Substrate), [Mailchain](https://github.com/mailchain)
 | File Storage | [DatDot](https://github.com/playproject-io/datdot)
 | Name Service| [Substrate Names](https://github.com/xaya/substrate-names)
