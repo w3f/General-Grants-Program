@@ -102,12 +102,13 @@ If you are considering applying for a grant, please follow the process below.
   * Universities/Professors
 
 ## :mailbox_with_mail: RFP Suggestion
+If you think that we should sponsor the development of certain tools/projects related to **Polkadot**, **Kusama** and/or **Substrate** that aren't in the [Polkadot Stack](./grants/polkadot_stack.md) then feel free to submit an RFP suggestion using the process described below. We're particularly interested in supporting projects that could be leveraged by other builders in our ecosystem. We will review your proposal and if we believe it’s useful, we will create an RFP based on your idea and try to find teams to work on it.
 
-If you are developing a project related to **Polkadot**, **Kusama** and/or **Substrate** and you think that certain tools/projects are missing in our [Polkadot Stack](./grants/polkadot_stack.md), feel free to submit an RFP suggestion as described below. We will check your proposal. If we believe it’s useful for our ecosystem, we will create an RFP based on your idea and try to find teams that might be interested in working on the RFP.  
+Instructions for submitting an RFP suggestion:
 
 1. Fork this repository.
 1. In the newly created fork, create a copy of the [suggestion template](./rfp-proposal/suggestion-template.md).
-1. Label the file as "project_name.md".
+1. Label the file as "*project_name*.md" where *project_name* is the name of your project.
 1. Fill out the template with the details of your project.
 1. Once you have completed the application, click on "create new pull request".
 
