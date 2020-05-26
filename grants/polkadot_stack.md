@@ -105,7 +105,7 @@ In the below sections you can find a list of different layers of the Polkadot St
 | Supply chain| [Wiv](https://github.com/wivtech/Substrate-SupplyChain)
 | Social Networking | [SubSocial](https://github.com/dappforce/dappforce-subsocial)
 | News/Media Fakt Checking | 
-| Public Voting System | | [Consul](https://github.com/consul/consul)
+| Public Voting System | | [Consul](https://github.com/consul/consul) - Open Government and E-Participation Web Software
 | Messaging | [HOPR](https://github.com/validitylabs/HOPR-PL-Substrate), [Mailchain](https://github.com/mailchain)
 | File Storage | [DatDot](https://github.com/playproject-io/datdot)
 | IPFS Module / Connector |
