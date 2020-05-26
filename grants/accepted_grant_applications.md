@@ -144,3 +144,4 @@ This page gives an overview of accepted grants and a link to their GitHubs. Keep
 - [PureStake](https://www.purestake.com/) - Web3 Compatible API ([GitHub](https://github.com/PureStake))
 - [Phala.Network](https://phala.network/) - Web3 Analytics ([GitHub](https://github.com/Phala-Network/))
 - [TerenceGe](https://github.com/TerenceGe) - C implementation of Schnorrkel ([GitHub](https://github.com/TerenceGe/sr25519-donna))
+- [Adoriasoft](https://adoriasoft.com/) - Cosmos-SDK Parachain Development Kit ([GitHub](https://github.com/adoriasoft/cosmos-sdk))
