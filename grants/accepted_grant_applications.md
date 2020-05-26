@@ -52,7 +52,7 @@ This page gives an overview of accepted grants and a link to their GitHubs. Keep
 -   [Centrifuge](https://centrifuge.io/) - Substrate Go API client ([GitHub](http://github.com/centrifuge))
 -   [Litentry](https://www.litentry.com/) - Identity modules and corresponding UIs ([GitHub](https://github.com/litentry/litentry-runtime))
 -   [DappForce](http://dappforce.io) - SubSocial - Substrate module and web UI for decentralized communities ([GitHub](https://github.com/dappforce/dappforce-subsocial))
--   [pLibra ](https://plibra.io/)- Bridge between Polkadot and a Libra chain ([GitHub](https://github.com/libra-china-org))
+-   [Phala.Network](https://phala.network/) - pLibra, Privacy Bridge between Polkadot and Libra chain ([GitHub](https://github.com/Phala-Network/)
 -   [Wiv ](http://wiv.io/)- Supply chain modules and front-end UI ([GitHub](https://github.com/wivtech))
 
 ## Wave 4
