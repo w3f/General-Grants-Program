@@ -84,8 +84,7 @@ In the below sections you can find a list of different layers of the Polkadot St
 | Smart Contract Security |   
 | Easy integration testing |   
 | Performance Testing |  [MixBytes Tank](https://github.com/mixbytes/tank)
-| Parachain Chaos Testing |
-| Parachain Fuzzy Testing |
+| Chaos/Fuzz Testing |
 
 ### :link: Chains and Modules
 
