@@ -84,6 +84,8 @@ In the below sections you can find a list of different layers of the Polkadot St
 | Smart Contract Security |   
 | Easy integration testing |   
 | Performance Testing |  [MixBytes Tank](https://github.com/mixbytes/tank)
+| Parachain Chaos Testing |
+| Parachain Fuzzy Testing |
 
 ### :link: Chains and Modules
 
@@ -102,8 +104,11 @@ In the below sections you can find a list of different layers of the Polkadot St
 | Verifiable Claims | [KILT](https://github.com/KILTprotocol), [Dock](https://github.com/docknetwork) 
 | Supply chain| [Wiv](https://github.com/wivtech/Substrate-SupplyChain)
 | Social Networking | [SubSocial](https://github.com/dappforce/dappforce-subsocial)
+| News/Media Fakt Checking | 
+| Public Voting System | | [Consul](https://github.com/consul/consul) - Open Government and E-Participation Web Software
 | Messaging | [HOPR](https://github.com/validitylabs/HOPR-PL-Substrate), [Mailchain](https://github.com/mailchain)
 | File Storage | [DatDot](https://github.com/playproject-io/datdot)
+| IPFS Module / Connector |
 | Name Service| [Substrate Names](https://github.com/xaya/substrate-names)
 | Computation | 
 | Enable specific use-cases | [Robonomics](https://github.com/airalab/substrate-node-robonomics)
@@ -128,6 +133,7 @@ In the below sections you can find a list of different layers of the Polkadot St
 | High availability setup | [Archipel](https://github.com/luguslabs/archipel)
 | Deployment Tools| [Polkadot Package Manager](https://github.com/Blockdaemon/bpm-sdk), [PolkaHub](https://github.com/akropolisio/polkahub-monorepo), [Avado](https://github.com/AvadoDServer/AVADO-DNP-Polkadot-custom) 
 | Validator monitoring | [P.A.N.I.C.](https://github.com/SimplyVC/panic_polkadot), [Polkalert](https://github.com/galacticcouncil/polkalert), [B-Harvest](https://github.com/nodebreaker0-0/substrate/tree/prometheus_v0.3)   
+| Validator payout management | | [Bäckerei](https://github.com/cryptiumlabs/backerei) - Automated reward payment & account management for Tezos bakers
 
 ### :black_nib: Signatures
 
