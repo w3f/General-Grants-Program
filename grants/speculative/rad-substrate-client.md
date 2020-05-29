@@ -10,6 +10,21 @@ We’re building a functional Rust client to interact with nodes,
 that provides integration with domain objects, apis for constructing valid transactions, as well as
 an emulator for acceptance testing the runtime and client.
 
+The key difference between the `scs` client and the goal for our client is that the former provides access to the API dynamically based on the metadata information exposed by the runtime. This in contrast to our client which uses the static runtime information through Rust types.
+
+For example when using `compose_extrinsic!` the module and call are determined by strings and the call arguments can be of any type. It is not possible to enforce validity statically. On the contrary, it is possible to use a call name that does not exist or use fewer or more arguments than expected or arguments of a different type.
+
+Similarly dealing with state storage relies on the user of the client providing storage prefixes manually as strings and choosing the decoding implementation. This is error prone and tedious to repeat for every piece of storage.
+
+The `scs` client cannot be used for generic runtime. Composing valid extrinsics only works if the [`SignedExtension`][signed-extension] data for the runtime is the same as used by the client. The client does not provide APIs for dealing with arbitrary signed extensions.
+
+There are also some design and implementation decisions that hamper the maintainability in the long run and make it prohibitively expensive to extend the library to match our goals.
+
+- Almost none of the provided methods of the client provide any error information.
+- The client is not using the RPC libraries used by the substrate node. Instead the implementation hard codes the messages and responses on the RPC layer.
+- The code heavily relies on macros which makes it harder to maintain and use for developers.
+- The client provides native support for contracts and accounts. Without a generic approach this might break subtly between different runtime implementations and needs to be constantly maintained.
+
 ## Team members
 
 * Eleftherios Diakomichalis
@@ -76,11 +91,10 @@ different runtime implementation with different domain objects (transactions, st
 can use the same client infrastructure. We will write documentation and guides to make the client
 accessible to developers.
 
-### Milestone 3 — User testing & advanced dApp functionality — 1 month — $15,000
-
-We aim to learn from developers using the client what features and functionality
-they are missing most. A focus will be advanced dApp functionality and convenience, 
-for example transaction monitoring.
+- in our codebase, we will use the code as a third party library, so we can show that the library is completely decoupled
+- we will deliver a "how to get started" guide that explains how you can use the client with the runtime from one of the Substate tutorials (like Substrate cryptokitties or Substrate collectibles -- please let us know which one to use--) 
+- we will provide complete documentation for the client
+- finally, we will write a blogpost on how to use the client to write acceptance tests for the whole stack
 
 ## Future Plans
 
