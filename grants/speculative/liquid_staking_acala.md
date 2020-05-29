@@ -30,7 +30,7 @@ This project is a collaboration of Laminar and Polkawallet through the Acala Fou
 * Bette Chen (Operations & Product | Part-time)
 * Antonia Chen (Chief Economist | Part-time)
 * Shaun Wang (Rust developer | Full-time)
-* Jingbo Zhang (Rust developer | Part-time)
+* Jingbo Zhang (Rust developer | Full-time)
 
 ## Team Website 
 * https://acala.network
