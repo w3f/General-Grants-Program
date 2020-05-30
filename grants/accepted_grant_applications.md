@@ -146,3 +146,4 @@ This page gives an overview of accepted grants and a link to their GitHubs. Keep
 - [TerenceGe](https://github.com/TerenceGe) - C implementation of Schnorrkel ([GitHub](https://github.com/TerenceGe/sr25519-donna))
 - [Adoriasoft](https://adoriasoft.com/) - Cosmos-SDK Parachain Development Kit ([GitHub](https://github.com/adoriasoft/cosmos-sdk))
 - [Laminar One](https://laminar.one/) - Reusable Libraries: Runtime Modules + Monitoring Framework ([GitHub](https://github.com/open-web3-stack))
+- [yxf](https://github.com/yxf) - Subwallet: CLI wallet for Polkadot/Substrate ([GitHub](https://github.com/yxf/subwallet))
