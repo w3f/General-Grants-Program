@@ -121,11 +121,8 @@ impl Default for PostExtension {
 Updated storage for comments will look something like this:
 
 ```
-/// Direct comments to the post.
-pub RootCommentIdsByPostId get(root_comment_ids_by_post_id): map PostId => Vec<PostId>;
-
-/// Replies to the direc comments.
-pub CommentIdsByRootCommentId get(comment_ids_by_root_comment_id): map PostId => Vec<PostId>;
+/// Ids of direct replies by a parent post id.
+pub ReplyIdsByPostId get(fn reply_ids_by_post_id): map PostId => Vec<PostId>;
 ```
 
 Updated extrinsics for posts/comments creation/editing:
