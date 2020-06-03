@@ -22,9 +22,6 @@ https://github.com/dappforce/dappforce-subsocial-ui/commits?author=mell-old
 **Vlad** – Back-end Developer (Rust, C++). Vlad writes SRML and tests for Subsocial. His main contribution to this project can be found in Substrate runtime repo:
 https://github.com/dappforce/dappforce-subsocial-runtime/commits?author=F3Joule
 
-**Aleksandr** – Front-end Developer (TypeScript, React). Aleksandr develops UI for Subsocial. His main contribution to this project can be found in pull requests to Subsocial UI repo:
-https://github.com/dappforce/dappforce-subsocial-ui/pulls?q=is%3Apr+author%3Asagaidak+
-
 ## Team Website
 
 https://github.com/dappforce
