@@ -392,7 +392,7 @@ The proposed solution implements the NFT transaction logic natively in the appli
 To define native NFT and NFT Wallet interfaces, build base modules implementing NFT, NFT wallet interfaces. Build a more refined implementation of the NFT interface, i.e. interNFT and a wallet with interchain maintenance and ownership transfer features(No funding requested for interNFT module implementation).
 
 ### Funds Required 
-30,000 USD
+30,000 USD(50% as vested DOTs)
 
 ### Time Required 
 8 Weeks + Maintenance(including interNFT implementation)
@@ -505,3 +505,6 @@ The standard has been designed for multi-chain NFT interoperability and exchange
 * Issue non-tradable certificates and badges
 * To tokenize an asset and use ownership transfer to represent collateralization 
 * As inputs for WASM contracts and more complex business logic
+
+### Related Work:
+* Usetech: NFT Parachain (https://github.com/usetech-llc/nft_parachain)
