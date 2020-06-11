@@ -52,7 +52,7 @@ BOSCore team has broad range of experience and proven track record for deliverin
 
 | Number | Deliverable | Specification | 
 | ------------- | ------------- | ------------- |
-| 1. | Reseach Feasibility and Technical Design | Research and exstablish feasibility of the project and create new version 2 of principle and design document that includes specifics relative to BOSCore Polkadot Bridge Project. |  
+| 1. | Reseach Feasibility and Technical Design | Research and exstablish feasibility of the project and create draft version 2 [Google doc: IBC Pinciple and Design v2](https://docs.google.com/document/d/16fhTOZ9EA7L7A0cIuz1XnSGAM0HyppdjlweDebsoif4/edit?usp=sharing) and start to include specifics relative to BOSCore Polkadot Bridge Project. |  
 | 2. | Project Research | Research Polkadot project through reading the various papers and documents. |  
 | 3. | Feasibility and Review | Team review of the feasibility after researching core tech stack|  
 | 4. | Update Documentation |  Outline project plan and initial document [Google doc: BOSCore Polkadot Bridge Project](https://docs.google.com/document/d/1vtQp_glynE6AcukZYqZfcapU8z-W7FWl4BNf42mUouU/edit?usp=sharing) |  
@@ -67,7 +67,7 @@ BOSCore team has broad range of experience and proven track record for deliverin
 | Number | Deliverable | Specification | 
 | ------------- | ------------- | ------------- |
 | 1. | Coding Smart Contracts and relays | Write and port WASM smart contracts and C++/Rust relays  |  
-| 2.  | Documentation | Finalize new version of the principle and design document and open-source to including applicable differences in consensus, finality, transaction data, signature addressing, block structures. [Google doc: IBC Pinciple and Design v2](https://docs.google.com/document/d/16fhTOZ9EA7L7A0cIuz1XnSGAM0HyppdjlweDebsoif4/edit?usp=sharing) Document the open source code with detailed github readme files for smart contract and relay deployment. | 
+| 2.  | Documentation | Finalize new version of the principle and design document and open-source to including applicable differences in consensus, finality, transaction data, signature addressing, block structures.  Document the open source code with detailed github readme files for smart contract and relay deployment. | 
 
 ### Milestone 3
 
