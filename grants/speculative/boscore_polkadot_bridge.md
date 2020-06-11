@@ -19,7 +19,7 @@ In summary, we will develop a bridge that connects the BOSCore IBC Network (Brid
 
 
 ## Team members
-* 1 Leon Sun 2 Win Lin, 3 Deadlock, 4 Simon Wang, 5 Vince Liu, 6 Katherine Fang, 7, John Chamberlain, 8 Vito Jiang 
+* 1 Leon Sun 2 Win Lin, 3 Deadlock, 4 Simon Wang, 5 Vince Liu, 6 Katherine Fang, 7 John Chamberlain, 8 Vito Jiang 
 
 
 ## Team Website	
