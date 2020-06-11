@@ -15,6 +15,8 @@ Since then, we have enabled the IBC systems HUB protocol and linked five public 
 
 We see advancements and innovation taking place in the ecosystem, that can lead to greater interoperability between different networks, and are keen to build a bridge linking BOSCore and EOSIO based parallel chains with Polkadot Parachains. Extending the functionality of bosibc so developers building multi-chain DApps can port their applications and leverage a more decentralized user-base spanning connected networks.
 
+From our research, we have identified requirements of the project to interact with hosted substrate parachains with smart contract functionality (Edgeware or Substrate built-in contract pallet) for the deployment of bridge contracts and modules to serve as a consensus adaptor to external chains. 
+
 In summary, we will develop a bridge that connects the BOSCore IBC Network (Bridge Chain) via a Polkadot Parachain hosted bridge. We can complete the development in a timely manner to meet project milestones and are motivated to contribute to the ecosystem.   
 
 
@@ -55,7 +57,7 @@ BOSCore team has broad range of experience and proven track record for deliverin
 | 1. | Reseach Feasibility and Technical Design | Research and exstablish feasibility of the project and create draft version 2 [Google doc: IBC Pinciple and Design v2](https://docs.google.com/document/d/16fhTOZ9EA7L7A0cIuz1XnSGAM0HyppdjlweDebsoif4/edit?usp=sharing) and start to include specifics relative to BOSCore Polkadot Bridge Project. |  
 | 2. | Project Research | Research Polkadot project through reading the various papers and documents. |  
 | 3. | Feasibility and Review | Team review of the feasibility after researching core tech stack|  
-| 4. | Update Documentation |  Outline project plan and initial document [Google doc: BOSCore Polkadot Bridge Project](https://docs.google.com/document/d/1vtQp_glynE6AcukZYqZfcapU8z-W7FWl4BNf42mUouU/edit?usp=sharing) |  
+| 4. | Update Documentation |  Outline project plan and initial document [Google doc: BOSCore Polkadot Bridge Project](https://docs.google.com/document/d/1hqTAl7ucTMG4tywXV8xjupsj2H1QksORW_qHmA2toGs/edit?usp=sharing) |  
 | 5. | Web 3 Foundation Grant Application |Decide on grant path (standard or open) and make relivant application, along with medium article describing the project and application. [Medium: BOSCore Polkadot Bridge Project](https://medium.com/boscore/boscore-polkadot-bridge-project-7fc77b48ab76)|  
 
 ### Milestone 2
@@ -66,7 +68,7 @@ BOSCore team has broad range of experience and proven track record for deliverin
 
 | Number | Deliverable | Specification | 
 | ------------- | ------------- | ------------- |
-| 1. | Coding Smart Contracts and relays | Write and port WASM smart contracts and C++/Rust relays  |  
+| 1. | Coding Smart Contracts and relays | Write and port WASM smart contracts and C++/Rust relays, dependencies include infrastucture for parachains with smart contract functionality  |  
 | 2.  | Documentation | Finalize new version of the principle and design document and open-source to including applicable differences in consensus, finality, transaction data, signature addressing, block structures.  Document the open source code with detailed github readme files for smart contract and relay deployment. | 
 
 ### Milestone 3
