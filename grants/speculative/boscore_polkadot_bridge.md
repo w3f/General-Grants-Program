@@ -3,7 +3,7 @@ BOSCore Polkadot Bridge
 ## Project Description
 BOSCore project is an open-source blockchain project that pays close attention to the needs of developers and users, since 2019, BOSCore has achieved development milestones to build a custom implementation of the EOSIO codebase while maintaining compatibility with the main branch of EOSIO. 
 
-Within days of the BOSCore (BOS) public blockchain going live, our developers had deployed the first IBC Inter-Blockchain Communication protocol for EOSIO. The IBC protocol enables interoperability for the transfer of tokens between BOSCore and EOS via relay nodes and decentralized light clients (bosibc) Smart Contracts coded in WASM, and uses a system of SPV and Merkle Tree Proof technologies.
+Within days of the BOSCore (BOS) public blockchain going live, our developers had deployed the first IBC Inter-Blockchain Communication protocol for EOSIO. The IBC protocol enables interoperability for the transfer of tokens between BOSCore and EOSIO via relay nodes and decentralized light clients (bosibc) Smart Contracts coded in WASM, and uses a system of SPV and Merkle Tree Proof technologies.
 
 To further advance our codebase, we developed Batch PBFT, a consensus algorithm achieving block finality speeds of 3-second and bench-marking 50 times faster with an insignificant overhead when compared to the default EOSIO consensus.
 
@@ -13,9 +13,9 @@ To further advance our codebase, we developed Batch PBFT, a consensus algorithm 
 
 Since then, we have enabled the IBC systems HUB protocol and linked five public EOSIO based chains (BOSCore, EOS, Telos, WAX, and YAS), this allows the transfer of system and custom tokens along with transaction memo data over the network. This functionality enables application developers to build and deploy multi-chain DApps. 
 
-We see advancements and innovation taking place in the ecosystem, that can lead to greater interoperability between different networks, and are keen to build a bridge linking EOSIO based parallel chains with Polkadot Parachains. Extending the functionality of bosibc so developers building multi-chain DApps can port their applications and leverage a more decentralized user-base spanning connected networks.
+We see advancements and innovation taking place in the ecosystem, that can lead to greater interoperability between different networks, and are keen to build a bridge linking BOSCore and EOSIO based parallel chains with Polkadot Parachains. Extending the functionality of bosibc so developers building multi-chain DApps can port their applications and leverage a more decentralized user-base spanning connected networks.
 
-In summary, we will develop a bridge that connects the BOSCore EOSIO IBC Network (Bridge Chain) via a Polkadot Parachain hosted bridge. We can complete the development in a timely manner to meet project milestones and are motivated to contribute to the ecosystem.   
+In summary, we will develop a bridge that connects the BOSCore IBC Network (Bridge Chain) via a Polkadot Parachain hosted bridge. We can complete the development in a timely manner to meet project milestones and are motivated to contribute to the ecosystem.   
 
 
 ## Team members
@@ -67,7 +67,7 @@ BOSCore core team has broad range of experience and proven track record for deli
 | Number | Deliverable | Specification | 
 | ------------- | ------------- | ------------- |
 | 1. | Coding Smart Contracts and relays | Write and port WASM smart contracts and C++/Rust relays  |  
-| 2.  | Documentation | Finalize new version of the principle and design document and open-source to including applicable differences in transaction data, signature addressing, block structures. [Google doc: IBC Pinciple and Design v2](https://docs.google.com/document/d/16fhTOZ9EA7L7A0cIuz1XnSGAM0HyppdjlweDebsoif4/edit?usp=sharing) Document the open source code with detailed github readme files for smart contract and relay deployment. | 
+| 2.  | Documentation | Finalize new version of the principle and design document and open-source to including applicable differences in consensus, finality, transaction data, signature addressing, block structures. [Google doc: IBC Pinciple and Design v2](https://docs.google.com/document/d/16fhTOZ9EA7L7A0cIuz1XnSGAM0HyppdjlweDebsoif4/edit?usp=sharing) Document the open source code with detailed github readme files for smart contract and relay deployment. | 
 
 ### Milestone 3
 
