@@ -19,7 +19,7 @@ In summary, we will develop a bridge that connects the BOSCore IBC Network (Brid
 
 
 ## Team members
-* 1. Leon sun 2 Win Lin, 3 Deadlock, 4 Simon Wang, 5 Vince Liu, 6 Katherine Fang, 7, John Chamberlain, 8 Vito Jiang 
+* 1 Leon Sun 2 Win Lin, 3 Deadlock, 4 Simon Wang, 5 Vince Liu, 6 Katherine Fang, 7, John Chamberlain, 8 Vito Jiang 
 
 
 ## Team Website	
@@ -29,7 +29,7 @@ In summary, we will develop a bridge that connects the BOSCore IBC Network (Brid
 Shared privately via the Google Form application.
 
 ## Team's experience
-BOSCore core team has broad range of experience and proven track record for delivering solutions related to open-source, blockchain and information technology in general which includes managerial, design, systems engineering, smart contacts, systems analysis and community operations in the field. 
+BOSCore team has broad range of experience and proven track record for delivering solutions related to open-source, blockchain and information technology in general which includes managerial, design, systems engineering, smart contacts, systems analysis and community operations in the field. 
 
 ## Team Code Repos
 * [BOSCore](https://github.com/boscore), [Win Lin](https://github.com/winlin), [Deadlock](https://github.com/qianxiaofeng), [Simon Wang](https://github.com/vchengsong), [Vince Liu](https://github.com/oldcold), [Katherine Fang](https://github.com/eosbkk), [John Chamberlain](https://github.com/jtochamberlain), [Vito Jiang](https://github.com/vito-jwt)
