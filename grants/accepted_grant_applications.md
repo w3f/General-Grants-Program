@@ -148,3 +148,4 @@ This page gives an overview of accepted grants and a link to their GitHubs. Keep
 - [Laminar One](https://laminar.one/) - Reusable Libraries: Runtime Modules + Monitoring Framework ([GitHub](https://github.com/open-web3-stack))
 - [Faber](https://github.com/yxf) - Subwallet: CLI wallet for Polkadot/Substrate ([GitHub](https://github.com/yxf/subwallet))
 - [Equilibrium](https://equilibrium.co/) - offchain::ipfs ([GitHub](https://github.com/eqlabs))
+- [Snowfork](http://www.snowfork.com/) - Ethereum Bridge 
