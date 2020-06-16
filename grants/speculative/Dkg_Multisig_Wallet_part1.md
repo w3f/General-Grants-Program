@@ -92,33 +92,7 @@ Our prior projects and experience include: Crypto exchange Codex. Cassandra hist
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Total for Web server: 168h - 1 back-end developer (1 month)
 
-3. DKG library
-   * VSS (240h)
-      * Implement polynomial commitments with Lagrange interpolation - 72h
-         * NewPrivPoly
-         * RecoverSecret
-         * NewPubPoly
-      * Implement Dealer functionality (struct which will create shares and deals(set of data such polynomials, sessionID, threshold)) - 56h
-         * NewDealer
-         * EncryptDeal
-         * SecretCommit
-      * Implement Verifier functionality (struct which will receive deals from all the participants and verify it) - 96h
-         * NewVerifier
-         * ProcessEncryptedDeal
-      * Write unit tests - 16h
-   * DKG(320h)
-      * Integrate with VSS functionality - 16h
-      * Write functionality to create and process commitments of the secret polynomials - 56h
-         * NewDistKeyGenerator
-         * ProcessDeals
-         * ProcessSecretCommits
-      * Write reconstruction key functionality - 32h
-         * GenDistKeyShare
-      * Write unit tests - 16h
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Total for DKG library: 560h - 2 back-end developers (2.5 months)
-
-4. DSS library
+3. DSS library
    * Integrate with DKG functionality - 8h
    * Write functionality to produce and check partial signature - 62h
       * ProducePartialSig
@@ -130,9 +104,10 @@ Our prior projects and experience include: Crypto exchange Codex. Cassandra hist
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Total for DSS library: 240h - 1 back-end developer (1.5 month)
 
-5. Documentation
+4. Documentation
    * Write tutorial to build, test and run DKG functionality - 6h
    * Write instruction overall DKG wallet use - 6h
+   * Describe and document potential threat models - 10h
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Total for Documentation writing: 12h - 1 back-end developer (1.5 day)
 
@@ -141,9 +116,9 @@ Our prior projects and experience include: Crypto exchange Codex. Cassandra hist
 
 **1 frontend developer**
 
-**Total timeline: 1362 man-hours**
+**Total timeline: 812 man-hours**
 
-**Total project length: 5.5 months**
+**Total project length: 3.5 months**
 # Long-term plans
 We would like to continue developing tools and products for Polkadot.
 # Additional Information
