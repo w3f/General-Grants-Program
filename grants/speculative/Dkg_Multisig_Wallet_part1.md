@@ -1,5 +1,5 @@
 # Project Name
-Polkadot DKG multisig Wallet
+Polkadot DKG multisig Wallet part 1
 
 ## Project Description
 This is an application for development of a DKG multisig wallet. This project has been discussed with multiple members of the Web3 team, we have also recently finished a PSP regarding this project https://github.com/everstake/PSPs/tree/psp-dkg-multisig-wallet</br>  
