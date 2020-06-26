@@ -1,0 +1,243 @@
+# Polkadot Substrate Haskell API
+
+## Project Description
+
+We are building a Haskell API for Substrate and Polkadot. It will enable developers to read chain information, state, and block details, as well as sign and publish transactions via Haskell. This will also include a subscription API to connect to substrate nodes’ websocket endpoints and receive real-time data updates. A core feature of the API will be code generation tools for API metadata, providing type-safe interaction with any substrate node.
+Haskell is a statically typed, purely functional programming language that is great for building type-safe, performant programs quickly and reliably. Haskell’s active developer community and outright advantages as a language make it a valuable addition to the Polkadot ecosystem.
+
+By combining Template Haskell, a DSL for auto-generating Haskell code, with the API metadata, clients for any substrate API can be generated. Developers can easily interface with these APIs without burdensome boilerplate.
+
+We’re interested in this because we’re designing a parachain for non-fungible token metadata. We aim to solve the problem of metadata stored in central locations, such as a company’s own IPFS node, or private servers. Our parachain gives owners of NFTs the ability to also take ownership over the metadata, rather than relying on a trusted third party to host it.
+
+## Team members
+
+- Charles Crain
+- John Crain
+- Jonathan Perkins
+
+## Team Website
+
+- https://pixura.io
+
+## Legal Structure
+
+Information in Google form.
+
+## Team's experience
+
+The Pixura team has been building in the Ethereum and distributed systems space for several years. In 2018, they launched the NFT exchange [SuperRare.co](https://superrare.co), one of the most active collectibles projects on Ethereum. They also launched [platform.pixura.io](https://platform.pixura.io), a generalized tool to create P2P digital item marketplaces on Ethereum.
+The Pixura team has deep knowledge of distributed/decentralized applications, Haskell, Solidity, IPFS, and Ethereum, including open source contributions to [hs-web3](https://hs-web3.readthedocs.io/en/latest/) and the [Haskell Cosmos SDK](https://github.com/f-o-a-m/hs-abci). Short background on individual team members is below.
+
+Charles Crain will be the principal engineer leading development . He has worked in the Ethereum space for 4+ years, and has a diverse background in distributed systems. He worked extensively on a Haskell Ethereum node implementation as well work on JP Morgan’s Quorum. Charles designed and built the Ethereum indexer which feeds the data pipeline powering SuperRare and Pixura Platform. He is a frequent open source contributor, including work earlier this year on the Haskell implementation of Cosmos’ SDK.
+
+John Crain will be an engineer working on the project, focusing on design and architecture, and will be the main point of contact for the grant application. John has been in the blockchain space since 2015, when he joined NYC-based ConsenSys as a product engineer, and later was a founding member of enterprise Ethereum platform BlockApps.
+
+Jonathan Perkins will be an engineer on the project and will be in charge of project management and coordination. Jonathan is a full stack engineer with a background in product management. At Pixura, Jonathan has served as head of product, leading UI layer engineering and product strategy. Prior to co-founding Pixura, he worked as a software engineer at Reaktor, a global technology consultancy.
+
+## Team Code Repos
+
+- https://github.com/Pixura/pixura-contracts\
+- https://github.com/f-o-a-m/hs-abci
+- https://github.com/charlescrain/hs-web3/tree/raw-event-listener
+- https://github.com/charlescrain/eth-pruner
+- https://github.com/charlescrain/quorum
+
+## Team LinkedIn Profiles
+
+- https://www.linkedin.com/in/charles-crain-20a28871/
+- https://www.linkedin.com/in/johnacrain/
+- https://www.linkedin.com/in/jonathan-perkins-08057715/
+
+## Development Roadmap
+
+### Milestone 1
+
+#### Duration: 4 weeks
+
+#### Deliverables:
+
+- Live repo for Haskell Substrate/Polkadot API with a readme
+- Documentation that describes how to run and test
+- Docker environment with working local testnet
+- CI for building & testing
+- Haskell implementation of the SCALE codec (https://github.com/paritytech/parity-scale-codec)
+- Documentation for SCALE library
+- Type definitions for substrate types and codecs
+
+#### Payout: \$10,000 USD
+
+### Milestone 2
+
+#### Duration: 4 weeks
+
+#### Deliverables:
+
+- Basic Substrate RPC implementation
+- Tests for RPC implementation
+- Documentation for RPC library
+- Metadata parsing library
+- Tests for metadata parsing library
+- Template Haskell for generating clients based off of API metadata
+- Tests for template Haskell to create expected declarations
+
+#### Payout: \$10,000 USD
+
+### Milestone 3
+
+#### Duration: 4 weeks
+
+#### Deliverables:
+
+- Polkadot client generated by metadata
+- Tests for polkadot client
+- CLI tool for generating clients based off of node URL
+- Publish to Hackage & Stackage (Haskell open source package management & documentation hubs)
+- Tutorial w/ examples & diagrams
+
+#### Payout: \$10,000 USD
+
+## Additional Information
+
+### Specification Details
+
+#### RPC Endpoints
+
+##### Account Methods
+
+```haskell
+-- | RPC Method: account_nextIndex
+nextIndex :: AccountId -> m Index
+```
+
+##### Author Methods
+
+```haskell
+-- | RPC Method: author_insertKey
+insertKey :: KeyType -> SubstrateURI -> PublicKey -> m ByteString
+
+-- | RPC Method: author_pendingExtrinsics
+pendingExtrinsics :: m [Extrinsic]
+
+-- | RPC Method: author_removeExtrinsic
+removeExtrinsic :: [Extrinsic] -> m [Hash]
+removeExtrinsicByHash :: [Hash] -> m [Hash]
+
+-- | RPC Method: author_rotateKeys
+rotateKeys :: m ByteString
+
+-- | RPC Method: author_submitExtrinsic
+submitExtrinsic :: Extrinsic -> m Hash
+```
+
+##### Chain
+
+```haskell
+-- | RPC Method: chain_getBlock
+getBlock :: Maybe Hash -> m SignedBlock
+
+-- | RPC Method: chain_getBlockHash
+getBlockHash :: Maybe BlockNumber -> m Hash
+
+-- | RPC Method: chain_getFinalizedHead
+getFinalizedHead :: m Hash
+
+-- | RPC Method: chain_getHeader
+getHeader :: Maybe Hash -> m Header
+
+-- | RPC Method: chain_subscribeFinalizedHeads
+--   `ConduitT` may change if a preferred stream processing library is found.
+subscribeFinalizedHeads :: ConduitT () Header m a
+
+-- | RPC Method: chain_subscribeNewHeads
+--   `ConduitT` may change if a preferred stream processing library is found.
+subscribeNewHeads :: ConduitT () Header m a
+
+```
+
+##### Contracts
+
+```haskell
+-- | RPC Method: contracts_call
+call :: ContractCallRequest -> Maybe Hash -> m ContractExecResult
+```
+
+##### Rpc
+
+```haskell
+-- | RPC Method: rpc_methods
+methods :: m RpcMethods
+```
+
+##### State
+
+```haskell
+-- | RPC Method: state_call
+call :: Method -> ByteString -> Maybe Hash -> m ByteString
+
+-- | RPC Method: state_getChildKeys
+getChildKeys :: StorageKey -> StorageKey -> Maybe Hash -> m [StorageKey]
+
+-- | RPC Method: state_getChildStorage
+getChildStorage :: StorageKey -> StorageKey -> Maybe Hash -> m StorageData
+
+-- | RPC Method: state_getChildStorageHash
+getChildStorageHash :: StorageKey -> StorageKey -> Maybe Hash -> m Hash
+
+-- | RPC Method: state_getChildStorageSize
+getChildStorageSize :: StorageKey -> StorageKey -> Maybe Hash -> m U64Int
+
+-- | RPC Method: state_getKeys
+getKeys :: StorageKey -> Maybe Hash -> m [StorageKey]
+
+-- | RPC Method: state_getMetadata
+getMetaData :: Maybe Hash -> m Metadata
+
+-- | RPC Method: state_getRuntimeVersion
+getRuntimeVersion :: Maybe Hash -> m RuntimeVersion
+
+-- | RPC Method: state_getStorage
+getStorage :: StorageKey -> Maybe Hash -> m StorageData
+
+-- | RPC Method: state_getStorageHash
+getStorageHash :: StorageKey -> Maybe Hash -> m Hash
+
+-- | RPC Method: state_getStorageSize
+getStorageSize :: StorageKey -> Maybe Hash -> m U64Int
+
+-- | RPC Method: state_queryStorage
+queryStorage :: [StorageKey] -> Hash -> Maybe Hash -> m [StorageChangeSet]
+
+-- | RPC Method: state_subscribeRuntimeVersion
+subscribeRuntimeVersion :: ConduitT () Header m a
+
+-- | RPC Method: state_subscribeStorage
+subscribeStorage :: [StorageKeys] -> ConduitT () Header m a
+
+```
+
+##### System
+
+```haskell
+
+-- | RPC Method: system_chain
+chain :: m String
+
+-- | RPC Method: system_health
+health :: m Health
+
+-- | RPC Method: system_name
+name :: m String
+
+-- | RPC Method: system_networkState
+networkState :: m NetworkState
+
+-- | RPC Method: system_peers
+peers :: m [PeerInfo]
+
+-- | RPC Method: system_properties
+properties :: m ChainProperties
+
+-- | RPC Method: system_version
+version :: m String
+
+```
