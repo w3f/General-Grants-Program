@@ -151,4 +151,4 @@ This page gives an overview of accepted grants and a link to their GitHubs. Keep
 - [Snowfork](http://www.snowfork.com/) - Ethereum Bridge 
 - [Lunie](http://lunie.io/) - Lunie Governance integration ([GitHub](https://github.com/luniehq/lunie))
 - [LimeChain](https://github.com/LimeChain) - AssemblyScript Runtime ([GitHub](https://github.com/LimeChain))
-- [MVP Workshop](https://mvpworkshop.co/) - Substrate startkit GUI ([GitHub](https://github.com/MVPWorkshop))
+- [MVP Workshop](https://mvpworkshop.co/) - Substrate startkit GUI (marketplace for substrate pallets) ([GitHub](https://github.com/MVPWorkshop))
