@@ -6,12 +6,12 @@ We will provide APIs and documents basically so that they can be applied quickly
 We have already developed these projects through Parity, and we want to integrate them to develop them.
 
 ## Team members
-team leader : David Park
-team members 
- Jay Lee
- Ian Son
- Noh Sung-Lae
- Mike Mu
+- team leader : David Park
+* team members 
+ * Jay Lee
+ * Ian Son
+ * Noh Sung-Lae
+ * Mike Mu
 
 ## Team Website 
 [https://www.linkedin.com/company/enterblock/](https://www.linkedin.com/company/enterblock/)
@@ -32,12 +32,12 @@ https://github.com/puffanddmx
 
 
 ## Team LinkedIn Profiles
-https://www.linkedin.com/in/jay-lee-a24614aa/
-https://www.linkedin.com/in/mike-mu-a69160162/
-https://www.linkedin.com/in/%EA%B2%BD%EB%82%A8-%EB%B0%95-5a9805182/
-https://www.linkedin.com/in/jiamei-wang-6b85791ab/
-https://www.linkedin.com/in/kiseok-park-722433177/
-https://www.linkedin.com/in/%EC%83%81%EC%9C%A4-%EC%86%90-39095ba3/
+- https://www.linkedin.com/in/jay-lee-a24614aa/
+- https://www.linkedin.com/in/mike-mu-a69160162/
+- https://www.linkedin.com/in/%EA%B2%BD%EB%82%A8-%EB%B0%95-5a9805182/
+- https://www.linkedin.com/in/jiamei-wang-6b85791ab/
+- https://www.linkedin.com/in/kiseok-park-722433177/
+- https://www.linkedin.com/in/%EC%83%81%EC%9C%A4-%EC%86%90-39095ba3/
 
 ## Development Roadmap
 
