@@ -23,6 +23,10 @@ Bithumb CryptoCurrency Researcher. Node Operation Guide, wallet, Cold Wallet Man
 UDTSwap : Nervos Dex exchange Grant
 Growdrop : Funding the revolution of blockchain ecosystem with DeFi
 Substrate Delivery Partners
+https://github.com/bannplayer
+https://github.com/puffanddmx 
+[https://github.com/GrowFi-labs](https://github.com/GrowFi-labs)
+(Substrate Baas Target)
 
 ## Team Code Repos
 https://github.com/bannplayer
@@ -61,11 +65,11 @@ For each milestone:
 
 ### Milestone 2 —  API implementation and testing— 1 month — $33,000
 * API
- *Node creation
- *Sendtransaction
- *Smart contracts (issuing smart contracts and tokens and NFTs)
- *Event management
- *Off-chain walker
+* Node creation
+* Sendtransaction
+* Smart contracts (issuing smart contracts and tokens and NFTs)
+* Event management
+* Off-chain walker
  
 * Web page production
   * API document page production
