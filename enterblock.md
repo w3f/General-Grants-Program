@@ -61,12 +61,12 @@ For each milestone:
 
 ### Milestone 2 —  API implementation and testing— 1 month — $33,000
 
--API
--Node creation
--send
--Smart contracts (issuing smart contracts and tokens and NFTs)
--Event management
--Off-chain walker
+* API
+ * Node creation
+ * Sendtransaction
+ * Smart contracts (issuing smart contracts and tokens and NFTs)
+ * Event management
+ * Off-chain walker
  
 * Web page production
   * API document page production
@@ -75,9 +75,9 @@ For each milestone:
 
 ### Milestone 3 — Operation and Testing — 1 month — $33,000
 
--Applied and tested for copyright registration and sales sites
-   -[http://mvp.beatsomeone.com/beatsomeone/index]
-   -Signed MOU with the company
+* Applied and tested for copyright registration and sales sites
+   * [http://mvp.beatsomeone.com/beatsomeone/index]
+   * Signed MOU with the company
 
 ## Future Plans
 * Reference site extension and suggestion
