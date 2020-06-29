@@ -25,10 +25,10 @@ We have already developed these projects through Parity, and we want to integrat
 - Substrate Delivery Partners
 
 ## Team Code Repos
-https://github.com/bannplayer
-https://github.com/puffanddmx 
-[https://github.com/GrowFi-labs](https://github.com/GrowFi-labs)
-(Substrate Baas Target)
+*  https://github.com/bannplayer
+*  https://github.com/puffanddmx 
+*  [https://github.com/GrowFi-labs](https://github.com/GrowFi-labs)
+*  (Substrate Baas Target)
 
 
 ## Team LinkedIn Profiles
