@@ -23,11 +23,11 @@ Bifrost is a project developed by Liebi technology based on substrate. Bifrost t
 Liebi team consists of technical experts with years of experience in blockchain development. The mission is to make the blockchain simpler and lower the blockchain threshold so that more users can easily use the blockchain technology in their lives. our team’s products mainly around staking development, have extensive experience in staking, and have multiple public blockchain development capabilities.
 
 ## Team Website 
-* https://bifrost.codes
+* https://bifrost.finance
 * https://liebi.com
 
 ## Team repository
-* https://github.com/bifrost-codes
+* https://github.com/bifrost-finance
 
 ## Bifrost EOS Bridge (Grant application)
 The Bifrost EOS interoperable bridge is a substrate-developed project that combines SPV client and multi-signature mechanisms to build a secure, flexible, and scalable cross-chain without modifying the core functionality of the parent chain. We also envisioned a version in which the parent and side chains are SPV clients of each other. This version is more distributed and safer, but it is costly and difficult to implement. The current approach not only allows the user's assets to be chained, but also the staking benefits of the parent chain. In the future, it can also support any operation across the chain for true interoperability.
@@ -164,7 +164,7 @@ RUST-EOS is the Substrate component library, run the following command for envir
 
 2. Clone rust-eos repository
 ```
-# git clone https://github.com/bifrost-codes/rust-eos
+# git clone https://github.com/bifrost-finance/rust-eos
 ```
 
 3. Run Cargo test
@@ -186,7 +186,7 @@ The Roadmap related code will be packaged into a docker container for verificati
 ##### What work has been done so far?
 Currently we have open sourced Substrate supported RUST-EOS components and SPV Client developing and expect to open source in the future.
  
-rest-eos repository: https://github.com/bifrost-codes/rust-eos
+rest-eos repository: https://github.com/bifrost-finance/rust-eos
 
 ##### Have you applied for other grants so far?
 We participated in the Substrate development hackathon organized by Polkaworld with the Bifrost project and won the competition. The rest was invested by the team and no other subsidies were applied.
