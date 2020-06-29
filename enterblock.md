@@ -12,6 +12,12 @@ We have already developed these projects through Parity, and we want to integrat
  * Ian Son
  * Noh Sung-Lae
  * Mike Mu
+ 
+ * Planning and Node configuration
+  * plan
+   * We will first organize functions for users.
+   * We will proceed with web page UI design to provide functions.
+   * Interface composition and document creation that enterprise developers can easily develop
 
 ## Team Website 
 [https://www.linkedin.com/company/enterblock/](https://www.linkedin.com/company/enterblock/)
