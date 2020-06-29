@@ -67,7 +67,7 @@ For each milestone:
 *  Sendtransaction
 *  Smart contracts (issuing smart contracts and tokens and NFTs)
 *  Event management
-*  Off-chain walker 
+*  Off-chain worker 
 *  Web page production
   *   API document page production
   *   Create management page for users
