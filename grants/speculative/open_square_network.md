@@ -2,14 +2,14 @@
 Open Square Network
 
 ## Project Description
-Open Square Network is a blockchain based crowdsourcing and reputation platform. It will be implementaed as a para-chain
+Open Square Network is a blockchain based crowdsourcing and reputation platform. It will be implemented as a para-chain
 of Polkadot. We aim to attract thousands of middle and small sized enterprises and millions of developers in China for the first phase. 
 This platform is a trial to evolve the human resource market. First phase features include:
 - Bounty funders can fund a bounty, while hunters can apply it.
-- Successfully collaboration make funders and hunters mine platform native currency.
+- Funders can mining powers by successful collaboration with hunters.
 - Reputation of both funders and hunters will be calculated based on the finished bounty and remarks.
 - Aim to maintain relatively long collaboration between bounty funders and hunters.
-- On-chain governance make the platform fair and transparent. 
+- Platform fairness and transparency will be provided by on-chain governance.
 
 ## Team members
 Most of our teams are from [ChainX](https://chainx.org/), while we have rich experience with blockchain development.
@@ -51,7 +51,7 @@ Sorry but we don't use linkedin heavily in China.
   - Design the native currency distribution model for chain participators(validators, bounty funders and hunters).
   - Design stable currency bridge mechanism(maybe trustee for first phase).
   - Technical specifications and modules design.
-  - dApp UX design.
+  - DApp UX design.
   
 * **M2: Implementation of the runtime modules (1 month)**
   - Native asset module, which will support transfer, staking, election, while chain dividends amount will be decided by native asset holdings.
@@ -61,7 +61,7 @@ Sorry but we don't use linkedin heavily in China.
     1. Funders create bounty with USDT/DAI deposit to it.
     2. Chain council will give some feedback and do some management for the bounty.
     3. Hunters apply and resolve it.
-    4. Hunters get reward and Council can get some management fee.
+    4. Hunters get funding and Council can get some management fee.
     5. Successive mining powers will be assigned to Funders(maybe also to hunters).
   - Reputation module mainly manage funders and hunters' reputation based on the collaboration remarks.
   - Governance module involves council election and proposal management.
