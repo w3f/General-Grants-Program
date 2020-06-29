@@ -7,11 +7,11 @@ We have already developed these projects through Parity, and we want to integrat
 
 ## Team members
 * team leader : David Park
-** team members 
- * Jay Lee
- * Ian Son
- * Noh Sung-Lae
- * Mike Mu
+- team members 
+ - Jay Lee
+ - Ian Son
+ - Noh Sung-Lae
+ - Mike Mu
 
 ## Team Website 
 [https://www.linkedin.com/company/enterblock/](https://www.linkedin.com/company/enterblock/)
