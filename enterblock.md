@@ -19,14 +19,10 @@ http://www.enterblock.co (TBD)
 
 
 ## Team's experience
-Bithumb CryptoCurrency Researcher. Node Operation Guide, wallet, Cold Wallet Management, wallet, smartcontract,deposit/withraw, exchange Matching engine Development
-UDTSwap : Nervos Dex exchange Grant
-Growdrop : Funding the revolution of blockchain ecosystem with DeFi
-Substrate Delivery Partners
-https://github.com/bannplayer
-https://github.com/puffanddmx 
-[https://github.com/GrowFi-labs](https://github.com/GrowFi-labs)
-(Substrate Baas Target)
+# Bithumb CryptoCurrency Researcher. Node Operation Guide, wallet, Cold Wallet Management, wallet, smartcontract,deposit/withraw, exchange Matching engine Development
+# UDTSwap : Nervos Dex exchange Grant
+# Growdrop : Funding the revolution of blockchain ecosystem with DeFi
+# Substrate Delivery Partners
 
 ## Team Code Repos
 https://github.com/bannplayer
