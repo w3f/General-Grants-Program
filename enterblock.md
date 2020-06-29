@@ -6,7 +6,7 @@ We will provide APIs and documents basically so that they can be applied quickly
 We have already developed these projects through Parity, and we want to integrate them to develop them.
 
 ## Team members
-- team leader : David Park
+* team leader : David Park
 * team members 
  * Jay Lee
  * Ian Son
