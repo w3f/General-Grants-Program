@@ -14,8 +14,8 @@ We have already developed these projects through Parity, and we want to integrat
   * Mike Mu
 
 ## Team Website 
-*  [https://www.linkedin.com/company/enterblock/](https://www.linkedin.com/company/enterblock/)
-*  http://www.enterblock.co (TBD)
+*   [https://www.linkedin.com/company/enterblock/](https://www.linkedin.com/company/enterblock/)
+*   http://www.enterblock.co (TBD)
 
 
 ## Team's experience
