@@ -21,7 +21,7 @@ The implementation process is as follows:
 3. User initiates a deposit transaction on the blockchain by sending the original asset to the derived deposit address; this automatically binds the relationship between the corresponding asset deposit address and the user’s address that’s generated on the chain.
 
 
-#### The Design of 
+#### The Design of the Generic Withdrawal Gateway
 The withdrawal gateway is designed to implement an on-chain review process based on permission control, with a gateway design similar to an exchange’s withdrawal process. The withdrawal process is as follows:
 
 1. User initiates a withdrawal request.
