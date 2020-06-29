@@ -9,7 +9,10 @@ As you may know, our team is building Plasm Network, a scalable smart contract p
 ## Team members
 * Sota Watanabe
 * Task Ohmori
-* Yoshinobu Shijyo	
+* Yoshinobu Shijyo
+* Masaharu Uno
+
+Currently, we have 8 members in the team. The other 4 members are working on Plasm. And above 4 menmebers will be working on the DEX.
 
 ## Team Website	
 * https://www.plasmnet.io/
@@ -31,18 +34,19 @@ Currently, Stake Technologies, a company behind of Plasm Network focus 100% on P
 ## Team LinkedIn Profiles
 * https://www.linkedin.com/in/sota-watanabe-b962b3110/
 
-## Project Roadmap
-This section should break out the project roadmap into a number of milestones. Each milestone should represent the completion of a specific event or task, for example a meet-up, hackathon or workshop.
+## Project Roadmap (WIP)
 
-Please provide the following:
-  * For each milestone:
-    * The details of the event/task that is to be completed after each milestone. This section will vary depending on the nature of the event or task but the description should help us get an idea of:
-      * The scale of event/task
-      * The segment of the community that it will engage
-      * Measurable indiciators that will determine whether the event/task is succesful or not.
-    * For applications with public financial information, please include total amount of funding requested per milestone. Funding can be in fiat (CHF, EUR or USD) or in DOTs. It can also be in a combination of fiat and DOTs. Please reach out to grants@web3.foundation to discuss what amount in fiat and DOTs would be appropriate for your project.
-  * A schedule indicating when each milestone will be achieved.
-  * The team's long-term plans and intentions 
+- Smart Contract on Binance
+    - Block Verification (6 weeks) 
+    - Implement Sr25519 on EVM (4 weeks)
+    - Implement the Inclusion logic of Proof of Transaction on Substrate (4 weeks)
+    - Token Deposit, Exit implementation(2 weeks)
+    - Collateral Implementation (3 weeks) Or, watching oracles of Binance Chain on Substrate (5 weeks)
+- Create Document for Listing in Binance Dex (3 weeks)
+    -  How to make proposal
+    - How to create exchange pair
+    - How to create bridge
+    - How to manage bridge protocol
 
 ## Additional Information
 We would like to talk with Binance as well. It would be great if you could introduce us.
