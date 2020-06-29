@@ -60,7 +60,6 @@ For each milestone:
    * Build docker for testing
 
 ### Milestone 2 —  API implementation and testing— 1 month — $33,000
-
 * API
  * Node creation
  * Sendtransaction
