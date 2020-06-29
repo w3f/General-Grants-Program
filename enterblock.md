@@ -12,6 +12,8 @@ We have already developed these projects through Parity, and we want to integrat
   * Ian Son
   * Noh Sung-Lae
   * Mike Mu
+  * Jiamei Wang
+  * Kiseok Park
 
 ## Team Website 
 *   [https://www.linkedin.com/company/enterblock/](https://www.linkedin.com/company/enterblock/)
