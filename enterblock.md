@@ -49,15 +49,15 @@ For each milestone:
 * Please indicate the number of Full-Time Employees working on each milestone, and include the number of days along with their cost per day.
 
 ### Milestone 1 — Implement Substrate Modules — 1 month — $33,000
-* Planning and Node configuration
-  * plan
-   * We will first organize functions for users.
-   * We will proceed with web page UI design to provide functions.
-   * Interface composition and document creation that enterprise developers can easily develop
-  * Node configuration
-   * We will configure the node to check the basic functions.
-   * Self-node configuration and testing
-   * Build docker for testing
+*  Planning and Node configuration
+ *  plan
+  *  We will first organize functions for users.
+  *  We will proceed with web page UI design to provide functions.
+  *  Interface composition and document creation that enterprise developers can easily develop
+ *  Node configuration
+  *  We will configure the node to check the basic functions.
+  *  Self-node configuration and testing
+  *  Build docker for testing
 
 ### Milestone 2 —  API implementation and testing— 1 month — $33,000
 *  API
