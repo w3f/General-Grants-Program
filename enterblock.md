@@ -48,7 +48,7 @@ For each milestone:
 * Please commit to providing a docker container for the delivery of your project. 
 * Please indicate the number of Full-Time Employees working on each milestone, and include the number of days along with their cost per day.
 
-### Milestone 1 — Implement Substrate Modules — 1 month — $10,000
+### Milestone 1 — Implement Substrate Modules — 1 month — $33,000
 * Planning and Node configuration
   * plan
    * We will first organize functions for users.
@@ -59,11 +59,11 @@ For each milestone:
    * Self-node configuration and testing
    * Build docker for testing
 
-### Milestone 2 —  API implementation and testing— 1 month — $10,000
+### Milestone 2 —  API implementation and testing— 1 month — $33,000
 
 -API
 -Node creation
-- send
+-send
 -Smart contracts (issuing smart contracts and tokens and NFTs)
 -Event management
 -Off-chain walker
@@ -73,7 +73,7 @@ For each milestone:
   * Create management page for users
 
 
-### Milestone 3 — Operation and Testing — 1 month — $10,000
+### Milestone 3 — Operation and Testing — 1 month — $33,000
 
 -Applied and tested for copyright registration and sales sites
    -[http://mvp.beatsomeone.com/beatsomeone/index]
