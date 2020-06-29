@@ -61,11 +61,11 @@ For each milestone:
 
 ### Milestone 2 —  API implementation and testing— 1 month — $33,000
 * API
- * Node creation
- * Sendtransaction
- * Smart contracts (issuing smart contracts and tokens and NFTs)
- * Event management
- * Off-chain walker
+ *Node creation
+ *Sendtransaction
+ *Smart contracts (issuing smart contracts and tokens and NFTs)
+ *Event management
+ *Off-chain walker
  
 * Web page production
   * API document page production
