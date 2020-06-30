@@ -17,7 +17,15 @@ We have already developed these projects through Parity, and we want to integrat
   
 * Expectations
   * enterBlock's Blockchain-as-a-Service (BaaS) makes it easy for anyone from passionate startups and large enterprises to create blockchain applications. This is possible by creating a blockchain-based product and eliminating a lot of technical complexity. Most of the creation, implementation, and maintenance of an operational blockchain infrastructure no longer needs to be built from scratch. As banks and traditional financial institutions invest in blockchain with many companies in various industries, the chances of a blockchain provider as a service are very successful. BaaS services are particularly useful for startups that lack funds and talent, which are barriers to entry for blockchain innovation. Digital transformation is currently the biggest trend in the financial sector. In the current situation where tech fin companies are rapidly entering, financial sectors, including banks, will also be difficult to survive without disruptive innovation. Therefore, it is judged that traditional financial institutions, including banks, will utilize the blockchain provided by enterBlock, which can easily build and manage blockchains in financial services. On the basis of enterBlock BaaS, it is expected that the financial system can obtain an unprecedented cost reduction through blockchain. In the current centralized system, central security that stores all transaction records and personal information is very important. Financial fraudsters constantly develop all kinds of new technologies to paralyze this security system. So, financial companies are investing enormous costs in the technology to defend them. As e-commerce expands more and the Internet of Things (IoT) eras transactions between objects, costs are bound to rise. enterBlock is expected to grow as a breakthrough company in the enterprise-type BaaS market by solving the above problems for companies in preparation for such a market.
-  
+
+* enterBlock Projects in progress
+  * GlueOS : It is a blockchain project that provides a development-friendly environment, and is a blockchain project focused on increasing developer convenience and providing the same user experience as a web and mobile environment. Therefore, general developers can easily participate in blockchain-based service development through glue.
+    * https://www.glueos.com/
+  * beat someone : As it is a copyright creation platform, anyone can easily trade their own creations.
+    * http://mvp.beatsomeone.com/beatsomeone/index
+    
+* Team Experience
+  * GlueOS explorer under development : http://121.133.140.199:4000/
 
 ## Team members 
 * Team leader
@@ -91,10 +99,9 @@ For each milestone:
 
 ### Milestone 3 — Operation and Testing — 1 month — $33,000
 
-* Applied and tested for copyright registration and sales sites
+* MVP model for copyright registration and sales site for beatsomeone will be released
    * [http://mvp.beatsomeone.com/beatsomeone/index]
-   * Signed MOU with the company
-
+   
 ## Future Plans
 * Reference site extension and suggestion
   * Additional reference site extensions
