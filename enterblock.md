@@ -1,4 +1,7 @@
 # Substrate Baas(Blockchain as a Service)
+<p align="center">
+  <img src="./src/General_Grants_Program.png" style="width:1300px";>
+</p>
 
 ## Project Description
 Our goal is to provide Substrate-based blockchains for users (mainly companies) to easily access.
