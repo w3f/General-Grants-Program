@@ -1,4 +1,4 @@
-# Substrate Baas(Blockchain as a Service)
+# enterBlock BaaS(Blockchain as a Service) Platform Service based on the Substrate
 <p align="center">
   <img src="./src/enterblock_BaaS.jpg" style="width:1300px";>
 </p>
