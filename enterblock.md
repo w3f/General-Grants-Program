@@ -23,10 +23,10 @@ We have already developed these projects through Parity, and we want to integrat
 
 
 ## Team's experience
-- Bithumb CryptoCurrency Researcher. Node Operation Guide, wallet, Cold Wallet Management, wallet, smartcontract,deposit/withraw, exchange Matching engine Development
-- UDTSwap : Nervos Dex exchange Grant
-- Growdrop : Funding the revolution of blockchain ecosystem with DeFi
-- Substrate Delivery Partners
+* Bithumb CryptoCurrency Researcher. Node Operation Guide, wallet, Cold Wallet Management, wallet, smartcontract,deposit/withraw, exchange Matching engine Development
+* UDTSwap : Automated token exchange using multiple liquidity pool economy building on Nervos
+* Growdrop : Funding the revolution of blockchain ecosystem with DeFi
+* Substrate Delivery Partners
 
 ## Team Code Repos
 * Growdrop :https://github.com/GrowFi-labs/Growdrop
