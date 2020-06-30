@@ -5,15 +5,17 @@ Our goal is to provide Substrate-based blockchains for users (mainly companies) 
 We will provide APIs and documents basically so that they can be applied quickly and easily in applying blockchain to companies, and we will be able to easily exchange assets (tokens, copyrights, SCM information, etc.) in Polka dot chain.
 We have already developed these projects through Parity, and we want to integrate them to develop them.
 
-## Team members
-* team leader : David Park
-* team members 
-  * Jay Lee
-  * Ian Son
-  * Noh Sung-Lae
-  * Mike Mu
-  * Jiamei Wang
-  * Kiseok Park
+## Team members 
+* team leader:
+  * David Park:Ex-Bithumb coin(20+) wallet, sign server development & node operation guide. Samsung Galaxy S S-memo Development.
+* team members:
+ * Mike MU : Blockchain researcher(Create a Blockchain research report 30+ 2) , DeFi Korea Co-Organizer, GrowFi Co-Founder, Korea Government Support Blockchain Education Instructor
+ * Jay Lee : Coin(20+) wallet, sign server development & node operation guide @Bithumb Exchange. Mobile model leading & releasing team for USA market(AT/T, T-mobile) at LG MC.
+ * Brian Noh : Deﬁ Proeject full-stack Developer. (https://github.com/bannplayer/Growdrop/tree/master 3). Korea Government Support Blockchain Education Instructor.
+ * Adonis Seo : Exchange service Front-end & Back-end development Bithumb Cryptocurreny Deposit/Withdraw development .
+ * Ian Son : Bithumb new exchange system development, Coin/Token Management/Listing system development.
+ * Kidori Park : Exchange web solution developer. Korea Government Support Blockchain Education Instructor.
+ * Gami Wang : Exchange Product manager
 
 ## Team Website 
 *   [https://www.linkedin.com/company/enterblock/](https://www.linkedin.com/company/enterblock/)
@@ -27,19 +29,19 @@ We have already developed these projects through Parity, and we want to integrat
 - Substrate Delivery Partners
 
 ## Team Code Repos
-*  https://github.com/bannplayer
-*  https://github.com/puffanddmx 
-*  [https://github.com/GrowFi-labs](https://github.com/GrowFi-labs)
-*  (Substrate Baas Target)
-
+* Growdrop:https://github.com/GrowFi-labs/Growdrop
+* UDTswap:https://github.com/GrowFi-labs/UDTswap
+* Growfi labs:https://github.com/GrowFi-labs
 
 ## Team LinkedIn Profiles
-- https://www.linkedin.com/in/jay-lee-a24614aa/
-- https://www.linkedin.com/in/mike-mu-a69160162/
-- https://www.linkedin.com/in/%EA%B2%BD%EB%82%A8-%EB%B0%95-5a9805182/
-- https://www.linkedin.com/in/jiamei-wang-6b85791ab/
-- https://www.linkedin.com/in/kiseok-park-722433177/
-- https://www.linkedin.com/in/%EC%83%81%EC%9C%A4-%EC%86%90-39095ba3/
+* David Park:https://www.linkedin.com/in/%EA%B2%BD%EB%82%A8-%EB%B0%95-5a9805182/
+* Jay Lee:https://www.linkedin.com/in/jay-lee-a24614aa/
+* Mike MU: https://www.linkedin.com/in/mike-mu-a69160162/
+* Jiamei Wang:https://www.linkedin.com/in/jiamei-wang-6b85791ab/
+* Kiseok Park:https://www.linkedin.com/in/kiseok-park-722433177/
+* Ian Son :https://www.linkedin.com/in/%EC%83%81%EC%9C%A4-%EC%86%90-39095ba3/
+* Adonis Seo :https://www.linkedin.com/in/donghyuk-seo-0079a5131/
+* Brian Noh :https://www.linkedin.com/in/sunglae-noh-533381196/
 
 ## Development Roadmap
 
