@@ -70,19 +70,19 @@ Our vision is a world in which everyone has access to decentralized financial (D
 
 ## Development Roadmap
 
-- Milestone 1 — Implement Basic Substrate Modules — 1 month — $10,000
+- Milestone 1 — Implement Basic Substrate Modules — 1 month
   - We will create a Substrate module that will provide function related to deposit process
 We will deliver a working javascript example. It will allow the user to generate deposit address according to the seed and index onchain.
   - The code will have proper unit-test coverage to ensure functionality and robustness.
   - We will provide both inline documentation of the code and a basic tutorial describing how the software can be used and tested.
 
-- Milestone 2 — Implement Withdrawal Substrate Modules  — 1 month — $10,000
+- Milestone 2 — Implement Withdrawal Substrate Modules  — 1 month 
   - We will create a Substrate module that will provide function related to withdrawal process.
 The code will have proper unit-test coverage to ensure functionality and robustness.
   - We will provide both inline documentation of the code and a basic tutorial describing how the software can be used and tested.
 
 
-- Milestone 3 — Additional features — 1 month — $10,000
+- Milestone 3 — Additional features — 1 month
   - We will create a web admin panel to work with the generic asset gateway, it will allow the user with related permissions to approve or reject the withdrawal request. Also, it will integrate with the blockchain explorer to show related data including deposit history, withdrawal history and some other stats.
   - We will deliver a working blockchain explorer based on Polkascan. It can collect generic asset related data including deposit history, withdrawal history, asset type and some other stats..
   - The code will have proper unit-test coverage to ensure functionality and robustness.
