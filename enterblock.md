@@ -12,6 +12,9 @@ We have already developed these projects through Parity, and we want to integrat
 * Introduction
   * BaaS, which means blockchain as a service, can provide a blockchain service suitable for the environment even if the company preparing the blockchain service does not know blockchain technology. Compared with general nodes, the purpose of BaaS nodes is to quickly build the development environment that companies mainly need, and provide various other services such as blockchain-based data inquiry, transaction transmission, and data analysis. It helps developers quickly validate their concepts and models. Even without a specialized blockchain development manpower, it is possible to construct blockchain nodes with a few clicks and implement smart contracts and core technologies of the blockchain. Since there is no need to build separate servers, companies that want to introduce a blockchain service can dramatically reduce the cost and time for service development. Currently, there are many service-type blockchain providers, and more companies are entering the market every year. In particular, there are some very reliable companies(Miscrosoft, Blockstream, Deloitte, Amazon and Dragonchain) that have already started offering these services to their customers. Unlike the above companies, enterBlock's enterprise-type BaaS utilizes Polkadot's interoperability, scalability, forkless future proof, and full security advantages to build blockchains based on the simple substrate framework in a matter of minutes. 
 
+* Brief Explanation for the enterBlock BaaS Architecture
+
+
 ## Team members 
 * team leader
   * David Park : Ex-Bithumb coin(20+) wallet, sign server development & node operation guide. Samsung Galaxy S S-memo Development.
