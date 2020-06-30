@@ -76,6 +76,7 @@ Sorry but we don't use linkedin heavily in China.
 
 ## Future Plans
 * Multiple cross chain asset will be involved as bounty currency.
+* Build the identity system for users.
 * More PR work will be done to attract bounty founders and hunters.
 * Our vision is to build a new block chain human resource platform involve crowdsourcing, reputation building, recruitment.
 
