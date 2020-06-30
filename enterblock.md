@@ -7,7 +7,7 @@ We have already developed these projects through Parity, and we want to integrat
 
 ## Team members 
 * team leader
-  * David Park:Ex-Bithumb coin(20+) wallet, sign server development & node operation guide. Samsung Galaxy S S-memo Development.
+  * David Park : Ex-Bithumb coin(20+) wallet, sign server development & node operation guide. Samsung Galaxy S S-memo Development.
 * team members
   * Mike MU : Blockchain researcher(Create a Blockchain research report 30+ 2) , DeFi Korea Co-Organizer, GrowFi Co-Founder, Korea Government Support Blockchain Education Instructor
   * Jay Lee : Coin(20+) wallet, sign server development & node operation guide @Bithumb Exchange. Mobile model leading & releasing team for USA market(AT/T, T-mobile) at LG MC.
@@ -29,16 +29,16 @@ We have already developed these projects through Parity, and we want to integrat
 - Substrate Delivery Partners
 
 ## Team Code Repos
-* Growdrop:https://github.com/GrowFi-labs/Growdrop
-* UDTswap:https://github.com/GrowFi-labs/UDTswap
-* Growfi labs:https://github.com/GrowFi-labs
+* Growdrop :https://github.com/GrowFi-labs/Growdrop
+* UDTswap :https://github.com/GrowFi-labs/UDTswap
+* Growfi labs :https://github.com/GrowFi-labs
 
 ## Team LinkedIn Profiles
-* David Park:https://www.linkedin.com/in/%EA%B2%BD%EB%82%A8-%EB%B0%95-5a9805182/
-* Jay Lee:https://www.linkedin.com/in/jay-lee-a24614aa/
-* Mike MU: https://www.linkedin.com/in/mike-mu-a69160162/
-* Jiamei Wang:https://www.linkedin.com/in/jiamei-wang-6b85791ab/
-* Kiseok Park:https://www.linkedin.com/in/kiseok-park-722433177/
+* David Park :https://www.linkedin.com/in/%EA%B2%BD%EB%82%A8-%EB%B0%95-5a9805182/
+* Jay Lee :https://www.linkedin.com/in/jay-lee-a24614aa/
+* Mike MU :https://www.linkedin.com/in/mike-mu-a69160162/
+* Jiamei Wang :https://www.linkedin.com/in/jiamei-wang-6b85791ab/
+* Kiseok Park :https://www.linkedin.com/in/kiseok-park-722433177/
 * Ian Son :https://www.linkedin.com/in/%EC%83%81%EC%9C%A4-%EC%86%90-39095ba3/
 * Adonis Seo :https://www.linkedin.com/in/donghyuk-seo-0079a5131/
 * Brian Noh :https://www.linkedin.com/in/sunglae-noh-533381196/
