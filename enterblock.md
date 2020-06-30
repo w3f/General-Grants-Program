@@ -14,6 +14,9 @@ We have already developed these projects through Parity, and we want to integrat
 
 * Brief Explanation for the enterBlock BaaS Architecture
   * The enterprise block chain BaaS provided by enterBlock can provide various types of services as shown in the figure above. For example, if a general financial company wants to build a blockchain for their service operation, it can be easily built through our enterBlock platform. If they want to put their desired business logic on the blockchain, enterBlock can easily provide their desired logic in the form of API using pallets provided by substrate. Also, if you want to bring financial data from outside, you can easily meet their requirements by using offchain workers. Each blockchain in enterBlock can communicate with each other and exchange assets and data. The conclusion is that for each company, a blockchain suitable for the desired business logic is possible in enterBlock.
+  
+* Expectations and future plans
+  *
 
 
 ## Team members 
