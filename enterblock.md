@@ -10,7 +10,7 @@ We will provide APIs and documents basically so that they can be applied quickly
 We have already developed these projects through Parity, and we want to integrate them to develop them.
 
 * Introduction
-  * BaaS, which means blockchain as a service, can provide a blockchain service suitable for the environment even if the company preparing the blockchain service does not know blockchain technology. Compared with general nodes, the purpose of BaaS nodes is to quickly build the development environment that they mainly need, and provide various other services such as blockchain-based data inquiry, transaction transmission, and data analysis. It helps developers quickly validate their concepts and models.
+  * BaaS, which means blockchain as a service, can provide a blockchain service suitable for the environment even if the company preparing the blockchain service does not know blockchain technology. Compared with general nodes, the purpose of BaaS nodes is to quickly build the development environment that they mainly need, and provide various other services such as blockchain-based data inquiry, transaction transmission, and data analysis. It helps developers quickly validate their concepts and models. Even without a specialized blockchain development manpower, it is possible to construct a blockchain node with a few clicks and implement a smart contract, a core technology of the blockchain. Since there is no need to build a separate server, a company that wants to introduce a blockchain service can dramatically reduce the cost and time for service development.
 
 ## Team members 
 * team leader
