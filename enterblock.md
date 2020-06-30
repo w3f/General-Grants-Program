@@ -17,10 +17,10 @@ We have already developed these projects through Parity, and we want to integrat
 
 ## Team members 
 * Team leader
-  * David Park : Ex-Bithumb coin(20+) wallet, sign server development & node operation guide. Samsung Galaxy S S-memo Development.
+  * David Park : Coin(20+) wallet, sign server development & node operation guide@Bithumb Exchange. Samsung Galaxy S S-memo Development.
 * Team members
   * Mike MU : Blockchain researcher(Create a Blockchain research report 30+ 2) , DeFi Korea Co-Organizer, GrowFi Co-Founder, Korea Government Support Blockchain Education Instructor
-  * Jay Lee : Coin(20+) wallet, sign server development & node operation guide @Bithumb Exchange. Mobile model leading & releasing team for USA market(AT/T, T-mobile) at LG MC.
+  * Jay Lee : Coin(20+) wallet, sign server development & node operation guide @Bithumb Exchange. Mobile model leading & releasing team for USA market(AT/T, T-mobile) @LG MC.
   * Brian Noh : Deﬁ Project full-stack Developer. (https://github.com/bannplayer/Growdrop/tree/master 3). Korea Government Support Blockchain Education Instructor.
   * Adonis Seo : Exchange service Front-end & Back-end development Bithumb Cryptocurreny Deposit/Withdraw development .
   * Ian Son : Bithumb new exchange system development, Coin/Token Management/Listing system development.
