@@ -1,6 +1,6 @@
 # Substrate Baas(Blockchain as a Service)
 <p align="center">
-  <img src="./src/General_Grants_Program.png" style="width:1300px";>
+  <img src="./src/enterblock_BaaS.jpg" style="width:1300px";>
 </p>
 
 ## Project Description
