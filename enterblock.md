@@ -5,12 +5,12 @@
 
 ## Project Description
 * Abstract
-Our goal is to provide Substrate-based blockchains for users (mainly companies) to easily access.
+  * Our goal is to provide Substrate-based blockchains for users (mainly companies) to easily access.
 We will provide APIs and documents basically so that they can be applied quickly and easily in applying blockchain to companies, and we will be able to easily exchange assets (tokens, copyrights, SCM information, etc.) in Polka dot chain.
 We have already developed these projects through Parity, and we want to integrate them to develop them.
 
 * Introduction
-BaaS, which means blockchain as a service, can provide a blockchain service suitable for the environment even if the company preparing the blockchain service does not know blockchain technology. Compared with general nodes, the purpose of BaaS nodes is to quickly build the development environment that they mainly need, and provide various other services such as blockchain-based data inquiry, transaction transmission, and data analysis. It helps developers quickly validate their concepts and models.
+  * BaaS, which means blockchain as a service, can provide a blockchain service suitable for the environment even if the company preparing the blockchain service does not know blockchain technology. Compared with general nodes, the purpose of BaaS nodes is to quickly build the development environment that they mainly need, and provide various other services such as blockchain-based data inquiry, transaction transmission, and data analysis. It helps developers quickly validate their concepts and models.
 
 ## Team members 
 * team leader
