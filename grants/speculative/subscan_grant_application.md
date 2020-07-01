@@ -74,7 +74,7 @@ Each component will be open sourced but Subscan itself will remain partial close
 ## Future Plans
 Subscan is a complex product, we've been building it for 10 months and we can only cover core features during the 3-month period. We would like to combine the components into upcoming Subscan cloud services, and will continue working on Subscan explorer in the future to make it more complete and mature. 
 
-We are optimistic about the prospects of Substrate and will maintain good communication with the Substrate community and developers. We are striving to provide high-quality Explorer Instance cloud services for chains based on Substrate. At the same time, developers can earn income by developing a browser plug-in for SRML module via our browser platform, which may become a new business model in the future. Subscan will always support the update of Substrate and grow together.
+We are optimistic about the prospects of Substrate and will maintain good communication with the Substrate community and developers. We are striving to provide high-quality Explorer Instance cloud services for chains based on Substrate. At the same time, developers can earn income by developing an explorer extension for SRML module via our explorer platform, which may become a new business model in the future. Subscan will always support the update of Substrate and grow together.
 
 We hope this project will benefit Substrate ecological developers.
 
