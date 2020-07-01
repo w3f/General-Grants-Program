@@ -49,15 +49,13 @@ https://github.com/itering/subscan
 * Docker image to setup basic explorer service.
 * Documentations for developers to get started and configration.
 
-### Milestone 2 — SRML explorer plugin framework — 1 month — $20,000
+### Milestone 2 — SRML explorer plugin framework — 1 month — $15,000
 * An explorer plugin framework paring with Substrate to provide the flexibility of providing customized explorer plugin for various SRML.
     * Framework Specification
         * Runtime module metadata and types preprocessing and schema auto generating specification
-        * Storage indexing solution, using trie db and kvdb's subtree feature and key iteratable feature to index storage from rocksdb to non-relational database(e.g. redis/mongodb) from easier query and concurrency.
         * Extrinsic dispatch call parsing and indexing solution, using signed extension metadata definition
         * Example of using customize module rpc call to providing data for module explorer plugin
     * Basic Implementation of the framework
-        * Indexing and streaming, sync data from module to plugin relational database table(Need to define plugin schema) according to srml decl_storage! macro.
         * Indexing and parsing *Extrinsic* calls according to dispatch call definition from decl_module! macro.
         * Indexing and parsing Events, Errors, Logs according decl_event!, decl_error!, Block Digest definition
         * Basic View Control Support: Table Control
@@ -68,19 +66,7 @@ https://github.com/itering/subscan
 * Docker image demonstrating its functionality.
 * Documentations for deployers.
 
-### Milestone 3 — Explorer instance and testing tools — 1 month — $15,000
-* Workflow for new explorer instance submission and creation
-    * Through web interface
-    * Project config files, including web socket connections(or docker) and custom JSON definition files.
-    * Explorer deployment and creation logs shown in an embedded terminal
-    * Launch a web app for user to view the explorer datas
-* SRML compatibility testing solution and tools.
-* Runtime upgrade automatic parsing solutions, by pre-submiting new custom types JSON definition in advance.
-* Node upgrade strategy proposal(spec) for Substrate and upgrade automation tools.
-* Minimal viable product web page.
-* Documentations for developer users.
-
-50,000 USD in total, we are willing to accept up to 50% of payment in vested DOTs.
+30,000 USD in total, we are willing to accept up to 50% of payment in vested DOTs.
 
 ### Open-source license
 Each component will be open sourced but Subscan itself will remain partial close sourced for now, we plan to open source more components of Subscan in the future.
