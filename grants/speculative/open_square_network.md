@@ -6,7 +6,7 @@ Open Square Network is a blockchain based crowdsourcing and reputation platform.
 of Polkadot. We aim to attract thousands of middle and small sized enterprises and millions of developers in China for the first phase. 
 This platform is a trial to evolve the human resource market. First phase features include:
 - Bounty funders can fund a bounty, while hunters can apply it.
-- Funders can mining powers by successful collaboration with hunters.
+- Funders can get mining powers by successful collaboration with hunters.
 - Reputation of both funders and hunters will be calculated based on the finished bounty and remarks.
 - Aim to maintain relatively long collaboration between bounty funders and hunters.
 - Platform fairness and transparency will be provided by on-chain governance.
