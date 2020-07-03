@@ -12,6 +12,8 @@ This is an application for development of a DKG multisig wallet. This project ha
 
 &nbsp;&nbsp;&nbsp;&nbsp;In general, a multisig wallet which we want to develop can be divided into 3 parts: wallet APP(browser extension, desktop app, etc.), web server and DKG library in Rust.
 
+&nbsp;&nbsp;&nbsp;&nbsp;To conclude about the architecture of the wallet, we will combine different approaches and allow users to use a browser extension only or combine it with a mobile app where the phone serves as a hardware wallet only for signing transaction. Unlike other wallets in the Polkadot ecosystem we have made an accent on multisignature and DKG functionality and with our wallet the Polkadot ecosystem becomes fully equipped with all possible ways of holding tokens, sending them and generating keys. As a result it will be a multisig wallet with a very high level of security as it is fully built on the cryptography protocols.
+
 ## Team members
 * Vitalii Parkhomenko – team leader/researcher/tech writer
 * Aleksei Korobeinikov – developer
