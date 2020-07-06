@@ -154,3 +154,4 @@ This page gives an overview of accepted grants and a link to their GitHubs. Keep
 - [MVP Workshop](https://mvpworkshop.co/) - Substrate startkit GUI (marketplace for substrate pallets) ([GitHub](https://github.com/MVPWorkshop))
 - [P2P](https://p2p.org/) - Multiblockchain ELT ([GitHub](https://github.com/p2p-org/))
 - [FlexDapps](https://flexdapps.com/) - Gantree Phase 4 ([GitHub](https://github.com/flex-dapps))
+- [Zondax](http://zondax.ch/) - Ledgeracio: A command-line tool and Ledger app designed for staking operations ([GitHub](https://github.com/paritytech/ledgeracio))
