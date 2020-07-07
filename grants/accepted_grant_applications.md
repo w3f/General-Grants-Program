@@ -155,3 +155,4 @@ This page gives an overview of accepted grants and a link to their GitHubs. Keep
 - [P2P](https://p2p.org/) - Multiblockchain ELT ([GitHub](https://github.com/p2p-org/))
 - [FlexDapps](https://flexdapps.com/) - Gantree Phase 4 ([GitHub](https://github.com/flex-dapps))
 - [Zondax](http://zondax.ch/) - Ledgeracio: A command-line tool and Ledger app designed for staking operations ([GitHub](https://github.com/paritytech/ledgeracio))
+- [Dipole Tech](https://www.dipole.tech) - Dipole Oracle: Distributed energy resource management ([GitHub](https://github.com/DipoleTech/dipole-oracle))
