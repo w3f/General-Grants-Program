@@ -14,6 +14,8 @@ This is an application for development of a DKG multisig wallet. This project ha
 
 &nbsp;&nbsp;&nbsp;&nbsp;To conclude about the architecture of the wallet, we will combine different approaches and allow users to use a browser extension only or combine it with a mobile app where the phone serves as a hardware wallet only for signing transaction. Unlike other wallets in the Polkadot ecosystem we have made an accent on multisignature and DKG functionality and with our wallet the Polkadot ecosystem becomes fully equipped with all possible ways of holding tokens, sending them and generating keys. As a result it will be a multisig wallet with a very high level of security as it is fully built on the cryptography protocols.
 
+&nbsp;&nbsp;&nbsp;&nbsp;The project will be done under guidance and supervision of Jeff Brudges From Web3.
+
 ## Team members
 * Aleksei Korobeinikov – developer
 * Vadym Grozinok – developer
