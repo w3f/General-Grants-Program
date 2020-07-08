@@ -1,6 +1,10 @@
-# Project name
+# Virtual Block World
 
-## Project Description
+## VBW Description
+ * A virtual world base on Substrate and Polkadot, digital assets in cyberspace.
+ * Game is the best way
+ * Extendeable 3D format data will store on chain through Substrate.
+ * This is an interesting way to benifit from blockchain, more than coin. 
 If this application in response to an RFP then please indicate this on the first line of this section.
 
 Please provide the following:
@@ -10,8 +14,7 @@ Please provide the following:
   * An indication of why your team is interested in creating this project.
 
 ## Team members
-* Name of team leader
-* Names of team members	
+Zhongqiang Fu
 
 ## Team Website	
 * https://...
