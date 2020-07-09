@@ -24,7 +24,7 @@ Most of our teams are from [ChainX](https://chainx.org/), while we have rich exp
 Now you can refer to https://chainx.org for our previous work. And https://opensquare.network will be available soon.
 
 ## Legal Structure 
-We will register a legal entity for this project which will be based on Hangzhou, China.
+We will register a legal entity for this project which will be based in Hangzhou, China.
 
 ## Team's experience
 
