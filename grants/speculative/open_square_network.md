@@ -21,7 +21,7 @@ Most of our teams are from [ChainX](https://chainx.org/), while we have rich exp
 * Xuan WU, Community specialist
 
 ## Team Website	
-Now you can refer to https://chainx.org for our previous work. And https://opensquare.network will be available soon.
+Now you can refer to https://chainx.org for our previous work. And https://www.opensquare.network will be available soon.
 
 ## Legal Structure 
 We will register a legal entity for this project which will be based in Hangzhou, China.
