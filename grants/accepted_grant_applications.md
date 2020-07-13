@@ -12,6 +12,7 @@ This page gives an overview of accepted grants and a link to their GitHubs. Keep
 - [Wave 4 - Fourth Quarter 2019](#wave-4)
 - [Wave 5 - First Quarter 2020](#wave-5)
 - [Wave 6 - Second Quarter 2020](#wave-6)
+- [Wave 7 - Third Quarter 2020](#wave-7)
 
 ## Wave 1
 -   [ChainSafe](https://chainsafe.io/) - Polkadot Runtime Environment in Go (via an RFP) ([GitHub](https://github.com/ChainSafeSystems/gossamer))
@@ -156,3 +157,5 @@ This page gives an overview of accepted grants and a link to their GitHubs. Keep
 - [FlexDapps](https://flexdapps.com/) - Gantree Phase 4 ([GitHub](https://github.com/flex-dapps))
 - [Zondax](http://zondax.ch/) - Ledgeracio: A command-line tool and Ledger app designed for staking operations ([GitHub](https://github.com/paritytech/ledgeracio))
 - [Dipole Tech](https://www.dipole.tech) - Dipole Oracle: Distributed energy resource management ([GitHub](https://github.com/DipoleTech/dipole-oracle))
+
+## Wave 7
