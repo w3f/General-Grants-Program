@@ -79,6 +79,10 @@ Sorry but we don't use linkedin heavily in China.
 ## Additional Information
 Any additional information that you think is relevant to this application that hasn't already been included.
 
+Several google docs below will be helpful for you to understand our ideas.
+1. [[OSN] Why](https://docs.google.com/document/d/1ozwyhQ7g0UabVny5g-uF5z9TC8hya5yhVDz-SVreDek/edit?usp=sharing) shows why we have the idea to build Open Square Network.
+2. [[OSN] How](https://docs.google.com/document/d/1hhAyEixHa-qfMiv-6mf2Fk5EVPSTns9Ehv-EZ3_Dj3g/edit?usp=sharing) shows some details about the reputation score calculation.
+
 Possible additional information to include:
 * What work has been done so far?  
   1. We have drafted the basic economic model. More details about the model and technical specifications will be done in future work.
