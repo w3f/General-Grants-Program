@@ -10,6 +10,9 @@ XClaim bridge is trying to overcome centralization and authority mechanism with 
 We are going to introduce a bridge model where we try to resolve the problems of PoA Bridge and centralization without involving expensive operations of relay chains design of XClaim bridge.
 It is more robust and secure to built up an incentive game over PoA Bridge, but instead of an authoritarian list of validators we implement the mechanics which integrates dependency on stake required for being a validator. Therefore bridge maintainers should be validators and be economically interested in supporting bridge and behaving fairly. Such interest is based on the concept that malicious actions of validators on Foreign chain will lead to decreasing price of Home tokens which results in lowering economical value of validators stakes.
 
+One of the ideas for the bridge was to create a derivative asset based on the uniswap SC  that will enable staking liquidity for both chains. 
+The main assumption is that due to lengthy unbonding time on Polkadot, there will always be a need to sell some coins quickly without waiting for the unbonding period to end. At the moment we’re gauging the interest in staking liquidity both within Polkadot and Solana communities.
+
 ## Team members
 * Vitalii Parkhomenko – team lead/researcher/tech writer
 * Aleksei Korobeinikov – developer
