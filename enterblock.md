@@ -5,7 +5,7 @@
 
 ## Project Description
 * Abstract
-  * First goal : providing Substrate-based blockchains(BaaS solutions) for users (mainly companies) to easily access.
+  * First goal : Providing Substrate-based blockchains(BaaS solutions) for users (mainly companies) to easily access.
   * Second goal : Many clients sometimes want to use our BaaS system as well as services related to many other parachains in the Polkadot ecosystem. In this situation, through the relay nodes that we operate, clients can easily use APIs without knowing the structure of many parachains in the Polkadot ecosystem.
   
 We will provide common APIs and documents basically so that they can be applied quickly and easily in applying blockchain to companies.
