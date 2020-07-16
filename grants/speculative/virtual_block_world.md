@@ -79,8 +79,6 @@ Shanghai Qingfang Internet Technology Co., Ltd，Unified social credit code 9131
 * We will build a Docker image with (e.g.) our Substrate chain, demonstrating its functionality.
 * We will provide both inline documentation of the code and a basic tutorial describing how the software can be used and tested.
 
-
-
 ## Future Plans
 * Finally,we will create a virtual world which the content is created by users.
 * More functions will be migrated to new system, such as Chord Autobuild System , 3D objects animation, image to lattice.
