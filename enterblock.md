@@ -28,7 +28,7 @@ We have already developed these projects through Parity, and we want to integrat
     * http://mvp.beatsomeone.com/beatsomeone/index
     
 * Team Experience
-  * GlueOS explorer under development : http://121.133.140.199:4000/
+  * GlueOS under development(Parity-ether PoA base Solution) : http://121.133.140.199:4000/
 
 ## Team members 
 * Team leader
