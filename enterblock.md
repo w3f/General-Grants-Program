@@ -5,8 +5,10 @@
 
 ## Project Description
 * Abstract
-  * Our goal is to provide Substrate-based blockchains for users (mainly companies) to easily access.
-We will provide APIs and documents basically so that they can be applied quickly and easily in applying blockchain to companies, and we will be able to easily exchange assets (tokens, copyrights, SCM information, etc.) in Polkadot chain.
+  * First goal : providing Substrate-based blockchains(BaaS solutions) for users (mainly companies) to easily access.
+  * Second goal : Many clients sometimes want to use our BaaS system as well as services related to many parachains in the Polkadot ecosystem. In this situation, through the relay nodes that we operate, clients can easily use APIs without knowing the structure of many parachains in the Polkadot ecosystem.
+  
+We will provide common APIs and documents basically so that they can be applied quickly and easily in applying blockchain to companies.
 We have already developed these projects through Parity, and we want to integrate them to develop them.
 
 * Introduction
