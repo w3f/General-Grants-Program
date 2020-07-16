@@ -19,12 +19,12 @@ We have already developed these projects through Parity, and we want to integrat
 * Brief Explanation for the enterBlock BaaS Architecture
   * The enterprise block chain BaaS provided by enterBlock can provide various types of services as shown in the figure above. For example, if a general financial company wants to build a blockchain for their service operation, it can be easily built through our enterBlock platform. If they want to put their desired business logic on the blockchain, enterBlock can easily provide their desired logic in the form of API using pallets provided by substrate. Also, if you want to bring financial data from outside, you can easily meet their requirements by using offchain workers. Each blockchain in enterBlock can communicate with each other and exchange assets and data. The conclusion is that for each company, a blockchain suitable for the desired business logic is possible in enterBlock.
   * Supported Common Pallets functions
-    *token(erc-20) : https://eips.ethereum.org/EIPS/eip-20
-    *token(erc-721) : https://eips.ethereum.org/EIPS/eip-721
-    *token(erc-777) : https://eips.ethereum.org/EIPS/eip-777
-    *token(erc-1155) : https://eips.ethereum.org/EIPS/eip-1155
-    *token(erc-884) : https://github.com/ethereum/EIPs/blob/master/EIPS/eip-884.md 
-    *token(erc-1400&) : https://github.com/ethereum/EIPs/issues/1411 , https://github.com/ethereum/EIPs/issues/1410  
+    * token(erc-20) : https://eips.ethereum.org/EIPS/eip-20
+    * token(erc-721) : https://eips.ethereum.org/EIPS/eip-721
+    * token(erc-777) : https://eips.ethereum.org/EIPS/eip-777
+    * token(erc-1155) : https://eips.ethereum.org/EIPS/eip-1155
+    * token(erc-884) : https://github.com/ethereum/EIPs/blob/master/EIPS/eip-884.md 
+    * token(erc-1400&) : https://github.com/ethereum/EIPs/issues/1411 , https://github.com/ethereum/EIPs/issues/1410  
   
 * Brief Explanation for the enterBlock Relay Nodes Architecture
   * Relay Nodes provide client-side plugins to connect to the Kusama, ChainX and other any parachains in polkadot. Our enterBlock JS library provides the means to send api requests to the any other parachain in polkadot connecting you to your desired parachains. In order for these to be implemented, each parachains must first implement its own sdks or RPC/REST types and provide them in library form to us similar. With regard to providing this part, the api structure of each parachains must be developed quickly.
