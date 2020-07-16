@@ -1,4 +1,4 @@
-# enterBlock BaaS(Blockchain as a Service) Platform Service based on the Substrate
+# enterBlock BaaS(Blockchain as a Service) Platform and Relay nodes Service
 <p align="center">
   <img src="./src/polkadot.jpg" style="width:1300px";>
 </p>
