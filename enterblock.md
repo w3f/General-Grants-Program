@@ -25,7 +25,7 @@ We have already developed these projects through Parity, and we want to integrat
     * token(erc-1155) : https://eips.ethereum.org/EIPS/eip-1155
     * token(erc-884) : https://github.com/ethereum/EIPs/blob/master/EIPS/eip-884.md 
     * token(erc-1400&) : https://github.com/ethereum/EIPs/issues/1411 , https://github.com/ethereum/EIPs/issues/1410 
-  * custom pallets function :  since custom pallets have different desired parts for each client, this part will be developed upon request of client development after the mainnet release with no opensource.
+  * custom pallets functions :  Since custom pallets have different desired parts for each client, this part will be developed upon request of client development after the mainnet release with no opensource.
   
 * Brief Explanation for the enterBlock Relay Nodes Architecture
   * Relay Nodes provide client-side plugins to connect to the Kusama, ChainX and other any parachains in polkadot. Our enterBlock JS library provides the means to send api requests to the any other parachain in polkadot connecting you to your desired parachains. In order for these to be implemented, each parachains must first implement its own sdks or RPC/REST types and provide them in library form to us. With regard to providing this apis to the clients, it is up to the development progress of each other parachains.
@@ -125,7 +125,7 @@ For each milestone:
   
 ## FAQ
 * What programming language would the developers code in ofr your BaaS?
-  -> Rust Language
+  * Rust Language
 * What parts will be made open source ?
-  -> Relay Nodes, common pallets
-  -> for the custom pallets, since custom pallets have different desired parts for each clients, this part will be developed upon request of clients development after the mainnet release with no open source. 
+  * Relay Nodes, common pallets
+  * for the custom pallets, since custom pallets have different desired parts for each clients, this part will be developed upon request of clients development after the mainnet release with no open source. 
