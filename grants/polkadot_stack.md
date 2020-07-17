@@ -83,9 +83,7 @@ In the below sections you can find a list of different layers of the Polkadot St
 | Runtime Security | [K specifications](https://github.com/kframework/wasm-semantics)
 | Smart Contract Languages | [Solang](https://github.com/hyperledger-labs/solang), [Ink!](https://github.com/paritytech/ink), [Pact](https://github.com/kadena-io/)| AssemblyScript, Functional Programming Languages, other languages with developed toolchains |
 | Smart Contract Security |   
-| Easy integration testing |   
-| Performance Testing |  [MixBytes Tank](https://github.com/mixbytes/tank)
-| Chaos/Fuzz Testing |
+| Testing |  [Halva](https://github.com/orgs/halva-suite), [MixBytes Tank](https://github.com/mixbytes/tank)
 
 ### :link: Chains and Modules
 
