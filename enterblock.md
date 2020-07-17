@@ -124,8 +124,8 @@ For each milestone:
   * Proposed to Korea's blockchain task system
   
 ## FAQ
-* What programming language would the developers code in ofr your BaaS?
+* What programming language would the developers code in your BaaS?
   * Rust Language
-* What parts will be made open source ?
+* What parts will be made with open source ?
   * Relay Nodes, common pallets
   * for the custom pallets, since custom pallets have different desired parts for each clients, this part will be developed upon request of clients development after the mainnet release with no open source. 
