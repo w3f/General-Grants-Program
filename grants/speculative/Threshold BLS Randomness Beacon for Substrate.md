@@ -48,7 +48,7 @@ To stimulate further growth of Substrate, we would like to offer our expertise i
 * We designed and implemented the first efficient asynchronous BFT randomness beacon allowing for high-scale deployment (https://arxiv.org/abs/1908.05156, independent work with [Kokoris-Spiegelman-Malkhi-Abraham](https://eprint.iacr.org/2019/1015.pdf)). 
 * We designed and implemented an efficient [DAG-based consensus protocol](https://arxiv.org/abs/1908.05156).
 * We designed and implemented a new [threshold ECDSA signature protocol](https://eprint.iacr.org/2020/498) with attributable faults.
-* While we have implemented these protocols using Golang (see our repos) due to its relative simplicity and speed of development, we feel confident in Rust as well and are eager to code our next project using it as the main language (what is an obvious, if not a necessary choice here, considering Substrate architecture). During the past weeks we got familiar with Substrate through substrate.dev tutorials and recipes. 
+* While we have implemented these protocols using Golang (see our repos) due to its relative simplicity and speed of development, we feel confident in Rust as well and are eager to code our next project using it as the main language. During the past weeks we got familiar with Substrate through substrate.dev tutorials and recipes. 
 
 
 ##### Team Code Repos
