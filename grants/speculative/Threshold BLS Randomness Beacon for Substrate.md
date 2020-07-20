@@ -55,8 +55,8 @@ To stimulate further growth of Substrate, we would like to offer our expertise i
 
 ## Development Roadmap
 
-Total Estimated Duration: 12 weeks
-Full-time equivalent (FTE): 2.5
+* Total Estimated Duration: 12 weeks
+* Full-time equivalent (FTE): 2.5
 
 ##### Milestone 1
 We create a Substrate pallet implementing the functionality of a Randomness Beacon based on threshold BLS signatures, provided that the nodes forming the beacon committee already hold threshold BLS keys. In other words, we implement a Randomness Beacon leaving out the DKG part for now.
