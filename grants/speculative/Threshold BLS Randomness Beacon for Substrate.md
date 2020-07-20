@@ -9,6 +9,7 @@ To run such a randomness beacon along a blockchain there are essentially two opt
 
 Thus, in other words, such a beacon in the setting with committee-based consensus has no additional requirements, and in the “permissionless” setting requires a “trusted” committee to be selected.
 While the overall idea of using threshold signatures as a randomness source is indeed quite simple and seemingly easy to implement, the true challenge lies in the setup phase during which the threshold keys of the nodes are generated. Such a setup is called Distributed Key Generation (DKG) in the literature and has been subject of extensive research. Several solutions have been proposed for DKG, adapted to various assumptions on the network and the adversary [[1](https://link.springer.com/article/10.1007/s00145-005-0318-0), [5](https://link.springer.com/chapter/10.1007/3-540-46416-6_47), [6](https://link.springer.com/chapter/10.1007/3-540-36563-X_26), [7](https://cypherpunks.ca/~iang/pubs/DKG.pdf)], including the recent work of the authors of this grant proposal [[3]](https://arxiv.org/pdf/1908.05156.pdf) that achieves DKG in the fully asynchronous BFT setting. 
+
 In the specific setting of implementing DKG within a Substrate module, we believe that one can take advantage of having access to a blockchain and use it as a broadcast channel, in order to obtain a robust DKG protocol that does not suffer from issues related to synchronization. More specifically, we believe that a design akin to the protocol proposed by  Schindler et. al. [[8]](https://eprint.iacr.org/2019/985), with certain minor adjustments would be the best fit for this setting.
 
 ##### Why is this project good for the ecosystem:
@@ -18,6 +19,7 @@ Fair randomness plays an important role in any blockchain ecosystem. Not only ca
 - Randomness from VRF (via pallet_babe) as a byproduct of the BABE consensus 
 
 Neither of these options offers a generic, safe source of randomness for blockchain use -- Collective Coin Flipping is relatively weak, and can be biased by the adversary, and the second option can be used only on chains with BABE consensus. We would like to implement an alternative that uses a state-of-the-art technique based on extracting randomness from threshold BLS signatures. Given our expertise in designing randomness sources, both at the theoretical layer, as well as, at implementing them, we believe that we can create a developer-friendly pallet that realizes this idea, consistent with the vision of Substrate as a modular, highly customizable framework for building blockchains. 
+
 One particular application of our implementation would be to deploy a standalone parachain whose sole purpose is to produce safe randomness for the use in the entire Polkadot ecosystem. 
 
 
@@ -29,6 +31,7 @@ We would like to build the randomness beacon as a Substrate pallet.
 ##### An indication of why your team is interested in creating this project.
 
 After learning about Substrate our team members became great fans of the framework, especially because the design choices within Substrate make it elegant, future-proof and highly flexible. We see great potential in Substrate as a universal tool, not only for fast prototyping of MVPs, but also as a default tech stack for rapidly deploying modern blockchain systems. 
+
 To stimulate further growth of Substrate, we would like to offer our expertise in distributed randomness generation and contribute an important piece: a randomness beacon pallet that would allow for robust generation of unbiased randomness.
 
 
