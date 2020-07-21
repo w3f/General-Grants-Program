@@ -21,7 +21,7 @@ Scope of this grant will include provide hosting costs for polkassembly as well 
 * Twitter: https://twitter.com/polkassembly
 
 ## Legal Structure
-PREMIURLY ONLINE PRIVATE LIMITED
+PREMIURLY ONLINE PRIVATE LIMITED (Registration Awaited)
 
 ## Team's experience
 Our team has good blockchain development experience. We are familiar with Web3 and Substrate framework and polkadot ecosystem.
