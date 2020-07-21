@@ -42,6 +42,7 @@ Our team has good blockchain development experience. We are familiar with Web3 a
 * Setup kubernetes cluster for authentication node.js server, Frontend React app, Hasura graphql server, Node watcher node js process, postgres cloud sql database.
 * Create a sendgrid account for email service.
 * Setup ci cd pipelines for deploying staging and production polkadot and kusama production environment.
+* Create Product documentation for polkassembly.
 
 ### Milestone 2 — Add features for better governance.
 * Add tech committee proposal
