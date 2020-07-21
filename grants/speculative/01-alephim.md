@@ -84,9 +84,14 @@ In order to achieve this second milestone, the following tasks will be done:
 ## Future Plans
 
 We want to integrate with Polkadot in an in-depth manner. This includes:
-* oracles
-* support for identitity framework developed in collaboration with synaps.io
-* deeper integration with supported wallets
+* Oracles to allow retrieval of off-chain data from the networks
+* Support for identitity framework developed in collaboration with synaps.io:
+  - Support Polkadot/Kusama addresses as identity source
+  - Write identity data on Polkadot/Kusama
+  - Set the network as a registar as per https://wiki.polkadot.network/docs/en/learn-identity
+* Deeper integration with supported wallets
+
+Those can be done as subsequent grants or other agreements.
 
 ## Additional Information
 
