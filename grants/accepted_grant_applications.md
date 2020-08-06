@@ -162,3 +162,4 @@ This page gives an overview of accepted grants and a link to their GitHubs. Keep
 - [Halva](https://github.com/halva-suite) - A toolchain for improving the experience of developing Decentralized Applications based on Substrate ([GitHub](https://github.com/halva-suite))
 - [Subscan](subscan.io) - Substrate explorer ([GitHub](https://github.com/itering/subscan))
 - [t3rn](https://github.com/t3rn/t3rn) - A protocol for blockchain interoperability ([GitHub](https://github.com/t3rn/t3rn))
+- [Aleksandr Krupenkin](https://github.com/akru) - Hardware ECDSA for Polkadot JS ([GitHub](https://github.com/polkadot-js))
