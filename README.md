@@ -6,8 +6,6 @@
 
 As part of our commitment to promoting the Web3 ecosystem, we offer a comprehensive grants program focused on funding software development and research efforts related to **Polkadot**, **Kusama** and **Substrate**. 
 
-For smaller technology grants up to **$30k**, which are tracked **transparently** on GitHub and disbursed in **bitcoin**, see our new [Open Grants Program](https://github.com/w3f/Open-Grants-Program). 
-
 ---
 
 - [:clipboard: About](#clipboard-about)
@@ -17,6 +15,9 @@ For smaller technology grants up to **$30k**, which are tracked **transparently*
   - [Who we are interested in funding](#who-we-are-interested-in-funding)
 - [:pencil: Process](#pencil-process)
 - [:mailbox_with_mail: RFP Suggestion](#mailbox_with_mail-rfp-suggestion)
+- [:rocket: Alternative Funding Sources](#rocket-alternative-funding-sources)
+  - [Treasury](#treasury)
+  - [Open Grants Program](#open-grants-program)
 - [:bulb: Help](#bulb-help)
   - [Additional information](#additional-information)
   - [Real-time conversation](#real-time-conversation)
@@ -111,6 +112,19 @@ Instructions for submitting an RFP suggestion:
 1. Label the file as "*project_name*.md" where *project_name* is the name of your project.
 1. Fill out the template with the details of your project.
 1. Once you have completed the application, click on "create new pull request".
+
+## :rocket: Alternative Funding Sources
+
+### Treasury
+
+The treasury is a pot of on-chain funds collected through transaction fees, slashing, staking inefficiencies, etc. The funds held in the treasury can be spent by making a spending proposal. [Polkadot](https://polkadot.network/) as well as [Kusama](https://kusama.network/) offer everyone the opportunity to apply for funding via the treasury. See:
+
+- [Kusama Treasury Guide](https://docs.google.com/document/d/1p3UQUjph5t8TVaWnTkfrI5mE-BABnM9Xvtuhdlhl6JE/edit)
+- [Treasury Wiki](https://wiki.polkadot.network/docs/en/learn-treasury#docsNav)
+
+### Open Grants Program
+
+For smaller technology grants up to **$30k**, which are tracked **transparently** on GitHub and disbursed in **bitcoin**, see our [Open Grants Program](https://github.com/w3f/Open-Grants-Program). 
 
 ## :bulb: Help
 
