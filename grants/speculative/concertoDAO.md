@@ -6,19 +6,16 @@
 
 Concerto, a Decentralized Autonomous Organization (DAO), works on top of Poladot, Bulletproof, and Game Theory. It is not only a trendy technology of Utopia but is also tailored for the real world. Furthermore, a series of problems related to profitability, decentralization and secrecy that lead to the failure of other DAOs can be solved here. Based on three core principles: profit first, decentralization, and secrecy, Concerto can successfully strip information asymmetry off individual investment behaviour with the help of game theory and zero-knowledge technology. Owing to the secret and verifiable information on Concerto, investors might gain profit easier than in other classic DAOs with traditional methods.
 
-
-Please provide the following:
-  * A brief description of the project.
-  * An indication of why this project is good for the ecosystem.
-  * An indication of how you will integrate this project into Substrate / Polkadot.
-  * An indication of why your team is interested in creating this project.
+Concerto DAO will run on Polkadot. The reason for this choice is to widen the range within which the investment can be targeted. Thanks to cross-chain technology, Concerto can theoretically touch any crypto assets in the blockchain world, and makes it possible to directly perform on-chain asset management.
 
 ## Team members
-* Name of team leader
-* Names of team members
+* Elder K
+* Dr. Moo
+* L. Er.
+* Neil Sanchez}
 
 ## Team Website
-* https://...
+* https://www.concertodao.com
 
 ## Legal Structure
 Please provide the name and registered address of the legal entity executing the project. These details can also be shared privately via the Google Form used for your application.
@@ -27,8 +24,8 @@ Please provide the name and registered address of the legal entity executing the
 Please describe the team's relevant experience.  If the project involves development work, then we'd appreciated if you can single out a few interesting code commits made by team members on their past projects.  We'll glance at whole repositories too, but not if they contain many vendored dependencies, which often makes commits easier.
 
 ## Team Code Repos
-* https://github.com/<your_repo_1>
-* https://github.com/<your_repo_2>
+* https://github.com/ConcertoDAO/Whitepaper
+* https://github.com/ConcertoDAO/website
 
 ## Team LinkedIn Profiles
 * https://www.linkedin.com/<person_1>
@@ -53,25 +50,21 @@ For each milestone:
 * Please indicate the number of Full-Time Employees working on each milestone, and include the number of days along with their cost per day.
 
 ### Milestone 1 — Implement Substrate Modules — 1 month — $10,000
-* We will create a Substrate module that will... (Please list the functions that will be coded for the first milestone).
-* We will deliver a working module, along with a simple tutorial that explains how a user can (for example) spin up one of our Substrate nodes. Once the node is up, it will be possible to send test transactions that will show how the new functionality works.
+
+* ZKP implementation in Rust with basic Pederson Commitment and Crypto Toolsets it's `ink!` contract API (Apache 2.0 license).
+* Testable economic model, Data back testing for our Whitepaper (in Python).
+* Vault Contract based on `ink!` DSL for ZKP based Concerto Token Distribution Phase.
 * The code will have proper unit-test coverage to ensure functionality and robustness.
-* We will build a Docker image with (e.g.) our Substrate chain, demonstrating its functionality.
 * We will provide both inline documentation of the code and a basic tutorial describing how the software can be used and tested.
 
 ### Milestone 2 — Additional features — 1 month — $10,000
-* We will create a... (Describe the next round of features and functions that will be added).
-* We will deliver... (Explain how you will demonstrate that the functionality you built will work as intended).
-* The code will have proper unit-test coverage to ensure functionality and robustness.
-* We will build a Docker image with (e.g.) our Substrate chain, demonstrating its functionality.
+* Implement Bulletproof NIZK based on out ZKP system.
+* Voting / Proposal Smart contracts which are based on Range Proof.
 * We will provide both inline documentation of the code and a basic tutorial describing how the software can be used and tested.
 
 ### Milestone 3 — Additional features — 1 month — $10,000
-* We will create a... (Describe the next round of features and functions that will be added).
-* We will deliver... (Explain how you will demonstrate that the functionality you built will work as intended).
-* The code will have proper unit-test coverage to ensure functionality and robustness.
-* We will build a Docker image with (e.g.) our Substrate chain, demonstrating its functionality.
-* We will provide both inline documentation of the code and a basic tutorial describing how the software can be used and tested.
+* Full feature version of Concerto DAO, including Vault, Voting, Proposal and Liquidation Smart Contract.
+* Formal verification for Contracts (with Coq).
 
 ## Future Plans
 * Please include the team's long-term plans and intentions.
