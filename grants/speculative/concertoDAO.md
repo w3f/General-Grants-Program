@@ -4,7 +4,7 @@
 
 ### Abstrict
 
-Concerto, a Decentralized Autonomous Organization (DAO), works on top of Poladot, Bulletproof, and Game Theory. It is not only a trendy technology of Utopia but is also tailored for the real world. Furthermore, a series of problems related to profitability, decentralization and secrecy that lead to the failure of other DAOs can be solved here. Based on three core principles: profit first, decentralization, and secrecy, Concerto can successfully strip information asymmetry off individual investment behaviour with the help of game theory and zero-knowledge technology. Owing to the secret and verifiable information on Concerto, investors might gain profit easier than in other classic DAOs with traditional methods.
+Concerto, a Decentralized Autonomous Organization (DAO), works on top of Polkadot, Bulletproof, and Game Theory. It is not only a trendy technology of Utopia but is also tailored for the real world. Furthermore, a series of problems related to profitability, decentralization and secrecy that lead to the failure of other DAOs can be solved here. Based on three core principles: profit first, decentralization, and secrecy, Concerto can successfully strip information asymmetry off individual investment behaviour with the help of game theory and zero-knowledge technology. Owing to the secret and verifiable information on Concerto, investors might gain profit easier than in other classic DAOs with traditional methods.
 
 Concerto DAO will run on Polkadot. The reason for this choice is to widen the range within which the investment can be targeted. Thanks to cross-chain technology, Concerto can theoretically touch any crypto assets in the blockchain world, and makes it possible to directly perform on-chain asset management.
 
@@ -12,7 +12,7 @@ Concerto DAO will run on Polkadot. The reason for this choice is to widen the ra
 * Elder K
 * Dr. Moo
 * L. Er.
-* Neil Sanchez}
+* Neil Sanchez
 
 ## Team Website
 * https://www.concertodao.com
