@@ -14,8 +14,6 @@ https://concertodao.com/Concerto_Whitepaper.pdf
 
 ## Team members
 * Elder K
-Blockchain Scientist, Rust Developer, Rust-Ethereum(Parity) Contributor.
-
 * Dr. Moo
 * L. Er.
 * Neil Sanchez
@@ -32,6 +30,8 @@ L. Er., a crypto investor，managing partner of a major token fund. Average inve
 Dr. Moo, early investor and adopter of Bitcoin, freelance programmer and miner, has participated in the crowd funding of Ethereum and The DAO.
 
 Neil Sanchez, smart contract developer and community leader, has been an active maintainer of several Dapp projects for years and now is focusing on DeFi.
+
+Elder K, Blockchain Scientist, Rust Developer, Rust-Ethereum(Parity) Contributor, expert in cryptography, has more than eight years experience of Blockchain based software development.
 
 ## Team Code Repos
 * https://github.com/ConcertoDAO/Whitepaper
