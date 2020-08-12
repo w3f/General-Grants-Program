@@ -163,3 +163,4 @@ This page gives an overview of accepted grants and a link to their GitHubs. Keep
 - [Subscan](subscan.io) - Substrate explorer ([GitHub](https://github.com/itering/subscan))
 - [t3rn](https://github.com/t3rn/t3rn) - A protocol for blockchain interoperability ([GitHub](https://github.com/t3rn/t3rn))
 - [Stake Technologies](https://stake.co.jp/) - Hardware ECDSA for Polkadot JS ([GitHub](https://github.com/polkadot-js))
+- [Protofire](https://protofire.io/) - Failover mechanism for validators upgrade ([GitHub](https://github.com/protofire))
