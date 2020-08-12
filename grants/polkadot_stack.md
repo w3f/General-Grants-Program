@@ -136,7 +136,7 @@ In the below sections you can find a list of different layers of the Polkadot St
 
 | Components | Existing projects | Potentially interesting projects
 |-|-|-
-| SR25519 | [C](https://github.com/usetech-llc/sr25519), [C#](https://github.com/usetech-llc/sr25519_dotnet)
+| SR25519 | [rust](https://github.com/w3f/schnorrkel), [C](https://github.com/usetech-llc/sr25519), [C#](https://github.com/usetech-llc/sr25519_dotnet), [java](https://github.com/debuggor/schnorrkel-java)
 | Easy multisig scheme | 
 | Validator HSMs| |
 | Validator HSM-like solutions|
