@@ -10,6 +10,8 @@ Concerto DAO will run on Polkadot. The reason for this choice is to widen the ra
 
 ## Team members
 * Elder K
+Blockchain Scientist, Rust Developer, Rust-Ethereum(Parity) Contributor.
+
 * Dr. Moo
 * L. Er.
 * Neil Sanchez}
