@@ -1,6 +1,6 @@
 # Project name
 
-## Project Description
+## Project Overview
 If this application in response to an RFP then please indicate this on the first line of this section.
 
 Please provide the following:
@@ -8,6 +8,20 @@ Please provide the following:
   * An indication of why this project is good for the ecosystem.
   * An indication of how you will integrate this project into Substrate / Polkadot.
   * An indication of why your team is interested in creating this project.
+  
+## Project Details
+
+We expect the teams to already have a solid idea about the project's expected final state.
+
+Therefore, we ask the teams to submit (where relevant):
+* Mockups/designs of any UI components
+* API specifications of the core functionality
+* An overview of the technology stack to be used 
+* Documentation of core components, protocols, architecture etc. to be deployed
+* MVP or other relevant prior work or research on the topic
+
+## Ecosystem Fit 
+Are there any other projects similar to yours? If so, how is your project different?
 
 ## Team members
 * Name of team leader
@@ -42,9 +56,10 @@ Here is a reminder of the main criteria of our grants:
 Below we provide an **example roadmap**. In the descriptions it should be clear how the project is related to Substrate and/or Polkadot. We recommend that the scope of the work can fit within a 3 month period and that teams structure their roadmap as 1 month = 1 milestone. It is always best to describe the functionality we should expect, plus how we can check that such functionality exists in the product.
 
 For each milestone:
-* Please be sure to include a specification of the software. The level of detail must be enough so that we are able to test that the software meets the specification.
+* Please be sure to include a specification of the software. The level of detail must be enough so that we are able to verify that the software meets the specification.
 * Please include total amount of funding requested per milestone. Funding can be in fiat (CHF, EUR or USD) or in DOTs. It can also be in a combination of fiat and DOTs. Please reach out to grants@web3.foundation to discuss what amount in fiat and DOTs would be appropriate for your project.
-* Please note that we require documentation (e.g. tutorials) in each milestone. This ensures that the code can be widely used by the community.
+* Please note that we require documentation (e.g. tutorials, API specifications, architecture details) in each milestone. This ensures that the code can be widely used by the community.
+* Please provide a test suite, comprising unit and integration tests, along with a guide on how to run these.
 * Please commit to providing a docker container for the delivery of your project. 
 * Please indicate the number of Full-Time Employees working on each milestone, and include the number of days along with their cost per day.
 
@@ -79,4 +94,3 @@ Possible additional information to include:
 * What work has been done so far?
 * Are there are any teams who have already contributed (financially) to the project?
 * Have you applied for other grants so far?
-* Are there any other projects similar to yours? If so, how is your project different?  
