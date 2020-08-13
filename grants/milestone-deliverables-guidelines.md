@@ -9,7 +9,6 @@ The submission should contain the following information:
  * **[License](#license)**
  * **[Documentation](#documentation)**
  * **[Testing Guide](#testing-guide)**
- * **[End-user Tutorial](#end-user-tutorial)**
  * **A list of the [milestone deliverables](#milestone-deliverables)**
  * **Any [additional information](#additional-information)**
 
@@ -34,28 +33,29 @@ Note: Only focus on your **own** contributions. Do not write detailed explanatio
 
 ## Testing Guide
 
-We require that each milestone delivery includes a comprehensive test suite, consisting of unit & integration tests.
-  
-Please provide documentation on how to install, compile, run and test the deliverable. Documentation must be publicly available, such as a readme file or similar. 
-This will make it easier for the community to use or adapt this project.
+We require that each milestone delivery includes a comprehensive test suite, consisting of:
 
-For installation & integration tests, we prefer docker images to avoid problems with versions and dependencies.
-
-Note: In some cases, if you are not delivering code as part of your project, such a test suite is not applicable, for example: design, research or hardware. 
-If that is the case, please provide detailed instructions on how else we can test your code.
-
-## End-user Tutorial
-
-Usually this is a separate document to the testing guide.
-
-Here, focus on how an end-user will utilize your code/application. 
-Assume little or no knowledge of the underlying technologies, so make sure to include all necessary pre-requisites.
+### Steps demonstrating how your code achieves the milestones.
+Please provide documentation on how to install, compile, run and test the deliverable. Make sure to include all necessary pre-requisites.
 
 Depending on the deliverable, this could include (but is not limited to):
 - How to embed your library in another application
 - How to make example API calls to your service
 - Running your web app
 - Steps to complete some desired action in your mobile app
+
+### Unit tests
+As with any quality software project, each logical code component should be testable. 
+ 
+### Integration tests
+We prefer dockerfiles to avoid problems with versions and dependencies.
+
+
+Documentation must be publicly available, such as a readme file or similar. 
+This will make it easier for the community to use or adapt this project.
+
+Note: In some cases, if you are not delivering code as part of your project, such a test suite is not applicable, for example: design, research or hardware. 
+If that is the case, please provide detailed instructions on how else we can test your code.
 
 ## Milestone Deliverables
 
@@ -74,7 +74,6 @@ Please ensure the repo has the correct open-source license.
 | 0a. | License | https://github.com/.../LICENSE | ... | 
 | 0b. | Documentation | ... | ... | 
 | 0c. | Testing Guide | ... | ... | 
-| 0d. | End-user Tutorial | ... | ... | 
 | 1. | ... | ... | ... | 
 | 2. | ... | ... | ... | 
 
