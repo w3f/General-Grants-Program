@@ -1,6 +1,6 @@
 # Milestone Deliverables Guidelines
 
-We kindly ask you to consider the following guidelines when you submit a milestone for evaluation. 
+These are the guidelines to be followed for milestones submitted for evaluation. 
 Please submit your milestones by email to grants@web3.foundation.
 
 The submission should contain the following information: 
@@ -39,7 +39,7 @@ We require that each milestone delivery includes a comprehensive test suite, con
 Please provide documentation on how to install, compile, run and test the deliverable. Documentation must be publicly available, such as a readme file or similar. 
 This will make it easier for the community to use or adapt this project.
 
-For installation & integration tests, we prefer docker images to avoid problems with versions and dependencies.
+For installation & integration tests, we prefer dockerfiles to avoid problems with versions and dependencies.
 
 Note: In some cases, if you are not delivering code as part of your project, such a test suite is not applicable, for example: design, research or hardware. 
 If that is the case, please provide detailed instructions on how else we can test your code.
