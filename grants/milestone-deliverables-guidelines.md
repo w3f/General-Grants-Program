@@ -1,6 +1,6 @@
 # Milestone Deliverables Guidelines
 
-We kindly ask you to consider the following guidelines when you submit a milestone for evaluation. 
+These are the guidelines to be followed for milestones submitted for evaluation. 
 Please submit your milestones by email to grants@web3.foundation.
 
 The submission should contain the following information: 
