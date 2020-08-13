@@ -1,28 +1,82 @@
 # Milestone Deliverables Guidelines
 
-We kindly ask you to consider the following guidelines when you submit a milestone for evaluation. Please submit your milestones by email to grants@web3.foundation.
+We kindly ask you to consider the following guidelines when you submit a milestone for evaluation. 
+Please submit your milestones by email to grants@web3.foundation.
 
 The submission should contain the following information: 
  * **Name of the grant project**
  * **Link to the open-source code/delivery** 
- * **Basic [testing guide](#testing-guide)** 
+ * **[License](#license)**
+ * **[Documentation](#documentation)**
+ * **[Testing Guide](#testing-guide)**
+ * **[End-user Tutorial](#end-user-tutorial)**
  * **A list of the [milestone deliverables](#milestone-deliverables)**
  * **Any [additional information](#additional-information)**
 
+## License
+
+In order to successfully receive grant funding for your application it is necessary for the project to have open source code. 
+We prefer Apache 2.0, but the GNU GPL v3 license is also acceptable. 
+
+If your delivery comprises multiple repositories, make sure to include the license for them all.
+
+## Documentation
+
+We value high-quality open source code, but even the most performant code is of little use if it lacks proper documentation.
+
+We require that you document (where applicable):
+- API calls
+- Architecture overview and individual component details
+- Algorithms and protocols that are core to your project
+- Any other fundamental building blocks to your technology
+
+Note: Only focus on your **own** contributions. Do not write detailed explanations of already existing components, e.g. IPFS. 
+
 ## Testing Guide
 
-Please provide documentation on how to install, compile, run, and/or test the deliverable. Documentation must be publicly available, such as a readme file or similar. This will make it easier for the community to use or adapt this project. For installation, we prefer docker images to avoid problems with versions and dependencies.
+We require that each milestone delivery includes a comprehensive test suite, consisting of unit & integration tests.
+  
+Please provide documentation on how to install, compile, run and test the deliverable. Documentation must be publicly available, such as a readme file or similar. 
+This will make it easier for the community to use or adapt this project.
+
+For installation & integration tests, we prefer docker images to avoid problems with versions and dependencies.
+
+Note: In some cases, if you are not delivering code as part of your project, such a test suite is not applicable, for example: design, research or hardware. 
+If that is the case, please provide detailed instructions on how else we can test your code.
+
+## End-user Tutorial
+
+Usually this is a separate document to the testing guide.
+
+Here, focus on how an end-user will utilize your code/application. 
+Assume little or no knowledge of the underlying technologies, so make sure to include all necessary pre-requisites.
+
+Depending on the deliverable, this could include (but is not limited to):
+- How to embed your library in another application
+- How to make example API calls to your service
+- Running your web app
+- Steps to complete some desired action in your mobile app
 
 ## Milestone Deliverables
 
-Please provide a list of milestone deliverables. This list should closely reflect the list of deliverables shown in Annex 1 of the grant contract. Each item in the list should include a link to the deliverable itself. If necessary, please highlight anything that deviates from the contract and include further information that you think is relevant to the deliverable.
+Please provide a list of milestone deliverables. This list should closely reflect the list of deliverables shown in Annex 1 of the grant contract.
+ 
+Each item in the list should include a link to the deliverable itself, e.g.:
+- Google Doc link - make sure anyone with the link has View access
+- GitHub repository - include the appropriate file/folder in the link
+
+If necessary, please highlight anything that deviates from the contract and include further information that you think is relevant to the deliverable.
 
 Please ensure the repo has the correct open-source license.
 
 | Number | Deliverable | Link | Notes |
-| ------------- | ------------- | ------------- |------------- |
-| 1. | ... |...| ...| 
-| 2.  | ... |...| ...| 
+| ------------- | ------------- | ------------- | ------------- |
+| 0a. | License | https://github.com/.../LICENSE | ... | 
+| 0b. | Documentation | ... | ... | 
+| 0c. | Testing Guide | ... | ... | 
+| 0d. | End-user Tutorial | ... | ... | 
+| 1. | ... | ... | ... | 
+| 2. | ... | ... | ... | 
 
 ## Additional Information
 
