@@ -61,19 +61,24 @@ N/A as we haven't been involved in any public or open-source projects so far.
 ### Milestone 1 - Initial implementation, subscription to oracle, math functions - 2 weeks
 - We will implement math functions in RUST such as square root and natural logarithm to support calculations of log returns and volatility. 
 - We will implement subscription to oracle price changes and will store prices in price arrays with default time intervals: 1 minute, 10 minute, 1 hour, 4 hour, 1 day.
+- Subscription to oracle will be implemented similar to the new session subscription in the sessions pallet. e.g. oracle itself may not store the price history but it will notify the financial pallet when it receives a new data point. 
+- We will implement functions which perform returns and logreturns calculations for given frequency.
+- We will define pallet interface with a complete set of functions (calc. returns, calc. volatility, calc. correlations, calc. portfolio vol, calc. Value at Risk). 
+- We will implement traits for each statistical parameter calculation.  
 - The code will have complete unit-test coverage to ensure functionality and robustness.
 - We will publish the code in the Equilibrium’s public GitHub repository.
 ### Milestone 2 - returns, volatilities, and correlation calculations - 2 weeks
-- We will implement returns and logreturns calculations.
 - We will implement a unified data structure for each asset with calculated information 
-- We will implement volatility and correlation calculations. 
+- We will implement functions for volatility and correlation calculations which will return corresponding numbers for given asset and frequency.
+- We will calculate volatility and correlations using standard statistical approach and using exponential weighted average approach.  
 - The code will have complete unit-test coverage to ensure functionality and robustness.
 - We will publish the code in the Equilibrium’s public GitHub repository.
 ### Milestone 3 - portfolio volatility calculations, Value at Risk calculations - 3 weeks
 - We will implement method to calculate portfolio volatility given user account / portfolio.
-- We will implement method to calculate Value at Risk using standard and lognormal approaches.
+- We will implement method to calculate Value at Risk using standard and log normal approaches.
 - The code will have complete unit-test coverage to ensure functionality and robustness.
 - We will demonstrate volatility and VaR calculations in action within our substrate for several different portfolios.  
+- We will perform integration tests: run a full node, deploy substrate with oracle and financial pallet, calculate sample portfolios using different assets and different frequencies with time shifts. 
 - We will publish the code in the Equilibrium’s public GitHub repository.
 - We will provide detailed technical documentation describing pallet logic, storage, interfaces, subscriptions.
 
