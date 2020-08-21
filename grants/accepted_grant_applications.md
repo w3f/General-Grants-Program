@@ -166,3 +166,4 @@ This page gives an overview of accepted grants and a link to their GitHubs. Keep
 - [Protofire](https://protofire.io/) - Failover mechanism for validators upgrade ([GitHub](https://github.com/protofire))
 - [DappForce](http://dappforce.io) - SubSocial Chapter 2 ([GitHub](https://github.com/dappforce/dappforce-subsocial))
 - [OpenSquare Network](https://www.opensquare.network/) - A blockchain based crowdsourcing and reputation platform.
+- [Cardinals](https://cardinals.cc/) - Threshold BLS Randomness Beacon for Substrate ([GitLab](https://gitlab.com/cardinals1/threshold-ecdsa))
