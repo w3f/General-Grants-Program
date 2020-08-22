@@ -31,6 +31,8 @@ E.g. if a node is running with some RPC endpoints off,
 it should not share a pool with a node that has them all on,
 otherwise the users connecting to the pool might experience lower QoS.
 
+Load balancer is going to be written in go and delivered as standalone executable.
+
 #### Request forwarding
 Rpc request received on LB public endpoint should be forwarded to
 node based on configured selection algorithm.
@@ -85,6 +87,8 @@ The LB Daemon is a background process meant to be run alongside a Substrate node
 - alphabetically orders and standardizes, then hashes a node's startup settings (exclude basepath and name) and sends them along with every ping
 - retrieves the node's best and latest blocks and sends them along with every ping
 - reports telemetry data to the LB, like connected peers, memory use, etc.
+
+LB Daemon is going to be written in go and delivered as standalone executable.
 
 ### Payout script
 
