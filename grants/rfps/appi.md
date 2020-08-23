@@ -4,19 +4,18 @@
 *In response to the [APPI: Auto-funded public P2P infrastructure RFP](https://github.com/w3f/General-Grants-Program/blob/dc11900e46c2bd28ccee0353afc53f77e0911bba/rfp-proposal/appi.md).*
 
 In Ethereum, most user-facing applications default to Infura as an endpoint to access full node information.
-
 While it is tempting to conclude that this is because running home nodes 
-is prohibitively expensive, the main reason is in fact **inertia**.
+is prohibitively expensive, the main reason is in fact inertia.
 Put simply, people weren't given the option or incentive to run
-their own nodes fast enough, and defaulted to an easier route which stuck.
+their own nodes fast enough, and defaulted to an easier route.
 
 This document describes auto-funded public p2p infrastructure 
 (APPI) for the Polkadot and, specifically, Kusama ecosystem.
 The idea is to incentivize people to run full and archive nodes at home,
 without relying on cloud servers and centralized points of failure.
 
-We are think we are suitable for developing such infrastructure since 
-we already developed monitoring daemon for Filecoin.
+We think that we are suitable for developing such infrastructure since 
+we already built similar infrastructure for Filecoin, [monitoring daemon and dashboard written in Go](https://www.hactar.app/).
 
 
 ## Project Details
@@ -25,13 +24,13 @@ we already developed monitoring daemon for Filecoin.
 
 The Load Balancer is a tool that assigns an incoming connection request
 to a node in its pool. 
-The Load Balancer should only accept nodes with the **same settings** as every other node. 
+The Load Balancer should only accept nodes with the same settings as every other node. 
 
 E.g. if a node is running with some RPC endpoints off,
 it should not share a pool with a node that has them all on,
 otherwise the users connecting to the pool might experience lower QoS.
 
-Load balancer is going to be written in go and delivered as standalone executable.
+Load balancer is going to be written in Go and delivered as standalone executable.
 
 #### Request forwarding
 Rpc request received on LB public endpoint should be forwarded to
@@ -55,7 +54,8 @@ behind the best in the pool by more than 10 blocks).
 
 
 #### Metrics
-The load balance should provide prometheus metrics endpoint for setting up [Dashboard](#dashboard).
+The load balance should provide [prometheus metrics](https://prometheus.io/)
+endpoint for setting up [Dashboard](#dashboard).
 
 #### LB Settings
 An LB operator can define the following settings:
@@ -98,7 +98,8 @@ The payout script should be a standalone executable. Future efforts can develop 
 
 ### Dashboard
 
-Json file containing Grafana dashboard definition using prometheus metrics endpoint on [Load Balancer](#load-balancer-lb)
+Json file containing [Grafana](https://grafana.com/) dashboard definition
+using prometheus metrics endpoint on [Load Balancer](#load-balancer-lb)
 as data source. Should display load balancer stats as well as each node stats.
 
 ## Ecosystem Fit 
@@ -106,7 +107,7 @@ There have been attempts at financing home-run infrastructure
 - projects like VIPNode have lead the charge - but the aforementioned inertia prevented any significant adoption.
 Another recent contender is Pokt.network.
 
-We feel like this project prvoides alternative with simple financing 
+We feel like this project provides alternative with simple financing 
 and operating model available to everyone.
 
 ## Team members
@@ -125,18 +126,16 @@ Company in the Republic of Croatia
 We are a blockchain research and development company but also a group of friends and developers working from an office in Zagreb. Being mostly fullstack developers and blockchain developers for the last 3 years, we are successfully providing services such as dapp development, infrastructure and tooling.
 
 We are already working on some grant sponsored projects like:
-- Metamask snap for Polkadot
-- ChainGuardian - Eth2 validator desktop application 
-- js-libp2p-noise - libp2p stream security transport to be used in eth2 mainnet
-- Hactar - a Filecoin miner analyzer
-- https://github.com/NodeFactoryIo/hactar-daemon
-- https://github.com/NodeFactoryIo/hactar-frontend
-- https://github.com/NodeFactoryIo/hactar-backend
+- [Metamask snap for Polkadot](https://github.com/nodefactoryio/metamask-snap-polkadot)
+- [ChainGuardian](https://github.com/NodeFactoryIo/ChainGuardian) - Eth2 validator desktop application 
+- [js-libp2p-noise](https://github.com/NodeFactoryIo/js-libp2p-noise) - libp2p stream security transport to be used in eth2 mainnet
+- [Hactar](https://www.hactar.app/) - a Filecoin miner analyzer
+    - https://github.com/NodeFactoryIo?q=hactar
 
-Some of the other projects that we have been working on can be found on our [website portfolio](https://nodefactory.io/portfolio/).
+Some of the other projects that we've been working on can be found on our [website portfolio](https://nodefactory.io/portfolio/).
 
 ## Team Code Repos
-* https://github.com/nodefactory.io
+* https://github.com/nodefactoryio
 
 ## Team LinkedIn Profiles
 - https://www.linkedin.com/in/mpetrunic/
@@ -156,12 +155,12 @@ See [LB Daemon](#lb-daemon) for definitions.
 * **Estimated Duration:** 2 weeks
 * **Full Time Employees:** 1
 * **Costs:** 4800 USD
-* We will implement:
+* Implement:
    * the LB Daemon, a standalone daemon to run alongside a Kusama or Polkadot node and feed data into http server
    * http server to store daemon data
-* We will deliver docker-compose file to run node, daemon and server to store telemetry data
+* Deliver docker-compose file to run node, daemon and server to store telemetry data
 * The code will have proper unit-test coverage to ensure functionality and robustness.
-* We will provide both inline documentation of the code and a basic tutorial describing how the software can be used and tested.
+* Provide both inline documentation of the code and a basic tutorial describing how the software can be used and tested.
 
 ### Milestone 2: Load Balancer
 
@@ -170,11 +169,11 @@ See [Load Balancer](#load-balancer-lb) for definition.
 * **Estimated Duration:** 2 weeks
 * **Full Time Employees:** 2
 * **Costs:** 9600 USD
-* We will implement:
+* Implement:
    * Load balancer that is able to read data from database and route requests to qualified node
- * We will deliver docker-compose file to run node, daemon and load balancer
+ * Deliver docker-compose file to run node, daemon and load balancer
  * The code will have proper unit-test coverage to ensure functionality and robustness.
- * We will provide both inline documentation of the code and a basic tutorial describing how the software can be used and tested.
+ * Provide both inline documentation of the code and a basic tutorial describing how the software can be used and tested.
 
 ### Milestone 3: Payout Script
 
@@ -183,12 +182,11 @@ See [Payout Script](#payout-script) and [Payment Calculation](#payout-calculatio
 * **Estimated Duration:** 1 week
 * **Full Time Employees:**  2
 * **Costs:** 4800 USD
-* We will implement:
+* Implement:
    * standalone payout script
-* We will deliver executables and example payout sheet
+* Deliver executables and example payout sheet
+* Provide both inline documentation of the code and a basic tutorial describing how the software can be used and tested.
 * The code will have proper unit-test coverage to ensure functionality and robustness.
-* We will provide both inline documentation of the code and a basic tutorial describing how the software can be used and tested.
-
 
 ### Milestone 4: Dashboard
 
@@ -197,19 +195,19 @@ See [Dashboard](#dashboard) for details.
 * **Estimated Duration:** 1 week
 * **Full Time Employees:**  2
 * **Costs:** 4800 USD
-* We will implement:
+* Implement:
    * prometheus metrics on loadbalancer
    * grafana dashboard for previewing data as json
-* We will deliver docker-compose for setting up services and grafana dashboard in json format
+* Deliver docker-compose for setting up services and grafana dashboard in json format
+* Provide both inline documentation of the code and a basic tutorial describing how the software can be used and tested.
 * The code will have proper unit-test coverage to ensure functionality and robustness.
-* We will provide both inline documentation of the code and a basic tutorial describing how the software can be used and tested.
 
 ### Milestone 5: Landing page and instructions
 * **Estimated Duration:** 1.5 week
 * **Full Time Employees:**  1
 * **Costs:** 3600 USD
-* We will implement:
+* Implement:
    * landing page for user onboarding
-* We will deliver Link to landing page and instructions
-* The code will have proper unit-test coverage to ensure functionality and robustness.
-* We will provide both inline documentation of the code and a basic tutorial describing how the software can be used and tested.
+   * public list of load balancer endpoints (adding new endpoint is done via Github Pull Request)
+* Deliver Link to landing page and instructions
+* Provide both inline documentation of the code and a basic tutorial describing how the software can be used and tested.
