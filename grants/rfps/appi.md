@@ -147,8 +147,6 @@ Some of the other projects that we've been working on can be found on our [websi
 * **Total Estimated Duration:** ~2 months
 * **Total Costs:** ~27600 USD
 
-## Milestones
-
 ### Milestone 1: LB Daemon and Server
 See [LB Daemon](#lb-daemon) for definitions.
 
