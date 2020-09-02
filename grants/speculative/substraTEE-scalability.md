@@ -20,10 +20,16 @@ With this proposal, the Polkadot ecosystem gets a highly scalable 2nd layer for 
 
 As known from previous versions of SubstraTEE, the 2nd layer is compatible with substrate pallets. Custom pallets written for layer one can simply be instantiated on the second layer - while still being able to trustlessly interact with layer one.
 
+#### Encointer 
+
 [Encointer](https://encointer.org), the first live use case of SubstraTEE, would benefit directly from this work in the following ways:
 
   * **scale to thousands of communities horizontally**, unaffected by the number of tx per community
   * **tx fees in relation to purchasing-power**: Encointer uses one shard per community currency. Today we need to charge tx fees on layer one which is not inclusive because of very different purchasing power among users globally. This proposal would allow encointer to charge tx fees in local currency per shard - thereby adjusting fees to local purchasing power.
+
+#### Parathreading: Accessibility for low-capitalized projects
+
+Becoming a parachain requires locking significant amounts of capital. With direct invocation, SubstraTEE can contribute an entirely new way to join the polkadot network. The SubstraTEE-node maintaining the worker registry would only need block updates if new workers want to join or if sidechains require finality. Parathread economics are perfectly suited for this because newly joining workers could spend DOTs on the relay chain in order to accelerate the next block for the SubstraTEE parathread. Or a user who awaits finality can also contribute DOTs in order to accelerate finality. Meanwhile, the Sidechains can produce blocks at a much higher frequency.
 
 ### History
 
