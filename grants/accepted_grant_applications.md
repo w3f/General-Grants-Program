@@ -66,7 +66,7 @@ This page gives an overview of accepted grants and a link to their GitHubs. Keep
 - [Laminar One](https://laminar.one/) - LaminarChain: High performance Flow Protocols powering synthetic asset and margin trading ([GitHub](https://github.com/laminar-protocol/laminar-chain))
 - [Stake Technologies](https://stake.co.jp/) - Ink! Playground ([GitHub](https://github.com/staketechnologies/ink-playground))
 - [B-Harvest](https://bharvest.io/) - Node Monitoring Tool ([GitHub](https://github.com/b-harvest))
-- [Simply VC](https://simply-vc.com.mt/) - P.A.N.I.C. Validator alerting solution
+- [Simply VC](https://simply-vc.com.mt/) - P.A.N.I.C. Validator alerting solution ([GitHub](https://github.com/SimplyVC/panic_polkadot))
 - [Ethworks](https://ethworks.io/) - Polkadot{.js} extension improvements ([GitHub](https://github.com/ethWorks))
 - [Lyken Software Solutions](https://lyken.rs/) - Investigation of runtime compilation
 - [Blockchain IT](blockchain-it.hr) - Ink! Remix Plugin ([GitHub](https://github.com/blockchain-it-hr/ink-remix-plugin))
@@ -169,3 +169,4 @@ This page gives an overview of accepted grants and a link to their GitHubs. Keep
 - [Cardinals](https://cardinals.cc/) - Threshold BLS Randomness Beacon for Substrate ([GitLab](https://gitlab.com/cardinals1/threshold-ecdsa))
 - [KILT](https://kilt.io/) - Polimec: A Fundraising Mechanism for Projects within the Polkadot Ecosystem
  ([GitHub](https://github.com/KILTprotocol))
+- [Simply VC](https://simply-vc.com.mt/) - P.A.N.I.C. Phase 2 ([GitHub](https://github.com/SimplyVC/panic_polkadot))
