@@ -57,7 +57,7 @@ Below we provide an **example roadmap**. In the descriptions it should be clear 
 
 For each milestone:
 * Please be sure to include a specification of the software. The level of detail must be enough so that we are able to verify that the software meets the specification.
-* Please include total amount of funding requested per milestone. Funding can be in fiat (CHF, EUR or USD) or in DOTs. It can also be in a combination of fiat and DOTs. Please reach out to grants@web3.foundation to discuss what amount in fiat and DOTs would be appropriate for your project.
+* Please include total amount of funding requested per milestone. 
 * Please note that we require documentation (e.g. tutorials, API specifications, architecture details) in each milestone. This ensures that the code can be widely used by the community.
 * Please provide a test suite, comprising unit and integration tests, along with a guide on how to run these.
 * Please commit to providing a docker container for the delivery of your project. 
