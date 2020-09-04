@@ -64,5 +64,13 @@ Our prior projects and experience include: Crypto exchange Codex. Cassandra hist
       * Write reconstruction key functionality - 32h
          * GenDistKeyShare
       * Write unit tests - 16h
+      
+### Development team: 
+**2 backend developers**
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Total for DKG library: 560h - 2 back-end developers (2.5 months)
+**1 frontend developer**
+
+**Total labor-costs: 560 man-hours**
+
+**Total project length: 2.5 months**
+
