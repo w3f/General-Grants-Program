@@ -44,7 +44,7 @@ Our prior projects and experience include: Crypto exchange Codex. Cassandra hist
 * https://www.linkedin.com/in/stanislav-c-362685195/
 
 ## Development Roadmap
-1. Wallet APP
+1. M1. Wallet APP
    * Wallet application (160h)
       * Implement UI and layouts - 44h
       * Write main logic and working with adapter - 100h
@@ -57,8 +57,8 @@ Our prior projects and experience include: Crypto exchange Codex. Cassandra hist
        * Test UX of application - 4h
        * Do manual testing - 4h
        * Write unit tests - 8h
-   * Adapter in Rust (200h)
-      * Write all the methods for external calls - 168h
+   * Adapter in Rust (150h)
+      * Write all the methods for external calls - 118h
          * NewDistKeyGen
          * ProcessDeal
          * ProcessResponse
@@ -74,9 +74,9 @@ Our prior projects and experience include: Crypto exchange Codex. Cassandra hist
    * Integration testing adapter with application (16h)
    * Integration testing application with server (8h)
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Total for Wallet App: 384h - 1 back-end and 1 front-end developers (2 months)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Total for Wallet App: 334h - 1 back-end and 1 front-end developers (2 months)
 
-2. Web server
+2. M2. Web server
    * API written with actix
       * Write all the endpoints with asynchronous functionality - 124h
          * NewWallet
@@ -96,31 +96,27 @@ Our prior projects and experience include: Crypto exchange Codex. Cassandra hist
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Total for Web server: 168h - 1 back-end developer (1 month)
 
-3. DSS library
+3. M3. DSS library
    * Integrate with DKG functionality - 8h
-   * Write functionality to produce and check partial signature - 62h
+   * Write functionality to produce and check partial signature - 44h
       * ProducePartialSig
       * ProcessPartialSig
    * Write functionality to compute final distributed signature from partial signatures - 56h
       * ComputeFinalSignature
    * Write unit tests - 16h
    * Write integration tests with DKG - 16h
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Total for DSS library: 240h - 1 back-end developer (1.5 month)
-
-4. Documentation
    * Write tutorial to build, test and run DKG functionality - 6h
    * Write instruction overall DKG wallet use - 6h
    * Describe and document potential threat models - 10h
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Total for Documentation writing: 12h - 1 back-end developer (1.5 day)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Total for DSS library: 162h - 1 back-end developer (1.5 month)
 
 ### Development team: 
 **2 backend developers**
 
 **1 frontend developer**
 
-**Total timeline: 812 man-hours**
+**Total timeline: 662 man-hours**
 
 **Total project length: 3.5 months**
 # Long-term plans
