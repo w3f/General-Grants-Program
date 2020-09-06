@@ -45,11 +45,7 @@ There are three themes in this proposal.
 2. Dart telemetry server implementation (@shekohex)
 3. Sunshine runtime development, which has the immediate purpose of realizing democratic decision-making structures to govern bounties and grants in the Substrate ecosystem (@4meta5)
 
-Due to different team members working on these themes we propose that the milestones in these themes progress independently and without blocking each other. 
-
-Each sub-milestone is expected to take 6 weeks so all milestones will be completed in 3 months. Each employee will be working full-time during this period to finish the tasks described below.
-
-All deliverables will include testing along with directions to run the code and tests. All code will be delivered upon request in a docker container.
+Due to different team members working on these themes we propose that the milestones in these themes progress independently and without blocking each other. All proposed work will be completed within 3 months. Each employee will be working full-time during this period to finish the tasks described below. All deliverables will include testing along with directions to run the code and tests. All code will be delivered upon request in a docker container.
 
 ## Libp2p Nat Traversal
 The first theme is adding nat traversal support to rust-libp2p, which is essential for our and other projects building on substrate. Due to different priorities, the parity rust-libp2p team does not have the resources to dedicate to this problem. An [issue](https://github.com/libp2p/rust-libp2p/issues/1722) was opened in rust-libp2p to discuss these issues with the rust-libp2p team and how to move forward.
@@ -102,6 +98,21 @@ Voting is generally useful for organization governance, but requiring a vote for
 `sunshine-rank` pallet implements ranked choice voting for representative election with enforced term limits. This will be incorporated into `sunshine-org-bounty` to allow representatives to approve bounty submissions below some cost threshold. Group votes will still be required for all submissions exceeding the aforementioned threshold.
 
 The runtime code will be paired with a Flutter UI for displaying vote progress and notifying users of results.
+
+#### Milestone C3
+
+Sunshine Recipes provides clear high-level documentation for `sunshine-bounty` and `sunshine-keybase`. This documentation will help outside projects interested in using our technical stack. For example, the Sunshine Recipes will include detailed instructions demonstrating how to use [`substrate-subxt`](https://github.com/paritytech/substrate-subxt/) to implement a client and light client that can interact with a Substrate node. We know that `ledgeracio` and `cargo contract` within Parity are already using substrate-subxt, but high-level usage documentation will make this path more accessible for other builders in the Polkadot ecosystem.
+
+Recipes included in this milestone will cover
+* `substrate-subxt` client configuration
+* `substrate-subxt` light client configuration
+* `ipfs-embed` client integration
+* `sunshine-bounty` learned patterns
+* `sunshine-keybase` learned patterns, including `sunshine-chain-pallet` docs for offloading chain data to a set of peers
+
+In summary, these docs will show how to implement a Rust client that uses substrate-subxt to communicate with the Substrate Node and Ipfs-Embed as a content addressed database. This documentation will prove useful to other Substrate projects interested in using these components to improve the efficiency and/or security of their application.
+
+The Sunshine Recipes will follow the same style as [Substrate Recipes](https://substrate.dev/recipes/), using [mdBook](https://github.com/rust-lang/mdBook) as the web interface for the documentation.
 
 ## Future Plans
 
