@@ -40,29 +40,33 @@ The project development can be divided into several main points (we will describ
 ### ABCI and RPC
 
 The implementation of ABCI and RPC are related things because RPC is used to redirect calls from CLI to the Cosmos app using ABCI.
+
 Firstly we want to provide a necessary functional RPC like the Tendermint has, here is the Tendermint documentation of the RPC https://docs.tendermint.com/master/rpc/#/. It will allow full use of the Cosmos CLI and to get important information about the node state for the Cosmos developers. 
+
 Here it is a short description of the RPC:
-`Websocket rpcs` - subscribe/unsubscribe are reserved for websocket events.
-`Info rpcs` - Informations about the node APIs.
-`Tx rpcs` - transaction broadcast APIs.
-`ABCI rpcs` - ABCI apis (`abci_query` method, `abci_info` method)
-`Unsafe rpcs` - unsafe apis (`dial_seeds` method, `dial_peers` method)
+- `Websocket rpcs` - subscribe/unsubscribe are reserved for websocket events.
+- `Info rpcs` - Informations about the node APIs.
+- `Tx rpcs` - transaction broadcast APIs.
+- `ABCI rpcs` - ABCI apis (`abci_query` method, `abci_info` method)
+- `Unsafe rpcs` - unsafe apis (`dial_seeds` method, `dial_peers` method)
 
 We will focus on `Tx_prcs` and `ABCI_rpcs`, because they are most important for interaction with node. Methods from Info_rpcs and Websocket_rpcs are also important and will be implemented during the next phases.
 
 Also, we will implement other ABCI functions such as `Query`, `Info` etc. That is used by the Tendermint RPC (rpc `abci_query` method redirects the data to the ABCI `Query` method).
+
 The list of the remaining ABCI functions:
-`Query` - query for data from the application at current or past height (is used by the abci_query rpc method).
-`Info` - returns information about the application state (is used by the abci_info rpc method). Used to sync Tendermint with the application during a handshake that happens on startup.
-`Echo` - echo a string to test an abci client/server implementation
-`Flush` - signals that messages queued on the client should be flushed to the server. It is called periodically by the client implementation to ensure asynchronous requests are actually sent, and is called immediately to make a synchronous request, which returns when the Flush response comes back.
-`SetOption` - set non-consensus critical application specific options.
+- `Query` - query for data from the application at current or past height (is used by the abci_query rpc method).
+- `Info` - returns information about the application state (is used by the abci_info rpc method). Used to sync Tendermint with the application during a handshake that happens on startup.
+- `Echo` - echo a string to test an abci client/server implementation
+- `Flush` - signals that messages queued on the client should be flushed to the server. It is called periodically by the client implementation to ensure asynchronous requests are actually sent, and is called immediately to make a synchronous request, which returns when the Flush response comes back.
+- `SetOption` - set non-consensus critical application specific options.
 
 There is also a set of `Snapshot` methods that allows to create a snapshot of the current state and share it, these features are not critical for the system but may have a number of unexpected difficulties and may be implemented later
 
 ### Validators and Consensus
 
 Network security depends on consensus mechanisms. Both Substrate and Cosmos use DPoS BFT consensuses but with some differences. Staking during validators elections is one of the main token use cases. In our case,  Substrate is responsible for the consensus layer, but token and stacking logic is defined in Cosmos, so we need to elect Substrate validators according to the Cosmos stacking system. For this purpose we will need to match Cosmos and Substrate validator addresses, so that they can be elected in Cosmos and participate in consensus in Substrate. 
+
 Also, in Substrate consensuses, all validators are equal because of NPoS election, but in Cosmos validator`s weight in consensus depends on its stake, so we need to use weighted voting in BABE and GRANDPA
 
 ### Nodes synchronization 
@@ -89,11 +93,17 @@ No.
 
 
 ## Legal Structure 
+
 The company registered under the laws of Estonia
+
 Registry code: 14422124
+
 Name: Adoriasoft OÜ
+
 Address: Harju maakond, Tallinn, Lasnamäe linnaosa, Sepapaja tn 6, 15551
+
 Legal form: Private limited company
+
 Value Added Tax identification number: EE102046849
 
 
@@ -160,63 +170,66 @@ In the current version we've implemented the main methods of ABCI (checkTx, deli
 Unsynchronization can be caused by a number of reasons: one of the nodes can crash, blockchain or state storage may be damaged.  In the case of unsynchronization between Cosmos and Substrate, chain and state should be returned to a shorter chain, it's related to the fork resolution problem, described in next subsection. 
 
 *Planned deliverables:*
-	- Synchronize nodes in case of asynchronization (choose the shorter chain and request other blocks from the network);
-	- Simulate an attack that causes asynchronity.
+- Synchronize nodes in case of asynchronization (choose the shorter chain and request other blocks from the network);
+- Simulate an attack that causes asynchronity.
 
 **Fork resolution**
 
 In Tendermint, block producing and finalization are a single process, so forks can happen only in the case of the validators misbehavior. Substrate consensus divide this process into two parts: BABE\AURA for block producing and GRANDPA for block finalization; this approach is faster, but creates orphan blocks. So, Cosmos-Substrate nodes should detect forks, roll-back their state and choose finalized branches.  
 
 *Planned deliverables:*
-	- Connect Cosmos rollback mechanisms with Substrate;
-	- Simulate an attack that causes fork.
+- Connect Cosmos rollback mechanisms with Substrate;
+- Simulate an attack that causes fork.
 	
 **Governance + Runtime upgrade**
 
 Both systems have government mechanisms that allows to change system parameters and even the source code in the case of Substrate. Governance mechanisms are controlled by referendum system, where each change must be approved by token-based voting. Cosmos internal governance can work despite of used consensus. We want to allow Cosmos users to manage not only the Cosmos part of their nodes, but the Substrate part too. A special case of governance is runtime upgrade that needs additional research.
 
 *Planned deliverables:*
-	- Allow Substrate parameters updates using Cosmos governance;
-	- Allow Substrate runtime updates using Cosmos governance.
+- Allow Substrate parameters updates using Cosmos governance;
+- Allow Substrate runtime updates using Cosmos governance.
 
 **Slashing**
 
 Slashing mechanisms prevent or, at least, minimize validators misbehavior in both Substrate and Cosmos systems. Each validator has a deposit that can be slashed in case of malicious actions. Fishermen in Substrate or Hackers in Cosmos can send claims about misbehavior. 
+
 High-level misbehavior like validator collusion is difficult to detect automatically and it may require claims from users and voting for decisions. We think that this case doesn`t depend on consensus and will work in Cosmos app with no changes. Simpler cases like equivocating can be detected and claimed automatically. We think about usage off-chain workers for this purpose.
 
 *Planned deliverables:*
-	- Connect Substrate equivocating detection with Cosmos slashing.
+- Connect Substrate equivocating detection with Cosmos slashing.
 	
 **Transaction priority**
 
 Transactions in the transaction pool are ordered according to some priorities, a validator may want to prioritize transactions according to a custom criterium.
 Substrate method `validate_transaction` returns `TransactionValidity` struct, its field `priority` determines the transaction priority in the transaction pool. We add simple logic that increases the priority of transactions according to Cosmos respond, actually:
+
 `priority += GasWanted - GasUsed`
+
 We want to analyze and make the priority system more customizable.
 	
 *Planned deliverables:*
-	- More complex, possibly, customizable transaction priority system.
+- More complex, possibly, customizable transaction priority system.
 
 ### Phase 4 (10-11 weeks)
 
 **ABCI Snapshots**
 
 Cosmos ABCI contains a set of Snapshots methods that allows to create and share the state on specific height without the whole chain of previous blocks.
-`ListSnapshots` - used during state sync to discover available snapshots on peers.
-`LoadSnapshotChunk` - used during state sync to retrieve snapshot chunks from peers.
-`OfferSnapshot` - OfferSnapshot is called when bootstrapping a node using state sync. The application may accept or reject snapshots as appropriate. Upon accepting, Tendermint will retrieve and apply snapshot chunks via ApplySnapshotChunk. The application may also choose to reject a snapshot in the chunk response, in which case it should be prepared to accept further OfferSnapshot calls.
-`ApplySnapshotChunk` - The application can choose to refetch chunks and/or ban P2P peers as appropriate. Tendermint will not do this unless instructed by the application.
+- `ListSnapshots` - used during state sync to discover available snapshots on peers.
+- `LoadSnapshotChunk` - used during state sync to retrieve snapshot chunks from peers.
+- `OfferSnapshot` - OfferSnapshot is called when bootstrapping a node using state sync. The application may accept or reject snapshots as appropriate. Upon accepting, Tendermint will retrieve and apply snapshot chunks via ApplySnapshotChunk. The application may also choose to reject a snapshot in the chunk response, in which case it should be prepared to accept further OfferSnapshot calls.
+- `ApplySnapshotChunk` - The application can choose to refetch chunks and/or ban P2P peers as appropriate. Tendermint will not do this unless instructed by the application.
 
 *Planned deliverables:*
-	- implement Snapshot methods in Substrate RPC;
-	- probably, extend Cosmos snapshots with Substrate state.
+- implement Snapshot methods in Substrate RPC;
+- probably, extend Cosmos snapshots with Substrate state.
 
 **Substrate RPC**
 
 There are a set of additional APIs in Tendermint RPC( Info_rpcs and Websocket_rpcs https://docs.tendermint.com/master/rpc/#/ ), they are not critical for the work of Substrate-Cosmos node, but make user interface more convenient and usable.
 
 *Planned deliverables:*
-	- implement all methods from Tendermint RPC in Substrate RPC.
+- implement all methods from Tendermint RPC in Substrate RPC.
 
 ### Phase 5
 The main goal of our project is to allow blockchains based on our Substrate-Cosmos SDK to interact in both Polkadot and Cosmos systems. Now it's difficult to describe the details of this phase because both systems are still under development and many aspects may be changed, so deliverables.
