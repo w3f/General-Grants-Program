@@ -172,3 +172,4 @@ This page gives an overview of accepted grants and a link to their GitHubs. Keep
 - [Simply VC](https://simply-vc.com.mt/) - P.A.N.I.C. Phase 2 ([GitHub](https://github.com/SimplyVC/panic_polkadot))
 - [Interlay](https://www.interlay.io/) - Trustless BTC-Polkadot Bridge ([GitLab](https://gitlab.com/interlay))
 - [enfipy](https://github.com/enfipy) - Creator: Mobile Game Framework for Substrate ([GitHub](https://github.com/creator-rs))
+- [Halva](https://github.com/halva-suite) - Halva: Bootstrapping and Scaffolding ([GitHub](https://github.com/halva-suite))
