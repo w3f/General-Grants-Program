@@ -1,7 +1,6 @@
 # General Grant Proposal
 
 * **Project:** The name of the project
-* **Proposer:** GitHub username
 
 ## Project Overview :page_facing_up: 
 If this application in response to an RFP then please indicate this on the first line of this section.
