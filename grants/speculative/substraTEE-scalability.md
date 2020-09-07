@@ -188,9 +188,56 @@ https://www.linkedin.com/in/sabine-proll-5a7118153/
 
 ## Development Roadmap
 
-**TODO**
+### Milestone M8.1: Accept extrinsics directly over RPC
 
-We are currently working out the tasks and financials. We're publishing our proposal ahead of completion to allow discussions on the technical concept while we're doing the planning.
+  * Implement RPC interface replacing the current websocket worker-api
+  * Implement tx pool based on substrate’s
+  * Implement batch validation of direct invocation extrinsics.
+
+For test purposes, direct invocation extrinsics will be applied to the STF state.
+
+Acceptance:
+  * demonstrate the private-tx example as used for M5 but replace indirect invocation (via chain) with direct invocation (via worker RPC). Demonstration runs in docker.
+
+### Milestone M8.2: Single Worker Block Production
+
+  * refactor execution sequence as specified above
+  * implement new Block type
+  * implement journaling of state updates (similar to substrate) and generate a diff per block that can be applied by other workers (StateUpdate)
+  * implement execution time limit
+  * send block confirmations to layer one
+
+Acceptance:
+  * run same test as M8.1 and verify that blocks are produced and confirmed on layer one
+
+### Milestone M8.3: Multi-Worker Setup
+
+  * improve SubstraTEE-node enclave registry to simplify shard authority set lookup
+  * implement block broadcast logic
+  * implement pruning and snapshotting that will allow new workers to join in.
+  * implement layer one pallet that enforces block production rules
+  * implement test setup where workers join and go offline
+  * Tutorial how to use the new SubstraTEE-framework to boost scalability for a simple use case (shielding-unshielding tx shown in M6. But now with high tps and low latency
+
+Acceptance
+
+  * Demonstrate multi-worker docker setup. Run same test as for M8.1 several times, after each mutation of worker sets. Verify correct balance movements of tester account.
+  * Tutorial run-through by web3
+
+### Milestone M8.4: Benchmark
+  * Assess tps and confirmation time latency for single shards as defined above. 
+
+Acceptance
+
+  * upon delivery of benchmark report
+
+## Timeline
+
+  * T0: project start (upon agreement)
+  * M8.1: T0+4 weeks
+  * M8.2: T0+7 weeks
+  * M8.3: T0+12 weeks
+  * M8.4: T0+15 weeks
 
 ## Future Plans
 
