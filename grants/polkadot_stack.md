@@ -117,7 +117,7 @@ In the below sections you can find a list of different layers of the Polkadot St
 
 | Components | Existing projects | Potentially interesting projects
 |-|-|-
-| Rust | [Substrate](https://github.com/paritytech/substrate)
+| Rust | [Substrate](https://github.com/paritytech/substrate), [Cumulus](https://github.com/paritytech/cumulus)
 | C++ | [Kagome](https://github.com/soramitsu/kagome)
 | Go | [Gossamer](https://github.com/ChainSafe/gossamer)
 | AssemblyScript | 
