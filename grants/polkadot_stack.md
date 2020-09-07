@@ -70,7 +70,7 @@ In the below sections you can find a list of different layers of the Polkadot St
 | Block Explorers | [Polkascan](https://github.com/polkascan), [Polkastats](https://polkastats.io/), [Subscan](https://github.com/itering/subscan)| Mempool focused explorer (including parachain transaction)
 | Validator Dashboards | [DotHub](https://github.com/figment-networks/dothub), [Polkacube](https://github.com/hashquark-io), [YieldScan](https://github.com/buidl-labs/YieldScan)
 | Node Explorers | [Polkadot Node Explorer](https://github.com/protos-research/polkadot-node-explorer)
-| Governance Dashboards | [Polkassembly](https://github.com/paritytech/polkassembly)
+| Governance Dashboards | [Polkassembly](https://github.com/paritytech/polkassembly)| UI for the kusama and/or polkadot treasury (see [bounty module](https://github.com/paritytech/substrate/pull/5715)) |
 
 ### :wrench: Tools APIs and Languages
 
@@ -91,7 +91,7 @@ In the below sections you can find a list of different layers of the Polkadot St
 | Components | Existing projects | Potentially interesting projects
 |-|-|-
 | Scalable Transactions | [Plasm](https://github.com/staketechnologies/Plasm), [Celer](https://github.com/celer-network), [Gunclear](https://github.com/GunClear)| roll-ups, DAG-based consensus mechanisms, side chains |
-| Bridges |   [Ethereum by Centrifuge](https://github.com/centrifuge/), [EOS by Bifrost](https://github.com/bifrost-finance), [POA <> Substrate](https://github.com/paritytech/parity-bridge), [Substrate <> Ethereum DAI Bridge](https://github.com/akropolisio/POC-polkadai-bridge), [Substrate <> Substrate Bridge](https://github.com/paritytech/substrate-bridge-relay), [BTC by ChainX](https://github.com/chainx-org/ChainX)| ZCash, Ethereum, Tendermint | 
+| Bridges |   [Ethereum by Centrifuge](https://github.com/centrifuge/), [EOS by Bifrost](https://github.com/bifrost-finance), [POA <> Substrate](https://github.com/paritytech/parity-bridge), [Substrate <> Ethereum DAI Bridge](https://github.com/akropolisio/POC-polkadai-bridge), [Substrate <> Substrate Bridge](https://github.com/paritytech/substrate-bridge-relay), [BTC by ChainX](https://github.com/chainx-org/ChainX), [Cosmos-Substrate bridge](https://github.com/ChorusOne/wormhole-bridge), [Polkadot Ethereum Bridge](https://github.com/Snowfork/polkadot-ethereum) | ZCash | 
 | Privacy | [ZeroChain](https://github.com/LayerXcom/zero-chain), [pLibra (Phala Network)](https://github.com/phala-network) 
 | Off-Chain | [substraTEE](https://github.com/scs/substraTEE)
 | Financial Chains | [Katal Chain](https://github.com/katalchain), [Laminar Chain](https://github.com/laminar-protocol/laminar-chain), [Acala](https://acala.network/), [Centrifuge](https://github.com/centrifuge/), [Stafi](https://github.com/stafiprotocol/stafi-node), [Bandot](https://github.com/bandotorg/Bandot), [Definex](https://github.com/y2labs-0sh) 

@@ -113,7 +113,7 @@ This page gives an overview of accepted grants and a link to their GitHubs. Keep
 - [Sensio.Group](https://www.sensio.group/) - Substrate modules + UI that focus on photo copyright and privacy ([GitLab](https://gitlab.com/sensio_group))
 - [KILT](https://kilt.io/) - Substrate Anonymous Credentials ([GitHub](https://github.com/KILTprotocol))
 - [Node Factory](https://www.nodefactory.io/) - Metamask plugin for Polkadot ([GitHub](https://github.com/nodefactoryIo))
-- [Interlay](https://www.interlay.io/) - Trustless BTC-Polkadot Bridge ([GitLab](https://gitlab.com/interlay/polkabtc-spec))
+- [Interlay](https://www.interlay.io/) - Polkadot/BTC bridge specification (RFP) ([GitLab](https://gitlab.com/interlay/polkabtc-spec))
 - [Stake Technologies](https://stake.co.jp/) - ECDSA for Polkadot JS ([GitHub](https://github.com/staketechnologies/apps))
 - [Obsidian Labs](https://www.obsidians.io/) - Substrate IDE ([GitHub](https://github.com/ObsidianLabs)) 
 - [Definex](https://definex.io/) - A financial market protocol ([GitHub](https://github.com/definex/definex-libs)) 
@@ -170,3 +170,6 @@ This page gives an overview of accepted grants and a link to their GitHubs. Keep
 - [KILT](https://kilt.io/) - Polimec: A Fundraising Mechanism for Projects within the Polkadot Ecosystem
  ([GitHub](https://github.com/KILTprotocol))
 - [Simply VC](https://simply-vc.com.mt/) - P.A.N.I.C. Phase 2 ([GitHub](https://github.com/SimplyVC/panic_polkadot))
+- [Interlay](https://www.interlay.io/) - Trustless BTC-Polkadot Bridge ([GitLab](https://gitlab.com/interlay))
+- [enfipy](https://github.com/enfipy) - Creator: Mobile Game Framework for Substrate ([GitHub](https://github.com/creator-rs))
+- [Halva](https://github.com/halva-suite) - Halva: Bootstrapping and Scaffolding ([GitHub](https://github.com/halva-suite))
