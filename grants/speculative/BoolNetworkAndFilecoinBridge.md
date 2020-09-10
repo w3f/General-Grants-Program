@@ -16,15 +16,13 @@ In addition, in August 2019, ABMatrix team won the third prize of the world's fi
 
 To connect FileCoin to bool chain, we need effective proof to verify the correctness of transactions and events. In short, a message courier will deliver a valid Filecoin block set to the bool chain, and each verification node will verify the validity of the block set. Then any user submits the transfer transaction and proof, the verification node will release the corresponding assets after the verification is passed.
 
-![图片1](file:///C:/Users/yangc/AppData/Local/Temp/msohtmlclip1/01/clip_image002.gif)
+![boolchain](https://tva3.sinaimg.cn/large/7aed93ebgy1gilvi8v3skj20m3088wew.jpg)
 
 From the bool chain to Filecoin, considering that Filecoin is unlikely to implement the parachain of the bridge chain and there is no smart contract, we use the TSS scheme to sign the redemption transaction and submit it to Filecoin.
 
 The core function of the transfer bridge is asset transfer. The following figure describes the relationship between user operations and core modules.
 
- 
-
-![img](file:///C:/Users/yangc/AppData/Local/Temp/msohtmlclip1/01/clip_image004.jpg)
+ ![boolchainOverview](https://tvax1.sinaimg.cn/large/7aed93ebgy1gilvkfjg6nj20o00p80u2.jpg)
 
  
 
@@ -372,13 +370,13 @@ Hangzhou Encryption Matrix Technology Co., Ltd. was established in May 2018 and 
 
 ·    Users can deploy TSS Engine, create a private key through the interface, and sign any message.
 
-·    ![img](file:///C:/Users/yangc/AppData/Local/Temp/msohtmlclip1/01/clip_image006.jpg)
+·    ![image-20200910194035453](https://tvax3.sinaimg.cn/large/7aed93ebgy1gilv5om2yej20wj05kweg.jpg)
 
-·     
+·     ![clip_image006](https://tva2.sinaimg.cn/large/7aed93ebgy1gilvd5sovsj20si05xt8y.jpg)
 
-![img](file:///C:/Users/yangc/AppData/Local/Temp/msohtmlclip1/01/clip_image008.jpg)
 
-![img](file:///C:/Users/yangc/AppData/Local/Temp/msohtmlclip1/01/clip_image010.jpg)
+
+
 
 **Milestone 3 — Implement Filecoin Relay Service and Integrate Them — 1 month —  (Two full time developers , one part time project manager and one full time QA)**
 
@@ -394,7 +392,7 @@ Hangzhou Encryption Matrix Technology Co., Ltd. was established in May 2018 and 
 
 ·    Users can deploy the project according to the document, and can freely convert assets between filecoin and bool chains.
 
-·    ![img](file:///C:/Users/yangc/AppData/Local/Temp/msohtmlclip1/01/clip_image012.jpg)
+·    ![clip_image008](https://tvax3.sinaimg.cn/large/7aed93ebgy1gilvekmot1j21460igmyw.jpg)
 
 **Future Plans**
 
@@ -415,3 +413,4 @@ Hangzhou Encryption Matrix Technology Co., Ltd. was established in May 2018 and 
 - - No.
 
  
+
