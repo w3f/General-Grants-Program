@@ -23,19 +23,19 @@ All contributors work with Insight, an US-based company that has been supporting
 
 **Richard Mah** 
 
-Holding a PhD in neuroscience, Richard has deep experience in the intersection between advanced data analysis and high performance computing. During his PhD, he employed a wide variety of machine learning techniques to automate the analysis of clinical data with a microservices-based architecture on Kubernetes. Since then, he became an Insight fellow working on immutable deployments of validator node infrastructure focusing specifically on monitoring and alarms.
+Richard is a DevOps engineer at Insight whose recent projects in the blockchain domain include the development of advanced monitoring solutions for PoS validators, load-balanced endpoints, and a ledger ETL + analytics stack. He has deep experience in the intersection between advanced data analysis and high performance computing. During his PhD, he employed a wide variety of machine learning techniques to automate the analysis of clinical data with a microservices-based architecture on Kubernetes. Since then, he joined Insight and has been focusing on building automated deployments of various blockchain related infrastructure components.
 
 [Github](https://github.com/shinyfoil)
 
 **Rob Cannon**
 
-DevOps developer in residence at Insight who focuses primarily on blockchain infrastructure. Focussing primarily on building automated deployments of validator nodes for the ICON blockchain, he is now looking to extend these patterns into other blockchains. Prior to Insight, he worked in the oil and gas industry founding a data science startup and working for a major operator.
+Rob is Insight’s infrastructure architect who focuses primarily on blockchain infrastructure, DevOps tooling, and Infrastructure as Code. Like Richard, Rob has contributed to Polkadot tooling, and is technically knowledgeable about the W3F ecosystem and the infrastructure developmentn roadmap. Prior to Insight, he worked in the oil and gas industry founding a data science startup and working for a major operator.
 
 [Github](https://github.com/robc-io), [Medium](https://medium.com/@robcannonxyz)
 
 **Mitchell Krawiec-Thayer**
 
-Decentralized Consensus Lead at Insight, mentor for Insight Residents. Have been doing privacy research and protocol SecEng for Monero Research Lab since 2017, and founded Noncesense Research Lab. Specializes in private protocol design, anti-heuristic engineering, empirical analysis, on & off-chain anomaly detection, metadata archive design & analysis.
+Mitchell is Insight’s Head of Research for Developers in Residence, and is currently coordinating teams contributing open-source tooling and analyses for Polkadot, Zcash, Monero, Harmony, and ICON. Mitchell founded the Monero Archival Project in 2017 and has been working with blockchain data sources and analyses ever since. Specializations include blockchain data engineering, data products, empirical analysis, on & off-chain anomaly detection, and blockchain data visualization.
 
 [GitHub](https://github.com/mitchellpkt/), [Twitter](https://twitter.com/Mitchellpkt0), [LinkedIn](https://www.linkedin.com/in/mitchellpkt/), [Medium](https://medium.com/@mitchellpkt)
 
