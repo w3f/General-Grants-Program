@@ -46,10 +46,10 @@ Decentralized Consensus Lead at Insight, mentor for Insight Residents. Have been
 
 ## **Team LinkedIn Profiles**
 
-- [linkedin.com/in/mitchellpkt/](https://www.linkedin.com/in/mitchellpkt/)
-- [linkedin.com/in/rob-cannon-21571317/](https://www.linkedin.com/in/rob-cannon-21571317/)
-- Richard Profile
-- [https://www.linkedin.com/in/rohitbmw/](https://www.linkedin.com/in/rohitbmw/)
+- Mitchell: [linkedin.com/in/mitchellpkt/](https://www.linkedin.com/in/mitchellpkt/)
+- Rob: [linkedin.com/in/rob-cannon-21571317/](https://www.linkedin.com/in/rob-cannon-21571317/)
+- Richard: [https://www.linkedin.com/in/richardmah/](https://www.linkedin.com/in/richardmah/)
+- Rohit: [https://www.linkedin.com/in/rohitbmw/](https://www.linkedin.com/in/rohitbmw/)
 
 ## **Development Roadmap**
 
