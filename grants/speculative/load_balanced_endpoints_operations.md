@@ -7,7 +7,7 @@ This proposal is now focused on operating those publicly accessible endpoints to
 ## **Team members**
 
 - Engineers: Richard Mah, Rohit Gupta, Rob Cannon
-- Project manager: Mitchell Krawiec-Thayer, Ph.D.
+- Project manager: Mitchell Krawiec-Thayer
 
 ## **Team Website**
 
@@ -38,6 +38,9 @@ DevOps developer in residence at Insight who focuses primarily on blockchain inf
 Decentralized Consensus Lead at Insight, mentor for Insight Residents. Have been doing privacy research and protocol SecEng for Monero Research Lab since 2017, and founded Noncesense Research Lab. Specializes in private protocol design, anti-heuristic engineering, empirical analysis, on & off-chain anomaly detection, metadata archive design & analysis.
 
 [GitHub](https://github.com/mitchellpkt/), [Twitter](https://twitter.com/Mitchellpkt0), [LinkedIn](https://www.linkedin.com/in/mitchellpkt/), [Medium](https://medium.com/@mitchellpkt)
+
+**Rohit Gupta**
+Rohit was a DevOps Fellow at Insight, who is experieced with architecting cloud solutions and developing one-click deployments. He has worked with the tooling for this project, and is eager to apply these practices within the W3F ecosystem.  
 
 ## **Team Code Repos**
 
