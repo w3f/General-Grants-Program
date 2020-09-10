@@ -6,7 +6,7 @@ This proposal is now focused on operating those publicly accessible endpoints to
 
 ## **Team members**
 
-- Engineers: Richard Mah, Rohit Gupta, Rob Cannon
+- Engineers: Richard Mah, Rob Cannon
 - Project manager: Mitchell Krawiec-Thayer
 
 ## **Team Website**
@@ -52,7 +52,6 @@ Rohit was a DevOps Fellow at Insight, who is experieced with architecting cloud 
 - Mitchell: [linkedin.com/in/mitchellpkt/](https://www.linkedin.com/in/mitchellpkt/)
 - Rob: [linkedin.com/in/rob-cannon-21571317/](https://www.linkedin.com/in/rob-cannon-21571317/)
 - Richard: [https://www.linkedin.com/in/richardmah/](https://www.linkedin.com/in/richardmah/)
-- Rohit: [https://www.linkedin.com/in/rohitbmw/](https://www.linkedin.com/in/rohitbmw/)
 
 ## **Development Roadmap**
 
