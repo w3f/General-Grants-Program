@@ -7,7 +7,7 @@ This proposal is now focused on operating those publicly accessible endpoints to
 ## **Team members**
 
 - Engineers: Richard Mah, Rohit Gupta, Rob Cannon
-- Project manager: Mitchell Krawiec-Thayer, Ph.D.
+- Project manager: Mitchell Krawiec-Thayer
 
 ## **Team Website**
 
@@ -38,6 +38,9 @@ Rob is Insight’s infrastructure architect who focuses primarily on blockchain 
 Mitchell is Insight’s Head of Research for Developers in Residence, and is currently coordinating teams contributing open-source tooling and analyses for Polkadot, Zcash, Monero, Harmony, and ICON. Mitchell founded the Monero Archival Project in 2017 and has been working with blockchain data sources and analyses ever since. Specializations include blockchain data engineering, data products, empirical analysis, on & off-chain anomaly detection, and blockchain data visualization.
 
 [GitHub](https://github.com/mitchellpkt/), [Twitter](https://twitter.com/Mitchellpkt0), [LinkedIn](https://www.linkedin.com/in/mitchellpkt/), [Medium](https://medium.com/@mitchellpkt)
+
+**Rohit Gupta**
+Rohit was a DevOps Fellow at Insight, who is experieced with architecting cloud solutions and developing one-click deployments. He has worked with the tooling for this project, and is eager to apply these practices within the W3F ecosystem.  
 
 ## **Team Code Repos**
 
