@@ -6,7 +6,7 @@ This proposal is now focused on operating those publicly accessible endpoints to
 
 ## **Team members**
 
-- Engineers: Richard Mah, Rohit Gupta, Rob Cannon
+- Engineers: Richard Mah, Rob Cannon
 - Project manager: Mitchell Krawiec-Thayer
 
 ## **Team Website**
