@@ -174,3 +174,4 @@ This page gives an overview of accepted grants and a link to their GitHubs. Keep
 - [enfipy](https://github.com/enfipy) - Creator: Mobile Game Framework for Substrate ([GitHub](https://github.com/creator-rs))
 - [Halva](https://github.com/halva-suite) - Halva: Bootstrapping and Scaffolding ([GitHub](https://github.com/halva-suite))
 - [Sunshine Systems](https://sunshine.foundation) - Sunshine Keybase ([GitHub](https://github.com/sunshine-protocol))
+- [Subscan](subscan.io) - Multi-signature Management Tool ([GitHub](https://github.com/itering))
