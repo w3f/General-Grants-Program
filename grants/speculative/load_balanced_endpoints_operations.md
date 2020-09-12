@@ -29,7 +29,7 @@ Richard is a DevOps engineer at Insight whose recent projects in the blockchain 
 
 **Rob Cannon**
 
-Rob is Insight’s infrastructure architect who focuses primarily on blockchain infrastructure, DevOps tooling, and Infrastructure as Code. Like Richard, Rob has contributed to Polkadot tooling, and is technically knowledgeable about the W3F ecosystem and the infrastructure developmentn roadmap. Prior to Insight, he worked in the oil and gas industry founding a data science startup and working for a major operator.
+Rob is Insight’s infrastructure architect who focuses primarily on blockchain infrastructure, DevOps tooling, and Infrastructure as Code. Like Richard, Rob has contributed to Polkadot tooling, and is technically knowledgeable about the W3F ecosystem and the infrastructure development roadmap. Prior to Insight, he worked in the oil and gas industry founding a data science startup and working for a major operator.
 
 [Github](https://github.com/robc-io), [Medium](https://medium.com/@robcannonxyz)
 
@@ -40,7 +40,7 @@ Mitchell is Insight’s Head of Research for Developers in Residence, and is cur
 [GitHub](https://github.com/mitchellpkt/), [Twitter](https://twitter.com/Mitchellpkt0), [LinkedIn](https://www.linkedin.com/in/mitchellpkt/), [Medium](https://medium.com/@mitchellpkt)
 
 **Rohit Gupta**
-Rohit was a DevOps Fellow at Insight, who is experieced with architecting cloud solutions and developing one-click deployments. He has worked with the tooling for this project, and is eager to apply these practices within the W3F ecosystem.  
+Rohit was a DevOps Fellow at Insight, who is experienced with architecting cloud solutions and developing one-click deployments. He has worked with the tooling for this project, and is eager to apply these practices within the W3F ecosystem.  
 
 ## **Team Code Repos**
 
