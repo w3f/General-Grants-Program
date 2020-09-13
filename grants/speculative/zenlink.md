@@ -38,6 +38,60 @@ Besides, we will build a user interface website, Zenlink DEX Dapp, which would c
 
 The purpose of this grant is that verification function prototype and test user interface in lean way.
 
+## Technical specifications and design
+
+### Architecture
+
+The ZenLink DEX Protocol defines several classes including Factory, Swap, and Balance. Here is the basic function description, using the ABC/DOT trading pair as an example.
+
+#### Class Factory 
+Factory is the core module of ZenLink Dex Protocal. Factory ACTS as a registry. Each token trading pair creates its own pool of liquidity through The Factory. When a liquidity pool is established, initial funds are deposited in it to provide liquidity.
+
+**Functions**
+* createPool(ABC, ABC amount, DOT, DOT amount): creating liquitidy pool.
+* initPair(ABC, ABC amount, DOT, DOT amount): initializing liquitidy pool. The initial state of the liquidity pool is recorded in storage and a unique index is marked for each liquidity pool.
+
+#### Class Swap
+Swap provides a exposed RPC interface for the user to accept transactions and extract liquidity from the user.
+
+**Functions***
+* trade(ABC, ABC amount, DOT): Public interface. This is used to accept a trading request from the user.
+* rebalance(ABC, ABC amount, DOT, DOT amount): Modify the asset status of the liquidity pool. This is the only entry function to modify the liquidity pool.
+* deposit(ABC, ABC amount, DOT, DOT amount):  Public interface. This is used to accept a  request which deposit assets into liquidity pool from the user.
+* transfer(user address, DOT, DOT amount): Transfer assets to an user address from a liquidity pool.
+* withdraw(ABC, ABC amount, DOT, DOT amount):  Public interface. This is used to accept a  request which withdraw assets from liquidity pool from the user.
+* withdrawTransfer(user address, ABC, ABC amount, DOT, DOT amount): Dedicated transfer function fro withdraw action.
+
+#### Class Balance
+Balance maintains the core function of AMM, that is, defining the liquidity constant function used throughout the protocol. Therefore, Balance provides basic liquidity calculation functions for other classes of the protocol, such as initial liquidity calculation, transaction calculation, etc. 
+In addition, Balance provides the exposed RPC interface to the user. Users can query all liquidity pools that have been created and the supply of a liquidity pool.
+
+**Functions**
+- initPoolCalculate(ABC, DOT): Calculating the assets status a liquidity pool while initializing.
+- tradeCalculate(ABC, ABC amount, DOT): Calculatiing trading amount for a pair.
+- depositCalculate(ABC, ABC amount, DOT, DOT amount): Calculating the assets status a liquidity pool while depositing.
+- withdrawCalculate(ABC, ABC amount, DOT, DOT amount): Calculating the assets status a liquidity pool while withdrawing.
+- of(ABC, DOT): Query the asset status of the liquidity pool.
+
+### The class diagram
+Based on some user scenarios, we will outline how classes in the protocol are called to each other.
+
+#### Creating liquidity pool
+![Creating liquidity pool](https://uploader.shimo.im/f/SwOhaOAWxj6mp8WH.png!thumbnail)
+When user want to create a liquidity pool, the transaction with ABC and DOT would call the function createPool which exposes the public interfaces externally and belongs to class Factory.  Then, the function initPoolCalculate of class Balance would be in charge of the assets status estimation. After that, the function initPair of class Factory will new a pair instance.
+
+#### Deposit
+![deposit](https://uploader.shimo.im/f/L7uWfWpPSb3CJmck.png!thumbnail)
+The function deposit of class Swap is exposed to public, user can call it via RPC interface. The function despositCalculate of class Balance would give the correct amount of ABC and DOT which is required by the contant fucntion in the protocal. Then, the asset status would be changed by the function rebalance of class Swap.
+
+#### Trading
+![deposit](https://uploader.shimo.im/f/sj2jkCdzEbOZIhLL.png!thumbnail)
+When the user want to trade with a liquidity pool, the transaction with ABC would call the function trade which exposes the public interfaces externally and belongs to class Swap.  Then, the function tradeCalculate and rebalance of class Balance would be in charge of the assets status estimation and modify. After that, the function transfer of class Swap will send DOT to the user.
+
+#### Withdraw
+![deposit](https://uploader.shimo.im/f/wuVnVMZkr9E7NUAp.png!thumbnail)
+The function withdraw of class Swap is exposed to public, user can call it via RPC interface. The function withdrawCalculate of class Balance would give the correct amount of ABC and DOT which can be withdrawn from the liquidity pool. Then, the asset status would be changed by the function rebalance of class Swap, so that the user would receive ABC and DOT by the function withdrawTransfer.
+
 ## Ecosystem Fit 
 No.
 
@@ -71,7 +125,6 @@ No
 ### Milestone 1 — Implementing Zenlink DEX Module — 1 month — $8,000
 
 Generally, we would like to verify the product prototype in a specific environment.
-* Technical specifications and Zenlink DEX Module design.
 * We will deliver Zenlink DEX Module on a substrate blockchain.
 * It will has Automate Market Maker(AMM) function.
 
