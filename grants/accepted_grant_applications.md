@@ -176,5 +176,5 @@ This page gives an overview of accepted grants and a link to their GitHubs. Keep
 - [Sunshine Systems](https://sunshine.foundation) - Sunshine Keybase ([GitHub](https://github.com/sunshine-protocol))
 - [Subscan](subscan.io) - Multi-signature Management Tool ([GitHub](https://github.com/itering))
 - [Evercity](https://evercity.io/) - Smart Sustainable Bond Protocol (SSB-P) ([GitHub](https://github.com/EvercityEcosystem/Smart-Sustainable-Bond))
-- [Permiurly](http://permiurly.in) - Polkassembly
+- [Permiurly](http://permiurly.in) - Polkassembly ([GitHub](https://github.com/premiurly/polkassembly))
 - [Zeropool](https://zeropool.network/) - Private transactions on Polkadot ([GitHub](https://github.com/zeropoolnetwork))
