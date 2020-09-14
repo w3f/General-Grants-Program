@@ -175,3 +175,6 @@ This page gives an overview of accepted grants and a link to their GitHubs. Keep
 - [Halva](https://github.com/halva-suite) - Halva: Bootstrapping and Scaffolding ([GitHub](https://github.com/halva-suite))
 - [Sunshine Systems](https://sunshine.foundation) - Sunshine Keybase ([GitHub](https://github.com/sunshine-protocol))
 - [Subscan](subscan.io) - Multi-signature Management Tool ([GitHub](https://github.com/itering))
+- [Evercity](https://evercity.io/) - Smart Sustainable Bond Protocol (SSB-P) ([GitHub](https://github.com/EvercityEcosystem/Smart-Sustainable-Bond))
+- [Permiurly](http://permiurly.in) - Polkassembly
+- [Zeropool](https://zeropool.network/) - Private transactions on Polkadot ([GitHub](https://github.com/zeropoolnetwork))
