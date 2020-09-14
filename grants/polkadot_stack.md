@@ -62,8 +62,8 @@ In the below sections you can find a list of different layers of the Polkadot St
 |-|-|-
 | Desktop Wallets | [AirGap](https://github.com/airgap-it/airgap-wallet), [Sakura](https://github.com/w3finance/sakura)
 | Browser Extensions | [Polkadot{.js}](https://github.com/polkadot-js/extension), [Enzyme](https://getenzyme.dev/), [Speckle OS](https://www.speckleos.io/)  
-| Mobile Wallets| [KodaDot](https://twitter.com/KodaDot), [Lunie](https://github.com/luniehq/lunie), [Polkawallet](https://github.com/polkawallet-io/polkawallet-flutter), [Parity Signer](https://github.com/paritytech/parity-signer)  
-| Web (burner) Wallets| [KodaDot](https://twitter.com/KodaDot)
+| Mobile Wallets|  [Lunie](https://github.com/luniehq/lunie), [Polkawallet](https://github.com/polkawallet-io/polkawallet-flutter), [Parity Signer](https://github.com/paritytech/parity-signer), [imToken](https://github.com/consenlabs/token-core)  
+| Web (burner) Wallets| [KodaDot](https://kodadot.js.org/)
 | CLI Wallet | [Subwallet](https://github.com/yxf/subwallet)
 | Multisignature Wallets| 
 | Hardware Wallets | [Ledger](https://github.com/ZondaX/ledger-polkadot), [NGRAVE](https://ngrave.io/) 
