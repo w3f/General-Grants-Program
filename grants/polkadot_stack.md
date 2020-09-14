@@ -62,15 +62,15 @@ In the below sections you can find a list of different layers of the Polkadot St
 |-|-|-
 | Desktop Wallets | [AirGap](https://github.com/airgap-it/airgap-wallet), [Sakura](https://github.com/w3finance/sakura)
 | Browser Extensions | [Polkadot{.js}](https://github.com/polkadot-js/extension), [Enzyme](https://getenzyme.dev/), [Speckle OS](https://www.speckleos.io/)  
-| Mobile Wallets| [KodaDot](https://twitter.com/KodaDot), [Lunie](https://github.com/luniehq/lunie), [Polkawallet](https://github.com/polkawallet-io/polkawallet-flutter), [Parity Signer](https://github.com/paritytech/parity-signer)  
-| Web (burner) Wallets| [KodaDot](https://twitter.com/KodaDot)
+| Mobile Wallets|  [Lunie](https://github.com/luniehq/lunie), [Polkawallet](https://github.com/polkawallet-io/polkawallet-flutter), [Parity Signer](https://github.com/paritytech/parity-signer), [imToken](https://github.com/consenlabs/token-core)  
+| Web (burner) Wallets| [KodaDot](https://kodadot.js.org/)
 | CLI Wallet | [Subwallet](https://github.com/yxf/subwallet)
 | Multisignature Wallets| 
-| Hardware Wallets | [Ledger](https://github.com/ZondaX/ledger-polkadot), [NGRAVE](https://ngrave.io/) 
+| Hardware Wallets | [Ledger](https://github.com/ZondaX/ledger-polkadot), [NGRAVE](https://ngrave.io/) | Trezor
 | Block Explorers | [Polkascan](https://github.com/polkascan), [Polkastats](https://polkastats.io/), [Subscan](https://github.com/itering/subscan)| Mempool focused explorer (including parachain transaction)
 | Validator Dashboards | [DotHub](https://github.com/figment-networks/dothub), [Polkacube](https://github.com/hashquark-io), [YieldScan](https://github.com/buidl-labs/YieldScan)
 | Node Explorers | [Polkadot Node Explorer](https://github.com/protos-research/polkadot-node-explorer)
-| Governance Dashboards | [Polkassembly](https://github.com/paritytech/polkassembly)| UI for the kusama and/or polkadot treasury (see [bounty module](https://github.com/paritytech/substrate/pull/5715)) |
+| Governance Dashboards | [Polkassembly](https://github.com/premiurly/polkassembly)| UI for the kusama and/or polkadot treasury (see [bounty module](https://github.com/paritytech/substrate/pull/5715)) |
 
 ### :wrench: Tools APIs and Languages
 
@@ -117,7 +117,7 @@ In the below sections you can find a list of different layers of the Polkadot St
 
 | Components | Existing projects | Potentially interesting projects
 |-|-|-
-| Rust | [Substrate](https://github.com/paritytech/substrate)
+| Rust | [Substrate](https://github.com/paritytech/substrate), [Cumulus](https://github.com/paritytech/cumulus)
 | C++ | [Kagome](https://github.com/soramitsu/kagome)
 | Go | [Gossamer](https://github.com/ChainSafe/gossamer)
 | AssemblyScript | 
@@ -137,7 +137,7 @@ In the below sections you can find a list of different layers of the Polkadot St
 
 | Components | Existing projects | Potentially interesting projects
 |-|-|-
-| SR25519 | [rust](https://github.com/w3f/schnorrkel) (contains partial bindings for C, JavaScript, and Python), [C](https://github.com/usetech-llc/sr25519) *(old)*, [C](https://github.com/TerenceGe/sr25519-donna) *(new)*,  [C#](https://github.com/usetech-llc/sr25519_dotnet), [java](https://github.com/debuggor/schnorrkel-java)
+| SR25519 | [rust](https://github.com/w3f/schnorrkel) (contains partial bindings for C, JavaScript, and Python), [C](https://github.com/usetech-llc/sr25519) *(old)*, [C](https://github.com/TerenceGe/sr25519-donna) *(new)*, [C/C++](https://github.com/Harrm/sr25519-crust), [C#](https://github.com/usetech-llc/sr25519_dotnet), [Go](https://github.com/ChainSafe/go-schnorrkel), [java](https://github.com/debuggor/schnorrkel-java)
 | Easy multisig scheme | 
 | Validator HSMs| |
 | Validator HSM-like solutions|
