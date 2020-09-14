@@ -163,9 +163,7 @@ For a bottoms up breakdown of each milestone and deliverable, please consult our
 
 ## **Additional Information**
 
----
-
-A centralized API endpoint provider like Infura presents a variety of risks to the ecosystem that can only be averted by taking a decentralized approach.  While this grant will provide a centralized API endpoint, our approach is fully open source such that anyone can run their own endpoints with the same capabilities. 
+A centralized API endpoint provider like Infura presents a variety of risks to the ecosystem that can only be averted by taking a decentralized approach.  While this grant will provide a centralized API endpoint, our approach is fully open source such that anyone can run their own endpoints with the same capabilities.
 
 While our main goal with building the v2 architecture is to optimize query response time, many opportunities arise from building a robust pattern that can easily be extended to be inclusive of additional endpoints. While it would be impossible to build all the optimizations and additional endpoints ourselves, we hope to lay the ground work such that other groups / Insight fellows can expand on it to deliver additional features to the ecosystem.
 
