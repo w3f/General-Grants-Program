@@ -43,9 +43,6 @@ Mitchell is Insight’s Head of Research for Developers in Residence, and is cur
 
 [GitHub](https://github.com/mitchellpkt/), [Twitter](https://twitter.com/Mitchellpkt0), [LinkedIn](https://www.linkedin.com/in/mitchellpkt/), [Medium](https://medium.com/@mitchellpkt)
 
-**Rohit Gupta**
-Rohit was a DevOps Fellow at Insight, who is experieced with architecting cloud solutions and developing one-click deployments. He has worked with the tooling for this project, and is eager to apply these practices within the W3F ecosystem.  
-
 ## **Team Code Repos**
 
 - [github.com/insight-w3f](https://github.com/insight-w3f)
