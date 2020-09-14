@@ -33,7 +33,7 @@ Richard is a DevOps engineer at Insight whose recent projects in the blockchain 
 
 **Rob Cannon**
 
-Rob is Insight’s infrastructure architect who focuses primarily on blockchain infrastructure, DevOps tooling, and Infrastructure as Code. Like Richard, Rob has contributed to Polkadot tooling, and is technically knowledgeable about the W3F ecosystem and the infrastructure developmentn roadmap. Prior to Insight, he worked in the oil and gas industry founding a data science startup and working for a major operator.
+Rob is Insight’s infrastructure architect who focuses primarily on blockchain infrastructure, DevOps tooling, and Infrastructure as Code. Like Richard, Rob has contributed to Polkadot tooling, and is technically knowledgeable about the W3F ecosystem and the infrastructure development roadmap. Prior to Insight, he worked in the oil and gas industry founding a data science startup and working for a major operator.
 
 [Github](https://github.com/robc-io), [Medium](https://medium.com/@robcannonxyz)
 
