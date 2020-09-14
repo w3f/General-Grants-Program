@@ -1,6 +1,6 @@
 # General Grant Proposal
 
-**Subscript:** substrate smart contact written in AssemblyScript
+**Subscript:** substrate smart contact written in `AssemblyScript`
 
 ## Project Overview :page_facing_up:
 
@@ -112,7 +112,7 @@ From this milestone, we can demonstrate full substrate contract example written 
 | 2. | `SCALE` codec lib | Builtin codec functions to serialize and deserialize input |
 | 3. | decorator for contract api access | Add decorator to encapsulate contract api interaction |
 
-### Milestone 4 Packaging and integation with substate
+### Milestone 4 Packaging and integation with substate node
 
 * **Estimated Duration:** 1 month
 * **FTE:**  2
@@ -126,7 +126,7 @@ In this milestone, we will launch language builtin fucntions and essential libar
 | 2. | integration with substrate node | cargo tool to intergate `Subscript` project with substate node |
 | 3. | npm testing tool | debug and test tool to interact with substate contract |
 
-### Milestone 5 Website for `Subscript` document and c
+### Milestone 5 Website for `Subscript` document and tutorial
 
 * **Estimated Duration:** 1 month
 * **FTE:**  2
@@ -151,4 +151,4 @@ We may add more intergated tool and IDE packge for contract developer.
 
 ## Additional Information
 
-We expect any deveoper who is interested in AssemblyScript smart contract join us and build efficent framework.
+We expect any developer who is interested in AssemblyScript smart contract join us and build efficient framework.
