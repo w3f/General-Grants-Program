@@ -38,9 +38,6 @@ Since the price of contract trading needs to be read from outside sources, the o
 
 Liquidity mining is the module of issuing CTO tokens. Users can lock CTO or DOT here to get the rewards of CTO. The proportion of rewards obtained by CTO and DOT is different. It also stipulates that users who lock their tokens for liquidity mining must also put a corresponding proportion of CTO or DOT in the collateral pool to mint synthetic assets, to provide more liquidity for the entire system. 
 
-### Ecosystem Fit 
-No.
-
 ## Team
 
 ### Team members
