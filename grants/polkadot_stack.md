@@ -105,7 +105,7 @@ In the below sections you can find a list of different layers of the Polkadot St
 | Social Networking | [SubSocial](https://github.com/dappforce/dappforce-subsocial)
 | Public Voting System | | [Consul](https://github.com/consul/consul) - Open Government and E-Participation Web Software
 | Messaging | [HOPR](https://github.com/validitylabs/HOPR-PL-Substrate), [Mailchain](https://github.com/mailchain)
-| File Storage | [DatDot](https://github.com/playproject-io/datdot)
+| File Storage, Cloud | [DatDot](https://github.com/playproject-io/datdot), [Crust Network](https://github.com/crustio)
 | Name Service| [Substrate Names](https://github.com/xaya/substrate-names)
 | Gaming | | [Amethyst](https://amethyst.rs/) + [Substrate](https://substrate.dev/)
 | Computation | 
