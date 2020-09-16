@@ -10,7 +10,7 @@
 
 NFT Parachain is a Substrate based blockchain made for handling Non Fungible Token (NFT) collections. It includes NFT Pallet that allows creating collections of unique things, minting tokens, and managing transfers, provides ERC-721 and ERC-1155 functionality, and many more features.
 
-The POC of NFT Chain was delivered during Hackusama hackaphon. More information is availabe in (this delivery walk-through document)[https://github.com/usetech-llc/nft_parachain/blob/master/doc/hackusama_walk_through.md].
+The POC of NFT Chain was delivered during Hackusama hackaphon. More information is availabe in [this delivery walk-through document](https://github.com/usetech-llc/nft_parachain/blob/master/doc/hackusama_walk_through.md).
 
 The source code for the POC is available in this repository: https://github.com/usetech-llc/nft_parachain
 
@@ -77,6 +77,14 @@ Our team members each have more then 15 years of IT experience in managing proje
 
 Project roadmap and financial plan will be shared privately via Google Form.
 
+### Community engagement
+
+The following articles are planned as milestones get completed:
+* Getting Started with NFT Chain
+* Migration guilde from Ethereum ERC-721 application to NFT Chain
+* NFT Chain reference documentation
+
+## Future Plans
 Our team plans to implement broader spectrum of applications such as
 
 * Decentralized Non-Fungible Token Exchange
@@ -85,50 +93,3 @@ Our team plans to implement broader spectrum of applications such as
 * Bridges to other networks
 * etc.
 
-
-
-
-### Overview
-* **
-
-Total Estimated Duration:
-
-** Duration of the whole project
-* **Full-time equivalent (FTE):**  Workload of an employed person ([see](https://en.wikipedia.org/wiki/Full-time_equivalent)) 
-* **Total Costs:** Amount of Payment for the whole project. The total amount of funding needs to be below $100k.
-
-### Milestone 1 Example — Implement Substrate Modules 
-* **Estimated Duration:** 1 month
-* **FTE:**  1
-* **Costs:** $5,000
-
-| Number | Deliverable | Specification |
-| ------------- | ------------- | ------------- |
-| 0a. | License | Apache 2.0 / MIT / Unlicense |
-| 0b. | Documentation | We will provide both inline documentation of the code and a basic tutorial that explains how a user can (for example) spin up one of our Substrate nodes. Once the node is up, it will be possible to send test transactions that will show how the new functionality works. |
-| 0c. | Testing Guide | The code will have proper unit-test coverage (e.g. 90%) to ensure functionality and robustness. In the guide we will describe how to run these tests | 
-| 1. | Substrate module: X | We will create a Substrate module that will... (Please list the functionality that will be coded for the first milestone) |  
-| 2. | Substrate module: Y | We will create a Substrate module that will... |  
-| 3. | Substrate module: Z | We will create a Substrate module that will... |  
-| 4. | Substrate chain | Modules X, Y & Z of our custom chain will interact in such a way... (Please describe the deliverable here as detailed as possible) |  
-| 5. | Docker | We will provide a dockerfile to demonstrate the full functionality of our chain |
-
-### Milestone 2 Example — Additional features
-...
-
-### Community engagement
-
-As part of the Program, we require that you produce an article/tutorial and publish it (for example on [Medium](https://medium.com/)). It should explain your work done as part of the grant. 
-
-Normally, we ask you to submit the write-up upon the completion of your grant, although for larger projects it might make sense to publish multiple articles after the completion of different milestones.
-
-## Future Plans
-Please include the team's long-term plans and intentions.
-
-## Additional Information :heavy_plus_sign: 
-Any additional information that you think is relevant to this application that hasn't already been included.
-
-Possible additional information to include:
-* What work has been done so far?
-* Are there are any teams who have already contributed (financially) to the project?
-* Have you applied for other grants so far?
