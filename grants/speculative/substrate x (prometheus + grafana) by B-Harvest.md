@@ -16,7 +16,7 @@
 
 - potential expansion of the project
   - support monitoring and alarming of various economic activities on the relay chain and parachains, including transaction and state change monitoring.
-  - connecting prometheus to elastic search and kibana for better visualization and query functionality, which will significantly upgrade node operator's post-event analytic abilities on stability of node operation.
+  - connecting prometheus to Grafana for better visualization and query functionality, which will significantly upgrade node operator's post-event analytic abilities on stability of node operation.
   - expansion of this project will greatly benefit blockchain statistics explorer on substrate base blockchains.
 
 ## Team members
