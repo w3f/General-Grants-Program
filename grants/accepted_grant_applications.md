@@ -179,3 +179,4 @@ This page gives an overview of accepted grants and a link to their GitHubs. Keep
 - [Permiurly](http://permiurly.in) - Polkassembly ([GitHub](https://github.com/premiurly/polkassembly))
 - [Zeropool](https://zeropool.network/) - Private transactions on Polkadot ([GitHub](https://github.com/zeropoolnetwork))
 - [Polkadex](https://github.com/Polkadex-Substrate) - A decentralized, peer-peer, cryptocurrency exchange for DeFi ecosystem in Substrate ([GitHub](https://github.com/Polkadex-Substrate/Polkadex))
+- [Fractapp](https://fractapp.com) - Messenger with crypto wallet ([GitHub](https://github.com/fractapp))
