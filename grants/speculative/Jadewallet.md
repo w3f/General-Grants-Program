@@ -1,39 +1,40 @@
 # Jadewallet
 
 ## Project Description
-**Jadewallet** is making a new paradigm of custody, which based on Jadepool SaaS and Jadepool Hub uses **multi-party computation (MPC)** and **threshold signature scheme (TSS)** technology to provide our clients the most trusted and secure custody solution.
+**Jadewallet** is a revolutionary self-custody solution that is built on foundation of the cutting-edge technologies including **MPC (multi-party computation)** and **TSS (threshold signature scheme)**. **Jadewallet** will be integrated into the Jadepool Custody system (includes Jadepool SAAS and Jadepool Hub, see details in 'Related Products' section below), to form a complete self-custody which is dedicated to provide users with the most professional and secure solution.
 
-**MPC** and **TSS** gives clients total autonomy over whose digital assets and multisignature ability with keyless cryptographic security.
+The feature of **MPC-based Threshold Signature** offers users the complete control over their digital assets and the ability to achieve multi-signature with keyless cryptographic security.
 
 <img src="https://ipfs.io/ipfs/QmNokuRsE5dXN4X47opiNuAcqdGB7xtKkZAwCiVh5rJigN" style="zoom: 100%;" />
 
-#### Prototype Preview
+The main disadvantage of multisig is that different blockchains requires different implementations, though plenty of blockchains don't even support multisig. Instead, **TSS** is obviously a better choice as it is entirely based on cryptography. Therefore, supporting **TSS** on each blockchain is always possible in spite of the blockchain's own implementation and features. Furthermore, signers' privacy will be well protected as their information won't be visible in transaction. It also reduces cost and avoids smart contract related risks since signature will be generated through **MPC** instead of executing a smart contract on chain. 
 
-<img src="https://ipfs.io/ipfs/QmaWbbTC1zH6MDMqjYhq1UrN6QMpQ5sVKLrZKGDm136qp8"  />
-
-
-
-### About NBLTrust
-
-We established our company in April 2017 and recognized the encryption and security issues related to blockchain long before the advent of the blockchain wave.
-
-So far, NBLTrust has already developed its own storage products for blockchain tokens and offers technical support with high performance to global markets as well as other blockchain applications. Our products include SaaS for custody, blockchain infrastructure, hardware multisig wallet. We provide custody services for our customers such as **HashKey, Math Wallet, Cybex, Chain. Game**. Polkadot and Kusama have been already supported in our custody services.
+As stated above, **TSS** is basically cross-chain. Considering Polkadot is also devoted to connect and integrate multiple blockchains, **TSS** technology together with Polkadot can make managing multi-chain assets convenient and more secure. 
 
 
 
-**Jadepool SaaS**
 
-One-stop platform for asset custody, trading and wealth increment. It is dedicated to providing institutions and qualified individual investors with custodial, trading and wealth increment services that are tailored to their business needs. Customized risk control services, simple web management interface and rich API interface make asset management more secure, easier to use and faster.
-
-- Support for 30+ blockchains and 700+ tokens representing 75% of market cap
-- 95% of funds stored in cold wallet
-- $150 million in transactions
+### Prototype Preview
+<img src="https://ipfs.io/ipfs/QmaWbbTC1zH6MDMqjYhq1UrN6QMpQ5sVKLrZKGDm136qp8" style="zoom: 100%;" />
 
 
 
-**Jadepool Hub**
 
-Designed for secure management of blockchain tokens for institutions. It separates token storage system back ends from the account system, interacts via encrypted channels with client system. It also contains risk control functions such as withdrawal limit, manual verification. The hot and cold wallet are safely separated.
+### Related Products
+
+#### Jadepool SaaS
+
+##### Funds Management & Risk Control
+
+Jadepool SaaS is a one-stop platform for asset custody, trading and wealth increment. It is dedicated to provide institutions and qualified individual investors with services that are tailored to their business needs. Customized risk control services, simple web management interface and rich API interface make asset management more secure, fasterand easier to use.
+
+
+
+#### Jadepool Hub
+
+##### Monitor Blockchain & Process Transaction 
+
+Jadepool Hub is the software solution that automates blockchain-related services of multiple blockchains and thousands of tokens. It is mainly responsible for signing & broadcasting transactions, monitoring blockchain and securely managing crypto assets etc. The main services it provides include deposit, withdrawal, cold storage, staking etc. Over 30 blockchains has been supported.
 
 
 
@@ -65,21 +66,27 @@ Designed for secure management of blockchain tokens for institutions. It separat
   
 
 ## Legal Structure 
-Tuolian(Shanghai) Tech Co., Ltd.
+Tuolian (Shanghai) Co., Ltd.
 
 
 
 ## Team's experience
-* Alex Xu: Co-Founder and CTO in NBLTrust for 4 years, core developer in our three custody products. IT Consultant in IBM for 9 years. **Polkadot Ambassador China**. Worked as TA in two training courses hold by Parity in China.
-* BoHao Tang: Senior full-stack developer and architect in NBLTrust for 3 years, core developer for Jadepool Hub. Sofeware engineer in Ubisoft for 4 years, indie game developer for 4 years. **The Winner of Substrate Hackathon** by PolkaWorld in 2019.
+* Alex Xu: Co-Founder and CTO at NBLTrust for 4 years. Core developer in all three custody product teams. IT Consultant at IBM for 9 years. **Polkadot Ambassador China**. Worked as TA in two training courses hold by Parity in China.
+* BoHao Tang: Senior full-stack developer and architect at NBLTrust for 3 years. Core developer of Jadepool Hub. Software engineer at Ubisoft for 4 years. Has been indie game developer for 4 years. **The Winner of Substrate Hackathon** by PolkaWorld in 2019.
+* Daizong Zhang: Core back-end developer of Jadepool SaaS. 5+ years Golang back-end development. Currently focusing on the blockchain field.
+* Kevin Li: 6 years of native mobile development experience. 3 years of React Native, Flutter Hybrid and front-end development experience. Graduated from Syracuse University.
+* Hilbert Zhou: 2 years of ops experience on AIX, websphere and Power. 7+ years back-end service development experience including HFT, CTA and blockchain.
+* Yi Zhang: Key member of the DEX project and the financial derivative product. Experienced in decentralized architecture design and product design. Worked for IBM as IT consultant over 7 years.
+* Andy Yi: Product manager at NBLTrust for 3 years, responsible for Jadepool SaaS design and operation. 9 years of QA Manager experience, worked for General Electric, Hua Wei and Travelzen.com.
+* Kristie Guo: Product manager of Jadepool Hub for 2+ years. 2+ years of software engineer experience at Lending Club in San Francisco. Graduated from Cornell University.
+* Steven Wu: Product manager at NBLTrust for 3 years. 6+ years of product manager and 4+ years full stack development experience. An ex start-up co-founder.
 
-* Daizong Zhang: Core backend developer of the Jadepool SaaS. 5+ years Golang backend development, currently focusing on the blockchain field.
-* Kevin Li: 6 years native mobile development experience, 3 years React Native, Flutter Hybrid and front-end development experience, graduated from Syracuse University.
-* Hilbert Zhou: 2 years ops experience on AIX, websphere and Power. 7+ years backend service development experience including HFT, CTA and blockchain.
-* Yi Zhang: Key member of our DEX project, and financial derivative product. Many experiences in decentralized architecture design and product design. Work in IBM as an IT consultant over 7 years.
-* Andy Yi: Product manager in NBLTrust for 3 years, responsible for Jadepool SaaS design and operation. 9 years QA Manager experience, worked for General Electric, Hua Wei and Travelzen.com.
-* Kristie Guo: Product manager of Jadepool Hub. 2+ years software engineer experience. Worked at Lending Club in San Francisco, graduated from Cornell University.
-* Steven Wu: Product manager in NBLTrust for 3 years. 6+ years product manager, and 4+ years full stack development experience. An ex start-up co-founder.
+Founded in 2017 and headquartered in Shanghai, China, Tuolian (Shanghai) Co., Ltd. is a high-tech company specializing in the field of digital asset custody.
+
+To provide overall solutions and related technical services for digital asset custody, Tuolian owns secure custody softwares based on self-developed high-strength classical cryptographic algorithms. And the hot&cold wallet and the hardware wallet products meet the bank's security level requirements. 
+
+Tuolian provides the full package of custody services for well-known institutions such as Math Wallet and HashQuark.
+
 
 
 
@@ -91,11 +98,11 @@ Tuolian(Shanghai) Tech Co., Ltd.
   
 
 ## Development Roadmap
-We will require 4 months to complete this project. 9 full-time employees (5 developers), at a total cost of $40,000.
+We need 4 months and 9 full-time employees (5 developers) to complete the project. The estimated total cost is $40,000.
 
-Ideally, we can receive part payment at the end of each milestone: $40,000 / 4.
+We are hoping to receive a share of grant by the end of each milestone: $40,000 / 4.
 
-We would be willing to accept payment in DOTs or KSMs.
+We accept grant in DOTs or KSMs.
 
 
 
@@ -103,7 +110,8 @@ We would be willing to accept payment in DOTs or KSMs.
 
 - MPC core:
   
-  - Use Rust and Python to make a demo work on a single pc.
+  - Use Rust and Python to make a demo that works on a single pc.
+  - Test and fix issue.
   
 - Wallet app:
   - App architecture and framework. (weeks 0-2)
@@ -182,6 +190,31 @@ We would be willing to accept payment in DOTs or KSMs.
     
 
 ## Future Plans
-We are planning to support staking, separating stash and controller accounts in the future. Finally, the app will be submitted to App Store when it is ready for version 1.0.0 release.
+We are planning to support staking, separating stash and controller accounts in the future. The App will be submitted to App Store once it is ready for version 1.0.0 release.
 
-Since **Jadewallet** is mainly served for business clients,  we will keep exploring and meeting clients need for Polkadot/Kusama. 
+**Jadewallet** wants to be the portal of institutional investors into the Polkadot community.
+
+
+
+## Additional Information
+
+### What work has been done so far?
+
+1. Jadepool Hub has already supported DOT and KSM.
+2. MPC core has been partially implemented.
+
+### Are there any teams who have already contributed (financially) to the project?
+
+No.
+
+### Have you applied for other grants so far?
+
+No.
+
+### References
+
+[1] [Secure multi-party computation](https://en.wikipedia.org/wiki/Secure_multi-party_computation)
+
+[2] [Threshold Signatures Explained](https://academy.binance.com/security/threshold-signatures-explained)
+
+[3] [Technology | Polkadot](https://polkadot.network/technology/)
