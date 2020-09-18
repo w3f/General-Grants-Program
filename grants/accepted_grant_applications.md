@@ -148,7 +148,7 @@ This page gives an overview of accepted grants and a link to their GitHubs. Keep
 - [Adoriasoft](https://adoriasoft.com/) - Cosmos-SDK Parachain Development Kit ([GitHub](https://github.com/adoriasoft/cosmos-sdk))
 - [Laminar One](https://laminar.one/) - Reusable Libraries: Runtime Modules + Monitoring Framework ([GitHub](https://github.com/open-web3-stack))
 - [Faber](https://github.com/yxf) - Subwallet: CLI wallet for Polkadot/Substrate ([GitHub](https://github.com/yxf/subwallet))
-- [Equilibrium](https://equilibrium.co/) - offchain::ipfs ([GitHub](https://github.com/eqlabs))
+- [Equilibrium.co](https://equilibrium.co/) - offchain::ipfs ([GitHub](https://github.com/eqlabs))
 - [Snowfork](http://www.snowfork.com/) - Ethereum Bridge ([GitHub](https://github.com/snowfork))
 - [Lunie](http://lunie.io/) - Lunie Governance integration ([GitHub](https://github.com/luniehq/lunie))
 - [LimeChain](https://github.com/LimeChain) - AssemblyScript Runtime ([GitHub](https://github.com/LimeChain))
@@ -180,3 +180,4 @@ This page gives an overview of accepted grants and a link to their GitHubs. Keep
 - [Zeropool](https://zeropool.network/) - Private transactions on Polkadot ([GitHub](https://github.com/zeropoolnetwork))
 - [Polkadex](https://github.com/Polkadex-Substrate) - A decentralized, peer-peer, cryptocurrency exchange for DeFi ecosystem in Substrate ([GitHub](https://github.com/Polkadex-Substrate/Polkadex))
 - [Fractapp](https://fractapp.com) - Messenger with crypto wallet ([GitHub](https://github.com/fractapp))
+- [Equilibrium.io](https://equilibrium.io/en) - All-in-one Interoperable DeFi hub. ([GitHub](https://github.com/equilibrium-eosdt))
