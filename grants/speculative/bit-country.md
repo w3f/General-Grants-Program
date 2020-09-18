@@ -17,36 +17,37 @@ Bit.Country is a decentralized world.
 
       In Bit.Country, you can create your own space, communities, economics, and digital assets (NFTs). The dapp offers both a classical web view and a 3D in-browser view of the country. The decentralized marketplace allows users to trade their digital assets with each other.      
 
-    Countries
+    **Countries**
 
-        Create your own country and community. Attract more people to join using the rules and policies you can set by your will.
-        Grow your country and monetize your community in multiple ways without any intermediaries.
+    Create your own country and community. Attract more people to join using the rules and policies you can set by your will.
 
-    Blocks
+    Grow your country and monetize your community in multiple ways without any intermediaries.
 
-        Content will belong to one of the blocks that make up the whole country. Each block has a topic the content within should adhere to. Each block can also be visualized in a 3D voxel view, in the 3D world, you can create assets on the sections you own.
+    **Blocks**
+            
+    Content will belong to one of the blocks that make up the whole country. Each block has a topic the content within should adhere to. Each block can also be visualized in a 3D voxel view, in the 3D world, you can create assets on the sections you own.
 
-    Economy
+    **Economy**
 
-        Create currency for your country, and incentivize the people who contribute to your community.
+    Create currency for your country, and incentivize the people who contribute to your community.
 
-        As your community grows, your currency will gain value on the exchange. Everyone in the community will benefit from this. Countries can be auctioned, rewarding all who had a stake in it.
+    As your community grows, your currency will gain value on the exchange. Everyone in the community will benefit from this. Countries can be auctioned, rewarding all who had a stake in it.
 
-    Residents
+    **Residents**
 
-        Explore countries created by other people. Become a resident and join the community. Countries can set their residential policies.
+    Explore countries created by other people. Become a resident and join the community. Countries can set their residential policies.
 
-        Some welcome everyone and even reward you for joining, while others may need you to apply for residency.
+    Some welcome everyone and even reward you for joining, while others may need you to apply for residency.
 
-    Ownership & Governance
+    **Ownership & Governance**
 
-        Residents can earn the country tokens to take ownership and perform their governing rights by voting.
+    Residents can earn the country tokens to take ownership and perform their governing rights by voting.
 
-    Marketplace
+    **Marketplace**
 
-        Trade your NFTs with residents within the same block, bit country, or entire network.
+    Trade your NFTs with residents within the same block, bit country, or entire network.
 
-        We are building the decentralized marketplace into the Substrate module. The auctions and deliveries of items will be completely decentralized and governed by the blockchain network.
+    We are building the decentralized marketplace into the Substrate module. The auctions and deliveries of items will be completely decentralized and governed by the blockchain network.
 
 
 
@@ -54,7 +55,7 @@ Bit.Country is a decentralized world.
 
     We will build Bit.Country Chain with Substrate technologies. 
     
-    Our system will utilise existing pallets as well as develop new pallets for Bit.Country Chain specific requirements such as token economy, marketplace logic, NFT management, staking and governance.
+    Our system will utilise existing pallets as well as develop new pallets for Bit.Country Chain specific requirements such as token economy, marketplace, NFT management, staking and governance.
 
   * An indication of why your team is interested in creating this project.
 
