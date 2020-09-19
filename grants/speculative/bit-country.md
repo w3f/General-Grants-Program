@@ -13,7 +13,7 @@ Bit.Country is a decentralized world.
 [Medium article about Bit.Country](https://medium.com/@bitcountry/create-and-live-in-a-decentralized-world-of-your-own-4ad872379d00)
 
 ### Overview
-  * A brief description of the project.
+  * **A brief description of the project.**
 
       In Bit.Country, you can create your own space, communities, economics, and digital assets (NFTs). The dapp offers both a classical web view and a 3D in-browser view of the country. The decentralized marketplace allows users to trade their digital assets with each other.      
 
@@ -51,7 +51,7 @@ Bit.Country is a decentralized world.
 
 
 
-  * An indication of how you will integrate this project into Substrate / Polkadot / Kusama.
+  * **An indication of how you will integrate this project into Substrate / Polkadot / Kusama.**
 
     We will build Bit.Country Chain with Substrate technologies. Our system will build pallets for Bit.Country Chain specific requirements.
     
@@ -60,7 +60,7 @@ Bit.Country is a decentralized world.
     When the community starts to gain momentum, we would like to become a parachain on the Polkadot network to benefit from shared security and communications(XCMP). We will create and support more assets (NTFs）and make them available for trading in the marketplace.        
         
 
-  * An indication of why your team is interested in creating this project.
+  * **An indication of why your team is interested in creating this project.**
 
     Our founder, Ray Lu, had a vision of building a decentralized world in 2018. The premium domain name Bit.Country has been registered since then. 
     
@@ -95,12 +95,12 @@ Full-timers
 * Ray Lu (Founder, Substrate, Blockchain enthusiast, full-time)
 * Justin Pham (CTO, Rust, Substrate, full-time)
 * Shannon Christie (Technology Manager & Project Lead, Rust, Substrate & Game, full-time)
-* Daniel Choi (Full-stack developer / test analyst, full-time)
-* Tim Young (Full-stack & Game developer, Project Management full-time)
+* Daniel Choi (Full-stack developer / test analyst, Rust, full-time)
 * Login Liu (UX developer, full-time)
 
 Part-timers
 * Juanita Strydom (Community Manager)
+* Tim Young (Full-stack & Game developer, Project Management full-time)
 * Kai Zhang (Technical Advisory)
 * Alan Liang (Technical Advisory)
 
@@ -142,16 +142,16 @@ Daniel Choi
 * ReactJs Ninja
 * Bachelor of ICT at Western Sydney University
 
+ Login Liu
+* The key designer & UX for a Saas product which transacts $20m per annum
+* Sound experience with EDM, Poster, Fin-Tech.
+* Bachelor of Arts - Digital Communication and Media/Multimedia at Heilongjiang University
+
 Tim Young
 * Solid experience in game product management
 * Founder of a popular board game in China
 * Full-stack developer, mobile game designer, unity developer
 * Bachelor of Arts - Animation, Interactive Technology, Video Graphics and Special Effects at Zhejiang University of Technology
-
- Login Liu
-* The key designer & UX for a Saas product which transacts $20m per annum
-* Sound experience with EDM, Poster, Fin-Tech.
-* Bachelor of Arts - Digital Communication and Media/Multimedia at Heilongjiang University
 
 Juanita Strydom
 * Solid experience in community management.
@@ -187,8 +187,8 @@ Key Profiles from the tech team
 * Justin Pahm https://www.linkedin.com/in/justinphamit/
 * Shannon Christie https://www.linkedin.com/in/shannonchristie/
 * Daniel Choi https://www.linkedin.com/in/dotnet-daniel-choi/
-* Tim Young https://www.linkedin.com/in/tim-young-057705133/
 * Logan Liu https://www.linkedin.com/in/logan-liu-5123a0130/
+* Tim Young https://www.linkedin.com/in/tim-young-057705133/
 * Juanita Strydom https://www.linkedin.com/in/juanita-strydom-5b79512b/
 * Kai Zhang https://www.linkedin.com/in/kai-zhang-02676a77/
 * Allan Liang https://www.linkedin.com/in/allan-liang-0a8555124/
@@ -207,13 +207,13 @@ Key Profiles from the tech team
 | Number | Deliverable | Specification |
 | ------------- | ------------- | ------------- |
 | 0a. | License | Apache 2.0 |
-| 0b. | Documentation | We will provide both inline & the lightpaper. |
-| 0c. | Testing Guide | The code will have proper unit-test coverage | 
+| 0b. | Documentation | We will provide inline documentation & the lightpaper of the project. |
+| 0c. | Testing Guide | The code will have proper unit-test coverage for Country parllet and automated testing coverage for the dapp using Cypress.| 
 | 1. | Substrate module: Country | We will create a Substrate module that supports country creation with tokens, blocks and land sections. |  
 | 2. | Bit.Country Chain | Country module of our chain can be used by the Dapp to create new country in the Bit.Country Chain. The chain will be able to run with other nodes of our chain.|  
 | 3. | Bit.Country Dapp - Country | Users would be able to create an off-chain country, and users can upgrade the country to be decentralized in Bit.Country chain.|   
 | 4. | Bit.Country Dapp - 2D & 3D View | Users would be able to conduct activities such as creating content in 2D and entering 3D views in the browser.|  
-| 5. | Docker | We will provide a dockerfile to demonstrate the full functionality of our chain.|
+| 5. | Docker | We will provide a dockerfile to demonstrate the full functionality of our chain and our dapp|
 
 ### Milestone 2 Implement Substrate Modules - Non-fungible Token
 * **Estimated Duration:** 4 weeks
@@ -222,13 +222,13 @@ Key Profiles from the tech team
 | Number | Deliverable | Specification |
 | ------------- | ------------- | ------------- |
 | 0a. | License | Apache 2.0 |
-| 0b. | Documentation | We will provide both inline & Readme. |
-| 0c. | Testing Guide | The code will have proper unit-test coverage.| 
+| 0b. | Documentation | We will provide both inline & Readme for the pallet and the on-screen user guide on the dapp.|
+| 0c. | Testing Guide | The code will have proper unit-test coverage for the pallets as well as Crypress automation for dapp features.| 
 | 1. | Substrate module: NFT | We will create a Substrate module that manages NFT.|  
 | 2. | Bit.Country Dapp - Tokenization | Users would be able to tokenize various assets as NFT on the Bit.Country chain.|
 | 3. | Bit.Country Dapp - Activities in 2D | In 2D view, users would be able to create content as per social media.|
-| 4. | Bit.Country Dapp - Activities in 3D | In 3D view, users would be able to walk, build assets no the owned sections.|
-| 5. | Docker | We will provide a dockerfile to demonstrate the full functionality of our chain.|
+| 4. | Bit.Country Dapp - Activities in 3D | In 3D view, users would be able to walk, build assets within the owned sections.|
+| 5. | Docker | We will provide a dockerfile to demonstrate the full functionality of our chain and our dapp|
 
 ### Milestone 3 Implement Substrate Modules - Marketplace
 * **Estimated Duration:** 4 weeks
@@ -237,12 +237,12 @@ Key Profiles from the tech team
 | Number | Deliverable | Specification |
 | ------------- | ------------- | ------------- |
 | 0a. | License | Apache 2.0 |
-| 0b. | Documentation | We will provide both inline & Readme. |
-| 0c. | Testing Guide | The code will have proper unit-test coverage.| 
+| 0b. | Documentation | We will provide both inline & Readme for the pallets and the on-screen user guide on the dapp.|
+| 0c. | Testing Guide | The code will have proper unit-test coverage for the pallets as well as Crypress automation for dapp features.|
 | 1. | Substrate module: Auction & Marketplace | We will create a Substrate module that support marketplace features. That means users can trade their countries, blocks and other NFT asstes.|  
-| 2. | Bit.Country Dapp - Marketplace UI | Users can view the NFT in listing view or in 3D world view.|   
+| 2. | Bit.Country Dapp - Marketplace UI | Users can view the NFT in classical web view or in 3D world view.|   
 | 3. | Bit.Country Governance | Users can participate voting.|   
-| 4. | Docker | We will provide a dockerfile to demonstrate the full functionality of our chain.|
+| 4. | Docker | We will provide a dockerfile to demonstrate the full functionality of our chain and our dapp.|
 
 ### Community engagement
 
