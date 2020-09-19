@@ -162,7 +162,7 @@ Alan Liang (Technical Advisory)
 * Front-end master
 * Led the team and delivered a robust fin-tech billing solution.
 
-Grants Received In The Past
+**Grants Received In The Past**
 * Callaghan Innovation Growth Grant (Approved in 2019)
 * Callaghan Innovation Growth Grant (Approved in 2019)
 * Callaghan Innovation Loan Scheme Grant (Approved in 2019)
