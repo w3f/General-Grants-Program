@@ -69,6 +69,7 @@ Bit.Country is a decentralized world. [Medium article about Bit.Country](https:/
 * Mockups/designs of any UI components
 
   Please visit https://bit.country
+  
   [Images & Videos](https://medium.com/@bitcountry/create-and-live-in-a-decentralized-world-of-your-own-4ad872379d00)
 
 * An overview of the technology stack to be used
