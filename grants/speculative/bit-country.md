@@ -64,7 +64,7 @@ Bit.Country is a decentralized world.
 
     Our founder, Ray Lu, had a vision of building a decentralized world in 2018. The premium domain name Bit.Country has been registered since then. 
     
-    After learning Polkadot and Substrate technologies, we are very excited to finally find the right infrastructure and technology to develop this ambitious vision.
+    After learning Polkadot and Substrate technologies (Inspired by one of Polkadot teams), we are very excited to finally find the right infrastructure and technology to develop this ambitious vision.
 
 ### Project Details 
 
