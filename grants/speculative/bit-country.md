@@ -176,8 +176,8 @@ Alan Liang (Technical Advisory)
 *Callaghan Innovation, a Crown entity of New Zealand, has the task of making New Zealand business more innovative. 
 
 ### Team Code Repos
-* Bit Country https://github.com/bit-country
 
+* Bit Country https://github.com/bit-country
 * Ray Lu https://github.com/codemeit
 * Justin Pham https://github.com/justinphamnz
 * Shannon Christie https://github.com/shannon-christie
