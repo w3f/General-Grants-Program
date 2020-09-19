@@ -255,7 +255,7 @@ Key Profiles from the tech team
 
 * Are there are any teams who have already contributed (financially) to the project?
   
-  Our group had invested the 50% of 5 FTE hours into this project since Feb 2020.
+  MVP STUDIO had invested the 50% of 5 FTE hours into this project since Feb 2020.
 
 * Have you applied for other grants so far?
   
