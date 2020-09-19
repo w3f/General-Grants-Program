@@ -10,8 +10,6 @@ In recent years, the core team had started exploring blockchain technologies and
 
 Bit.Country is a decentralized world. [Medium article about Bit.Country](https://medium.com/@bitcountry/create-and-live-in-a-decentralized-world-of-your-own-4ad872379d00)
 
-![Bit Country](https://mvp.studio/mediax/bcsmall.gif)
-
 ### Overview
   * **A brief description of the project.**
 
@@ -71,6 +69,8 @@ Bit.Country is a decentralized world. [Medium article about Bit.Country](https:/
 * Mockups/designs of any UI components
 
   Please visit https://bit.country
+  
+  ![Bit Country](https://mvp.studio/mediax/bcsmall.gif)  
   
   [Images & Videos](https://medium.com/@bitcountry/create-and-live-in-a-decentralized-world-of-your-own-4ad872379d00)
 
@@ -254,7 +254,7 @@ Key Profiles from the tech team
 
 ## Future Plans
 
-  To be discussed.
+  We plan to become a parachain on the Polkadot network eventually, especially when our Bit.Country community gains momentum on Kusama.
 
 ## Additional Information :heavy_plus_sign: 
 
