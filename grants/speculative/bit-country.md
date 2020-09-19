@@ -117,7 +117,7 @@ Ray Lu
 * Created a Saas Startup from inception to growth. So far it has transacted USD$173,899,846 of bookings with 107,800 users.
 * Created a Tech Edu Startup from inception to growth that has 300 new enrollments every year with a customer base across 8 countries.
 * Bsc in Computer Science at Univerity of Auckland. (Top 1 in writing compiler subject)
-* Get involved in Polkadot Ambassador Programme with one reputable Substrate development team in NZ to run local meetups (Paused due to Covid-19 lockdown)
+* Involved in Polkadot Ambassador Programme with one reputable Substrate development team in NZ to run local meetups (Temporarily Paused due to Covid-19)
 
 Justin Pham
 * Created blockchain job-ready programme for Industry Connect in 2018
