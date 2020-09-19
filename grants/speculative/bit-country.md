@@ -178,11 +178,11 @@ Alan Liang (Technical Advisory)
 ### Team Code Repos
 * https://github.com/bit-country
 
-Ray Lu https://github.com/codemeit
-Justin Pham https://github.com/justinphamnz
-Shannon Christie https://github.com/shannon-christie
-Daniel Choi https://github.com/DanielFromTAFE
-Tim Young https://github.com/TeenYoung
+* Ray Lu https://github.com/codemeit
+* Justin Pham https://github.com/justinphamnz
+* Shannon Christie https://github.com/shannon-christie
+* Daniel Choi https://github.com/DanielFromTAFE
+* Tim Young https://github.com/TeenYoung
 
 
 ### Team LinkedIn Profiles
