@@ -117,22 +117,20 @@ Ray Lu
 * Created a Saas Startup from inception to growth. So far it has transacted USD$173,899,846 of bookings with 107,800 users.
 * Created a Tech Edu Startup from inception to growth that has 300 new enrollments every year with a customer base across 8 countries.
 * Bsc in Computer Science at Univerity of Auckland. (Top 1 in writing compiler subject)
+* Get involved in Polkadot Ambassador Programme with one reputable Substrate development team in NZ to run local meetups (Paused due to Covid-19 lockdown)
 
 Justin Pham
 * Created blockchain job-ready programme for Industry Connect in 2018
 * A Substrate & Rust programmer, full-stack developer
 * Delivered https://industryconnect.io from inception and get involved in writing whitepaper of Thunder.Unversity
 * 8 years hands-on coding experience. 
-* Bsc Software Development at Auckland University of Technology
-
-
-Software Development and Information Science (Machine Learning / AI)
+* Bsc Software Development(Machine Learning / AI) at Auckland University of Technology
 
 Shannon Christie
-* Led the development of Bit.Country to current stage with 100 active pilot users.
+* Led the development of Bit.Country to current stage with 100 active pilot users
 * An unreal engine game developer
 * Solid knowledge and experience with various programming language i.e. C, C++, C#, Rust, Java
-* Blockchain enthusiast
+* Blockchain & Substrate enthusiast
 
 Daniel Choi
 * Led the development of a recruit tech. Turn ideas to actual product launch.
