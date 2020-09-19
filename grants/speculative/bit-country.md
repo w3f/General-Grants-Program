@@ -62,7 +62,7 @@ Bit.Country is a decentralized world. [Medium article about Bit.Country](https:/
 
     Our founder, Ray Lu, had a vision of building a decentralized world in 2018. The premium domain name Bit.Country has been registered since then. 
     
-    After learning Polkadot and Substrate technologies (Inspired by one of Polkadot teams), we are very excited to finally find the right infrastructure and technology to develop this ambitious vision.
+    After learning Polkadot and Substrate technologies (Inspired by one of Polkadot teams based in NZ), we are very excited to finally find the right infrastructure and technology to develop this ambitious vision.
 
 ### Project Details 
 
@@ -163,10 +163,9 @@ Alan Liang (Technical Advisory)
 * Led the team and delivered a robust fin-tech billing solution.
 
 **Grants Received In The Past**
-* Callaghan Innovation Growth Grant (Approved in 2019)
-* Callaghan Innovation Growth Grant (Approved in 2019)
-* Callaghan Innovation Loan Scheme Grant (Approved in 2019)
-* Callaghan Innovation Experience Grant (Approved in 2019)
+* Callaghan Innovation R&D Growth Grant (Approved in 2019)
+* Callaghan Innovation R&D Loan Scheme Grant (Approved in 2019)
+* Callaghan Innovation R&D Experience Grant (Approved in 2019)
 * Education NZ Project Skills Sponsorship (Approved in 2017)
 * IMDA (Singapore) Tech Immersion and Placement Programme (Pending for approval in 2020)
 
