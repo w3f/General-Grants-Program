@@ -13,7 +13,7 @@ Bit.Country is a decentralized world. [Medium article about Bit.Country](https:/
 ### Overview
   * **A brief description of the project.**
 
-      In Bit.Country, you can create your own space, communities, economics, and digital assets (NFTs). The dapp offers both a classical web view and a 3D in-browser view of the country. The decentralized marketplace allows users to trade their digital assets with each other.      
+      In Bit.Country, you can create your own space, communities, economics, and digital assets (NFTs). The dapp offers both a classical web view and a 3D in-browser view of the country. The decentralized marketplace allows users to trade their digital assets (NFTs) with each other.      
 
     **Countries**
 
@@ -55,7 +55,7 @@ Bit.Country is a decentralized world. [Medium article about Bit.Country](https:/
     
     After completing the milestones set below, we plan to **become a parachain** on Kusama first to nurture and grow our community. 
     
-    When the community starts to gain momentum, we would like to become a parachain on the Polkadot network to benefit from shared security and communications(XCMP). We will create and support more assets (NTFs）and make them available for trading in the marketplace.        
+    When the community starts to gain momentum, we would like to become a parachain on the Polkadot network to benefit from shared security and communications(XCMP). We will create and support more assets (NTFs）and make them available in Bit.Country as well as trading in the marketplace.
         
 
   * **An indication of why your team is interested in creating this project.**
