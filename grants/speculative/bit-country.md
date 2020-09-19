@@ -155,16 +155,16 @@ Tim Young
 
 Juanita Strydom
 * Solid experience in community management.
-* Managed the international tech edu for 7 years.
+* Managed the international tech edu for 7 years
 
 Kai Zhang (Technical Advisory)
 * CTO of a succesful startup Saas company
-* Led the team and created a billing solution processing $20m per year.
+* Led the team and created a billing solution processing $20m per year
 
 Alan Liang (Technical Advisory)
 * Senior developer
 * Front-end master
-* Led the team and delivered a robust fin-tech billing solution.
+* Led the team and delivered a robust fin-tech billing solution
 
 **Grants Received In The Past**
 * Callaghan Innovation R&D Growth Grant (Approved in 2019)
