@@ -10,6 +10,8 @@ In recent years, the core team had started exploring blockchain technologies and
 
 Bit.Country is a decentralized world. [Medium article about Bit.Country](https://medium.com/@bitcountry/create-and-live-in-a-decentralized-world-of-your-own-4ad872379d00)
 
+![](https://mvp.studio/mediax/bcsmall.gif)
+
 ### Overview
   * **A brief description of the project.**
 
