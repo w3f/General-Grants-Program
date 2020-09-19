@@ -53,9 +53,12 @@ Bit.Country is a decentralized world.
 
   * An indication of how you will integrate this project into Substrate / Polkadot / Kusama.
 
-    We will build Bit.Country Chain with Substrate technologies. 
+    We will build Bit.Country Chain with Substrate technologies. Our system will build pallets for Bit.Country Chain specific requirements.
     
-    Our system will utilise existing pallets as well as develop new pallets for Bit.Country Chain specific requirements such as token economy, marketplace, NFT management, staking and governance.
+    After completing the milestones set below, we plan to **become a parachain** on Kusama first to nurture and grow our community. 
+    
+    When the community starts to gain momentum, we would like to become a parachain on the Polkadot network to benefit from shared security and communications(XCMP). We will create and support more assets (NTFs）and make them available for trading in the marketplace.        
+        
 
   * An indication of why your team is interested in creating this project.
 
@@ -117,13 +120,15 @@ Ray Lu
 * Created a Tech Edu Startup from inception to growth that has 300 new enrollments every year with a customer base across 8 countries.
 * Bsc in Computer Science at Univerity of Auckland. (Top 1 in writing compiler subject)
 
-
 Justin Pham
-* Created blockchain job-ready programme for the tech education business in 2018
+* Created blockchain job-ready programme for Industry Connect in 2018
 * A Substrate & Rust programmer, full-stack developer
 * Delivered https://industryconnect.io from inception and get involved in writing whitepaper of Thunder.Unversity
 * 8 years hands-on coding experience. 
-* Bsc in Computer Science at Univerity of Auckland.
+* Bsc Software Development at Auckland University of Technology
+
+
+Software Development and Information Science (Machine Learning / AI)
 
 Shannon Christie
 * Led the development of Bit.Country to current stage with 100 active pilot users.
@@ -205,10 +210,10 @@ Key Profiles from the tech team
 | 0b. | Documentation | We will provide both inline & the lightpaper. |
 | 0c. | Testing Guide | The code will have proper unit-test coverage | 
 | 1. | Substrate module: Country | We will create a Substrate module that supports country creation with tokens, blocks and land sections. |  
-| 2. | Bit.Country Chain | Country module of our chain can be used by the Dapp to create new country in the Bit.Country Chain. The chain will be able to run with other nodes of our chain|  
-| 3. | Bit.Country Dapp - Country | Users would be able to create an off-chain country, and users can upgrade the country to be decentralized in Bit.Country chain|   
-| 4. | Bit.Country Dapp - 2D & 3D View | Users would be able to conduct activities such as creating content in 2D and entering 3D views in the browser |  
-| 5. | Docker | We will provide a dockerfile to demonstrate the full functionality of our chain |
+| 2. | Bit.Country Chain | Country module of our chain can be used by the Dapp to create new country in the Bit.Country Chain. The chain will be able to run with other nodes of our chain.|  
+| 3. | Bit.Country Dapp - Country | Users would be able to create an off-chain country, and users can upgrade the country to be decentralized in Bit.Country chain.|   
+| 4. | Bit.Country Dapp - 2D & 3D View | Users would be able to conduct activities such as creating content in 2D and entering 3D views in the browser.|  
+| 5. | Docker | We will provide a dockerfile to demonstrate the full functionality of our chain.|
 
 ### Milestone 2 Implement Substrate Modules - Non-fungible Token
 * **Estimated Duration:** 4 weeks
@@ -218,12 +223,12 @@ Key Profiles from the tech team
 | ------------- | ------------- | ------------- |
 | 0a. | License | Apache 2.0 |
 | 0b. | Documentation | We will provide both inline & Readme. |
-| 0c. | Testing Guide | The code will have proper unit-test coverage | 
-| 1. | Substrate module: NFT | We will create a Substrate module that manages NFT|  
-| 2. | Bit.Country Dapp - Tokenization | Users would be able to tokenize various assets as NFT on the Bit.Country chain.|   
-| 3. | Bit.Country Dapp - Activities in 2D | In 2D view, users would be able to create content as per social media|  
-| 4. | Bit.Country Dapp - Activities in 3D | In 3D view, users would be able to walk, build assets no the owned sections|  
-| 5. | Docker | We will provide a dockerfile to demonstrate the full functionality of our chain |
+| 0c. | Testing Guide | The code will have proper unit-test coverage.| 
+| 1. | Substrate module: NFT | We will create a Substrate module that manages NFT.|  
+| 2. | Bit.Country Dapp - Tokenization | Users would be able to tokenize various assets as NFT on the Bit.Country chain.|
+| 3. | Bit.Country Dapp - Activities in 2D | In 2D view, users would be able to create content as per social media.|
+| 4. | Bit.Country Dapp - Activities in 3D | In 3D view, users would be able to walk, build assets no the owned sections.|
+| 5. | Docker | We will provide a dockerfile to demonstrate the full functionality of our chain.|
 
 ### Milestone 3 Implement Substrate Modules - Marketplace
 * **Estimated Duration:** 4 weeks
@@ -233,11 +238,11 @@ Key Profiles from the tech team
 | ------------- | ------------- | ------------- |
 | 0a. | License | Apache 2.0 |
 | 0b. | Documentation | We will provide both inline & Readme. |
-| 0c. | Testing Guide | The code will have proper unit-test coverage | 
+| 0c. | Testing Guide | The code will have proper unit-test coverage.| 
 | 1. | Substrate module: Auction & Marketplace | We will create a Substrate module that support marketplace features. That means users can trade their countries, blocks and other NFT asstes.|  
 | 2. | Bit.Country Dapp - Marketplace UI | Users can view the NFT in listing view or in 3D world view.|   
 | 3. | Bit.Country Governance | Users can participate voting.|   
-| 4. | Docker | We will provide a dockerfile to demonstrate the full functionality of our chain |
+| 4. | Docker | We will provide a dockerfile to demonstrate the full functionality of our chain.|
 
 ### Community engagement
 
