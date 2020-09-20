@@ -176,7 +176,6 @@ Alan Liang (Technical Advisory)
 * Shannon Christie https://github.com/shannon-christie
 * Daniel Choi https://github.com/DanielFromTAFE
 * Logan https://github.com/Logancountry
-* Tim Young https://github.com/TeenYoung
 
 ### Team LinkedIn Profiles
 
@@ -186,7 +185,6 @@ Key Profiles from the tech team
 * Shannon Christie https://www.linkedin.com/in/shannonchristie/
 * Daniel Choi https://www.linkedin.com/in/dotnet-daniel-choi/
 * Logan Liu https://www.linkedin.com/in/logan-liu-5123a0130/
-* Tim Young https://www.linkedin.com/in/tim-young-057705133/
 * Juanita Strydom https://www.linkedin.com/in/juanita-strydom-5b79512b/
 * Kai Zhang https://www.linkedin.com/in/kai-zhang-02676a77/
 * Allan Liang https://www.linkedin.com/in/allan-liang-0a8555124/
