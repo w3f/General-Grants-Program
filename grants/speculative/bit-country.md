@@ -102,7 +102,6 @@ Full-timers
 
 Part-timers
 * Juanita Strydom (Community Manager)
-* Tim Young (Full-stack & Game developer, Project Management full-time)
 * Kai Zhang (Technical Advisory)
 * Alan Liang (Technical Advisory)
 
