@@ -146,12 +146,6 @@ Daniel Choi
 * Sound experience with EDM, Poster, Fin-Tech.
 * Bachelor of Arts - Digital Communication and Media/Multimedia at Heilongjiang University
 
-Tim Young
-* Solid experience in game product management
-* Founder of a popular board game in China
-* Full-stack developer, mobile game designer, unity developer
-* Bachelor of Arts - Animation, Interactive Technology, Video Graphics and Special Effects at Zhejiang University of Technology
-
 Juanita Strydom
 * Solid experience in community management.
 * Managed the international tech edu for 7 years
