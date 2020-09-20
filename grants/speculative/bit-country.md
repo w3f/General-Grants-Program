@@ -182,6 +182,7 @@ Alan Liang (Technical Advisory)
 * Justin Pham https://github.com/justinphamnz
 * Shannon Christie https://github.com/shannon-christie
 * Daniel Choi https://github.com/DanielFromTAFE
+* Logan Liu https://github.com/Logancountry
 * Tim Young https://github.com/TeenYoung
 
 ### Team LinkedIn Profiles
