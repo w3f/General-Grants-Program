@@ -98,7 +98,7 @@ Full-timers
 * Justin Pham (CTO, Rust, Substrate, full-time)
 * Shannon Christie (Technology Manager & Project Lead, Rust, Substrate & Game, full-time)
 * Daniel Choi (Full-stack developer / test analyst, Rust, full-time)
-* Logon Liu (UX developer, full-time)
+* Logan Liu (UX developer, full-time)
 
 Part-timers
 * Juanita Strydom (Community Manager)
@@ -142,7 +142,7 @@ Daniel Choi
 * ReactJs Ninja
 * Bachelor of ICT at Western Sydney University
 
- Logon Liu
+ Logan Liu
 * The key designer & UX for a Saas product which transacts $20m per annum
 * Sound experience with EDM, Poster, Fin-Tech.
 * Bachelor of Arts - Digital Communication and Media/Multimedia at Heilongjiang University
@@ -182,7 +182,7 @@ Alan Liang (Technical Advisory)
 * Justin Pham https://github.com/justinphamnz
 * Shannon Christie https://github.com/shannon-christie
 * Daniel Choi https://github.com/DanielFromTAFE
-* Logan Liu https://github.com/Logancountry
+* Logan https://github.com/Logancountry
 * Tim Young https://github.com/TeenYoung
 
 ### Team LinkedIn Profiles
