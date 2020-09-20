@@ -55,7 +55,7 @@ Bit.Country is a decentralized world. [Medium article about Bit.Country](https:/
     
     After completing the milestones set below, we plan to **become a parachain** on Kusama first to nurture and grow our community. 
     
-    When the community starts to gain momentum, we would like to become a parachain on the Polkadot network to benefit from shared security and communications(XCMP). We will create and support more assets (NTFs）and make them available in Bit.Country as well as trading in the marketplace.
+    When the community starts to gain momentum, we would like to become a parachain on the Polkadot network to benefit from shared security and communications(XCMP). We will create and support more assets (NFTs）and make them available in Bit.Country as well as trading in the marketplace.
         
 
   * **An indication of why your team is interested in creating this project.**
