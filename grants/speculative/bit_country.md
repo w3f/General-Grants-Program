@@ -4,7 +4,7 @@
 
 ## Project Overview :page_facing_up: 
 
-MVP.STUDIO is a talent & tech startup incubator, it manages a tech community with 1,500 members and has launched software products with a customer base across 8 countries. 
+MVP.STUDIO (New Zealand) is a talent & tech startup incubator, it manages a tech community with 1,500 members and has launched software products with a customer base across 8 countries. 
 
 In recent years, the core team had started exploring blockchain technologies and created blockchain related education programmes and projects.
 
