@@ -8,7 +8,7 @@ MVP.STUDIO is a talent & tech startup incubator, it manages a tech community wit
 
 In recent years, the core team had started exploring blockchain technologies and created blockchain related education programmes and projects.
 
-Bit.Country is a decentralized world, it is a NFT/game focused chain. [Medium article about Bit.Country](https://medium.com/@bitcountry/create-and-live-in-a-decentralized-world-of-your-own-4ad872379d00)
+Bit.Country is a decentralized world and an NFT/game focused chain. [Medium article about Bit.Country](https://medium.com/@bitcountry/create-and-live-in-a-decentralized-world-of-your-own-4ad872379d00)
 
 ### Overview
   * **A brief description of the project.**
