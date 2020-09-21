@@ -8,7 +8,20 @@ MVP.STUDIO (New Zealand) is a talent & tech startup incubator, it manages a tech
 
 In recent years, the core team had started exploring blockchain technologies and created blockchain related education programmes and projects.
 
-Bit.Country is a decentralized world - putting community first. [Medium article about Bit.Country](https://medium.com/@bitcountry/create-and-live-in-a-decentralized-world-of-your-own-4ad872379d00)
+Bit.Country is a decentralized world - putting community first. 
+
+**A Real World Case Study & Experiment**
+
+We are currently piloting this concept with 109 active users from a tech education business called Industry Connect. Students joined the MVP tech country and conducted incentivized activities e.g., creating useful posts, abreast they earn country-specific tokens (e.g., MVPC). With the MVPC tokens they possess, they start to take ownership of the country and will be able to perform voting, decision making, and other governance rights. 
+
+We've observed it is a great way to let students/users get more involved in our community by giving them ownership through their contributions.
+
+To further accelerate the engagement, we will build the 3D world so that students/users can do more things in there and transact with each other.
+
+With the Substrate technology/decentralization, Bit.Country will become a popular place to nurture, manage and grow a community.
+
+
+[Medium article about Bit.Country](https://medium.com/@bitcountry/create-and-live-in-a-decentralized-world-of-your-own-4ad872379d00)
 
 ### Overview
   * **A brief description of the project.**
