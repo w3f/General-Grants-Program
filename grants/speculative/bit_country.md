@@ -15,7 +15,7 @@ Bit.Country is a decentralized world and an NFT/game focused chain. [Medium arti
 
       In Bit.Country, you can create your own space, communities, economics, and digital assets (NFTs). The dapp offers both a classical web view and a 3D in-browser view of the country. The decentralized marketplace allows users to trade their digital assets (NFTs) with each other.
       
-      Bit.Country network is a NFT/game focused chain and ecosystem.
+      Bit.Country network is an NFT/game focused chain and ecosystem.
 
     **Countries**
 
