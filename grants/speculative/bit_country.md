@@ -183,7 +183,7 @@ Alan Liang (Technical Advisory)
 
 Key Profiles from the tech team
 * Ray Lu https://www.linkedin.com/in/codemeit/
-* Justin Pahm https://www.linkedin.com/in/justinphamit/
+* Justin Pham https://www.linkedin.com/in/justinphamit/
 * Shannon Christie https://www.linkedin.com/in/shannonchristie/
 * Daniel Choi https://www.linkedin.com/in/dotnet-daniel-choi/
 * Logan Liu https://www.linkedin.com/in/logan-liu-5123a0130/
