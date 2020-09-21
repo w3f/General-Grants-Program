@@ -204,7 +204,7 @@ Key Profiles from the tech team
 | ------------- | ------------- | ------------- |
 | 0a. | License | Apache 2.0 |
 | 0b. | Documentation | We will provide inline documentation & the lightpaper of the project. |
-| 0c. | Testing Guide | The code will have proper unit-test coverage for Country parllet and automated testing coverage for the dapp using Cypress.| 
+| 0c. | Testing Guide | The code will have proper unit-test coverage for Country pallet and automated testing coverage for the dapp using Cypress.| 
 | 1. | Substrate module: Country | We will create a Substrate module that supports country creation with tokens, blocks and land sections. |  
 | 2. | Bit.Country Chain | The Country module of our chain can be used by the Dapp to create a new country in the Bit.Country Chain. The chain will be able to run with other nodes of our chain.|  
 | 3. | Bit.Country Dapp - Country | Users would be able to create an off-chain country, and users can upgrade the country to be decentralized in the Bit.Country chain.|   
