@@ -254,7 +254,7 @@ Key Profiles from the tech team
 
 * What work has been done so far?
   
-  We had released and internal piloted the concept with **100+ active users**. [More info](https://medium.com/@bitcountry/create-and-live-in-a-decentralized-world-of-your-own-4ad872379d00)
+  We had released and internal piloted the concept with **100+ active users**. 
 
 * Are there are any teams who have already contributed (financially) to the project?
   
