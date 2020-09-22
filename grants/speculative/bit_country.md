@@ -16,7 +16,7 @@ We are currently piloting this concept with 109 active users from a tech educati
 
 We've observed it is a great way to let students/users get more involved in our community by giving them ownership through their contributions. (Since a bit country can be created off-chain first, this will provide a path way for classic internet users to onboard to decentralized web.)
 
-To further accelerate the engagement, we will build the 3D voxel world so that students/users can do more things and interact more with each other in that dimension. For instacnes, walk & chat, attend events in the 3D world or video meeting.
+To further accelerate the engagement, we will build the 3D voxel world so that students/users can do more things and interact more with each other in that dimension. For instances, walk & chat, attend events in the 3D world or video meeting.
 
 With the Substrate technology/decentralization, Bit.Country will become a popular place to nurture, manage and grow a community.
 
