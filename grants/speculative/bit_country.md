@@ -26,7 +26,7 @@ With the Substrate technology/decentralization, Bit.Country will become a popula
 ### Overview
   * **A brief description of the project.**
 
-      In Bit.Country, you can create your own space, communities, economics, and digital assets (NFTs). The dapp allow users to socialize in both a classical web view and a 3D in-browser view of the country or block. The decentralized marketplace allows users to trade their digital assets (NFTs) with each other.
+      In Bit.Country, you can create your own space, communities, economies, and digital assets (NFTs). The dapp allow users to socialize in both a classical web view and a 3D in-browser view of the country or block. The decentralized marketplace allows users to trade their digital assets (NFTs) with each other.
       
       Bit.Country network is a blockchain and ecosystem focusing on community, social and marketplace with a game feel. 
 
@@ -225,7 +225,7 @@ Key Profiles from the tech team
 | 1. |Substrate module: Countries|It manages country profiles, map and ownership. e.g. NewCountry, TransferOwnership|
 | 2. |Substrate module: Economies|It manages the country's fund, rewards, minting country-specific tokens or importing external tokens.|
 | 3. |Substrate module: Governance|It manages voting. e.g. CreateVote, Vote|
-| 4. | Bit.Country Dapp - Country | Users would be able to create an off-chain country and economics, and users can upgrade the country to be decentralized in the Bit.Country chain.|   
+| 4. | Bit.Country Dapp - Country | Users would be able to create an off-chain country and economies, and users can upgrade the country to be decentralized in the Bit.Country chain.|   
 | 5. | Bit.Country Dapp - 2D View | Users would be able to view, create, like and comment post. User can share external link. Post can be shared on other social media. |  
 | 6. | Bit.Country Dapp - 3D View | Users can enter 3D view of the block and conduct basic activities such as walk and jump in a basic scence in the browser.|  
 | 7 | Bit.Country Governance | Country owner can create poll and users can participate in voting.|
