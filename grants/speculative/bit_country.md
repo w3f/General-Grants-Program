@@ -12,7 +12,7 @@ Bit.Country is a decentralized world - putting community first.
 
 **A Real World Case Study & Experiment**
 
-We are currently piloting this concept with 109 active users from a tech education business called Industry Connect. Students joined the "MVP tech community", a bit country we created, and conducted incentivized activities such as creating useful posts & making meanful comments, abreast they earn country-specific tokens (e.g., MVPC). With the MVPC tokens they possess, they start to take ownership of the community and will be able to perform voting, decision making, and other governance rights/permissions. 
+We are currently piloting this concept with 109 active users from a tech education business called Industry Connect. Students joined the "MVP tech community", a bit country we created, and conducted incentivized activities such as creating useful posts & making meaningful comments, abreast they earn country-specific tokens (e.g., MVPC). With the MVPC tokens they possess, they start to take ownership of the community and will be able to perform voting, decision making, and other governance rights/permissions. 
 
 We've observed it is a great way to let students/users get more involved in our community by giving them ownership through their contributions. (Since a bit country can be created off-chain first, this will provide a path way for classic internet users to onboard to decentralized web.)
 
