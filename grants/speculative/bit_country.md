@@ -221,11 +221,13 @@ Key Profiles from the tech team
 | 0b. | Documentation | We will provide inline documentation & the lightpaper of the project. |
 | 0c. | Testing Guide | The code will have proper unit-test coverage for Country pallets and automated testing coverage for the dapp using Cypress.| 
 | 1. | Substrate modules: Country & Block |
-* Create Country
-* Country Token Issuance With Native Token Backing
-* Transfer Country Ownership
-* Transfer Country Token 
-* Country Voting
+        <ul>
+          <li>Create Country</li>
+          <li>Country Token Issuance With Native Token Backing</li>
+          <li>Transfer Country Ownership</li>
+          <li>Transfer Country Token </li>
+          <li>Country Voting</li>
+        </ul>
 |  
 | 2. | Bit.Country Chain | The Country module of our chain can be used by the Dapp to create a new country in the Bit.Country Chain. The chain will be able to run with other nodes of our chain.|  
 | 3. | Bit.Country Dapp - Country | Users would be able to create an off-chain country and economics, and users can upgrade the country to be decentralized in the Bit.Country chain.|   
