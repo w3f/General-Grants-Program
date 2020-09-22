@@ -12,11 +12,11 @@ Bit.Country is a decentralized world - putting community first.
 
 **A Real World Case Study & Experiment**
 
-We are currently piloting this concept with 109 active users from a tech education business called Industry Connect. Students joined the MVP tech country and conducted incentivized activities e.g., creating useful posts, abreast they earn country-specific tokens (e.g., MVPC). With the MVPC tokens they possess, they start to take ownership of the country and will be able to perform voting, decision making, and other governance rights. 
+We are currently piloting this concept with 109 active users from a tech education business called Industry Connect. Students joined the "MVP tech country" we created and conducted incentivized activities e.g., creating useful posts, abreast they earn country-specific tokens (e.g., MVPC). With the MVPC tokens they possess, they start to take ownership of the country and will be able to perform voting, decision making, and other governance rights/permissions. 
 
-We've observed it is a great way to let students/users get more involved in our community by giving them ownership through their contributions.
+We've observed it is a great way to let students/users get more involved in our community by giving them ownership through their contributions. Since a bit country can be created off-chain first, this will provide a path way for classic internet users to onboard to decentralized web.
 
-To further accelerate the engagement, we will build the 3D world so that students/users can do more things in there and transact with each other.
+To further accelerate the engagement, we will build the 3D world so that students/users can do more things in there and transact with each other in the marketplace.
 
 With the Substrate technology/decentralization, Bit.Country will become a popular place to nurture, manage and grow a community.
 
@@ -256,8 +256,8 @@ Key Profiles from the tech team
 | 0c. | Testing Guide | The code will have proper unit-test coverage for the pallets as well as Cypress automation for dapp features.|
 | 1. | Substrate module: Auctions | It manages asset auctions for the marketplace. Create Auction for Country, Create Auction for Block, Create Auction for Section, Create Auction for Generic Assets, Bid For Asset, List Bid History For Asset, Get Winner for Asset|  
 | 2. |Substrate module: Assets | It manage asset profiles and import external assets. E.g. Creat New Asset, Import Asset |
-| 2. | Bit.Country Dapp - Marketplace UI | Users can view assets in classical web view or in 3D world view with item attributes. Users can bid for asset.|   
-| 3. | Docker | We will provide a dockerfile to demonstrate the full functionality of our chain and our dapp.|
+| 3. | Bit.Country Dapp - Marketplace UI | Users can view assets in classical web view or in 3D world view with item attributes. Users can bid for asset.|   
+| 4. | Docker | We will provide a dockerfile to demonstrate the full functionality of our chain and our dapp.|
 
 ### Community engagement
 
