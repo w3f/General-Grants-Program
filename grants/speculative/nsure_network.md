@@ -47,6 +47,9 @@ Nsure Limited which is registered at Unit8, 3/F., Qwomar Trading Complex, Blackb
 * Jeff Ren: M.Sc in Management. M.Sc in Coastal Engineering. Previously with Chainfunder Capital as Investment Director & Researcher. Research about blockchain protocols and ecosystems since 2017. Has been developing for Hurricane surge model for NOAA(US National Oceanic and Atmospheric Administration).
 * Alex Peng: Master’s Degree in Financial Engineering. 10 years insurance professional in AON with extensive experience in Actuarial Analysis, Insurance Linked Securities structuring and Reinsurance broker. Expert in Financial Modeling and Quantit-ative Analytics.
 * Leafan Chan: Project Management Professional (PMP) certificate. Expert in Project Management, smart contracts and public blockchain development. He formly worked for supporting dpos of ethereum, and leading a dex program which can be accessed here: www.btswap.com. 
+* Vincent Bauwens: Msc. in Finance and Business Engineering. Co-Founder of several companies and ecommerce brands.Currently managing a marketing agency. 5+ years of experience in marketing & business development and early stage investments in the blockchain industry.
+* Gherardo Lattanzi: Crypto Data Analytics | Ecosystem Developer @ OceanProtocol. Data Analtycs and ML certificate from Ubiqun Code Acadamy. Degree in International Business Trading and Development.
+
 
 ### Team Code Repos
 * nsure:  https://github.com/nsure-tech
