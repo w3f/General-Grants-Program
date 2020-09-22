@@ -12,11 +12,11 @@ Bit.Country is a decentralized world - putting community first.
 
 **A Real World Case Study & Experiment**
 
-We are currently piloting this concept with 109 active users from a tech education business called Industry Connect. Students joined the "MVP tech community" we created and conducted incentivized activities e.g., creating useful posts, abreast they earn country-specific tokens (e.g., MVPC). With the MVPC tokens they possess, they start to take ownership of the community and will be able to perform voting, decision making, and other governance rights/permissions. 
+We are currently piloting this concept with 109 active users from a tech education business called Industry Connect. Students joined the "MVP tech community", a bit country we created, and conducted incentivized activities such as creating useful posts & making meanful comments, abreast they earn country-specific tokens (e.g., MVPC). With the MVPC tokens they possess, they start to take ownership of the community and will be able to perform voting, decision making, and other governance rights/permissions. 
 
 We've observed it is a great way to let students/users get more involved in our community by giving them ownership through their contributions. (Since a bit country can be created off-chain first, this will provide a path way for classic internet users to onboard to decentralized web.)
 
-To further accelerate the engagement, we will build the 3D voxel world so that students/users can do more things and interact more with each other in that dimension. For instacnes, chat, attend events in the 3D world.
+To further accelerate the engagement, we will build the 3D voxel world so that students/users can do more things and interact more with each other in that dimension. For instacnes, walk & chat, attend events in the 3D world or video meeting.
 
 With the Substrate technology/decentralization, Bit.Country will become a popular place to nurture, manage and grow a community.
 
@@ -31,6 +31,7 @@ With the Substrate technology/decentralization, Bit.Country will become a popula
       Bit.Country network is a blockchain and ecosystem focusing on community, social and marketplace with a game feel. 
 
       Its runtime modules also create the open Protocol for Managing & Incentivizing Small-Medium Communities.
+      
     **Countries**
 
     Create your own country and community. Attract more people to join using the rules and policies you can set by your will.
@@ -43,9 +44,9 @@ With the Substrate technology/decentralization, Bit.Country will become a popula
 
     **Economy**
 
-    Create currency for your country, and incentivize the people who contribute to your community.
+    Create currency for your country, or import your existing tokens and incentivize the people who contribute to your community.
 
-    As your community grows, your currency will gain value on the exchange. Everyone in the community will benefit from this. Countries can be auctioned, rewarding all who had a stake in it.
+    As your community grows, your currency will gain value on the exchange. Everyone in the community will benefit from this. Countries can be auctioned, rewarding all who had a stake in it. (Imagine a bit country with 100,000 active users)
 
     **Residents**
 
@@ -61,7 +62,7 @@ With the Substrate technology/decentralization, Bit.Country will become a popula
 
     Trade your NFTs with residents within the same block, bit country, or entire network.
 
-    We are building the decentralized marketplace into the Substrate module. The auctions and deliveries of items will be completely decentralized and governed by the blockchain network.
+    We are building the decentralized marketplace into the Substrate module. The auctions and deliveries of items will be completely decentralized and governed by the blockchain network. Not only we are supporting our assets, also we will support more assets from the network.
 
 
 
