@@ -12,11 +12,11 @@ Bit.Country is a decentralized world - putting community first.
 
 **A Real World Case Study & Experiment**
 
-We are currently piloting this concept with 109 active users from a tech education business called Industry Connect. Students joined the "MVP tech country" we created and conducted incentivized activities e.g., creating useful posts, abreast they earn country-specific tokens (e.g., MVPC). With the MVPC tokens they possess, they start to take ownership of the country and will be able to perform voting, decision making, and other governance rights/permissions. 
+We are currently piloting this concept with 109 active users from a tech education business called Industry Connect. Students joined the "MVP tech community" we created and conducted incentivized activities e.g., creating useful posts, abreast they earn country-specific tokens (e.g., MVPC). With the MVPC tokens they possess, they start to take ownership of the community and will be able to perform voting, decision making, and other governance rights/permissions. 
 
-We've observed it is a great way to let students/users get more involved in our community by giving them ownership through their contributions. Since a bit country can be created off-chain first, this will provide a path way for classic internet users to onboard to decentralized web.
+We've observed it is a great way to let students/users get more involved in our community by giving them ownership through their contributions. (Since a bit country can be created off-chain first, this will provide a path way for classic internet users to onboard to decentralized web.)
 
-To further accelerate the engagement, we will build the 3D world so that students/users can do more things in there and transact with each other in the marketplace.
+To further accelerate the engagement, we will build the 3D voxel world so that students/users can do more things and interact more with each other in that dimension. For instacnes, chat, attend events in the 3D world.
 
 With the Substrate technology/decentralization, Bit.Country will become a popular place to nurture, manage and grow a community.
 
@@ -28,8 +28,9 @@ With the Substrate technology/decentralization, Bit.Country will become a popula
 
       In Bit.Country, you can create your own space, communities, economics, and digital assets (NFTs). The dapp allow users to socialize in both a classical web view and a 3D in-browser view of the country or block. The decentralized marketplace allows users to trade their digital assets (NFTs) with each other.
       
-      Bit.Country network is a blockchain and ecosystem focusing on community, social and marketplace with a game feel.
+      Bit.Country network is a blockchain and ecosystem focusing on community, social and marketplace with a game feel. 
 
+      Its runtime modules also create the open Protocol for Managing & Incentivizing Small-Medium Communities.
     **Countries**
 
     Create your own country and community. Attract more people to join using the rules and policies you can set by your will.
@@ -132,8 +133,8 @@ The legal structure of Bit.Country team will be setup in blockchain friendly jur
 
 Ray Lu
 * Has hand-on coding experience over a decade. He wrote the first line of code in Basic when he was 15 on IBM-8086.
-* Created a Saas Startup from inception to growth. So far it has transacted USD$173,899,846 of bookings with 107,800 users.
-* Created a Tech Edu Startup from inception to growth that has 300 new enrollments every year with a customer base across 8 countries.
+* Founded a Saas Startup from inception to growth. So far it has transacted USD$173,899,846 of bookings and serving 107,800 active users.
+* Founded a Tech Edu Startup from inception to growth that has 300 new enrollments every year with a customer base across 8 countries.
 * Bsc in Computer Science at Univerity of Auckland. (Top 1 in writing compiler subject)
 * Involved in Polkadot Ambassador Programme with one reputable Substrate development team in NZ to run local meetups (Temporarily Paused due to Covid-19)
 
