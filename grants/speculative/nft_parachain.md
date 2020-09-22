@@ -10,26 +10,26 @@
 
 NFT Parachain is a Substrate based blockchain made for handling Non Fungible Token (NFT) collections. It includes NFT Pallet that allows creating collections of unique things, minting tokens, and managing transfers, provides ERC-721 and ERC-1155 functionality, and many more features.
 
-The POC of NFT Chain was delivered during Hackusama hackaphon. More information is availabe in [this delivery walk-through document](https://github.com/usetech-llc/nft_parachain/blob/master/doc/hackusama_walk_through.md).
+The POC of NFT Chain was delivered during Hackusama hackaphon. More information is availabe in [this delivery walk-through document](https://github.com/usetech-llc/nft_parachain/blob/master/doc/hackusama_walk_through.md). The scope proposed here is about half of the overall scope for the production chain to go live, we have secured remaining financing from Usetech.
 
 The source code for the POC is available in this repository: https://github.com/usetech-llc/nft_parachain
 
 #### How NFT Parchain Integrates into Substrate / Polkadot / Kusama
 
-NFT Chain is based on Substrate (currently a modified version of RC4 release). The plan is to integrate into Kusama (and further in Polkadot) ecosystem as a parachain and provide NFT functionality to all parachains in the network.
+NFT Chain is based on Substrate (currently a modified version of RC4 release). The plan is to integrate into Kusama (and further in Polkadot) ecosystem as a parachain and provide NFT functionality to all parachains in the network and to any dapp creatorts that need NFTs.
 
 #### Why Is My Team Interested
 
 We see Polkadot as a very promissing technology that will be used for a large number of use cases. It will greatly contribute to adoption of blockchain in powerful applications. It is technically one of the most ambitious blockchain projects we know of, and we would like to be part of the community that's creating it, as well as developing on it once the network goes live.
 
-In particular, NFT technology are a great part of our roadmap, which includes integration with Gaming frameworks, building gaming APIs, wallets, etc. NFT Tracking Module will enable next steps in this roadmap such as bridges to other networks, NFT exchange, etc.
+In particular, NFT technology are a great part of our roadmap, which includes integration with Gaming frameworks, building gaming APIs, wallets, etc. NFT Tracking Module will enable next steps in this roadmap such as bridges to other networks, NFT exchange, etc. Substrate is uniquely powerful and flexible to allow a completely new generation of NFT capabilities.
 
 ### Project Details 
 
 This information will be provided privately via our Google Form.
 
 ### Ecosystem Fit 
-There aren't any similar project to the best of our knowledge.
+NFT technologies - pallets, components and solutions will be needed by many chains in the Polkadot ecosystem. 
 
 ## Team :busts_in_silhouette:
 
@@ -40,6 +40,7 @@ There aren't any similar project to the best of our knowledge.
 * Sergei Otmorsky
 * Konstantin Pozdnikin
 * Evgeniy Shevtsov
+* Oleg Ogibin
 
 ### Team Website	
 * https://usetech.com/unique/
@@ -48,7 +49,8 @@ There aren't any similar project to the best of our knowledge.
 These details will be shared privately via our Google Form.
 
 ### Team's experience
-Our team members each have more then 15 years of IT experience in managing projects and writing software for product companies and large enterprises alike. We created the Blockchain practice in 2016 and have done dozens of projects for clients across the globe on variety of blochchains, mostly on Ethereum.
+
+* We have created a number of PoCs for this chain during Hackusama.
 
 ### Team Code Repos
 * https://github.com/usetech-llc/nft_parachain
@@ -88,6 +90,8 @@ The following articles are planned as milestones get completed:
 ## Future Plans
 Our team plans to implement broader spectrum of applications such as
 
+* Variety of economic models to facilitate the freemium gaming and other adoption boosters
+* Compatability with ETH NFTs
 * Decentralized Non-Fungible Token Exchange
 * Multi-chain token issuance
 * Cross-chain Payment Gateways
