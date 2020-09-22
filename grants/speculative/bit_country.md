@@ -219,12 +219,20 @@ Key Profiles from the tech team
 | ------------- | ------------- | ------------- |
 | 0a. | License | Apache 2.0 |
 | 0b. | Documentation | We will provide inline documentation & the lightpaper of the project. |
-| 0c. | Testing Guide | The code will have proper unit-test coverage for Country pallet and automated testing coverage for the dapp using Cypress.| 
-| 1. | Substrate module: Country | We will create a Substrate module that supports country creation with tokens, blocks and land sections. |  
+| 0c. | Testing Guide | The code will have proper unit-test coverage for Country pallets and automated testing coverage for the dapp using Cypress.| 
+| 1. | Substrate modules: Country & Block |
+* Create Country
+* Country Token Issuance With Native Token Backing
+* Transfer Country Ownership
+* Transfer Country Token 
+* Country Voting
+|  
 | 2. | Bit.Country Chain | The Country module of our chain can be used by the Dapp to create a new country in the Bit.Country Chain. The chain will be able to run with other nodes of our chain.|  
-| 3. | Bit.Country Dapp - Country | Users would be able to create an off-chain country, and users can upgrade the country to be decentralized in the Bit.Country chain.|   
-| 4. | Bit.Country Dapp - 2D & 3D View | Users would be able to conduct activities such as creating content in 2D and entering 3D views in the browser.|  
-| 5. | Docker | We will provide a dockerfile to demonstrate the full functionality of our chain and our dapp.|
+| 3. | Bit.Country Dapp - Country | Users would be able to create an off-chain country and economics, and users can upgrade the country to be decentralized in the Bit.Country chain.|   
+| 3. | Bit.Country Dapp - 2D View | Users would be able to create, like and comment post. User can share external link. Post can be shared on other social media. |  
+| 4. | Bit.Country Dapp - 3D View | Users can enter 3D view of the block and conduct basic activities such as walk and jump in a basic scence in the browser.|  
+| 5 | Bit.Country Governance | Country owner can create poll and users can participate in voting.|
+| 6. | Docker | We will provide a dockerfile to demonstrate the full functionality of our chain and our dapp.|
 
 ### Milestone 2 Implement Substrate Modules - Non-fungible Token
 * **Estimated Duration:** 4 weeks
@@ -235,10 +243,18 @@ Key Profiles from the tech team
 | 0a. | License | Apache 2.0 |
 | 0b. | Documentation | We will provide both inline & Readme for the pallet and the on-screen user guide on the dapp.|
 | 0c. | Testing Guide | The code will have proper unit-test coverage for the pallets as well as Cypress automation for dapp features.| 
-| 1. | Substrate module: NFT | We will create a Substrate module that manages NFT.|  
-| 2. | Bit.Country Dapp - Tokenization | Users would be able to tokenize various assets as NFT on the Bit.Country chain.|
-| 3. | Bit.Country Dapp - Activities in 2D | In 2D view, users would be able to create content onto the timeline. |
-| 4. | Bit.Country Dapp - Activities in 3D | In 3D view, users would be able to walk and build assets within the owned sections.|
+| 1. | Substrate modules: Block & Section | 
+* Create Block
+* Transfer Block Ownership
+* Transfer Block to Another Country
+* Create Section in Block
+* Transfer Section Ownership
+* Attach Asset to Section for Decoration.
+* Detach Asset to Section for Decoration.
+|  
+| 2. | Bit.Country Dapp - Tokenization | Users would be able to tokenize various assets as NFT onto the Bit.Country chain.|
+| 3. | Bit.Country Dapp - Activities in 2D | In 2D view, users would be able to create or share content onto the timeline. Country owners can manage blocks and section|
+| 4. | Bit.Country Dapp - Activities in 3D | In 3D view, users would be able to walk and attach assets within the owned sections.|
 | 5. | Docker | We will provide a dockerfile to demonstrate the full functionality of our chain and our dapp.|
 
 ### Milestone 3 Implement Substrate Modules - Marketplace
@@ -250,10 +266,17 @@ Key Profiles from the tech team
 | 0a. | License | Apache 2.0 |
 | 0b. | Documentation | We will provide both inline & Readme for the pallets and the on-screen user guide on the dapp.|
 | 0c. | Testing Guide | The code will have proper unit-test coverage for the pallets as well as Cypress automation for dapp features.|
-| 1. | Substrate module: Auction & Marketplace | We will create a Substrate module that supports marketplace features. That means users can trade their countries, blocks and other NFT assets.|  
-| 2. | Bit.Country Dapp - Marketplace UI | Users can view the NFT in classical web view or in 3D world view.|   
-| 3. | Bit.Country Governance | Users can participate in voting.|
-| 4. | Docker | We will provide a dockerfile to demonstrate the full functionality of our chain and our dapp.|
+| 1. | Substrate module: Marketplace | 
+* List Country For Auction
+* List Block For Auction
+* List Section For Auction
+* List GenericAsset For Auction
+* Bid For Asset
+* List Bid History For Asset
+* Get Winner for Asset
+|  
+| 2. | Bit.Country Dapp - Marketplace UI | Users can view assets in classical web view or in 3D world view with item attributes. Users can bid for asset.|   
+| 3. | Docker | We will provide a dockerfile to demonstrate the full functionality of our chain and our dapp.|
 
 ### Community engagement
 
