@@ -12,11 +12,11 @@ Bit.Country is a decentralized world - putting community first.
 
 **A Real World Case Study & Experiment**
 
-We are currently piloting this concept with 109 active users from a tech education business called Industry Connect. Students joined the MVP tech country and conducted incentivized activities e.g., creating useful posts, abreast they earn country-specific tokens (e.g., MVPC). With the MVPC tokens they possess, they start to take ownership of the country and will be able to perform voting, decision making, and other governance rights. 
+We are currently piloting this concept with 109 active users from a tech education business called Industry Connect. Students joined the "MVP tech community", a bit country we created, and conducted incentivized activities such as creating useful posts & making meaningful comments, abreast they earn country-specific tokens (e.g., MVPC). With the MVPC tokens they possess, they start to take ownership of the community and will be able to perform voting, decision making, and other governance rights/permissions. 
 
-We've observed it is a great way to let students/users get more involved in our community by giving them ownership through their contributions.
+We've observed it is a great way to let students/users get more involved in our community by giving them ownership through their contributions. (Since a bit country can be created off-chain first, this will provide a path way for classic internet users to onboard to decentralized web.)
 
-To further accelerate the engagement, we will build the 3D world so that students/users can do more things in there and transact with each other.
+To further accelerate the engagement, we will build the 3D voxel world so that students/users can do more things and interact more with each other in that dimension. For instacnes, walk & chat, attend events in the 3D world or video meeting.
 
 With the Substrate technology/decentralization, Bit.Country will become a popular place to nurture, manage and grow a community.
 
@@ -28,8 +28,10 @@ With the Substrate technology/decentralization, Bit.Country will become a popula
 
       In Bit.Country, you can create your own space, communities, economics, and digital assets (NFTs). The dapp allow users to socialize in both a classical web view and a 3D in-browser view of the country or block. The decentralized marketplace allows users to trade their digital assets (NFTs) with each other.
       
-      Bit.Country network is a blockchain and ecosystem focusing on community, social and marketplace with a game feel.
+      Bit.Country network is a blockchain and ecosystem focusing on community, social and marketplace with a game feel. 
 
+      Its runtime modules also create the open Protocol for Managing & Incentivizing Small-Medium Communities.
+      
     **Countries**
 
     Create your own country and community. Attract more people to join using the rules and policies you can set by your will.
@@ -42,9 +44,9 @@ With the Substrate technology/decentralization, Bit.Country will become a popula
 
     **Economy**
 
-    Create currency for your country, and incentivize the people who contribute to your community.
+    Create currency for your country, or import your existing tokens and incentivize the people who contribute to your community.
 
-    As your community grows, your currency will gain value on the exchange. Everyone in the community will benefit from this. Countries can be auctioned, rewarding all who had a stake in it.
+    As your community grows, your currency will gain value on the exchange. Everyone in the community will benefit from this. Countries can be auctioned, rewarding all who had a stake in it. (Imagine a bit country with 100,000 active users)
 
     **Residents**
 
@@ -60,7 +62,7 @@ With the Substrate technology/decentralization, Bit.Country will become a popula
 
     Trade your NFTs with residents within the same block, bit country, or entire network.
 
-    We are building the decentralized marketplace into the Substrate module. The auctions and deliveries of items will be completely decentralized and governed by the blockchain network.
+    We are building the decentralized marketplace into the Substrate module. The auctions and deliveries of items will be completely decentralized and governed by the blockchain network. Not only we are supporting our assets, also we will support more assets from the network.
 
 
 
@@ -132,8 +134,8 @@ The legal structure of Bit.Country team will be setup in blockchain friendly jur
 
 Ray Lu
 * Has hand-on coding experience over a decade. He wrote the first line of code in Basic when he was 15 on IBM-8086.
-* Created a Saas Startup from inception to growth. So far it has transacted USD$173,899,846 of bookings with 107,800 users.
-* Created a Tech Edu Startup from inception to growth that has 300 new enrollments every year with a customer base across 8 countries.
+* Founded a Saas Startup from inception to growth. So far it has transacted USD$173,899,846 of bookings and serving 107,800 active users.
+* Founded a Tech Edu Startup from inception to growth that has 300 new enrollments every year with a customer base across 8 countries.
 * Bsc in Computer Science at Univerity of Auckland. (Top 1 in writing compiler subject)
 * Involved in Polkadot Ambassador Programme with one reputable Substrate development team in NZ to run local meetups (Temporarily Paused due to Covid-19)
 
@@ -211,7 +213,7 @@ Key Profiles from the tech team
 * **Total Estimated Duration:** 3 months
 * **Full-time equivalent (FTE):**  5 FTE.
 
-### Milestone 1  — Implement Substrate Modules - Country Infrastructure
+### Milestone 1  — Implement Substrate Modules - Country
 * **Estimated Duration:** 4 weeks
 * **FTE:**  5
 
@@ -219,14 +221,17 @@ Key Profiles from the tech team
 | ------------- | ------------- | ------------- |
 | 0a. | License | Apache 2.0 |
 | 0b. | Documentation | We will provide inline documentation & the lightpaper of the project. |
-| 0c. | Testing Guide | The code will have proper unit-test coverage for Country pallet and automated testing coverage for the dapp using Cypress.| 
-| 1. | Substrate module: Country | We will create a Substrate module that supports country creation with tokens, blocks and land sections. |  
-| 2. | Bit.Country Chain | The Country module of our chain can be used by the Dapp to create a new country in the Bit.Country Chain. The chain will be able to run with other nodes of our chain.|  
-| 3. | Bit.Country Dapp - Country | Users would be able to create an off-chain country, and users can upgrade the country to be decentralized in the Bit.Country chain.|   
-| 4. | Bit.Country Dapp - 2D & 3D View | Users would be able to conduct activities such as creating content in 2D and entering 3D views in the browser.|  
-| 5. | Docker | We will provide a dockerfile to demonstrate the full functionality of our chain and our dapp.|
+| 0c. | Testing Guide | The code will have proper unit-test coverage for Country pallets and automated testing coverage for the dapp using Cypress.| 
+| 1. |Substrate module: Countries|It manages country profiles, map and ownership. e.g. NewCountry, TransferOwnership|
+| 2. |Substrate module: Economies|It manages the country's fund, rewards, minting country-specific tokens or importing external tokens.|
+| 3. |Substrate module: Governance|It manages voting. e.g. CreateVote, Vote|
+| 4. | Bit.Country Dapp - Country | Users would be able to create an off-chain country and economics, and users can upgrade the country to be decentralized in the Bit.Country chain.|   
+| 5. | Bit.Country Dapp - 2D View | Users would be able to view, create, like and comment post. User can share external link. Post can be shared on other social media. |  
+| 6. | Bit.Country Dapp - 3D View | Users can enter 3D view of the block and conduct basic activities such as walk and jump in a basic scence in the browser.|  
+| 7 | Bit.Country Governance | Country owner can create poll and users can participate in voting.|
+| 8. | Docker | We will provide a dockerfile to demonstrate the full functionality of our chain and our dapp.|
 
-### Milestone 2 Implement Substrate Modules - Non-fungible Token
+### Milestone 2 Implement Substrate Modules - Block & Section
 * **Estimated Duration:** 4 weeks
 * **FTE:**  5
 
@@ -235,11 +240,12 @@ Key Profiles from the tech team
 | 0a. | License | Apache 2.0 |
 | 0b. | Documentation | We will provide both inline & Readme for the pallet and the on-screen user guide on the dapp.|
 | 0c. | Testing Guide | The code will have proper unit-test coverage for the pallets as well as Cypress automation for dapp features.| 
-| 1. | Substrate module: NFT | We will create a Substrate module that manages NFT.|  
-| 2. | Bit.Country Dapp - Tokenization | Users would be able to tokenize various assets as NFT on the Bit.Country chain.|
-| 3. | Bit.Country Dapp - Activities in 2D | In 2D view, users would be able to create content onto the timeline. |
-| 4. | Bit.Country Dapp - Activities in 3D | In 3D view, users would be able to walk and build assets within the owned sections.|
-| 5. | Docker | We will provide a dockerfile to demonstrate the full functionality of our chain and our dapp.|
+| 1. | Substrate module: Blocks| It manages Block profiles, ownership and block plan. e.g. NewBlock, TransferOwnership, TransferCountry.|
+| 2. | Substrate module: Sections | It manages Section profile, ownership and associated assets. e.g. Create Section in Block, Transfer Section Ownership, Attach Asset to Section for Decoration, Detach Asset to Section.|
+| 3. | Substrate module: Residents | It manages Resident's membership and profiles |
+| 4. | Bit.Country Dapp - Activities in 2D | In 2D view, users would be able to create or share content onto the timeline. Country owners can manage blocks and section|
+| 5. | Bit.Country Dapp - Activities in 3D | In 3D view, users would be able to walk and attach/detach assets within the owned sections.|
+| 6. | Docker | We will provide a dockerfile to demonstrate the full functionality of our chain and our dapp.|
 
 ### Milestone 3 Implement Substrate Modules - Marketplace
 * **Estimated Duration:** 4 weeks
@@ -250,9 +256,9 @@ Key Profiles from the tech team
 | 0a. | License | Apache 2.0 |
 | 0b. | Documentation | We will provide both inline & Readme for the pallets and the on-screen user guide on the dapp.|
 | 0c. | Testing Guide | The code will have proper unit-test coverage for the pallets as well as Cypress automation for dapp features.|
-| 1. | Substrate module: Auction & Marketplace | We will create a Substrate module that supports marketplace features. That means users can trade their countries, blocks and other NFT assets.|  
-| 2. | Bit.Country Dapp - Marketplace UI | Users can view the NFT in classical web view or in 3D world view.|   
-| 3. | Bit.Country Governance | Users can participate in voting.|
+| 1. | Substrate module: Auctions | It manages asset auctions for the marketplace. Create Auction for Country, Create Auction for Block, Create Auction for Section, Create Auction for Generic Assets, Bid For Asset, List Bid History For Asset, Get Winner for Asset|  
+| 2. |Substrate module: Assets | It manage asset profiles and import external assets. E.g. Creat New Asset, Import Asset |
+| 3. | Bit.Country Dapp - Marketplace UI | Users can view assets in classical web view or in 3D world view with item attributes. Users can bid for asset.|   
 | 4. | Docker | We will provide a dockerfile to demonstrate the full functionality of our chain and our dapp.|
 
 ### Community engagement
