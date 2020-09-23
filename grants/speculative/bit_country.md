@@ -17,7 +17,8 @@ Bit.Country is
 * An open protocol for managing & incentivizing small-medium communities.
 
 **Mission Statement**
-* Bit.country provides a platform that attracts classic internet users to experience the power of the decentralized web. 
+
+Bit.country provides a platform that attracts classic internet users to experience the power of the decentralized web in the communities that they have involvement.
 
 **A Real World Case Study & Experiment**
 
