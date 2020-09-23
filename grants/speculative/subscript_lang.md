@@ -72,7 +72,7 @@ In this milestone, all the basic contract runtime compoment will be implemented.
 | Number | Deliverable | Specification |
 | ------------- | ------------- | ------------- |
 | 0a. | License | Apache 2.0 |
-| 0b. | Testing | This milestone will have unit-test for all the following runtime api impemented. Integration test will be delivered in next milestone. |
+| 0b. | Testing | This milestone will have unit-test for all the following runtime api impemented. We will mock most of the contract runtime api to simulate host functions. Integration test will be delivered in next milestone. |
 | 1. | contract runtime environment | contract builder and execution to initailize the contract code |
 | 2. | core types | add core component: AccountId, Balance, Hash, Block |
 | 2. | storage access | contract low level storage read and write with key |
@@ -81,6 +81,7 @@ In this milestone, all the basic contract runtime compoment will be implemented.
 | 5. | contract event generation | Generate event from contract call |
 | 6. | ontract call method | Method for make contract call. |
 | 7. | hash utility | Make digest of encoded input to generate hash image |
+| 8. | `SCALE` codec | Builtin codec functions to serialize and deserialize input.we may directly use LimeChain `as-scale-codec` implementation. |
 
 ### Milestone 2 Language and contract core component
 
@@ -111,8 +112,7 @@ From this milestone, we can demonstrate full substrate contract example written 
 | Number | Deliverable | Specification |
 | ------------- | ------------- | ------------- |
 | 1. | container data structure | Builtin container type to store user defiine sturcture, including dynamic vector, list, mapping |
-| 2. | `SCALE` codec lib | Builtin codec functions to serialize and deserialize input |
-| 3. | decorator for contract api access | Add decorator to encapsulate contract api interaction |
+| 2. | decorator for contract api access | Add decorator to encapsulate contract api interaction |
 
 ### Milestone 4 Packaging and integation with substate node
 
