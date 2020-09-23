@@ -4,11 +4,18 @@
 
 ## Project Overview :page_facing_up: 
 
-MVP.STUDIO (New Zealand) is a talent & tech startup incubator, it manages a tech community with 1,500 members and has launched software products with a customer base across 8 countries. 
 
-In recent years, the core team had started exploring blockchain technologies and created blockchain related education programmes and projects.
+**Background**
 
-Bit.Country is a decentralized world - putting community first. 
+MVP.STUDIO (New Zealand) is a talent & tech startup incubator, it manages a tech community with 1,500 members and has launched software products with a customer base across 8 countries. In recent years, the core team had started exploring blockchain technologies and created blockchain related education programmes and projects.
+
+**Overview**
+Bit.Country is
+* A decentralized world - putting community first. 
+* An open protocol for managing & incentivizing small-medium communities.
+
+**Mission Statement**
+* Bit.country provides a platform that attracts classic internet users to experience the power of the decentralized web. 
 
 **A Real World Case Study & Experiment**
 
@@ -26,11 +33,11 @@ With the Substrate technology/decentralization, Bit.Country will become a popula
 ### Overview
   * **A brief description of the project.**
 
-      In Bit.Country, you can create your own space, communities, economies, and digital assets (NFTs). The dapp allow users to socialize in both a classical web view and a 3D in-browser view of the country or block. The decentralized marketplace allows users to trade their digital assets (NFTs) with each other.
+    In Bit.Country, you can create your own space, communities, economies, and digital assets (NFTs). The dapp allow users to socialize in both a classical web view and a 3D in-browser view of the country or block. The decentralized marketplace allows users to trade their digital assets (NFTs) with each other.
       
-      Bit.Country network is a blockchain and ecosystem focusing on community, social and marketplace with a game feel. 
+    Bit.Country network is a blockchain and ecosystem focusing on community, social and marketplace with a game feel. 
 
-      Its runtime modules also create the open Protocol for Managing & Incentivizing Small-Medium Communities.
+    Its runtime modules also create the open Protocol for Managing & Incentivizing Small-Medium Communities.
       
     **Countries**
 
@@ -258,8 +265,11 @@ Key Profiles from the tech team
 | 0c. | Testing Guide | The code will have proper unit-test coverage for the pallets as well as Cypress automation for dapp features.|
 | 1. | Substrate module: Auctions | It manages asset auctions for the marketplace. Create Auction for Country, Create Auction for Block, Create Auction for Section, Create Auction for Generic Assets, Bid For Asset, List Bid History For Asset, Get Winner for Asset|  
 | 2. |Substrate module: Assets | It manage asset profiles and import external assets. E.g. Creat New Asset, Import Asset |
-| 3. | Bit.Country Dapp - Marketplace UI | Users can view assets in classical web view or in 3D world view with item attributes. Users can bid for asset.|   
-| 4. | Docker | We will provide a dockerfile to demonstrate the full functionality of our chain and our dapp.|
+| 3. |Substrate module: Incentivizer | It manages incentivizing rules and processes from countries. E.g. ProcessIncentives, SetIncentiveRule, |
+| 4. |Substrate module: Oracle | It is an implementation of DataProvider, and external fact feeding module, e.g. Incentives, storing incoming data in a key/value map. |
+| 5. | Bit.Country Dapp - Marketplace | Users can view assets in classical web view or in 3D world view with item attributes. Users can bid for asset.|   
+| 6. | Bit.Country Dapp - Incentives | Users can view rewards and their incentivized histories. Rewards will be available under their wallet.|   
+| 6. | Docker | We will provide a dockerfile to demonstrate the full functionality of our chain and our dapp.|
 
 ### Community engagement
 
