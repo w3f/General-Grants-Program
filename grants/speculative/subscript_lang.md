@@ -71,6 +71,8 @@ In this milestone, all the basic contract runtime compoment will be implemented.
 
 | Number | Deliverable | Specification |
 | ------------- | ------------- | ------------- |
+| 0a. | License | Apache 2.0 |
+| 0b. | Testing | This milestone will have unit-test for all the following runtime api impemented. Integration test will be delivered in next milestone. |
 | 1. | contract runtime environment | contract builder and execution to initailize the contract code |
 | 2. | core types | add core component: AccountId, Balance, Hash, Block |
 | 2. | storage access | contract low level storage read and write with key |
@@ -123,7 +125,7 @@ In this milestone, we will launch language builtin fucntions and essential libar
 | Number | Deliverable | Specification |
 | ------------- | ------------- | ------------- |
 | 1. | npm template | Provide a script tool to bootstrap a assemblyscript contract template and initialize project |
-| 2. | integration with substrate node | cargo tool to intergate `Subscript` project with substate node |
+| 2. | integration with substrate node | substrate commands to deploy and call  `Subscript` compiled contract with substate node |
 | 3. | npm testing tool | debug and test tool to interact with substate contract |
 
 ### Milestone 5 Website for `Subscript` document and tutorial
