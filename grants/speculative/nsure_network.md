@@ -77,14 +77,22 @@ For now, we have finished our whitepaper and MVP, and will split our project pla
 * **FTE:**  2
 * **Costs:** $5,000
 
-Milestone 1 will implement our mvp on polkadot network. Mvp will support capital mining, trading and staking functions which is the same function with ethereum.
+Milestone 1 will implement our mvp on polkadot network. Mvp will support capital mining, trading and staking functions which is the same function with ethereum. For details:
+* capital mining: support capital mining of certain stable coins(e.g. USDT). 70% of total newly minted supply will be distributed proportionally to mining. (certain parameters may change at launch)
+* trading: Insurance purchase & quote supply. MCR will be locked accordingly when a policy is sold. Transactions will be locked in the capital pool. When a policy is purchased the policy holder will also be rewarded 30% of total newly minted supply.
+* Staking: Staking rules will be supported to accelerate capital mining.
+
 
 ### Milestone 2 — beta release: Capital Mining; Cover purchasing; Leveraged Staking; Claim payment
 * **Estimated Duration:** 4 month
 * **FTE:**  3
 * **Costs:** $15,000
 
-We will publish our beta release in 4 months for the full functions of nsure project. It includes the contract/frontend/backend and related coding. Finally open to public for beta test.
+Nsure Beta will be released and deployed in 4 month. Nsure Beta will include new UI/front end/ backend/smart contract. Upgrades compared with MVP:
+ MCR lock on capital mining. 30 days lock dropped to prevent capital pull out during claim payment.
+Surplus pool for each smart contract protection. The fund to pay claim will be firstly paid out from this pool and the rest will be paid out from capital pool.
+3-phase vote claim assessment. Policyholder’s round; agent’s round; public round.
+Premium will be distributed from staking. 50% of Nsure token staked on specific smart contracts will be burnt.
 
 
 ### Milestone 3 — official version
@@ -92,8 +100,7 @@ We will publish our beta release in 4 months for the full functions of nsure pro
 * **FTE:**  3
 * **Costs:** $10,000
 
-The official version will support all the functions in polkadot parachain, and support DAO with its own token. 
-
+The official version will support all the functions in polkadot parachain, and support DAO with its own token. The mining weight changing and list of supported smart contracts will be fully governed by DAO.
 
 ### Community engagement
 
