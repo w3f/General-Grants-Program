@@ -62,6 +62,12 @@ With the Substrate technology/decentralization, Bit.Country will become a popula
 
     Some welcome everyone and even reward you for joining, while others may need you to apply for residency.
 
+    **Asset with Smart Contract**
+
+    While residents can build their assets on the sections that they own, there will be Smart Contract enabled Assets that can transact with residents or visitors.
+    
+    There will be boundless possibilities of Smart Assets that residents can build for their communities.
+
     **Ownership & Governance**
 
     Residents can earn the country tokens to take ownership and perform their governing rights by voting.
@@ -266,11 +272,12 @@ Key Profiles from the tech team
 | 0c. | Testing Guide | The code will have proper unit-test coverage for the pallets as well as Cypress automation for dapp features.|
 | 1. | Substrate module: Auctions | It manages asset auctions for the marketplace. Create Auction for Country, Create Auction for Block, Create Auction for Section, Create Auction for Generic Assets, Bid For Asset, List Bid History For Asset, Get Winner for Asset|  
 | 2. |Substrate module: Assets | It manage asset profiles and import external assets. E.g. Creat New Asset, Import Asset |
-| 3. |Substrate module: Incentivizer | It manages incentivizing rules and processes from countries. E.g. ProcessIncentives, SetIncentiveRule, |
-| 4. |Substrate module: Oracle | It is an implementation of DataProvider, and external fact feeding module, e.g. Incentives, storing incoming data in a key/value map. |
-| 5. | Bit.Country Dapp - Marketplace | Users can view assets in classical web view or in 3D world view with item attributes. Users can bid for asset.|   
-| 6. | Bit.Country Dapp - Incentives | Users can view rewards and their incentivized histories. Rewards will be available under their wallet.|   
-| 6. | Docker | We will provide a dockerfile to demonstrate the full functionality of our chain and our dapp.|
+| 3. |Substrate module: SmartAsset | This module manages the binding between smart contracts and assets. Bit.Country Smart Asset developers can create their smart contract or dapp based on our protocol. Smart Contract can attach to the assets so residents or visistors can directly transact with them. e.g. A lottery shop, token exchange house.|
+| 5. |Substrate module: Incentivizer | It manages incentivizing rules and processes from countries. E.g. ProcessIncentives, SetIncentiveRule, |
+| 6. |Substrate module: Oracle | It is an implementation of DataProvider, and external fact feeding module, e.g. Incentives, storing incoming data in a key/value map. |
+| 7. | Bit.Country Dapp - Marketplace | Users can view assets in classical web view or in 3D world view with item attributes. Users can bid for asset.|   
+| 8. | Bit.Country Dapp - Incentives | Users can view rewards and their incentivized histories. Rewards will be available under their wallet.|   
+| 9. | Docker | We will provide a dockerfile to demonstrate the full functionality of our chain and our dapp.|
 
 ### Community engagement
 
