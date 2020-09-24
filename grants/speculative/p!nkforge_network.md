@@ -2,39 +2,43 @@
 
 * **Project:** P!nkForge Network
 
-## Project Overview :page_facing_up: 
-P!nkForge Network is trying to build a liquidity bootstrapping protocol which is comprised of diverse fundraising mechanism and liquidity providing for the parachain/parathread. 
+## Project Overview 📄 
+
+P!nkForge Network is trying to build a liquidity bootstrapping protocol consisting of diverse fundraising mechanisms and liquidity providing for the parachain/parathread. 
 
 The protocol will be built as a parachain in Kusama and Polkadot to help foster the ecosystem start-up projects in fundraising and instant token swap.
 
 ### Overview
 
 #### Problem statement
-Here are three common problems, two of them referred to current fundraising model, another one is about parathread economics in Kusama/Polkadot:
-1. A crack between fundraising and token exchange.
-   
-    Projects that did an ICO or private sale for fundraising usually are hard to find a place for the token swap. For now, the solution would be going to a centralized exchange with an expensive IEO fee or uniswap with large-amount deposit for the kick-off liquidity, both are costly. 
 
-2. Manual migration from ERC20 token to mainnet token.
+Here are three common problems; two of them referred to the current fundraising model; another one is about parathread economics in Kusama/Polkadot:
 
-    Considering that lots of projects did the fundraising at an idea/whitepaper stage, the team would issue an ERC20 token as a voucher. After couple of years you may migrate the ERC20 tokens to the mainnet if the project goes well.
-     Some even set a limited window period for the migration, if you missed it, your tokens turn useless.
-    
-3. Instant token swap of parachain currencies.
-    Parathread is a significant component of the Kusama/Polkadot ecosystem. A fact we know about the parathread economics is that the collators may be paid in local parathread currency while the Relay Chain transacts with KSM/DOT only.
-    And now no built-in price finding mechanism and instant token swap market exist in Polkadot ecosystem.
-    
+1. A crack exists between fundraising and token exchange.
+
+   Projects that made an ICO or private sale for fundraising usually are hard to find a place for the token swap. For now, the solution would be going to a centralized exchange with an expensive IEO fee or uniswap with a large-amount deposit for the kick-off liquidity; both are costly. 
+
+2. Manual migration is challenging from ERC20 token to mainnet token.
+
+   Considering that many projects did the fundraising at an idea/whitepaper stage, the team would issue an ERC20 token as a voucher. After a couple of years, you may migrate the ERC20 tokens to the mainnet if the project goes well.  Some even set a limited window period for the migration. If you missed it, your tokens turn useless.
+
+3. Instant token swap of parachain currencies. 
+
+   Parathread is a significant component of the Kusama/Polkadot ecosystem. We know about the parathread economics that the collators may be paid in local parathread currency while the Relay Chain transacts with KSM/DOT only. And now, no built-in price finding mechanism and instant token swap market exist in Polkadot ecosystem.
+
+
+
 #### How to solve
-To solve the previous problems, this project need to realize these three features:
+To solve the previous problems, this project needs to realize these three features:
+
 1. General and flexible fundraising models
 2. An instant token swap market like Uniswap
 3. A seamless and low-cost liquidity providing mechanism
 
+Uniswap, as we know, is a peer-to-peer decentralized cryptocurrency exchange that allows users to trade ERC20 tokens, and it works well despite its simplicity.
 
-> Uniswap, as we know, is a peer-to-peer decentralized cryptocurrency exchange that allows users to trade ERC20 tokens, and it works well despite its simplicity.
+What we want to do is a one-stop bootstrap protocol. First, it provides diverse fundraising models for the project and motivates the community to contribute locked initial liquidity (so the team can spend more funds in building the project safely), which creates a uniswap-like market for the instant token swap.     
 
-What we want to do is a one-stop bootstrap protocol. First it provides diverse fundraising models for the project, and then motivates the community to contribute a `locked` initial liquidity (so the team is able to spend more fund in building the project safely), last creates a uniswap-like market for instant token swap.
-    
 ### Project Details 
 To achieve the goals above, this project needs two major subsystems:
 
@@ -175,18 +179,18 @@ Individuals.
 
 ### Community engagement
 
-Definitely, P!nkForge project is and will be a community based porject, team member will be the one in community. We will get community involved by creating our P!nk Forum, discord group, telegram group, Medium account.
+P!nkForge project will be a community-based project; the team member will be the same as other community members. We will get the community involved by creating our P!nk Forum, discord group, telegram group, Medium account.
 
-And their will be several ways to incentivize community to engage into P!nk test token Forging and token swapping.
+There will be several ways to incentivize the community to engage in P!nk test token Forging and token swapping.
 
 On each milestone completion, P!nk will publish artcile to give a write-up.
 
 
 ## Future Plans
 
-The long term plan for P!nkForge is to be the most robust and simple way on Forging tokens and Swapping tokens as what has done by UNI on Ethereum, but further beyond it a little. 
+The long term plan for P!nkForge is the most robust and simple way on Forging tokens and Swapping tokens as what has been done by UNI on Ethereum, but further beyond it a little. 
 
-P!nk team believe that further beyond a little and one step by step is the way to create community-wise useful product to both contribute the Polkadot and the community.
+P!nk team believes that further beyond a little and one step by step is creating a community-wise useful product to contribute the Polkadot and the community.
 
 ## Additional Information :heavy_plus_sign: 
 
