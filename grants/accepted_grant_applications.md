@@ -182,3 +182,4 @@ This page gives an overview of accepted grants and a link to their GitHubs. Keep
 - [Fractapp](https://fractapp.com) - Messenger with crypto wallet ([GitHub](https://github.com/fractapp))
 - [Equilibrium.io](https://equilibrium.io/en) - All-in-one Interoperable DeFi hub. ([GitHub](https://github.com/equilibrium-eosdt))
 - [Glacier Blockchain Technology](http://www.gbctech.cn/#/) - Starks Network ([GitHub](https://github.com/gbctech))
+- [SubDEX](http://subdex.io.s3.eu-west-2.amazonaws.com/index.html) - A decentralized cross-chain exchange based on AMM ([GitHub](https://github.com/subdardex))
