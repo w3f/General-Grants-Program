@@ -272,7 +272,7 @@ Key Profiles from the tech team
 | 0c. | Testing Guide | The code will have proper unit-test coverage for the pallets as well as Cypress automation for dapp features.|
 | 1. | Substrate module: Auctions | It manages asset auctions for the marketplace. Create Auction for Country, Create Auction for Block, Create Auction for Section, Create Auction for Generic Assets, Bid For Asset, List Bid History For Asset, Get Winner for Asset|  
 | 2. |Substrate module: Assets | It manage asset profiles and import external assets. E.g. Creat New Asset, Import Asset |
-| 3. |Substrate module: SmartAsset | This module manages the binding between smart contracts and assets. Bit.Country Smart Asset developers can create their smart contract or dapp based on our protocol. Smart Contract can attach to the assets so residents or visistors can directly transact with them. e.g. A lottery shop, token exchange house.|
+| 3. |Substrate module: SmartAsset | This module manages the binding between smart contracts and assets. Developers can create their smart contracts or dapps based on our protocol. A Smart Contract can attach to an asset so that residents or visitors can directly interact or transact with the assets. e.g. A lottery shop, token exchange house or an event room.|
 | 5. |Substrate module: Incentivizer | It manages incentivizing rules and processes from countries. E.g. ProcessIncentives, SetIncentiveRule, |
 | 6. |Substrate module: Oracle | It is an implementation of DataProvider, and external fact feeding module, e.g. Incentives, storing incoming data in a key/value map. |
 | 7. | Bit.Country Dapp - Marketplace | Users can view assets in classical web view or in 3D world view with item attributes. Users can bid for asset.|   
