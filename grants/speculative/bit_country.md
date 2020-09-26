@@ -103,11 +103,15 @@ With the Substrate technology/decentralization, Bit.Country will become a popula
 
 * Mockups/designs of any UI components
 
-  Please visit https://bit.country
+  Website: please visit https://bit.country
   
-  ![Bit Country](https://mvp.studio/mediax/bcsmall.gif)  
+  ![Bit Country](https://miro.medium.com/max/1050/1*I4eowVh9XC9vvBPv9RFuiw.png)  
+
+  ![Bit Country](https://miro.medium.com/max/1500/1*LXbl0F2JlDC0Q-aPD95xNw.png)  
+
   
-  [Images & Videos](https://medium.com/@bitcountry/create-and-live-in-a-decentralized-world-of-your-own-4ad872379d00)
+  
+  [More Images & Videos](https://medium.com/@bitcountry/create-and-live-in-a-decentralized-world-of-your-own-4ad872379d00)
 
 * An overview of the technology stack to be used
 
