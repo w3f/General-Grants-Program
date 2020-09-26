@@ -107,19 +107,19 @@ With the Substrate technology/decentralization, Bit.Country will become a popula
   
   https://bit.country
 
-  * Conceptual Promo Video
+  * Conceptual Video
+
   [![Watch Bit.Country][https://mvp.studio/wp-content/uploads/2020/09/bcu.jpg]][https://youtu.be/0EhvqPHMBKA]
   
   * Some Posters & Screenshots
 
   ![Bit Country Post](https://miro.medium.com/max/1050/1*I4eowVh9XC9vvBPv9RFuiw.png)  
 
-  ![Bit Country Dimensions](https://miro.medium.com/max/1050/1*I4eowVh9XC9vvBPv9RFuiw.png)  
+  ![Bit Country Dimensions](https://miro.medium.com/max/1500/1*LXbl0F2JlDC0Q-aPD95xNw.png)  
 
   ![Bit Country Economy](https://miro.medium.com/max/1050/1*xCFqvshujkwEjuoL2RzyoQ.jpeg)  
 
-  
-  
+    
   [More Images & Videos](https://medium.com/@bitcountry/create-and-live-in-a-decentralized-world-of-your-own-4ad872379d00)
 
 * An overview of the technology stack to be used
