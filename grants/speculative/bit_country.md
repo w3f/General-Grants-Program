@@ -266,12 +266,12 @@ We believe Bit.Country will bring many people to the ecosystem.
 | 4. | Bit.Country Dapp - Country | Users would be able to create an off-chain country with description, theme and going through a name reservation & validation process.|   
 |	5. |	Dapp - User Registration 	|	Off-chain User can register on the web app and manage the profile and password etc. We've basic code developed, and will add more features so it will work with country security.	|
 |	6. |	Dapp - Country Explorer	|	Users can explore countries by searching keywords and tags or simply browsing by population or activeness. Develop features to support list view and grid views. |
-|	7.	|	Dapp - Country Membership	|	Users can join a country and appy for residency. Country owner approval functions.	|
+|	7.	|	Dapp - Country Membership	|	Users can join a country and apply for residency. Country owner approval functions.	User wallets display tokens, assets.|
 |	8.	|	Dapp - Country Block	|	Owners can create blocks and set the topic and description for the block in a country.	Block creation page needs features such as preview 3d world.|
 |	9.	|	Dapp - Country Block Planner	|	Owners can plan the buildable sections of a block.	Utilizing more intuitive UI with 3d preview feature.|
 |	10.	|	Dapp - Country Map	|	Residents can explore blocks like a grid map.	Users can navigate to the neighboring block in 9-grid block navigator.|
-|	11.	|	Dapp - Country Economy	|	Owners can setup off-chain economic rules for incentivizing activities.	|
-|	12.	|	Dapp - Country Ownership	|	List owners of the country ranked by their ownership. Use more intuitive graphics to present the insights.|
+|	11.	|	Dapp - Country Economy	|	Owners can setup off-chain economic rules for incentivizing activities.	Create incentive processor to calculate incentive amount and allocate to users. This incentive data will also be used for the data provider in Substrate Oracle for settling incentives on-chain.|
+|	12.	|	Dapp - Country Ownership	|	List owners of the country ranked by their ownership. Use more intuitive graphics to present the insights. |
 |	13.	|	Dapp - Country Block Post	|	User can create posts onto the timeline for different level of privacy i.e. public, country level, block level and private. Post can be liked and commented. Post can be shared on external social media to onboard more public users.	This will need to work with our caching layer for scalability. Implement infinite scroll.|
 |	14.	|	Dapp - Country Block 3D View	|	Users can enter the 3D view of the block and conduct basic activities such as walk and jump in a customized scene in the browser.|
 | 15. | Docker / UAT | We will demonstrate the full functionality of our chain and our dapp on UAT / a dockerfile.|
