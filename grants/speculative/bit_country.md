@@ -279,7 +279,7 @@ We believe Bit.Country will bring many people to the ecosystem.
 |	6. | Dapp - 3D world sections	|	Users can modify the sections they own. They can build basic items such as laying blocks and remove blocks. Users are not allowed to modify anywhere else such as public area, or sections they don't have ownership. The buildable sections are defined by the block planner explained in M1.|
 | 7. | Dapp - 3D world assets	|	Users would be able to add pre-defined assets for the world to attach it to the sections they own. |
 | 8. | Dapp - 3D world interaction	|	User would be able to engage and chat with each other. |
-| 9. | Dapp - 3D world event	|	Users would be able to attend an group event in an asset. |
+| 9. | Dapp - 3D world event	|	Users would be able to attend a group event in an event asset. |
 | 10. | Dapp - 3D world block travel	|	Users would be able to travel to adjacent blocks.|
 |	11. | Dapp - Upgrade to Onchain Service	|	Allow owner users to use onchain service to bring the country, block, sections, and assets onchain so that those items are allowed for trading. It is important to ensure the classic internet users will be educated in this process via our web app, and have a pleasing and comfortable experience with decentralized technologies to appreciate the impact that the blockchain can bring without any barriers. |
 | 12. | Dapp - User Invitation	|	Create smart user invitation and referral features so existing users will be rewarded by inviting new residence (according to economic rules set by the country).|
@@ -303,9 +303,9 @@ We believe Bit.Country will bring many people to the ecosystem.
 | 4. |Substrate module: Oracle | It is an implementation of DataProvider, and external fact feeding module, e.g. Incentives, storing incoming data in a key/value map. |
 | 5. |Substrate module: SmartContract | Enable Smart Contract Module allowing developers to create their own smart contracts in our protocol.|   
 | 6. | Dapp - Marketplace Explorer | User can browse assets by different filters e.g. popular, featured, promoted, value.|
-| 7. | Dapp - Marketplace Asset Details| Users can view assets in classical web view or in 3D world view with item attributes. Users can bid for asset.|   
-| 8. | Dapp - Marketplace Bid & Settle| Users can bit and receive the item if won.|   
-| 9. | Dapp - Marketplace New Listing| Users can list their item on market place.|   
+| 7. | Dapp - Marketplace Asset Details| Users can view assets in classical web view or in 3D world view with item attributes.|   
+| 8. | Dapp - Marketplace Bid & Settlement| Users can bid items and receive the item if won.|   
+| 9. | Dapp - Marketplace New Listing| Users can list their item on marketplace for auction.|   
 | 10. | Dapp - Incentives | Users can view rewards and their incentivized histories. Rewards will be available under their wallet.|   
 |	11.	| Dapp - Basic App Store	|	Users can explore different apps (smart contracts) available in bit.country	|
 |	12.	| Dapp - Upgrade Asset to Smart Asset	|	Users can attach a Smart Contract to Asset to enable the logic and functionalities.	|
@@ -328,7 +328,7 @@ We believe Bit.Country will bring many people to the ecosystem.
 
 * What work has been done so far?
   
-  We had released and internal piloted the concept with **100+ active users**. 
+  * We had released and internal piloted the concept with **100+ active users**. 
 
 * Are there are any teams who have already contributed (financially) to the project?
   
@@ -336,4 +336,4 @@ We believe Bit.Country will bring many people to the ecosystem.
 
 * Have you applied for other grants so far?
   
-  No.
+  * No.
