@@ -227,23 +227,33 @@ Key Profiles from the tech team
 * **Total Estimated Duration:** 3 months
 * **Full-time equivalent (FTE):**  5 FTE.
 
-### Milestone 1  — Implement Substrate Modules - Country
+### Milestone 1  — Implement Substrate Modules - Country Basics & Infrastructure
 * **Estimated Duration:** 4 weeks
 * **FTE:**  5
 
 | Number | Deliverable | Specification |
 | ------------- | ------------- | ------------- |
 | 0a. | License | Apache 2.0 |
-| 0b. | Documentation | We will provide inline documentation & the lightpaper of the project. |
+| 0b. | Documentation | We will provide inline documentation, video, medium articles & start creating the lightpaper of the project. |
 | 0c. | Testing Guide | The code will have proper unit-test coverage for Country pallets and automated testing coverage for the dapp using Cypress.| 
 | 1. |Substrate module: Countries|It manages country profiles, map and ownership. e.g. NewCountry, TransferOwnership|
 | 2. |Substrate module: Economies|It manages the country's fund, rewards, minting country-specific tokens or importing external tokens.|
 | 3. |Substrate module: Governance|It manages voting. e.g. CreateVote, Vote|
-| 4. | Bit.Country Dapp - Country | Users would be able to create an off-chain country and economies, and users can upgrade the country to be decentralized in the Bit.Country chain.|   
-| 5. | Bit.Country Dapp - 2D View | Users would be able to view, create, like and comment post. User can share external link. Post can be shared on other social media. |  
-| 6. | Bit.Country Dapp - 3D View | Users can enter 3D view of the block and conduct basic activities such as walk and jump in a basic scence in the browser.|  
-| 7 | Bit.Country Governance | Country owner can create poll and users can participate in voting.|
-| 8. | Docker | We will provide a dockerfile to demonstrate the full functionality of our chain and our dapp.|
+| 4. |Bit.Country testnet node|	Users can run bit.country nodes, sudo can perform hot upgrade.|
+| 5. | Bit.Country Dapp - Country | Users would be able to create an off-chain country with description, theme and going through a name reservation & validation process.|   
+|	6.	|	Dapp - User Registeration	|	Off-chain User can register on the web app and manage the profile and password	|
+|	7.	|	Dapp - Country Explorer	|	Users can explore countries by searching kewords, tags, categories	|
+|	8.	|	Dapp - Country Membership	|	Users can join a country and appy for residency. Country owner approval functions.	|
+|	9.	|	Dapp - Country Block	|	Owners can create block and set the topic and description in a country.	|
+|	10.	|	Dapp - Country Block Planner	|	Owners can plan the buildable sections of a block.	|
+|	11.	|	Dapp - Country Map	|	Residents can explore blocks like grid map.	|
+|	12.	|	Dapp - Country Economy	|	Owners can setup off-chain economic rules for incentivizing activities	|
+|	13.	|	Dapp - Country Ownership	|	List owners of the country ranked by their ownership	|
+|	14.	|	Dapp - Country Insights	|	Show insight such as total residents, activities, top incentivized residents, blocks, active blocks, posts, token available for rewards and totoal supply etc	|
+|	15.	|	Dapp - Country Block Post	|	"User can create post in public, block and private post. Post can be liked and commented. Post can be shared on external social media to onboard more public users."	|
+|	16.	|	Dapp - Country Governance	|	Country owner can create poll and users can participate in voting.|
+|	17.	|	Dapp - Country Block 3D View	|	Users can enter 3D view of the block and conduct basic activities such as walk and jump in a basic scence in the browser.|
+| 18. | Docker | We will demonstrate the full functionality of our chain and our dapp on UAT.|
 
 ### Milestone 2 Implement Substrate Modules - Block & Section
 * **Estimated Duration:** 4 weeks
@@ -252,7 +262,7 @@ Key Profiles from the tech team
 | Number | Deliverable | Specification |
 | ------------- | ------------- | ------------- |
 | 0a. | License | Apache 2.0 |
-| 0b. | Documentation | We will provide both inline & Readme for the pallet and the on-screen user guide on the dapp.|
+| 0b. | Documentation | We will provide both inline & Readme for the pallets and the on-screen user guide on the dapp. Continue with the lightpaper.|
 | 0c. | Testing Guide | The code will have proper unit-test coverage for the pallets as well as Cypress automation for dapp features.| 
 | 1. | Substrate module: Blocks| It manages Block profiles, ownership and block plan. e.g. NewBlock, TransferOwnership, TransferCountry.|
 | 2. | Substrate module: Sections | It manages Section profile, ownership and associated assets. e.g. Create Section in Block, Transfer Section Ownership, Attach Asset to Section for Decoration, Detach Asset to Section.|
