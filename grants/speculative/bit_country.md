@@ -103,11 +103,20 @@ With the Substrate technology/decentralization, Bit.Country will become a popula
 
 * Mockups/designs of any UI components
 
-  Website: please visit https://bit.country
+  * Website
   
-  ![Bit Country](https://miro.medium.com/max/1050/1*I4eowVh9XC9vvBPv9RFuiw.png)  
+  https://bit.country
 
-  ![Bit Country](https://miro.medium.com/max/1500/1*LXbl0F2JlDC0Q-aPD95xNw.png)  
+  * Conceptual Promo Video
+  [![Watch Bit.Country][https://mvp.studio/wp-content/uploads/2020/09/bcu.jpg]][https://youtu.be/0EhvqPHMBKA]
+  
+  * Some Posters & Screenshots
+
+  ![Bit Country Post](https://miro.medium.com/max/1050/1*I4eowVh9XC9vvBPv9RFuiw.png)  
+
+  ![Bit Country Dimensions](https://miro.medium.com/max/1050/1*I4eowVh9XC9vvBPv9RFuiw.png)  
+
+  ![Bit Country Economy](https://miro.medium.com/max/1050/1*xCFqvshujkwEjuoL2RzyoQ.jpeg)  
 
   
   
