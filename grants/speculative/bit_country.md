@@ -109,7 +109,7 @@ With the Substrate technology/decentralization, Bit.Country will become a popula
 
   * Conceptual Video
 
-  [![Watch Bit.Country][https://mvp.studio/wp-content/uploads/2020/09/bcu.jpg]][https://youtu.be/0EhvqPHMBKA]
+  ![![Watch Bit.Country](https://mvp.studio/wp-content/uploads/2020/09/bcu.jpg)](https://youtu.be/0EhvqPHMBKA)
   
   * Some Posters & Screenshots
 
