@@ -19,7 +19,8 @@ MVP.STUDIO (New Zealand) is a talent & tech startup incubator, it manages a tech
 Bit.country provides a platform that attracts classic internet users to experience the power of the decentralized web in the communities that they have involvement.
 
 **The Goal**
-After the 3-months plan, our final goal is to have a complete MVP solution (Both the app and chain) and onboard the rest of our network members (~1400 users remaining). Then, we will run our marketing campaign to onboard more users outside of the platform.
+
+After the 3-months plan, our final goal is to have a complete MVP solution (Both the app and chain) and onboard the rest of our network members (~1400 users remaining). Then, we will run our marketing campaign to onboard more users outside of our network, we are planning to onboard 50k users by Aug 2021.
 
 **A Real World Case Study & Experiment**
 
@@ -102,11 +103,25 @@ With the Substrate technology/decentralization, Bit.Country will become a popula
 
 * Mockups/designs of any UI components
 
-  Please visit https://bit.country
+  * Website
   
-  ![Bit Country](https://mvp.studio/mediax/bcsmall.gif)  
+    * https://bit.country
+
+  * Conceptual Video
+
+  [![Watch Bit.Country Video](https://mvp.studio/wp-content/uploads/2020/09/bcu-1.jpg)](https://youtu.be/0EhvqPHMBKA)
+
   
-  [Images & Videos](https://medium.com/@bitcountry/create-and-live-in-a-decentralized-world-of-your-own-4ad872379d00)
+  * Some Posters & Screenshots
+
+  ![Bit Country Post](https://miro.medium.com/max/1050/1*I4eowVh9XC9vvBPv9RFuiw.png)  
+
+  ![Bit Country Dimensions](https://miro.medium.com/max/1500/1*LXbl0F2JlDC0Q-aPD95xNw.png)  
+
+  ![Bit Country Economy](https://miro.medium.com/max/1050/1*xCFqvshujkwEjuoL2RzyoQ.jpeg)  
+
+    
+  [More Images & Videos](https://medium.com/@bitcountry/create-and-live-in-a-decentralized-world-of-your-own-4ad872379d00)
 
 * An overview of the technology stack to be used
 
@@ -274,18 +289,18 @@ We believe Bit.Country will bring many people to the ecosystem.
 | 2. | Substrate module: Sections | It manages Section profile, ownership and associated assets. e.g. Create Section in Block, Transfer Section Ownership, Attach Asset to Section for Decoration, Detach Asset to Section.|
 | 3. | Substrate module: Residents | It manages Resident's membership and profiles.|
 | 4. | Substrate module: Assets | It manages asset profiles and import external assets. E.g. Create New Asset, Import Asset.|
-| 4. | Substrate module: Governance|It manages voting. e.g. CreateVote, Vote|
-|	5. | Dapp - 3D world sections	|	Users can modify the sections they own. They can build basic items such as laying blocks and remove blocks. Users are not allowed to modify anywhere else such as public area, or sections they don't have ownership. The buildable sections are defined by the block planner explained in M1.|
-| 6. | Dapp - 3D world assets	|	Users would be able to add pre-defined assets for the world to attach it to the sections they own. |
-| 7. | Dapp - 3D world interaction	|	User would be able to engage and chat with each other. |
-| 8. | Dapp - 3D world event	|	Users would be able to attend an group event in an asset. |
-| 9. | Dapp - 3D world block travel	|	Users would be able to travel to adjacent blocks.|
-|	10. | Dapp - Upgrade to Onchain Service	|	Allow owner users to use onchain service to bring the country, block, sections, and assets onchain so that those items are allowed for trading. It is important to ensure the classic internet users will be educated in this process via our web app, and have a pleasing and comfortable experience with decentralized technologies to appreciate the impact that the blockchain can bring without any barriers. |
-| 11. | Dapp - User Invitation	|	Create smart user invitation and referral features so existing users will be rewarded by inviting new residence (according to economic rules set by the country).|
-|	12.	|	Dapp - Country Insights	|	Show insight such as total residents, activities, top incentivized residents, blocks, active blocks, posts, token available for rewards and total supply etc.	|
-|	13.	|	Dapp - Country Governance	|	Country owner can create poll and users can participate in voting.|
-|	14. |	Processor - Insights	|	Writing background processors to prepare aggregation of data for insights, personalized timeline content, incentive rules and some of the marketplace rules.|
-| 15. | Docker / UAT | We will provide a dockerfile / UAT to demonstrate the full functionality of our chain and our dapp.|
+| 5. | Substrate module: Governance|It manages voting. e.g. CreateVote, Vote|
+|	6. | Dapp - 3D world sections	|	Users can modify the sections they own. They can build basic items such as laying blocks and remove blocks. Users are not allowed to modify anywhere else such as public area, or sections they don't have ownership. The buildable sections are defined by the block planner explained in M1.|
+| 7. | Dapp - 3D world assets	|	Users would be able to add pre-defined assets for the world to attach it to the sections they own. |
+| 8. | Dapp - 3D world interaction	|	User would be able to engage and chat with each other. |
+| 9. | Dapp - 3D world event	|	Users would be able to attend a group event in an event asset. |
+| 10. | Dapp - 3D world block travel	|	Users would be able to travel to adjacent blocks.|
+|	11. | Dapp - Upgrade to Onchain Service	|	Allow owner users to use onchain service to bring the country, block, sections, and assets onchain so that those items are allowed for trading. It is important to ensure the classic internet users will be educated in this process via our web app, and have a pleasing and comfortable experience with decentralized technologies to appreciate the impact that the blockchain can bring without any barriers. |
+| 12. | Dapp - User Invitation	|	Create smart user invitation and referral features so existing users will be rewarded by inviting new residence (according to economic rules set by the country).|
+|	13.	|	Dapp - Country Insights	|	Show insight such as total residents, activities, top incentivized residents, blocks, active blocks, posts, token available for rewards and total supply etc.	|
+|	14.	|	Dapp - Country Governance	|	Country owner can create poll and users can participate in voting.|
+|	15. |	Processor - Insights	|	Writing background processors to prepare aggregation of data for insights, personalized timeline content, incentive rules and some of the marketplace rules.|
+| 16. | Docker / UAT | We will provide a dockerfile / UAT to demonstrate the full functionality of our chain and our dapp.|
 
 ### Milestone 3 - Build the Marketplace and Boost Economies for Higher Engagement 
 * **Estimated Duration:** 4 weeks
@@ -302,18 +317,18 @@ We believe Bit.Country will bring many people to the ecosystem.
 | 4. |Substrate module: Oracle | It is an implementation of DataProvider, and external fact feeding module, e.g. Incentives, storing incoming data in a key/value map. |
 | 5. |Substrate module: SmartContract | Enable Smart Contract Module allowing developers to create their own smart contracts in our protocol.|   
 | 6. | Dapp - Marketplace Explorer | User can browse assets by different filters e.g. popular, featured, promoted, value.|
-| 6. | Dapp - Marketplace Asset Details| Users can view assets in classical web view or in 3D world view with item attributes. Users can bid for asset.|   
-| 6. | Dapp - Marketplace Bid & Settle| Users can bit and receive the item if won.|   
-| 6. | Dapp - Marketplace New Listing| Users can list their item on market place.|   
-| 7. | Dapp - Incentives | Users can view rewards and their incentivized histories. Rewards will be available under their wallet.|   
-|	8.	| Dapp - Basic App Store	|	Users can explore different apps (smart contracts) available in bit.country	|
-|	9.	| Dapp - Upgrade Asset to Smart Asset	|	Users can attach a Smart Contract to Asset to enable the logic and functionalities.	|
-|	10.	|	Dapp - 3D View - Smart Asset UI	|	Residents can interact with the smart asset on the section, the interaction will be interacting its smart contract. We need to build the the UI for users interact.	|
-|	11.	|	Create Swap Smart Contract	|	Build a Swap smart contract for assets who like to offer swap service to attach. |
-|	12.	|	Create LuckyDraw Smart Contract	|	Build a LuckyDraw smart contract for assets who like to offer lukcydraw service to attach. |
-|	13.	|	Create Ticket Smart Contract	|	Build a Ticket smart contract asset who requires ticket to attach. 	|
-|	14.	|	Utilizing caching for concurrency	|	Utilizing the caching layer for serving content, key security attributes, country/block/section membership and carefully refreshing the cache by avoid caching stampede and invalidity of data. We do have a separate database and caching server behind our web dapp.	|
-| 15. | Docker / UAT | We will provide a dockerfile / UAT to demonstrate the full functionality of our chain and our dapp.|
+| 7. | Dapp - Marketplace Asset Details| Users can view assets in classical web view or in 3D world view with item attributes.|   
+| 8. | Dapp - Marketplace Bid & Settlement| Users can bid items and receive the item if won.|   
+| 9. | Dapp - Marketplace New Listing| Users can list their item on marketplace for auction.|   
+| 10. | Dapp - Incentives | Users can view rewards and their incentivized histories. Rewards will be available under their wallet.|   
+|	11.	| Dapp - Basic App Store	|	Users can explore different apps (smart contracts) available in bit.country	|
+|	12.	| Dapp - Upgrade Asset to Smart Asset	|	Users can attach a Smart Contract to Asset to enable the logic and functionalities.	|
+|	13.	|	Dapp - 3D View - Smart Asset UI	|	Residents can interact with the smart asset on the section, the interaction will be interacting its smart contract. We need to build the the UI for users interact.	|
+|	14.	|	Create Swap Smart Contract	|	Build a Swap smart contract for assets who like to offer swap service to attach. |
+|	15.	|	Create LuckyDraw Smart Contract	|	Build a LuckyDraw smart contract for assets who like to offer lukcydraw service to attach. |
+|	16.	|	Create Ticket Smart Contract	|	Build a Ticket smart contract asset who requires ticket to attach. 	|
+|	17.	|	Utilizing caching for concurrency	|	Utilizing the caching layer for serving content, key security attributes, country/block/section membership and carefully refreshing the cache by avoid caching stampede and invalidity of data. We do have a separate database and caching server behind our web dapp.	|
+| 18. | Docker / UAT | We will provide a dockerfile / UAT to demonstrate the full functionality of our chain and our dapp.|
 
 ### Community engagement
 
@@ -327,12 +342,12 @@ We believe Bit.Country will bring many people to the ecosystem.
 
 * What work has been done so far?
   
-  We had released and internal piloted the concept with **100+ active users**. 
+  * We had released and internal piloted the concept with **100+ active users**. 
 
 * Are there are any teams who have already contributed (financially) to the project?
   
-  MVP STUDIO had invested the 50% of 5 FTE hours into this project since Feb 2020.
+  * MVP STUDIO invested 50% of 5 FTE hours since Feb 2020.
 
 * Have you applied for other grants so far?
   
-  No.
+  * No.
