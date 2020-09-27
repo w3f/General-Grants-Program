@@ -12,7 +12,7 @@ MVP.STUDIO (New Zealand) is a talent & tech startup incubator, it manages a tech
 **Bit.Country Is**
 
 * A decentralized world - putting community first. 
-* An open protocol for managing & incentivizing small-medium communities using gamification.
+* An open NFT/game protocol for managing & incentivizing small-medium communities using gamification.
 
 **Mission Statement**
 
@@ -338,7 +338,7 @@ We believe Bit.Country will bring many people to the ecosystem.
 
   We plan to become a parachain on the Polkadot network eventually, especially when our Bit.Country community gains momentum on Kusama.
 
-  Our team is also planning of building mobile apps in the future so users can access their communities and marketplace on thier mobile devices. 
+  Our team is also planning of building mobile apps in the future so users can access their communities and marketplace on their mobile devices. 
   
   At the moment, we are evaluating Dapp-IPFS-Pallets (Completely decentralized) architecture to host bit.country. We may create a R&D sub-product in the near future.
 
