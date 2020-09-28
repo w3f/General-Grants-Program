@@ -185,3 +185,7 @@ This page gives an overview of accepted grants and a link to their GitHubs. Keep
 - [SubDEX](http://subdex.io.s3.eu-west-2.amazonaws.com/index.html) - A decentralized cross-chain exchange based on AMM ([GitHub](https://github.com/subdardex))
 - [Zenlink](https://zenlink.pro/) - A cross-chain DEX network ([GitHub](https://github.com/zenlinkpro/zenlink_dex_module))
 - [Subscript](https://github.com/slickup) - Substrate smart contract api and sdk in AssemblyScript ([GitHub](https://github.com/slickup/subscript))
+- [Tesseract](https://tesseract.one/) - Swift API ([GitHub](https://github.com/tesseract-one))
+- [Cobo](https://cobo.com/)- Cobo Vault - ([GitHub](https://github.com/CoboVault))
+- [NodeFactory](https://nodefactory.io/) - Vedran: Auto-funded public p2p infrastructure (APPI) ([GitHub](https://github.com/NodeFactoryIo/Vedran))
+- [Adoriasoft](https://adoriasoft.com/) - Cosmos-SDK Parachain Development Kit Phase 2 ([GitHub](https://github.com/adoriasoft/cosmos-sdk))
