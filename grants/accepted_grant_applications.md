@@ -184,3 +184,4 @@ This page gives an overview of accepted grants and a link to their GitHubs. Keep
 - [Glacier Blockchain Technology](http://www.gbctech.cn/#/) - Starks Network ([GitHub](https://github.com/gbctech))
 - [SubDEX](http://subdex.io.s3.eu-west-2.amazonaws.com/index.html) - A decentralized cross-chain exchange based on AMM ([GitHub](https://github.com/subdardex))
 - [Zenlink](https://zenlink.pro/) - A cross-chain DEX network ([GitHub](https://github.com/zenlinkpro/zenlink_dex_module))
+- [Subscript](https://github.com/slickup) - Substrate smart contract api and sdk in AssemblyScript ([GitHub](https://github.com/slickup/subscript))
