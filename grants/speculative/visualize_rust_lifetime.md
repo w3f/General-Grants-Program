@@ -78,8 +78,9 @@ Team member Linhai Song has 10 years of expertise in programming analysis, and h
 Team member Yiying Zhang has conducted various systems research with papers published at OSDI and SOSP. 
 
 ### Team Code Repos
-* https://github.com/<your_repo_1>
-* https://github.com/<your_repo_2>
+* LDoctor (ICSE ‘17): https://github.com/songlh/LDoctor 
+* Rust-Study (PLDI ‘20): https://github.com/system-pclub/rust-study
+* LegoOS (OSDI ‘18): https://github.com/WukLab/LegoOS
 
 ### Team LinkedIn Profiles
 * Linhai Song: https://www.linkedin.com/in/linhai-song-7a3b12120/
@@ -88,22 +89,14 @@ Team member Yiying Zhang has conducted various systems research with papers publ
 
 ## Development Roadmap :nut_and_bolt: 
 
-This section should break out the development roadmap into a number of milestones. Since the milestones will appear in the grant contract, it helps to describe the functionality we should expect, plus how we can check that such functionality exists in the product. Whenever milestones are delivered, we refer to the contract to ensure that everything has been delivered as expected.
-
-Below we provide an **example roadmap**. In the descriptions it should be clear how the project is related to Substrate and/or Polkadot. We recommend that the scope of the work can fit within a 3 month period and that teams structure their roadmap as 1 month = 1 milestone. 
-
-For each milestone:
-* Please be sure to include a specification of the software. The level of detail must be enough so that we are able to verify that the software meets the specification.
-* Please include total amount of funding requested per milestone.
-* Please note that we require documentation (e.g. tutorials, API specifications, architecture details) in each milestone. This ensures that the code can be widely used by the community.
-* Please provide a test suite, comprising unit and integration tests, along with a guide on how to run these.
-* Please commit to providing a dockerfiles for the delivery of your project. 
-* Please indicate the milestone duration, as well as number of Full-Time Employees working on each milestone, and include the number of days along with their cost per day.
-
 ### Overview
-* **Total Estimated Duration:** Duration of the whole project
-* **Full-time equivalent (FTE):**  Workload of an employed person ([see](https://en.wikipedia.org/wiki/Full-time_equivalent)) 
-* **Total Costs:** Amount of Payment for the whole project. The total amount of funding needs to be below $100k.
+
+We will build the proposed tool as a plugin of VSCode and implement the proposed program analysis by analyzing Rust’s MIR. We divide the project into three milestones. We aim to finish the whole project in three months and achieve a milestone in each month.  
+
+* **Total Estimated Duration:** 3 months
+* **Full-time equivalent (FTE):**  3
+* **Total Costs:** Financial information will be disclosed privately. 
+
 
 ### Milestone 1 Example — Implement Substrate Modules 
 * **Estimated Duration:** 1 month
@@ -120,6 +113,24 @@ For each milestone:
 | 3. | Substrate module: Z | We will create a Substrate module that will... |  
 | 4. | Substrate chain | Modules X, Y & Z of our custom chain will interact in such a way... (Please describe the deliverable here as detailed as possible) |  
 | 5. | Docker | We will provide a dockerfile to demonstrate the full functionality of our chain |
+
+
+### Milestone 1 Example — Implement Substrate Modules 
+* **Estimated Duration:** 1 month
+* **FTE:**  1
+* **Costs:** $5,000
+
+| Number | Deliverable | Specification |
+| ------------- | ------------- | ------------- |
+| 0a. | License | Apache 2.0 / MIT / Unlicense |
+| 0b. | Documentation | We will provide both inline documentation of the code and a basic tutorial that explains how a user can (for example) spin up one of our Substrate nodes. Once the node is up, it will be possible to send test transactions that will show how the new functionality works. |
+| 0c. | Testing Guide | The code will have proper unit-test coverage (e.g. 90%) to ensure functionality and robustness. In the guide we will describe how to run these tests | 
+| 1. | Substrate module: X | We will create a Substrate module that will... (Please list the functionality that will be coded for the first milestone) |  
+| 2. | Substrate module: Y | We will create a Substrate module that will... |  
+| 3. | Substrate module: Z | We will create a Substrate module that will... |  
+| 4. | Substrate chain | Modules X, Y & Z of our custom chain will interact in such a way... (Please describe the deliverable here as detailed as possible) |  
+| 5. | Docker | We will provide a dockerfile to demonstrate the full functionality of our chain |
+
 
 ### Milestone 2 Example — Additional features
 ...
