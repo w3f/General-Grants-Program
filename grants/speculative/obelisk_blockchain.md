@@ -8,7 +8,7 @@ Our team is proficient in Internet products, organizational mechanism design and
 
 
 ## Team members
-* 姚远
+* Yuan Yao
 * CHAO
 * TANG
 
@@ -19,7 +19,7 @@ Our team is proficient in Internet products, organizational mechanism design and
 
 ## Team's experience
 
-- 姚远
+- Yuan Yao
 
 Blockchain and Internet product expert, once served as the co-founder of Turing Network, and has been responsible for product design and product architecture since 2012. Experience in designing social network products and organizational mechanisms.
 
