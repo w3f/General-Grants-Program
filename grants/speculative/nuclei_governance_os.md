@@ -99,6 +99,8 @@ As part of the Program, we require that you produce an article/tutorial and publ
 ## Future Plans
 The future plans would be to onboard one or two more team members to create a dashboard to easily interact with the pallets. We'd also bundle all the pallets in a governance focused parachain in order to provide the following: easy simulation of different governance models (ideally as research by the Governance Research Institute or other actors), DAO / next gen multisig as a service platform that people can use to setup their own structures (and why not, control their other parachains).
 
+Ideally, we'd continue these efforts and end up with a full featured suite focused on DAOs and Open Government initiatives with a set of dashboard and blockchain tools.
+
 ## Additional Information :heavy_plus_sign: 
 * **What work has been done so far?** No code was written yet, only some architecturing work was performed. As well as some simple research of existing governance models (Polkadot, Kusama, Nodle and Aragon).
 * **Are there are any teams who have already contributed (financially) to the project?** Not yet, this project is entirely self funded and in a bootstrapping phase.
