@@ -95,41 +95,37 @@ We will build the proposed tool as a plugin of VSCode and implement the proposed
 
 * **Total Estimated Duration:** 3 months
 * **Full-time equivalent (FTE):**  3
-* **Total Costs:** Financial information will be disclosed privately. 
+* **Total Costs:** financial information will be disclosed privately. 
 
 
-### Milestone 1 Example — Implement Substrate Modules 
+### Milestone 1 — Implement the bug detection component  
 * **Estimated Duration:** 1 month
-* **FTE:**  1
-* **Costs:** $5,000
+
 
 | Number | Deliverable | Specification |
 | ------------- | ------------- | ------------- |
-| 0a. | License | Apache 2.0 / MIT / Unlicense |
-| 0b. | Documentation | We will provide both inline documentation of the code and a basic tutorial that explains how a user can (for example) spin up one of our Substrate nodes. Once the node is up, it will be possible to send test transactions that will show how the new functionality works. |
-| 0c. | Testing Guide | The code will have proper unit-test coverage (e.g. 90%) to ensure functionality and robustness. In the guide we will describe how to run these tests | 
-| 1. | Substrate module: X | We will create a Substrate module that will... (Please list the functionality that will be coded for the first milestone) |  
-| 2. | Substrate module: Y | We will create a Substrate module that will... |  
-| 3. | Substrate module: Z | We will create a Substrate module that will... |  
-| 4. | Substrate chain | Modules X, Y & Z of our custom chain will interact in such a way... (Please describe the deliverable here as detailed as possible) |  
-| 5. | Docker | We will provide a dockerfile to demonstrate the full functionality of our chain |
+| 0a. | License | Apache 2.0 |
+| 0b. | Documentation | We will provide both inline documentation of the code and a basic tutorial that explains how to run the bug detection component as a standalone tool on terminal.  |
+| 0c. | Testing Guide | We will include unit tests to ensure the functionality and robustness of our code. We will also include 10 toy programs containing deadlocks to demonstrate the bug detection capability. We will also run this component on the latest version of Substrate, Polkadot, and ink!. We will manually inspect all reported results to count the number of bugs and the number of false positives. | 
+| 1. | Double-Lock Detection Module | We will implement a double-lock detector based on interpreting a Rust program’s MIR. |  
+| 2. | Conflicting-Lock Detection Module | We will implement a detector that can identify deadlocks due to acquiring locks in conflicting orders through analyzing the MIR of Rust programs.|  
+| 3. | Docker | We will provide a dockerfile to demonstrate the full functionality of this component. |
 
 
-### Milestone 1 Example — Implement Substrate Modules 
+### Milestone 2 — Implement the visualization component 
 * **Estimated Duration:** 1 month
-* **FTE:**  1
-* **Costs:** $5,000
+
 
 | Number | Deliverable | Specification |
 | ------------- | ------------- | ------------- |
-| 0a. | License | Apache 2.0 / MIT / Unlicense |
-| 0b. | Documentation | We will provide both inline documentation of the code and a basic tutorial that explains how a user can (for example) spin up one of our Substrate nodes. Once the node is up, it will be possible to send test transactions that will show how the new functionality works. |
-| 0c. | Testing Guide | The code will have proper unit-test coverage (e.g. 90%) to ensure functionality and robustness. In the guide we will describe how to run these tests | 
-| 1. | Substrate module: X | We will create a Substrate module that will... (Please list the functionality that will be coded for the first milestone) |  
-| 2. | Substrate module: Y | We will create a Substrate module that will... |  
-| 3. | Substrate module: Z | We will create a Substrate module that will... |  
-| 4. | Substrate chain | Modules X, Y & Z of our custom chain will interact in such a way... (Please describe the deliverable here as detailed as possible) |  
-| 5. | Docker | We will provide a dockerfile to demonstrate the full functionality of our chain |
+| 0a. | License | Apache 2.0 |
+| 0b. | Documentation | We will provide both inline documentation of the code and a basic tutorial that explains how to install and use the visualization component in VSCode.  |
+| 0c. | Testing Guide | We will include unit tests to ensure the functionality and robustness of our code. We will also include 10 toy programs to test whether variables’ lifetime is correctly computed, whether variables’ lifetime is correctly visualized, whether locking operations are correctly identified, and whether locking operations are correctly highlighted. | 
+| 1. | Lifetime Computation Module | We will compute the lifetime for each variable in a Rust program by interpreting the program’s MIR. |  
+| 2. | Lifetime Visualization Module | We will visualize the computed lifetime of a user-selected variable.|  
+| 3. | Locking Operation Identification Module | We will identify locking operations or function calls that may lead to locking operations by conducting inter-procedural analysis. |  
+| 4. | Locking Operation Highlighting Module | If a selected variable is the return of a locking operation, besides visualizing the critical section, we will also highlight identified locking operations in the selected critical section. |  
+| 5. | Docker | We will provide a dockerfile to demonstrate the full functionality of this component |
 
 
 ### Milestone 2 Example — Additional features
