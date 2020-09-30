@@ -38,14 +38,17 @@ We are interested in building the tool due to three reasons. First, our previous
 
 
 ### Project Details 
-We expect the teams to already have a solid idea about the project's expected final state.
 
-Therefore, we ask the teams to submit (where relevant):
-* Mockups/designs of any UI components
-* API specifications of the core functionality
-* An overview of the technology stack to be used
-* Documentation of core components, protocols, architecture etc. to be deployed
-* PoC/MVP or other relevant prior work or research on the topic
+We have built a prototype of the proposed tool. We published a demonstration paper at this year’s CCS to describe the prototype. The paper can be found here: https://songlh.github.io/paper/vr.pdf. We also recorded a video to explain the prototype, and the video can be found here: https://youtu.be/L5F_XCOrJTQ.
+
+We applied the bug detection component of the prototype to Substrate, Polkadot, and ink!. We found four previously unknown deadlocks. One is in Substrate. The other three are in the dependent libraries of Substrate or Polkadot. We reported all the detected bugs. All of them were fixed by developers based on our reporting. The information of the detected bugs is listed as follows:
+
+https://github.com/paritytech/parity-db/pull/8
+
+https://github.com/paritytech/substrate/pull/6277
+
+https://github.com/paritytech/parity-common/pull/396
+
 
 ### Ecosystem Fit 
 Are there any other projects similar to yours? If so, how is your project different?
