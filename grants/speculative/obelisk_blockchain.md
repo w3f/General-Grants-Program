@@ -13,8 +13,8 @@ Our team is proficient in Internet products, organizational mechanism design and
 * TANG
 
 ## Team Website	
-* https://snp.plus
-* https://obelisk.one
+* https://www.snp.plus
+* https://www.obelisk.one
 
 
 ## Team's experience
