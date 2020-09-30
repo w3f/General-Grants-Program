@@ -6,7 +6,7 @@
 
 ### Overview
 
-The goal of this project is to build a set of governance runtime pallets to help manage organizations and simulate or implement governance models. Unlike existing pallets from the ecosystem, these would be general purposes modules so that a substrate based chain could host a potentially infinite number of organizations created by its users. This could be used to support more complex multi signatures wallets, handle votes, create DAOs or even use those to manage cities or countries one day (this could probably fit the `Public Voting System` part of the Polkadot Stack).
+The goal of this project is to build a set of governance runtime pallets to help manage organizations and simulate or implement governance models. Unlike existing pallets from the ecosystem, these would be general purpose modules so that a substrate based chain could host a potentially infinite number of organizations created by its users. This could be used to support more complex multi signatures wallets, handle votes, create DAOs or even use those to manage cities or countries one day (this could probably fit the `Public Voting System` part of the Polkadot Stack).
 
 I started my career as the CTO of a company called BitNation that was seeking to use Blockchain based tools to help governments and nations be more efficient. This is when I first got interested in governance and its surrounding ecosystem. Sadly, BitNation didn't reach its goals but my interest for that problem stayed the same. Lately, I have been putting together something called the `Governance Research Institute` to research for better ways to organize ourselves but also see if there are any products we could already apply to the real world. As a substrate developer I have played around with its modules and ecosystem, but sadly we still seems to lack some tools and pallets to actually create and manage organizations. I'd like to fill that gap for the ecosystem as this is something I am passionate about. Think of it like enabling the possibility to create a DAO as a service parachain which other projects could rely, or they could just integrate with the pallets.
 
@@ -33,7 +33,7 @@ I currently serve as the Chief Blockchain Architect of Nodle and am building Nod
 
 Interesting code:
 - [The Nodle Chain](https://github.com/NodleCode/chain) is the chain code for Nodle which I am single handedly developing. In this repo I'd like to highlight the [amendments](https://github.com/NodleCode/chain/tree/master/pallets/amendments) pallet that we use as part of Nodle's governance model, this allows a technical committee to submit "amendments" to the chain (i.e. root calls such as upgrades) that can be reviewed and vetoed by a root committee.
-- [pallet-mandate](https://github.com/ETeissonniere/pallet-mandate) is a substrate pallet give pallets like the `collective` the ability to send root calls.
+- [pallet-mandate](https://github.com/ETeissonniere/pallet-mandate) is a substrate pallet that gives other pallets like the `collective` the ability to send root calls.
 - [ETHLove](https://github.com/ETeissonniere/ETHLove) hosts the marriage smart contract mentioned before.
 - [ObsidianSafe](https://github.com/ETeissonniere/ObsidianSafe) is a set of contracts to create a Gnosis Safe like wallet on Ethereum.
 
@@ -46,24 +46,12 @@ Interesting code:
 
 ## Development Roadmap :nut_and_bolt: 
 
-This section should break out the development roadmap into a number of milestones. Since the milestones will appear in the grant contract, it helps to describe the functionality we should expect, plus how we can check that such functionality exists in the product. Whenever milestones are delivered, we refer to the contract to ensure that everything has been delivered as expected.
-
-Below we provide an **example roadmap**. In the descriptions it should be clear how the project is related to Substrate and/or Polkadot. We recommend that the scope of the work can fit within a 3 month period and that teams structure their roadmap as 1 month = 1 milestone. 
-
-For each milestone:
-* Please be sure to include a specification of the software. The level of detail must be enough so that we are able to verify that the software meets the specification.
-* Please include total amount of funding requested per milestone.
-* Please note that we require documentation (e.g. tutorials, API specifications, architecture details) in each milestone. This ensures that the code can be widely used by the community.
-* Please provide a test suite, comprising unit and integration tests, along with a guide on how to run these.
-* Please commit to providing a dockerfiles for the delivery of your project. 
-* Please indicate the milestone duration, as well as number of Full-Time Employees working on each milestone, and include the number of days along with their cost per day.
-
 ### Overview
 * **Total Estimated Duration:** 2 months
 * **Full-time equivalent (FTE):**  1 
 * **Total Costs:** $20,000, open to receiving a part of funds in DOTs.
 
-### Milestone 1 - Base pallets to represent the core functionnalities of an organization
+### Milestone 1 - Base pallets to represent the core functionalities of an organization
 * **Estimated Duration:** 1 month
 * **FTE:**  1
 * **Costs:** $10,000
@@ -94,7 +82,7 @@ For each milestone:
 
 ### Community engagement
 
-As part of the Program, we require that you produce an article/tutorial and publish it (for example on [Medium](https://medium.com/)). It will explain the work performed during the grant. We'd like to also due a small serie of tutorials to explain how to use the modules to setup different kind of organizations (an improved multisig wallet, a trust fund, a business, a city council...). 
+As part of the Program, we require that you produce an article/tutorial and publish it (for example on [Medium](https://medium.com/)). It will explain the work performed during the grant. We'd also like to do a small series of tutorials to explain how to use the modules to setup different kinds of organizations (an improved multisig wallet, a trust fund, a business, a city council...). 
 
 ## Future Plans
 The future plans would be to onboard one or two more team members to create a dashboard to easily interact with the pallets. We'd also bundle all the pallets in a governance focused parachain in order to provide the following: easy simulation of different governance models (ideally as research by the Governance Research Institute or other actors), DAO / next gen multisig as a service platform that people can use to setup their own structures (and why not, control their other parachains).
@@ -103,6 +91,6 @@ Ideally, we'd continue these efforts and end up with a full featured suite focus
 
 ## Additional Information :heavy_plus_sign: 
 * **What work has been done so far?** No code was written yet, only some architecturing work was performed. As well as some simple research of existing governance models (Polkadot, Kusama, Nodle and Aragon).
-* **Are there are any teams who have already contributed (financially) to the project?** Not yet, this project is entirely self funded and in a bootstrapping phase.
+* **Are there any teams who have already contributed (financially) to the project?** Not yet, this project is entirely self funded and in a bootstrapping phase.
 * **Have you applied for other grants so far?** I am representing Nodle for a grant we completed and as part of the Substrate Builder Program. The project and company (which is mine, not Nodle) linked to this application didn't apply to any grants previously.
 * **What is the project's relationship with Nodle?** This project is not linked to Nodle in any way and represents a set of efforts I am pushing individually with the hope they can turn in something bigger over time.
