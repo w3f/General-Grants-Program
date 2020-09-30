@@ -52,6 +52,8 @@ Although security will be one of the top priorities along with modifiability whi
 
 We want to keep in mind that although Subsembly will follow Substrate’s approach, AssemblyScript is not mature. A lot of libraries do not exist yet and most of those that already exist are not production ready. To add on top of that, AssemblyScript does not have support for powerful language features such as macros which are heavily used in Substrate. That being said, we will do our best and keep the developer experience and security as top priority.
 
+![subsembly-wbs](https://raw.githubusercontent.com/LimeChain/General-Grants-Program/images-branch/grants/rfps/images/subsembly-wbs-diagram.png)
+
 ## Milestone 1 — Foundation — 18 days
 This milestone will lay out the project’s foundations. For the successful completion of this milestone we can define the following criteria:
 1. Brand materials (logo) for Subsembly.
