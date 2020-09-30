@@ -10,7 +10,7 @@ Our team is proficient in Internet products, organizational mechanism design and
 ## Team members
 * 姚远
 * CHAO
-* 唐沛阳
+* TANG
 
 ## Team Website	
 * https://snp.plus
@@ -28,18 +28,18 @@ Blockchain and Internet product expert, once served as the co-founder of Turing 
 
 He spent years of late nights learning PHP, Javascript, C, Go, Java and Rust. became interested in cryptocurrencies and bought his first Bitcoins in 2012, and to understand the protocol he implemented his own Bitcoin client. More recently, when he first started programming Rust he immediately fell in love with it. he's philosophy is: "If you find a bug, submit a patch!"
 
-- 唐沛阳
+- TANG
 
-先后在微软亚洲研究院做过访问学生，在金蝶软件有限公司担任过核心开发工程师，在百度电子商务事业部担任过前端核心开发工程师。
+Tang read his first book about programming at the age of 13 and not much later launched his first proper website. Driven by the question ‘What else can I make this machine do?’ he studied Computer Science at SU. He worked as a full stack web developer for almost a decade and delivered a number of award nominated sites for F3D new media. Tang loves to challenge himself to learning new things and has a personal passion for implementing uncluttered and intuitive interfaces.
 
 ## Team Code Repos
-
+* https://github.com/Obelisk-One/obelisk_lightpaper
 * https://github.com/Obelisk-One/snp-wallet
 * https://github.com/Obelisk-One/obs-network
 
 ## Team LinkedIn Profiles
 
-
+-
 
 ## Development Roadmap
 
