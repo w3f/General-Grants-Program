@@ -51,30 +51,40 @@ https://github.com/paritytech/parity-common/pull/396
 
 
 ### Ecosystem Fit 
-Are there any other projects similar to yours? If so, how is your project different?
+There is no existing project similar to ours. 
 
 ## Team :busts_in_silhouette:
 
 ### Team members
-* Name of team leader
-* Names of team members	
+* Name of team leader: Linhai Song
+* Names of team members: Linhai Song, Yiying Zhang, and Ziyi Zhang
 
 ### Team Website	
-* https://<your_domain>
+* Linhai Song’s homepage: https://songlh.github.io/
+* Yiying Zhang’s homepage: https://cseweb.ucsd.edu/~yiying/
+
 
 ### Legal Structure 
-Please provide the name and registered address of the legal entity executing the project. When applying via the General Grants program, these details can also be shared privately via the Google Form used for your application.
+XXXX
 
 ### Team's experience
-Please describe the team's relevant experience.  If the project involves development work, then we'd appreciated if you can single out a few interesting code commits made by team members on their past projects. For research-related grants, references to past publications and projects in a related domain are helpful.  
+
+The team conducted an empirical study on real-world memory bugs and concurrency bugs in Rust, which was published in PLDI’2020. Through this project, the team has built on a comprehensive understanding of common errors made by programmers when coding Rust. 
+
+The team built a prototype for the proposed tool, and the prototype was published in the demonstration track of CCS’2020. This experience demonstrates that the team is capable to build the proposed technique. 
+
+Team member Linhai Song has 10 years of expertise in programming analysis, and has published at top programming languages and software engineering conferences (e.g., PLDI, ICSE, FSE, OOPSLA). 
+
+Team member Yiying Zhang has conducted various systems research with papers published at OSDI and SOSP. 
 
 ### Team Code Repos
 * https://github.com/<your_repo_1>
 * https://github.com/<your_repo_2>
 
 ### Team LinkedIn Profiles
-* https://www.linkedin.com/<person_1>
-* https://www.linkedin.com/<person_2>
+* Linhai Song: https://www.linkedin.com/in/linhai-song-7a3b12120/
+* Yiying Zhang: https://www.linkedin.com/in/yiyingzhang/
+
 
 ## Development Roadmap :nut_and_bolt: 
 
