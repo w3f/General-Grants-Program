@@ -15,6 +15,7 @@ The goal would be to:
 ## Team Members
 - Daniel Ivanov, Christian Veselinov (leads)
 - Dastanbek Samatov
+- Kristiyan Srebrev
 ## Team Website
 - https://limechain.tech
 ## Legal Structure
@@ -36,6 +37,7 @@ Current Polkadot related projects:
 - https://www.linkedin.com/in/daniel-k-ivanov/
 - https://www.linkedin.com/in/dastanbek-samatov-30ab71128/
 - https://www.linkedin.com/in/chris-veselinov/
+- https://www.linkedin.com/in/kristiyan-srebrev-30087229/
 
 ## Development Roadmap
 Based on our past experience from building Developer tools and the expertise we gained while building the PoC Account-Based Runtime we think that there is a spectrum of tasks that will contribute to the success of Subsembly.
