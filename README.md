@@ -4,9 +4,7 @@
   <img src="./src/General_Grants_Program.png" style="width:1300px";>
 </p>
 
-As part of our commitment to promoting the Web3 ecosystem, we offer a comprehensive grants program focused on funding software development and research efforts related to **Polkadot** and **Substrate**. 
-
-For smaller technology grants up to **$30k**, which are tracked **transparently** on GitHub and disbursed in **bitcoin**, see our new [Open Grants Program](https://github.com/w3f/Open-Grants-Program). 
+As part of our commitment to promoting the Web3 ecosystem, we offer a comprehensive grants program focused on funding software development and research efforts related to **Polkadot**, **Kusama** and **Substrate**. 
 
 ---
 
@@ -16,6 +14,10 @@ For smaller technology grants up to **$30k**, which are tracked **transparently*
   - [Documentation](#documentation)
   - [Who we are interested in funding](#who-we-are-interested-in-funding)
 - [:pencil: Process](#pencil-process)
+- [:mailbox_with_mail: RFP Suggestion](#mailbox_with_mail-rfp-suggestion)
+- [:rocket: Alternative Funding Sources](#rocket-alternative-funding-sources)
+  - [Treasury](#treasury)
+  - [Open Grants Program](#open-grants-program)
 - [:bulb: Help](#bulb-help)
   - [Additional information](#additional-information)
   - [Real-time conversation](#real-time-conversation)
@@ -99,6 +101,31 @@ If you are considering applying for a grant, please follow the process below.
   * Established teams with a track record
 * Researchers
   * Universities/Professors
+
+## :mailbox_with_mail: RFP Suggestion
+If you think that we should sponsor the development of certain tools/projects related to **Polkadot**, **Kusama** and/or **Substrate** that aren't in the [Polkadot Stack](./grants/polkadot_stack.md) then feel free to submit an RFP suggestion using the process described below. We're particularly interested in supporting projects that could be leveraged by other builders in our ecosystem. We will review your proposal and if we believe it’s useful, we will create an RFP based on your idea and try to find teams to work on it.
+
+Instructions for submitting an RFP suggestion:
+
+1. Fork this repository.
+1. In the newly created fork, create a copy of the [suggestion template](./rfp-proposal/suggestion-template.md).
+1. Label the file as "*project_name*.md" where *project_name* is the name of your project.
+1. Fill out the template with the details of your project.
+1. Once you have completed the application, click on "create new pull request".
+
+## :rocket: Alternative Funding Sources
+
+### Treasury
+
+The treasury is a pot of on-chain funds collected through transaction fees, slashing, staking inefficiencies, etc. The funds held in the treasury can be spent by making a spending proposal. [Polkadot](https://polkadot.network/) as well as [Kusama](https://kusama.network/) offer everyone the opportunity to apply for funding via the treasury. See:
+
+- [Treasury Wiki](https://wiki.polkadot.network/docs/en/learn-treasury#docsNav)
+- [Kusama Treasury Guide](https://docs.google.com/document/d/1p3UQUjph5t8TVaWnTkfrI5mE-BABnM9Xvtuhdlhl6JE/edit)
+- [Polkadot Treasury Guide](https://docs.google.com/document/d/1IZykdp2cyQavcRyZd_dgNj5DcgxgZR6kAqGdcNARu1w/edit)
+
+### Open Grants Program
+
+For smaller technology grants up to **$30k**, which are tracked **transparently** on GitHub and disbursed in **bitcoin**, see our [Open Grants Program](https://github.com/w3f/Open-Grants-Program). 
 
 ## :bulb: Help
 

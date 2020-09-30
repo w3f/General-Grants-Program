@@ -1,12 +1,10 @@
 # General Grants Program
 
-<p align="center">
-  <img src="../src/General_Grants_Program.png" style="width:1300px";>
+<p align="center">	<p align="center">
+  <img src="../src/General_Grants_Program.png" style="width:1300px";>	 
 </p>
 
-As part of our commitment to promoting the Web3 ecosystem, we offer a comprehensive grants program focused on funding software development and research efforts related to **Polkadot** and **Substrate**. 
-
-For smaller technology grants up to **$30k**, which are tracked **transparently** on GitHub and disbursed in **bitcoin**, see our new [Open Grants Program](https://github.com/w3f/Open-Grants-Program). 
+As part of our commitment to promoting the Web3 ecosystem, we offer a comprehensive grants program focused on funding software development and research efforts related to **Polkadot**, **Kusama** and **Substrate**. 
 
 ---
 
@@ -16,6 +14,10 @@ For smaller technology grants up to **$30k**, which are tracked **transparently*
   - [Documentation](#documentation)
   - [Who we are interested in funding](#who-we-are-interested-in-funding)
 - [:pencil: Process](#pencil-process)
+- [:mailbox_with_mail: RFP Suggestion](#mailbox_with_mail-rfp-suggestion)
+- [:rocket: Alternative Funding Sources](#rocket-alternative-funding-sources)
+  - [Treasury](#treasury)
+  - [Open Grants Program](#open-grants-program)
 - [:bulb: Help](#bulb-help)
   - [Additional information](#additional-information)
   - [Real-time conversation](#real-time-conversation)
@@ -31,7 +33,7 @@ Technical grants are intended to fund **Polkadot** and **Substrate** specific pr
 * software development
 * research
 
-For more specific information on our funding priorities, please view the [Polkadot Stack](./polkadot_stack.md) and take a look at the [accepted grant applications](https://github.com/w3f/Web3-collaboration/blob/master/grants/accepted_grant_applications.md).
+For more specific information on our funding priorities, please view the [Polkadot Stack](./grants/polkadot_stack.md) and take a look at the [accepted grant applications](https://github.com/w3f/Web3-collaboration/blob/master/grants/accepted_grant_applications.md).
 
 The funding maximum for technical grants is $100,000 per project. Teams shouldn’t seek to cover 100% of their early-stage funding via W3F Grants alone.
 
@@ -53,10 +55,10 @@ To ensure ease-of-use we require all projects to create documentation that expla
 If you are considering applying for a grant, please follow the process below.
   
 1. **Determine the scope of your project**
-   * Review the [Polkadot Stack](./polkadot_stack.md) and take a look at the [accepted grant applications](https://github.com/w3f/Web3-collaboration/blob/master/grants/accepted_grant_applications.md). If your idea isn&rsquo;t listed, but you think it&rsquo;s cool, you can send us an [email](mailto:grants@web3.foundation) and tell us about it.
+   * Review the [Polkadot Stack](./grants/polkadot_stack.md) and take a look at the [accepted grant applications](https://github.com/w3f/Web3-collaboration/blob/master/grants/accepted_grant_applications.md). If your idea isn&rsquo;t listed, but you think it&rsquo;s cool, you can send us an [email](mailto:grants@web3.foundation) and tell us about it.
    * Ensure the scope of your project falls within the [:bookmark_tabs: Guidelines](#bookmark_tabs-guidelines)
     
-   Once you determine that your project falls within the [Polkadot Stack](./polkadot_stack.md) and corresponds to the guidelines above, proceed to the next step.
+   Once you determine that your project falls within the [Polkadot Stack](./grants/polkadot_stack.md) and corresponds to the guidelines above, proceed to the next step.
    
 1. **Application**
 
@@ -88,7 +90,7 @@ If you are considering applying for a grant, please follow the process below.
    
 1. **Follow up**
    * Once progress has started, the W3F will want to have follow up conversations to see how the project is progressing.
-   * To help to speed up the milestone evaluation process, take a look at the [Milestone Deliverables Guidelines](./milestone-deliverables-guidelines.md)
+   * To help to speed up the milestone evaluation process, take a look at the [Milestone Deliverables Guidelines](./grants/milestone-deliverables-guidelines.md)
 
 ### Who we are interested in funding
 
@@ -99,6 +101,30 @@ If you are considering applying for a grant, please follow the process below.
   * Established teams with a track record
 * Researchers
   * Universities/Professors
+
+## :mailbox_with_mail: RFP Suggestion
+If you think that we should sponsor the development of certain tools/projects related to **Polkadot**, **Kusama** and/or **Substrate** that aren't in the [Polkadot Stack](./grants/polkadot_stack.md) then feel free to submit an RFP suggestion using the process described below. We're particularly interested in supporting projects that could be leveraged by other builders in our ecosystem. We will review your proposal and if we believe it’s useful, we will create an RFP based on your idea and try to find teams to work on it.
+
+Instructions for submitting an RFP suggestion:
+
+1. Fork this repository.
+1. In the newly created fork, create a copy of the [suggestion template](./rfp-proposal/suggestion-template.md).
+1. Label the file as "*project_name*.md" where *project_name* is the name of your project.
+1. Fill out the template with the details of your project.
+1. Once you have completed the application, click on "create new pull request".
+
+## :rocket: Alternative Funding Sources
+
+### Treasury
+
+The treasury is a pot of on-chain funds collected through transaction fees, slashing, staking inefficiencies, etc. The funds held in the treasury can be spent by making a spending proposal. [Polkadot](https://polkadot.network/) as well as [Kusama](https://kusama.network/) offer everyone the opportunity to apply for funding via the treasury. See:
+
+- [Kusama Treasury Guide](https://docs.google.com/document/d/1p3UQUjph5t8TVaWnTkfrI5mE-BABnM9Xvtuhdlhl6JE/edit)
+- [Treasury Wiki](https://wiki.polkadot.network/docs/en/learn-treasury#docsNav)
+
+### Open Grants Program
+
+For smaller technology grants up to **$30k**, which are tracked **transparently** on GitHub and disbursed in **bitcoin**, see our [Open Grants Program](https://github.com/w3f/Open-Grants-Program). 
 
 ## :bulb: Help
 
