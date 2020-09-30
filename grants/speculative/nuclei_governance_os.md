@@ -59,9 +59,9 @@ For each milestone:
 * Please indicate the milestone duration, as well as number of Full-Time Employees working on each milestone, and include the number of days along with their cost per day.
 
 ### Overview
-* **Total Estimated Duration:** Duration of the whole project
-* **Full-time equivalent (FTE):**  Workload of an employed person ([see](https://en.wikipedia.org/wiki/Full-time_equivalent)) 
-* **Total Costs:** Amount of Payment for the whole project. The total amount of funding needs to be below $100k.
+* **Total Estimated Duration:** 2 months
+* **Full-time equivalent (FTE):**  1 
+* **Total Costs:** $20,000, open to receiving a part of funds in DOTs.
 
 ### Milestone 1 - Base pallets to represent the core functionnalities of an organization
 * **Estimated Duration:** 1 month
