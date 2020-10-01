@@ -5,7 +5,7 @@
 
 The feature of **MPC-based Threshold Signature** offers users the complete control over their digital assets and the ability to achieve multi-signature with keyless cryptographic security.
 
-<img src="https://ipfs.io/ipfs/QmNokuRsE5dXN4X47opiNuAcqdGB7xtKkZAwCiVh5rJigN" style="zoom: 100%;" />
+<img src="https://ipfs.io/ipfs/QmPA4fmURX4fkPUejUsmQBDpU1RZDda8wNh4yxkf3eL23t" style="zoom: 100%;" />
 
 The main disadvantage of multisig is that different blockchains requires different implementations, though plenty of blockchains don't even support multisig. Instead, **TSS** is obviously a better choice as it is entirely based on cryptography. Therefore, supporting **TSS** on each blockchain is always possible in spite of the blockchain's own implementation and features. Furthermore, signers' privacy will be well protected as their information won't be visible in transaction. It also reduces cost and avoids smart contract related risks since signature will be generated through **MPC** instead of executing a smart contract on chain. 
 
@@ -14,8 +14,10 @@ As stated above, **TSS** is basically cross-chain. Considering Polkadot is also 
 
 
 
-### Prototype Preview
+### A Typical Flow Preview
 <img src="https://ipfs.io/ipfs/QmaWbbTC1zH6MDMqjYhq1UrN6QMpQ5sVKLrZKGDm136qp8" style="zoom: 100%;" />
+
+For instance, Alice, Bob and Chris together create a 2-3 wallet to share assets management and they decide to make a transfer. First Alice initiates the transfer and then Bob and Chris both receive push notifications. Since their wallet requires two signatures, Alice must wait for one of her friends to join the signing session before moving to the next step. Assuming Bob joins the session first, Alice and Bob both signs the transaction by using **MPC** technology and then the transaction will be broadcast to blockchain.
 
 
 
@@ -28,6 +30,8 @@ As stated above, **TSS** is basically cross-chain. Considering Polkadot is also 
 
 Jadepool SaaS is a one-stop platform for asset custody, trading and wealth increment. It is dedicated to provide institutions and qualified individual investors with services that are tailored to their business needs. Customized risk control services, simple web management interface and rich API interface make asset management more secure, fasterand easier to use.
 
+Jadepool SaaS provides **Jadewallet** services including notification/message, order processing, session management, etc.
+
 
 
 #### Jadepool Hub
@@ -35,6 +39,8 @@ Jadepool SaaS is a one-stop platform for asset custody, trading and wealth incre
 ##### Monitor Blockchain & Process Transaction 
 
 Jadepool Hub is the software solution that automates blockchain-related services of multiple blockchains and thousands of tokens. It is mainly responsible for signing & broadcasting transactions, monitoring blockchain and securely managing crypto assets etc. The main services it provides include deposit, withdrawal, cold storage, staking etc. Over 30 blockchains has been supported.
+
+Jadepool Hub provides **Jadewallet** services including building unsigned tx, broadcasting tx, monitoring addresses' and txs' status on blockchain, etc.
 
 
 
@@ -49,8 +55,6 @@ Jadepool Hub is the software solution that automates blockchain-related services
 * Kevin Li
 
 * Hilbert Zhou
-
-* Yi Zhang
 
 * Andy Yi
 
@@ -76,7 +80,6 @@ Tuolian (Shanghai) Co., Ltd.
 * Daizong Zhang: Core back-end developer of Jadepool SaaS. 5+ years Golang back-end development. Currently focusing on the blockchain field.
 * Kevin Li: 6 years of native mobile development experience. 3 years of React Native, Flutter Hybrid and front-end development experience. Graduated from Syracuse University.
 * Hilbert Zhou: 2 years of ops experience on AIX, websphere and Power. 7+ years back-end service development experience including HFT, CTA and blockchain.
-* Yi Zhang: Key member of the DEX project and the financial derivative product. Experienced in decentralized architecture design and product design. Worked for IBM as IT consultant over 7 years.
 * Andy Yi: Product manager at NBLTrust for 3 years, responsible for Jadepool SaaS design and operation. 9 years of QA Manager experience, worked for General Electric, Hua Wei and Travelzen.com.
 * Kristie Guo: Product manager of Jadepool Hub for 2+ years. 2+ years of software engineer experience at Lending Club in San Francisco. Graduated from Cornell University.
 * Steven Wu: Product manager at NBLTrust for 3 years. 6+ years of product manager and 4+ years full stack development experience. An ex start-up co-founder.
@@ -98,99 +101,97 @@ Tuolian provides the full package of custody services for well-known institution
   
 
 ## Development Roadmap
-We need 4 months and 9 full-time employees (5 developers) to complete the project. The estimated total cost is $40,000.
+We need 3 months and 9 full-time employees (5 developers) to complete the project. The estimated total cost is $30,000.
 
-We are hoping to receive a share of grant by the end of each milestone: $40,000 / 4.
+We are hoping to receive a share of grant by the end of each milestone: $30,000 / 3.
 
 We accept grant in DOTs or KSMs.
 
 
 
-**Milestone 1:** (weeks 0-4)
+### Milestone 1 (1 month)
 
 - MPC core:
-  
-  - Use Rust and Python to make a demo that works on a single pc.
-  - Test and fix issue.
-  
+
+  - Implement key generation for creating secret shares without trusted dealers (keygen).
+  - Implement using the secret shares to generate a signature (signing).
+  - Implement a local test server to relay messages between multi parties.
+  - Implement a demo to show keygen and signing process.
+
 - Wallet app:
-  - App architecture and framework. (weeks 0-2)
-  - Network layer and data model. (weeks 0-2)
-  - Create a general wallet in Jadepool SaaS. (weeks 2-4)
   
-- Jadepool SaaS api:
-  - Create a MPC wallet. (weeks 0-2)
-  - Join a MPC wallet. (weeks 0-2)
-  - Backup a MPC wallet. (weeks 0-2)
-  - Restore a MPC wallet. (weeks 2-4)
-  - Relay message to MPC server. (weeks 2-4)
+  - Build app architecture and framework with Flutter: network layer, data model, encryption mechanism, etc.
   
-- MPC server:
-  - Receive message from each party.
-  - Dispatch message to specific party.
-  
-- Deliverables (plan 10.09):  MPC core https://github.com/nbltrust/threshold-signature-lib
+- Server API:
+  - Create a MPC wallet
+    - The api needs params such as wallet name, threshold, number of members, UUIDs to identify a wallet in database. 
+  - Join a MPC wallet.
+    - Add members to a specific wallet.
+  - Backup a MPC wallet
+    - Users can upload encrypted secret shares to server. The decryption key is always in users' control.
+  - Restore a MPC wallet
+    - A user could apply for restoring his own secret share.
+    - Other members in same wallet group need to approve the application.
+    - The applicant can fetch his encrypted secret share only if all other members agree the application.
+  - MPC P2P channel and session management
+    - Implement the P2P channel to dispatch message between multi parties. 
+    - Manage the session with exception handling, such as timeout, network error, etc.
 
+- Deliverables:  https://github.com/nbltrust/threshold-signature-lib
+
+  - MPC core source code
+  - MPC core document
+  - MPC core demo
+  
   
 
-**Milestone 2:** (weeks 4-8)
+### Milestone 2 (1 month)
 
-- MPC core:
-  - Work with MPC server.
-  - Test and fix issue.
-  
-- Wallet app:
+- Wallet app
+
   - Make MPC core as a library which can be called by using Dart. 
-  - Make MPC logic work on iOS with a local test server.
-  - Create a MPC wallet (keygen).
-  - UI
-  
-- Jadepool SaaS api:
-  - Withdraw logic
+  - Any user can create a MPC wallet and invite other members to join the wallet.
+  - To activate a wallet, members need to do keygen process to generate secret shares on their mobile devices.
+
+- Server API:
+  - Implement transfer logic
+    - It will generate a transaction order on server when a member apply for sending a transaction.
+    - The order would be marked as failed if any member reject it.
+    - Create a signing session when members are ready to sign. Connect users -> construct raw tx -> review tx -> sign tx.
+    - Broadcast the signed transaction to blockchain.
   - Transaction history
-  - Test and fix issue.
-  
-- MPC server:
-  
-  - Test and fix issue.
-  
-- Deliverables (plan 11.06):  TestFlight https://testflight.apple.com/join/k2nXCif2
+    - Record transaction history for all wallets.
+  - Push notification
+
+- Deliverables:  TestFlight https://testflight.apple.com/join/k2nXCif2
 
   
 
-**Milestone 3:** (weeks 8-12)
+### Milestone 3 (1 month)
 
-- Support ETH
-
-- Backup and restore wallet
-
-- Notification
-
-- Test and fix issue
-
-- Release 0.5.0 Beta version
-
-- Deliverables (plan 12.04): TestFlight https://testflight.apple.com/join/k2nXCif2
-
-  
-
-**Milestone 4:** (weeks 12-16)
-
-- Support DOT/KSM
-- Settings
-- Localization
-- UI details
-- Test and fix issue
-- Release 0.6.0 Beta version
-- Deliverables (plan 12.31):  
+- Users can make DOT/KSM transactions with MPC protocol
+  - Serialize and deserialize data with SCALE Codec.
+  - Users can transfer with keep-alive check (default) or not, user can set it in advanced options.
+  - Users can add a "tip" to increase transaction priority.
+  - A MPC signing session would be created for members to sign the transaction.
+  - A signed transaction would be broadcasted to Polkadot/Kusama.
+- Users can backup secret shares
+  - The wallet app would reminder users to backup secret shares.
+  - A random decryption key would be generated to encrypt a secret share.
+  - Encrypted secret shares would be upload to server.
+- Users can restore secret shares
+  - If accidents occur like mobile phone lost, a user need to restore his secret share before accessing wallet.
+  - The user need to make an restore application.
+  - Until other members agree the application, the user has not the right to fetch his encrypted secret share.
+  - After encrypted secret share fetched, the applicant could use the decryption key to decrypt it.
+- Deliverables: 
   - dart-scale-codec https://github.com/nbltrust/dart-scale-codec
-  
   - TestFlight https://testflight.apple.com/join/k2nXCif2
-  
-    
+
+
 
 ## Future Plans
-We are planning to support staking, separating stash and controller accounts in the future. The App will be submitted to App Store once it is ready for version 1.0.0 release.
+Our future plan is to integrate **Jadewallet** with [Polkadot/Substrate Portal](https://polkadot.js.org/apps) which will bring support of staking and separating stash/controller accounts. The App will be submitted to App Store once the 1.0.0 version is released.
 
 **Jadewallet** wants to be the portal of institutional investors into the Polkadot community.
 
@@ -210,6 +211,10 @@ No.
 ### Have you applied for other grants so far?
 
 No.
+
+### Will users who are not part of Jadepool Hub/SaaS be able to use Jadewallet?
+
+Yes. Jadepool Hub and Jadepool SaaS are both back-end services so they are transparent to end users.
 
 ### References
 
