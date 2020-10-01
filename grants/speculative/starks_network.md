@@ -127,7 +127,7 @@ Glacier Blockchain Technology is a company registered in Yantai, Shandong, P. R.
 
 ## Development Roadmap
 
-### Milestone 1 — Integration of the Distaff VM as a Substrate Native Runtime Module 
+### Milestone 0 — Integration of the Distaff VM as a Substrate Native Runtime Module (Already covered by the Open Grant Program)
 
 - **Estimated Duration:** 1 month
 - **FTE:** 3
@@ -139,7 +139,7 @@ As the Distaff VM uses the Rust standard library, it is not feasible to compile 
 * We will deliver a working VM module and a document that explains how a user can interact with it via API calls. We will also provide a full test suite (mock and test files) for the VM module describing how the module can be tested. 
 * We will deliver a Docker image which contains the VM module and expose its main functionalities via RPC calls.
 
-### Milestone 2 — Implementation of the Off-Chain Worker Module  
+### Milestone 1 — Implementation of the Off-Chain Worker Module  
 
 - **Estimated Duration:** 1 month
 - **FTE:** 3
@@ -151,7 +151,7 @@ In this milestone, we will design and implement an off-chain worker (ocw) module
 * We will design and deploy a smart contract using e.g. ink! for the ocw to interact with. The ocw will be able to change the state of the smart contract based on the proof verification result. 
 * We will deliver a Docker image which contains the ocw and the smart contract implementation. We will write a tutorial on how to interact with the ocw. The user will be able to feed their own Distaff VM proof data as input to the ocw and get the subsequent output. They will also be able to observe the state change of the smart contract as a result of their successful/failed verification. 
 
-### Milestone 3 — Implementation of the Off-Chain Data Storage
+### Milestone 2 — Implementation of the Off-Chain Data Storage
 
 - **Estimated Duration:** 1 month
 - **FTE:** 3
@@ -162,6 +162,18 @@ In this milestone, we will design and implement the **Starks data node** which s
 * We will design the ocw logic for its interaction with the data node. Basically, the ocw will periodically access the REST API of the data node. It checks if new data is present in the database and if so, fetches them for verification. 
 * As storage has a cost, we will create a mechanism for the data node to decide if the incoming data should be stored or abandoned depending on the state of a smart contract on the blockchain. 
 * We will deliver the Starks data node as a docker image. We will also provide documentation on how to use it alongside the Starks Network node. The user will be able to spin up both nodes on the same server and observe their interaction given proper input to the REST API.
+
+### Milestone 3 — Implementation of the User Interface for Off-Chain Data Storage
+
+- **Estimated Duration:** 1 month
+- **FTE:** 3
+
+In this milestone, we will design and implement the user interface for **Starks data node** interaction. The work flow between the user payment and ocw verification will also be implemented. 
+
+* The User Interface will be implemented as a separate webpage based on the Polkadot-JS front-end. In the scope of this milestone, it has two input fields--one for payment and one for data upload. In the data upload field, the user can upload the files for the program, input, output and the proof of a Stark computation. A hash of all the these data combined will be generated and used as an index for the data blob. In the payment field, the user can set the amount of payment (using test token) and input the hash of the data blob. 
+* A smart contract will be designed to record the payment history. The amount of payment from each user (address) will be recorded in a table data structure. 
+* A query logic will be added to the ocw. The ocw will check the smart contract for payment status before it processes the proof verification for a certain user. 
+* We will deliver the demo system as a docker image. We will also provide a tutorial on how to interact with  the payment interface. The user will be able to upload their proof data, make a payment and observe their request being processed. The result of this process can be learned by querying the same smart contract. 
 
 ### Open Source License
 
