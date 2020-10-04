@@ -54,6 +54,7 @@ https://github.com/paritytech/substrate/pull/6277
 https://github.com/paritytech/parity-common/pull/396
 
 
+
 ### Ecosystem Fit 
 There is no existing project similar to ours. 
 
@@ -69,17 +70,18 @@ There is no existing project similar to ours.
 
 
 ### Legal Structure 
-XXXX
+Information of our legal structure will be disclosed privately.
 
 ### Team's experience
 
-The team conducted an empirical study on real-world memory bugs and concurrency bugs in Rust, which was published in PLDI’2020. Through this project, the team has built on a comprehensive understanding of common errors made by programmers when coding Rust. 
+The team conducted an empirical study on memory bugs and concurrency bugs in real-world Rust programs. The study was published in PLDI’2020. Through this project, the team has built a comprehensive understanding of common errors made by programmers when coding Rust. 
 
-The team built a prototype for the proposed tool, and the prototype was published in the demonstration track of CCS’2020. This experience demonstrates that the team is capable to build the proposed technique. 
+The team built a prototype for the proposed tool. The prototype was published in the demonstration track of CCS’2020, demonstrating the team’s capability to build the proposed technique. 
 
 Team member Linhai Song has 10 years of expertise in programming analysis, and has published at top programming languages and software engineering conferences (e.g., PLDI, ICSE, FSE, OOPSLA). 
 
 Team member Yiying Zhang has conducted various systems research with papers published at OSDI and SOSP. 
+
 
 ### Team Code Repos
 * LDoctor (ICSE ‘17): https://github.com/songlh/LDoctor 
