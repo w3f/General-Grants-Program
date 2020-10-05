@@ -189,3 +189,4 @@ This page gives an overview of accepted grants and a link to their GitHubs. Keep
 - [Cobo](https://cobo.com/)- Cobo Vault - ([GitHub](https://github.com/CoboVault))
 - [NodeFactory](https://nodefactory.io/) - Vedran: Auto-funded public p2p infrastructure (APPI) ([GitHub](https://github.com/NodeFactoryIo/Vedran))
 - [Adoriasoft](https://adoriasoft.com/) - Cosmos-SDK Parachain Development Kit Phase 2 ([GitHub](https://github.com/adoriasoft/cosmos-sdk))
+- [sup](https://github.com/clearloop/sup) - Command line tool for generating or upgrading a Substrate node ([GitHub](https://github.com/clearloop/sup))
