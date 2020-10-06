@@ -56,7 +56,7 @@ We want to keep in mind that although Subsembly will follow Substrate’s approa
 
 ![subsembly-wbs](https://raw.githubusercontent.com/LimeChain/General-Grants-Program/images-branch/grants/rfps/images/subsembly-wbs-diagram.png)
 
-## Milestone 1 — Foundation — 18 days
+## Milestone 1 — Foundation — 15 days
 This milestone will lay out the project’s foundations. For the successful completion of this milestone we can define the following criteria:
 1. Brand materials (logo) for Subsembly.
 2. Create a new repository and use the current AS Runtime Modules and core modules in the Subsembly framework.
@@ -68,7 +68,7 @@ This milestone will lay out the project’s foundations. For the successful comp
 5. Optimise the performance of AS SCALE Codec encoding/decoding (one of the most frequently used operations in the Runtime. We can achieve more than 2x optimisation).
 
 **Full-Time Employees: 2**<br>
-**Days: 18**
+**Days: 15**
 
 ## Milestone 2 — Metadata and Fees — 15 days
 For the successful completion of this milestone we can define the following criteria:
