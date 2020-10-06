@@ -82,7 +82,7 @@ In the below sections you can find a list of different layers of the Polkadot St
 | Easy Runtime Development | [VS Code Plugin](https://github.com/everstake/vscode-plugin-substrate), [Atom Code Plugin](https://github.com/everstake/atom-plugin-substrate), [Substrate Playground](https://github.com/paritytech/substrate-playground), [Substrate Marketplace VS Code Plugin](https://github.com/paritytech/vscode-substrate), [AssemblyScript Runtime Generation](https://github.com/LimeChain/as-substrate-runtime)| |
 | Easy Smart Contract Development | [ink-playground](https://github.com/staketechnologies/ink-playground/tree/master), [Ink! Remix Plugin](https://github.com/blockchain-it-hr/ink-remix-plugin) 
 | Runtime Security | [K specifications](https://github.com/kframework/wasm-semantics), [PolPatrol - Polkadot Runtime Checker](https://github.com/ChainSecurity/polpatrol) | Automated Runtime checking tools
-| Smart Contract Languages | [Solang](https://github.com/hyperledger-labs/solang), [Ink!](https://github.com/paritytech/ink), [Pact](https://github.com/kadena-io/)| AssemblyScript, Functional Programming Languages, other languages with developed toolchains |
+| Smart Contract Languages | [Subscript](https://github.com/slickup/subscript), [Solang](https://github.com/hyperledger-labs/solang), [Ink!](https://github.com/paritytech/ink), [Pact](https://github.com/kadena-io/)| Functional Programming Languages, other languages with developed toolchains |
 | Smart Contract Security |   
 | Testing |  [Halva](https://github.com/orgs/halva-suite), [MixBytes Tank](https://github.com/mixbytes/tank)
 
