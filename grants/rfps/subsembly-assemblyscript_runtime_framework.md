@@ -58,14 +58,15 @@ We want to keep in mind that although Subsembly will follow Substrate’s approa
 
 ## Milestone 1 — Foundation — 15 days
 This milestone will lay out the project’s foundations. For the successful completion of this milestone we can define the following criteria:
-1. Brand materials (logo) for Subsembly.
-2. Create a new repository and use the current AS Runtime Modules and core modules in the Subsembly framework.
-3. Explore possible design implementation and refactor the code structure so that it is easy for someone to configure the properties of his Runtime or the modules that he uses. The goal would be to produce a design that provides high modifiability by having low coupling and high cohesion. This is one of the most important aspects of the framework and we would like to do it properly while keeping in mind the nature of the AssemblyScript language.
+1. Create a new repository and use the current AS Runtime Modules and core modules in the Subsembly framework.
+2. Explore possible design implementation and refactor the code structure so that it is easy for someone to configure the properties of his Runtime or the modules that he uses. The goal would be to produce a design that provides high modifiability by having low coupling and high cohesion. This is one of the most important aspects of the framework and we would like to do it properly while keeping in mind the nature of the AssemblyScript language.
     - Being able to easily configure runtime version and block time.
     - Being able to easily add new custom pallets/modules.
 
-4. Provide inline documentation and a README file documenting the Subsembly project.
-5. Optimise the performance of AS SCALE Codec encoding/decoding (one of the most frequently used operations in the Runtime. We can achieve more than 2x optimisation).
+3. Provide inline documentation and a README file documenting the Subsembly project.
+4. Optimise the performance of AS SCALE Codec encoding/decoding (one of the most frequently used operations in the Runtime. We can achieve more than 2x optimisation).
+
+Note: Branding materials will be created although they will be outside the grant scope and will be funded by LimeChain.
 
 **Full-Time Employees: 2**<br>
 **Days: 15**
