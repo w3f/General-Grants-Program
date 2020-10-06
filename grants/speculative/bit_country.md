@@ -143,10 +143,10 @@ With the Substrate technology/decentralization, Bit.Country will become a popula
 ### Team members
 
 Full-timers
-* Ray Lu (Founder, Substrate, Blockchain enthusiast, full-time)
+* Ray Lu (Founder, Substrate, Rust, Polkadot Ambassador, full-time)
 * Justin Pham (CTO, Rust, Substrate, full-time)
 * Shannon Christie (Technology Manager & Project Lead, Rust, Substrate & Game, full-time)
-* Daniel Choi (Full-stack developer / test analyst, Rust, full-time)
+* Daniel Choi (Full-stack developer / test analyst, Rust, Substrate & Game, full-time)
 * Logan Liu (UX developer, full-time)
 
 Part-timers
