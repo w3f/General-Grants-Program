@@ -333,7 +333,7 @@ We believe Bit.Country will bring many people to the ecosystem.
 ### Community engagement
 
   * Medium Article 1: [Create a decentralized country of your own](https://medium.com/@bitcountry/create-and-live-in-a-decentralized-world-of-your-own-4ad872379d00)
-  * Polkadot virtual meetups and bit.country presentation by Ray Lu (Polkadot Ambassador). (50 attendeed, 80% from NZ/AU, the rest from UK,IE,SG,HK & CA)
+  * Polkadot virtual meetups and bit.country presentation by Ray Lu (Polkadot Ambassador). (50 attended, 80% from NZ/AU, the rest from UK,IE,SG,HK & CA)
     ![Polkadot meetup and bit.country showcase](https://mvp.studio/wp-content/uploads/2020/10/communityengagement.png "Polkadot virtual meetup and bit.country showcase")
 
 ## Future Plans
