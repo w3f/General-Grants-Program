@@ -17,7 +17,7 @@ Please provide the following:
   Censorship-resistance is considered to be one of the main value propositions of Bitcoin. 
   The idea is that no nation-state, corporation, or third party has the power to control who can use the network. 
   Censorship-resistance ensures that the laws that govern the network are set in advance and can’t be retroactively altered to fit a specific agenda.
-  Unlike most messaging app founded in crypto world such as hopr, status, ally/scrumble, we are focus on user experience, 
+  * Unlike most messaging app founded in crypto world such as hopr, status, ally/scrumble, we are focus on user experience, 
   and we are developing the front end app instead of background technologies. Our target is to make it used by people in crypto world. 
 
   * An indication of how you will integrate this project into Substrate / Polkadot / Kusama.
