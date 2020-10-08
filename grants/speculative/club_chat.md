@@ -8,20 +8,34 @@
 
 Please provide the following:
   * A brief description of the project.
-  In the past few years, the technology and infrastructure of decentralization have made considerable progress, but the crypto world is still using traditional communication tools such as WeChat Communication. It is the same sisuation of crpto exchanges as people still reply on centralized exchanges  to trade cryptocurrencies.
-  过去几年去中心化技术和基础设施都有了长足的发展，但是就像中心化交易所依然是加密货币的主要交易场所一样，加密世界目前依然在使用诸如微信这样的传统的通讯工具进行日常的沟通。
-  同时也像uniswap打开了去中心化交易所的大门一样，我们觉得去中心化的通讯工具进入实用阶段的时机和条件也已经具备很成熟。首先是加密货币的用户规模至少在几十万甚至百万级别，技术上亦来云carrier为代表的去中心化通讯基础设施的日臻成熟，这为我们基于密码学、智能合约以及点对点通讯等技术构建一个去中心化、不受任何商业机构监管和授权使用的即时通讯系统成为可能
-
-  * the timing and conditions for decentralized communication tools to enter the practical stage are ripe. 
-  the user scale of encrypted currency is at least hundreds of thousands or even millions. 
-  Technically, the messaging technologies is the underline technologies in every blockchain such as Substrate in Polkadot, Whishper in Ethereum, Carrier in Elastos carrier and it can be used to implement peer to peer messaging.. 
-  Based on cryptography, smart contracts, and peer-to-peer communication technologies, it is possible to build a decentralized instant messaging system with ensorship-resistance, which means it can not regulated and 
-  controlled by any commercial organization. 
+   
+  * Club Chat is a decentralized, censorship free real time instant messenger with audio/vedio function. 
+ Unlike most instant messenger app today, there is no central account system for users, it uses DID(Decentralized Identifier) as the indentity and signature to secure.  
+ There is no server either, it will be the blockchain nodes for the messaging relay and route, so there is no service nor maintenance team needed to keep the system running. 
+ There is no single point failure.
+ Privacy, Security and Censorship-resustance is our goal.
   Censorship-resistance is considered to be one of the main value propositions of Bitcoin. 
   The idea is that no nation-state, corporation, or third party has the power to control who can use the network. 
   Censorship-resistance ensures that the laws that govern the network are set in advance and can’t be retroactively altered to fit a specific agenda.
+  Unlike most messaging app founded in crypto world such as hopr, status, ally/scrumble, we are focus on user experience, 
+  and we are developing the front end app instead of background technologies. Our target is to make it used by people in crypto world. 
+
   * An indication of how you will integrate this project into Substrate / Polkadot / Kusama.
+  We will use the address in Substrate/Polkadot as the identity of the messaging part.
+  We are going to use the peer to peer messaging technologies provided by substrate.
+
   * An indication of why your team is interested in creating this project.
+  In the past few years, the technology and infrastructure of decentralization have made considerable progress,
+   but the crypto world is still using traditional communication tools such as WeChat Communication. 
+   Encouraged by uniswap which build pure decentralized exchange on Ethereum, we are going to build decentralized instant messenger 
+   on top of the existing peer to peer network exsited in most blockchain.
+   As most people still reply on centralized exchanges to trade cryptocurrencies, 
+   we are facing the same problem and difficulty as most instant messenger are domanated by single platform and commercial company.
+   In stead of chalendge most existing instant messenger, we are going to use the technologies developed by cryto workd and serve people in crtpto world. 
+   the user scale of encrypted currency is at least hundreds of thousands or even millions, it is big enough for us at this stage. 
+   Technically, the messaging technologies is the underline technologies in every blockchain such as Substrate in Polkadot, Whishper in Ethereum, Carrier in Elastos carrier and it can be used to implement peer to peer messaging.. 
+   Based on cryptography, smart contracts, and peer-to-peer communication technologies, it is possible to build a decentralized instant messaging system with ensorship-resistance, which means it can not regulated and 
+   controlled by any commercial organization. 
 
 ### Project Details 
 We expect the teams to already have a solid idea about the project's expected final state.
