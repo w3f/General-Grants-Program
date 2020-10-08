@@ -21,11 +21,12 @@ Please provide the following:
   and we are developing the front end app instead of background technologies. Our target is to make it used by people in crypto world. 
 
   * An indication of how you will integrate this project into Substrate / Polkadot / Kusama.
-  We will use the address in Substrate/Polkadot as the identity of the messaging part.
+  
+  *We will use the address in Substrate/Polkadot as the identity of the messaging part.
   We are going to use the peer to peer messaging technologies provided by substrate.
 
   * An indication of why your team is interested in creating this project.
-  In the past few years, the technology and infrastructure of decentralization have made considerable progress,
+  * In the past few years, the technology and infrastructure of decentralization have made considerable progress,
    but the crypto world is still using traditional communication tools such as WeChat Communication. 
    Encouraged by uniswap which build pure decentralized exchange on Ethereum, we are going to build decentralized instant messenger 
    on top of the existing peer to peer network exsited in most blockchain.
