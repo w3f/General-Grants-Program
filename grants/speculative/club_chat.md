@@ -22,7 +22,7 @@ Please provide the following:
 
   * An indication of how you will integrate this project into Substrate / Polkadot / Kusama.
   
-  *We will use the address in Substrate/Polkadot as the identity of the messaging part.
+  * We will use the address in Substrate/Polkadot as the identity of the messaging part.
   We are going to use the peer to peer messaging technologies provided by substrate.
 
   * An indication of why your team is interested in creating this project.
