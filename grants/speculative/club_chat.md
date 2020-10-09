@@ -43,10 +43,107 @@ We expect the teams to already have a solid idea about the project's expected fi
 
 Therefore, we ask the teams to submit (where relevant):
 * Mockups/designs of any UI components
+![Image text IOS App](club_chat/IMG_WEBRTCDEMO.PNG)
+![Image text](club_chat/IMG_WEBRTC.jpeg)
+![Image text](club_chat/WEBRTC_METAMASK_JOIN.jpeg)
+![Image text](club_chat/WEBRTC_METAMASK_AUTH.jpeg)
+![Image text](club_chat/WEBRTC_METAMASK_CHAT.jpeg)
+![Image text](club_chat/WEBRTC_METAMASK_CHAT2.jpeg)
 * API specifications of the core functionality
+* WebRTC replys on sigaling protocol to connect peers to build WebRTC connection.
+We define and implement a simple protocol to build audio/vedio conversation and send data between peers.
+THis protocal can be implemented by underline messaging protocol such as carrier in Elastos and whisper in Ethereum.
+It can be implemeneted using the function provided by substrate as well.
+
+### WebRTC Sigaling Protocol
+
+| type               | sdp      | candidates | reason   | options  |
+|--------------------|----------|------------|----------|----------|
+| offer              | required | -          | -        | required |
+| answer             | required | -          | -        | -        |
+| candidate          | -        | required   | -        | -        |
+| removal-candidates | -        | required   | -        | -        |
+| bye                | -        | -          | required | -        |
+
+### Example
+#### 1. Offer
+
+```json
+{
+	"type":"offer",
+	"sdp":"rtc_session_description_generated_by_webrtc",
+	"options":["audio","video","data"]
+}
+```
+### 2. Answer
+```
+{
+	"type":"answer",
+	"sdp":"rtc_session_description_generated_by_webrtc"
+}
+```
+### 3. Candidate
+
+```
+{
+	"type":"candidate",
+	"candidates": [{
+		"sdp": "candidate:684496083 1 udp 1685855999 112.65.48.165 17465 ...",
+		"sdpMLineIndex": 0,
+		"sdpMid": audio
+	}]
+}
+```
+### 4. Removal-Candidate
+
+```
+{
+	"type":"remove-candidates",
+	"candidates": 
+	[
+		{
+			"sdp": "candidate:684496083 1 udp 1685855999 112.65.48.165 17465 ...",
+			"sdpMLineIndex": 0,
+			"sdpMid": audio
+		}, 
+		{
+			"sdp": "rtc_candiate_desciption",
+			"sdpMLineIndex": 0,
+			"sdpMid": audio
+		}, 
+		...
+	]
+}
+```
+### 5. Bye
+
+```
+{
+	"type":"bye"
+	"reason": "reject"
+}
+
+### 6. Send Data by datachannel
+···
+{
+	"fileId": UUID,  //created from the UUID, such as "E621E1F8-C36C-495A-93FC-0C247A3E6E5F"
+	"index": Int, //当前发送文件的切片索引
+	"mime": String, //Multipurpose Internet Mail Extensions，
+	"data": String, //data Base-64 encoded string.
+}
+···
+
 * An overview of the technology stack to be used
+DID is used as the address of the instant messenger, it generated on the user's device in stead of central server.
+It can also be any address in a Ethereum wallet and it need the signature of the walller.
+The Audio/Vedio and Data communicate is done by WebRTC, which is an open source project from Google.
+WebRTC does not work alone and it needs a signaling protocol to help the peer to find each other
+and build the initial connection.
+There is peer to peer messaging system in most blockchain system so we can use it
+to be the signaling platform for WebRTC peers. 
 * Documentation of core components, protocols, architecture etc. to be deployed
 * PoC/MVP or other relevant prior work or research on the topic
+
 
 ### Ecosystem Fit 
 Are there any other projects similar to yours? If so, how is your project different?
