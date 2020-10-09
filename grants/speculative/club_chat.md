@@ -44,7 +44,7 @@ We expect the teams to already have a solid idea about the project's expected fi
 Therefore, we ask the teams to submit (where relevant):
 * Mockups/designs of any UI components
 ![Image text IOS App](club_chat/IMG_WEBRTCDEMO.PNG)
-![Image text](club_chat/IMG_WEBRTC.jpeg)
+![Alt](club_chat/IMG_WEBRTC.jpeg)
 ![Image text](club_chat/WEBRTC_METAMASK_JOIN.jpeg)
 ![Image text](club_chat/WEBRTC_METAMASK_AUTH.jpeg)
 ![Image text](club_chat/WEBRTC_METAMASK_CHAT.jpeg)
