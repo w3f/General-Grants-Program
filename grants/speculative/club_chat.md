@@ -137,6 +137,7 @@ It can be implemeneted using the function provided by substrate as well.
 DID is used as the address of the instant messenger, it generated on the user's device in stead of central server.
 It can also be any address in a Ethereum wallet and it need the signature of the walller.
 The Audio/Vedio and Data communicate is done by WebRTC, which is an open source project from Google.
+With WebRTC, you can add real-time communication capabilities to your application that works on top of an open standard. It supports video, voice, and generic data to be sent between peers, allowing developers to build powerful voice- and video-communication solutions. The technology is available on all modern browsers as well as on native clients for all major platforms. The technologies behind WebRTC are implemented as an open web standard and available as regular JavaScript APIs in all major browsers. For native clients, like Android and iOS applications, a library is available that provides the same functionality. The WebRTC project is open-source and supported by Apple, Google, Microsoft and Mozilla, amongst others.
 WebRTC does not work alone and it needs a signaling protocol to help the peer to find each other
 and build the initial connection.
 There is peer to peer messaging system in most blockchain system so we can use it
