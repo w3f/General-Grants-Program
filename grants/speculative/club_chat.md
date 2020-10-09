@@ -143,6 +143,27 @@ and build the initial connection.
 There is peer to peer messaging system in most blockchain system so we can use it
 to be the signaling platform for WebRTC peers. 
 * Documentation of core components, protocols, architecture etc. to be deployed
+* 1. App: we need App for IOS and Android, a web client with a metamask plugin or dapp in 
+wallet which support WebRTC.
+Those app is heavyly reply on WebRTC. The WebRTC standard covers, 
+on a high level, two different technologies: media capture devices and peer-to-peer connectivity.
+Media capture devices includes video cameras and microphones, but also screen capturing "devices".
+ For cameras and microphones, we use navigator.mediaDevices.getUserMedia() to capture MediaStreams. For screen recording, we use navigator.mediaDevices.getDisplayMedia() instead.
+The peer-to-peer connectivity is handled by the RTCPeerConnection interface. 
+This is the central point for establishing and controlling the connection between two peers in WebRTC.
+
+* 2. Messaging network:
+
+
+* 3. Turn server:
+The term stands for Traversal Using Relay NAT, and it is a protocol for relaying network traffic.
+* 4. Push Notification Server:
+Since most apps are forced to be offline when it is switched to background, we need to use
+the messaging channel of the Phone device. On IOS it is APNS and Voice Push Notification service,
+on Android it is called FCM, Firebase Cloud Messaging 
+
+* 5. Offline messaging and storage server:
+
 * PoC/MVP or other relevant prior work or research on the topic
 
 
@@ -195,10 +216,10 @@ For each milestone:
 * **Full-time equivalent (FTE):**  Workload of an employed person ([see](https://en.wikipedia.org/wiki/Full-time_equivalent)) 
 * **Total Costs:** Amount of Payment for the whole project. The total amount of funding needs to be below $100k.
 
-### Milestone 1 Example — Implement Substrate Modules 
+### Milestone 1 Investigate and Implement WebRTC singaling messaging in Substrate 
 * **Estimated Duration:** 1 month
-* **FTE:**  1
-* **Costs:** $5,000
+* **FTE:**  4
+* **Costs:** $20,000
 
 | Number | Deliverable | Specification |
 | ------------- | ------------- | ------------- |
@@ -211,7 +232,14 @@ For each milestone:
 | 4. | Substrate chain | Modules X, Y & Z of our custom chain will interact in such a way... (Please describe the deliverable here as detailed as possible) |  
 | 5. | Docker | We will provide a dockerfile to demonstrate the full functionality of our chain |
 
-### Milestone 2 Example — Additional features
+### Milestone 2 Add turn server into substrate network
+* **Estimated Duration:** 1 month
+* **FTE:**  1
+* **Costs:** $5,000
+### Milestone 3 Implement push notification server into substrate network
+* **Estimated Duration:** 1 month
+* **FTE:**  1
+* **Costs:** $5,000
 ...
 
 ### Community engagement
