@@ -251,6 +251,8 @@ Normally, we ask you to submit the write-up upon the completion of your grant, a
 ## Future Plans
 Please include the team's long-term plans and intentions.
 
+In the next two years, We are going to build this instant messaging app for cryto world and we will continue to improve the user experience.
+
 ## Additional Information :heavy_plus_sign: 
 Any additional information that you think is relevant to this application that hasn't already been included.
 
