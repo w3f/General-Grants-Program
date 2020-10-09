@@ -13,6 +13,7 @@ This page gives an overview of accepted grants and a link to their GitHubs. Keep
 - [Wave 5 - First Quarter 2020](#wave-5)
 - [Wave 6 - Second Quarter 2020](#wave-6)
 - [Wave 7 - Third Quarter 2020](#wave-7)
+- [Wave 8 - Fourth Quarter 2020](#wave-8)
 
 ## Wave 1
 -   [ChainSafe](https://chainsafe.io/) - Polkadot Runtime Environment in Go (via an RFP) ([GitHub](https://github.com/ChainSafeSystems/gossamer))
@@ -191,3 +192,5 @@ This page gives an overview of accepted grants and a link to their GitHubs. Keep
 - [Adoriasoft](https://adoriasoft.com/) - Cosmos-SDK Parachain Development Kit Phase 2 ([GitHub](https://github.com/adoriasoft/cosmos-sdk))
 - [sup](https://github.com/clearloop/sup) - Command line tool for generating or upgrading a Substrate node ([GitHub](https://github.com/clearloop/sup))
 - [Shard Labs](https://shardlabs.io) - Tip or Donate KSM Embeddable Button ([GitHub](https://github.com/Shard-Labs))
+
+## Wave 8
