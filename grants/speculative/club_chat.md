@@ -44,7 +44,7 @@ We expect the teams to already have a solid idea about the project's expected fi
 Therefore, we ask the teams to submit (where relevant):
 * Mockups/designs of any UI components
 ![Image text IOS App](club_chat/IMG_WEBRTCDEMO.PNG)
-![Alt](club_chat/IMG_WEBRTC.jpeg)
+![Image text](club_chat/IMG_WEBRTC.jpeg)
 ![Image text](club_chat/WEBRTC_METAMASK_JOIN.jpeg)
 ![Image text](club_chat/WEBRTC_METAMASK_AUTH.jpeg)
 ![Image text](club_chat/WEBRTC_METAMASK_CHAT.jpeg)
@@ -122,16 +122,17 @@ It can be implemeneted using the function provided by substrate as well.
 	"type":"bye"
 	"reason": "reject"
 }
+```
 
 ### 6. Send Data by datachannel
-···
+```
 {
 	"fileId": UUID,  //created from the UUID, such as "E621E1F8-C36C-495A-93FC-0C247A3E6E5F"
 	"index": Int, //当前发送文件的切片索引
 	"mime": String, //Multipurpose Internet Mail Extensions，
 	"data": String, //data Base-64 encoded string.
 }
-···
+```
 
 * An overview of the technology stack to be used
 DID is used as the address of the instant messenger, it generated on the user's device in stead of central server.
@@ -143,7 +144,8 @@ and build the initial connection.
 There is peer to peer messaging system in most blockchain system so we can use it
 to be the signaling platform for WebRTC peers. 
 * Documentation of core components, protocols, architecture etc. to be deployed
-* 1. App: we need App for IOS and Android, a web client with a metamask plugin or dapp in 
+### 1. App
+#### App for IOS and Android, a web client with a metamask plugin or dapp in 
 wallet which support WebRTC.
 Those app is heavyly reply on WebRTC. The WebRTC standard covers, 
 on a high level, two different technologies: media capture devices and peer-to-peer connectivity.
@@ -152,17 +154,25 @@ Media capture devices includes video cameras and microphones, but also screen ca
 The peer-to-peer connectivity is handled by the RTCPeerConnection interface. 
 This is the central point for establishing and controlling the connection between two peers in WebRTC.
 
-* 2. Messaging network:
+### 2. Messaging network
+#### requirement of instant messaging 
+1. broadcasting
+2. offline messaging
+3. online peer to peer messaging
+While Ethereum Whisper support number 1 and 2 in the above list; 
+Number 3 needs something like ElastOS Carrier or something similar, such as lower API like The RLPx Transport Protocol.
+Peer to peer offline messaging and storage server can be implemented on top of #3.
 
-
-* 3. Turn server:
+### 3. Turn server
 The term stands for Traversal Using Relay NAT, and it is a protocol for relaying network traffic.
-* 4. Push Notification Server:
+### 4. Push Notification Server
 Since most apps are forced to be offline when it is switched to background, we need to use
 the messaging channel of the Phone device. On IOS it is APNS and Voice Push Notification service,
 on Android it is called FCM, Firebase Cloud Messaging 
-
-* 5. Offline messaging and storage server:
+### 5. Token
+The Club token is a modular utility token that fuels the Club Chat network. 
+This includes a Decentralized Push Notification and Advertise Market, Governance of the Club client, Incentives of Messaging, Turn Server and Notification Nodes.
+the Club Token will leverage our economic attention to build the network effect of an open platform.
 
 * PoC/MVP or other relevant prior work or research on the topic
 
@@ -216,30 +226,45 @@ For each milestone:
 * **Full-time equivalent (FTE):**  Workload of an employed person ([see](https://en.wikipedia.org/wiki/Full-time_equivalent)) 
 * **Total Costs:** Amount of Payment for the whole project. The total amount of funding needs to be below $100k.
 
-### Milestone 1 Investigate and Implement WebRTC singaling messaging in Substrate 
+### Milestone 1 Realtime chat using Substrate address
 * **Estimated Duration:** 1 month
 * **FTE:**  4
 * **Costs:** $20,000
+* Deliverables: architecture, implementation and documentation detailed publicly on GitHub
+* Specification:
+* implementation of existing  realtime audio/vedio communication for polkadot/substrate address
+* use elastos carrier as the messaging platfoem
 
-| Number | Deliverable | Specification |
-| ------------- | ------------- | ------------- |
-| 0a. | License | Apache 2.0 / MIT / Unlicense |
-| 0b. | Documentation | We will provide both inline documentation of the code and a basic tutorial that explains how a user can (for example) spin up one of our Substrate nodes. Once the node is up, it will be possible to send test transactions that will show how the new functionality works. |
-| 0c. | Testing Guide | The code will have proper unit-test coverage (e.g. 90%) to ensure functionality and robustness. In the guide we will describe how to run these tests | 
-| 1. | Substrate module: X | We will create a Substrate module that will... (Please list the functionality that will be coded for the first milestone) |  
-| 2. | Substrate module: Y | We will create a Substrate module that will... |  
-| 3. | Substrate module: Z | We will create a Substrate module that will... |  
-| 4. | Substrate chain | Modules X, Y & Z of our custom chain will interact in such a way... (Please describe the deliverable here as detailed as possible) |  
-| 5. | Docker | We will provide a dockerfile to demonstrate the full functionality of our chain |
+### Milestone 2 A token and smart contract system immplemented in Substrate 
+* **Estimated Duration:** 2 month
+* **FTE:**  4
+* **Costs:** $20,000
+* Deliverables: White paper of the token destibution, token and smart contact
+* Specification:
+* issue of CLUB tokens
+* smart contract for client communication
+* smart contract for miner who run messaging, notification and turn server;
 
-### Milestone 2 Add turn server into substrate network
+### Milestone 3 Add turn server into substrate network
 * **Estimated Duration:** 1 month
-* **FTE:**  1
-* **Costs:** $5,000
-### Milestone 3 Implement push notification server into substrate network
+* **FTE:**  2
+* **Costs:** $10,000
+
+### Milestone 4 Implement push notification server into substrate network
 * **Estimated Duration:** 1 month
-* **FTE:**  1
+* **FTE:**  2
+* **Costs:** $10,000
+
+### Milestone 5 Investigate and Implement WebRTC singaling messaging in Substrate 
+* **Estimated Duration:** 1 month
+* **FTE:**  8
 * **Costs:** $5,000
+* Deliverables: protocol of peer to peer communication,implemented the rust and substrate
+* Specification:
+* Distributed Peer Table (DPT) / Node Discovery: peer could be any substrate address, Maintain/manage a list of peers, also includes node discovery. 
+* Offline messaging
+
+
 ...
 
 ### Community engagement
