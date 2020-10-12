@@ -46,7 +46,7 @@ The first implementation of the HOPR protocol will be in JavaScript in order to 
 Within the framework of this grant application, we will decouple the payment layer from the message layer and provide a Substrate implementation of the payment layer in Rust. The existing and more complex message layer thus does not have to be entirely re-written in Rust in order to complete the grant within the anticipated timeline and budget. Integration via APIs in both directions is however in scope of this grant and needs to be implemented.
 
 ## Development Roadmap
-This grant application is targeting a 4 months implementation and assessment timeline during which we aim to reach the following milestones:
+This grant application is targeting a 6 months implementation and assessment timeline during which we aim to reach the following milestones:
 * Milestone 1: 
    * decouple existing message and payment layer
    * detailed documentation of payment layer
