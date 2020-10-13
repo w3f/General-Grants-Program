@@ -292,5 +292,13 @@ Any additional information that you think is relevant to this application that h
 
 Possible additional information to include:
 * What work has been done so far?
+We have developed an IOS and Android app with Audio and Vedio chat. Those apps relies on Elastos's carrier as backend protocol for peer to peer signaling messaging.
+We have integrate WebRTC Audio/Vedio communication with metamask waller. 
+https://www.callpass.cn/metamask
+We have implemetd peer to peer and group text messaging chat using Ethereum's whisper and swarm.
+http://t.callt.net
+It relys on a private side chain to do messaging routing and offline messaging.
 * Are there are any teams who have already contributed (financially) to the project?
+No
 * Have you applied for other grants so far?
+No
