@@ -7,11 +7,11 @@ Bifrost plans to provide SLOT DOT liquidity for the Polkadot Parachain Slot Auct
 
 ## Team members
 ### Core Team (Team a total of 12 people)
-Lurpis (Co-Founder & CEO) - Also CEO of Liebi technology; 5 Years of blockchain product and development experience; Sina Weibo early full-stack engineer;Leader of blockchain cross-border settlement in Ping++; Good at creating quality experiences product.
-Edwin (Co-Founder & CTO) - 10 Years of development experience in blockchain and finance; Rich experience in large-scale system architecture design; Former core engineer of Ankr; Substrate course instruct.
-Buffalo (System Architect), with more than ten years of experience in information technology, cryptography applications, and blockchain system research and development, and rich research and development experience in Hyperledger-Fabric, Quorum, Ethereum, Bitcoin and other systems.
-Jamie (Lead Developer) - Leader of bridge / contract / core runtime development; Former National Instruments Test and Development Engineer; Rich RUST development experience.
-Bonnie (Research & Marketing) - 3 Years of blockchain operation experience;Good at using innovative operating system to promote project; Served Fidelity, providing fund dealing support for the APAC.
+- Lurpis (Co-Founder & CEO) - Also CEO of Liebi technology; 5 Years of blockchain product and development experience; Sina Weibo early full-stack engineer;Leader of blockchain cross-border settlement in Ping++; Good at creating quality experiences product.
+- Edwin (Co-Founder & CTO) - 10 Years of development experience in blockchain and finance; Rich experience in large-scale system architecture design; Former core engineer of Ankr; Substrate course instruct.
+- Buffalo (System Architect), with more than ten years of experience in information technology, cryptography applications, and blockchain system research and development, and rich research and development experience in Hyperledger-Fabric, Quorum, Ethereum, Bitcoin and other systems.
+- Jamie (Lead Developer) - Leader of bridge / contract / core runtime development; Former National Instruments Test and Development Engineer; Rich RUST development experience.
+- Bonnie (Research & Marketing) - 3 Years of blockchain operation experience;Good at using innovative operating system to promote project; Served Fidelity, providing fund dealing support for the APAC.
 
 ## Team experience
 
