@@ -179,6 +179,10 @@ the Club Token will leverage our economic attention to build the network effect 
 
 ### Ecosystem Fit 
 Are there any other projects similar to yours? If so, how is your project different?
+There are many project in the space of decentralized communication, such as status, topnetwork, yeecall.
+While most projects are building the infrastructure from ground and replying on communities to provide different kinds of communication related application,
+we are going to build decentralized messaging app for end user and api for developer in cryto world by integrating many technologies in different blockchain.
+we want to serve the whole blockchain world. 
 
 ## Team :busts_in_silhouette:
 
@@ -196,9 +200,13 @@ Shanghai Allcom Network Technologies
 Suite 11-205, Guoshoujing Road, PuDong, Shanghai, PRC 201203
 ### Team's experience
 Please describe the team's relevant experience.  If the project involves development work, then we'd appreciated if you can single out a few interesting code commits made by team members on their past projects. For research-related grants, references to past publications and projects in a related domain are helpful.  
- • WebRTC Java/Android SDK: https://github.com/elastos/Elastos.NET.WebRTC.Android.SDK/releases/tag/release-v1.0.0 (https://github.com/elastos/Elastos.NET.WebRTC.Android.SDK/releases/tag/release-v1.0.0)
-
- • WebRTC Swift/iOS SDK: https://github.com/elastos/Elastos.NET.WebRTC.iOS.SDK/releases/tag/release-v1.0 (https://github.com/elastos/Elastos.NET.WebRTC.iOS.SDK/releases/tag/release-v1.0.0). (https://github.com/elastos/Elastos.NET.WebRTC.iOS.SDK/releases/tag/release-v1.0.0)0 (https://github.com/elastos/Elastos.NET.WebRTC.iOS.SDK/releases/tag/release-v1.0.0)
+Experience in WebRTC and Blockchain:
+ • WebRTC Java/Android SDK: https://github.com/elastos/Elastos.NET.WebRTC.Android.SDK/releases/tag/release-v1.0.0 
+ • WebRTC Swift/iOS SDK: https://github.com/elastos/Elastos.NET.WebRTC.iOS.SDK/releases/tag/release-v1.0.0 
+ • WebRTC with metamask: https://www.callpass.cn/metamask
+Experience in Rust
+ • https://github.com/AngoraFuzzer/Angora 
+ 
 ### Team Code Repos
 * https://github.com/allcomsh
 * https://github.com/gxyzwangyi
@@ -258,7 +266,7 @@ For each milestone:
 ### Milestone 5 Investigate and Implement WebRTC singaling messaging in Substrate 
 * **Estimated Duration:** 1 month
 * **FTE:**  8
-* **Costs:** $5,000
+* **Costs:** $40,000
 * Deliverables: protocol of peer to peer communication,implemented the rust and substrate
 * Specification:
 * Distributed Peer Table (DPT) / Node Discovery: peer could be any substrate address, Maintain/manage a list of peers, also includes node discovery. 
