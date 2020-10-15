@@ -155,7 +155,7 @@ We divide the project into three milestones. We aim to finish the whole project 
 | 5. | Docker | We will provide a dockerfile to demonstrate the full functionality of this component. |
 
 
-### Milestone 3 — Integrate the bug detection component with the visualization component 
+### Milestone 3 — Integrate the bug detection component with the visualization component  
 * **Estimated Duration:** 1 month
 
 
@@ -163,10 +163,10 @@ We divide the project into three milestones. We aim to finish the whole project 
 | ------------- | ------------- | ------------- |
 | 0a. | License | Apache 2.0 |
 | 0b. | Documentation | We will provide both inline documentation of the code and a basic tutorial that explains how to use the tool. |
-| 0c. | Testing Guide | We will include unit tests to ensure the functionality and robustness of our code. We will also include 10 toy programs containing deadlocks to demonstrate the buggy locking operations are correctly identified and highlighted. | 
-| 1. |  Integrating the Two Components | We will integrate the bug detection component with the visualization component. |  
-| 2. | Tutorial Writing | We will write a tutorial and record a video to explain how to use our tool.|   
-| 3. | Docker | We will provide a dockerfile to demonstrate the full functionality of this component. |
+| 0c. | Testing Guide | We will include unit tests to ensure the functionality and robustness of our code. We will also include 10 toy programs containing different types of deadlocks to demonstrate the buggy blocking operations are correctly identified and highlighted. | 
+| 1. | Integrating the Visualization Component with the Bug Detection Component | We will integrate the bug detection component with the visualization component. |  
+| 2. | Tutorial Writing | We will write a tutorial and record a video to explain how to use our tool. |   
+| 3. | Docker | We will provide a dockerfile to demonstrate the full functionality of this component.  |
 
 
 
@@ -174,24 +174,25 @@ We divide the project into three milestones. We aim to finish the whole project 
 
 In the future, we plan to extend the proposed tool along two directions.
 
-First, we will extend the proposed tool to cover memory bugs. Our previous empirical study showed that there are also memory bugs due to misunderstanding Rust’s lifetime rules, such as use-after-free bugs and double-free bugs. The proposed tool has the potential to help Rust programmers avoid these bugs. Of course, we need to explore what program elements should be visualized for memory bugs. 
+First, we plan to extend the proposed tool to cover memory bugs. Our previous empirical study showed that there are also memory bugs due to misunderstanding Rust's lifetime rules, such as use-after-free bugs and double-free bugs. The proposed tool has the potential to help Rust programmers avoid these bugs. Of course, we need to explore what program elements should be visualized for memory bugs. 
 
-Second, we will conduct a survey to understand what challenges are faced by programmers when understanding Rust’s lifetime rules and whether the proposed tool can really help them avoid deadlocks. The survey results will guide us to improve the proposed tool, and broadly speaking, the evolution of Rust. 
+Second, we plan to conduct a survey to understand what challenges programmers face when understanding Rust's lifetime rules and whether the proposed tool can really help them avoid deadlocks. The survey results will guide us on improving the proposed tool, and broadly speaking, the evolution of Rust. 
+
 
 
 ## Additional Information :heavy_plus_sign: 
 
 * What work has been done so far?
 
-We have built a prototype of the proposed tool. We wrote one paper (https://songlh.github.io/paper/vr.pdf) and recorded one video (https://youtu.be/L5F_XCOrJTQ) to describe the prototype. 
+We have built a prototype of the proposed tool. We wrote [one paper](https://songlh.github.io/paper/vr.pdf) and recorded [one video](https://youtu.be/L5F_XCOrJTQ) to describe the prototype. 
 
 We applied the bug detection component of the prototype to Substrate, Polkadot, and ink!. We found four previously unknown deadlocks. We reported all the detected bugs and all of them were fixed based on our reporting [1, 2, 3]. 
 
-[1] https://github.com/paritytech/parity-db/pull/8
+[PR-1] https://github.com/paritytech/parity-db/pull/8
 
-[2] https://github.com/paritytech/substrate/pull/6277
+[PR-2] https://github.com/paritytech/substrate/pull/6277
 
-[3] https://github.com/paritytech/parity-common/pull/396
+[PR-3] https://github.com/paritytech/parity-common/pull/396
 
 
 * Are there are any teams who have already contributed (financially) to the project?
