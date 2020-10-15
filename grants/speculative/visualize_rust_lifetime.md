@@ -76,8 +76,8 @@ There is no existing project similar to ours.
 * Names of team members: Linhai Song, Yiying Zhang, and Ziyi Zhang
 
 ### Team Website	
-* Linhai Song’s homepage: https://songlh.github.io/
-* Yiying Zhang’s homepage: https://cseweb.ucsd.edu/~yiying/
+* [Linhai Song’s homepage](https://songlh.github.io/)
+* [Yiying Zhang’s homepage](https://cseweb.ucsd.edu/~yiying/)
 
 
 ### Legal Structure 
@@ -85,9 +85,11 @@ Information of our legal structure will be disclosed privately.
 
 ### Team's experience
 
-The team conducted an empirical study on memory bugs and concurrency bugs in real-world Rust programs. The study was published in PLDI’2020. Through this project, the team has built a comprehensive understanding of common errors made by programmers when coding Rust. 
+The team conducted an empirical study on memory bugs and concurrency bugs in real-world Rust programs. The study was published in PLDI'2020. Through this project, the team has built a comprehensive understanding of common errors made by programmers when coding Rust. 
 
-The team built a prototype for the proposed tool. The prototype was published in the demonstration track of CCS’2020, demonstrating the team’s capability to build the proposed technique. 
+The team built a prototype for the proposed tool. The prototype was published in the demonstration track of CCS'2020, demonstrating the team's capability to build the proposed technique. 
+
+The team has another research paper on understanding concurrency bugs in Go published in ASPLOS'2019. The team has more than three years' research experience on concurrency bugs. 
 
 Team member Linhai Song has 10 years of expertise in programming analysis, and has published at top programming languages and software engineering conferences (e.g., PLDI, ICSE, FSE, OOPSLA). 
 
@@ -95,13 +97,17 @@ Team member Yiying Zhang has conducted various systems research with papers publ
 
 
 ### Team Code Repos
-* LDoctor (ICSE ‘17): https://github.com/songlh/LDoctor 
-* Rust-Study (PLDI ‘20): https://github.com/system-pclub/rust-study
-* LegoOS (OSDI ‘18): https://github.com/WukLab/LegoOS
+* [LDoctor (ICSE '17)](https://github.com/songlh/LDoctor)
+* [Rust-Study (PLDI '20)](https://github.com/system-pclub/rust-study)
+* [LegoOS (OSDI '18)](https://github.com/WukLab/LegoOS)
+* [pDPM (ATC '20)](https://github.com/WukLab/pDPM)
+* [Pythia (USENIX SEC '20)](https://github.com/WukLab/Pythia)
+* [LITE (SOSP '17)](https://github.com/WukLab/LITE)
+* [Hotpot (SoCC '17)](https://github.com/WukLab/Hotpot)
 
 ### Team LinkedIn Profiles
-* Linhai Song: https://www.linkedin.com/in/linhai-song-7a3b12120/
-* Yiying Zhang: https://www.linkedin.com/in/yiyingzhang/
+* [Linhai Song](https://www.linkedin.com/in/linhai-song-7a3b12120/)
+* [Yiying Zhang](https://www.linkedin.com/in/yiyingzhang/)
 
 
 ## Development Roadmap :nut_and_bolt: 
