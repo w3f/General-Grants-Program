@@ -11,6 +11,8 @@ MVP.STUDIO (New Zealand) is a talent & tech startup incubator, it manages a tech
 
 **Bit.Country Is**
 
+Bit.Country provides a new way to socialize with a game feel, while also being driven by real economics.
+
 * A decentralized world - putting community first. 
 * An open NFT/game protocol for managing & incentivizing small-medium communities using gamification.
 
