@@ -7,21 +7,39 @@ Bifrost plans to provide DOT liquidity for the Polkadot parachain slot auction, 
 ![structure](https://cdn.liebi.com/images/bifrost-ipo-liquidity/1.jpg)
 
 ## Team members
-### Core Team (Team a total of 12 people)
-- Lurpis (Co-Founder & CEO) - Also CEO of Liebi technology; 5 Years of blockchain product and development experience; Sina Weibo early full-stack engineer;Leader of blockchain cross-border settlement in Ping++; Good at creating quality experiences product.
-- Edwin (Co-Founder & CTO) - 10 Years of development experience in blockchain and finance; Rich experience in large-scale system architecture design; Former core engineer of Ankr; Substrate course instruct.
-- Buffalo (System Architect), with more than ten years of experience in information technology, cryptography applications, and blockchain system research and development, and rich research and development experience in Hyperledger-Fabric, Quorum, Ethereum, Bitcoin and other systems.
-- Jamie (Lead Developer) - Leader of bridge / contract / core runtime development; Former National Instruments Test and Development Engineer; Rich RUST development experience.
-- Bonnie (Research & Marketing) - 3 Years of blockchain operation experience;Good at using innovative operating system to promote project; Served Fidelity, providing fund dealing support for the APAC.
+### Core Team
+- Lurpis (Co-Founder & CEO)
+- Edwin (Co-Founder & CTO)
+- Buffalo (System Architect)
+- Jamie (Lead Developer)
+- Herry (Developer)
+- Carmen (Developer)
+- Bonnie (Research & Marketing)
 
 ## Team experience
 Through the construction of the Bifrost project, the team has accumulated nearly 14 months of development experience based on Substrate. It is a member of the Substrate Builders Program and Web3 Bootcamp. At the same time, it has obtained the Web3 Foundation Grant through EOS Bridge and has completed the first milestone acceptance. Ready to deliver the second milestone. Have rich practical experience on how to design pledge derivatives and how to provide liquidity for them.
 
+- Lurpis is also CEO of Liebi technology; 5 Years of blockchain product and development experience; Sina Weibo early full-stack engineer;Leader of blockchain cross-border settlement in Ping++; Good at creating quality experiences product.
+- Edwin has 10 Years of development experience in blockchain and finance; Rich experience in large-scale system architecture design; Former core engineer of Ankr; Substrate course instruct.
+- Buffalo with more than ten years of experience in information technology, cryptography applications, and blockchain system research and development, and rich research and development experience in Hyperledger-Fabric, Quorum, Ethereum, Bitcoin and other systems.
+- Jamie is Leader of bridge / contract / core runtime development; Former National Instruments Test and Development Engineer; Rich RUST development experience.
+- Herry Ho earned her Master degree from Carngie Mellon University. In Aug 2020, after finishing her course from the one-plus training community, she teamed up with five other developers to take part in the Hackusma event, and won the second prize. Being an enthusiastic of Substrate technology, she is now a member of Polkadot Course Ambassadors and has been helping to popularize Substrate blockchain technology in China. She is now actively translating the Knowledge Base documentation into Chinese in substrate.dev website, as well as writing tutorials on her blogs.
+- Carmen is Front-end software Engineer with 7 years of front-end development experience in Web and Hybrid mobile app development;1 year work experience of hyperledger fabric blockchain project;Rich experience in ES6,TypeScript + React/Next.js development and UI/UX page styling.
+- Bonnie has 3 Years of blockchain operation experience;Good at using innovative operating system to promote project; Served Fidelity, providing fund dealing support for the APAC.
+
 ## Team Website 
-* https://bifrost.finance
+* [https://bifrost.finance](https://bifrost.finance)
 
 ## Team repository
-* https://github.com/bifrost-finance
+* [https://github.com/bifrost-finance](https://github.com/bifrost-finance)
+
+## Team Github Profiles
+- [Lurpis](https://github.com/lurpis)
+- [Edwin](https://github.com/ark930)
+- [Buffalo](https://github.com/lvqinghao)
+- [Jamie](https://github.com/Dengjianping)
+- [Herry](https://github.com/herryho)
+- [Carmen](https://github.com/carmencitaqiu)
 
 ## Technical solutions
 In this solution, Bifrost provides an intermediate abstraction layer between investors, parachain projects, and the Polkadot relay chain, providing investors with better financial tools and flexibility, and also providing parachain projects Standardized and configurable IPO tools help parachain projects to better bid for parachain slots and enrich the ecosystem of the entire Polkadot community.
@@ -49,16 +67,18 @@ It contains the following features:
 
 ### Workflow
 - Investors participate in the parachain slot auction process
-![workflow-parachain-slot-auction](https://cdn.liebi.com/images/bifrost-ipo-liquidity/2.jpg)
+![workflow-parachain-slot-auction](https://cdn.liebi.com/images/bifrost-ipo-liquidity/flow_1.jpg)
 
 - Investors use Bifrost to participate in the parachain card slot auction process with liquidity
-![workflow-parachain-slot-auction-with-bifrost](https://cdn.liebi.com/images/bifrost-ipo-liquidity/3_1.jpg)
+![workflow-parachain-slot-auction-with-bifrost](https://cdn.liebi.com/images/bifrost-ipo-liquidity/flow_2.jpg)
 
 ### Security
 Investors use XCMP to transfer DOTs to the Bifrost platform, so the security of user funds is guaranteed by XCMP. Parachain projects that require IPO also use XCMP to deposit rewards asset on the Bifrost platform. These rewards will be released linearly in time. The unreleased part is always locked and no one can embezzle it. It is as safe as being locked in the parachain itself. Parachain projects can also choose to deposit rewards gradually on the Bifrost platform in multi-batches.
 
 ## Development Roadmap
-##### Milestone 1 - PrepareIPO Development - 1 month - $10k
+##### Milestone 1 - PrepareIPO Development - 1 month
+Implement PrepareIPO module in Substrate Frame. Complete Registration workflow.
+
 - Parachain info structs
     - Infomation
     - Arguments
@@ -67,7 +87,9 @@ Investors use XCMP to transfer DOTs to the Bifrost platform, so the security of 
     - Investor deposit
     - vsDOT release
     - vsKSM release
-##### Milestone 2 - ExecuteIPO Development - 1 month - $10k
+##### Milestone 2 - ExecuteIPO Development - 1 month
+Implement ExecuteIPO module in Substrate Frame. Complete Bounding DOTs or KSMs and Redeeming DOTs or KSMs workflow.
+
 - Bounding DOTs
     - Bonding
 - Redeeming DOTs
@@ -76,23 +98,15 @@ Investors use XCMP to transfer DOTs to the Bifrost platform, so the security of 
     - Bonding
 - Redeeming KSMs
     - Redeeming
-##### Milestone 3 - Asset Development - 1 month - $10k
+##### Milestone 3 - Asset Development - 1 month
+Implement Asset module in Substrate Frame. Complete rewards distribution and DOT-vsDOT or KSM-vsKSM conversion.
+
 - Rewards Distribution
     - Rewards Claim
 - DOT-vsDOT Conversion
     - vsDOT Destroy
 - KSM-vsKSM Conversion
     - vsKSM Destroy
-
-## Overview
-##### Milestone 1
-Implement PrepareIPO module in Substrate Frame. Complete Registration workflow.
-
-##### Milestone 2
-Implement ExecuteIPO module in Substrate Frame. Complete Bounding DOTs or KSMs and Redeeming DOTs or KSMs workflow.
-
-##### Milestone 3
-Implement Asset module in Substrate Frame. Complete rewards distribution and DOT-vsDOT or KSM-vsKSM conversion.
 
 ## Additional Information
 The code related to the roadmap will be open source in the form of runtime and packaged into docker containers for acceptance. At the same time, this runtime will provide DOT and KSM liquidity for Polkadot and Kusama parachain slot auctions. Bifrost Finance will serve as the first parachain for this feature application. Regarding grant, we are happy to accept DOT.
