@@ -139,19 +139,19 @@ We divide the project into three milestones. We aim to finish the whole project 
 | 4. | Docker | We will provide a dockerfile to demonstrate the full functionality of this component. |
 
 
-### Milestone 2 — Implement the visualization component 
+### Milestone 2 — Implement the visualization component  
 * **Estimated Duration:** 1 month
 
 
 | Number | Deliverable | Specification |
 | ------------- | ------------- | ------------- |
 | 0a. | License | Apache 2.0 |
-| 0b. | Documentation | We will provide both inline documentation of the code and a basic tutorial that explains how to install and use the visualization component in VSCode.  |
-| 0c. | Testing Guide | We will include unit tests to ensure the functionality and robustness of our code. We will also include 10 toy programs to test whether variables’ lifetime is correctly computed, whether variables’ lifetime is correctly visualized, whether locking operations are correctly identified, and whether locking operations are correctly highlighted. | 
-| 1. | Lifetime Computation Module | We will compute the lifetime for each variable in a Rust program by interpreting the program’s MIR. |  
-| 2. | Lifetime Visualization Module | We will visualize the computed lifetime of a user-selected variable.|  
-| 3. | Locking Operation Identification Module | We will identify locking operations or function calls that may lead to locking operations by conducting inter-procedural analysis. |  
-| 4. | Locking Operation Highlighting Module | If a selected variable is the return of a locking operation, besides visualizing the critical section, we will also highlight identified locking operations in the selected critical section. |  
+| 0b. | Documentation | We will provide both inline documentation of the code and a basic tutorial that explains how to install and use the visualization component in VSCode. |
+| 0c. | Testing Guide | We will include unit tests to ensure the functionality and robustness of our code. We will also include 10 toy programs to test whether channel operations are correctly identified, whether channel operations are correctly visualized, whether operations on conditional variables are correctly identified, and whether operations on conditional variables are correctly highlighted. | 
+| 1. | Channel Operation Identification Module | We will identify channel operations or function calls that may lead to channel operations by conducting inter-procedural analysis. |  
+| 2. | Channel Operation Highlighting Module | If a selected variable is the return of a locking operation, besides visualizing the critical section, we will also highlight identified channel operations in the selected critical section. |  
+| 3. | Conditional Variable Operation Identification Module | We will identify operations on a conditional variable or function calls that may lead to operations on a conditional variable by conducting inter-procedural analysis. |  
+| 4. | Conditional Variable Operation Highlighting Module | If a selected variable is the return of a locking operation, besides visualizing the critical section, we will also highlight identified operations on a conditional variable in the selected critical section. |  
 | 5. | Docker | We will provide a dockerfile to demonstrate the full functionality of this component. |
 
 
