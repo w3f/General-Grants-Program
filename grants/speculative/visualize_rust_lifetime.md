@@ -132,9 +132,7 @@ We divide the project into three milestones. We aim to finish the whole project 
 | ------------- | ------------- | ------------- |
 | 0a. | License | Apache 2.0 |
 | 0b. | Documentation | We will provide both inline documentation of the code and a basic tutorial that explains how to run the bug detection component as a standalone tool on terminal.|
-| 0c. | Testing Guide | We will include unit tests to ensure the functionality and robustness of our code. 
-
-We will also include 10 toy programs containing different types of deadlocks to demonstrate the bug detection capability. We will also run this component on the latest version of Substrate, Polkadot, and ink!. We will manually inspect all reported results to count the number of bugs and the number of false positives. | 
+| 0c. | Testing Guide | We will include unit tests to ensure the functionality and robustness of our code. We will also include 10 toy programs containing different types of deadlocks to demonstrate the bug detection capability. We will also run this component on the latest version of Substrate, Polkadot, and ink!. We will manually inspect all reported results to count the number of bugs and the number of false positives. | 
 | 1. | Detecting Conflicting Locks  | We will implement a detector that can identify deadlocks due to locks in conflicting orders through analyzing the MIR of Rust programs.|  
 | 2. | Detecting Misuse of Mutex and Channel | We will implement a detector to identify deadlocks due to errors when using a mutex together with a channel. |  
 | 3. | Detecting Misuse of Mutex and Conditional Variable | We will implement a detector to identify deadlocks due to mistakes when using a mutex together with a conditional variable. | 
