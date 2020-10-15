@@ -194,3 +194,6 @@ This page gives an overview of accepted grants and a link to their GitHubs. Keep
 - [Shard Labs](https://shardlabs.io) - Tip or Donate KSM Embeddable Button ([GitHub](https://github.com/Shard-Labs))
 
 ## Wave 8
+- [Sean Young](https://www.mess.org/) - Solidity to WASM compiler Phase 2 ([GitHub](https://github.com/hyperledger-labs/solang))
+- [Nuclei Studio](https://nuclei.studio/) - Governance OS ([GitHub](https://github.com/NucleiStudio))
+
