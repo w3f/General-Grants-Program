@@ -114,7 +114,10 @@ Team member Yiying Zhang has conducted various systems research with papers publ
 
 ### Overview
 
-We will build the proposed tool as a plugin of VSCode and implement the proposed program analysis by analyzing Rust’s MIR. We divide the project into three milestones. We aim to finish the whole project in three months and achieve a milestone in each month.  
+We will build the proposed tool as a plugin of [VSCode](https://github.com/microsoft/vscode), which is an open-source IDE project. We will implement the proposed program analysis by analyzing Rust’s MIR. 
+
+We divide the project into three milestones. We aim to finish the whole project in three months and achieve a milestone in each month.  
+
 
 * **Total Estimated Duration:** 3 months
 * **Full-time equivalent (FTE):**  3
@@ -128,11 +131,14 @@ We will build the proposed tool as a plugin of VSCode and implement the proposed
 | Number | Deliverable | Specification |
 | ------------- | ------------- | ------------- |
 | 0a. | License | Apache 2.0 |
-| 0b. | Documentation | We will provide both inline documentation of the code and a basic tutorial that explains how to run the bug detection component as a standalone tool on terminal.  |
-| 0c. | Testing Guide | We will include unit tests to ensure the functionality and robustness of our code. We will also include 10 toy programs containing deadlocks to demonstrate the bug detection capability. We will also run this component on the latest version of Substrate, Polkadot, and ink!. We will manually inspect all reported results to count the number of bugs and the number of false positives. | 
-| 1. | Double-Lock Detection Module | We will implement a double-lock detector based on interpreting a Rust program’s MIR. |  
-| 2. | Conflicting-Lock Detection Module | We will implement a detector that can identify deadlocks due to acquiring locks in conflicting orders through analyzing the MIR of Rust programs.|  
-| 3. | Docker | We will provide a dockerfile to demonstrate the full functionality of this component. |
+| 0b. | Documentation | We will provide both inline documentation of the code and a basic tutorial that explains how to run the bug detection component as a standalone tool on terminal.|
+| 0c. | Testing Guide | We will include unit tests to ensure the functionality and robustness of our code. 
+
+We will also include 10 toy programs containing different types of deadlocks to demonstrate the bug detection capability. We will also run this component on the latest version of Substrate, Polkadot, and ink!. We will manually inspect all reported results to count the number of bugs and the number of false positives. | 
+| 1. | Detecting Conflicting Locks  | We will implement a detector that can identify deadlocks due to locks in conflicting orders through analyzing the MIR of Rust programs.|  
+| 2. | Detecting Misuse of Mutex and Channel | We will implement a detector to identify deadlocks due to errors when using a mutex together with a channel. |  
+| 3. | Detecting Misuse of Mutex and Conditional Variable | We will implement a detector to identify deadlocks due to mistakes when using a mutex together with a conditional variable. | 
+| 4. | Docker | We will provide a dockerfile to demonstrate the full functionality of this component. |
 
 
 ### Milestone 2 — Implement the visualization component 
