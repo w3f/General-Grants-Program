@@ -74,7 +74,7 @@ https://github.com/Coinversation
 2. It is convenient for users to stake CTO or DOT to mint cUSD and destroy cUSD.
 3. Allow users to view the debt ratio, total system debt, balance of personal synthetic assets, rewards income, etc.
 
-### Milestone 3 — a decentralized exchange for trading synthetic assets — 3 month — $5,000
+### Milestone 3 — a cross-chain bridge connect several alliance chains — 3 month — $5,000
 
 * Realize the cross-chain bridge by Substrate: This bridge connect several alliance chains, such as AntChian and HyperChain.
 
