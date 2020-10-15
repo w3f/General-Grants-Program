@@ -43,16 +43,16 @@ We are interested in building the tool due to three reasons. First, our previous
 ### Project Details 
 
 <ins>What have we already done?</ins>
-We have built a prototype of the proposed tool. Our prototype can visualize a selected variable and conduct double-lock detection. We published a demonstration paper at this year’s CCS to describe the prototype. The paper can be found [here](https://songlh.github.io/paper/vr.pdf). We also recorded a video to explain the prototype, and the video can be found [here](https://youtu.be/L5F_XCOrJTQ).
+We have built a prototype of the proposed tool. Our prototype can visualize a selected variable and conduct double-lock detection. We published a demonstration paper at this year's CCS to describe the prototype. The paper can be found [here](https://songlh.github.io/paper/vr.pdf). We also recorded a video to explain the prototype, and the video can be found [here](https://youtu.be/L5F_XCOrJTQ).
 
 
 We applied the double-lock detection component to Substrate, Polkadot, and ink!. We found four previously unknown deadlocks. One is in Substrate. The other three are in the dependent libraries of Substrate or Polkadot. We reported all the detected bugs. All of them were fixed by developers based on our reporting. The information of the detected bugs is listed as follows:
 
-[pr-1] https://github.com/paritytech/parity-db/pull/8
+[PR-1] https://github.com/paritytech/parity-db/pull/8
 
-[pr-2] https://github.com/paritytech/substrate/pull/6277
+[PR-2] https://github.com/paritytech/substrate/pull/6277
 
-[pr-3] https://github.com/paritytech/parity-common/pull/396
+[PR-3] https://github.com/paritytech/parity-common/pull/396
 
 <ins>What are we going to do?</ins>
 We propose to extend the prototype along three directions:
