@@ -42,15 +42,27 @@ We are interested in building the tool due to three reasons. First, our previous
 
 ### Project Details 
 
-We have built a prototype of the proposed tool. We published a demonstration paper at this year’s CCS to describe the prototype. The paper can be found here: https://songlh.github.io/paper/vr.pdf. We also recorded a video to explain the prototype, and the video can be found here: https://youtu.be/L5F_XCOrJTQ.
+<ins>What have we already done?</ins>
+We have built a prototype of the proposed tool. Our prototype can visualize a selected variable and conduct double-lock detection. We published a demonstration paper at this year’s CCS to describe the prototype. The paper can be found [here](https://songlh.github.io/paper/vr.pdf). We also recorded a video to explain the prototype, and the video can be found [here](https://youtu.be/L5F_XCOrJTQ).
 
-We applied the bug detection component of the prototype to Substrate, Polkadot, and ink!. We found four previously unknown deadlocks. One is in Substrate. The other three are in the dependent libraries of Substrate or Polkadot. We reported all the detected bugs. All of them were fixed by developers based on our reporting. The information of the detected bugs is listed as follows:
 
-https://github.com/paritytech/parity-db/pull/8
+We applied the double-lock detection component to Substrate, Polkadot, and ink!. We found four previously unknown deadlocks. One is in Substrate. The other three are in the dependent libraries of Substrate or Polkadot. We reported all the detected bugs. All of them were fixed by developers based on our reporting. The information of the detected bugs is listed as follows:
 
-https://github.com/paritytech/substrate/pull/6277
+[pr-1] https://github.com/paritytech/parity-db/pull/8
 
-https://github.com/paritytech/parity-common/pull/396
+[pr-2] https://github.com/paritytech/substrate/pull/6277
+
+[pr-3] https://github.com/paritytech/parity-common/pull/396
+
+<ins>What are we going to do?</ins>
+We propose to extend the prototype along three directions:
+
+First, we will add the bug detection functionality for more deadlock types. Specifically, we will add the detection of locks with conflicting orders and misuse of mutex and non-mutex synchronization primitives (e.g., channel, conditional variable). 
+
+Second, we will identify and visualize more blocking operations that can potentially lead to deadlocks in a selected critical section such as receiving from a channel and waiting on a conditional variable. 
+
+Third, we will integrate the above bug detection and visualization functionalities and document our tool. 
+
 
 
 
