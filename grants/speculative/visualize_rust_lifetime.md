@@ -186,7 +186,7 @@ Second, we plan to conduct a survey to understand what challenges programmers fa
 
 We have built a prototype of the proposed tool. We wrote [one paper](https://songlh.github.io/paper/vr.pdf) and recorded [one video](https://youtu.be/L5F_XCOrJTQ) to describe the prototype. 
 
-We applied the bug detection component of the prototype to Substrate, Polkadot, and ink!. We found four previously unknown deadlocks. We reported all the detected bugs and all of them were fixed based on our reporting [1, 2, 3]. 
+We applied the bug detection component of the prototype to Substrate, Polkadot, and ink!. We found four previously unknown deadlocks. We reported all the detected bugs and all of them were fixed based on our reporting [PR-1, PR-2, PR-3]. 
 
 [PR-1] https://github.com/paritytech/parity-db/pull/8
 
