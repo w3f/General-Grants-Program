@@ -13,6 +13,7 @@ This page gives an overview of accepted grants and a link to their GitHubs. Keep
 - [Wave 5 - First Quarter 2020](#wave-5)
 - [Wave 6 - Second Quarter 2020](#wave-6)
 - [Wave 7 - Third Quarter 2020](#wave-7)
+- [Wave 8 - Fourth Quarter 2020](#wave-8)
 
 ## Wave 1
 -   [ChainSafe](https://chainsafe.io/) - Polkadot Runtime Environment in Go (via an RFP) ([GitHub](https://github.com/ChainSafeSystems/gossamer))
@@ -148,7 +149,7 @@ This page gives an overview of accepted grants and a link to their GitHubs. Keep
 - [Adoriasoft](https://adoriasoft.com/) - Cosmos-SDK Parachain Development Kit ([GitHub](https://github.com/adoriasoft/cosmos-sdk))
 - [Laminar One](https://laminar.one/) - Reusable Libraries: Runtime Modules + Monitoring Framework ([GitHub](https://github.com/open-web3-stack))
 - [Faber](https://github.com/yxf) - Subwallet: CLI wallet for Polkadot/Substrate ([GitHub](https://github.com/yxf/subwallet))
-- [Equilibrium](https://equilibrium.co/) - offchain::ipfs ([GitHub](https://github.com/eqlabs))
+- [Equilibrium.co](https://equilibrium.co/) - offchain::ipfs ([GitHub](https://github.com/eqlabs))
 - [Snowfork](http://www.snowfork.com/) - Ethereum Bridge ([GitHub](https://github.com/snowfork))
 - [Lunie](http://lunie.io/) - Lunie Governance integration ([GitHub](https://github.com/luniehq/lunie))
 - [LimeChain](https://github.com/LimeChain) - AssemblyScript Runtime ([GitHub](https://github.com/LimeChain))
@@ -178,3 +179,18 @@ This page gives an overview of accepted grants and a link to their GitHubs. Keep
 - [Evercity](https://evercity.io/) - Smart Sustainable Bond Protocol (SSB-P) ([GitHub](https://github.com/EvercityEcosystem/Smart-Sustainable-Bond))
 - [Permiurly](http://permiurly.in) - Polkassembly ([GitHub](https://github.com/premiurly/polkassembly))
 - [Zeropool](https://zeropool.network/) - Private transactions on Polkadot ([GitHub](https://github.com/zeropoolnetwork))
+- [Polkadex](https://github.com/Polkadex-Substrate) - A decentralized, peer-peer, cryptocurrency exchange for DeFi ecosystem in Substrate ([GitHub](https://github.com/Polkadex-Substrate/Polkadex))
+- [Fractapp](https://fractapp.com) - Messenger with crypto wallet ([GitHub](https://github.com/fractapp))
+- [Equilibrium.io](https://equilibrium.io/en) - All-in-one Interoperable DeFi hub. ([GitHub](https://github.com/equilibrium-eosdt))
+- [Glacier Blockchain Technology](http://www.gbctech.cn/#/) - Starks Network ([GitHub](https://github.com/gbctech))
+- [SubDEX](http://subdex.io.s3.eu-west-2.amazonaws.com/index.html) - A decentralized cross-chain exchange based on AMM ([GitHub](https://github.com/subdardex))
+- [Zenlink](https://zenlink.pro/) - A cross-chain DEX network ([GitHub](https://github.com/zenlinkpro/zenlink_dex_module))
+- [Subscript](https://github.com/slickup) - Substrate smart contract api and sdk in AssemblyScript ([GitHub](https://github.com/slickup/subscript))
+- [Tesseract](https://tesseract.one/) - Swift API ([GitHub](https://github.com/tesseract-one))
+- [Cobo](https://cobo.com/)- Cobo Vault - ([GitHub](https://github.com/CoboVault))
+- [NodeFactory](https://nodefactory.io/) - Vedran: Auto-funded public p2p infrastructure (APPI) ([GitHub](https://github.com/NodeFactoryIo/Vedran))
+- [Adoriasoft](https://adoriasoft.com/) - Cosmos-SDK Parachain Development Kit Phase 2 ([GitHub](https://github.com/adoriasoft/cosmos-sdk))
+- [sup](https://github.com/clearloop/sup) - Command line tool for generating or upgrading a Substrate node ([GitHub](https://github.com/clearloop/sup))
+- [Shard Labs](https://shardlabs.io) - Tip or Donate KSM Embeddable Button ([GitHub](https://github.com/Shard-Labs))
+
+## Wave 8
