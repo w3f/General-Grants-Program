@@ -8,7 +8,7 @@
 
 Rust is a new programming language designed to provide both safety guarantees that are like high-level languages and performance guarantees that are like low-level languages. To achieve this design purpose, Rust leverages static compiler checks to rule out severe memory and thread safety issues at the compilation time. At runtime, Rust behaves like C/C++ and could deliver performance that is as good as C/C++. Due to its safety and performance benefits, Rust has seen increasing adoption in building low-level systems software, such as OSs and browsers. Rust is also used to implement many software systems in the Web3 technology stack (e.g., substrate, polkadot, ink!).
 
-Rust's compiler checks are based on a suite of ownership and lifetime rules. The basic rule allows one value to only have one owner variable, and the value is dropped (freed) when its owner variable ends its lifetime. Rust extends the basic rule to allow ownership to be moved and borrowed, while still guaranteeing all accesses to a value to be within its owner variable’s lifetime scope. Besides safety checks, lifetime is also used for automated resource management. For example, there is no explicit Unlock() in Rust. A Lock() function call returns a reference of the protected variable, and when the reference ends its lifetime, Rust automatically releases the acquired lock (by implicitly calling Unlock()). 
+Rust's compiler checks are based on a suite of ownership and lifetime rules. The basic rule allows one value to only have one owner variable, and the value is dropped (freed) when its owner variable ends its lifetime. Rust extends the basic rule to allow ownership to be moved and borrowed, while still guaranteeing all accesses to a value to be within its owner variable's lifetime scope. Besides safety checks, lifetime is also used for automated resource management. For example, there is no explicit Unlock() in Rust. A Lock() function call returns a reference of the protected variable, and when the reference ends its lifetime, Rust automatically releases the acquired lock (by implicitly calling Unlock()). 
 
 Rust's lifetime rules are complex and different from all other existing languages. It is challenging for Rust programmers to infer where a variable's lifetime ends. As a result, it is not uncommon for programmers to incorrectly identify the location where an implicit unlock is called. When a lock is held longer than programmers' expectation, the same lock may be acquired again or a different lock may be acquired before releasing the acquired lock, leading to double lock or lock in conflicting orders. 
 
@@ -24,6 +24,7 @@ Both Substrate and Polkadot are implemented in Rust. Previously, double locks or
 We are interested in building the tool due to three reasons. First, our previous empirical study shows that deadlocks due to the misunderstanding of Rust's lifetime rules are common in Rust programs. Visualizing lifetime can avoid these bugs during the development stage, benefiting the whole Rust community. Second, the misunderstanding of Rust's lifetime rules can also cause memory bugs such as use-after-free and double free. Thus, the proposed tool has the potential to combat memory bugs. Third, the experience of building the proposed tool can inspire similar tools for other programming languages featuring lifetime (e.g., Kotlin). 
 
 
+
 [1] Boqin Qin, Yilun Chen, Zeming Yu, Linhai Song, and Yiying Zhang. “Understanding Memory and Thread Safety Practices and Issues in Real-World Rust Programs.” In PLDI'2020. 
 
 [2] https://github.com/paritytech/substrate/pull/197
@@ -37,6 +38,8 @@ We are interested in building the tool due to three reasons. First, our previous
 [6] https://github.com/paritytech/parity-common/pull/396
 
 
+
+
 ### Project Details 
 
 We have built a prototype of the proposed tool. We published a demonstration paper at this year’s CCS to describe the prototype. The paper can be found here: https://songlh.github.io/paper/vr.pdf. We also recorded a video to explain the prototype, and the video can be found here: https://youtu.be/L5F_XCOrJTQ.
@@ -48,6 +51,7 @@ https://github.com/paritytech/parity-db/pull/8
 https://github.com/paritytech/substrate/pull/6277
 
 https://github.com/paritytech/parity-common/pull/396
+
 
 
 ### Ecosystem Fit 
@@ -65,17 +69,18 @@ There is no existing project similar to ours.
 
 
 ### Legal Structure 
-XXXX
+Information of our legal structure will be disclosed privately.
 
 ### Team's experience
 
-The team conducted an empirical study on real-world memory bugs and concurrency bugs in Rust, which was published in PLDI’2020. Through this project, the team has built on a comprehensive understanding of common errors made by programmers when coding Rust. 
+The team conducted an empirical study on memory bugs and concurrency bugs in real-world Rust programs. The study was published in PLDI’2020. Through this project, the team has built a comprehensive understanding of common errors made by programmers when coding Rust. 
 
-The team built a prototype for the proposed tool, and the prototype was published in the demonstration track of CCS’2020. This experience demonstrates that the team is capable to build the proposed technique. 
+The team built a prototype for the proposed tool. The prototype was published in the demonstration track of CCS’2020, demonstrating the team’s capability to build the proposed technique. 
 
 Team member Linhai Song has 10 years of expertise in programming analysis, and has published at top programming languages and software engineering conferences (e.g., PLDI, ICSE, FSE, OOPSLA). 
 
 Team member Yiying Zhang has conducted various systems research with papers published at OSDI and SOSP. 
+
 
 ### Team Code Repos
 * LDoctor (ICSE ‘17): https://github.com/songlh/LDoctor 
