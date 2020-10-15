@@ -1,12 +1,16 @@
-# Coinversation Protocol
+# Coinversation Stablecoin by Coinversation Protocol
+Coinversation Protocol is an open financial platform integrating stablecoin, synthetic asset issuance, collateral lending, decentralized contract exchange and Polkadot bridge.  Coinversation Stablecoin is a very important part of it.  Coinversation is committed to making breakthrough contributions to the stablecoin and DeFi in the Polkadot ecosystem.
 
 ## Project Overview
 
 ### Overview
-Coinversation Protocol is a synthetic asset issuance protocol and decentralised contract trading exchange based on the Polkadot contract chain. It uses the token CTO issued by Coinversation Protocol and Polkadot(DOT) as collateral, and synthesizes any cryptocurrencies or stocks, bonds, gold and any other off-chain assets through smart contracts and oracles. Users can forge a certain synthetic asset by collateralizing CTO or DOT, such as U.S. dollars, and automatically have a long position in the asset. Users can also convert minted assets into other assets through the trading platform, so as to realize the purpose of shorting the asset and longing other assets. The assets minted by all the users correspond to the liabilities of the entire system, and the proportion of each user's liabilities has been determined at the time of forging, so that their respective profits can be calculated. Because such a collateral pool model does not require a counterparty, it perfectly solves the problems of liquidity and transaction depth in decentralised exchange(DEX).
+The stablecoin created by Coinversation Protocol is decentralized, multi-asset collateralized, supports cross-chain, and supports real-world asset access through Polkadot bridge. The biggest difference between it and the past decentralized stablecoins is that there are no stability fees or interest, but stablecoins are issued in a synthetic asset collateral pool. Therefore, the cost that users pay to generate Coinversation Stablecoin (cUSD) through collateral is determined by the relative change of all synthetic assets in the entire system, rather than artificial regulations in previous decentralized stablecoins (e.g. Dai). This cost is more market-oriented, and at the same time it is equivalent to the inflation rate of stablecoin to world assets.  In general, the stable currency cUSD and the synthetic asset issuance and contract exchanges in the Coinversation Protocol constitute a complete Defi system in the Polkadot ecosystem. In addition, we can access alliance chains such as AntChain and HyperChain through Coinversation's own bridge to realize access to various real-world assets. This will not only enrich the collateral for this project, but also enrich the range of assets in the entire Polkadot ecosystem through cross-chain.
   
 ### Project Details 
-The main functional modules of the entire system include: forging synthetic assets(MintC), DEX, collateral pools, fee pools, oracles, and liquidity mining.
+The main functional modules of the entire system include: Polkadot bridge, forging synthetic assets(MintC), DEX, collateral pools, fee pools, oracles, and liquidity mining. 
+
+#### Polkadot Bridge
+This bridge connect several alliance chains, such as AntChian and HyperChain, into Coinversation Protocol and Polkadot ecosystem. So assets on those chains can be used as collateral to issue stablecoin and synthetic assets. Meanwhile, Coinversation Stablecoin can also provide liquidity for those assets through cUSD lending.
 
 #### Forging Synthetic Assets(MintC)
 
@@ -54,21 +58,25 @@ https://github.com/Coinversation
 
 ## Development Roadmap
 
-### Milestone 1 — the minting center for minting and destroying cUSD — 3 month — $8,000
+### Milestone 1 — the minting center for minting and destroying cUSD — 3 month — $5,000
 
 * Determine the type of the first batch of synthetic assets.
 * Determine the data source of synthetic assets, establish a whitelist mechanism, and realize data collection.
-* Complete the oracle function.
-* Realize the functions of staking DOT and CTO, forging synthetic assets, including cUSD, cBTC, cETH, cAAPL, cXAU, etc.
-                                                               | 
-### Milestone 2 — a decentralized exchange for trading synthetic assets — 3 month — $8,000
+* Complete the oracle function by an off-chain worker.
+* Realize the functions of staking DOT and CTO by ink! Smart Contract, forging synthetic assets, including cUSD, cBTC, cETH, cAAPL, cXAU, etc.
 
-* Realize the collateral pool function: When a user newly generates or destroys cUSD, the debt ratio is re-determined, and the user's profit is calculated based on the change in asset prices.
-* Realize the function of fee pool: transaction fees are included in the fee pool to complete the benefit distribution of CTO users.
+### Milestone 2 — a decentralized exchange for trading synthetic assets — 3 month — $6,000
+
+* Realize the collateral pool function by ink! Smart Contract: When a user newly generates or destroys cUSD, the debt ratio is re-determined, and the user's profit is calculated based on the change in asset prices.
+* Realize the function of fee pool by ink! Smart Contract: transaction fees are included in the fee pool to complete the benefit distribution of CTO users.
 * Realization of decentralized contract exchange v1.0 version:
 1. Realize the trading function on the Web end, allowing users to freely trade various synthetic assets.
 2. It is convenient for users to stake CTO or DOT to mint cUSD and destroy cUSD.
 3. Allow users to view the debt ratio, total system debt, balance of personal synthetic assets, rewards income, etc.
+
+### Milestone 3 — a decentralized exchange for trading synthetic assets — 3 month — $5,000
+
+* Realize the cross-chain bridge by Substrate: This bridge connect several alliance chains, such as AntChian and HyperChain.
 
 ## Future Plans
 There is still a lot of space for growth in the future, including:
