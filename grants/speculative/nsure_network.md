@@ -84,10 +84,13 @@ For now, we have finished our whitepaper and MVP, and will split our project pla
 * **FTE:**  2
 * **Costs:** $5,000
  
-Milestone 1 will implement our mvp on polkadot network. Mvp will support capital mining, trading and staking functions which is the same function with ethereum. For details:
-* capital mining: support capital mining of certain stable coins(e.g. USDT). 70% of total newly minted supply will be distributed proportionally to mining. (certain parameters may change at launch)
-* trading: Insurance purchase & quote supply. MCR will be locked accordingly when a policy is sold. Transactions will be locked in the capital pool. When a policy is purchased the policy holder will also be rewarded 30% of total newly minted supply.
-* Staking: Staking rules will be supported to accelerate capital mining.
+Milestone 1 will implement our mvp as a substrate module. We will implement capital mining to let users deposit the test tokens, and get the returned rewards(test Nsure token).
+* We will implement staking functions which perform staking and price handling for insurance. 
+* We will define the interfaces with a complete set of functions (deposit, withdraw, doWithdraw, getReward, stake, withdrawStaking, doWithdrawStaking etc).
+* We will publish the code in our public GitHub repository.
+* The code will have proper unit-test coverage to ensure functionality and robustness.
+* We will provide both inline documentation of the code and a basic tutorial that explains how a user can (for example) spin up one of our Substrate nodes. Once the node is up, it will be possible to send test transactions that will show how the new functionality works.
+* Documentation will be delivered according to the Web3 Milestone Deliverables Guidelines.
  
  
 ### Milestone 2 — beta release: Capital Mining; Cover purchasing; Leveraged Staking; Claim payment
@@ -95,11 +98,17 @@ Milestone 1 will implement our mvp on polkadot network. Mvp will support capital
 * **FTE:**  3
 * **Costs:** $15,000
  
-Nsure Beta will be released and deployed in 4 month. Nsure Beta will include new UI/front end/ backend/smart contract. Upgrades compared with MVP:
-MCR lock on capital mining. 30 days lock dropped to prevent capital pull out during claim payment.
-Surplus pool for each smart contract protection. The fund to pay claim will be firstly paid out from this pool and the rest will be paid out from capital pool.
-3-phase vote claim assessment. Policyholder’s round; agent’s round; public round.
-Premium will be distributed from staking. 50% of Nsure token staked on specific smart contracts will be burnt.
+We will publish our beta release in 4 months for the full functions of nsure project as a substrate module. It includes the contract/frontend/backend and related coding. Finally open to public for beta test. In this version :
+* We will define a unified data structure for each product(such as compound contract, balancer contract etc) with price, description and any other information in need.
+* We will implement the buying logic for insurace with a detailed order structure. The order will record the buyer, price, period, premium etc.
+* We will define and implement the claim procedure so that buyers can do a claim if they found that they need a compensation.
+* We will integrate the captial mining and staking functions with buying logic, and do a full joint debugging/testing for them.
+* We will use javascript with vue framework as our frontend language.
+* We will publish the code in our public GitHub repository.
+* The code will have proper unit-test coverage to ensure functionality and robustness.
+* We will provide both inline documentation of the code and a basic tutorial that explains how a user can (for example) spin up one of our Substrate nodes. Once the node is up, it will be possible to send test transactions that will show how the new functionality works.
+* We will provide a dockerfile to demonstrate the full functionality of our chain
+* Documentation will be delivered according to the Web3 Milestone Deliverables Guidelines.
  
  
 ### Milestone 3 — official version
@@ -107,7 +116,15 @@ Premium will be distributed from staking. 50% of Nsure token staked on specific 
 * **FTE:**  3
 * **Costs:** $10,000
  
-The official version will support all the functions in polkadot parachain, and support DAO with its own token. The mining weight changing and list of supported smart contracts will be fully governed by DAO.
+The official version will support all the functions in milestone2, and support voting via decentralised governance features with its own token for claiming(DAO goverance).
+* We will support users to claim by voting as a fully decentralized function which means no admin needed in claim procedure.
+* We will fix the bugs which was founded in beta version.
+* We will perform integration tests: run a full node, deploy substrate with nsure module, do staking and capital mining, and get quote or buy insurances from the system.
+* We will publish the code in our public GitHub repository.
+* The code will have proper unit-test coverage to ensure functionality and robustness.
+* We will provide both inline documentation of the code and a basic tutorial that explains how a user can (for example) spin up one of our Substrate nodes. Once the node is up, it will be possible to send test transactions that will show how the new functionality works.
+* We will provide a dockerfile to demonstrate the full functionality of our chain
+* Documentation will be delivered according to the Web3 Milestone Deliverables Guidelines
  
 ### Community engagement
  
@@ -143,7 +160,7 @@ A2: Stablecoins are intended to give users an alternative currency according to 
 * Q3: MCR will be locked accordingly when a policy is sold
 Who creates and sells the policy? How do you envision policy creation?
 A3: Policy could be bought as long as 1) buyers are comfortable about the price offered by the dynamic pricing model 2)  the MCR is lower than the total funds in Surplus Pool and Capital Pool. Policy is offered by the system, and the pricing is determined by tokens staking on that project.
- 
+
 * Q4: Staking: Staking rules will be supported to accelerate capital mining.
 What rules do you mean? How does that differ from my first question?
  A4: Nsure tokens can be used to stake on the risks that Nsure token holders feel comfortable with. Insurance premiums are paid daily, and Nsure token holders benefit from the system and leverage provided. Staking needs study on the risk of projects, which have higher return and higher risk accordingly. Capital Mining provides the additional funds to support business development, it is the second cushion of the potential claims, which have lower risk, and the return determined by how much funds are in capital mining.
