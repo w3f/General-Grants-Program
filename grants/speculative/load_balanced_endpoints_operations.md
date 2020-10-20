@@ -51,7 +51,7 @@ Mitchell is Insight’s Head of Research for Developers in Residence, and is cur
     - Main reference architecture
 - [github.com/insight-infrastructure](https://github.com/insight-infrastructure)
     - Parent GH Org
-- [github.com/insight-infrastructure/nukikata](https://github.com/insight-infrastructure/nukikata)
+- [github.com/insight-infrastructure/tackle-box](https://github.com/insight-infrastructure/tackle-box)
     - Code generator / DSL used in architectures for deploying infrastructure
 
 ## **Team LinkedIn Profiles**
@@ -127,22 +127,20 @@ For a bottoms up breakdown of each milestone and deliverable, please consult our
 
 **Milestone 3: Long Term Operations** 
 
-**1 Year Ops / 9 Days Engineering**
+**3 Months Ops **
 
 ---
 
 **Goals:**
 
 - 99% up time for publicly accessible load balanced and quick sync endpoints
-- Data driven ranking of top queries to inform caching layers and microservice development
 - Cost optimizations based on resource utilization
 
 **Deliverables:**
 
-- Quarterly report describing uptime, incidents, and operational changes
-- AWS billing report and quarterly cost projections
-- Steady improvements with main reference architecutre to maintain an exact mapping of what is running on the cloud and what is deployable in automation.
-    - Any manual steps with explicit documentation.
+- Operation of clusters for 3 months
+- Report describing uptime, incidents, and operational changes
+- Steady improvements with main reference architecture to maintain an exact mapping of what is running on the cloud and what is deployable in automation.
 
 | Milestone | Deliverable |  Days |
 |----|----|---:|
@@ -150,7 +148,7 @@ For a bottoms up breakdown of each milestone and deliverable, please consult our
 | M1 | D2 | 13 |
 | M1 | D3 |  5 |
 | M2 | D1 |  8 |
-| M3 | D1 |  9 |
+| M3 | D1 |  0 |
 
 
 ### **Long Term Plans**
@@ -167,6 +165,6 @@ A centralized API endpoint provider like Infura presents a variety of risks to t
 
 While our main goal with building the v2 architecture is to optimize query response time, many opportunities arise from building a robust pattern that can easily be extended to be inclusive of additional endpoints. While it would be impossible to build all the optimizations and additional endpoints ourselves, we hope to lay the ground work such that other groups / Insight fellows can expand on it to deliver additional features to the ecosystem.
 
-CLI's are useful for making the node deployments simple to new users but can become quite opinionated when building in how optionality is expressed.  To make things customizable and configurable, we have built [nukikata](https://github.com/insight-infrastructure/nukikata), a declarative CLI with loops and conditionals, that we will be supporting in the long term.  It is an upstream fork of [cookiecutter](https://github.com/cookiecutter/cookiecutter), the worlds most popular code templating tool. We hope to make building customizable parachains one-click and allow for quick rendering of common code templates and best practices starter packages. For node operation, we based the CLI for our [reference architecture](https://github.com/insight-w3f/terragrunt-polkadot) on this tool and will be streamlining its patterns over time.
+CLI's are useful for making the node deployments simple to new users but can become quite opinionated when building in how optionality is expressed.  To make things customizable and configurable, we have built [tackle-box](https://github.com/insight-infrastructure/tackle-box), a declarative CLI with loops and conditionals, that we will be supporting in the long term.  It is an upstream fork of [cookiecutter](https://github.com/cookiecutter/cookiecutter), the worlds most popular code templating tool. We hope to make building customizable parachains one-click and allow for quick rendering of common code templates and best practices starter packages. For node operation, we based the CLI for our [reference architecture](https://github.com/insight-w3f/terragrunt-polkadot) on this tool and will be streamlining its patterns over time.
 
 Operational costs were calculated on a run rate basis. If use of the endpoints becomes high and need to scale to reach demand beyond the expected run rate, a report will be generated to the foundation accounting for the increased traffic and an assessment can be made at that time.
