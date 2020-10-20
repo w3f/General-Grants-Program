@@ -1,4 +1,4 @@
-# Club Instant Messaging Protocol and Network
+# Club - An Instant Messaging Protocol and Network
 
 * **Project:** Club Instant Messaging Protocol and Network
 
@@ -223,14 +223,14 @@ PuDong,
 Shanghai, PRC 201203
 ```
 ### Team's experience
-+ Wei Li has over 20 years experiences in email,voip and instant messaging software development.
-+ Wang Yi has 5 years experiences in bitcoin and ethereum and 2 years in RUST development. 
++ Wei Li,over 20 years experiences in email,voip and instant messaging software development.
++ Wang Yi,5 years experiences in blockchain technoliges and 2 years in RUST development. 
 + Experience in WebRTC and Blockchain:
- • WebRTC Java/Android SDK: https://github.com/elastos/Elastos.NET.WebRTC.Android.SDK/releases/tag/release-v1.0.0 
- • WebRTC Swift/iOS SDK: https://github.com/elastos/Elastos.NET.WebRTC.iOS.SDK/releases/tag/release-v1.0.0 
- • WebRTC with metamask: https://www.callpass.cn/metamask
+  + WebRTC Java/Android SDK: https://github.com/elastos/Elastos.NET.WebRTC.Android.SDK/releases/tag/release-v1.0.0 
+  + WebRTC Swift/iOS SDK: https://github.com/elastos/Elastos.NET.WebRTC.iOS.SDK/releases/tag/release-v1.0.0 
+  + WebRTC with metamask: https://www.callpass.cn/metamask
 + Experience in Rust
- • https://github.com/AngoraFuzzer/Angora 
+  + https://github.com/AngoraFuzzer/Angora 
  
 ### Team Code Repos
 * https://github.com/allcomsh
