@@ -149,16 +149,18 @@ It can be implemeneted using the function provided by substrate as well.
 }
 ```
 
-* An overview of the technology stack to be used
-DID is used as the address of the instant messenger, it generated on the user's device in stead of central server.
+### An overview of the technology stack to be used
++ DID is used as the address of the instant messenger, it generated on the user's device in stead of central server.
 It can also be any address in a Ethereum wallet and it need the signature of the walller.
-The Audio/Vedio and Data communicate is done by WebRTC, which is an open source project from Google.
-With WebRTC, you can add real-time communication capabilities to your application that works on top of an open standard. It supports video, voice, and generic data to be sent between peers, allowing developers to build powerful voice- and video-communication solutions. The technology is available on all modern browsers as well as on native clients for all major platforms. The technologies behind WebRTC are implemented as an open web standard and available as regular JavaScript APIs in all major browsers. For native clients, like Android and iOS applications, a library is available that provides the same functionality. The WebRTC project is open-source and supported by Apple, Google, Microsoft and Mozilla, amongst others.
-WebRTC does not work alone and it needs a signaling protocol to help the peer to find each other
++ The Audio/Vedio and Data communicate is done by WebRTC, which is an open source project from Google.
+With WebRTC, you can add real-time communication capabilities to your application that works on top of an open standard.
+ It supports video, voice, and generic data to be sent between peers, allowing developers to build powerful voice- and video-communication solutions. 
+ + The technology is available on all modern browsers as well as on native clients for all major platforms. The technologies behind WebRTC are implemented as an open web standard and available as regular JavaScript APIs in all major browsers. For native clients, like Android and iOS applications, a library is available that provides the same functionality. The WebRTC project is open-source and supported by Apple, Google, Microsoft and Mozilla, amongst others.
++ WebRTC does not work alone and it needs a signaling protocol to help the peer to find each other
 and build the initial connection.
-There is peer to peer messaging system in most blockchain system so we can use it
++ There is peer to peer messaging system in most blockchain system so we can use it
 to be the signaling platform for WebRTC peers. 
-* Core components, protocols, architecture etc. to be deployed
+### Core components, protocols, architecture etc. to be deployed
 ### 1. Messaging network
 #### requirement of instant messaging 
 1. broadcasting
@@ -183,21 +185,23 @@ This includes a Decentralized Push Notification and Advertise Market, Governance
 the Club Token will leverage our economic attention to build the network effect of an open platform.
 
 ### 5. App
-#### App for IOS and Android, a web client with a metamask plugin or dapp in 
-wallet which support WebRTC.
-Those app is heavyly reply on WebRTC. The WebRTC standard covers, 
+#### App for IOS and Android, a web client with a metamask plugin or dapp in wallet which supports WebRTC.
++ Those app is heavyly reply on WebRTC. The WebRTC standard covers, 
 on a high level, two different technologies: media capture devices and peer-to-peer connectivity.
 Media capture devices includes video cameras and microphones, but also screen capturing "devices".
- For cameras and microphones, we use navigator.mediaDevices.getUserMedia() to capture MediaStreams. For screen recording, we use navigator.mediaDevices.getDisplayMedia() instead.
-The peer-to-peer connectivity is handled by the RTCPeerConnection interface. 
+ For cameras and microphones, we use navigator.mediaDevices.getUserMedia() to capture MediaStreams. 
+ For screen recording, we use navigator.mediaDevices.getDisplayMedia() instead.
++ The peer-to-peer connectivity is handled by the RTCPeerConnection interface. 
 This is the central point for establishing and controlling the connection between two peers in WebRTC.
++ The App replies on peer to peer messaging to communication;
++ The App is offline for most of time and it replies on the offline push messaging to get online when needed.
 
 
 ### Ecosystem Fit 
-There are many project in the space of decentralized communication, such as status, topnetwork, yeecall.
++ There are many project in the space of decentralized communication, such as status, topnetwork, yeecall.
 While most projects are building the infrastructure from ground and replying on communities to provide different kinds of communication related application,
 it still very hard to implement an instant messenger since most backend features required by an instant messenger are still missing.
-we are going to build an easy integrated decentralized messaging app for end user and api for developer in cryto world by integrating many technologies in different blockchain.
++ We are going to build an easy integrated decentralized messaging app for end user and api for developer in cryto world by integrating many technologies in different blockchain.
 we want to serve the whole blockchain world. 
 
 ## Team :busts_in_silhouette:
@@ -258,9 +262,10 @@ Experience in Rust
 * **Costs:** $20,000
 * Deliverables: messaging node software 
 * Specification:
-* fork of whisper
+* fork of whisper 
 * move devp2p over to libp2p, as it'll provide us with multiple transports, better protocol negotiation, NAT traversal,
 * smart contract for miner who run messaging nodes;
+* fork a c++ mixnet messaging and port to WASM
 
 ### Milestone 4 Add turn server into substrate network
 * **Estimated Duration:** 1 month
