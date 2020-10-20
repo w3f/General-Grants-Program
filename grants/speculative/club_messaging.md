@@ -296,18 +296,19 @@ Shanghai, PRC 201203
 ## Future Plans
 Please include the team's long-term plans and intentions.
 
-In the next two years, We are going to build this instant messaging app (a dicentralized Zoom kind of app) for cryto world and we will continue to improve the user experience.
+In the next two years, We are going to implement the decentralized messaging protocol and build the messaging network and an instant messaging app on top of it(a dicentralized Zoom kind of app) for cryto world and we will continue to improve the user experience.
+
 It will also be a real time communication SDK (a dicentralized communication development toolkit like Twillio, Agora, Jigou, a communication version of Chainlink) for app application development, especially wallet application.
 
 ## Additional Information :heavy_plus_sign: 
 * What work has been done so far?
-We have developed an IOS and Android app with Audio and Vedio chat. Those apps relies on Elastos's carrier as backend protocol for peer to peer signaling messaging.
-We have integrate WebRTC Audio/Vedio communication with metamask waller. 
+  + We have developed an IOS and Android app with Audio and Vedio chat. Those apps relies on Elastos's carrier as backend protocol for peer to peer signaling messaging.
+  + We have integrate WebRTC Audio/Vedio communication with metamask waller. 
 https://www.callpass.cn/metamask
-We have implemetd peer to peer and group text messaging chat using Ethereum's whisper and swarm.
+  + We have implemetd peer to peer and group text messaging chat using Ethereum's whisper and swarm.
 http://t.callt.net
 It relys on a private side chain to do messaging routing and offline messaging.
 * Are there are any teams who have already contributed (financially) to the project?
-No
+  + No
 * Have you applied for other grants so far?
-No
+  + No
