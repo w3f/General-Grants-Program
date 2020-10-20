@@ -6,25 +6,37 @@
 
 ### Overview
 
-Please provide the following:
-  * A brief description of the project.
-   
-  * Club Chat is a decentralized, censorship free real time instant messenger with audio/vedio function. 
+  * Club is an instant mesaging protocol that enables real time audio/vedio communication and text/file transmition.
+  It is a decentralized, censorship free messaging network with enconomic incentives on Polkadot. 
  Unlike most instant messenger app today, there is no central account system for users, it uses DID(Decentralized Identifier) as the indentity and signature to secure.  
  There is no server either, it will be the blockchain nodes for the messaging relay and route, so there is no service nor maintenance team needed to keep the system running. 
  There is no single point failure.
+ We support easy implement realtime audio and vedio communication as well as file transfer in application 
  Privacy, Security and Censorship-resustance is our goal.
   Censorship-resistance is considered to be one of the main value propositions of Bitcoin. 
   The idea is that no nation-state, corporation, or third party has the power to control who can use the network. 
   Censorship-resistance ensures that the laws that govern the network are set in advance and can’t be retroactively altered to fit a specific agenda.
-  * Unlike most messaging app founded in crypto world such as hopr, status, ally/scrumble, we are focus on user experience, 
-  and we are developing the front end app instead of background technologies. Our target is to make it used by people in crypto world. 
+  * Unlike most messaging app founded in crypto world such as hopr, status, ally/scrumble, 
+  many basic functions required by instant messenger are part of the protocal and implemented for easy integration, 
+  such as a
+  udio and verdio commmunication;
+  offline messaging notification.
+We are also developing the front end app based on the background technologies.
+ Our target is to make it used by people in crypto world. 
 
   * An indication of how you will integrate this project into Substrate / Polkadot / Kusama.
-  
+  As Gavin Wood pointed out messaging is one of the four components to the post-Snowden Web
+  (static content publication, dynamic messages, trustless transactions and an integrated user-interface).
   * We will use the address in Substrate/Polkadot as the identity of the messaging part.
   We are going to use the peer to peer messaging technologies provided by substrate.
-
+  The CLUB network is not owned by any individuals or third party. Instead, we want to reply on the community of Polkadot to grow our network.
+  The CLUB network relies on multiple individuals running CLUB nodes over publicly available infrastructure.
+  CLUB nodes can run on the substate nodes in multiple devices and operating systems over the Internet.
+  Beyond the Polkadot and Substrate, CLUB provides the important features neeed by distributed application.
+  The CLUB token will be issued on Polkadot. It will be used as the incentive to run CLUB node as well as the use of CLUB.
+  Nodes participating in the CLUB network get paid for their services via blockchain payment channels in the form of CLUB tokens. 
+  These CLUB tokens can be used within the CLUB network as a means of payment for requesting services from other CLUB nodes.
+  
   * An indication of why your team is interested in creating this project.
   * In the past few years, the technology and infrastructure of decentralization have made considerable progress,
    but the crypto world is still using traditional communication tools such as WeChat Communication. 
@@ -39,14 +51,16 @@ Please provide the following:
    controlled by any commercial organization. 
 
 ### Project Details 
-We expect the teams to already have a solid idea about the project's expected final state.
-
-Therefore, we ask the teams to submit (where relevant):
 * Mockups/designs of any UI components
 * API specifications of the core functionality
++ IOS and Android CLUB SDK
++ it is a java api set for webrtc connection using peer to peer messaging protocol. 
+With the Android CLUB SDK, it is possible to build voip applications for mobile phones, tablets, wearables, TVs and car media systems 
+that run on the Android Operating System (OS) while utilizing the functionalities of the Elastos Carrier and WebRTC protocol.
+
 * WebRTC replys on sigaling protocol to connect peers to build WebRTC connection.
 We define and implement a simple protocol to build audio/vedio conversation and send data between peers.
-THis protocal can be implemented by underline messaging protocol such as carrier in Elastos and whisper in Ethereum.
+This protocal can be implemented by underline peer to peer messaging protocol such as mixnet, tor, carrier in Elastos and whisper in Ethereum.
 It can be implemeneted using the function provided by substrate as well.
 
 ### WebRTC Sigaling Protocol
@@ -137,8 +151,30 @@ WebRTC does not work alone and it needs a signaling protocol to help the peer to
 and build the initial connection.
 There is peer to peer messaging system in most blockchain system so we can use it
 to be the signaling platform for WebRTC peers. 
-* Documentation of core components, protocols, architecture etc. to be deployed
-### 1. App
+* Core components, protocols, architecture etc. to be deployed
+### 1. Messaging network
+#### requirement of instant messaging 
+1. broadcasting
+2. offline messaging
+3. online peer to peer messaging
+4. realtime audio/vedio communication
+5. file transmition 
+While Ethereum Whisper support number 1 and 2 in the above list; 
+Number 3 needs something like ElastOS Carrier or something similar, such as lower API like The RLPx Transport Protocol.
+Peer to peer offline messaging and storage server can be implemented on top of #3.
+
+### 2. Turn server
+The term stands for Traversal Using Relay NAT, and it is a protocol for relaying network traffic.
+### 3. Push Notification Server
+Since most apps are forced to be offline when it is switched to background, we need to use
+the messaging channel of the Phone device. On IOS it is APNS and Voice Push Notification service,
+on Android it is called FCM, Firebase Cloud Messaging 
+### 4. Token
+The Club token is a modular utility token that fuels the Club Chat network. 
+This includes a Decentralized Push Notification and Advertise Market, Governance of the Club client, Incentives of Messaging, Turn Server and Notification Nodes.
+the Club Token will leverage our economic attention to build the network effect of an open platform.
+
+### 5. App
 #### App for IOS and Android, a web client with a metamask plugin or dapp in 
 wallet which support WebRTC.
 Those app is heavyly reply on WebRTC. The WebRTC standard covers, 
@@ -148,34 +184,12 @@ Media capture devices includes video cameras and microphones, but also screen ca
 The peer-to-peer connectivity is handled by the RTCPeerConnection interface. 
 This is the central point for establishing and controlling the connection between two peers in WebRTC.
 
-### 2. Messaging network
-#### requirement of instant messaging 
-1. broadcasting
-2. offline messaging
-3. online peer to peer messaging
-While Ethereum Whisper support number 1 and 2 in the above list; 
-Number 3 needs something like ElastOS Carrier or something similar, such as lower API like The RLPx Transport Protocol.
-Peer to peer offline messaging and storage server can be implemented on top of #3.
-
-### 3. Turn server
-The term stands for Traversal Using Relay NAT, and it is a protocol for relaying network traffic.
-### 4. Push Notification Server
-Since most apps are forced to be offline when it is switched to background, we need to use
-the messaging channel of the Phone device. On IOS it is APNS and Voice Push Notification service,
-on Android it is called FCM, Firebase Cloud Messaging 
-### 5. Token
-The Club token is a modular utility token that fuels the Club Chat network. 
-This includes a Decentralized Push Notification and Advertise Market, Governance of the Club client, Incentives of Messaging, Turn Server and Notification Nodes.
-the Club Token will leverage our economic attention to build the network effect of an open platform.
-
-* PoC/MVP or other relevant prior work or research on the topic
-
 
 ### Ecosystem Fit 
-Are there any other projects similar to yours? If so, how is your project different?
 There are many project in the space of decentralized communication, such as status, topnetwork, yeecall.
 While most projects are building the infrastructure from ground and replying on communities to provide different kinds of communication related application,
-we are going to build decentralized messaging app for end user and api for developer in cryto world by integrating many technologies in different blockchain.
+it still very hard to implement an instant messenger since most backend features required by an instant messenger are still missing.
+we are going to build an easy integrated decentralized messaging app for end user and api for developer in cryto world by integrating many technologies in different blockchain.
 we want to serve the whole blockchain world. 
 
 ## Team :busts_in_silhouette:
@@ -229,9 +243,9 @@ For each milestone:
 * **Total Costs:** Amount of Payment for the whole project. The total amount of funding needs to be below $100k.
 
 ### Milestone 1 Realtime chat using Substrate address
-* **Estimated Duration:** 1 month
-* **FTE:**  4
-* **Costs:** $20,000
+* **Total Estimated Duration:** 1 month
+* **Full-time equivalent (FTE):**  4
+* **Total Costs:** $20,000
 * Deliverables: architecture, implementation and documentation detailed publicly on GitHub
 * Specification:
 * implementation of existing  realtime audio/vedio communication for polkadot/substrate address
@@ -257,7 +271,7 @@ For each milestone:
 * **FTE:**  2
 * **Costs:** $10,000
 
-### Milestone 5 Investigate and Implement WebRTC singaling messaging in Substrate 
+### Milestone 5 Implement WebRTC singaling messaging 
 * **Estimated Duration:** 1 month
 * **FTE:**  8
 * **Costs:** $40,000
@@ -266,14 +280,7 @@ For each milestone:
 * Distributed Peer Table (DPT) / Node Discovery: peer could be any substrate address, Maintain/manage a list of peers, also includes node discovery. 
 * Offline messaging
 
-
-...
-
 ### Community engagement
-
-As part of the Program, we require that you produce an article/tutorial and publish it (for example on [Medium](https://medium.com/)). It should explain your work done as part of the grant. 
-
-Normally, we ask you to submit the write-up upon the completion of your grant, although for larger projects it might make sense to publish multiple articles after the completion of different milestones.
 
 ## Future Plans
 Please include the team's long-term plans and intentions.
@@ -282,9 +289,6 @@ In the next two years, We are going to build this instant messaging app (a dicen
 It will also be a real time communication SDK (a dicentralized communication development toolkit like Twillio, Agora, Jigou, a communication version of Chainlink) for app application development, especially wallet application.
 
 ## Additional Information :heavy_plus_sign: 
-Any additional information that you think is relevant to this application that hasn't already been included.
-
-Possible additional information to include:
 * What work has been done so far?
 We have developed an IOS and Android app with Audio and Vedio chat. Those apps relies on Elastos's carrier as backend protocol for peer to peer signaling messaging.
 We have integrate WebRTC Audio/Vedio communication with metamask waller. 
