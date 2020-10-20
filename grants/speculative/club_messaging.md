@@ -207,24 +207,29 @@ we want to serve the whole blockchain world.
 ## Team :busts_in_silhouette:
 
 ### Team members
-* Name of team leader: Wei Li
-* Names of team members: Yi Wang
+* Name of team leader: Wei Li, Master Degree of Computer Science, Nanjing University
+* Names of team members: Yi Wang, Master Degree of Computer Science, University of Chinese Academy of Sciences
 
 ### Team Website	
 * http://t.callt.net
 * https://www.callpass.cn/metamask
 
 ### Legal Structure 
-Please provide the name and registered address of the legal entity executing the project. When applying via the General Grants program, these details can also be shared privately via the Google Form used for your application.
+```
 Shanghai Allcom Network Technologies
-Suite 11-205, Guoshoujing Road, PuDong, Shanghai, PRC 201203
+Pudong Software Park
+Suite 11-205, 498 Guoshoujing Road,
+PuDong, 
+Shanghai, PRC 201203
+```
 ### Team's experience
-Please describe the team's relevant experience.  If the project involves development work, then we'd appreciated if you can single out a few interesting code commits made by team members on their past projects. For research-related grants, references to past publications and projects in a related domain are helpful.  
-Experience in WebRTC and Blockchain:
++ Wei Li has over 20 years experiences in email,voip and instant messaging software development.
++ Wang Yi has 5 years experiences in bitcoin and ethereum and 2 years in RUST development. 
++ Experience in WebRTC and Blockchain:
  • WebRTC Java/Android SDK: https://github.com/elastos/Elastos.NET.WebRTC.Android.SDK/releases/tag/release-v1.0.0 
  • WebRTC Swift/iOS SDK: https://github.com/elastos/Elastos.NET.WebRTC.iOS.SDK/releases/tag/release-v1.0.0 
  • WebRTC with metamask: https://www.callpass.cn/metamask
-Experience in Rust
++ Experience in Rust
  • https://github.com/AngoraFuzzer/Angora 
  
 ### Team Code Repos
@@ -244,7 +249,7 @@ Experience in Rust
 * Deliverables: architecture, implementation and documentation detailed publicly on GitHub
 * Specification:
 * implementation of existing  realtime audio/vedio communication for polkadot/substrate address
-* use elastos carrier as the messaging platfoem
+* use elastos carrier as the messaging platform
 
 ### Milestone 2 A token and smart contract system immplemented in Substrate 
 * **Estimated Duration:** 1 month
