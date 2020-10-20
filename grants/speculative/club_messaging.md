@@ -9,21 +9,22 @@
   * Club is to help the cryto world to implement the instant messaging app or features faster and easier.
   * Club is an instant mesaging protocol that enables real time audio/vedio communication and text/file transmition.
   It is a decentralized, censorship free messaging network with enconomic incentives on Polkadot. 
-* Unlike most instant messenger app today, there is no central account system for users, it uses DID(Decentralized Identifier) as the indentity and signature to secure.  
- There is no server either, it will be the blockchain nodes for the messaging relay and route, so there is no service nor maintenance team needed to keep the system running. 
-   + There is no single point failure.
-   + We support easy implement realtime audio and vedio communication as well as file transfer in application 
-   + Privacy, Security and Censorship-resustance is our goal.
+  * We support easy implement of realtime audio and vedio communication as well as file transfer in decentralized application.
+  In fact such kind of functions are not found in most messaging protocol such as hopr, status, ally/scrumble,  
+  + Offline messaging notification is another built-in features in CLUB protocol.
+  * Comparing to most instant messenger app today which is centralized, there is no central account system for users, 
+  it uses DID(Decentralized Identifier) as the indentity and signature to secure.  
+  There is no server either, it will be the blockchain nodes for the messaging relay and route, so there is no service nor maintenance team needed to keep the system running. 
+ + There is no single point failure.
+ + Privacy, Security and Censorship-resustance is our goal.
   Censorship-resistance is considered to be one of the main value propositions of Bitcoin. 
   The idea is that no nation-state, corporation, or third party has the power to control who can use the network. 
   Censorship-resistance ensures that the laws that govern the network are set in advance and can’t be retroactively altered to fit a specific agenda.
-  * Unlike most messaging protocol lack of audio/vedio/file communication support in crypto world such as hopr, status, ally/scrumble, 
-  thos basic functions required by instant messenger are part of the protocal and built in easy integration, 
-  + offline messaging notification is also built in features.
   + We are also developing the front end app based on the background technologies.
+
  Our target is to make it used by people in crypto world. 
 
- * An indication of how you will integrate this project into Substrate / Polkadot / Kusama.
+### An indication of how you will integrate this project into Substrate / Polkadot / Kusama.
    + As Gavin Wood pointed out messaging is one of the four components to the post-Snowden Web
   (static content publication, dynamic messages, trustless transactions and an integrated user-interface).
    + As Gavin suggested an identity-based pseudonymous low-level messaging system is used for communicating between people on the network.
@@ -41,18 +42,18 @@
   Nodes participating in the CLUB network get paid for their services via blockchain payment channels in the form of CLUB tokens. 
   These CLUB tokens can be used within the CLUB network as a means of payment for requesting services from other CLUB nodes.
   
-  * An indication of why your team is interested in creating this project.
-    + Messaging is needed in every application, so does in cryto world. As dapp grow, the need of realtime audio/vedio communication as found in most instant meseenger today
+### An indication of why your team is interested in creating this project.
+   * Messaging is needed in every application, so does in cryto world. As dapp grow, the need of realtime audio/vedio communication as found in most instant meseenger today
      should be the basic feature of wallet or other kind of decentralized application 
-    * In the past few years, the technology and infrastructure of decentralization have made considerable progress,
+   * In the past few years, the technology and infrastructure of decentralization have made considerable progress,
    but the crypto world is still using traditional communication tools such as WeChat Communication. 
-    + Encouraged by uniswap which build pure decentralized exchange on Ethereum, we are going to build decentralized instant messenger 
+   *  Encouraged by uniswap which build pure decentralized exchange on Ethereum, we are going to build decentralized instant messenger 
    on top of the existing peer to peer network exsited in most blockchain.
-    + As most people still reply on centralized exchanges to trade cryptocurrencies, 
+   *  As most people still reply on centralized exchanges to trade cryptocurrencies, 
    we are facing the same problem and difficulty as most instant messenger are domanated by single platform and commercial company.
-    + In stead of chalendge most existing instant messenger, we are going to use the technologies developed by cryto workd and serve people in crtpto world. 
+   * In stead of chalendge most existing instant messenger, we are going to use the technologies developed by cryto workd and serve people in crtpto world. 
    the user scale of encrypted currency is at least hundreds of thousands or even millions, it is big enough for us at this stage. 
-    + Technically, the messaging technologies is the underline technologies in every blockchain such as Substrate in Polkadot, 
+   * Technically, the messaging technologies is the underline technologies in every blockchain such as Substrate in Polkadot, 
     Whishper in Ethereum, Carrier in Elastos carrier and it can be used to implement peer to peer messaging.
    Based on cryptography, smart contracts, and peer-to-peer communication technologies, it is possible to build a decentralized instant messaging system with ensorship-resistance, which means it can not regulated and 
    controlled by any commercial organization. 
@@ -150,7 +151,7 @@ It can be implemeneted using the function provided by substrate as well.
 ```
 
 ### An overview of the technology stack to be used
-+ DID is used as the address of the instant messenger, it generated on the user's device in stead of central server.
++ DID is used as the address of the instant messenger, it is generated on the user's device in stead of central server.
 It can also be any address in a Ethereum wallet and it need the signature of the walller.
 + The Audio/Vedio and Data communicate is done by WebRTC, which is an open source project from Google.
 With WebRTC, you can add real-time communication capabilities to your application that works on top of an open standard.
@@ -171,7 +172,8 @@ to be the signaling platform for WebRTC peers.
 
 While Ethereum Whisper support number 1 and 2 in the above list; 
 Number 3 needs something like ElastOS Carrier or something similar, such as lower API like The RLPx Transport Protocol.
-Peer to peer offline messaging and storage server can be implemented on top of #3.
+Peer to peer offline messaging and storage server can be implemented on top of Number 3.
+Number 4 and 5 is handled by WebRTC while the WebRTC connection is setup by on line peer to peer messaging.
 
 ### 2. Turn server
 The term stands for Traversal Using Relay NAT, and it is a protocol for relaying network traffic.
@@ -246,7 +248,7 @@ Shanghai, PRC 201203
 * **Total Estimated Duration:** 1 month
 * **Full-time equivalent (FTE):**  2
 * **Total Costs:** $10,000
-* Deliverables: architecture, implementation and documentation detailed publicly on GitHub
+* Deliverables: IOS and Android APP which can demostrate the audio/vedio communication
 * Specification:
 * implementation of existing  realtime audio/vedio communication for polkadot/substrate address
 * use elastos carrier as the messaging platform
@@ -265,7 +267,7 @@ Shanghai, PRC 201203
 * **Estimated Duration:** 2 month
 * **FTE:**  2
 * **Costs:** $20,000
-* Deliverables: messaging node software 
+* Deliverables: messaging node software, architecture, implementation and documentation detailed publicly on GitHub 
 * Specification:
 * fork of whisper 
 * move devp2p over to libp2p, as it'll provide us with multiple transports, better protocol negotiation, NAT traversal,
