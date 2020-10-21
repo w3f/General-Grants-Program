@@ -6,12 +6,11 @@
 
 ### Overview
 
-  * Club is to help the cryto world to implement the instant messaging app or features faster and easier.
-  * Club is an instant mesaging protocol that enables real time audio/vedio communication and text/file transmition.
-  It is a decentralized, censorship free messaging network with enconomic incentives on Polkadot. 
-  * We support easy implement of realtime audio and vedio communication as well as file transfer in decentralized application.
+  * Club is an instant mesaging protocol that enables real time audio/vedio communication and file transfer.
+  It is a decentralized, censorship free messaging network with enconomic incentives on blockchain. 
+  * Club supports easy implement of realtime audio and vedio communication as well as file transfer in decentralized application.
   In fact such kind of functions are not found in most messaging protocol such as hopr, status, ally/scrumble,  
-  + Offline messaging notification is another built-in features in CLUB protocol.
+  + Offline messaging notification for mobile application is another built-in features in CLUB protocol.
   * Comparing to most instant messenger app today which is centralized, there is no central account system for users, 
   it uses DID(Decentralized Identifier) as the indentity and signature to secure.  
   There is no server either, it will be the blockchain nodes for the messaging relay and route, so there is no service nor maintenance team needed to keep the system running. 
@@ -211,6 +210,8 @@ we want to serve the whole blockchain world.
 ### Team members
 * Name of team leader: Wei Li, Master Degree of Computer Science, Nanjing University
 * Names of team members: Yi Wang, Master Degree of Computer Science, University of Chinese Academy of Sciences
+* Names of team members: Xianghuan Li, BS of Computer Science, Shanghai University
+* Names of team members: Tomas Shao, BS of Computer Science, Southwest Minzu University
 
 ### Team Website	
 * http://t.callt.net
@@ -226,7 +227,9 @@ Shanghai, PRC 201203
 ```
 ### Team's experience
 + Wei Li,over 20 years experiences in email,voip and instant messaging software development.
-+ Wang Yi,5 years experiences in blockchain technoliges and 2 years in RUST development. 
++ Wang Yi,5 years experiences in blockchain technoliges and 2 years in RUST development.
++ Xianghuan Li, 7 years experiences in fullstack software development, Java, Javascript, Rest, Android & IOS, Voip, SIP
++ Tomas Shao, 10 years experiences in IOS development, Swift, Objective-C, C/C++ 
 + Experience in WebRTC and Blockchain:
   + WebRTC Java/Android SDK: https://github.com/elastos/Elastos.NET.WebRTC.Android.SDK/releases/tag/release-v1.0.0 
   + WebRTC Swift/iOS SDK: https://github.com/elastos/Elastos.NET.WebRTC.iOS.SDK/releases/tag/release-v1.0.0 
@@ -237,6 +240,7 @@ Shanghai, PRC 201203
 ### Team Code Repos
 * https://github.com/allcomsh
 * https://github.com/gxyzwangyi
+* https://github.com/Tomas-Shao
 
 ### Team LinkedIn Profiles
 * https://www.linkedin.com/in/wei-li-24329451/
