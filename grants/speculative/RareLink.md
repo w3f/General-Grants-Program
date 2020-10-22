@@ -101,46 +101,64 @@ Our team had great development experience in blockchain domain.
 * **FTE:**  1
 * **Costs:** 1000 DOTs (equivalent to $4000)
 
-* Task:
+* **Task**:
    * bridge contract in Ethereum and Substrate
       * this module allows the dynamic NFTs to be locked/burnt in bridge contract for token transfer;
-o	 it can mint new tokens upon receiving events from validators to complete the token transfer;
-o	it can send/receive update events across the bridge for dynamic NFTs that had been transferred across network;
-•	off-chain validator module:
-o	the validators are responsible to relay the transfer event (including both token and update event transfer) across the blockchain networks.
-	Test
-•	deploy token bridge to testnet and run system test:
-o	mint, list and burn dynamic NFT in both networks;
-o	test the bidirectional transfer of dynamic NFT across the blockchain networks;
-o	verify dynamic behavior remains intact after the cross-chain transfer.
-•	run load testing: 
-o	transfer a large number of dynamic NFTs or update events in the same time to test the stability and capacity limit. 
-o	Measure performance of bridge over the time.
-	Documentation:
-•	create the tutorial to walk through the process of transferring dynamic NFTs in both directions;
-•	a step-by-step demo will be added to show the complete transfer process.
+      * it can mint new tokens upon receiving events from validators to complete the token transfer;
+      * it can send/receive update events across the bridge for dynamic NFTs that had been transferred across network;
+   * off-chain validator module:
+      * the validators are responsible to relay the transfer event (including both token and update event transfer) across the blockchain networks.
+* **Test**:
+   * deploy token bridge to testnet and run system test:
+      * mint, list and burn dynamic NFT in both networks;
+      * test the bidirectional transfer of dynamic NFT across the blockchain networks;
+      * verify dynamic behavior remains intact after the cross-chain transfer.
+   * run load testing: 
+      * transfer a large number of dynamic NFTs or update events in the same time to test the stability and capacity limit. 
+      * Measure performance of bridge over the time.
+* **Documentation**:
+  * create the tutorial to walk through the process of transferring dynamic NFTs in both directions;
+  * a step-by-step demo will be added to show the complete transfer process.
 
 
-### 3.4 Milestone 3 Example — Implement Substrate Modules 
-* **Estimated Duration:** 1 month
+### 3.4 Milestone 3 — Build frontend for users and SDK for third-party integration 
+* **Estimated Duration:** 2 month
 * **FTE:**  1
-* **Costs:** $5,000
+* **Costs:** 1000 DOTs (equivalent to $4000)
 
-
+* **Task**:
+  * Web UI: user should be able to mint, list and transfer their dynamic NFT through the website on specified network.
+  * SDK: in order to facilitate the third-party integration, SDK will be built to allow developers to easily invoke APIs to mint, list and transfer dynamic NFTs in their own applications.
+* **Test**:
+  * run end-to-end test on Web to demonstrate the minting, listing and transfer of dynamic NFTs. 
+  * build a test project to integrate SDK and verify its functionality.
+* **Documentation**: 
+  * add “get-started” tutorial to show end-to-end process of minting and transferring dynamic NFT with Web UI across network. 
+  * create document of all externally callable APIs. 
+  * create a sample project to demonstrate the way to integrate SDK.
 
 ### 3.4 Community engagement
+
+RareLink Protocol has great community support in China and Germany. Our community manager will host technical meetups in different cities to engage more community members. Moreover, many media channels will report RareLink Protocol to their audience. 
 
 As part of the Program, we require that you produce an article/tutorial and publish it (for example on [Medium](https://medium.com/)). It should explain your work done as part of the grant. 
 
 Normally, we ask you to submit the write-up upon the completion of your grant, although for larger projects it might make sense to publish multiple articles after the completion of different milestones.
 
 ## 4. Future Plans
-Please include the team's long-term plans and intentions.
+
+Our long term plan is to onboard more developers to build applications on top of RareLink Protocol, which allows more use cases to be available to users.
 
 ## 5. Additional Information :heavy_plus_sign: 
-Any additional information that you think is relevant to this application that hasn't already been included.
 
-Possible additional information to include:
-* What work has been done so far?
-* Are there are any teams who have already contributed (financially) to the project?
-* Have you applied for other grants so far?
+* **What work has been done so far?**
+<need to update>
+
+* **Are there are any teams who have already contributed (financially) to the project?**
+No
+
+* **Have you applied for other grants so far?**
+No
+
+* **Are there any other projects similar to yours?**
+To the best of our knowledge, there is no project about dynamic NFT that is similar to our project. Please let us know if there are any.
