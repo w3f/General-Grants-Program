@@ -9,7 +9,7 @@
   * Club is an instant mesaging protocol that enables real time audio/vedio communication and file transfer.
   It is a decentralized, censorship free messaging network with enconomic incentives on blockchain. 
   * Club supports easy implement of realtime audio and vedio communication as well as file transfer in decentralized application.
-  In fact such kind of functions are not found in most messaging protocol such as hopr, status, ally/scrumble,  
+  In fact such kind of functions are not found in most messaging protocol such as hopr, status, ally/scrumble, etc. 
   + Offline messaging notification for mobile application is another built-in features in CLUB protocol.
   * Comparing to most instant messenger app today which is centralized, there is no central account system for users, 
   it uses DID(Decentralized Identifier) as the indentity and signature to secure.  
