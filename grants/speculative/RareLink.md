@@ -31,7 +31,11 @@ Therefore, we ask the teams to submit (where relevant):
 * PoC/MVP or other relevant prior work or research on the topic
 
 ### 1.3 Ecosystem Fit 
-Are there any other projects similar to yours? If so, how is your project different?
+
+There are some existing token bridge projects (e.g., POA token bridge, Parity token bridge, and ChainSafe/Centrifuge chainbridge) are implemented to transfer "static" tokens such as ERC20 or ERC721 tokens. However, they are not able to relay dynamic events for dynamic NFTs, therefore, the dynamic NFTs will lose dynamic behavior after cross-chain transfer. In fact, they become "static" NFTs after cross-chain transfer. Therefore, existing bridges are not suitable and a new token bridge is required. 
+
+RareLink Protocol is built to preserve the dynamic behavior of dynamic NFTs across different networks. It aims to close the gap and create a new two-way bridge for dynamic NFT to enable more business use cases in both ecosystems. 
+
 
 ## 2. Team :busts_in_silhouette:
 
