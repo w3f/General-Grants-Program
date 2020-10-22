@@ -42,7 +42,7 @@ RareLink Protocol is built to preserve the dynamic behavior of dynamic NFTs acro
 ### 2.1 Team members
 Currently one full-time developer works on RareLink Protocol.
 
-* Heng Wang
+* Heng
 
 Our team has a few part-time developers and their information can be provided in private. 
 If we receive the grant, we will transfer one or more part-time developer into full-time.
@@ -56,7 +56,6 @@ If we receive the grant, we will transfer one or more part-time developer into f
 ### 2.4 Team's experience
 
 Our team had great development experience in blockchain domain.
-
 
 ### 2.5 Team Code Repos
 * rarelink-runtime-node: https://github.com/RareLink/rarelink-runtime-node
@@ -141,10 +140,6 @@ Our team had great development experience in blockchain domain.
 
 RareLink Protocol has great community support in China and Germany. Our community manager will host technical meetups in different cities to engage more community members. Moreover, many media channels will report RareLink Protocol to their audience. 
 
-As part of the Program, we require that you produce an article/tutorial and publish it (for example on [Medium](https://medium.com/)). It should explain your work done as part of the grant. 
-
-Normally, we ask you to submit the write-up upon the completion of your grant, although for larger projects it might make sense to publish multiple articles after the completion of different milestones.
-
 ## 4. Future Plans
 
 Our long term plan is to onboard more developers to build applications on top of RareLink Protocol, which allows more use cases to be available to users.
@@ -152,7 +147,7 @@ Our long term plan is to onboard more developers to build applications on top of
 ## 5. Additional Information :heavy_plus_sign: 
 
 * **What work has been done so far?**
-<need to update>
+
 
 * **Are there are any teams who have already contributed (financially) to the project?**
 No
