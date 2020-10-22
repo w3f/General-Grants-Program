@@ -31,7 +31,7 @@ RareLink Protocol will make it friction-free to mint and transfer dynamic NFTs w
 
 ### 2.1 Team members
 
-* Han: full-time developer works on RareLink Protocol.
+* Han: full-time developer
 
 Our team has a few part-time developers and their information can be provided in private. We can transfer one or more part-time developer into full-time if grant is received.
 
@@ -45,7 +45,7 @@ Our team has a few part-time developers and their information can be provided in
 
 Our team had great development experience in blockchain domain.
 
-1. Full blockchain project delivered from whitepaper to network launch: Solidity, Javascript, REST API;
+1. blockchain project delivered from whitepaper to network launch: Solidity, Javascript, REST API;
 2. Token bridge developed between Ethereum, POA network and Binance chain. 
 3. Integration with Chainlink and Uniswap to create a decentralized exchange.
 
@@ -130,11 +130,15 @@ Our team had great development experience in blockchain domain.
 
 ### 3.5 Community engagement
 
-RareLink Protocol has great community support in China and Germany. Our community manager will host technical meetups in different cities to engage more community members. Moreover, many media channels will report RareLink Protocol to their audience. 
+RareLink Protocol has great community support in China and Germany. Our community manager will host technical meetups in different cities to engage more community members. Moreover, we had partnerships with many media channels and they will report RareLink Protocol to their audience. 
 
 ## 4. Future Plans
 
-Our long term plan is to onboard more developers to build applications on top of RareLink Protocol, which allows more use cases to be available to users.
+Our team would like to make continuous contributions to Substrate and Polkadot ecosystem. Our future plans are following:
+
+* enable the cross-parachain transfer of dynamic NFTs;
+* provide monitoring service to visualize the status and allow users to inspect end-to-end transfer process;
+* onboard more developers to build applications on top of RareLink Protocol, which makes more use cases to be available.
 
 ## 5. Additional Information :heavy_plus_sign: 
 
