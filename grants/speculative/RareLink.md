@@ -4,14 +4,21 @@
 * **Project:** RareLink Protocol
 
 ## 1. Project Overview :page_facing_up: 
-If this application in response to an RFP then please indicate this on the first line of this section.
 
 ### 1.1 Overview
 
-Please provide the following:
-  * A brief description of the project.
-  * An indication of how you will integrate this project into Substrate / Polkadot / Kusama.
-  * An indication of why your team is interested in creating this project.
+Existing non-fungible tokens (NFTs) are "static" (e.g., do not interact with data and events outside of the blockchain network) and created by ERC721 standard in Ethereum to represent tokenized ownership of unique assets. Therefore, they are limited to the Ethereum network and isolated from the real world. On the contrary, "dynamic" NFTs can receive data and events from the real world through Oracle service and response to them accordingly, which enables tons of business use cases and becomes the next revolution in the blockchain domain.
+
+RareLink Protocol is a new initiative to create "dynamic" NFTs and provide a two-way token bridge between Ethereum and Polkadot ecosystems, which facilitates the minting, transfer and exchange of dynamic NFTs:
+
+  * creates a minting platform to create dynamic NFTs in both Ethereum and Polkadot network:
+     * develop smart contracts in Ethereum network and integrate with Chainlink to create dynamic NFTs in Ethereum network;
+     * build NFT pallet using Substrate development and integrate with Chainlink pallet to create dynamic NFTs in Polkadot network;
+  * a new token bridge will be created to enables two-way transfer of dynamic NFTs between Ethereum and Polkadot:
+     * existing token bridge projects cannot transfer *dynamic events* across the network to update transferred dyanmic NFTs;
+     * new token bridge will focus on the transfer of dynamic NFTs and aim to preseve their dynamic behavior across networks.  
+     
+The team behind RareLink Protocol are early adoptors and enthusiasts of blockchain technology including Ethereum and Polkadot. In particular, our team believe NFTs will revolutionzie many industries (e.g., retail, real estate, advertising, etc.) in the near future. Moreover, "dynamic" NFT enables unique tokens in blockchain network to interact with data in the real world, which will make more business use cases possible and more efficient. Our team believe in this vision and look forward to working on RareLink Protocol to make it happen.
 
 ### 1.2 Project Details 
 We expect the teams to already have a solid idea about the project's expected final state.
