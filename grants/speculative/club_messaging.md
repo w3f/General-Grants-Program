@@ -254,8 +254,8 @@ Shanghai, PRC 201203
 * **Total Costs:** $10,000
 * Deliverables: IOS and Android APP which can demostrate the audio/vedio communication
 * Specification:
-* implementation of existing  realtime audio/vedio communication for polkadot/substrate address
-* use elastos carrier as the messaging platform
+* support vedio call using SS58 address format and extrinsic signature and verification
+* still use elastos carrier as the messaging platform
 
 ### Milestone 2 A token and smart contract system immplemented in Substrate 
 * **Estimated Duration:** 1 month
@@ -271,29 +271,37 @@ Shanghai, PRC 201203
 * **Estimated Duration:** 2 month
 * **FTE:**  2
 * **Costs:** $20,000
-* Deliverables: messaging node software, architecture, implementation and documentation detailed publicly on GitHub 
-* Specification:
+* **Deliverables:** messaging node software, architecture, implementation and documentation detailed publicly on GitHub 
+* **Specification:**
 * fork of whisper 
 * move devp2p over to libp2p, as it'll provide us with multiple transports, better protocol negotiation, NAT traversal,
 * smart contract for miner who run messaging nodes;
-* fork a c++ mixnet messaging and port to WASM
+* a c++ mixnet messaging and port to WASM
 
 ### Milestone 4 Add turn server into substrate network
 * **Estimated Duration:** 1 month
 * **FTE:**  2
 * **Costs:** $10,000
+* **Deliverables:** downloadanle turn sever, install instruction, source code
+* **Specification:**
+* Add token incentive of a open source turn server 
 
 ### Milestone 5 Implement push notification server into substrate network
 * **Estimated Duration:** 1 month
 * **FTE:**  2
 * **Costs:** $10,000
+* **Deliverables:** downloadanle push notification sever, install instruction, source code
+* **Specification:**
+* push notification server node to accept and store notification, device token from application
+* SDK for mobile application to integrate push notification;
+* push notifocation gateway to deliver push notification to IOS or Android messaging center
 
 ### Milestone 6 Implement WebRTC singaling messaging 
 * **Estimated Duration:** 1 month
 * **FTE:**  8
 * **Costs:** $40,000
-* Deliverables: protocol of peer to peer communication,implemented the rust and substrate
-* Specification:
+* **Deliverables:** protocol of peer to peer communication,implemented the rust and substrate
+* **Specification:**
 * Distributed Peer Table (DPT) / Node Discovery: peer could be any substrate address, Maintain/manage a list of peers, also includes node discovery. 
 * Offline messaging
 
