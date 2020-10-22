@@ -144,6 +144,9 @@ Our team would like to make continuous contributions to Substrate and Polkadot e
 
 * **What work has been done so far?**
 
+We have completed the proof of concept of NFT transfer between Ethereum mainnet and Polkadot mainnet, by reusing the POA TokenBridge. 
+
+Also an initial version of substrated runtime node has been set up with using the [substrate node template](https://github.com/substrate-developer-hub/substrate-node-template).
 
 * **Are there are any teams who have already contributed (financially) to the project?**
 No
