@@ -7,24 +7,24 @@
 
 ### 1.1 Project Description
 
-Existing non-fungible tokens (NFTs) are "static" (e.g., do not interact with data and events outside of the blockchain network) and created by ERC721 standard in Ethereum to represent tokenized ownership of unique assets. Therefore, they are limited to the Ethereum network and isolated from the real world. On the contrary, "dynamic" NFTs can receive data and events from the real world through Oracle service and response to them accordingly, which enables tons of business use cases and becomes the next revolution in the blockchain domain.
+Existing non-fungible tokens (NFTs) are "static" (e.g., do not interact with data and events outside of the blockchain network) and created by ERC721 standard in Ethereum to represent tokenized ownership of unique assets. Therefore, they are limited to the Ethereum network and isolated from the real world. On the contrary, "dynamic" NFTs receive data and events from the real world through Oracle services and response to them accordingly, which enables a large number of business use cases and becomes the next revolution in the blockchain domain.
 
-RareLink Protocol is a new initiative to create "dynamic" NFTs and provide a two-way token bridge between Ethereum and Polkadot ecosystems, which facilitates the minting, transfer and exchange of dynamic NFTs:
+RareLink Protocol is a new initiative to create "dynamic" NFTs and build a new token bridge between Ethereum and Polkadot, which facilitates minting, transfer and exchange of dynamic NFTs in both ecosystems:
 
   * creates a minting platform to create dynamic NFTs in both Ethereum and Polkadot network:
-     * develop smart contracts in Ethereum network and integrate with Chainlink to create dynamic NFTs in Ethereum network;
-     * build NFT pallet using Substrate development and integrate with Chainlink pallet to create dynamic NFTs in Polkadot network;
+     * develop smart contracts in Ethereum network and integrate with Chainlink to create dynamic NFTs in Ethereum;
+     * build NFT pallet, integrate with Chainlink pallet or off-chain worker, and develop Substrate Runtime to create dynamic NFTs in Polkadot;
   * a new token bridge will be created to enables two-way transfer of dynamic NFTs between Ethereum and Polkadot:
-     * existing token bridge projects cannot transfer *dynamic events* across the network to update transferred dyanmic NFTs;
+     * existing token bridge projects cannot transfer *dynamic events* across the network to update those transferred dyanmic NFTs;
      * new token bridge will focus on the transfer of dynamic NFTs and aim to preseve their dynamic behavior across networks.  
      
-The team members behind RareLink Protocol are early adoptors and developers of blockchain technology including both Ethereum and Polkadot. We are proficient in mechanism design and blockchain development. In particular, our team believe NFTs will revolutionzie many industries (e.g., retail, real estate, advertising, etc.) in the near future. Moreover, "dynamic" NFT enables unique tokens in blockchain network to interact with data in the real world, which will make more business use cases possible and more efficient. Our team believe in this vision so we look forward to working on RareLink Protocol and make it happen. 
+The team members behind RareLink Protocol are early adoptors and developers of blockchain technology including both Ethereum and Polkadot. We are proficient in mechanism design and blockchain development. In particular, our team believe NFTs will revolutionzie many industries (e.g., retail, real estate, advertising, and more) in the near future. Moreover, "dynamic" NFT enables unique tokens in blockchain network to interact with the real world, which will make more business use cases possible and more efficient. Our team believe in this vision so we look forward to working on RareLink Protocol and making it happen. 
 
 ### 1.2 Ecosystem Fit 
 
-There are some existing token bridge projects (e.g., POA token bridge, Parity token bridge, and ChainSafe/Centrifuge chainbridge) are implemented to transfer "static" tokens such as ERC20 or ERC721 tokens. However, they are not able to relay dynamic events for dynamic NFTs, therefore, the dynamic NFTs will lose dynamic behavior after cross-chain transfer. In fact, they become "static" NFTs after cross-chain transfer. Therefore, existing bridges are not suitable and a new token bridge is required. 
+There are some existing token bridge projects (e.g., POA token bridge, Parity token bridge, and ChainSafe/Centrifuge chainbridge) are implemented to transfer "static" tokens such as ERC20 or ERC721 tokens. However, they are *not* able to relay dynamic events for dynamic NFTs, therefore, dynamic NFTs will lose their dynamic behavior after cross-chain transfer and become "static" NFTs. Moreover, existing token bridges cannot provide high reliability, therefore, token transfer may fail due to various reasons and cause great loss to users. As such, existing token bridges are not suitable for dynamic NFTs and a new token bridge is required. 
 
-RareLink Protocol is built to preserve the dynamic behavior of dynamic NFTs across different networks. It aims to close the gap and create a new two-way bridge for dynamic NFT to enable more business use cases in both ecosystems. 
+RareLink Protocol will make it friction-free to mint and transfer dynamic NFTs while preserving their dynamic behavior across different networks. Also, it will apply many new techniques and ensure high reliabilty in transfer process to avoid asset loss to users. It aims to close the gap and enable more business use cases for dynamic NFTs in both ecosystems. 
 
 
 ## 2. Team :busts_in_silhouette:
