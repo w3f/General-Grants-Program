@@ -128,7 +128,7 @@ Our team had great development experience in blockchain domain.
   * create document of all externally callable APIs. 
   * create a sample project to demonstrate the way to integrate SDK.
 
-### 3.4 Community engagement
+### 3.5 Community engagement
 
 RareLink Protocol has great community support in China and Germany. Our community manager will host technical meetups in different cities to engage more community members. Moreover, many media channels will report RareLink Protocol to their audience. 
 
