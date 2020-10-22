@@ -40,7 +40,7 @@ Are there any other projects similar to yours? If so, how is your project differ
 * Names of team members	
 
 ### 2.2 Team Website	
-* https://<your_domain>
+* http://rarelink.network/
 
 ### 2.3 Legal Structure 
 Please provide the name and registered address of the legal entity executing the project. When applying via the General Grants program, these details can also be shared privately via the Google Form used for your application.
@@ -49,12 +49,15 @@ Please provide the name and registered address of the legal entity executing the
 Please describe the team's relevant experience.  If the project involves development work, then we'd appreciated if you can single out a few interesting code commits made by team members on their past projects. For research-related grants, references to past publications and projects in a related domain are helpful.  
 
 ### 2.5 Team Code Repos
-* https://github.com/<your_repo_1>
-* https://github.com/<your_repo_2>
+* rarelink-runtime-node: https://github.com/RareLink/rarelink-runtime-node
+* rarelink-docs: https://github.com/RareLink/rarelink-docs
+* token bridge poc
+    * Oracle module: https://github.com/RareLink/tokenbridge
+    * Bridge contracts: https://github.com/RareLink/tokenbridge-contracts
+    * evm pallet: https://github.com/RareLink/frontier
 
 ### 2.6 Team LinkedIn Profiles
-* https://www.linkedin.com/<person_1>
-* https://www.linkedin.com/<person_2>
+* provide upon request
 
 ## 3 Development Roadmap :nut_and_bolt: 
 
