@@ -67,45 +67,66 @@ Our team had great development experience in blockchain domain.
     * evm pallet: https://github.com/RareLink/frontier
 
 ### 2.6 Team LinkedIn Profiles
-* provide upon request
+* provide in private through Google Form.
 
 ## 3 Development Roadmap :nut_and_bolt: 
 
-This section should break out the development roadmap into a number of milestones. Since the milestones will appear in the grant contract, it helps to describe the functionality we should expect, plus how we can check that such functionality exists in the product. Whenever milestones are delivered, we refer to the contract to ensure that everything has been delivered as expected.
-
-Below we provide an **example roadmap**. In the descriptions it should be clear how the project is related to Substrate and/or Polkadot. We recommend that the scope of the work can fit within a 3 month period and that teams structure their roadmap as 1 month = 1 milestone. 
-
-For each milestone:
-* Please be sure to include a specification of the software. The level of detail must be enough so that we are able to verify that the software meets the specification.
-* Please include total amount of funding requested per milestone.
-* Please note that we require documentation (e.g. tutorials, API specifications, architecture details) in each milestone. This ensures that the code can be widely used by the community.
-* Please provide a test suite, comprising unit and integration tests, along with a guide on how to run these.
-* Please commit to providing a dockerfiles for the delivery of your project. 
-* Please indicate the milestone duration, as well as number of Full-Time Employees working on each milestone, and include the number of days along with their cost per day.
-
 ### 3.1 Overview
-* **Total Estimated Duration:** Duration of the whole project
-* **Full-time equivalent (FTE):**  Workload of an employed person ([see](https://en.wikipedia.org/wiki/Full-time_equivalent)) 
-* **Total Costs:** Amount of Payment for the whole project. The total amount of funding needs to be below $100k.
+* **Total Estimated Duration:** 5 months
+* **Full-time equivalent (FTE):**  2 FTE
+* **Total Costs:** 2500 DOT (We accept up to 100% of payment in DOTs that are equivalent to $10000)
 
-### 3.2 Milestone 1 Example — Implement Substrate Modules 
+### 3.2 Milestone 1 — Create dynamic NFT module in Ethereum and Polkadot
+* **Estimated Duration:** 1 month
+* **FTE:**  1
+* **Costs:** 500 DOTs (equivalent to $2000)
+
+* **Task**:
+   * *minting in Ethereum*: 
+     * build smart contract to mint ERC721 tokens and integrate with Chainlink to enable dynamic behavior; 
+     * users should be able to configure settings and create their own dynamic NFT in Ethereum. 
+   * *minting in Substrate*: 
+     * build the runtime module using existing NFT pallet and Chainlink pallet on top of Substrate; 
+     * allows users to create dynamic NFT on Substrate.
+* **Test**
+   * deploy the solidity contract to Ethereum public testnet and write test to demonstrate the minting of dynamic NFT.
+   * deploy the Runtime module to Substrate testnet and verify the minting of dynamic NFT.
+* **Documentation**:
+   * document in detail about minting dynamic NFT in both Ethereum and Substrate;
+   * a demo will be added to show that merchant can issue dynamic NFTs as admission tickets with expiration date.
+
+
+### 3.3 Milestone 2 — Implement two-way bridge for dynamic NFT between Ethereum and Polkadot
+* **Estimated Duration:** 2 month
+* **FTE:**  1
+* **Costs:** 1000 DOTs (equivalent to $4000)
+
+* Task:
+   * bridge contract in Ethereum and Substrate
+      * this module allows the dynamic NFTs to be locked/burnt in bridge contract for token transfer;
+o	 it can mint new tokens upon receiving events from validators to complete the token transfer;
+o	it can send/receive update events across the bridge for dynamic NFTs that had been transferred across network;
+•	off-chain validator module:
+o	the validators are responsible to relay the transfer event (including both token and update event transfer) across the blockchain networks.
+	Test
+•	deploy token bridge to testnet and run system test:
+o	mint, list and burn dynamic NFT in both networks;
+o	test the bidirectional transfer of dynamic NFT across the blockchain networks;
+o	verify dynamic behavior remains intact after the cross-chain transfer.
+•	run load testing: 
+o	transfer a large number of dynamic NFTs or update events in the same time to test the stability and capacity limit. 
+o	Measure performance of bridge over the time.
+	Documentation:
+•	create the tutorial to walk through the process of transferring dynamic NFTs in both directions;
+•	a step-by-step demo will be added to show the complete transfer process.
+
+
+### 3.4 Milestone 3 Example — Implement Substrate Modules 
 * **Estimated Duration:** 1 month
 * **FTE:**  1
 * **Costs:** $5,000
 
-| Number | Deliverable | Specification |
-| ------------- | ------------- | ------------- |
-| 0a. | License | Apache 2.0 / MIT / Unlicense |
-| 0b. | Documentation | We will provide both inline documentation of the code and a basic tutorial that explains how a user can (for example) spin up one of our Substrate nodes. Once the node is up, it will be possible to send test transactions that will show how the new functionality works. |
-| 0c. | Testing Guide | The code will have proper unit-test coverage (e.g. 90%) to ensure functionality and robustness. In the guide we will describe how to run these tests | 
-| 1. | Substrate module: X | We will create a Substrate module that will... (Please list the functionality that will be coded for the first milestone) |  
-| 2. | Substrate module: Y | We will create a Substrate module that will... |  
-| 3. | Substrate module: Z | We will create a Substrate module that will... |  
-| 4. | Substrate chain | Modules X, Y & Z of our custom chain will interact in such a way... (Please describe the deliverable here as detailed as possible) |  
-| 5. | Docker | We will provide a dockerfile to demonstrate the full functionality of our chain |
 
-### 3.3 Milestone 2 Example — Additional features
-...
 
 ### 3.4 Community engagement
 
