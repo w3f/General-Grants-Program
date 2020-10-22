@@ -5,7 +5,7 @@
 
 ## 1. Project Overview :page_facing_up: 
 
-### 1.1 Overview
+### 1.1 Project Description
 
 Existing non-fungible tokens (NFTs) are "static" (e.g., do not interact with data and events outside of the blockchain network) and created by ERC721 standard in Ethereum to represent tokenized ownership of unique assets. Therefore, they are limited to the Ethereum network and isolated from the real world. On the contrary, "dynamic" NFTs can receive data and events from the real world through Oracle service and response to them accordingly, which enables tons of business use cases and becomes the next revolution in the blockchain domain.
 
