@@ -64,7 +64,7 @@ Our team had great development experience in blockchain domain.
 
 ### 3.1 Overview
 * **Total Estimated Duration:** 5 months
-* **Full-time equivalent (FTE):**  1 FTE
+* **Full-time equivalent (FTE):**  1.5 FTE
 * **Total Costs:** 2500 DOT (We accept up to 100% of payment in DOTs that are equivalent to $10000)
 
 ### 3.2 Milestone 1 — Create dynamic NFT module in Ethereum and Polkadot
