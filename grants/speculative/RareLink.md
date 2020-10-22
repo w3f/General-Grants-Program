@@ -18,7 +18,7 @@ RareLink Protocol is a new initiative to create "dynamic" NFTs and provide a two
      * existing token bridge projects cannot transfer *dynamic events* across the network to update transferred dyanmic NFTs;
      * new token bridge will focus on the transfer of dynamic NFTs and aim to preseve their dynamic behavior across networks.  
      
-The team behind RareLink Protocol are early adoptors and developers of blockchain technology including Ethereum and Polkadot. We are proficient in mechanism design and blockchain development. In particular, our team believe NFTs will revolutionzie many industries (e.g., retail, real estate, advertising, etc.) in the near future. Moreover, "dynamic" NFT enables unique tokens in blockchain network to interact with data in the real world, which will make more business use cases possible and more efficient. Our team believe in this vision so we look forward to working on RareLink Protocol and make it happen. 
+The team members behind RareLink Protocol are early adoptors and developers of blockchain technology including both Ethereum and Polkadot. We are proficient in mechanism design and blockchain development. In particular, our team believe NFTs will revolutionzie many industries (e.g., retail, real estate, advertising, etc.) in the near future. Moreover, "dynamic" NFT enables unique tokens in blockchain network to interact with data in the real world, which will make more business use cases possible and more efficient. Our team believe in this vision so we look forward to working on RareLink Protocol and make it happen. 
 
 ### 1.2 Ecosystem Fit 
 
