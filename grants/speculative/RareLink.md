@@ -20,17 +20,7 @@ RareLink Protocol is a new initiative to create "dynamic" NFTs and provide a two
      
 The team behind RareLink Protocol are early adoptors and developers of blockchain technology including Ethereum and Polkadot. We are proficient in mechanism design and blockchain development. In particular, our team believe NFTs will revolutionzie many industries (e.g., retail, real estate, advertising, etc.) in the near future. Moreover, "dynamic" NFT enables unique tokens in blockchain network to interact with data in the real world, which will make more business use cases possible and more efficient. Our team believe in this vision so we look forward to working on RareLink Protocol and make it happen. 
 
-### 1.2 Project Details 
-We expect the teams to already have a solid idea about the project's expected final state.
-
-Therefore, we ask the teams to submit (where relevant):
-* Mockups/designs of any UI components
-* API specifications of the core functionality
-* An overview of the technology stack to be used
-* Documentation of core components, protocols, architecture etc. to be deployed
-* PoC/MVP or other relevant prior work or research on the topic
-
-### 1.3 Ecosystem Fit 
+### 1.2 Ecosystem Fit 
 
 There are some existing token bridge projects (e.g., POA token bridge, Parity token bridge, and ChainSafe/Centrifuge chainbridge) are implemented to transfer "static" tokens such as ERC20 or ERC721 tokens. However, they are not able to relay dynamic events for dynamic NFTs, therefore, the dynamic NFTs will lose dynamic behavior after cross-chain transfer. In fact, they become "static" NFTs after cross-chain transfer. Therefore, existing bridges are not suitable and a new token bridge is required. 
 
@@ -40,12 +30,10 @@ RareLink Protocol is built to preserve the dynamic behavior of dynamic NFTs acro
 ## 2. Team :busts_in_silhouette:
 
 ### 2.1 Team members
-Currently one full-time developer works on RareLink Protocol.
 
-* Heng
+* Han: full-time developer works on RareLink Protocol.
 
-Our team has a few part-time developers and their information can be provided in private. 
-If we receive the grant, we will transfer one or more part-time developer into full-time.
+Our team has a few part-time developers and their information can be provided in private. We can transfer one or more part-time developer into full-time if grant is received.
 
 ### 2.2 Team Website	
 * http://rarelink.network/
@@ -56,6 +44,10 @@ If we receive the grant, we will transfer one or more part-time developer into f
 ### 2.4 Team's experience
 
 Our team had great development experience in blockchain domain.
+
+1. Full blockchain project delivered from whitepaper to network launch: Solidity, Javascript, REST API;
+2. Token bridge developed between Ethereum, POA network and Binance chain. 
+3. Integration with Chainlink and Uniswap to create a decentralized exchange.
 
 ### 2.5 Team Code Repos
 * rarelink-runtime-node: https://github.com/RareLink/rarelink-runtime-node
