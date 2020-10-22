@@ -36,17 +36,27 @@ Are there any other projects similar to yours? If so, how is your project differ
 ## 2. Team :busts_in_silhouette:
 
 ### 2.1 Team members
-* Name of team leader
-* Names of team members	
+* Moke: early adoptor and investor in blockchain domain. He served as advisors in many blockchain projects. He is active community member of polkadot since 2017 and helped many projects get launched in Polkadot ecosystem. Moke had hosted many technical meetups and summits about Polkadot technology this year.
+
+* Fancy: He received his PhD degree from UCLA and had many years industrial experience of software development. He loves to learn new technology and became interested in blockchain technology. Moreover, he joined a blockchain startup as a founding member and helped launch new blockchain network service successfully. He had acquired rich experience of blockchain development in the past few years.
+
+* Han: 
+
+
+* Heng: He serves as the Chinese community manager in RareLink. Heng had many years experience of financial service and community building. He had joined Ethereum community back in 2015 and actively helped people join the community. Lately, he supports the Polkadot community in China and hosted many technical events.
+
+
 
 ### 2.2 Team Website	
 * http://rarelink.network/
 
 ### 2.3 Legal Structure 
-Please provide the name and registered address of the legal entity executing the project. When applying via the General Grants program, these details can also be shared privately via the Google Form used for your application.
+* details will be shared privately via the Google Form.
 
 ### 2.4 Team's experience
-Please describe the team's relevant experience.  If the project involves development work, then we'd appreciated if you can single out a few interesting code commits made by team members on their past projects. For research-related grants, references to past publications and projects in a related domain are helpful.  
+
+Our team had great development experience in blockchain domain.
+
 
 ### 2.5 Team Code Repos
 * rarelink-runtime-node: https://github.com/RareLink/rarelink-runtime-node
