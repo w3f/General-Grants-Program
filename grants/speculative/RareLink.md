@@ -40,16 +40,12 @@ RareLink Protocol is built to preserve the dynamic behavior of dynamic NFTs acro
 ## 2. Team :busts_in_silhouette:
 
 ### 2.1 Team members
-* Moke: early adoptor and investor in blockchain domain. He served as advisors in many blockchain projects. He is active community member of polkadot since 2017 and helped many projects get launched in Polkadot ecosystem. Moke had hosted many technical meetups and summits about Polkadot technology this year.
+Currently one full-time developer works on RareLink Protocol.
 
-* Fancy: He received his PhD degree from UCLA and had many years industrial experience of software development. He loves to learn new technology and became interested in blockchain technology. Moreover, he joined a blockchain startup as a founding member and helped launch new blockchain network service successfully. He had acquired rich experience of blockchain development in the past few years.
+* Heng Wang
 
-* Han: 
-
-
-* Heng: He serves as the Chinese community manager in RareLink. Heng had many years experience of financial service and community building. He had joined Ethereum community back in 2015 and actively helped people join the community. Lately, he supports the Polkadot community in China and hosted many technical events.
-
-
+Our team has a few part-time developers and their information can be provided in private. 
+If we receive the grant, we will transfer one or more part-time developer into full-time.
 
 ### 2.2 Team Website	
 * http://rarelink.network/
