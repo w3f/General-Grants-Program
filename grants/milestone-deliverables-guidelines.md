@@ -42,11 +42,10 @@ This helps to keep the commit history clean and facilitates any reviews of the i
 We strongly recommend formatting your code according to the [official guidelines](https://github.com/paritytech/substrate/blob/master/docs/STYLE_GUIDE.md)
 
 ### Rust
-We encourage formatting any additional support libraries or helpers using [Style Guidelines](https://doc.rust-lang.org/1.0.0/style/README.html).
-You may find [rustfmt](https://github.com/rust-lang/rustfmt) useful.
+We encourage formatting any additional support libraries or helpers by following the [Style Guidelines](https://doc.rust-lang.org/1.0.0/style/README.html).
 
 ### Other
-For non-Rust deliveries, please commit to a particular style & let us know which official guidelines you will follow.
+For non-Rust deliveries, please commit to a particular style & let us know which official guidelines you adopt.
 
 ## Testing Guide
 
