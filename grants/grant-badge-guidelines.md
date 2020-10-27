@@ -24,4 +24,4 @@ Please don’t: display the badge on your team’s landing page; add it to any s
 profiles; or use it in any contexts that could misrepresent your relationship to Web3
 Foundation.
 
-In case of any questions, please don’t hesitate to reach out to us at grants@web3.foudnation.
+In case of any questions, please don’t hesitate to reach out to us at grants@web3.foundation.
