@@ -8,6 +8,7 @@ The submission should contain the following information:
  * **Link to the open-source code/delivery** 
  * **[License](#license)**
  * **[Documentation](#documentation)**
+ * **[Formatted code](#formatted-code), according to a set of guidelines**
  * **[Testing Guide](#testing-guide)**
  * **A list of the [milestone deliverables](#milestone-deliverables)**
  * **Any [additional information](#additional-information)**
@@ -30,6 +31,21 @@ We require that you document (where applicable):
 - Any other fundamental building blocks to your technology
 
 Note: Only focus on your **own** contributions. Do not write detailed explanations of already existing components, e.g. IPFS. 
+
+## Formatted code
+A codebase that is easy to read is also easy to use.
+
+We suggest adopting one style from Day 1 and adhering to it across the entire team.
+This helps to keep the commit history clean and facilitates any reviews of the introduced changes.
+
+### Substrate
+We strongly recommend formatting your code according to the [official guidelines](https://github.com/paritytech/substrate/blob/master/docs/STYLE_GUIDE.md)
+
+### Rust
+We encourage formatting any additional support libraries or helpers by following the [Style Guidelines](https://doc.rust-lang.org/1.0.0/style/README.html).
+
+### Other
+For non-Rust deliveries, please commit to a particular style & let us know which official guidelines you adopt.
 
 ## Testing Guide
 
