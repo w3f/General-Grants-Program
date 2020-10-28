@@ -15,16 +15,17 @@ There are several pain-points for current Dapps, for example:
 1. Most of Dapps are built for web/browser, not for mobile.
 2. Most of Dapps are using domain system to access, it might be blocked by DNS firewall.
 3. Most of Dapps are not user-friendly and not yet providing good experience due to lack of rich apis (compared to mobile device).
-4. Most of Dapps are rely on other applications, eg. Browser extensions or mobile wallet.
+4. Most of Dapps rely on other applications, eg. Browser extensions or mobile wallet.
 
-The idea of `Mini-Program` is somehow powerful and successful in a way, we think it can be used in the `Web3` system rather than stayed in those big companies' warehouse.
+The success of `Mini-Program` has prooven the form of a smaller frontend app can be great if given more powerful abilities. More importantly, the `Mini-Program` actual engaged more mobile users without downloading many native apps.
 
-For people who are not familiar of `Mini-Program`, please refer to our wiki:
+We think `Mini-Program` can be a form of dapp as well, as long as we integrate the `Web3` system to it. 
+
+For people who are not familiar of `Mini-Program` and want to know more how we think of it, please refer to our wiki:
 [Background of Mini-Program](https://github.com/Pocket4D/Pocket4D-Wiki/blob/master/introduction.md#background)
 
-And `W3C Mini App`, please refer to
+And about `W3C Mini App` which is alt to `Mini-Program` but standardized by a few big companies, please refer to
 [W3C Mini App white paper](https://www.w3.org/TR/mini-app-white-paper/)
-
 
 
 ## The Pocket4D solution
@@ -69,13 +70,11 @@ Click to download an [Android Poc Demo](https://pocket4d.s3-ap-southeast-1.amazo
 [Pocket4D-Wiki](https://github.com/Pocket4D/Pocket4D-Wiki)
 
 
-
-
 ## Team members
-* Wei Su (Michael So): Project Manager and iOS/Android/Flutter/Javascript developement
-* Ian Tan: Front-end and Mini-Program Framework developement
-* Lulu Ren: Blockchain and SmartContract developement
-* Yaolong Cui: Product Manager
+* Wei Su (Michael So): Project Manager and iOS/Android/Flutter/Javascript developement, full-time
+* Ian Tan: Front-end and Mini-Program Framework developement, part-time
+* Lulu Ren: Blockchain and SmartContract developement, part-time
+* Yaolong Cui: Product Manager, part-time
 * Bruce Huang: Adviser and Business Development
 
 The development will be mainly done by 2-3 full-time and one part-time engineer. The remaining people will provide necessary support to the development.
@@ -110,12 +109,30 @@ We love open-source project and the engineers all love commiting and helping oth
 - Pocket4D: https://github.com/Pocket4D
 - FireStack: https://github.com/FireStack-Lab
 
-
 ## Team LinkedIn Profiles
 * Bruce Huang: https://www.linkedin.com/in/the-bruce-huang/
 
 ## Development Roadmap
 https://github.com/Pocket4D/Pocket4D-Wiki
+
+### Milestone 0 — Integrate Pocket4D to Substrate 
+* **Estimated Duration:** 3 month
+* **FTE:**  1.625
+* **Costs:** $36,000
+
+| Number | Deliverable             | Specification                                                                                                                            |
+| ------ | ----------------------- | ---------------------------------------------------------------------------------------------------------------------------------------- |
+| 0a.    | pocket4d                | Pocket 4D client, a flutter plugin, runs mini-program inside.                                                                            |
+| 0b.    | quickjs_dart            | A embedded javascript engine library for dart/flutter using on Android/iOS                                                               |
+| 0c.    | pocket4d-server         | A test server for bundle, use for development stage                                                                                      |
+| 0d.    | pocket4d-cli            | A command-line tool, compile html/js/css  to specific format for mini-program                                                            |
+| 0e.    | poc-0 demo              | An android app that connects to a test server and fetch then runs “mini-program” inside the app.                                         |
+| 0f.    | Native UI Components    | More UI components defined in flutter side, for xml rendering: Input, Navigator, Radio, Slide, Swiper and so on.                         |
+| 0g.    | Front-end UI Components | More UI components defined in front-end                                                                                                  |
+| 0h.    | Web3 apis               | Web3 interface embedded by pocket 4d flutter side, and provided to javascript. eg.                              p4d.web3                 |
+| 0i.    | p4d-rust-binding        | Crypto libraries embedded by pocket 4d flutter side, and provided to javascript. eg. p4d.crypto                                          |
+| 0j.    | pocket4d-blockchain     | A blockchain build with Substrate with IPFS runtime/modulee will provide a dockerfile to demonstrate the full functionality of our chain |
+| 0k.    | new android/ios demo    | A new demo showing the mini-program uploaded to blockchain can be fetched and run in Pocket 4D container                                 |
 
 ## Technical Design
 https://github.com/Pocket4D/Pocket4D-Wiki/blob/master/technical-design.md
@@ -123,9 +140,7 @@ https://github.com/Pocket4D/Pocket4D-Wiki/blob/master/technical-design.md
 ## Additional Information
 
 * What work has been done so far?
-  * A experimental JSEngine with QuickJS and DartLang 
-  * A simple Mini-Program compiler
-  * A simple Test Server hosting js/html/css bundle
+  see [What have been doing and status](#what-have-been-doing-and-status)
 * Are there are any teams who have already contributed (financially) to the project?
   * No.
 * Have you applied for other grants so far?
