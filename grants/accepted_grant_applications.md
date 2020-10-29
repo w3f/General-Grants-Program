@@ -200,4 +200,5 @@ This page gives an overview of accepted grants and a link to their GitHubs. Keep
 - [Nsure.Network](https://nsure.network/) - Open Insurance Platform for Open Finance ([GitHub](https://github.com/nsure-tech)) 
 - [Kylin Network](https://kylin.network/)- Cross-chain Platform for the Data Economy ([GitHub](https://github.com/Kylin-Network))
 - [Bit.Country](http://bit.country/) - A decentralized world ([GitHub](https://github.com/bit-country))
+- [MIDL.dev](https://MIDL.dev) - Polkashots.io: Snapshot website for Polkadot and Kusama ([GitHub](https://github.com/midl-dev))
 
