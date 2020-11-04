@@ -203,7 +203,7 @@ This page gives an overview of accepted grants and a link to their GitHubs. Keep
 - [MIDL.dev](https://MIDL.dev) - Polkashots.io: Snapshot website for Polkadot and Kusama ([GitHub](https://github.com/midl-dev))
 - [Ares Protocol](https://www.aresprotocol.com/) - Decentralized Oracle Protocol ([GitHub](https://github.com/aresprotocols/ares))
 - [Saito](https://saito.io/) - Polkadot Gaming Protocol and Library ([GitHub](https://github.com/saito-lite))
-- [Wyvern Intrinsics Ltd.](https://www.wyvern.ch/) - Dwitter: Censorship-Resistant Web3 Microblogging and Social Networking service ([GitHub](https://github.com/goldfink))
+- [Wyvern Intrinsics Ltd.](https://www.wyvern.ch/) - Dwitter: Censorship-Resistant Web3 Microblogging and Social Networking service ([GitHub](https://github.com/goldfink/follow))
 - [LimeChain](https://github.com/LimeChain) - Subsembly: Framework for building AssemblyScript Runtimes ([GitHub](https://github.com/LimeChain))
 
 
