@@ -201,4 +201,5 @@ This page gives an overview of accepted grants and a link to their GitHubs. Keep
 - [Kylin Network](https://kylin.network/)- Cross-chain Platform for the Data Economy ([GitHub](https://github.com/Kylin-Network))
 - [Bit.Country](http://bit.country/) - A decentralized world ([GitHub](https://github.com/bit-country))
 - [MIDL.dev](https://MIDL.dev) - Polkashots.io: Snapshot website for Polkadot and Kusama ([GitHub](https://github.com/midl-dev))
-
+- [Ares Protocol](https://www.aresprotocol.com/) - Decentralized Oracle Protocol ([GitHub](https://github.com/aresprotocols/ares))
+- [Saito](https://saito.io/) - Polkadot Game Bridge ([GitHub](https://github.com/saito-lite))
