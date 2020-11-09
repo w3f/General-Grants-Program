@@ -204,5 +204,6 @@ This page gives an overview of accepted grants and a link to their GitHubs. Keep
 - [Ares Protocol](https://www.aresprotocol.com/) - Decentralized Oracle Protocol ([GitHub](https://github.com/aresprotocols/ares))
 - [Saito](https://saito.io/) - Polkadot Gaming Protocol and Library ([GitHub](https://github.com/saito-lite))
 - [LimeChain](https://github.com/LimeChain) - Subsembly: Framework for building AssemblyScript Runtimes ([GitHub](https://github.com/LimeChain))
+- [wificoin](https://wificoin.com/) - PESA: On-ramp/off-ramp to crypto/local currencies for Polkadot
 
 
