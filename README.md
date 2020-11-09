@@ -34,7 +34,17 @@ Technical grants are intended to fund **Polkadot** and **Substrate** specific pr
 
 For more specific information on our funding priorities, please view the [Polkadot Stack](./grants/polkadot_stack.md) and take a look at the [accepted grant applications](https://github.com/w3f/Web3-collaboration/blob/master/grants/accepted_grant_applications.md). Additionally the builders program [feedback board](https://feedback.parity.io/) may contain some useful ideas for grant projects.
 
-The funding maximum for technical grants is $100,000 per project. Teams shouldn’t seek to cover 100% of their early-stage funding via W3F Grants alone.
+The funding maximum for technical grants is $100,000 per project.
+
+We ask teams to first consider applying via the [Open Grants Program](https://github.com/w3f/Open-Grants-Program), which supports grants of up to $30,000 and has faster processing times.
+If your project has a scope larger than that, we encourage you to split your work into multiple stages, each of $30,000 or less.
+
+Only apply via the General Grants Program if:
+* You seek funding of $30,000+ and your work cannot be split into smaller milestones
+* You want your team/project information to remain private
+* You can only accept fiat payments
+
+Teams shouldn’t seek to cover 100% of their early-stage funding via W3F Grants alone.
 
 Any project requesting :
 * **$30k or less** will receive approval the fastest.
