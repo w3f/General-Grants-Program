@@ -205,5 +205,6 @@ This page gives an overview of accepted grants and a link to their GitHubs. Keep
 - [Saito](https://saito.io/) - Polkadot Gaming Protocol and Library ([GitHub](https://github.com/saito-lite))
 - [LimeChain](https://github.com/LimeChain) - Subsembly: Framework for building AssemblyScript Runtimes ([GitHub](https://github.com/LimeChain))
 - [Wificoin](https://wificoin.com/) - PESA: On-ramp/off-ramp to crypto/local currencies for Polkadot
+- [WalletConnect](https://walletconnect.org/) - Open protocol for connecting Wallets to Dapps ([GitHub](https://github.com/walletconnect))
 
 
