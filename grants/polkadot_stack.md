@@ -109,7 +109,7 @@ In the below sections you can find a list of different layers of the Polkadot St
 | Gaming | | [Amethyst](https://amethyst.rs/) + [Substrate](https://substrate.dev/)
 | Computation | 
 | Enable specific use-cases | [Robonomics](https://github.com/airalab/substrate-node-robonomics)
-| NFT | [NFT Parachain by usetech](https://github.com/usetech-llc/nft_parachain)
+| NFT | [FRAME Pallet: NFTs for Substrate](https://github.com/danforbes/pallet-nft), [NFT Parachain by usetech](https://github.com/usetech-llc/nft_parachain)
 | Licensing |
 
 ### :black_circle: Host
