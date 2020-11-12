@@ -136,7 +136,7 @@ This page gives an overview of accepted grants and a link to their GitHubs. Keep
 - [Zondax](http://zondax.ch/) - Ledger app for Polkadot/Kusama Phase 2 ([GitHub](https://github.com/ZondaX/ledger-polkadot))
 - [Soramitsu](https://soramitsu.co.jp/) - Hyperledger Iroha Bridge ([GitHub](https://github.com/sora-xor/polkaswap-web))
 - [LimeChain](https://github.com/LimeChain) - AssemblyScript SCALE Codec ([GitHub](https://github.com/LimeChain/as-scale-codec))
-- [Insight](https://insightfellows.com/) - Load Balanced Endpoints ([GitHub](https://github.com/insight-infrastructure))
+- [Insight](https://insightfellows.com/) - Load Balanced Endpoints ([GitHub](https://github.com/insight-w3f/terragrunt-polkadot))
 - [Ethworks](https://ethworks.io/) - Polkadot.{js} Desktop Application ([GitHub](https://github.com/EthWorks/))
 - [Usetech](http://usetech.com/blockchain.html) - NFT Tracking Module ([GitHub](https://github.com/usetech-llc/nft_parachain))
 - [Chevdor](https://www.chevdor.com/) - Polkabot ([GitHub](https://github.com/chevdor))
@@ -207,4 +207,5 @@ This page gives an overview of accepted grants and a link to their GitHubs. Keep
 - [Wificoin](https://wificoin.com/) - PESA: On-ramp/off-ramp to crypto/local currencies for Polkadot
 - [WalletConnect](https://walletconnect.org/) - Open protocol for connecting Wallets to Dapps ([GitHub](https://github.com/walletconnect))
 - [Citadel.one](https://citadel.one/) - Non-custodial Proof-of-Stake platform 
+- [Insight](https://insightfellows.com/) - Load Balanced Endpoints Phase ([GitHub](https://github.com/insight-w3f/terragrunt-polkadot))
 
