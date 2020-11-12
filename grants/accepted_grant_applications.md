@@ -208,4 +208,6 @@ This page gives an overview of accepted grants and a link to their GitHubs. Keep
 - [WalletConnect](https://walletconnect.org/) - Open protocol for connecting Wallets to Dapps ([GitHub](https://github.com/walletconnect))
 - [Citadel.one](https://citadel.one/) - Non-custodial Proof-of-Stake platform 
 - [Insight](https://insightfellows.com/) - Load Balanced Endpoints Phase ([GitHub](https://github.com/insight-w3f/terragrunt-polkadot))
+- [MAP labs](https://www.maplabs.io/) - Map Bridge: Connect Polkadot and other PoW chains ([GitHub](https://github.com/Philasande-map/mapbridge))
+- [RareLink](http://rarelink.network/) - Dynamic non-fungible token (NFT) Protocol ([GitHub](https://github.com/RareLink)) 
 
