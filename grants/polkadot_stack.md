@@ -85,6 +85,7 @@ In the below sections you can find a list of different layers of the Polkadot St
 | Smart Contract Languages | [Subscript](https://github.com/slickup/subscript), [Solang](https://github.com/hyperledger-labs/solang), [Ink!](https://github.com/paritytech/ink), [Pact](https://github.com/kadena-io/)| Functional Programming Languages, other languages with developed toolchains |
 | Smart Contract Security |   
 | Testing | [Halva](https://github.com/orgs/halva-suite), [Redspot](https://github.com/patractlabs/redspot), [MixBytes Tank](https://github.com/mixbytes/tank)
+| Other | [open-web3 JS library](https://github.com/open-web3-stack/open-web3.js)
 
 ### :link: Chains and Modules
 
