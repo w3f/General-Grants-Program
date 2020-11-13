@@ -210,4 +210,5 @@ This page gives an overview of accepted grants and a link to their GitHubs. Keep
 - [Insight](https://insightfellows.com/) - Load Balanced Endpoints Phase ([GitHub](https://github.com/insight-w3f/terragrunt-polkadot))
 - [MAP labs](https://www.maplabs.io/) - Map Bridge: Connect Polkadot and other PoW chains ([GitHub](https://github.com/Philasande-map/mapbridge))
 - [RareLink](http://rarelink.network/) - Dynamic non-fungible token (NFT) Protocol ([GitHub](https://github.com/RareLink)) 
+- [Cere Network](http://cere.network/) - Turnkey Private Blockchain Network ([GitHub](https://github.com/Cerebellum-Network)) 
 
