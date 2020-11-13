@@ -111,6 +111,7 @@ In the below sections you can find a list of different layers of the Polkadot St
 | Enable specific use-cases | [Robonomics](https://github.com/airalab/substrate-node-robonomics)
 | NFT | [FRAME Pallet: NFTs for Substrate](https://github.com/danforbes/pallet-nft), [NFT Parachain by usetech](https://github.com/w3f-community/nft_parachain)
 | Licensing |
+| Other | [Substrate Open Runtime Module Library](https://github.com/open-web3-stack/open-runtime-module-library) |
 
 ### :black_circle: Host
 
