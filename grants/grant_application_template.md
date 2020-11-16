@@ -1,9 +1,12 @@
 # General Grant Proposal
+# Open Grant Proposal
 
 * **Project:** The name of the project
+* **Project:** Hashgraph Consensus Pallet
 
 ## Project Overview :page_facing_up: 
 If this application in response to an RFP then please indicate this on the first line of this section.
+Hedera Hashgraph is a distributed ledger network based on a directed acylical graph (DAG) data structure. Using the Hedera Consensus Service (HCS), blockchains can utilize Hedera's unique consensus properties for fast, acyclical transaction finality. The Hashgraph Consensus Pallet will allow Substrate developers to build blockchains on HCS and outsource finality to Hedera's existing public network managed by governing members. 
 
 ### Overview
 
