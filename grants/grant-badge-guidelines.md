@@ -2,7 +2,7 @@
 
 <img align="right" width="400" src="../src/badge_black.svg">
 
-As part of the program, we want to help winning teams acknowledge their grants publicly
+**Once a winning team completed the first grant milestone**, we want to help them acknowledge their grants publicly
 while observing the foundation’s guidelines.
 
 To that end, we’ve created a badge for grant-winning teams. The badge in four formats will
