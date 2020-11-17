@@ -211,4 +211,5 @@ This page gives an overview of accepted grants and a link to their GitHubs. Keep
 - [MAP labs](https://www.maplabs.io/) - Map Bridge: Connect Polkadot and other PoW chains ([GitHub](https://github.com/Philasande-map/mapbridge))
 - [RareLink](http://rarelink.network/) - Dynamic non-fungible token (NFT) Protocol ([GitHub](https://github.com/RareLink)) 
 - [Cere Network](http://cere.network/) - Turnkey Private Blockchain Network ([GitHub](https://github.com/Cerebellum-Network)) 
+- [SubDAO Labs](https://www.subdao.network/) - SubDAO is a Cross-chain Platform to link DAO and DApp on Polkadot ([GitHub](https://github.com/subdao-network)) 
 
