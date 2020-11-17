@@ -93,7 +93,7 @@ Yang worked at Bytedance, Alibaba, Windriver, and has working experience in clou
 
 ### What work has been done so far?
 
-1. Code is open source at https://github.com/e2chain-dev/e2-chain
+1. Code is open source at https://github.com/e2chain-dev/deeper-chain
 2. MVP is developed for core features: micropayments(master branch), light node(master branch), proof of credit(poc branch).
 
 ### Have you applied for other grants so far?
