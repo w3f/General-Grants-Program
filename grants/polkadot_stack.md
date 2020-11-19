@@ -70,7 +70,7 @@ In the below sections you can find a list of different layers of the Polkadot St
 | Block Explorers | [Polkascan](https://github.com/polkascan), [Polkastats](https://github.com/Colm3na), [Subscan](https://github.com/itering/subscan), [PSQL Indexer](https://github.com/usetech-llc/polkadot_psql_indexer) | Mempool focused explorer (including parachain transaction)
 | Validator Dashboards | [DotHub](https://github.com/figment-networks/dothub), [Polkacube](https://github.com/hashquark-io), [YieldScan](https://github.com/buidl-labs/YieldScan)
 | Node Explorers | [Polkadot Node Explorer](https://github.com/protos-research/polkadot-node-explorer)
-| Governance Dashboards | [Polkassembly](https://github.com/premiurly/polkassembly)| UI for the kusama and/or polkadot treasury (see [bounty module](https://github.com/paritytech/substrate/pull/5715)) |
+| Governance Dashboards | [Polkassembly](https://github.com/premiurly/polkassembly)| UI for the kusama and/or polkadot treasury (see [bounty module](https://github.com/paritytech/substrate/pull/5715)), UI for Parachain Lease Offering (PLO)  |
 
 ### :wrench: Tools APIs and Languages
 
@@ -112,7 +112,7 @@ In the below sections you can find a list of different layers of the Polkadot St
 | Enable specific use-cases | [Robonomics](https://github.com/airalab/substrate-node-robonomics)
 | NFT | [FRAME Pallet: NFTs for Substrate](https://github.com/danforbes/pallet-nft), [NFT Parachain by usetech](https://github.com/w3f-community/nft_parachain)
 | Licensing |
-| Other | [Substrate Open Runtime Module Library](https://github.com/open-web3-stack/open-runtime-module-library) |
+| Other | [Substrate Open Runtime Module Library](https://github.com/open-web3-stack/open-runtime-module-library) | On-chain quadratic funding (e.g. https://clr.fund/#/about)
 
 ### :black_circle: Host
 
