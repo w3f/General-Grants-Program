@@ -63,7 +63,7 @@ private
 ### Milestone 1 Example — Implement Substrate Modules 
 * **Estimated Duration:** 6 month
 * **FTE:**  5-8
-* **Costs:** $15,0000
+* **Costs:** $1000
 
 | Number | Deliverable | Specification |
 | ------------- | ------------- | ------------- |
