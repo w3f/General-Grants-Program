@@ -215,4 +215,5 @@ This page gives an overview of accepted grants and a link to their GitHubs. Keep
 - [Idavoll Network](https://idavoll.network/) -  Decentralized organization platform ([GitHub](https://github.com/idavollnetwork)) 
 - [Zenlink](https://zenlink.pro/) - DEX Ink! smart contract ([GitHub](https://github.com/zenlinkpro/zenlink_dex_module))
 - [Setheum](https://setheum.xyz/) - Setheum Elastic Reserve Protocol ([GitHub](https://github.com/Setheum-Labs/Setheum))
+- [everstake](https://everstake.one/) - DKG msig wallet ([GitHub](https://github.com/everstake))
 
