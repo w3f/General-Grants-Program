@@ -102,7 +102,7 @@ In the below sections you can find a list of different layers of the Polkadot St
 | IoT | [Nodle](https://github.com/NodleCode/), [MXC/DataHighway](https://github.com/DataHighway-DHX/node)
 | Verifiable Claims | [KILT](https://github.com/KILTprotocol), [Dock](https://github.com/docknetwork) 
 | Supply chain| [Wiv](https://github.com/wivtech/Substrate-SupplyChain)
-| Social Networking | [SubSocial](https://github.com/dappforce/dappforce-subsocial)
+| Social Networking | [Social Network](https://github.com/social-network), [SubSocial](https://github.com/dappforce/dappforce-subsocial)
 | Governance/DAO| [Sunshine DAO](https://github.com/sunshine-protocol/sunshine-bounty), [Governance OS](https://github.com/NucleiStudio/governance-os) |  [Participation Lotteries](https://kusama.polkassembly.io/post/242), [Consul](https://github.com/consul/consul) - Open Government and E-Participation Web Software
 | Messaging | [HOPR](https://github.com/validitylabs/HOPR-PL-Substrate), [Mailchain](https://github.com/mailchain)
 | File Storage, Cloud | [DatDot](https://github.com/playproject-io/datdot), [Crust Network](https://github.com/crustio), [offchain::ipfs](https://rs-ipfs.github.io/offchain-ipfs-manual/)
