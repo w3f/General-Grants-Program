@@ -216,4 +216,6 @@ This page gives an overview of accepted grants and a link to their GitHubs. Keep
 - [Zenlink](https://zenlink.pro/) - DEX Ink! smart contract ([GitHub](https://github.com/zenlinkpro/zenlink_dex_module))
 - [Setheum](https://setheum.xyz/) - Setheum Elastic Reserve Protocol ([GitHub](https://github.com/Setheum-Labs/Setheum))
 - [everstake](https://everstake.one/) - DKG msig wallet ([GitHub](https://github.com/everstake))
+- [Coinversation](http://coinversation.cn/) - Decentralized exchange for trading synthetic assets ([GitHub](https://github.com/Coinversation))
+
 
