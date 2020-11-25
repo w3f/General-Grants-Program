@@ -1,4 +1,4 @@
-# Title of the RFP Proposal
+# SCALE Codec Comparator
 
 * **Proposer:** [Marcin Górny](https://github.com/mmagician/)
 
