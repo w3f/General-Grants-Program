@@ -72,19 +72,20 @@ In the below sections you can find a list of different layers of the Polkadot St
 | Node Explorers | [Polkadot Node Explorer](https://github.com/protos-research/polkadot-node-explorer)
 | Governance Dashboards | [Polkassembly](https://github.com/premiurly/polkassembly)| UI for the kusama and/or polkadot treasury (see [bounty module](https://github.com/paritytech/substrate/pull/5715)), UI for Parachain Lease Offering (PLO)  |
 
-### :wrench: Tools APIs and Languages
+### :wrench: Tools, APIs and Languages
 
 | Components | Existing projects | Potentially interesting projects 
 |-|-|-
 | Parachain Dev Kits | [Gantree](https://github.com/flex-dapps)| [Minimal Parachain Dev Kit](https://github.com/w3f/General-Grants-Program/issues/204), tools to create parachains from frameworks used in other ecosystems |
 | Polkadot API clients | [Go](https://github.com/centrifuge/go-substrate-rpc-client), [.Net](https://github.com/usetech-llc/polkadot_api_dotnet), [C++](https://github.com/usetech-llc/polkadot_api_cpp), [C](https://github.com/finoabanking/substrate-c-tool), [Haskell](https://github.com/airalab/hs-web3), [Javascript](https://github.com/polkadot-js/api), [Substrate API Sidecar - TypeScript](https://github.com/paritytech/substrate-api-sidecar), [Ruby](https://github.com/itering/scale.rb), [Python](https://github.com/polkascan/substrate-interface-api), [Java](https://github.com/polkadot-java)*(old)*, [Java](https://github.com/emeraldpay/polkaj)*(new)*, [Rust SCS](https://github.com/scs/substrate-api-client), [Rust Parity](https://github.com/paritytech/substrate-subxt), [RPC-Ethereum](https://github.com/paritytech/frontier) | |
 | SCALE Codec | [Rust](https://github.com/paritytech/parity-scale-codec), [Python](https://github.com/polkascan/py-scale-codec), [Golang Chainsafe](https://github.com/ChainSafe/gossamer/tree/development/lib/scale), [Golang Itering](https://github.com/itering/scale.go), [C++](https://github.com/soramitsu/kagome/tree/master/core/scale), [JavaScript](https://github.com/polkadot-js/api), [AssemblyScript](https://github.com/LimeChain/as-scale-codec), [Haskell](https://github.com/airalab/hs-web3/tree/master/src/Codec), [Java](https://github.com/emeraldpay/polkaj), [Ruby](https://github.com/itering/scale.rb), [Dart](https://github.com/nbltrust/dart-scale-codec), [Swift](https://github.com/tesseract-one/swift-scale-codec) |
-| Easy Runtime Development | [VS Code Plugin](https://github.com/everstake/vscode-plugin-substrate), [Atom Code Plugin](https://github.com/everstake/atom-plugin-substrate), [Substrate Playground](https://github.com/paritytech/substrate-playground), [Substrate Marketplace VS Code Plugin](https://github.com/paritytech/vscode-substrate), [AssemblyScript Runtime Generation](https://github.com/LimeChain/as-substrate-runtime)| |
+| Easy Runtime Development | [VS Code Plugin](https://github.com/everstake/vscode-plugin-substrate), [Atom Code Plugin](https://github.com/everstake/atom-plugin-substrate), [Substrate Playground](https://github.com/paritytech/substrate-playground), [Substrate Marketplace VS Code Plugin](https://github.com/paritytech/vscode-substrate), [AssemblyScript Runtime Generation](https://github.com/LimeChain/as-substrate-runtime), [Substrate Package Manager](https://github.com/clearloop/sup)| |
 | Easy Smart Contract Development | [ink-playground](https://github.com/staketechnologies/ink-playground/tree/master), [Ink! Remix Plugin](https://github.com/blockchain-it-hr/ink-remix-plugin) 
 | Runtime Security | [K specifications](https://github.com/kframework/wasm-semantics), [PolPatrol - Polkadot Runtime Checker](https://github.com/ChainSecurity/polpatrol) | Automated Runtime checking tools
 | Smart Contract Languages | [Subscript](https://github.com/slickup/subscript), [Solang](https://github.com/hyperledger-labs/solang), [Ink!](https://github.com/paritytech/ink), [Pact](https://github.com/kadena-io/)| Functional Programming Languages, other languages with developed toolchains |
 | Smart Contract Security |   
 | Testing | [Halva](https://github.com/orgs/halva-suite), [Redspot](https://github.com/patractlabs/redspot), [MixBytes Tank](https://github.com/mixbytes/tank), [sub-flood](https://github.com/NikVolf/sub-flood)
+| Gaming | [Mobile Game Framework for Substrate](https://github.com/creator-rs/creator/) |
 | Other | [open-web3 JS library](https://github.com/open-web3-stack/open-web3.js)
 
 ### :link: Chains and Modules
