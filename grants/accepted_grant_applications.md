@@ -218,5 +218,6 @@ This page gives an overview of accepted grants and a link to their GitHubs. Keep
 - [everstake](https://everstake.one/) - DKG msig wallet ([GitHub](https://github.com/everstake))
 - [Coinversation](http://coinversation.cn/) - Decentralized exchange for trading synthetic assets ([GitHub](https://github.com/Coinversation))
 - [Manta Network](https://www.manta.network/) - A Privacy Preserving Decentralized Exchange ([GitHub](https://github.com/Manta-Network))
+- [Stake Technologies](https://stake.co.jp/en/) - ZK Rollups Pallet ([GitHub](https://github.com/staketechnologies))
 
 
