@@ -220,5 +220,6 @@ This page gives an overview of accepted grants and a link to their GitHubs. Keep
 - [Manta Network](https://www.manta.network/) - A Privacy Preserving Decentralized Exchange ([GitHub](https://github.com/Manta-Network))
 - [Stake Technologies](https://stake.co.jp/en/) - ZK Rollups Pallet ([GitHub](https://github.com/staketechnologies))
 - [Apron Network](https://apron.network/) - Decentralized infrastructure provider ([GitHub](https://github.com/apron-network))
+- [Pocket 4D](https://pocket4d.io) - Substrate Dart API client ([GitHub](https://github.com/Pocket4D))
 
 
