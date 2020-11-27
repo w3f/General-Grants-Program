@@ -221,5 +221,7 @@ This page gives an overview of accepted grants and a link to their GitHubs. Keep
 - [Stake Technologies](https://stake.co.jp/en/) - ZK Rollups Pallet ([GitHub](https://github.com/staketechnologies))
 - [Apron Network](https://apron.network/) - Decentralized infrastructure provider ([GitHub](https://github.com/apron-network))
 - [Pocket 4D](https://pocket4d.io) - Substrate Dart API client ([GitHub](https://github.com/Pocket4D))
+- [Listen](https://listen.io/) - Decentralized social network focusing on sound ([GitHub](https://github.com/ListenTeam))
+- [Protofire](https://protofire.io/) - Polkadot Mempool Explorer ([GitHub](https://github.com/protofire))
 
 
