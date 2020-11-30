@@ -223,5 +223,9 @@ This page gives an overview of accepted grants and a link to their GitHubs. Keep
 - [Pocket 4D](https://pocket4d.io) - Substrate Dart API client ([GitHub](https://github.com/Pocket4D))
 - [Listen](https://listen.io/) - Decentralized social network focusing on sound ([GitHub](https://github.com/ListenTeam))
 - [Protofire](https://protofire.io/) - Polkadot Mempool Explorer ([GitHub](https://github.com/protofire))
+- [Fuzhou Wakanda Information Technology](https://www.heizuan.com/) - Black Diamond Wallet ([GitHub](https://github.com/bdwallet))
+- [Konomi](http://konomi.network/) - Pool Lending Module ([GitHub](https://github.com/konomi-network))
+- [ACALA PTE. LTD.](https://acala.network/) - Bodhi:Composable & Innovative Stack for EVM ([GitHub](https://github.com/AcalaNetwork/bodhi.js))
+
 
 
