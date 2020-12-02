@@ -226,6 +226,4 @@ This page gives an overview of accepted grants and a link to their GitHubs. Keep
 - [Fuzhou Wakanda Information Technology](https://www.heizuan.com/) - Black Diamond Wallet ([GitHub](https://github.com/bdwallet))
 - [Konomi](http://konomi.network/) - Pool Lending Module ([GitHub](https://github.com/konomi-network))
 - [ACALA PTE. LTD.](https://acala.network/) - Bodhi:Composable & Innovative Stack for EVM ([GitHub](https://github.com/AcalaNetwork/bodhi.js))
-
-
-
+- [Pontem Network](https://pontem.network/) -  Move smart contract pallet ([GitHub](https://github.com/dfinance))
