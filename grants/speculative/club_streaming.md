@@ -1,32 +1,22 @@
-# Club - An Instant Messaging Protocol and Network
+# Club - An Cross Chain Interactive Video Protocol and Network
 
-* **Project:** Club A Decentralized Interactive Video Communication Network
+* **Project:** Club A Cross Chain Interactive Video Communication Network
 
 ## Project Overview : 
 
 ### Overview
 
-  * Club is a decentralized video network which enables real time video communication. 
-  * It make video application development easier by integrating WebRTC and blockchain and peer to peer messaging technologies.
-  * Club is an live interactive video communication protocol which is build on top of decentralized peer to peer mesaging protocol 
-  such as Whisper, Carriers that enables real time audio/vedio communication and file transfer.
-  * As WebRTC Club provide the applicaton developer the missing of WebRTC to build a realtime video communication application, such as 
+This grant application supports the development of a cross chain Interactive video protocol and network called CLUB. 
+It can be used in most blockchain wallet today to provide real time video communication for the wallet users.
+CLUB is already implemeneted on Ethereum and ElastOS.
+Within the framework of this grant application we will provide an implementation of cross chain vedio communication with the support of Polkadot Address and Ethereum address.
+We will also implemnet the most wanted billing fucntion of CLUB in Substrate. 
+  * Club is a decentralized interactive video network which enables real time video communication between blockchain users.
+  * By integrating WebRTC、DID(Decentralized IDentity) and decentralized peer to peer mesaging technologies (Whisper), Club enables real time audio/vedio communication and file transfer between wallet users.
+  * Club provide the applicaton developer the missing parties of WebRTC to build a realtime video communication application, such as 
   the signalling layer for WebRTC, the media server, the account system of DID and peer to peer messaging found in most blockchain project.
-  It is a decentralized, censorship free messaging network with enconomic incentives on blockchain. 
-  * Club supports easy implement of realtime audio and vedio communication as well as file transfer in decentralized application.
-  In fact such kind of functions are not found in most messaging protocol such as hopr, status, ally/scrumble, etc. 
-  + Offline messaging notification for mobile application is another built-in features in CLUB protocol.
-  * Comparing to most instant messenger app today which is centralized, there is no central account system for users, 
-  it uses DID(Decentralized Identifier) as the indentity and signature to secure.  
-  There is no server either, it will be the blockchain nodes for the messaging relay and route, so there is no service nor maintenance team needed to keep the system running. 
- + There is no single point failure.
- + Privacy, Security and Censorship-resustance is our goal.
-  Censorship-resistance is considered to be one of the main value propositions of Bitcoin. 
-  The idea is that no nation-state, corporation, or third party has the power to control who can use the network. 
-  Censorship-resistance ensures that the laws that govern the network are set in advance and can’t be retroactively altered to fit a specific agenda.
-  + We are also developing the front end app based on the background technologies.
-
- Our target is to make it used by people in crypto world. 
+  * Offline messaging notification for mobile application is another built-in features in CLUB protocol.
+  * Beyond cross chain transaction, Club provides cross chain text messaging and realtime video communication.
 
 ### An indication of how you will integrate this project into Substrate / Polkadot / Kusama.
    + As Gavin Wood pointed out messaging is one of the four components to the post-Snowden Web
@@ -35,8 +25,9 @@
     It uses strong-cryptography in order to make a number of guarantees about the messages; 
     they can be encrypted with an identity's public key in order to guarantee only that identity can decode it. 
     They can be signed by the sender's private key to guarantee that it does indeed come from the sender and provide the receiver with a secure receipt of communication. A shared secret can provide the opportunity to communicate securely, including between groups, without the necessity of proof of receipt.
-   * We will use the address in Substrate/Polkadot as the identity of the messaging part.
-  We are going to use the peer to peer messaging technologies provided by substrate.
+   * Moreover, realtime vedio communication can be built on top such kind of messaging protocol and WebRTC.
+   * We will support the address in Substrate/Polkadot as the identity of the messaging part. They Poldadot address should be able to talk to Ethereum address.
+   * Since the signaling protocol is missing in WebRTC, We are going to define the signaling protocol and send signaling messages over the peer to peer messaging protocol provided by Ethereum/Whisper.
    + The CLUB network will not be owned by any individuals or third party.
    Instead, we want to reply on the community of Polkadot to grow our network.
    The CLUB network relies on multiple individuals running CLUB nodes over publicly available infrastructure.
@@ -49,21 +40,36 @@
 ### An indication of why your team is interested in creating this project.
    * Messaging is needed in every application, so does in cryto world. As dapp grow, the need of realtime audio/vedio communication as found in most instant meseenger today
      should be the basic feature of wallet or other kind of decentralized application 
+   * As DEFI grows, we will see the growing need of cross chain messaging and vedio communication.  
    * In the past few years, the technology and infrastructure of decentralization have made considerable progress,
    but the crypto world is still using traditional communication tools such as WeChat Communication. 
-   *  Encouraged by uniswap which build pure decentralized exchange on Ethereum, we are going to build decentralized instant messenger 
+   *  Encouraged by uniswap which is pure decentralized exchange built on Ethereum, we are going to build decentralized video chat software 
    on top of the existing peer to peer network exsited in most blockchain.
    *  As most people still reply on centralized exchanges to trade cryptocurrencies, 
    we are facing the same problem and difficulty as most instant messenger are domanated by single platform and commercial company.
+  * Club supports easy implement of realtime audio and vedio communication as well as file transfer in decentralized application.
+  In fact such kind of functions are not found in most messaging protocol such as hopr, status, ally/scrumble, etc. 
    * In stead of chalendge most existing instant messenger, we are going to use the technologies developed by cryto workd and serve people in crtpto world. 
    the user scale of encrypted currency is at least hundreds of thousands or even millions, it is big enough for us at this stage. 
    * Technically, the messaging technologies is the underline technologies in every blockchain such as Substrate in Polkadot, 
     Whishper in Ethereum, Carrier in Elastos carrier and it can be used to implement peer to peer messaging.
    Based on cryptography, smart contracts, and peer-to-peer communication technologies, it is possible to build a decentralized instant messaging system with ensorship-resistance, which means it can not regulated and 
+  * Comparing to most instant messenger app today which is centralized, there is no central account system for users, 
+  it uses DID(Decentralized Identifier) as the indentity and signature to secure.  
+  There is no server either, it will be the blockchain nodes for the messaging relay and route, so there is no service nor maintenance team needed to keep the system running. 
+ + There is no single point failure.
+  * It is a decentralized, censorship free realtime vedio communication network with enconomic incentives on blockchain. 
+ + Privacy, Security and Censorship-resustance is our goal.
+  Censorship-resistance is considered to be one of the main value propositions of Bitcoin. 
+  The idea is that no nation-state, corporation, or third party has the power to control who can use the network. 
+  Censorship-resistance ensures that the laws that govern the network are set in advance and can’t be retroactively altered to fit a specific agenda.
+
+ Our target is to make it used by people in crypto world. 
    controlled by any commercial organization. 
 
 ### Project Details 
 * Mockups/designs of any UI components
+  https://t.callt.net/
 * API specifications of the core functionality
   + IOS and Android CLUB SDK
   + it is a java api set for webrtc connection using peer to peer messaging protocol. 
@@ -72,7 +78,8 @@ that run on the Android Operating System (OS) while utilizing the functionalitie
 
   * WebRTC replys on sigaling protocol to connect peers to build WebRTC connection.
 We define and implement a simple protocol to build audio/vedio conversation and send data between peers.
-This protocal can be implemented by underline peer to peer messaging protocol such as mixnet, tor, carrier in Elastos and whisper in Ethereum.
+This protocal can be implemented by underline peer to peer messaging protocol such as mixnet, tor, carrier in Elastos and whisper in Ethereum. 
+In this project we will use Whisper to implement the protocol.
 It can be implemeneted using the function provided by substrate as well.
 
 ### WebRTC Sigaling Protocol
@@ -156,15 +163,15 @@ It can be implemeneted using the function provided by substrate as well.
 
 ### An overview of the technology stack to be used
 + DID is used as the address of the instant messenger, it is generated on the user's device in stead of central server.
-It can also be any address in a Ethereum wallet and it need the signature of the walller.
+It can also be any address in a Polkadot or Ethereum wallet and it need the signature of the walller.
 + The Audio/Vedio and Data communicate is done by WebRTC, which is an open source project from Google.
 With WebRTC, you can add real-time communication capabilities to your application that works on top of an open standard.
  It supports video, voice, and generic data to be sent between peers, allowing developers to build powerful voice- and video-communication solutions. 
  + The technology is available on all modern browsers as well as on native clients for all major platforms. The technologies behind WebRTC are implemented as an open web standard and available as regular JavaScript APIs in all major browsers. For native clients, like Android and iOS applications, a library is available that provides the same functionality. The WebRTC project is open-source and supported by Apple, Google, Microsoft and Mozilla, amongst others.
 + WebRTC does not work alone and it needs a signaling protocol to help the peer to find each other
 and build the initial connection.
-+ There is peer to peer messaging system in most blockchain system so we can use it
-to be the signaling platform for WebRTC peers. 
++ There is peer to peer messaging system in most blockchain system so we can use it to be the signaling platform for WebRTC peers.. In this project we will use whisper as the protocol to send signaling messaing for setup call.
+ 
 ### Core components, protocols, architecture etc. to be deployed
 ### 1. Messaging network
 #### requirement of instant messaging 
@@ -253,16 +260,51 @@ Shanghai, PRC 201203
 
 ## Development Roadmap :nut_and_bolt: 
 
-### Milestone 1 Realtime chat using Substrate address
+### Milestone 1 Web Realtime Video using Substrate address
+* **Total Estimated Duration:** 1/2 month
+* **Full-time equivalent (FTE):**  1
+* **Total Costs:** $5,000
+* Deliverables: Web browser with wallet plugin which can demostrate the audio/vedio communication
+* Specification:
+* support vedio call using SS58 address format and extrinsic signature and verification
+* bind Poldadot address and whisper address
+* still use Whisper as the messaging platform
+* Web SDK
+* Web Demo
+
+### Milestone 2 Implement crosschain WebRTC singaling messaging 
+* **Estimated Duration:** 1/2 month
+* **FTE:**  1
+* **Costs:** $5,000
+* **Deliverables:** Vedio Call between Polkador wallet and Ethereum wallet
+* **Specification:**
+* Implement address lookup table for Poldadot address and Ethereum address 
+
+### Milestone 3 IOS APP Realtime Video using Substrate address
 * **Total Estimated Duration:** 1 month
 * **Full-time equivalent (FTE):**  2
 * **Total Costs:** $10,000
 * Deliverables: IOS and Android APP which can demostrate the audio/vedio communication
 * Specification:
 * support vedio call using SS58 address format and extrinsic signature and verification
-* still use elastos carrier as the messaging platform
+* bind Poldadot address and whisper address
+* still use Whisper as the messaging platform
+* IOS SDK
+* IOS demo
 
-### Milestone 2 A token and smart contract system immplemented in Substrate 
+### Milestone 4 Android APP Realtime Video using Substrate address
+* **Total Estimated Duration:** 1 month
+* **Full-time equivalent (FTE):**  2
+* **Total Costs:** $10,000
+* Deliverables: IOS and Android APP which can demostrate the audio/vedio communication
+* Specification:
+* support vedio call using SS58 address format and extrinsic signature and verification
+* bind Poldadot address and whisper address
+* still use Whisper as the messaging platform
+* Android SDK
+* Android demo
+
+### Milestone 4 A token and smart contract system immplemented in Substrate 
 * **Estimated Duration:** 1 month
 * **FTE:**  2
 * **Costs:** $10,000
@@ -272,43 +314,6 @@ Shanghai, PRC 201203
 * smart contract for client communication
 * smart contract for miner who run messaging, notification and turn server;
 
-### Milestone 3 Messaging network 
-* **Estimated Duration:** 2 month
-* **FTE:**  2
-* **Costs:** $20,000
-* **Deliverables:** messaging node software, architecture, implementation and documentation detailed publicly on GitHub 
-* **Specification:**
-* fork of whisper 
-* move devp2p over to libp2p, as it'll provide us with multiple transports, better protocol negotiation, NAT traversal,
-* smart contract for miner who run messaging nodes;
-* a c++ mixnet messaging and port to WASM
-
-### Milestone 4 Add turn server into substrate network
-* **Estimated Duration:** 1 month
-* **FTE:**  2
-* **Costs:** $10,000
-* **Deliverables:** downloadanle turn sever, install instruction, source code
-* **Specification:**
-* Add token incentive of a open source turn server 
-
-### Milestone 5 Implement push notification server into substrate network
-* **Estimated Duration:** 1 month
-* **FTE:**  2
-* **Costs:** $10,000
-* **Deliverables:** downloadanle push notification sever, install instruction, source code
-* **Specification:**
-* push notification server node to accept and store notification, device token from application
-* SDK for mobile application to integrate push notification;
-* push notifocation gateway to deliver push notification to IOS or Android messaging center
-
-### Milestone 6 Implement WebRTC singaling messaging 
-* **Estimated Duration:** 1 month
-* **FTE:**  8
-* **Costs:** $40,000
-* **Deliverables:** protocol of peer to peer communication,implemented the rust and substrate
-* **Specification:**
-* Distributed Peer Table (DPT) / Node Discovery: peer could be any substrate address, Maintain/manage a list of peers, also includes node discovery. 
-* Offline messaging
 
 ### Community engagement
 
@@ -318,14 +323,13 @@ Please include the team's long-term plans and intentions.
 In the next two years, We are going to implement the decentralized messaging protocol and build the messaging network and an instant messaging app on top of it(a dicentralized Zoom kind of app) for cryto world and we will continue to improve the user experience.
 
 It will also be a real time communication SDK (a dicentralized communication development toolkit like Twillio, Agora, Jigou, a communication version of Chainlink) for app application development, especially wallet application.
-
 ## Additional Information :heavy_plus_sign: 
 * What work has been done so far?
   + We have developed an IOS and Android app with Audio and Vedio chat. Those apps relies on Elastos's carrier as backend protocol for peer to peer signaling messaging.
-  + We have integrate WebRTC Audio/Vedio communication with metamask waller. 
+  + We have integrate WebRTC Audio/Vedio communication with metamask wallet. 
 https://www.callpass.cn/metamask
-  + We have implemetd peer to peer and group text messaging chat using Ethereum's whisper and swarm.
-http://t.callt.net
+  + We have implemetd peer to peer and group text messaging chat and video chat using Ethereum's whisper and swarm.
+https://t.callt.net
 It relys on a private side chain to do messaging routing and offline messaging.
 * Are there are any teams who have already contributed (financially) to the project?
   + No
