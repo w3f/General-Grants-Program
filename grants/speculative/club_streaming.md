@@ -38,41 +38,36 @@ We will also implemnet the most wanted billing fucntion of CLUB in Substrate.
   These CLUB tokens can be used within the CLUB network as a means of payment for requesting services from other CLUB nodes.
   
 ### An indication of why your team is interested in creating this project.
-   * Messaging is needed in every application, so does in cryto world. As dapp grow, the need of realtime audio/vedio communication as found in most instant meseenger today
-     should be the basic feature of wallet or other kind of decentralized application 
-   * As DEFI grows, we will see the growing need of cross chain messaging and vedio communication.  
-   * In the past few years, the technology and infrastructure of decentralization have made considerable progress,
-   but the crypto world is still using traditional communication tools such as WeChat Communication. 
-   *  Encouraged by uniswap which is pure decentralized exchange built on Ethereum, we are going to build decentralized video chat software 
+   * Messaging is needed in every application, so does in cryto world. 
+   Just like  most people still reply on centralized exchanges to trade cryptocurrencies,,
+   but the crypto world is still using centralized communication tools owned by single platform and commercial company, such as Facebook, Twitter and WeChat. 
+   * Also encouraged by uniswap which is pure decentralized exchange built on Ethereum, we are going to build decentralized video chat software 
    on top of the existing peer to peer network exsited in most blockchain.
-   *  As most people still reply on centralized exchanges to trade cryptocurrencies, 
-   we are facing the same problem and difficulty as most instant messenger are domanated by single platform and commercial company.
-  * Club supports easy implement of realtime audio and vedio communication as well as file transfer in decentralized application.
-  In fact such kind of functions are not found in most messaging protocol such as hopr, status, ally/scrumble, etc. 
-   * In stead of chalendge most existing instant messenger, we are going to use the technologies developed by cryto workd and serve people in crtpto world. 
-   the user scale of encrypted currency is at least hundreds of thousands or even millions, it is big enough for us at this stage. 
+   * Video Communication is hard to many developers.\
+   Video SDK/API to simplied the development process is matured market for tradintion software industry, but it is not found in any messaging protocol in blockchain area such as hopr, status, ally/scrumble, etc. 
+   * The user base of crypto currency is growing all the time and the real time text/audio/video function should be the basic function in most wallet and exchange app, it is at least hundreds of thousands or even millions, it is big enough for us at this stage. 
    * Technically, the messaging technologies is the underline technologies in every blockchain such as Substrate in Polkadot, 
     Whishper in Ethereum, Carrier in Elastos carrier and it can be used to implement peer to peer messaging.
-   Based on cryptography, smart contracts, and peer-to-peer communication technologies, it is possible to build a decentralized instant messaging system with ensorship-resistance, which means it can not regulated and 
-  * Comparing to most instant messenger app today which is centralized, there is no central account system for users, 
+   Based on cryptography, smart contracts, and peer-to-peer communication technologies, it is possible to build a decentralized real time video communication system with ensorship-resistance.
+
+The benifits of a decentralized video communication platform is obviously:
+  * Comparing to most video chat app today which is centralized, there is no central account system for users, 
   it uses DID(Decentralized Identifier) as the indentity and signature to secure.  
   There is no server either, it will be the blockchain nodes for the messaging relay and route, so there is no service nor maintenance team needed to keep the system running. 
  + There is no single point failure.
-  * It is a decentralized, censorship free realtime vedio communication network with enconomic incentives on blockchain. 
- + Privacy, Security and Censorship-resustance is our goal.
+  * It is not owned by any commercial organiztion, it is a decentralized, censorship free realtime vedio communication network with enconomic incentives on blockchain. 
+ + Privacy, Security and Censorship-resustance：
   Censorship-resistance is considered to be one of the main value propositions of Bitcoin. 
   The idea is that no nation-state, corporation, or third party has the power to control who can use the network. 
   Censorship-resistance ensures that the laws that govern the network are set in advance and can’t be retroactively altered to fit a specific agenda.
 
- Our target is to make it used by people in crypto world. 
-   controlled by any commercial organization. 
-
+ 
 ### Project Details 
 * Mockups/designs of any UI components
   https://t.callt.net/
 * API specifications of the core functionality
-  + IOS and Android CLUB SDK
-  + it is a java api set for webrtc connection using peer to peer messaging protocol. 
+  + Web, IOS and Android CLUB SDK
+  + Android CLUB SDK is a java api set for webrtc connection using peer to peer messaging protocol. 
 With the Android CLUB SDK, it is possible to build voip applications for mobile phones, tablets, wearables, TVs and car media systems 
 that run on the Android Operating System (OS) while utilizing the functionalities of the Elastos Carrier and WebRTC protocol.
 
@@ -162,15 +157,16 @@ It can be implemeneted using the function provided by substrate as well.
 ```
 
 ### An overview of the technology stack to be used
-+ DID is used as the address of the instant messenger, it is generated on the user's device in stead of central server.
++ Account/User System: DID is used as the address of the instant messenger, it is generated on the user's device in stead of central server.
 It can also be any address in a Polkadot or Ethereum wallet and it need the signature of the walller.
-+ The Audio/Vedio and Data communicate is done by WebRTC, which is an open source project from Google.
++ Audio/Video: The Audio/Vedio and Data communicate is done by WebRTC, which is an open source project from Google.
 With WebRTC, you can add real-time communication capabilities to your application that works on top of an open standard.
  It supports video, voice, and generic data to be sent between peers, allowing developers to build powerful voice- and video-communication solutions. 
  + The technology is available on all modern browsers as well as on native clients for all major platforms. The technologies behind WebRTC are implemented as an open web standard and available as regular JavaScript APIs in all major browsers. For native clients, like Android and iOS applications, a library is available that provides the same functionality. The WebRTC project is open-source and supported by Apple, Google, Microsoft and Mozilla, amongst others.
 + WebRTC does not work alone and it needs a signaling protocol to help the peer to find each other
 and build the initial connection.
-+ There is peer to peer messaging system in most blockchain system so we can use it to be the signaling platform for WebRTC peers.. In this project we will use whisper as the protocol to send signaling messaing for setup call.
++ Messaging: There is peer to peer messaging system in most blockchain system so we can use it to be the signaling platform for WebRTC peers.. In this project we will use whisper as the protocol to send signaling messaing for setup call.
++ Billing: smart contracr and tokens
  
 ### Core components, protocols, architecture etc. to be deployed
 ### 1. Messaging network
