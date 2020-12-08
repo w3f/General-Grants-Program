@@ -2,7 +2,7 @@
 
 * **ever.Finance:** ConsenStorage
 
-## Project Overview 
+## Project Overview :page_facing_up:
 
 ConsenStorage is an incentive consensus protocol for file storage. We have improved a storage-based mining mechanism to provide a large-scale permanent file storage service using Polkadot blockchain technology.
 
@@ -55,8 +55,8 @@ Shared privately via the Google Form used for your application.
 * https://github.com/everFinance/consen-storage
 
 ### Team LinkedIn Profiles
-* https://www.linkedin.com/in/%E7%82%9C-%E7%86%8A-675a9a33/<person_1>
-* https://www.linkedin.com/in/%E5%85%89%E5%8D%8E-%E9%83%AD-964b199a/<person_2>
+* https://www.linkedin.com/in/%E7%82%9C-%E7%86%8A-675a9a33/
+* https://www.linkedin.com/in/%E5%85%89%E5%8D%8E-%E9%83%AD-964b199a/
 
 ## Development Roadmap :nut_and_bolt: 
 
