@@ -1,4 +1,4 @@
-# Club - A Cross Chain Interactive Video Protocol and Network
+# Club - A Cross Chain Interactive Video Communication Network
 
 * **Project:** Club A Cross Chain Interactive Video Communication Network
 
