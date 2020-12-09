@@ -64,6 +64,7 @@ The benifits of a decentralized video communication platform is obviously:
  
 ### Project Details 
 * Mockups/designs of any UI components
+  https://www,iclub.network/
   https://t.callt.net/
 * API specifications of the core functionality
   + Web, IOS and Android CLUB SDK
