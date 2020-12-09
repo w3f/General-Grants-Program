@@ -77,7 +77,7 @@ For each milestone:
 * **Full-time equivalent (FTE):**  Workload of an employed person ([see](https://en.wikipedia.org/wiki/Full-time_equivalent)) 
 * **Total Costs:** Amount of Payment for the whole project. The total amount of funding needs to be below $100k.
 
-### Milestone 1 Example — Implement storrage consensus Modules 
+### Milestone 1 — Implement storage consensus Modules 
 * **Estimated Duration:** 2 month
 * **FTE:**  1
 * **Costs:** $30,000
@@ -87,10 +87,9 @@ For each milestone:
 | 0a. | License | Apache 2.0 / MIT / Unlicense |
 | 0b. | Documentation | We will provide both inline documentation of the code and a basic tutorial that explains how a user can (for example) spin up one of our Substrate nodes. Once the node is up, it will be possible to send test transactions that will show how the new functionality works. |
 | 0c. | Testing Guide | The code will have proper unit-test coverage (e.g. 90%) to ensure functionality and robustness. In the guide we will describe how to run these tests | 
-| 1. | Substrate module: X | We will create a Substrate module that will... (Please list the functionality that will be coded for the first milestone) |  
-| 2. | Substrate module: Y | We will create a Substrate module that will... |  
-| 3. | Substrate module: Z | We will create a Substrate module that will... |  
-| 4. | Substrate chain | Modules X, Y & Z of our custom chain will interact in such a way... (Please describe the deliverable here as detailed as possible) |  
+| 1. | Substrate module: Consensus | We will create a Substrate module that will do two things. 1. Link to follow polkadot consensus. 2. Provide a trait for the incentive module, and provide incentive entry for the incentive node and storage account |  
+| 2. | Substrate module: Incentive | We will create a Substrate module that will do two things. 1. Token issuance and management (how to manage if dot is used, how to issue if additional token is used). 2. Realize the incentive trait of consensus module.|   
+| 3. | Substrate chain | Modules Consensus & Incentive of our parachain will interact in such a way spown new block by a hybrid consensus (follow polkadot consensus and storage consensus) |  
 | 5. | Docker | We will provide a dockerfile to demonstrate the full functionality of our chain |
 
 ### Milestone 2 Example — Additional features
