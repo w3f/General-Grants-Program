@@ -6,11 +6,11 @@
 
 ### Overview
 
-This grant application supports the development of a cross chain Interactive video protocol and network called CLUB. 
-It can be used in most blockchain wallet today to provide real time video communication for the wallet users.
+This grant application supports the development of a cross chain interactive video communication network called CLUB. 
+It can be used in most blockchain to implement real time video communication for the DID or wallet users.
 CLUB is already implemeneted on Ethereum and ElastOS.
 Within the framework of this grant application we will provide an implementation of cross chain vedio communication with the support of Polkadot Address and Ethereum address.
-We will also implemnet the most wanted billing fucntion of CLUB in Substrate. 
+We will also implement the most wanted billing fucntion of CLUB in Substrate. 
   * Club is a decentralized interactive video network which enables real time video communication between blockchain users.
   * By integrating WebRTC、DID(Decentralized IDentity) and decentralized peer to peer mesaging technologies (Whisper), Club enables real time audio/vedio communication and file transfer between wallet users.
   * Club provide the applicaton developer the missing parties of WebRTC to build a realtime video communication application, such as 
@@ -222,7 +222,8 @@ we want to serve the whole blockchain world.
 * Names of team members: Tomas Shao, BS of Computer Science, Southwest Minzu University
 
 ### Team Website	
-* http://t.callt.net
+* https://www.iclub.network
+* https://t.callt.net
 * https://www.callpass.cn/metamask
 
 ### Legal Structure 
@@ -246,6 +247,7 @@ Shanghai, PRC 201203
   + https://github.com/AngoraFuzzer/Angora 
  
 ### Team Code Repos
+* https://github.com/clubnetwork
 * https://github.com/allcomsh
 * https://github.com/gxyzwangyi
 * https://github.com/Tomas-Shao
