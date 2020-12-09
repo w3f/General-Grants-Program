@@ -49,7 +49,7 @@ Shared privately via the Google Form used for your application.
 
 ### Team's experience
 * Wei Xiong: Founder of everFinance. Former imToken Tokenlon(DEX) core developer. Five years of banking software development experience.
-* Guanghua Guo: TODO
+* Guanghua Guo: The development leader of ChainX, the original development leader of Bytom.
 
 ### Team Code Repos
 * https://github.com/everFinance/consen-storage
@@ -77,10 +77,10 @@ For each milestone:
 * **Full-time equivalent (FTE):**  Workload of an employed person ([see](https://en.wikipedia.org/wiki/Full-time_equivalent)) 
 * **Total Costs:** Amount of Payment for the whole project. The total amount of funding needs to be below $100k.
 
-### Milestone 1 Example — Implement Substrate Modules 
-* **Estimated Duration:** 1 month
+### Milestone 1 Example — Implement storrage consensus Modules 
+* **Estimated Duration:** 2 month
 * **FTE:**  1
-* **Costs:** $5,000
+* **Costs:** $30,000
 
 | Number | Deliverable | Specification |
 | ------------- | ------------- | ------------- |
