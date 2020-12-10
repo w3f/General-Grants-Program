@@ -94,7 +94,7 @@ Shared privately via the Google Form used for your application.
 
 | Number | Deliverable | Specification |
 | ------------- | ------------- | ------------- |
-| 0a. | License | Apache 2.0 / MIT / Unlicense |
+| 0a. | License | MIT |
 | 0b. | Documentation | We will provide both inline documentation of the code and a basic tutorial that explains how a user can (for example) spin up one of our Substrate nodes. Once the node is up, it will be possible to send test transactions that will show how the new functionality works. |
 | 0c. | Testing Guide | The code will have proper unit-test coverage (e.g. 90%) to ensure functionality and robustness. In the guide we will describe how to run these tests |
 | 1. | Substrate module: Consensus | We will create a Substrate module that will do two things. 1. Link to follow polkadot consensus. 2. Provide a trait for the incentive module, and provide incentive entry for the incentive node and storage account |
