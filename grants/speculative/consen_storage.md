@@ -90,7 +90,7 @@ Shared privately via the Google Form used for your application.
 ### Implement storage consensus Modules 
 * **Estimated Duration:** 2 month
 * **FTE:**  1
-* **Costs:** $30,000
+* **Costs:** $50,000
 
 | Number | Deliverable | Specification |
 | ------------- | ------------- | ------------- |
