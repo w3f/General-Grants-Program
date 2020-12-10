@@ -229,3 +229,4 @@ This page gives an overview of accepted grants and a link to their GitHubs. Keep
 - [Pontem Network](https://pontem.network/) -  Move smart contract pallet ([GitHub](https://github.com/dfinance))
 - [SpiderDAO](https://spiderdao.io) - Hardware-based DAO governance ([GitHub](https://github.com/SpiderDAO))
 - [onfinality](https://onfinality.io) - Subquery: Open-source tool to process and query data ([GitHub](https://github.com/onfinality-io))
+- FOS Foundation LTD - Pacific store: OpenSea.js on polkadot ([GitHub](hhttps://github.com/vlbos))
