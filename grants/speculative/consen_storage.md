@@ -8,20 +8,17 @@ ConsenStorage is an incentive consensus protocol for file storage. We have impro
 
 ### Overview
 
-Please provide the following:
-  * A brief description of the project.
-  * An indication of how you will integrate this project into Substrate / Polkadot / Kusama.
-  * An indication of why your team is interested in creating this project.
+* Distributed storage to ensure data availability.
+* A deterministic and traceable storage that can be used for decentralized applications.
+* Use Substrate to add the block generation algorithm of the storage mode to the consensus module.
 
 ### Project Details 
-We expect the teams to already have a solid idea about the project's expected final state.
 
-Therefore, we ask the teams to submit (where relevant):
-* Mockups/designs of any UI components
-* API specifications of the core functionality
-* An overview of the technology stack to be used
-* Documentation of core components, protocols, architecture etc. to be deployed
-* PoC/MVP or other relevant prior work or research on the topic
+In order to build a storage blockchain platform, we used the following key technologies.
+
+* The Recall Block
+* Permanent storage price
+* Storage and Bandwidth incentive
 
 #### The Recall Block
 In blockchain data structure each block is linked to two prior blocks: the previous block in the ‘chain’, and a block from the previous history of the blockchain. Consequently, the blockchain data structure is not strictly a chain but it is a slightly more complex graph structure.
@@ -32,8 +29,34 @@ In order to mine or verify a new block, a node must have that block’s recall b
 
 The algorithm incentivises storage as miners need access to random blocks from the blockchain’s history in order to mine new blocks and receive mining rewards. And the algorithm also incentives miners to store rare blocks more than it incentivizes them to store well-replicated blocks. This is because when a rare block is chosen, miners can mine new blocks with less competition.
 
+#### Permanent storage price
+
+Statistics show that the storage cost is decreasing at a staggering rate every year. The average storage cost decreases by 30.57% per gigabyte every year. As time goes by, the cost will converge to a constant, which is considered as the permanent storage cost. We will price storage based on the converged constant to stabilize storage costs.
+
+#### Storage and Bandwidth incentive
+
+##### Storage
+
+Create a storage fund to ensure the profitability of mining. The storage fund is used to ensure that future transaction fees are not enough to cover the cost of miners and subsidize miners. When a new block is mined, a part of the transaction fee of the new block will be paid to the miner, and another part of the fee will be deposited into the storage fund.
+
+Use permanent storage price as the base of transaction costs.
+
+Polkdadot parachain supports up to 10 nodes, so user payment fee = (10 * permanent storage cost) * instant constant. If there is only one node currently, 1/10 of the fee will be paid to the node at a certain discount, and remaining fee will be deposited into the stroage fund.
+
+In the case of insufficient funds, the instant constant of the fee can also be adjusted to increase the user's payment fee to offset the operating cost of the entire network.
+
+##### Bandwidth
+
+Users requesting data from nodes need to use purchased bandwidth credits, which are digital credits calculated in bytes. The tokens consumed by the user at the time of purchase will be deposited into the fund.
+
+When a user requests data from a node, a message signature is required. This signature is like a check. The node can use the signature to redeem the token paid by the user.
+
+Insufficient user bandwidth points, the node can reject the response data.
+
+If the node data response is not timely or the response is wrong, the user can replace other high-quality nodes for data request.
+
 ### Ecosystem Fit 
-Arweave is a data perpetual blockchain that uses POW for storage and mining. We improved the use of Polkadot's POS algorithm for file storage.
+Arweave is a data perpetual blockchain that uses POW for storage and mining. We improved the use of Polkadot's POS algorithm for file storage, and, increased bandwidth incentives to make the entire economic model more complete.
 
 ## Team :busts_in_silhouette:
 
@@ -43,6 +66,10 @@ Arweave is a data perpetual blockchain that uses POW for storage and mining. We 
 
 ### Team Website	
 * https://ever.finance
+
+### Team Mail
+
+* dev@ever.finance
 
 ### Legal Structure 
 Shared privately via the Google Form used for your application.
@@ -60,24 +87,7 @@ Shared privately via the Google Form used for your application.
 
 ## Development Roadmap :nut_and_bolt: 
 
-This section should break out the development roadmap into a number of milestones. Since the milestones will appear in the grant contract, it helps to describe the functionality we should expect, plus how we can check that such functionality exists in the product. Whenever milestones are delivered, we refer to the contract to ensure that everything has been delivered as expected.
-
-Below we provide an **example roadmap**. In the descriptions it should be clear how the project is related to Substrate and/or Polkadot. We recommend that the scope of the work can fit within a 3 month period and that teams structure their roadmap as 1 month = 1 milestone. 
-
-For each milestone:
-* Please be sure to include a specification of the software. The level of detail must be enough so that we are able to verify that the software meets the specification.
-* Please include total amount of funding requested per milestone.
-* Please note that we require documentation (e.g. tutorials, API specifications, architecture details) in each milestone. This ensures that the code can be widely used by the community.
-* Please provide a test suite, comprising unit and integration tests, along with a guide on how to run these.
-* Please commit to providing a dockerfiles for the delivery of your project. 
-* Please indicate the milestone duration, as well as number of Full-Time Employees working on each milestone, and include the number of days along with their cost per day.
-
-### Overview
-* **Total Estimated Duration:** Duration of the whole project
-* **Full-time equivalent (FTE):**  Workload of an employed person ([see](https://en.wikipedia.org/wiki/Full-time_equivalent)) 
-* **Total Costs:** Amount of Payment for the whole project. The total amount of funding needs to be below $100k.
-
-### Milestone 1 — Implement storage consensus Modules 
+### Implement storage consensus Modules 
 * **Estimated Duration:** 2 month
 * **FTE:**  1
 * **Costs:** $30,000
@@ -86,14 +96,11 @@ For each milestone:
 | ------------- | ------------- | ------------- |
 | 0a. | License | Apache 2.0 / MIT / Unlicense |
 | 0b. | Documentation | We will provide both inline documentation of the code and a basic tutorial that explains how a user can (for example) spin up one of our Substrate nodes. Once the node is up, it will be possible to send test transactions that will show how the new functionality works. |
-| 0c. | Testing Guide | The code will have proper unit-test coverage (e.g. 90%) to ensure functionality and robustness. In the guide we will describe how to run these tests | 
-| 1. | Substrate module: Consensus | We will create a Substrate module that will do two things. 1. Link to follow polkadot consensus. 2. Provide a trait for the incentive module, and provide incentive entry for the incentive node and storage account |  
-| 2. | Substrate module: Incentive | We will create a Substrate module that will do two things. 1. Token issuance and management (how to manage if dot is used, how to issue if additional token is used). 2. Realize the incentive trait of consensus module.|   
-| 3. | Substrate chain | Modules Consensus & Incentive of our parachain will interact in such a way spown new block by a hybrid consensus (follow polkadot consensus and storage consensus) |  
+| 0c. | Testing Guide | The code will have proper unit-test coverage (e.g. 90%) to ensure functionality and robustness. In the guide we will describe how to run these tests |
+| 1. | Substrate module: Consensus | We will create a Substrate module that will do two things. 1. Link to follow polkadot consensus. 2. Provide a trait for the incentive module, and provide incentive entry for the incentive node and storage account |
+| 2. | Substrate module: Incentive | We will create a Substrate module that will do two things. 1. Token issuance and management (how to manage if dot is used, how to issue if additional token is used). 2. Realize the incentive trait of consensus module.|
+| 3. | Substrate chain | Modules Consensus & Incentive of our parachain will interact in such a way spown new block by a hybrid consensus (follow polkadot consensus and storage consensus) |
 | 5. | Docker | We will provide a dockerfile to demonstrate the full functionality of our chain |
-
-### Milestone 2 Example — Additional features
-...
 
 ### Community engagement
 
@@ -106,10 +113,13 @@ We have published some articles on medium: https://medium.com/everfinance.
 ## Additional Information :heavy_plus_sign: 
 
 * What work has been done so far?
+
 We will finish the consensus algorithm in the 2021Q1 and further advance the development of the storage chain.
 
 * Are there are any teams who have already contributed (financially) to the project?
+
 No.
 
 * Have you applied for other grants so far?
+
 No.
