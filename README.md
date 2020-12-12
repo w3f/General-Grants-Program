@@ -12,7 +12,6 @@ As part of our commitment to promoting the Web3 ecosystem, we offer a comprehens
 - [:bookmark_tabs: Guidelines](#bookmark_tabs-guidelines)
   - [Licensing](#licensing)
   - [Documentation](#documentation)
-  - [Who we are interested in funding](#who-we-are-interested-in-funding)
 - [:pencil: Process](#pencil-process)
 - [:mailbox_with_mail: RFP Suggestion](#mailbox_with_mail-rfp-suggestion)
 - [:rocket: Alternative Funding Sources](#rocket-alternative-funding-sources)
@@ -33,17 +32,25 @@ Technical grants are intended to fund **Polkadot** and **Substrate** specific pr
 * software development
 * research
 
-For more specific information on our funding priorities, please view the [Polkadot Stack](./grants/polkadot_stack.md) and take a look at the [accepted grant applications](https://github.com/w3f/Web3-collaboration/blob/master/grants/accepted_grant_applications.md).
+For more specific information on our funding priorities, please view the [Polkadot Stack](./grants/polkadot_stack.md) and take a look at the [accepted grant applications](https://github.com/w3f/Web3-collaboration/blob/master/grants/accepted_grant_applications.md). Additionally the builders program [feedback board](https://feedback.parity.io/) may contain some useful ideas for grant projects.
 
-The funding maximum for technical grants is $100,000 per project. Teams shouldn’t seek to cover 100% of their early-stage funding via W3F Grants alone.
+The funding maximum for technical grants is $100,000 per project.
+
+We ask teams to first consider applying via the [Open Grants Program](https://github.com/w3f/Open-Grants-Program), which supports grants of up to $30,000 and has faster processing times.
+If your project has a scope larger than that, we encourage you to split your work into multiple stages, each of $30,000 or less.
+
+Only apply via the General Grants Program if:
+* You seek funding of $30,000+ and your work cannot be split into smaller milestones
+* You want your team/project information to remain private
+* You can only accept fiat payments
+
+Teams shouldn’t seek to cover 100% of their early-stage funding via W3F Grants alone.
 
 Any project requesting :
 * **$30k or less** will receive approval the fastest.
 * **$31k - 100k** will need to wait longer for a decision.
 
 Teams can apply for grants more than once, but they need to complete the previous project (as described in their application) before receiving additional funds. 
-
-We are primarily interested in projects that can be completed in **3 months** or less.
 
 ### Licensing
 In order to successfully receive grant funding for your application it is necessary for the project to have **open source** code. We prefer Apache 2.0 but the GNU GPL v3 license is also acceptable.
@@ -91,16 +98,6 @@ If you are considering applying for a grant, please follow the process below.
 1. **Follow up**
    * Once progress has started, the W3F will want to have follow up conversations to see how the project is progressing.
    * To help to speed up the milestone evaluation process, take a look at the [Milestone Deliverables Guidelines](./grants/milestone-deliverables-guidelines.md)
-
-### Who we are interested in funding
-
-* Individuals
-  * Developers, anyone in the community
-  * Note: all contracts need to be signed with legal entities (e.g. an LLC / Ltd).
-* Companies/Teams
-  * Established teams with a track record
-* Researchers
-  * Universities/Professors
 
 ## :mailbox_with_mail: RFP Suggestion
 If you think that we should sponsor the development of certain tools/projects related to **Polkadot**, **Kusama** and/or **Substrate** that aren't in the [Polkadot Stack](./grants/polkadot_stack.md) then feel free to submit an RFP suggestion using the process described below. We're particularly interested in supporting projects that could be leveraged by other builders in our ecosystem. We will review your proposal and if we believe it’s useful, we will create an RFP based on your idea and try to find teams to work on it.
