@@ -49,7 +49,7 @@ The milestones below are just an initial draft. The milestones can be structured
 | 0b. | Documentation | Inline documentation of the code and a basic tutorial that explains how a developer can use the project |
 | 0c. | Testing Guide | The code will have unit-test coverage to ensure functionality and robustness. In the guide we will describe how to run these tests | 
 | 0d. | Article/Tutorial | Article or tutorial that explains the work done as part of the grant. 
-| 1. | CLR pallet(s) | Implement the necessary substrate pallets, potentially containing a Token Curated Registry (TCR) and DAO |  
+| 1. | CLR pallet(s) | Implement the necessary substrate pallets, potentially containing a Token Curated Registry (TCR) to allow anyone to permissionlessly register eligible recipients each round and DAO to govern the protocol.  |  
 | 2. | Off-chain Storage | Integrate an off-chain storage solution, for example IPFS for storing the applications and information about the grants |
 | 2.  | Test 1 | Set up a test network and leverage the extrinsics tabs of polkdaot.js to test the implementation and improve it. The Web3 Foundation provides a small matching pool as a real incentive. | 
 
