@@ -65,7 +65,7 @@ In the below sections you can find a list of different layers of the Polkadot St
 | Mobile Wallets|  [Lunie](https://github.com/luniehq/lunie), [Polkawallet](https://github.com/polkawallet-io/polkawallet-flutter), [Parity Signer](https://github.com/paritytech/parity-signer), [imToken](https://github.com/consenlabs/token-core), [Fearless Wallet Android](https://github.com/soramitsu/fearless-Android), [Fearless Wallet iOS](https://github.com/soramitsu/fearless-iOS)  
 | Web (burner) Wallets| [KodaDot](https://kodadot.js.org/)
 | CLI Wallet | [Subwallet](https://github.com/yxf/subwallet)
-| Multisignature Wallets| 
+| Multisignature Wallets| [Subscan Multisig UI](https://github.com/itering/subscan-multisig-ui) |
 | Hardware Wallets | [Ledger](https://github.com/ZondaX/ledger-polkadot), [NGRAVE](https://ngrave.io/) | Trezor
 | Block Explorers | [Polkascan](https://github.com/polkascan), [Polkastats](https://github.com/Colm3na), [Subscan](https://github.com/itering/subscan), [PSQL Indexer](https://github.com/usetech-llc/polkadot_psql_indexer) | Mempool focused explorer (including parachain transaction)
 | Validator Dashboards | [DotHub](https://github.com/figment-networks/dothub), [Polkacube](https://github.com/hashquark-io), [YieldScan](https://github.com/buidl-labs/YieldScan)
