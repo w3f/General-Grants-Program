@@ -16,7 +16,7 @@ Key-problems to solve as part of the grant:
 
 ## Deliverables :nut_and_bolt:
 
-The milestones below are just an initial draft. The milestones can be structured completely differently and the implementation can also leverage other tools and infrastructure as long as the overall goal of the RFP is met.  
+The milestones below are just an initial draft. The milestones can be structured completely differently and the implementation can also leverage other tools and infrastructure as long as the overall goal of the RFP is met. Specifically it might make sense to initially start with milestone 3 and leverage centralized solutions for milestone 1 and 2 at the beginning of the project in order to start testing the implementation early.  
 
 ### Milestone 1 - Anti-collusion
 
