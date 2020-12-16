@@ -1,7 +1,7 @@
 # Milestone Deliverables Guidelines
 
 These are the guidelines to be followed for milestones submitted for evaluation. 
-Please submit your milestones by email to grants@web3.foundation.
+Please submit your milestones by email to grants@web3.foundation for **General Grants program** and via PR to the [Grant Milestone Delivery repo](https://github.com/w3f/Grant-Milestone-Delivery) for the **Open Grants Program**.
 
 The submission should contain the following information: 
  * **Name of the grant project**
@@ -16,9 +16,7 @@ The submission should contain the following information:
 ## License
 
 In order to successfully receive grant funding for your application it is necessary for the project to have open source code. 
-We prefer Apache 2.0, but MIT or Unlicense are also acceptable.
-
-If your delivery comprises multiple repositories, make sure to include the license for them all.
+We prefer Apache 2.0, but MIT or Unlicense are also acceptable. If your delivery comprises multiple repositories, make sure to include the license for them all.
 
 ## Documentation
 
@@ -33,19 +31,15 @@ We require that you document (where applicable):
 Note: Only focus on your **own** contributions. Do not write detailed explanations of already existing components, e.g. IPFS. 
 
 ## Formatted code
-A codebase that is easy to read is also easy to use.
 
-We suggest adopting one style from Day 1 and adhering to it across the entire team.
+A codebase that is easy to read is also easy to use.We suggest adopting one style from Day 1 and adhering to it across the entire team.
 This helps to keep the commit history clean and facilitates any reviews of the introduced changes.
 
-### Substrate
-We strongly recommend formatting your code according to the [official guidelines](https://github.com/paritytech/substrate/blob/master/docs/STYLE_GUIDE.md)
+**Substrate:** We strongly recommend formatting your code according to the [official guidelines](https://github.com/paritytech/substrate/blob/master/docs/STYLE_GUIDE.md)
 
-### Rust
-We encourage formatting any additional support libraries or helpers by following the [Style Guidelines](https://doc.rust-lang.org/1.0.0/style/README.html).
+**Rust:** We encourage formatting any additional support libraries or helpers by following the [Style Guidelines](https://doc.rust-lang.org/1.0.0/style/README.html).
 
-### Other
-For non-Rust deliveries, please commit to a particular style & let us know which official guidelines you adopt.
+**Other:** For non-Rust deliveries, please commit to a particular style & let us know which official guidelines you adopt.
 
 ## Testing Guide
 
@@ -75,7 +69,7 @@ If that is the case, please provide detailed instructions on how else we can tes
 
 ## Milestone Deliverables
 
-Please provide a list of milestone deliverables. This list should closely reflect the list of deliverables shown in Annex 1 of the grant contract.
+Please provide a list of milestone deliverables. This list should closely reflect the list of deliverables agreed on in the Pull Request for the Open Grants program or in Annex 1 of the grant contract for the General Grants program.
  
 Each item in the list should include a link to the deliverable itself, e.g.:
 - Google Doc link - make sure anyone with the link has View access
