@@ -1,4 +1,4 @@
-# Title of the RFP Proposal
+# On-chain Quadratic Funding
 
 * **Proposer:** [Noc2](https://github.com/Noc2)
 
