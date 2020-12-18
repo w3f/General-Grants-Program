@@ -232,3 +232,4 @@ This page gives an overview of accepted grants and a link to their GitHubs. Keep
 - FOS Foundation LTD - Pacific store: OpenSea.js on polkadot ([GitHub](https://github.com/vlbos))
 - [Polkadot Technology Alliance](https://polkachina.org) - Shadows Network: synthetic assets ([GitHub](https://github.com/ShadowsNetwork))
 - [BLDG BLOX](https://bldg.app/) - ESG (Environmental, Social, and Corporate Governance) ratings dashboard ([GitHub](https://github.com/BLDG-BLOX/))
+- [DEIPWORLD](https://deip.world/) - IP Management/Governance Module ([GitHub](https://github.com/DEIPworld))
