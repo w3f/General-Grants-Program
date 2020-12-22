@@ -88,7 +88,7 @@ If you are considering applying for a grant, please follow the process below.
    
 1. **Follow up**
    * Once progress has started, the W3F will want to have follow up conversations to see how the project is progressing.
-   * To help to speed up the milestone evaluation process, take a look at the [Milestone Deliverables Guidelines](./grants/milestone-deliverables-guidelines.md)
+   * To help to speed up the milestone evaluation process, take a look at the [Milestone Deliverables Guidelines](./milestone-deliverables-guidelines.md)
 
 ### Who we are interested in funding
 
