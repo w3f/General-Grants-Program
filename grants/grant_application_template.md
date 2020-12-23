@@ -11,18 +11,10 @@ Our team consists of Hedera developers that see Substrate as the best fit for pr
 
 We see this project as valuable to both the Hedera and Polkadot ecosystems as it combines the best of both platforms into an open-source solution that makes permissioned blockchain networks more resilient. Our research will also help pave the way for greater interoperability between Polkadot, Hedera and other DAG-based networks.
 
-
-### Overview
-
-Please provide the following:
-  * A brief description of the project.
-  * An indication of how you will integrate this project into Substrate / Polkadot / Kusama.
-  * An indication of why your team is interested in creating this project.
-
 ### Project Details 
 Our project will integrate a typical permissioned Substrate network running Aura with the Hedera network through HCS. To achieve this, we will build a finality gadget pallet that borrows from GRANDPA but uses HCS for recording proofs of finality on Hedera. We will also build Off-chain workers to facilitate a connection between a Substrate node’s runtime and the Hedera public network. 
 
-####High-level Architecture
+#### High-level Architecture
 
 IMAGE HERE
 
