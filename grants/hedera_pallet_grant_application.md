@@ -16,7 +16,7 @@ Our project will integrate a typical permissioned Substrate network running Aura
 
 #### High-level Architecture
 
-IMAGE HERE
+![Architecture Image](https://github.com/tarski-tech/General-Grants-Program/blob/master/grants/hedera-pallet-architecture.png)
 
 The diagram above shows how the Hedera Finality Pallet will interact with the HCS Offchain Workers. 
 
@@ -37,8 +37,8 @@ Our PoC will provide valuable research around the application of DAG-based conse
 
 Most importantly, we see an integration with Hedera as the first step towards potentially connecting both public networks through a bridge or parachain implementation. Hedera is making strong progress in getting enterprise companies to invest in distributed ledger technology within an ecosystem that they feel comfortable with. We believe there will be immense value in connecting Hedera with Polkadot so that enterprise networks are able to communicate with other blockchains. Our PoC is the first step towards making a connection between Polkadot and Hedera possible. We also believe that our work could be extended to connect to other DAG-based networks. 
 
-IMAGE HERE
-Polkadot-Hedera integration concept, modified from Polkadot slides
+![Relay Chain Image](https://github.com/tarski-tech/General-Grants-Program/blob/master/grants/hedera-relay-chain.png)
+*Polkadot-Hedera integration concept, modified from Polkadot slides*
 
 We must acknowledge one caveat with Hedera in that not all of the network code is open-source. Much of their high-level systems are open-source and even the base code is publicly shared but the Hashgraph protocol implementation itself is a closed license controlled by the Hedera governing Council. Despite this, we feel that the value Hedera provides in greater enterprise traction is worth this trade-off. We also think that other open-source DAG implementations would find value in the work we produce for creating integrations to Polkadot.
 
