@@ -40,7 +40,7 @@ Most importantly, we see an integration with Hedera as the first step towards po
 ![Relay Chain Image](https://github.com/tarski-tech/General-Grants-Program/blob/master/grants/hedera-relay-chain.png)
 *Polkadot-Hedera integration concept, modified from Polkadot slides*
 
-We must acknowledge one caveat with Hedera in that not all of the network code is open-source. Much of their high-level systems are open-source and even the base code is publicly shared but the Hashgraph protocol implementation itself is a closed license controlled by the Hedera governing Council. Despite this, we feel that the value Hedera provides in greater enterprise traction is worth this trade-off. We also think that other open-source DAG implementations would find value in the work we produce for creating integrations to Polkadot.
+We must acknowledge one caveat with Hedera in that not all of the network code is open-source. Much of their high-level systems are [open-source](https://github.com/hashgraph/hedera-services) and even the base code is [publicly shared](https://github.com/hashgraph/swirlds-open-review) but the Hashgraph protocol implementation itself is a closed license controlled by the Hedera governing Council. Despite this, we feel that the value Hedera provides in greater enterprise traction is worth this trade-off. We also think that other open-source DAG implementations would find value in the work we produce for creating integrations to Polkadot.
 
 ## Team :busts_in_silhouette:
 
