@@ -87,7 +87,7 @@ In the below sections you can find a list of different layers of the Polkadot St
 | Smart Contract Security |   
 | Testing | [Halva](https://github.com/orgs/halva-suite), [Redspot](https://github.com/patractlabs/redspot), [MixBytes Tank](https://github.com/mixbytes/tank), [sub-flood](https://github.com/NikVolf/sub-flood)
 | Query Node Framework | [Hydra](https://github.com/Joystream/hydra) |
-| Blockchain Monitoring | [Web3 Guardian](https://github.com/open-web3-stack/guardian) |
+| Blockchain/Event Monitoring | [Web3 Guardian](https://github.com/open-web3-stack/guardian) |
 | Gaming | [Mobile Game Framework for Substrate](https://github.com/creator-rs/creator/) |
 | Other | [open-web3 JS library](https://github.com/open-web3-stack/open-web3.js)
 
