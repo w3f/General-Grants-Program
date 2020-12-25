@@ -234,3 +234,4 @@ This page gives an overview of accepted grants and a link to their GitHubs. Keep
 - [BLDG BLOX](https://bldg.app/) - ESG (Environmental, Social, and Corporate Governance) ratings dashboard ([GitHub](https://github.com/BLDG-BLOX/))
 - [DEIPWORLD](https://deip.world/) - IP Management/Governance Module ([GitHub](https://github.com/DEIPworld))
 - [Deeper.Network](https://deeper.network/) - Micropayments pallet ([GitHub](https://github.com/e2chain-dev/deeper-chain)) 
+- [Evanesco](https://evanesco.org/) - Private network protocol ([GitHub](https://github.com/Evanesco-Labs))
