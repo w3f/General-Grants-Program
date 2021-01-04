@@ -14,6 +14,7 @@ This page gives an overview of accepted grants and a link to their GitHubs. Keep
 - [Wave 6 - Second Quarter 2020](#wave-6)
 - [Wave 7 - Third Quarter 2020](#wave-7)
 - [Wave 8 - Fourth Quarter 2020](#wave-8)
+- [Wave 9 - First Quarter 2021](#wave-9)
 
 ## Wave 1
 -   [ChainSafe](https://chainsafe.io/) - Polkadot Runtime Environment in Go (via an RFP) ([GitHub](https://github.com/ChainSafeSystems/gossamer))
@@ -237,3 +238,6 @@ This page gives an overview of accepted grants and a link to their GitHubs. Keep
 - [Evanesco](https://evanesco.org/) - Private network protocol ([GitHub](https://github.com/Evanesco-Labs))
 - [HugoByte](https://hugobyte.com/) - Project Aurras: Event Manager 
 - [Bounce Protocol](https://bounce.finance/) - Decentralized Auction Protocol ([GitHub](https://github.com/bouncefinance/bounce-network))
+
+## Wave 9
+- [Zenlink](https://zenlink.pro/) - Cross-chain DEX ([GitHub](https://github.com/zenlinkpro/zenlink_dex_module))
