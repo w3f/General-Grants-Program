@@ -241,3 +241,4 @@ This page gives an overview of accepted grants and a link to their GitHubs. Keep
 
 ## Wave 9
 - [Zenlink](https://zenlink.pro/) - Cross-chain DEX ([GitHub](https://github.com/zenlinkpro/zenlink_dex_module))
+- [NFTT Studio](https://github.com/NFTT-studio) - NFT Store Pallet and Front End ([GitHub](https://github.com/NFTT-studio))
