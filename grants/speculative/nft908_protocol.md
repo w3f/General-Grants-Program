@@ -61,11 +61,11 @@ Many of our teammates come from gaming industries  with more than 10 years of ex
 
 ### Overview
 * **Total Estimated Duration:** 6 weeks
-* **Total Costs:** 0.4 BTC
+* **Total Costs:** 10000 DAI
 
 ### Milestone 1: Protocol Design and Implementation
 * **Estimated Duration:** 3 weeks
-* **Costs:** 0.2 BTC
+* **Costs:** 5000 DAI
 
 | Number | Deliverable | Specification |
 | ------------- | ------------- | ------------- |
@@ -77,9 +77,9 @@ Many of our teammates come from gaming industries  with more than 10 years of ex
 | 6. | Authorization/transfer of right-of-use of an asset | Support the authorization, transfer and return of right-of-use |
 
 
-### Milestone 2 Example — Test & Document & Demo
+### Milestone 2: Test & Document & Demo
 * **Estimated Duration:** 3 weeks
-* **Costs:** 0.2 BTC
+* **Costs:** 5000 DAI
 
 | Number | Deliverable | Specification |
 | ------------- | ------------- | ------------- |
