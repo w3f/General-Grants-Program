@@ -50,31 +50,104 @@ Many of our teammates come from gaming industries  with more than 10 years of ex
 * **Estimated Duration:** 3 weeks
 * **Costs:** 0.2 BTC
 
-| Number|Deliverable|Specification|
-|:----|:----|:----|:----|:----|
-|1.|Asset Establishment/Destruction| Realize the mint and burn of NFT|
-|2.|Asset ownership   authorizing/transfer/batch transfer|支持所有权授权和转移<br>Support ownership authorization and   transfer|
-|3.|Asset data query| Support asset data query|
-|4.|Asset unit data module|Allow external customized data connection   to meet the need of reusing under different scenario.|
-|5.|Asset compound/decompose|Allow merging multiple assets into one,   and the reverse is also allowed|
-|6.|Authorization/transfer of right-of-use of   an asset|Support the authorization, transfer and return of   right-of-use.|
+| Number | Deliverable | Specification |
+| ------------- | ------------- | ------------- |
+| 1. | Asset Establishment/Destruction | Realize the mint and burn of NFT |  
+| 2. | Asset ownership authorizing/transfer/batch transfer | Support ownership authorization and transfer |  
+| 3. | Asset data query | Support asset data query |  
+| 4. | Asset unit data module | Allow external customized data connection to meet the need of reusing under different scenario. |  
+| 5. | Asset compound/decompose | Allow merging multiple assets into one and the reverse is also allowed |
+| 6. | Authorization/transfer of right-of-use of an asset | Support the authorization, transfer and return of right-of-use |
 
 
 ### Milestone 2 Example — Test & Document & Demo
 * **Estimated Duration:** 3 weeks
 * **Costs:** 0.2 BTC
 
-|Number|Deliverable|Specification|
-|:----|:----|:----|:----|:----|
-|1.|Unit Test|Test examples and unit test|
-|2.|App Demo|A simple web showcasing the major traits   of NFT908 Protocol|
-|3.|Documentation|Write Document|
+| Number | Deliverable | Specification |
+| ------------- | ------------- | ------------- |
+| 1. | Unit Test | Test examples and unit test |  
+| 2. | App Demo | A simple web showcasing the major traits of NFT908 Protocol |  
+| 3. | Documentation | The detail of protocol |  
 
 
 ## Additional Information :heavy_plus_sign: 
-Any additional information that you think is relevant to this application that hasn't already been included.
 
-Possible additional information to include:
-* What work has been done so far?
-* Are there are any teams who have already contributed (financially) to the project?
-* Have you applied for other grants so far?
+Until today, the demand analysis and interface design have been finished. We have referred to the ERC721 protocol and ERC155 protocol of Ethereum. The project is: [ERC908](https://github.com/dego-labs/erc908). The interface coding in the Solidity version is as follows:
+
+### IERC908
+Basic contract, on top of ERC721, providing batch transfer interface
+
+```
+contract IERC908 is  IERC721 {
+    function safeBatchTransferFrom(address from, address to, uint256[] memory ids , bytes memory data) public;
+}
+```
+### IERC908Combinable
+Asset compounding and decomposing contract, providing the query interface for the compounded or decomposed assets and parrent asset
+
+```
+contract IERC908Combinable is IERC165 {
+    function getChildren(uint256 tokenId) public view returns (uint256[] memory) ;
+    function getParrent(uint256 tokenId) public view returns (uint256) ;
+    function compound(uint256 tokenId, uint256[] memory ids) public;
+    function decompose(uint256 tokenId) public;
+}
+```
+
+### IERC908Usership
+Usership contract, providing the authorization, transfer and inquiry interface of usership
+
+```
+contract IERC908Usership is IERC165 {
+    function balanceOfUsership(address user) public view returns (uint256 balance);
+    function getUsershipInfo(uint256 tokenId) public view returns (UsershipInfo memory) ;
+    function usershipOf(uint256 tokenId) public view returns (address) ;
+    function usershipApprove(address to, uint256 tokenId) public ;
+    function getUsershipApproved(uint256 tokenId) public view returns (address) ;
+    function setUsershipApprovalForAll(address to, bool approved) public ;
+    function isUsershipApprovedForAll(address user, address operator) public view returns (bool) ;
+    function usershipTransfer(address from, address to, uint256 tokenId) public ;
+    function usershipSafeTransfer(address from, address to, uint256 tokenId) public ;
+    function usershipSafeTransfer(address from, address to, uint256 tokenId, bytes memory data) public ;
+}
+```
+
+### IERC908Enumerable
+Asset usership inquiry, providing usership data inquiry
+
+```
+contract IERC908Enumerable is IERC908Usership  {
+    function tokenOfUsershipByIndex(address user, uint256 index) public view returns (uint256 tokenId);
+    function tokenOfUsership(address user) public view returns (uint256[] memory);
+}
+```
+
+### IERC908Receiver
+Receiver contract, providing return interface for the safety transfer of usership.
+
+```
+contract IERC908Receiver {
+    function onERC908Received(address operator, address from, uint256 tokenId, bytes memory data) public returns (bytes4);
+    function onERC908UsershipReclaim(address operator, address from, uint256 tokenId, bytes memory data) public returns (bytes4);
+}
+```
+
+### IERC908Full
+Full IERC908 protocol interface, providing the interface up to the 908 standard for the mint, burn, authorization and return including reclaim of usership.
+
+```
+Contract IERC908Full is IERC908Combinable,IERC908Enumerable,IERC908 {
+    function mint(address to, uint256 tokenId) public returns (bool) ;
+    function burn(uint256 tokenId) public ;
+    function compoundMint(address to, uint256 tokenId, uint256[] memory ids) public;
+    function decomposeBurn(uint256 tokenId) public;
+    function usershipIssue(uint256 tokenId, address to, uint256 period) public ;
+    function usershipReturn(uint256 tokenId) public;
+    function usershipReclaim(uint256 tokenId, bytes memory data) public;
+}
+```
+
+
+
+
