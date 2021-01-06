@@ -49,7 +49,7 @@ Many of our teammates come from gaming industries  with more than 10 years of ex
 * **Total Estimated Duration:** 6 weeks
 * **Total Costs:** 0.4 BTC
 
-### Milestone 1: Protocol Design and implementation
+### Milestone 1: Protocol Design and Implementation
 * **Estimated Duration:** 3 weeks
 * **Costs:** 0.2 BTC
 
