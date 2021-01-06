@@ -1,10 +1,21 @@
 # NFT908 Protocol
 
 - **Project:** NFT908 Protocol on polkadot
-- **Proposer:** dego-labs
+- **Proposer:** [dego-labs](https://github.com/dego-labs)
+- **Payment Address:** x20FE4B1eD95911487499e53355BB8f14a881D735
 
 
-### Project Description :page_facing_up: 
+### Project Overview  :page_facing_up: 
+
+
+### Overview
+Design and implement a new NFT protocol， core features include:
+* separate the ownership from usership
+* compasalbe
+* Parallel uses
+
+
+### Project Details 
 
 At the end of 2017, an application based on ERC721, called CryptoKitties, took place and boosted the development of the NFT market. As the depth and width of NFT have been continuously improved for these few years, the shortcomings of the 721 protocol have also emerged. Although we have some new subsequent protocols such as ERC1155, ERC918 and many other relevant NFT protocols, they are still having major flaws under the following application scenarios:
 
@@ -12,7 +23,7 @@ At the end of 2017, an application based on ERC721, called CryptoKitties, took p
 * The rental scenario of NFT. As compared with FT, where integers are used to describe the capitalization of properties, NFT adopted a structural way to describe many attributes of an asset, in which way the descriptive ability is way better that of an FT. The most important feature of ERC721 NFT assets is the ownership of the assets. But in reality, only a certain period of right-of-use rather than ownership is transferred such as the rental of real estate and car rental scenarios. Therefore, we need to describe the right-of-use of NFT assets and separate the ownership from the right-of-use.
 
 
-* The portfolio of NFT. In RPGs, a full set of legendary gears typically have upper-body armour, lower-body armour, weapons, etc. A fine weapon may be further upgraded by various gems to improve its attack, defence and other relevant attributes. These complex traits of combinations need support from NFT.
+* The compounding of NFT. In RPGs, a full set of legendary gears typically have upper-body armour, lower-body armour, weapons, etc. A fine weapon may be further upgraded by various gems to improve its attack, defence and other relevant attributes. These complex traits of combinations need support from NFT.
 
 
 * Parallel uses of NFT. After CryptoKitties has first been introduced, some Dapps use the NFT property of CryptoKitties to form up services where CryptoKitties can fight each other, or kitties are given new and different attributes. But these new characteristics have deviated from the original NFT protocol of CryptoKitties and the new traits are separated. We need the NFT to be given different traits in different Dapps, and these traits should be able to practice sharing with ease.
@@ -31,6 +42,9 @@ We would like to make NFT908 Protocol the standard NFT protocol for the Polkadot
 ### Team Website	
 * https://dego.finance/
 * https://www.treasureland.market/
+
+### Contact
+contact@dego.finance
 
 
 ### Team's experience
