@@ -87,7 +87,7 @@ In the below sections you can find a list of different layers of the Polkadot St
 | Smart Contract Security |   
 | Testing | [Halva](https://github.com/orgs/halva-suite), [Redspot](https://github.com/patractlabs/redspot), [MixBytes Tank](https://github.com/mixbytes/tank), [sub-flood](https://github.com/NikVolf/sub-flood), [Substrate debug-kit](https://github.com/paritytech/substrate-debug-kit)
 | Query Node Framework | [Hydra](https://github.com/Joystream/hydra) |
-| Blockchain Indexing Engine | [Substrate Archive](https://github.com/paritytech/substrate-archive), [PSQL Indexer](https://github.com/usetech-llc/polkadot_psql_indexer), [Polkadothub Indexer](https://github.com/figment-networks/polkadothub-indexer) |
+| Blockchain Indexing Engine | [Substrate Archive](https://github.com/paritytech/substrate-archive), [PSQL Indexer](https://github.com/usetech-llc/polkadot_psql_indexer), [Polkadothub Indexer](https://github.com/figment-networks/polkadothub-indexer), [Substrate Graph](https://github.com/playzero/substrate-graph) |
 | Blockchain/Event Monitoring | [Web3 Guardian](https://github.com/open-web3-stack/guardian) |
 | Gaming | [Mobile Game Framework for Substrate](https://github.com/creator-rs/creator/) |
 | Other | [open-web3 JS library](https://github.com/open-web3-stack/open-web3.js)
