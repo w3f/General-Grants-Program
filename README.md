@@ -17,6 +17,7 @@ As part of our commitment to promoting the Web3 ecosystem, we offer a comprehens
 - [:rocket: Alternative Funding Sources](#rocket-alternative-funding-sources)
   - [Treasury](#treasury)
   - [Open Grants Program](#open-grants-program)
+  - [Other Grant Programs](#other-grant-programs)
 - [:bulb: Help](#bulb-help)
   - [Additional information](#additional-information)
   - [Real-time conversation](#real-time-conversation)
@@ -123,6 +124,13 @@ The treasury is a pot of on-chain funds collected through transaction fees, slas
 ### Open Grants Program
 
 For smaller technology grants up to **$30k**, which are tracked **transparently** on GitHub and disbursed in **bitcoin**, see our [Open Grants Program](https://github.com/w3f/Open-Grants-Program). 
+
+### Other Grant Programs 
+
+Below is list of other grant programs in the polkadot/substrate ecosystem: 
+
+- [Darwinia Grants Program](https://docs.darwinia.network/docs/en/dev-bounty#grant-program) 
+- [Moonbeam Grants Program](https://moonbeam.network/community/grants/)
 
 ## :bulb: Help
 
