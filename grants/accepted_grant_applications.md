@@ -102,10 +102,10 @@ This page gives an overview of accepted grants and a link to their GitHubs. Keep
 ## Wave 5 - First Quarter 2020
 
 | Team | Project | Link |
-| --- | --- | --- | --- |
+| --- | --- | --- |
 | [Bifrost](https://bifrost.finance/) | EOS interoperable bridge | [GitHub](https://github.com/bifrost-finance) |
 | [Entropy Labs](https://entropylabs.hk) | A toolkit for building and deploying applications with substrate |
-| [Papers GmbH](https://airgap.it) | AirGap | Desktop (+mobile) wallet for Polkadot | [GitHub](https://github.com/airgap-it) |
+| [Papers GmbH](https://airgap.it) | AirGap - Desktop (+mobile) wallet for Polkadot | [GitHub](https://github.com/airgap-it) |
 | [Stake Technologies](https://stake.co.jp/) | Plasm Chain + OVM Implementation | [GitHub](https://github.com/staketechnologies/) |
 | [Usetech](http://usetech.com/blockchain.html) | PostgreSQL Indexer and Consensus Insurer | [GitHub](https://github.com/usetech-llc/) |
 | [ACALA PTE. LTD.](https://acala.network/) | A decentralized stablecoin platform |
