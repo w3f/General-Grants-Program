@@ -11,28 +11,26 @@ This platform is a trial to evolve the human resource market. First phase featur
 - Aim to maintain relatively long collaboration between bounty funders and hunters.
 
 ## Team members
-Most of our teams are from [ChainX](https://chainx.org/), while we have rich experience with blockchain development.
 
-* Yongfeng LI(@wliyongfeng), Full stack developer
-* Chengxin JIN(@AtenJin), Block chain developer
-* Liucheng XU(@liuchengxu), Block chain developer
-* Ke LI(@qinghuan-chain), Fronted and smart contract developer
-* Kristen, PR
-* Xuan WU, Community specialist
+* Yongfeng Li(@wliyongfeng), Full stack developer
+* Chaojun Huang(@hyifeng), Full stack developer
+* Wentao Chen(@qiyisi), Full stack developer
+* Alcazar, Designer
+* Yan Xu, Community operation intern
 
 ## Team Website	
-Now you can refer to https://chainx.org for our previous work. And https://www.opensquare.network will be available soon.
+https://www.opensquare.network
 
 ## Legal Structure 
-We will register a legal entity for this project which will be based in Hangzhou, China.
+Hangzhou Lianzheng Technology Co., Ltd
 
 ## Team's experience
 
-- Yongfeng LI has 10+ years software development experience, while focusing on block chain development for recent 4 years.
-- Chengxin JIN has rich development experience for Bitcoin, Ethereum, EOS and Substrate. He is the main developer for ChainX Bitcoin bridge.
-- Liucheng XU participate in several block chain development including Bytom, EOSForce. He is the main developer for ChainX staking. 
-- Ke LI once worked as a full stack engineer in Alibaba Inc. He is experience in smart contract development.
-- Kristen and Xuan WU are active for the ChainX community building.
+- Yongfeng Li has 10+ years software development experience, while focusing on block chain development for recent 4 years.
+- Chaojun Huang is a developer with 10+ years experience on developing complex backend service and rich frontend application. Has rich experience on both enterprise application and internet application.
+- Wentao Chen has about 6 years of full stack development experience, mainly in charge of front development in OpenSquare.
+- Alcazar served several blockchain companies in China with his disign skills for about 4 years.
+- Yan Xu is an undergraduate, now serve OpenSquare as community operation intern.
 
 ## Team Code Repos
 We will contribute our code to [opensquare-network](https://github.com/opensquare-network).
@@ -86,9 +84,9 @@ Several google docs below will be helpful for you to understand our ideas.
 Possible additional information to include:
 * What work has been done so far?  
   1. We have drafted the basic economic model. More details about the model and technical specifications will be done in future work.
-  2. We have enough experience with Substrate for development of [ChainX](https://github.com/chainx-org). 
+  2. Yongfeng has rich experience about substrate related developing, for the contribution to [ChainX](https://github.com/chainx-org).
 * Are there any teams who have already contributed (financially) to the project?  
-No
+ChainX help OpenSquare a lot. We have some community contributors, and please check [here](https://www.opensquare.network/team/) for more details.
 * Have you applied for other grants so far?  
 No
 * Are there any other projects similar to yours? If so, how is your project different?  
