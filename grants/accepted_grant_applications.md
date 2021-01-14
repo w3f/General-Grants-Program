@@ -272,3 +272,4 @@ This page gives an overview of accepted grants and a link to their GitHubs. Keep
 | [SubGame Network](https://github.com/SubGame-Network) | A decentralized game platform | [GitHub](https://github.com/SubGame-Network) |
 | [Parami](https://parami.io) | Blockchain-empowered advertising alliance  | [GitHub](https://github.com/parami-protocol/parami) |
 | [Sunrise Protocol](https://sunriseprotocol.com) | Sunrise DEX  | [GitHub](https://github.com/sunriseprotocol) |
+| [Cobo](https://cobo.com/) | Cobo Vault Phase 2 | [GitHub](https://github.com/CoboVault) |
