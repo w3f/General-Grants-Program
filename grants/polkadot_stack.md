@@ -70,7 +70,7 @@ In the below sections you can find a list of different layers of the Polkadot St
 | Block Explorers | [Polkascan](https://github.com/polkascan), [Polkastats](https://github.com/Colm3na), [Subscan](https://github.com/itering/subscan) | Mempool focused explorer (including parachain transaction)
 | Validator Dashboards | [Polkacube](https://github.com/hashquark-io), [YieldScan](https://github.com/buidl-labs/YieldScan), [Hubble](https://github.com/figment-networks/hubble/tree/master/app/controllers/polkadot)
 | Node Explorers | [Polkadot Node Explorer](https://github.com/protos-research/polkadot-node-explorer)
-| Governance Dashboards | [Polkassembly](https://github.com/premiurly/polkassembly)| UI for the kusama and/or polkadot treasury (see [bounty module](https://github.com/paritytech/substrate/pull/5715)), UI for Parachain Lease Offering (PLO)  |
+| Governance Dashboards | [Polkassembly](https://github.com/premiurly/polkassembly), [dotreasury](https://github.com/opensquare-network/dotreasury) | UI for the kusama and/or polkadot treasury (see [bounty module](https://github.com/paritytech/substrate/pull/5715)), UI for Parachain Lease Offering (PLO)  |
 
 ### :wrench: Tools, APIs and Languages
 
