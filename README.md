@@ -24,11 +24,11 @@ As part of our commitment to promoting the Web3 ecosystem, we offer a comprehens
 - [:information_source: License](#information_source-license)
 
 ## :clipboard: About 
-As part of our commitment to promoting the Web3 ecosystem, we offer a comprehensive grants program focused on funding software development and research efforts related to Polkadot and Substrate.
+As part of our commitment to promoting the Web3 ecosystem, we offer a comprehensive grants program focused on funding software development and research efforts related to Polkadot, Kusama and Substrate.
 For more information about the Web3 Foundation please visit the [About page](https://web3.foundation/about/) of our website. 
 
 ## :bookmark_tabs: Guidelines
-Technical grants are intended to fund **Polkadot** and **Substrate** specific projects in the following areas:
+Technical grants are intended to fund **Polkadot, Kusama** and **Substrate** specific projects in the following areas:
 
 * software development
 * research
