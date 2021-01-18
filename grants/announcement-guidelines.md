@@ -30,7 +30,7 @@ so please keep us updated and send us the link to your published tweets regardin
 2. About your team
   - This is a chance to share more about your project and what it does.
   - You can also highlight additional use cases for this new integration.
-3. How your team is working with Web3 Foundation / Polkadot
+3. Why you chose to build on this tech stack
   - Illustrate the rationale for the relationship - why did you decide to collaborate with Web3 Foundation?
   - Describe the benefits of building on Polkadot, Kusama etc. (shared security, ease of use, ease of deployment, ease of interchain communication, decentralized,
   trusted, etc.) and was it important to have these features for your project.
