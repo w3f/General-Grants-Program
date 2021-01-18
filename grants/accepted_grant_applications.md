@@ -274,3 +274,5 @@ This page gives an overview of accepted grants and a link to their GitHubs. Keep
 | [Sunrise Protocol](https://sunriseprotocol.com) | Sunrise DEX  | [GitHub](https://github.com/sunriseprotocol) |
 | [Cobo](https://cobo.com/) | Cobo Vault Phase 2 | [GitHub](https://github.com/CoboVault) |
 | [OxyDev](https://oxydev.ir) | SubsCrypt: Managing subscriptions  | [GitHub](https://github.com/oxydev) |
+| [DNFT-Team](https://github.com/DNFT-Team) | Data framework between personal data and AI models | [GitHub](https://github.com/DNFT-Team) |
+| [UMC Labs](https://umc.network) | Secured token subscription | [GitHub](https://github.com/umc-network) |
