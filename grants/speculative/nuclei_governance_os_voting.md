@@ -58,7 +58,7 @@ Interesting code:
 * **Total Estimated Duration:** 3 months
 * **Full-time equivalent (FTE):**  1 
 
-### Milestone 1 - Liquid Democracy and Quadratic Voting
+### Milestone 1 - Liquid Democracy, Quadratic Voting and PLCR Scheme
 * **Estimated Duration:** 1 month
 * **FTE:**  1
 
@@ -68,12 +68,15 @@ Interesting code:
 | 0b. | Documentation | We will provide both inline documentation of the code and a basic tutorial that explains how a user can use the pallets through a demonstration runtime / node. |
 | 0c. | Testing Guide | The code will have proper unit-test coverage to ensure functionality and robustness. In the guide we will describe how to run these tests | 
 | 1. | Substrate module: `liquid-voting` | We will create a Substrate module to let the host runtime support the creation of organizations with a liquid democracy scheme, along with an optional mathematical function to configure a quadratic voting style cost computation feature. |  
-| 2. | Substrate chain | A demonstration chain and runtime will be provided for testing and reference purposes. |  
-| 3. | Docker | We will provide a dockerfile to demonstrate the full functionality of our chain |
+| 2. | Substrate module: `plcr-voting` | We will create a Substrate module to let the host runtime support the creation of organizations with a collusion resistant, PLCR voting scheme. |  
+| 3. | Substrate chain | A demonstration chain and runtime will be provided for testing and reference purposes. |  
+| 4. | Docker | We will provide a dockerfile to demonstrate the full functionality of our chain |
 
 ### Milestone 2 - Conviction Voting
 * **Estimated Duration:** 1 month
 * **FTE:**  1
+
+> We are planning to open a voting working group in the PSP repo upon completion of this milestone.
 
 | Number | Deliverable | Specification |
 | ------------- | ------------- | ------------- |
@@ -84,7 +87,7 @@ Interesting code:
 | 2. | Substrate chain | A demonstration chain and runtime will be provided for testing and reference purposes. |  
 | 3. | Docker | We will provide a dockerfile to demonstrate the full functionality of our chain |
 
-### Milestone 3 - PLCR Voting
+### Milestone 3 - Demonstration Web Application and Community Article
 * **Estimated Duration:** 1 month
 * **FTE:**  1
 
@@ -93,12 +96,12 @@ Interesting code:
 | 0a. | License | Apache 2.0 |
 | 0b. | Documentation | We will provide both inline documentation of the code and a basic tutorial that explains how a user can use the pallets through a demonstration runtime / node. |
 | 0c. | Testing Guide | The code will have proper unit-test coverage to ensure functionality and robustness. In the guide we will describe how to run these tests | 
-| 1. | Substrate module: `plcr-voting` | We will create a Substrate module to let the host runtime support the creation of organizations with a collusion resistant, PLCR voting scheme. |  
-| 2. | Substrate chain | A demonstration chain and runtime will be provided for testing and reference purposes. |  
-| 3. | Docker | We will provide a dockerfile to demonstrate the full functionality of our chain |
+| 1. | Demonstration Web Application | We will create a web application that can interact with the pallets from the previous grant and this one to create and list organizations and then interact with them through the creation of proposals. |  
+| 2. | Community Article | An article will be written showcasing the work performed along with screenshots of the demonstration web application. It should explain how people can use the pallets developed through this grant as well as feature the web application as a way to interact with them for less technical readers. |  
+| 3. | Docker | We will provide a dockerfile to demonstrate the full functionality of our chain and web application. |
 
 ### Community engagement
-We'd like to produce instructions on how to use the pallets created through this grant application and eventually create some medium posts to showcase them. We would also publish annoucements about our progress and potentially tweet about as we progress as well.
+We'd like to produce instructions on how to use the pallets created through this grant application and eventually create some medium posts to showcase them. We would also publish annoucements about our progress and potentially tweet about it as we progress as well.
 
 ## Future Plans
 Once this grant is complete we expect to have a solid codebase to support various voting schemes. We would like to start researching Zero Knowledge Voting schemes in the near future.
