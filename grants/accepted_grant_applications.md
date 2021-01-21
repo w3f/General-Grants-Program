@@ -277,3 +277,4 @@ This page gives an overview of accepted grants and a link to their GitHubs. Keep
 | [DNFT-Team](https://github.com/DNFT-Team) | Data framework between personal data and AI models | [GitHub](https://github.com/DNFT-Team) |
 | [UMC Labs](https://umc.network) | Secured token subscription | [GitHub](https://github.com/umc-network) |
 | [Perpetual Altruism Ltd](https://cryptograph.co/) | IP-Rights compliant NFT bridge protocol |  |
+| [Clover](https://clover.finance/) | Easy-to-use blockchain infrastructure | [GitHub](https://github.com/clover-network/) |
