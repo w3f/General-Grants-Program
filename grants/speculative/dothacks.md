@@ -35,9 +35,21 @@ DotHacks addresses these issues in the following ways:
 
 In specific, DotHacks works as follows:
 
+**Fig.1 Bug-bounty program workflow** (from a Whitehat's perspective):
+![](https://github.com/dothacks/dothacks.github.io/raw/main/assets/whitehat.png)
+
+**Fig.2 Bug-bounty program workflow** (from a Vendor's perspective)
+![](https://github.com/dothacks/dothacks.github.io/raw/main/assets/vendor.png)
+
+**Fig.3 Bug-bounty program workflow** (from an Arbitrator's perspective)
+![](https://github.com/dothacks/dothacks.github.io/raw/main/assets/arbitrator.png)
 
 #### Sharded report verification
 To verify a report while mitigating sensitive data leakage, DotHacks shards each report and encrypt them during submission. Common used stage conclusions among shards are extracted, to examine logic consistency and enable cross-shard verification.
+
+![](https://github.com/dothacks/dothacks.github.io/raw/main/assets/sharding.png)
+
+![](https://github.com/dothacks/dothacks.github.io/raw/main/assets/shard2.png)
 
 Arbitration committee are elected by randomness, to ensure fairness. Neither the whitehats nor vendors can predict who are arbitrators and thus cannot bribe them. Arbitrators can neither collude with each other to learn the full report.
 
@@ -57,7 +69,7 @@ We implement a bug bounty platform without considering disputes.
 
 | Deliverable | Specification   |
 | ------------------ | ---------------------------------------------------------------------------------------------------------------------------------------------- |
-| Repository         | A git repository containing source code and a README that describes the work done during this milestone and how to use API to announce a bug bounty programs or participate into one. |
+| Repository         | A git repository containing source code and a README that describes the work done during this milestone and how to use API to announce a bug bounty program or participate into one. |
 | Tests              | The code will have proper unit-test coverage to ensure functionality and robustness. |
 | Docker             | Docker cluster of DotHacks nodes, demonstrating its functionality. |
 | Documentation      | Full documentation for the DotHacks parachain. |
