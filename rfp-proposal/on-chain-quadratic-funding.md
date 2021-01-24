@@ -1,5 +1,6 @@
 # On-chain Quadratic Funding
 
+* **Status:** Open
 * **Proposer:** [Noc2](https://github.com/Noc2)
 
 ## Project Description :page_facing_up: 
