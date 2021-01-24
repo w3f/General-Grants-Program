@@ -1,5 +1,6 @@
 # Title of the RFP Proposal
 
+* **Status:** Open(anyone is allowed to apply)/Closed(invited respondents only)/Implemented(finished)
 * **Proposer:** GitHub username
 * **Your Project(s):** [optional]: Link(s)
 * **Projects you think this work could be useful for** [optional]: Link(s)
