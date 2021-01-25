@@ -150,7 +150,7 @@ EUCRYPT GLOBAL PTE. LTD, 3 FRASER STREET, #05-25, DUO TOWER, SINGAPORE 189352
     * Cost includes $3,000 infrastructure cost
 
 
-### Milestone 2 Defi protocol positions
+### Milestone 3 Defi protocol positions
 * **Estimated Duration:** 4 weeks
 * **FTE:**  3
 * **Costs:** $18,000
@@ -160,7 +160,7 @@ EUCRYPT GLOBAL PTE. LTD, 3 FRASER STREET, #05-25, DUO TOWER, SINGAPORE 189352
     * Framework for automated Defi protocol Indexing
     * Cost includes $3,000 infrastructure cost
 
-### Milestone 2 Indexing
+### Milestone 4 P&L, Tax, Analytics
 * **Estimated Duration:** 4 weeks
 * **FTE:**  3
 * **Costs:** $18,000
