@@ -5,7 +5,7 @@
 Web3 Foundation (W3F) collaborates with many teams and organizations throughout the ecosystem. We often receive requests to participate in project announcements.
 Unfortunately, due to the high volume of requests, we rarely do joint announcements and do not provide a quote.
 
-We can, however, collaborate by reviewing and proofreading your blogpost. When you have completed your milestone and drafted your announcement, 
+We can, however, collaborate by reviewing and proofreading your blogpost. When you have **completed your milestone** and drafted your announcement, 
 send it to your contact at W3F Grants/Collaborations and add grantspr@web3.foundation in cc. Please allow 1-3 working days where possible for proofreading articles. 
 
 We will also cross-promote the most recent projects and their milestones on the second Monday of every month, 
