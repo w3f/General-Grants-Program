@@ -1,6 +1,7 @@
 # PHP Substrate API
 
 * **Proposer:** [swader](https://github.com/api)
+* **Status:** Open
 
 ## Project Description :page_facing_up: 
 
@@ -35,4 +36,3 @@ $api->setSigner($signer);
 $tx = $api->tx->balances->transfer("recipient_address", 10000);
 $tx->signAndSend();
 ```
-
