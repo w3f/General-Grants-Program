@@ -36,3 +36,7 @@ $api->setSigner($signer);
 $tx = $api->tx->balances->transfer("recipient_address", 10000);
 $tx->signAndSend();
 ```
+
+## Notes
+
+- look into https://github.com/paritytech/scale-info
