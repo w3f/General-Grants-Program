@@ -8,7 +8,7 @@ However, currently users can participate in the parachain slot auction through B
 
 The trade module has been developed in advance, and vsDOT/vsKSM will be the second type of collateral assets' derivative supported by Bifrost Finance.
 
-![structure](https://cdn.liebi.com/images/bifrost-ipo-liquidity/1.jpg)
+![131611297852_ pic_hd](https://user-images.githubusercontent.com/72777624/105987528-5b3fa700-60d9-11eb-99b0-e46406414389.jpg)
 
 ## Team members
 ### Core Team
@@ -70,13 +70,13 @@ It contains the following features:
 
 ### Workflow
 - Investors participate in the parachain slot auction process
-![workflow-parachain-slot-auction](https://cdn.liebi.com/images/bifrost-ipo-liquidity/flow_1.jpg)
+![171611737050_ pic](https://user-images.githubusercontent.com/72777624/105987911-e5880b00-60d9-11eb-8557-0f46c8c7f121.jpg)
 
 - Investors use Bifrost to participate in the parachain card slot auction process with liquidity
-![workflow-parachain-slot-auction-with-bifrost](https://cdn.liebi.com/images/bifrost-ipo-liquidity/flow_2.jpg)
+![181611737079_ pic_hd](https://user-images.githubusercontent.com/72777624/105987978-ff295280-60d9-11eb-8adc-23058f51b605.jpg)
 
 ### Security
-Investors use XCMP to transfer DOTs to the Bifrost platform, so the security of user funds is guaranteed by XCMP. Parachain projects that require PLO also use XCMP to deposit rewards asset on the Bifrost platform. These rewards will be released linearly in time. The unreleased part is always locked and no one can embezzle it. It is as safe as being locked in the parachain itself. Parachain projects can also choose to deposit rewards gradually on the Bifrost platform in multi-batches.
+Investors use XCMP to transfer DOTs to the Bifrost platform, so the security of user funds is guaranteed by XCMP. Parachain projects that require PLO also use XCMP to deposit rewards asset on the Bifrost platform. For example: Alice transfer her DOT in relay chain to the Bifrost parachain through the XCMP cross-chain function, and then ALice can call the function provided by the Bifrost platform to bind ParachainA. Her rewards will be released linearly in time. The unreleased part is always locked and no one can embezzle it. It is as safe as being locked in the parachain itself. Parachain projects can also choose to deposit rewards gradually on the Bifrost platform in multi-batches.
 
 ## Development Roadmap
 ##### Milestone 1 - Prepare PLO Development - 1 month
