@@ -1,5 +1,6 @@
 # SCALE Codec Comparator
 
+* **Status:** Open
 * **Proposer:** [Marcin Górny](https://github.com/mmagician/)
 
 ## Project Description :page_facing_up:
