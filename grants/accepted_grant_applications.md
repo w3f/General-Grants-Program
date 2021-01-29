@@ -278,3 +278,5 @@ This page gives an overview of accepted grants and a link to their GitHubs. Keep
 | [UMC Labs](https://umc.network) | Secured token subscription | [GitHub](https://github.com/umc-network) |
 | [Perpetual Altruism Ltd](https://cryptograph.co/) | IP-Rights compliant NFT bridge protocol |  |
 | [Clover](https://clover.finance/) | Easy-to-use blockchain infrastructure | [GitHub](https://github.com/clover-network/) |
+| [DoraHacks](https://dorahacks.com/) | Quadratic Funding Pallet | [GitHub](https://github.com/dorahacksglobal) |
+| [SEOR](https://www.seor.io) |  Multi-chain smart contract development platform | [GitHub](https://github.com/SealSC) |
