@@ -70,8 +70,7 @@ This page gives an overview of accepted grants and a link to their GitHubs. Keep
 | [Litentry](https://www.litentry.com/) | Identity modules and corresponding UIs | [GitHub](https://github.com/litentry/litentry-runtime) |
 | [DappForce](http://dappforce.io) | SubSocial - Substrate module and web UI for decentralized communities | [GitHub](https://github.com/dappforce/dappforce-subsocial) |
 | [Phala.Network](https://phala.network/) | pLibra, Privacy Bridge between Polkadot and Libra chain | [GitHub](https://github.com/Phala-Network/) |
-
-| [Wiv](http://wiv.io/)- Supply chain modules and front-end UI | [GitHub](https://github.com/wivtech)
+| [Wiv](http://wiv.io/) | Supply chain modules and front-end UI | [GitHub](https://github.com/wivtech) |
 
 ## :surfing_woman: Wave 4 - Fourth Quarter 2019
 
