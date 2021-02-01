@@ -6,17 +6,22 @@ This page gives an overview of accepted grants and a link to their GitHubs. Keep
 
 ## Table of Contents <!-- omit in toc -->
 
-- [Wave 1 - First Quarter 2019](#wave-1---first-quarter-2019)
-- [Wave 2 - Second Quarter 2019](#wave-2---second-quarter-2019)
-- [Wave 3 - Third Quarter 2019](#wave-3---third-quarter-2019)
-- [Wave 4 - Fourth Quarter 2019](#wave-4---fourth-quarter-2019)
-- [Wave 5 - First Quarter 2020](#wave-5---first-quarter-2020)
-- [Wave 6 - Second Quarter 2020](#wave-6---second-quarter-2020)
-- [Wave 7 - Third Quarter 2020](#wave-7---third-quarter-2020)
-- [Wave 8 - Fourth Quarter 2020](#wave-8---fourth-quarter-2020)
-- [Wave 9 - First Quarter 2021](#wave-9---first-quarter-2021)
+- [2019](#2019)
+  - [:surfing_woman: Wave 1 - First Quarter 2019](#surfing_woman-wave-1---first-quarter-2019)
+  - [:surfing_woman: Wave 2 - Second Quarter 2019](#surfing_woman-wave-2---second-quarter-2019)
+  - [:surfing_woman: Wave 3 - Third Quarter 2019](#surfing_woman-wave-3---third-quarter-2019)
+  - [:surfing_woman: Wave 4 - Fourth Quarter 2019](#surfing_woman-wave-4---fourth-quarter-2019)
+- [2020](#2020)
+  - [:surfing_woman: Wave 5 - First Quarter 2020](#surfing_woman-wave-5---first-quarter-2020)
+  - [:surfing_woman: Wave 6 - Second Quarter 2020](#surfing_woman-wave-6---second-quarter-2020)
+  - [:surfing_woman: Wave 7 - Third Quarter 2020](#surfing_woman-wave-7---third-quarter-2020)
+  - [:surfing_woman: Wave 8 - Fourth Quarter 2020](#surfing_woman-wave-8---fourth-quarter-2020)
+- [2021](#2021)
+  - [:surfing_woman: Wave 9 - First Quarter 2021](#surfing_woman-wave-9---first-quarter-2021)
 
-## Wave 1 - First Quarter 2019
+# 2019
+
+## :surfing_woman: Wave 1 - First Quarter 2019
 
 | Team | Project | Link |
 | --- | --- | --- |
@@ -31,7 +36,7 @@ This page gives an overview of accepted grants and a link to their GitHubs. Keep
 | [Protos](http://protosmanagement.com/) | Open Source Node Explorer |
 | [Supercomputing Systems](https://www.scs.ch/) | Substrate Transaction Privacy using Intel SGX | [GitHub](https://github.com/scs/substraTEE) |
 
-## Wave 2 - Second Quarter 2019
+## :surfing_woman: Wave 2 - Second Quarter 2019
 
 | Team | Project | Link |
 | --- | --- | --- |
@@ -48,7 +53,7 @@ This page gives an overview of accepted grants and a link to their GitHubs. Keep
 | [Mailchain](https://mailchain.xyz/) | a Multi-Blockchain Messaging Application | [GitHub](https://github.com/mailchain) |
 | [Usetech](http://usetech.com/blockchain.html) | Polkadot C++ API | [GitHub](https://github.com/usetech-llc/polkadot_api_cpp) |
 
-## Wave 3 - Third Quarter 2019
+## :surfing_woman: Wave 3 - Third Quarter 2019
 
 | Team | Project | Link |
 | --- | --- | --- |
@@ -68,7 +73,7 @@ This page gives an overview of accepted grants and a link to their GitHubs. Keep
 
 | [Wiv](http://wiv.io/)- Supply chain modules and front-end UI | [GitHub](https://github.com/wivtech)
 
-## Wave 4 - Fourth Quarter 2019
+## :surfing_woman: Wave 4 - Fourth Quarter 2019
 
 | Team | Project | Link |
 | --- | --- | --- |
@@ -99,7 +104,9 @@ This page gives an overview of accepted grants and a link to their GitHubs. Keep
 | [Sean Young](https://www.mess.org/) | Solidity to WASM compiler | [GitHub](https://github.com/hyperledger-labs/solang) |
 | [Chain Security](https://chainsecurity.com/) | Tool for validating correctness of Polkadot runtimes | [GitHub](https://github.com/ChainSecurity) |
 
-## Wave 5 - First Quarter 2020
+# 2020
+
+## :surfing_woman: Wave 5 - First Quarter 2020
 
 | Team | Project | Link |
 | --- | --- | --- |
@@ -141,7 +148,7 @@ This page gives an overview of accepted grants and a link to their GitHubs. Keep
 | [Lyken](https://lyken.rs/) | Rust trait system revamp | [GitHub](https://github.com/LykenSol) |
 | [Chorus One](https://chorus.one/) | Grandpa light client in Tendermint | [GitHub](https://github.com/ChorusOne) |
 
-## Wave 6 - Second Quarter 2020
+## :surfing_woman: Wave 6 - Second Quarter 2020
 
 | Team | Project | Link |
 | --- | --- | --- |
@@ -179,7 +186,7 @@ This page gives an overview of accepted grants and a link to their GitHubs. Keep
 | [Zondax](http://zondax.ch/) | Ledgeracio: A command-line tool and Ledger app designed for staking operations | [GitHub](https://github.com/paritytech/ledgeracio) |
 | [Dipole Tech](https://www.dipole.tech) | Dipole Oracle: Distributed energy resource management | [GitHub](https://github.com/DipoleTech/dipole-oracle) |
 
-## Wave 7 - Third Quarter 2020
+## :surfing_woman: Wave 7 - Third Quarter 2020
 
 | Team | Project | Link |
 | --- | --- | --- |
@@ -215,7 +222,7 @@ This page gives an overview of accepted grants and a link to their GitHubs. Keep
 | [sup](https://github.com/clearloop/sup) | Command line tool for generating or upgrading a Substrate node | [GitHub](https://github.com/clearloop/sup) |
 | [Shard Labs](https://shardlabs.io) | Tip or Donate KSM Embeddable Button | [GitHub](https://github.com/Shard-Labs) |
 
-## Wave 8 - Fourth Quarter 2020
+## :surfing_woman: Wave 8 - Fourth Quarter 2020
 
 | Team | Project | Link |
 | --- | --- | --- |
@@ -263,22 +270,24 @@ This page gives an overview of accepted grants and a link to their GitHubs. Keep
 | [HugoByte](https://hugobyte.com/) | Project Aurras: Event Manager |
 | [Bounce Protocol](https://bounce.finance/) | Decentralized Auction Protocol | [GitHub](https://github.com/bouncefinance/bounce-network) |
 
-## Wave 9 - First Quarter 2021
+# 2021
+
+## :surfing_woman: Wave 9 - First Quarter 2021
 
 | Team | Project | Link |
 | --- | --- | --- |
 | [Zenlink](https://zenlink.pro/) | Cross-chain DEX | [GitHub](https://github.com/zenlinkpro/zenlink_dex_module) |
 | [NFTT Studio](https://github.com/NFTT-studio) | NFT Store Pallet and Front End | [GitHub](https://github.com/NFTT-studio) |
 | [SubGame Network](https://github.com/SubGame-Network) | A decentralized game platform | [GitHub](https://github.com/SubGame-Network) |
-| [Parami](https://parami.io) | Blockchain-empowered advertising alliance  | [GitHub](https://github.com/parami-protocol/parami) |
-| [Sunrise Protocol](https://sunriseprotocol.com) | Sunrise DEX  | [GitHub](https://github.com/sunriseprotocol) |
+| [Parami](https://parami.io) | Blockchain-empowered advertising alliance | [GitHub](https://github.com/parami-protocol/parami) |
+| [Sunrise Protocol](https://sunriseprotocol.com) | Sunrise DEX | [GitHub](https://github.com/sunriseprotocol) |
 | [Cobo](https://cobo.com/) | Cobo Vault Phase 2 | [GitHub](https://github.com/CoboVault) |
-| [OxyDev](https://oxydev.ir) | SubsCrypt: Managing subscriptions  | [GitHub](https://github.com/oxydev) |
+| [OxyDev](https://oxydev.ir) | SubsCrypt: Managing subscriptions | [GitHub](https://github.com/oxydev) |
 | [DNFT-Team](https://github.com/DNFT-Team) | Data framework between personal data and AI models | [GitHub](https://github.com/DNFT-Team) |
 | [UMC Labs](https://umc.network) | Secured token subscription | [GitHub](https://github.com/umc-network) |
 | [Perpetual Altruism Ltd](https://cryptograph.co/) | IP-Rights compliant NFT bridge protocol |  |
 | [Clover](https://clover.finance/) | Easy-to-use blockchain infrastructure | [GitHub](https://github.com/clover-network/) |
 | [DoraHacks](https://dorahacks.com/) | Quadratic Funding Pallet | [GitHub](https://github.com/dorahacksglobal) |
-| [SEOR](https://www.seor.io) |  Multi-chain smart contract development platform | [GitHub](https://github.com/SealSC) |
+| [SEOR](https://www.seor.io) | Multi-chain smart contract development platform | [GitHub](https://github.com/SealSC) |
 | [Polkastarter](https://polkastarter.com/) | Crowdloan UI | [GitHub](https://github.com/polkastarter) |
 | [Equilibrium.io](https://equilibrium.io/en) | Curve AMM Pallet | [GitHub](https://github.com/equilibrium-eosdt) |
