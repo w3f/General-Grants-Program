@@ -6,18 +6,32 @@ BrightTreasury - a web app for handling the network treasury module.
 
 ### Overview
 The aim of the BrightTreasury project is to create a standalone web application along with a PWA representation that would allow performing basic actions on the Treasury module of Polkadot and Kusama Substrate networks (with a potential to support any Substrate-based network with Treasury module). It would allow a more intuitive and lightweight flow of submitting proposals as well as an overview of the Treasury related actions. 
-Our focus will be on the regular user’s actions rather than the council perspective for this first release. We want to attract more professionals who could contribute to the community with their ideas and skills but at the same time may not be as fluent in blockchain customs and terminology. 
+
+
+Our focus will be on the regular user’s actions rather than the council perspective for this first release. We want to attract more professionals who could contribute to the community with their ideas and skills but at the same time may not be as fluent in blockchain customs and terminology.
+
+
 Based on the discussions with the Substrate networks’ users and council members as well as analysis of the comments under Polkadot and Kusama proposal submissions, we identified areas that caused most issues in the Treasury funding process from the user’s perspective. The main needs that were brought up were:
 - more intuitive proposal submission flow, with clearer indication of a proposal idea being subject to the community discussion, before submitting to blockchain and committing with bond funds 
 - one place for following the submitted proposals, their status and the results of motions
 - a unified discussion forum to leave comments about submitted proposals as well as their draft versions (ideas)
-- implementation of the new bounties funding mechanism
+- implementation of the new bounties funding mechanism 
+
+
 Following these needs, we propose a solution that will benefit the Substrate chains communities.
 ### Project Details
 The application will have the proposal lifecycle as its main focus - starting from a more approachable proposal definition, clearly stated two phases of the submission (an Idea for preliminary discussion and the formal Proposal after blockchain confirmation) followed by an intuitive overview of the submitted proposals and their state. 
+
+
 Technology stack: NestJS and React 
+
+
 In addition to the currently available functionality within the Treasury module, we plan to introduce supplementary features that can benefit the user experience. 
+
+
 What is more, as we understand that visual aspects are crucial when talking about user experience, we have prepared the clickable designs that illustrate the main flow we wish to implement. Please find it under the following link: https://xd.adobe.com/view/0bb66d6e-5797-40bc-aa29-c6f71131f402-5ee5/ 
+
+
 Features will include:
 <ol>
 <li>Treasury overview</li>
@@ -83,6 +97,8 @@ Features will include:
 
 ### Ecosystem Fit
 Currently, the Treasury module is a part of the general network management tool. We plan to separate it and develop an independent service, with a more streamlined and intuitive flow and presentation. Such a platform would be more approachable for the users from outside of the blockchain community and have a potential for simpler promotion of the Treasury funded actions. 
+
+
 Main distinguishing features:
 - a more intuitive, two-step flow for submitting proposals (Idea -> Proposal)
 - in-app module for more detailed proposal descriptions (like adding milestones) connected with proposal related discussion and - reporting progress on approved proposals
@@ -107,19 +123,33 @@ https://brightinventions.pl/
 
 Bright Inventions is a limited liability company based in Gdansk, Poland. Company was founded in 2012 by Daniel Makurat and Michał Łukasiewicz.
 
+
 Full address details:
 
+
 Bright Inventions Sp. z o. o.
+
 ul. Jana Matejki 12
+
 80-232 Gdańsk, Poland
+
 info@brightinventions.pl
+
 www.brightinventions.pl
+
 Company registration number: 0000687244
+
 VAT EU: PL5842761920
+
 REGON: 367805647 
 
+
 Bright Inventions is a team of 50 full-time onsite developers, project managers & UX/UI designers - experts in mobile and web applications, systems integration, IOT devices and Blockchain platforms. 
+
+
 We believe that building a software product is about people working together in a collective way. By offering complex support – mobile and web development as well as IT consultancy we try to eliminate roadblocks towards engaging clients as partners at every step of the process. 
+
+
 We support startups, digital agencies as well as medium to big businesses. We cooperate with startups, accelerators and incubators. Whatever the client profile is, we always  aim to establish a satisfying partnership for both sides. Since 2012 we have built software for more than 40 businesses worldwide.
 
 ### Team's experience
@@ -151,6 +181,8 @@ The development of the specified features will be broken into 3 milestones, each
 - Estimated Duration: 1 month
 - FTE: 1.1 FTE
 - Costs: 10 450 euro 
+
+
 The main goal of this milestone is to implement the core flow of the app, that is the Proposal lifecycle. As a result the user will be able to create an Idea, add all the necessary details, create Milestones for an Idea, make it public and decide to submit the Idea to the blockchain, turning it into a formal Proposal. The status of the Proposal will be then updated based on the data returning from the API. To perform these actions a user will need to be logged in, however browsing through ideas and proposals will be available to everyone. 
 
 | Number | Deliverable | Specification |
@@ -180,6 +212,8 @@ The main goal of this milestone is to implement the core flow of the app, that i
 - Estimated Duration: 1 month
 - FTE: 0.9 FTE
 - Costs: 8 550 euro 
+
+
 The goal of this milestone is to add more features to the ideas and proposals handling. The ideas as well as proposals will have the discussion functionality added and it will be possible to add them to multiple networks as well, as the representation of multiple blockchain networks feature will also be implemented at this stage. What is more, an overview of the treasury statistics will be presented for each network respectively. 
 
 | Number | Deliverable | Specification |
@@ -197,6 +231,8 @@ The goal of this milestone is to add more features to the ideas and proposals ha
 - Estimated Duration: 1 month
 - FTE: 1 FTE
 - Costs: 9 500 euro 
+
+
 The main goal of this milestone is implementation of the bounties mechanism. Users will be able to add and browse through bounties, votings for their curators and check the current status. The curators will be able to accept (or reject) their nominations and manage the bounty’s status. Additionally, in this milestone we plan to add a basic integration with Polkassembly. It will be possible to see the description of a proposal/bounty published on Polkassembly. We will also include the history feature based on the data from Polkassembly, which would allow users to browse through closed proposals and bounties, in addition to in-app ideas.
 
 | Number | Deliverable | Specification |
@@ -227,4 +263,6 @@ It is our priority to make the BrightTreasury app a living part of the community
 
 ## Future Plans
 In future, we plan to include a Tips mechanism as well, with a similar intuitive approach. 
+
+
 What is more, we would like to further integrate with Polkassembly to allow a two-way communication. We plan to display proposals and bounties created using BirghtTreasury (along with their details and discussions) in Polkassembly as well and update any changes in both services.  
