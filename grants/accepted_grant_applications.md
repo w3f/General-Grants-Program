@@ -291,3 +291,4 @@ This page gives an overview of accepted grants and a link to their GitHubs. Keep
 | [Polkastarter](https://polkastarter.com/) | Crowdloan UI | [GitHub](https://github.com/polkastarter) |
 | [Equilibrium.io](https://equilibrium.io/en) | Curve AMM Pallet | [GitHub](https://github.com/equilibrium-eosdt) |
 | [Zondax](https://zondax.ch/) | Ledger maintenance + recovery extensions + support | [GitHub](https://github.com/Zondax) |
+| [Nuclei Studio](https://nuclei.studio/) | Voting Pallets | [GitHub](https://github.com/NucleiStudio) |
