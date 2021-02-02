@@ -188,8 +188,8 @@ The main goal of this milestone is to implement the core flow of the app, that i
 | Number | Deliverable | Specification |
 | ------------- | ------------- | ------------- |
 | 0a. | License | Apache 2.0 / MIT / Unlicense |
-| 0b. | Documentation | We will provide both inline documentation of the code and a basic tutorial that explains how a user can (for example) spin up one of our Substrate nodes. Once the node is up, it will be possible to send test transactions that will show how the new functionality works. |
-| 0c. | Testing Guide | The code will have proper unit-test coverage (e.g. 90%) to ensure functionality and robustness. In the guide we will describe how to run these tests | 
+| 0b. | Documentation | We will provide inline documentation of the code and a basic tutorial that explains how to set up and run the project. |
+| 0c. | Testing Guide | The code will have proper unit-test coverage to ensure functionality and robustness. In the guide we will describe how to run these tests. | 
 | 1. | User Story 1 | As a user, I can sign up and sign in to the app |  
 | 2. | User Story 2 | As a logged in user, I can create an idea and publish it or save as a draft. |  
 | 3. | User Story 3 | As an idea owner, I can edit my draft idea and publish it to the community for viewing |  
@@ -200,8 +200,7 @@ The main goal of this milestone is to implement the core flow of the app, that i
 |	8.	|	User story 8	|	As an idea owner, I can edit my ideas as long as the proposal is not closed (rejected or submitted).	|
 |	9.	|	User story 9	|	As an unlogged user I can view all ideas.	|
 |	10.	|	User story 10	|	As an unlogged user I can view details of an idea.	|
-|	11.	|	User story 11	|	As an unlogged user I can view the details of proposals and their votings.	|
-|		|		|	(In this milestone, there will be no in-app history of transactions made outside of the app. Once a proposal is rewarded, it’s voting result will not be visible in the app. This will be available in the milestone 3)	|
+|	11.	|	User story 11	|	As an unlogged user I can view the details of proposals and their votings. (In this milestone, there will be no in-app history of transactions made outside of the app. Once a proposal is rewarded, it’s voting result will not be visible in the app. This will be available in the milestone 3)	|
 |	12.	|	User story 12	|	As an unlogged user I can view proposals list 	|
 |	13.	|	User story 13	|	As an unlogged user I can view the details & status of proposals	|
 |	14.	|	Stage environment	|	We will provide an online staging environment with a local Polkadot node to demonstrate the full functionality of our app.	|
@@ -250,8 +249,8 @@ The main goal of this milestone is implementation of the bounties mechanism. Use
 |	11.	|	User story 32	|	As a curator I can create a sub-bounty within a curated bounty.	|
 |	12.	|	User story 33	|	As a curator I can edit the contextual info of a sub-bounty (title, description, people who do the work) and report progress.	|
 |	13.	|	User story 34	|	As a curator of a bounty I can set a curator for a sub-bounty (me or someone else)	|
-|	14.	|	User story 35	|	As a user, I can view the details and voting history of a closed proposal (only for Polkadot and Kusama networks)	|
-|	15	|	User story 36	|	As a user, I can view the details and voting history of a closed bounties and sub-bounties (only for Polkadot and Kusama networks)	|
+|	14.	|	User story 35	|	As a user, I can view the details and voting history of closed proposals (only for Polkadot and Kusama networks)	|
+|	15	|	User story 36	|	As a user, I can view the details and voting history of closed bounties and sub-bounties (only for Polkadot and Kusama networks)	|
 |	16	|	User story 37	|	As a user I can see the proposal’s description published on Polkassembly.	|
 |	17	|	User story 38	|	As a user I can see the bounty’s description published on Polkassembly.	|
 
