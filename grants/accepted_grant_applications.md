@@ -294,3 +294,4 @@ This page gives an overview of accepted grants and a link to their GitHubs. Keep
 | [Nuclei Studio](https://nuclei.studio/) | Voting Pallets | [GitHub](https://github.com/NucleiStudio) |
 | [RAMP DEFI](https://app.rampdefi.com/#/) | Polkakeeper - A Community-Led Value Assurance Protocol | [GitHub](https://github.com/RAMP-DEFI) |
 | [Stone](https://stonedefi.io) | Index project which aims to track the portfolio of multiple digital assets |  |
+| [Reserve Labs](https://github.com/ReserveLabs) | AlgoCash - An algorithmic stablecoin | [GitHub](https://github.com/ReserveLabs/AlgoCash) |
