@@ -90,3 +90,13 @@ Take the previous developments to a state where it's ready to be deployed in pro
 | 1. | Security | Make sure that a firewall and proper networking is in place |
 | 2. | Monitoring | Feed the Raft consensus data into Prometheus and display basic info in Grafana.
 | 3. | Validator setup integration | Integrate the above into one of the validator-setup repositories (e.g. https://github.com/w3f/polkadot-secure-validator)
+
+## Future plans
+
+At some point, BABE will be replaced with Sassafras (see [37](https://github.com/w3f/research-security-issues/issues/37) & [4600](https://github.com/paritytech/substrate/pull/4600)) which is likely going to affect the operation of the Raft consensus and thus should be addressed.
+
+Furthermore, there are plans for developing additional mechanisms for validator slashing protection (see [7398](https://github.com/paritytech/substrate/issues/7398)). In particular: 
+- the leader might need to perform an on-chain key registration upon being appointed.
+- followers never increment counters nor generate new tags (unless being promoted)
+
+This high availability setup, when adapted, should still make conceptual sense, because its main purpose is ensuring redundance and quick replacement of the main node & as such will not interfere with the extended key registration proposed in the mentioned issue.
