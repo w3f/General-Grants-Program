@@ -297,3 +297,4 @@ This page gives an overview of accepted grants and a link to their GitHubs. Keep
 | [Reserve Labs](https://github.com/ReserveLabs) | AlgoCash - An algorithmic stablecoin | [GitHub](https://github.com/ReserveLabs/AlgoCash) |
 | [gmajor](https://github.com/gmajor-encrypt) | PHP Scale Codec | [GitHub](https://github.com/gmajor-encrypt/php-scale-codec) |
 | [Trust Fractal GmbH](https://trustfractal.com/) | ink! Smart Contract Upgradeability | [GitHub](https://github.com/trustfractal/ink-upgrade-template) |
+| [Starry Network](https://github.com/Starry-Network) | Splittable NFTs | [GitHub](https://github.com/Starry-Network) |
