@@ -31,7 +31,7 @@ Since all our validator nodes are trusted and we don't worry about censorship re
 
 ### Milestone 1 - Block production PoC
 
-The main goal of the PoC is to add a switch to the substrate node which allows it to decide whether it's a valid block producer or not. 
+The main goal of the PoC is to add a switch to the substrate node which allows it to decide whether it's a valid block producer or not (i.e. to execute the BABE protocol).
 The concept could be analogous to the [remote signing](https://github.com/paritytech/substrate/pull/7628) feature, in that the node could reach out to an endpoint (local or remote) which tells it whether the node is allowed to author new blocks.
 
 The service should contain only basic logic (e.g. return `true` for node0 and return `false` for node1 & node2).
@@ -90,4 +90,3 @@ Take the previous developments to a state where it's ready to be deployed in pro
 | 1. | Security | Make sure that a firewall and proper networking is in place |
 | 2. | Monitoring | Feed the Raft consensus data into Prometheus and display basic info in Grafana.
 | 3. | Validator setup integration | Integrate the above into one of the validator-setup repositories (e.g. https://github.com/w3f/polkadot-secure-validator)
-
