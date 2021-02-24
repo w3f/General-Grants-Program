@@ -302,3 +302,4 @@ This page gives an overview of accepted grants and a link to their GitHubs. Keep
 | [DOT Mog](https://dotmog.com/) | Substrate based Unity3D Game  | [GitHub](https://github.com/dotmog) |
 | [NewOmega](https://github.com/WiktorStarczewski/newomega.trinity ) | A blockchain game that can not be shut down | [GitHub](https://github.com/WiktorStarczewski/newomega.trinity ) |
 | [Bright Inventions](https://brightinventions.pl/) | Treasury Web application| [GitHub](https://github.com/bright/bright-tresury) |
+| [Standard protocol](https://github.com/digitalnativeinc/standard-substrate) | A collaterized algorithmic stablecoin protocol for synthetic assets | [GitHub](https://github.com/digitalnativeinc/standard-substrate) |
