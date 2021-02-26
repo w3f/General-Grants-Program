@@ -8,8 +8,8 @@
 
 ---
 
-- [Introduction](#introduction)
-  - [:clipboard: About](#clipboard-about)
+- [:wave: Introduction](#introduction)
+  - [About](#clipboard-about)
   - [Licensing](#licensing)
   - [Documentation](#documentation)
 - [:pencil: Process](#pencil-process)
