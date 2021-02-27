@@ -8,8 +8,8 @@
 
 ---
 
-- [:wave: Introduction](#introduction)
-  - [About](#clipboard-about)
+- [:wave: Introduction](#wave-introduction)
+  - [About](#about)
   - [Licensing](#licensing)
   - [Documentation](#documentation)
 - [:pencil: Process](#pencil-process)
@@ -23,11 +23,11 @@
   - [Other Grant Programs](#other-grant-programs)
 - [:information_source: License](#information_source-license)
 
-## Introduction
+## :wave: Introduction
 
 As part of our commitment to promoting the Web3 ecosystem, we offer a comprehensive grants program focused on funding software development and research efforts related to Polkadot, Kusama and Substrate. For more information about the Web3 Foundation please visit the [About page](https://web3.foundation/about/) of our website.
 
-### :clipboard: About
+### About
 
 Technical grants are intended to fund **Polkadot**, **Kusama** and **Substrate** specific **_research_** and **_software development_** projects.
 
