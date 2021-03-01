@@ -304,3 +304,4 @@ This page gives an overview of accepted grants and a link to their GitHubs. Keep
 | [Bright Inventions](https://brightinventions.pl/) | Treasury Web application| [GitHub](https://github.com/bright/bright-tresury) |
 | [Standard protocol](https://github.com/digitalnativeinc/standard-substrate) | A collaterized algorithmic stablecoin protocol for synthetic assets | [GitHub](https://github.com/digitalnativeinc/standard-substrate) |
 | [Skye Kiwi](https://skye.kiwi/) | SkyePass: A decentralized, open source password manager.| [GitHub](https://github.com/skyekiwi) |
+| [RidOne Technologies](https://github.com/RidOne-technologies) | Polkadot UI Web + Angular Identicon | [GitHub](https://github.com/RidOne-technologies) |
