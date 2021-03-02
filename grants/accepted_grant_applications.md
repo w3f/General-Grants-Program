@@ -305,3 +305,4 @@ This page gives an overview of accepted grants and a link to their GitHubs. Keep
 | [Standard protocol](https://github.com/digitalnativeinc/standard-substrate) | A collaterized algorithmic stablecoin protocol for synthetic assets | [GitHub](https://github.com/digitalnativeinc/standard-substrate) |
 | [Skye Kiwi](https://skye.kiwi/) | SkyePass: A decentralized, open source password manager.| [GitHub](https://github.com/skyekiwi) |
 | [RidOne Technologies](https://github.com/RidOne-technologies) | Polkadot UI Web + Angular Identicon | [GitHub](https://github.com/RidOne-technologies) |
+| [Zeropool](https://zeropool.network/) | Private transactions on Polkadot Phase 2 | [GitHub](https://github.com/zeropoolnetwork) |
