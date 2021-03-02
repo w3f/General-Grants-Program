@@ -303,7 +303,8 @@ This page gives an overview of accepted grants and a link to their GitHubs. Keep
 | [NewOmega](https://github.com/WiktorStarczewski/newomega.trinity ) | A blockchain game that can not be shut down | [GitHub](https://github.com/WiktorStarczewski/newomega.trinity ) |
 | [Bright Inventions](https://brightinventions.pl/) | Treasury Web application| [GitHub](https://github.com/bright/bright-tresury) |
 | [Standard protocol](https://github.com/digitalnativeinc/standard-substrate) | A collaterized algorithmic stablecoin protocol for synthetic assets | [GitHub](https://github.com/digitalnativeinc/standard-substrate) |
-| [Skye Kiwi](https://skye.kiwi/) | SkyePass: A decentralized, open source password manager.| [GitHub](https://github.com/skyekiwi) |
+| [Skye Kiwi](https://skye.kiwi/) | SkyePass: A decentralized, open source password manager | [GitHub](https://github.com/skyekiwi) |
 | [RidOne Technologies](https://github.com/RidOne-technologies) | Polkadot UI Web + Angular Identicon | [GitHub](https://github.com/RidOne-technologies) |
 | [Zeropool](https://zeropool.network/) | Private transactions on Polkadot Phase 2 | [GitHub](https://github.com/zeropoolnetwork) |
 | [Forge Labs](https://forgelab.io/) | Quadratic Funding Module and Dapp Application | [GitHub](https://github.com/rsksmart) |
+| [Commonwealth Labs](https://commonwealth.im/) | Webb Mixer| [GitHub](https://github.com/edgeware-builders) |
