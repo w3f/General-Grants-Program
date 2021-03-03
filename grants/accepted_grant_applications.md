@@ -309,3 +309,4 @@ This page gives an overview of accepted grants and a link to their GitHubs. Keep
 | [Forge Labs](https://forgelab.io/) | Quadratic Funding Module and Dapp Application | [GitHub](https://github.com/rsksmart) |
 | [Commonwealth Labs](https://commonwealth.im/) | Webb Mixer| [GitHub](https://github.com/edgeware-builders) |
 | [TEA Project](http://teaproject.org/) | Gluon - Decentralized Hardware Crypto Wallet Services | [GitHub](https://github.com/tearust) |
+| [Cycan Technologies](http://cycan.network/) | Everlasting Cash: A hybrid of a crypto-collateralized and an algorithmic stablecoin | [GitHub](https://github.com/CycanTech) |
