@@ -8,17 +8,18 @@
 
 Rust is a new programming language designed to provide both safety guarantees that are like high-level languages and performance guarantees that are like low-level languages. To achieve this design purpose, Rust leverages static compiler checks to rule out severe memory and thread safety issues at the compilation time. At runtime, Rust behaves like C/C++ and could deliver performance that is as good as C/C++. Due to its safety and performance benefits, Rust has seen increasing adoption in building low-level systems software, such as OSs and browsers. Rust is also used to implement many software systems in the Web3 technology stack (e.g., substrate, polkadot, ink!).
 
-Rust's compiler checks are based on a suite of ownership and lifetime rules. The basic rule allows one value to only have one owner variable, and the value is dropped (freed) when its owner variable ends its lifetime. Rust extends the basic rule to allow ownership to be moved and borrowed, while still guaranteeing all accesses to a value to be within its owner variable's lifetime scope. Besides safety checks, lifetime is also used for automated resource management. For example, there is no explicit Unlock() in Rust. A Lock() function call returns a reference of the protected variable, and when the reference ends its lifetime, Rust automatically releases the acquired lock (by implicitly calling Unlock()). 
+Rust's compiler checks are based on a suite of ownership and lifetime rules. The basic rule allows one value to only have one owner variable, and the value is dropped (freed) when its owner variable ends its lifetime. Rust extends the basic rule to allow ownership to be moved and borrowed, while still guaranteeing all accesses to a value to be within its owner variable's lifetime scope. Besides safety checks, lifetime is also used for automated resource management. For example, there is no explicit Unlock() in Rust. A Lock() function call returns a reference to the protected variable, and when the reference ends its lifetime, Rust automatically releases the acquired lock (by implicitly calling Unlock()). 
 
-Rust's lifetime rules are complex and different from all other existing languages. It is challenging for Rust programmers to infer where a variable's lifetime ends. As a result, it is not uncommon for programmers to incorrectly identify the location where an implicit unlock is called. When a lock is held longer than programmers' expectation, the same lock may be acquired again or a different lock may be acquired before releasing the acquired lock, leading to double lock or lock in conflicting orders. 
+Rust's lifetime rules are complex and different from all other existing languages. It is challenging for Rust programmers to infer where a variable's lifetime ends. As a result, it is not uncommon for programmers to incorrectly identify the location where an implicit unlock is called. When a lock is held longer than programmers' expectation, the same lock may be acquired again or a different lock may be acquired before releasing the acquired lock, leading to a double-lock error or a lock-in-conflicting-orders error. 
 
 In our previous work [1], we conducted an empirical study on real-world Rust concurrency bugs. We inspected GitHub commit logs for five Rust applications and five Rust libraries to collect previously fixed concurrency bugs. In total, we found 37 deadlocks due to the misunderstanding of where the implicit Unlock() is called, including 30 double locks and seven locks acquired in conflicting orders. These deadlocks constitute almost all lock-related concurrency bugs (37/38) in our collection. They are all from popular Rust software systems (e.g., Servo, Parity-Ethereum, TiKV, Redox) and have severely hurt the reliability of those systems before they were fixed. 
 
+
 <ins>A brief description of the project.</ins> 
-We propose to build an IDE tool for visualizing the lifetime scope of a user-selected variable. We believe our tool can help Rust programmers avoid deadlocks at the development stage. After writing a piece of code involving a mutex, a programmer can select the return value of a locking operation or the locking operation itself (when the return is not saved to a variable). Our tool will visualize the lifetime scope of the return value (i.e., the critical section). The programmer can then inspect whether the end of the critical section is expected. In addition, our tool will conduct deadlock detection for the selected critical section and provide detailed debugging information for identified bugs, such as highlighting blocking operations or function calls leading to blocking operations. 
+We propose to build an IDE tool for visualizing the lifetime scope of a user-selected Rust variable. We believe our tool can help Rust programmers avoid deadlocks at the development stage. After writing a piece of code involving a mutex, a programmer can select the return value of a locking operation or the locking operation itself (when the return is not saved to a variable). Our tool will visualize the lifetime scope of the return value (i.e., the critical section). The programmer can then inspect whether the end of the critical section is expected. In addition, our tool will conduct deadlock detection for the selected critical section and provide detailed debugging information for identified bugs, such as highlighting blocking operations or function calls leading to blocking operations. 
 
 <ins>How our tool will be integrated into Substrate/Polkadot?</ins>
-Both Substrate and Polkadot are implemented in Rust. Previously, double locks or locks in conflicting orders were fixed in Substrate [2, 3]. After applying our prototype, we identified four previously unknown double locks in Substrate or the dependent libraries of Substrate/Polkadot. We reported detected bugs. All of them were confirmed and fixed by developers [4, 5, 6]. We believe our tool can effectively prevent Substrate/Polkadot programmers from making similar mistakes and other types of mistakes our tool will reveal.    
+Both Substrate and Polkadot are implemented in Rust. Previously, double locks or locks in conflicting orders were fixed in Substrate [2, 3]. After applying our prototype, we identified four previously unknown double locks in Substrate or the dependent libraries of Substrate/Polkadot. We reported detected bugs. All of them were confirmed and fixed by developers [4, 5, 6]. We believe our tool will effectively prevent Substrate/Polkadot programmers from making similar mistakes and other types of mistakes our tool will reveal. 
 
 <ins>Why are we interested in creating this project?</ins>
 We are interested in building the tool due to three reasons. First, our previous empirical study shows that deadlocks due to the misunderstanding of Rust's lifetime rules are common in Rust programs. Visualizing lifetime can avoid these bugs during the development stage, benefiting the whole Rust community. Second, the misunderstanding of Rust's lifetime rules can also cause memory bugs such as use-after-free and double free. Thus, the proposed tool has the potential to combat memory bugs. Third, the experience of building the proposed tool can inspire similar tools for other programming languages featuring lifetime (e.g., Kotlin). 
@@ -43,7 +44,7 @@ We are interested in building the tool due to three reasons. First, our previous
 ### Project Details 
 
 <ins>What have we already done?</ins>
-We have built a prototype of the proposed tool. Our prototype can visualize a selected variable and conduct double-lock detection. We published a demonstration paper at this year's CCS to describe the prototype. The paper can be found [here](https://songlh.github.io/paper/vr.pdf). We also recorded a video to explain the prototype, and the video can be found [here](https://youtu.be/L5F_XCOrJTQ).
+We have built a prototype of the proposed tool. Our prototype can visualize a selected variable and conduct double-lock detection. We published a demonstration paper at CCS'2020 to describe the prototype. The paper can be found here: https://songlh.github.io/paper/vr.pdf. We also recorded a video to explain the prototype, and the video can be found here: https://youtu.be/L5F_XCOrJTQ.
 
 
 We applied the double-lock detection component to Substrate, Polkadot, and ink!. We found four previously unknown deadlocks. One is in Substrate. The other three are in the dependent libraries of Substrate or Polkadot. We reported all the detected bugs. All of them were fixed by developers based on our reporting. The information of the detected bugs is listed as follows:
@@ -55,13 +56,16 @@ We applied the double-lock detection component to Substrate, Polkadot, and ink!.
 [PR-3] https://github.com/paritytech/parity-common/pull/396
 
 <ins>What are we going to do?</ins>
-We propose to extend the prototype along three directions:
+We propose to extend the prototype along four directions:
 
-First, we will add the bug detection functionality for more deadlock types. Specifically, we will add the detection of locks with conflicting orders and misuse of mutex and non-mutex synchronization primitives (e.g., channel, conditional variable). 
+First, we will integrate our existing implementation of lifetime computation and deadlock detection to Rust language Server (RLS), so that our proposed technique can easily cooperate with different text editors. 
 
-Second, we will identify and visualize more blocking operations that can potentially lead to deadlocks in a selected critical section such as receiving from a channel and waiting on a conditional variable. 
+Second, we will detect more types of deadlock bugs. Specifically, we will add the detection of locks with conflicting orders and misuse of mutex and non-mutex synchronization primitives (e.g., channel, conditional variable). 
 
-Third, we will integrate the above bug detection and visualization functionalities and document our tool. 
+Third, we will identify and visualize more blocking operations that can potentially lead to deadlocks in a selected critical section such as receiving from a channel and waiting on a conditional variable. 
+
+Fourth, we will implement the visualization functionality by parsing the analysis results generated by RLS in a text editor (i.e., VS Code) and document our tool. 
+
 
 
 
@@ -76,8 +80,8 @@ There is no existing project similar to ours.
 * Names of team members: Linhai Song, Yiying Zhang, and Ziyi Zhang
 
 ### Team Website	
-* [Linhai Song’s homepage](https://songlh.github.io/)
-* [Yiying Zhang’s homepage](https://cseweb.ucsd.edu/~yiying/)
+* [Linhai Song's homepage](https://songlh.github.io/)
+* [Yiying Zhang's homepage](https://cseweb.ucsd.edu/~yiying/)
 
 
 ### Legal Structure 
@@ -114,7 +118,7 @@ Team member Yiying Zhang has conducted various systems research with papers publ
 
 ### Overview
 
-We will build the proposed tool as a plugin of [VSCode](https://github.com/microsoft/vscode), which is an open-source IDE project. We will implement the proposed program analysis by analyzing Rust’s MIR. 
+We will integrate the proposed tool into RLS and demonstrate the virtualization functionality in [VSCode](https://github.com/microsoft/vscode), which is an open-source IDE project. We will implement the proposed program analysis by analyzing Rust's MIR. 
 
 We divide the project into three milestones. We aim to finish the whole project in three months and achieve a milestone in each month.  
 
@@ -139,7 +143,23 @@ We divide the project into three milestones. We aim to finish the whole project 
 | 4. | Docker | We will provide a dockerfile to demonstrate the full functionality of this component. |
 
 
-### Milestone 2 — Implement the visualization component  
+### Milestone 2 — Integrate the bug detection functionalities into RLS 
+* **Estimated Duration:** 1 month
+
+
+| Number | Deliverable | Specification |
+| ------------- | ------------- | ------------- |
+| 0a. | License | Apache 2.0 |
+| 0b. | Documentation | We will provide both inline documentation of the code and a basic tutorial that explains how to install and use the changed RLS.  |
+| 0c. | Testing Guide | We will also use the 10 toy programs designed in the last milestone to test whether the bug detection capability is successfully integrated into RLS. | 
+| 1. | Extend Language Server Protocol (LSP) | We will extend LSP to contain the key information related to deadlocks (e.g., the start and the end of a critical section, blocking operations in a critical section).|  
+| 2. | Change RLS to emit MIR  | We will change the build module of RLS to emit MIR for our bug detection functionalities. |  
+| 3. | Conduct bug detection in RLS | We will change the analysis crate of RLS to execute the code for bug detection and change the server module to send the detection results out. |  
+| 4. | Docker | We will provide a dockerfile to demonstrate the full functionality of this component. |
+
+
+### Milestone 3 — Implement the visualization component 
+
 * **Estimated Duration:** 1 month
 
 
@@ -148,25 +168,10 @@ We divide the project into three milestones. We aim to finish the whole project 
 | 0a. | License | Apache 2.0 |
 | 0b. | Documentation | We will provide both inline documentation of the code and a basic tutorial that explains how to install and use the visualization component in VSCode. |
 | 0c. | Testing Guide | We will include unit tests to ensure the functionality and robustness of our code. We will also include 10 toy programs to test whether channel operations are correctly identified, whether channel operations are correctly visualized, whether operations on conditional variables are correctly identified, and whether operations on conditional variables are correctly highlighted. | 
-| 1. | Channel Operation Identification Module | We will identify channel operations or function calls that may lead to channel operations by conducting inter-procedural analysis. |  
-| 2. | Channel Operation Highlighting Module | If a selected variable is the return of a locking operation, besides visualizing the critical section, we will also highlight identified channel operations in the selected critical section. |  
-| 3. | Conditional Variable Operation Identification Module | We will identify operations on a conditional variable or function calls that may lead to operations on a conditional variable by conducting inter-procedural analysis. |  
-| 4. | Conditional Variable Operation Highlighting Module | If a selected variable is the return of a locking operation, besides visualizing the critical section, we will also highlight identified operations on a conditional variable in the selected critical section. |  
-| 5. | Docker | We will provide a dockerfile to demonstrate the full functionality of this component. |
-
-
-### Milestone 3 — Integrate the bug detection component with the visualization component  
-* **Estimated Duration:** 1 month
-
-
-| Number | Deliverable | Specification |
-| ------------- | ------------- | ------------- |
-| 0a. | License | Apache 2.0 |
-| 0b. | Documentation | We will provide both inline documentation of the code and a basic tutorial that explains how to use the tool. |
-| 0c. | Testing Guide | We will include unit tests to ensure the functionality and robustness of our code. We will also include 10 toy programs containing different types of deadlocks to demonstrate the buggy blocking operations are correctly identified and highlighted. | 
-| 1. | Integrating the Visualization Component with the Bug Detection Component | We will integrate the bug detection component with the visualization component. |  
-| 2. | Tutorial Writing | We will write a tutorial and record a video to explain how to use our tool. |   
-| 3. | Docker | We will provide a dockerfile to demonstrate the full functionality of this component.  |
+| 1. | Parse the Extended LSP | We will implement a component to parse the extended LSP and get computed information, such as the scope of a critical section and identified block operations. |  
+| 2. | Highlight Blocking Operations | If a selected variable is the return of a locking operation, besides visualizing the critical section, we will also highlight identified channel operations, conditional variable operations, and locking operations in the selected critical section. |  
+| 3. | Tutorial Writing | We will write a tutorial and record a video to explain how to use our tool. |   
+| 4. | Docker | We will provide a dockerfile to demonstrate the full functionality of this component. |
 
 
 
