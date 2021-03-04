@@ -168,7 +168,7 @@ We divide the project into three milestones. We aim to finish the whole project 
 | 0a. | License | Apache 2.0 |
 | 0b. | Documentation | We will provide both inline documentation of the code and a basic tutorial that explains how to install and use the visualization component in VSCode. |
 | 0c. | Testing Guide | We will include unit tests to ensure the functionality and robustness of our code. We will also include 10 toy programs to test whether channel operations are correctly identified, whether channel operations are correctly visualized, whether operations on conditional variables are correctly identified, and whether operations on conditional variables are correctly highlighted. | 
-| 1. | Parse the Extended LSP | We will implement a component to parse the extended LSP and get computed information, such as the scope of a critical section and identified block operations. |  
+| 1. | Parse the Extended LSP | We will implement a component to parse the extended LSP and get computed information, such as the scope of a critical section and identified blocking operations. |  
 | 2. | Highlight Blocking Operations | If a selected variable is the return of a locking operation, besides visualizing the critical section, we will also highlight identified channel operations, conditional variable operations, and locking operations in the selected critical section. |  
 | 3. | Tutorial Writing | We will write a tutorial and record a video to explain how to use our tool. |   
 | 4. | Docker | We will provide a dockerfile to demonstrate the full functionality of this component. |
