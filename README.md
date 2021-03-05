@@ -11,7 +11,7 @@
 - [:wave: Introduction](#wave-introduction)
   - [Guidelines](#guidelines)
 - [:pencil: Process](#pencil-process)
-- [:mailbox_with_mail: RFP Suggestions](#mailbox_with_mail-rfp-suggestions)
+- [:mailbox_with_mail: Request for Proposal (RFP) Suggestions](#mailbox_with_mail-request-for-proposal-rfp-suggestions)
 - [:bulb: Help](#bulb-help)
   - [Additional information](#additional-information)
   - [Real-time conversation](#real-time-conversation)
