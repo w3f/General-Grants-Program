@@ -57,7 +57,7 @@ Additionally, it must fulfill the following requirements:
 - We do not award grants to teams that have successfully conducted a token sale or otherwise launched their own token unless there is a clear reason for it. If this applies to you, make sure to clearly present your case and explain why you cannot self-fund this project in your application.
 - Lastly, we do not provide funding for gambling-related projects.
 
-[Request For Proposals](./rfp-proposal) (RFPs) represent ideas for projects that we would like to see implemented. You are welcome to submit a proposal for one of them.
+[Request For Proposals](./rfps) (RFPs) represent ideas for projects that we would like to see implemented. You are welcome to submit a proposal for one of them.
 
 A more general list of areas in the Web 3.0 Technology Stack that demand particular development can be found [here](https://github.com/w3f/General-Grants-Program/blob/master/grants/polkadot_stack.md), as well as a list of previously accepted projects [here](https://github.com/w3f/Web3-collaboration/blob/master/grants/accepted_grant_applications.md). Additionally, the builders program [feedback board](https://feedback.parity.io/) may contain some useful ideas for grant projects.
 
