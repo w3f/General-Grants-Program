@@ -54,7 +54,7 @@ Generally, your project will have better chances to get accepted if:
 
 Additionally, it must fulfill the following requirements:
 - All code produced as part of a grant must be **open-sourced**, and it must also not rely on closed-source software for full funcionality. We prefer Apache 2.0 but the GNU GPL v3 license or Unlicense are also acceptable. 
-- We do not award grants to teams that have successfully conducted a token sale for the purpose of the grant itself. 
+- We do not award grants for projects that have been the object of a successful token sale.
 - Lastly, we do not provide funding for gambling-, drug or gun-related projects.
 
 [Request For Proposals](./rfps) (RFPs) represent ideas for projects that we would like to see implemented. You are welcome to submit a proposal for one of them.
