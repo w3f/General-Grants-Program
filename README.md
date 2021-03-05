@@ -4,16 +4,14 @@
   <img src="./src/General_Grants_Program.png" style="width:1300px";>
 </p>
 
-**:loudspeaker: Important:** The Web3 Foundation General Grants Program focuses on technology grants which are meant to remain **private**, **paid out in fiat** or **larger than USD 30,000**. We ask teams to first consider applying via the [**Open Grants Program**](https://github.com/w3f/Open-Grants-Program), which supports grants of up to USD 30,000 and has **faster processing times**. If your project has a scope larger than that, we encourage you to split your work into multiple stages of USD 30,000 or less.
+**:loudspeaker: Important:** The Web3 Foundation _General Grants_ Program focuses on technology grants which teams wish to keep **private**, need to be **paid out in fiat** or are **larger than $30,000**. We ask teams to first consider applying via the [_Open Grants_ Program](https://github.com/w3f/Open-Grants-Program), which supports grants of up to $30,000 and has **faster processing times**. If your project has a scope larger than that, we encourage you to split your work into multiple smaller stages of $30,000 or less.
 
 ---
 
 - [:wave: Introduction](#wave-introduction)
-  - [About](#about)
-  - [Licensing](#licensing)
-  - [Documentation](#documentation)
+  - [Guidelines](#guidelines)
 - [:pencil: Process](#pencil-process)
-- [:mailbox_with_mail: RFP Suggestion](#mailbox_with_mail-rfp-suggestion)
+- [:mailbox_with_mail: RFP Suggestions](#mailbox_with_mail-rfp-suggestions)
 - [:bulb: Help](#bulb-help)
   - [Additional information](#additional-information)
   - [Real-time conversation](#real-time-conversation)
@@ -21,31 +19,29 @@
   - [Treasury](#treasury)
   - [Open Grants Program](#open-grants-program)
   - [Other Grant Programs](#other-grant-programs)
-- [:information_source: License](#information_source-license)
 
 ## :wave: Introduction
 
-As part of our commitment to promoting the Web3 ecosystem, we offer a comprehensive grants program focused on funding software development and research efforts related to **Polkadot, Kusama and Substrate**. For more information about the Web3 Foundation please visit the [About page](https://web3.foundation/about/) of our website.
+As part of our commitment to promoting the Web3 ecosystem, we offer comprehensive grants programs focused on funding software development and research efforts related to **Polkadot, Kusama and Substrate**. For more information about the Web3 Foundation please visit the [About page](https://web3.foundation/about/) of our website.
 
 **Only apply via the General Grants Program if:**
 
-- You seek funding of $30,000+ and your work cannot be split into smaller milestones
-- You want your team/project information to remain private
-- You can only accept fiat payments
+- you seek funding of $30,000+ and your work cannot be split into smaller milestones,
+- you want your team/project information to remain private, or
+- you can only accept fiat payments.
 
 Otherwise, you should apply to the [Open Grants Program](https://github.com/w3f/Open-Grants-Program).
 
-Furthermore, teams shouldn’t seek to cover 100% of their early-stage funding via W3F Grants alone.
+Any project requesting **$30k or less** might receive fast approval. Projects between **$30k and $100k** will likely face longer waiting times.
 
-Any project requesting **$30k or less** might receive fast approval. Projects between **$30k and 100k** will likely face longer wait times.
-
-Teams can apply for grants more than once, but they need to complete the previous project (as described in their application) before receiving additional funds.
+Teams can apply for grants more than once, but they need to complete the previous project (as described in their application) before receiving additional funds. Furthermore, teams shouldn’t seek to cover 100% of their early-stage funding via W3F Grants alone.
 
 ### Guidelines
 
 Anyone is welcome to apply for a grant. Projects funded through our programs are broad in scope, but our focus lies on strong technical projects that add value to the ecosystem.
 
 Generally, your project will have better chances to get accepted if:
+
 - It presents a **well-researched** or tested concept, for which ideally you are able to show some prior work.
 - You can demonstrate that the project will be **maintained** after completion of the grant, be it through an obvious commitment to the technology from your side, additional funding sources or an existing business model.
 - Your team has **proven experience** with the relevant languages and technologies and/or a strong technical background. We ask you to provide the GitHub profiles of all team members as part of your application and will examine these for past activity and code quality. Naturally, you can also link to projects on other platforms.
@@ -53,9 +49,10 @@ Generally, your project will have better chances to get accepted if:
 - You can clearly present how your project stands out among competitors or implements technology that doesn't exist in the ecosystem yet.
 
 Additionally, it must fulfill the following requirements:
-- All code produced as part of a grant must be **open-sourced**, and it must also not rely on closed-source software for full funcionality. We prefer Apache 2.0 but the GNU GPL v3 license or Unlicense are also acceptable. 
-- We do not award grants to teams that have successfully conducted a token sale or otherwise launched their own token unless there is a clear reason for it. If this applies to you, make sure to clearly present your case and explain why you cannot self-fund this project in your application.
-- Lastly, we do not provide funding for gambling-related projects.
+
+- All code produced as part of a grant must be **open-sourced**, and it must also not rely on closed-source software for full funcionality. We prefer Apache 2.0, but GPLv3 or Unlicense are also acceptable.
+- We do not award grants for projects that have been the object of a successful token sale.
+- Lastly, we do not fund projects that actively encourage gambling, illicit trade, money laundering or criminal activities in general.
 
 [Request For Proposals](./rfps) (RFPs) represent ideas for projects that we would like to see implemented. You are welcome to submit a proposal for one of them.
 
@@ -69,7 +66,7 @@ Additionally to the information provided on your application, note that your pro
 
 1. **Application**
 
-     We strongly recommend working off of the [grant application template](./master/grants/grant_application_template.md), which gives an indication of what a good roadmap should look like and outlines the criteria and information we look for in an application. 
+    We strongly recommend working off of the [grant application template](./master/grants/grant_application_template.md), which gives an indication of what a good roadmap should look like and outlines the criteria and information we look for in an application.
 
     1. Fill out the General Grants application form [:arrow_right: here](https://docs.google.com/forms/d/e/1FAIpQLSfMfjiRmDQDRk-4OhNASM6BAKii7rz_B1jWtbCPkUh6N7M2ww/viewform).
 
@@ -80,9 +77,9 @@ Additionally to the information provided on your application, note that your pro
     2. Fully or partially public applications should be completed via a pull request to this repo by following the steps below.
        1. [Fork](https://github.com/w3f/General-Grants-Program/fork) this repository.
        2. In the newly created fork, create a **copy** of the application template ([`grants/grant_application_template.md`](./grants/grant_application_template.md)). If you're using the GitHub web interface, make sure you create a new file and copy the content of the template inside the new file. _Don't change the template file directly!_
-           - In the few cases where the application is a response to a specific RFP (Request For Proposal), the application goes into the [`rfps`](./rfps) folder.
+           - In the few cases where the application is in response to a specific RFP (Request For Proposal), the application goes into the [`previous-rfps`](./grants/previous-rfps/) folder. In this case, you may also remove the RFP from the [`rfps`](./rfps) folder in your pull request.
            - All other applications go into the [`speculative`](./speculative) folder.
-       3. Rename the file after your project (`project_name.md`).
+       3. Label the file as `project_name.md`.
        4. Fill out the template with the details of your project. The more information you provide, the faster the review process will be.
        5. Once you have completed the application, click on "Create new pull request". The pull request should only contain _one new file_ — the markdown file you created from the template.
        6. You will see a template that requests an abstract of the project and the completion of a checklist. Please complete these as appropriate. The **pull request template** can be viewed [here](./.github/PULL_REQUEST_TEMPLATE.md).
@@ -97,18 +94,18 @@ Additionally to the information provided on your application, note that your pro
 
 4. **Follow-up**
    - Once work on the project has started, the Web3 Foundation will want to have follow-up conversations to see how the project is progressing.
-   - To help speed up the milestone evaluation process, take a look at the [Guidelines for Milestone Deliverables](./grants/milestone-deliverables-guidelines.md)
+   - To help speed up the milestone evaluation process, take a look at the [Guidelines for Milestone Deliverables](./grants/milestone-deliverables-guidelines.md).
 
-## :mailbox_with_mail: RFP Suggestion
+## :mailbox_with_mail: RFP Suggestions
 
-If you think that we should support the development of certain tools or projects (related to **Polkadot**, **Kusama** and/or **Substrate**) that aren't in the [Polkadot Stack](./grants/polkadot_stack.md), feel free to submit an RFP suggestion using the process described below. We are particularly interested in supporting projects that could be leveraged by other builders in our ecosystem. We will review your proposal and, if we believe it’s useful, we will create an RFP based on your idea and try to find teams to work on it.
+If you think that we should support the development of certain tools or projects (related to **Polkadot, Kusama or Substrate**) that aren't in the [Polkadot Stack](./grants/polkadot_stack.md), feel free to submit an RFP suggestion using the process described below. We are particularly interested in supporting projects that could be leveraged by other builders in our ecosystem. We will review your proposal and, if we believe it’s useful, we will create an RFP based on your idea and try to find teams to work on it.
 
 **Instructions for submitting an RFP suggestion:**
 
 1. [Fork](https://github.com/w3f/General-Grants-Program/fork) this repository.
-2. In the newly created fork, **create a copy** of the suggestion template ([`rfp-proposal/suggestion-template.md`](./rfp-proposal/suggestion-template.md)).
+2. In the newly created fork, **create a copy** of the suggestion template ([`rfps/suggestion-template.md`](./rfps/suggestion-template.md)).
 3. Rename the file after your idea (`project_name.md`).
-4. Fill out the template with the details of your project idea.
+4. Fill out the template with the project details. The more details, the better.
 5. Once you have completed the application, click on "Create new pull request". The pull request should only contain _one new file_ — the markdown file you created from the template.
 
 ## :bulb: Help
@@ -138,7 +135,7 @@ The treasury is a pot of on-chain funds collected through transaction fees, slas
 
 ### Open Grants Program
 
-Our [Open Grants Program](https://github.com/w3f/Open-Grants-Program) is suited for technology grants of up to USD 30,000, which are tracked transparently on GitHub and disbursed in Bitcoin or DAI.
+Our [Open Grants Program](https://github.com/w3f/Open-Grants-Program) is suited for technology grants of up to $30,000, which are tracked transparently on GitHub and disbursed in Bitcoin or DAI.
 
 ### Other Grant Programs
 
@@ -150,4 +147,4 @@ Below is a list of other grant programs in the Polkadot/Substrate ecosystem:
 
 ## :information_source: License <!-- omit in toc -->
 
-[Apache License 2.0](./LICENSE) © Web3 Foundation
+[Apache License 2.0](./LICENSE) © Web3 Foundation.
