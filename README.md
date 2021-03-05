@@ -22,7 +22,7 @@
 
 ## :wave: Introduction
 
-As part of our commitment to promoting the Web3 ecosystem, we offer comprehensive grants programs focused on funding software development and research efforts related to **Polkadot, Kusama and Substrate**. For more information about the Web3 Foundation please visit the [About page](https://web3.foundation/about/) of our website.
+As part of our commitment to promoting the Web3 ecosystem, we offer comprehensive grants programs focused on funding software development and research efforts related to **Polkadot, Kusama and Substrate**. For more information about the Web3 Foundation please visit the [About page](https://web3.foundation/about/) on our website.
 
 **Only apply via the General Grants Program if:**
 
