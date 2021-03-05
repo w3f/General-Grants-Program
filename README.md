@@ -96,7 +96,7 @@ Additionally to the information provided on your application, note that your pro
    - Once work on the project has started, the Web3 Foundation will want to have follow-up conversations to see how the project is progressing.
    - To help speed up the milestone evaluation process, take a look at the [Guidelines for Milestone Deliverables](./grants/milestone-deliverables-guidelines.md).
 
-## :mailbox_with_mail: RFP Suggestions
+## :mailbox_with_mail: Request for Proposal (RFP) Suggestions
 
 If you think that we should support the development of certain tools or projects (related to **Polkadot, Kusama or Substrate**) that aren't in the [Polkadot Stack](./grants/polkadot_stack.md), feel free to submit an RFP suggestion using the process described below. We are particularly interested in supporting projects that could be leveraged by other builders in our ecosystem. We will review your proposal and, if we believe it’s useful, we will create an RFP based on your idea and try to find teams to work on it.
 
