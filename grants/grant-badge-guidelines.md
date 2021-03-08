@@ -22,6 +22,5 @@ To that end, we’ve created a badge for grant-winning teams. The badge in four 
 Also, please don't use the **name or logo of the Web3 Foundation** in any contexts that could misrepresent your relationship with Web3 Foundation. Infringement of these guidelines can result in an immediate annulment of the grant.
 
 In case of any questions, please don’t hesitate to reach out to us at grants@web3.foundation.
-Foundation.
 
 In case of any questions, please don’t hesitate to reach out to us at grants@web3.foundation.
