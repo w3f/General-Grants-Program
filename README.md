@@ -74,7 +74,7 @@ The scope of our Grants Programs consists of funding and feedback on delivered m
 
 1. **Application**
 
-    We strongly recommend working off of the [grant application template](grants/grant_application_template.md), which gives an indication of what a good roadmap should look like and outlines the criteria and information we look for in an application.
+    We strongly recommend working off of the [grant application template](./grants/grant_application_template.md), which gives an indication of what a good roadmap should look like and outlines the criteria and information we look for in an application.
 
     Partially public applications that limit financial information (i.e. the requested funding amount) to the application form in step `ii.` are preferred. However, teams are free to make fully public applications as well as fully private applications.
 
