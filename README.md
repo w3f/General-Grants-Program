@@ -69,7 +69,7 @@ Additionally to the information provided on your application, note that your pro
 
 1. **Application**
 
-     We strongly recommend working off of the [grant application template](./master/grants/grant_application_template.md), which gives an indication of what a good roadmap should look like and outlines the criteria and information we look for in an application. 
+     We strongly recommend working off of the [grant application template](./grants/grant_application_template.md), which gives an indication of what a good roadmap should look like and outlines the criteria and information we look for in an application. 
 
     1. Fill out the General Grants application form [:arrow_right: here](https://docs.google.com/forms/d/e/1FAIpQLSfMfjiRmDQDRk-4OhNASM6BAKii7rz_B1jWtbCPkUh6N7M2ww/viewform).
 
