@@ -97,7 +97,7 @@ This page gives an overview of accepted grants, their progress and a link to the
 | [Zondax](https://zondax.ch/) | Flexible TrustZone-based HSM stack | [GitHub](https://github.com/ZondaX) | <ul><li>[ ] </li></ul> |  <ul><li>[x] </li></ul> |  <ul><li>[ ] </li></ul> | 
 | [Usetech](http://usetech.com/blockchain.html) | SR25519 library in pure C and C# | [GitHub](https://github.com/usetech-llc/) | <ul><li>[ ] </li></ul> |  <ul><li>[x] </li></ul> |  <ul><li>[x] </li></ul> | 
 | [Akropolis](https://akropolis.io/) | PolkaHub — Heroku-like infrastructure for node deployment | [GitHub](https://github.com/akropolisio) | <ul><li>[ ] </li></ul> |  <ul><li>[x] </li></ul> |  <ul><li>[x] </li></ul> | 
-| [Pixura](https://pixura.io/) | Substrate API client in Haskell | [GitHub](https://github.com/Pixura) | <ul><li>[x] </li></ul> |  <ul><li>[ ] </li></ul> |  <ul><li>[ ] </li></ul> | 
+| [Pixura](https://pixura.io/) | Substrate API client in Haskell | [GitHub](https://github.com/Pixura) | <ul><li>[ ] </li></ul> |  <ul><li>[ ] </li></ul> |  <ul><li>[ ] </li></ul> | 
 | [HashQuark](https://www.hashquark.io/) | Validator Dashboard | [GitHub](https://github.com/hashquark-io) | <ul><li>[ ] </li></ul> |  <ul><li>[x] </li></ul> |  <ul><li>[x] </li></ul> | 
 | [Stacktical](https://stacktical.com/) | Performance Management Runtime Modules | [GitHub](https://github.com/Stacktical) | <ul><li>[ ] </li></ul> |  <ul><li>[x] </li></ul> |  <ul><li>[ ] </li></ul> | 
 | [Sean Young](https://www.mess.org/) | Solidity to WASM compiler | [GitHub](https://github.com/hyperledger-labs/solang) | <ul><li>[ ] </li></ul> |  <ul><li>[x] </li></ul> |  <ul><li>[x] </li></ul> | 
