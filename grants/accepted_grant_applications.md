@@ -261,7 +261,7 @@ This page gives an overview of accepted grants and a link to their GitHubs. Keep
 | [SpiderDAO](https://spiderdao.io) | Hardware-based DAO governance | [GitHub](https://github.com/SpiderDAO) | <ul><li>[ ] </li></ul> |  <ul><li>[ ] </li></ul> |  <ul><li>[ ] </li></ul> | 
 | [onfinality](https://onfinality.io) | Subquery: Open-source tool to process and query data | [GitHub](https://github.com/onfinality-io) | <ul><li>[ ] </li></ul> |  <ul><li>[ ] </li></ul> |  <ul><li>[ ] </li></ul> | 
 | FOS Foundation LTD | Pacific store: OpenSea.js on polkadot | [GitHub](https://github.com/vlbos) | <ul><li>[ ] </li></ul> |  <ul><li>[ ] </li></ul> |  <ul><li>[ ] </li></ul> | 
-| [Polkadot Technology Alliance](https://polkachina.org) | Shadows Network: synthetic assets | [GitHub](https://github.com/ShadowsNetwork) | <ul><li>[ ] </li></ul> |  <ul><li>[ ] </li></ul> |  <ul><li>[ ] </li></ul> | 
+| [Polkadot Technology Alliance](https://polkachina.org) | Shadows Network: synthetic assets | [GitHub](https://github.com/ShadowsNetwork) | <ul><li>[x] </li></ul> |  <ul><li>[ ] </li></ul> |  <ul><li>[ ] </li></ul> | 
 | [BLDG BLOX](https://bldg.app/) | ESG (Environmental, Social, and Corporate Governance) ratings dashboard | [GitHub](https://github.com/BLDG-BLOX/) | <ul><li>[ ] </li></ul> |  <ul><li>[ ] </li></ul> |  <ul><li>[ ] </li></ul> | 
 | [DEIPWORLD](https://deip.world/) | IP Management/Governance Module | [GitHub](https://github.com/DEIPworld) | <ul><li>[ ] </li></ul> |  <ul><li>[ ] </li></ul> |  <ul><li>[ ] </li></ul> | 
 | [Deeper.Network](https://deeper.network/) | Micropayments pallet | [GitHub](https://github.com/e2chain-dev/deeper-chain) | <ul><li>[ ] </li></ul> |  <ul><li>[ ] </li></ul> |  <ul><li>[ ] </li></ul> | 
@@ -285,7 +285,7 @@ This page gives an overview of accepted grants and a link to their GitHubs. Keep
 | [DNFT-Team](https://github.com/DNFT-Team) | Data framework between personal data and AI models | [GitHub](https://github.com/DNFT-Team) | <ul><li>[ ] </li></ul> |  <ul><li>[ ] </li></ul> |  <ul><li>[ ] </li></ul> | 
 | [UMC Labs](https://umc.network) | Secured token subscription | [GitHub](https://github.com/umc-network) | <ul><li>[ ] </li></ul> |  <ul><li>[ ] </li></ul> |  <ul><li>[ ] </li></ul> | 
 | [Perpetual Altruism Ltd](https://cryptograph.co/) | IP-Rights compliant NFT bridge protocol |  |  <ul><li>[ ] </li></ul> |  <ul><li>[ ] </li></ul> |  <ul><li>[ ] </li></ul> | 
-| [Clover](https://clover.finance/) | Easy-to-use blockchain infrastructure | [GitHub](https://github.com/clover-network/) | <ul><li>[ ] </li></ul> |  <ul><li>[ ] </li></ul> |  <ul><li>[ ] </li></ul> | 
+| [Clover](https://clover.finance/) | Easy-to-use blockchain infrastructure | [GitHub](https://github.com/clover-network/) | <ul><li>[x] </li></ul> |  <ul><li>[ ] </li></ul> |  <ul><li>[ ] </li></ul> | 
 | [DoraHacks](https://dorahacks.com/) | Quadratic Funding Pallet | [GitHub](https://github.com/dorahacksglobal) | <ul><li>[ ] </li></ul> |  <ul><li>[ ] </li></ul> |  <ul><li>[ ] </li></ul> | 
 | [SEOR](https://www.seor.io) | Multi-chain smart contract development platform | [GitHub](https://github.com/SealSC) | <ul><li>[ ] </li></ul> |  <ul><li>[ ] </li></ul> |  <ul><li>[ ] </li></ul> | 
 | [Polkastarter](https://polkastarter.com/) | Crowdloan UI | [GitHub](https://github.com/polkastarter) | <ul><li>[ ] </li></ul> |  <ul><li>[ ] </li></ul> |  <ul><li>[ ] </li></ul> | 
