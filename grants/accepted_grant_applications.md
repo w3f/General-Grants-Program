@@ -25,8 +25,8 @@
 
 ## :surfing_woman: Wave 1 - First Quarter 2019
 
-| Team | Project | Link | Terminated | First Delivery | Closed
-| :--- | :------ | :--- | :--------: | :------------: | :----: |
+| Team | Project | Link | Terminated | First Delivery | Completed
+| :--- | :------ | :--- | :--------: | :------------: | :-------: |
 | [ChainSafe](https://chainsafe.io/) | Polkadot Runtime Environment in Go (via an RFP) | [GitHub](https://github.com/ChainSafeSystems/gossamer) | <ul><li>[ ] </li></ul> |  <ul><li>[x] </li></ul> |  <ul><li>[x] </li></ul> | 
 | [Soramitsu](https://soramitsu.co.jp/) | Polkadot Runtime Environment in C++ (via an RFP) | [GitHub](https://github.com/soramitsu/kagome) | <ul><li>[ ] </li></ul> |  <ul><li>[x] </li></ul> |  <ul><li>[x] </li></ul> | 
 | [WEB3SCAN](https://www.web3scan.com/) | Polkascan: Open Source Block Explorer | [GitHub](https://github.com/polkascan) | <ul><li>[ ] </li></ul> |  <ul><li>[x] </li></ul> |  <ul><li>[x] </li></ul> | 
@@ -40,8 +40,8 @@
 
 ## :surfing_woman: Wave 2 - Second Quarter 2019
 
-| Team | Project | Link | Terminated | First Delivery | Closed
-| :--- | :------ | :--- | :--------: | :------------: | :----: |
+| Team | Project | Link | Terminated | First Delivery | Completed
+| :--- | :------ | :--- | :--------: | :------------: | :-------: |
 | [Cap9](https://cap9.io/) | A low-level security protocol and framework for smart contracts | [GitHub](https://github.com/Daohub-io/cap9) |  <ul><li>[ ] </li></ul> |  <ul><li>[x] </li></ul> |  <ul><li>[x] </li></ul> | 
 | Substrate Java API | Java version of our JS API | [GitHub](https://github.com/polkadot-java) | <ul><li>[ ] </li></ul> |  <ul><li>[x] </li></ul> |  <ul><li>[x] </li></ul> | 
 | [Starlog](https://pact.care/) | A metadata chain for IPFS | [GitHub](https://github.com/PACTCare/Starlog) | <ul><li>[ ] </li></ul> |  <ul><li>[x] </li></ul> |  <ul><li>[ ] </li></ul> | 
@@ -57,8 +57,8 @@
 
 ## :surfing_woman: Wave 3 - Third Quarter 2019
 
-| Team | Project | Link | Terminated | First Delivery | Closed
-| :--- | :------ | :--- | :--------: | :------------: | :----: |
+| Team | Project | Link | Terminated | First Delivery | Completed
+| :--- | :------ | :--- | :--------: | :------------: | :-------: |
 | [Supercomputing systems](http://scs.ch/) | Substrate Rust API client | [GitHub](https://github.com/scs/substrate-api-client) | <ul><li>[ ] </li></ul> |  <ul><li>[x] </li></ul> |  <ul><li>[x] </li></ul> | 
 | [NGRAVE](https://ngrave.io/) | Substrate Hardware Wallet Integration |  | <ul><li>[ ] </li></ul> |  <ul><li>[x] </li></ul> |  <ul><li>[ ] </li></ul> | 
 | [Caelum Labs](https://caelumlabs.com/) | Decentralised identity modules | | <ul><li>[ ] </li></ul> |  <ul><li>[x] </li></ul> |  <ul><li>[ ] </li></ul> | 
@@ -76,8 +76,8 @@
 
 ## :surfing_woman: Wave 4 - Fourth Quarter 2019
 
-| Team | Project | Link | Terminated | First Delivery | Closed
-| :--- | :------ | :--- | :--------: | :------------: | :----: |
+| Team | Project | Link | Terminated | First Delivery | Completed
+| :--- | :------ | :--- | :--------: | :------------: | :-------: |
 | [Genesis Lab](https://genesislab.net/) | Validator Tracker | [GitHub](https://github.com/genesis-lab-team) | <ul><li>[ ] </li></ul> |  <ul><li>[x] </li></ul> |  <ul><li>[x] </li></ul> | 
 | [Usetech](http://usetech.com/blockchain.html) | Substrate API in .NET | [GitHub](https://github.com/usetech-llc/polkadot_api_dotnet) | <ul><li>[ ] </li></ul> |  <ul><li>[x] </li></ul> |  <ul><li>[x] </li></ul> | 
 | [BlockX Labs](http://blockxlabs.com/) | Enzyme Browser extension wallet | [GitHub](https://github.com/blockxlabs/enzyme) | <ul><li>[ ] </li></ul> |  <ul><li>[x] </li></ul> |  <ul><li>[x] </li></ul> | 
@@ -109,8 +109,8 @@
 
 ## :surfing_woman: Wave 5 - First Quarter 2020
 
-| Team | Project | Link | Terminated | First Delivery | Closed
-| :--- | :------ | :--- | :--------: | :------------: | :----: |
+| Team | Project | Link | Terminated | First Delivery | Completed
+| :--- | :------ | :--- | :--------: | :------------: | :-------: |
 | [Bifrost](https://bifrost.finance/) | EOS interoperable bridge | [GitHub](https://github.com/bifrost-finance) | <ul><li>[ ] </li></ul> |  <ul><li>[x] </li></ul> |  <ul><li>[x] </li></ul> | 
 | [Entropy Labs](https://entropylabs.hk) | A toolkit for building and deploying applications with substrate | | <ul><li>[ ] </li></ul> |  <ul><li>[x] </li></ul> |  <ul><li>[ ] </li></ul> | 
 | [Papers GmbH](https://airgap.it) | AirGap - Desktop (+mobile) wallet for Polkadot | [GitHub](https://github.com/airgap-it) | <ul><li>[ ] </li></ul> |  <ul><li>[x] </li></ul> |  <ul><li>[x] </li></ul> | 
@@ -151,8 +151,8 @@
 
 ## :surfing_woman: Wave 6 - Second Quarter 2020
 
-| Team | Project | Link | Terminated | First Delivery | Closed
-| :--- | :------ | :--- | :--------: | :------------: | :----: |
+| Team | Project | Link | Terminated | First Delivery | Completed
+| :--- | :------ | :--- | :--------: | :------------: | :-------: |
 | [Protofire](https://protofire.io/) | Failover mechanism for validators | [GitHub](https://github.com/protofire) | <ul><li>[ ] </li></ul> |  <ul><li>[x] </li></ul> |  <ul><li>[x] </li></ul> | 
 | [HashQuark](https://www.hashquark.io/) | Validator Dashboard Phase 2 | [GitHub](https://github.com/hashquark-io) | <ul><li>[ ] </li></ul> |  <ul><li>[x] </li></ul> |  <ul><li>[x] </li></ul> | 
 | [BUIDL Labs](https://buidllabs.io/) | YieldScan Staking Dashboard | [GitHub](https://github.com/buidl-labs) | <ul><li>[ ] </li></ul> |  <ul><li>[x] </li></ul> |  <ul><li>[x] </li></ul> | 
@@ -189,8 +189,8 @@
 
 ## :surfing_woman: Wave 7 - Third Quarter 2020
 
-| Team | Project | Link | Terminated | First Delivery | Closed
-| :--- | :------ | :--- | :--------: | :------------: | :----: |
+| Team | Project | Link | Terminated | First Delivery | Completed
+| :--- | :------ | :--- | :--------: | :------------: | :-------: |
 | [Halva](https://github.com/halva-suite) | A toolchain for improving the experience of developing Decentralized Applications based on Substrate | [GitHub](https://github.com/halva-suite) | <ul><li>[ ] </li></ul> |  <ul><li>[x] </li></ul> |  <ul><li>[x] </li></ul> | 
 | [Subscan](subscan.io) | Substrate explorer | [GitHub](https://github.com/itering/subscan) | <ul><li>[ ] </li></ul> |  <ul><li>[x] </li></ul> |  <ul><li>[x] </li></ul> | 
 | [t3rn](https://github.com/t3rn/t3rn) | A protocol for blockchain interoperability | [GitHub](https://github.com/t3rn/t3rn) | <ul><li>[ ] </li></ul> |  <ul><li>[x] </li></ul> |  <ul><li>[x] </li></ul> | 
@@ -225,8 +225,8 @@
 
 ## :surfing_woman: Wave 8 - Fourth Quarter 2020
 
-| Team | Project | Link | Terminated | First Delivery | Closed
-| :--- | :------ | :--- | :--------: | :------------: | :----: |
+| Team | Project | Link | Terminated | First Delivery | Completed
+| :--- | :------ | :--- | :--------: | :------------: | :-------: |
 | [Sean Young](https://www.mess.org/) | Solidity to WASM compiler Phase 2 | [GitHub](https://github.com/hyperledger-labs/solang) | <ul><li>[ ] </li></ul> |  <ul><li>[x] </li></ul> |  <ul><li>[ ] </li></ul> | 
 | [Nuclei Studio](https://nuclei.studio/) | Governance OS | [GitHub](https://github.com/NucleiStudio) | <ul><li>[ ] </li></ul> |  <ul><li>[x] </li></ul> |  <ul><li>[x] </li></ul> | 
 | [NBLTrust](https://www.nbltrust.com/#/en/home) | Dart SCALE Codec | [GitHub](https://github.com/nbltrust/dart-scale-codec) | <ul><li>[ ] </li></ul> |  <ul><li>[x] </li></ul> |  <ul><li>[ ] </li></ul> | 
@@ -275,8 +275,8 @@
 
 ## :surfing_woman: Wave 9 - First Quarter 2021
 
-| Team | Project | Link | Terminated | First Delivery | Closed
-| :--- | :------ | :--- | :--------: | :------------: | :----: |
+| Team | Project | Link | Terminated | First Delivery | Completed
+| :--- | :------ | :--- | :--------: | :------------: | :-------: |
 | [Zenlink](https://zenlink.pro/) | Cross-chain DEX | [GitHub](https://github.com/zenlinkpro/zenlink_dex_module) | <ul><li>[ ] </li></ul> |  <ul><li>[ ] </li></ul> |  <ul><li>[ ] </li></ul> | 
 | [NFTT Studio](https://github.com/NFTT-studio) | NFT Store Pallet and Front End | [GitHub](https://github.com/NFTT-studio) | <ul><li>[ ] </li></ul> |  <ul><li>[ ] </li></ul> |  <ul><li>[ ] </li></ul> | 
 | [SubGame Network](https://github.com/SubGame-Network) | A decentralized game platform | [GitHub](https://github.com/SubGame-Network) | <ul><li>[ ] </li></ul> |  <ul><li>[ ] </li></ul> |  <ul><li>[ ] </li></ul> | 
