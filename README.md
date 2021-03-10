@@ -4,9 +4,9 @@
   <img src="src/General_Grants_Program.png" style="width:1300px";>
 </p>
 
-**:loudspeaker: Important:** The Web3 Foundation _General Grants_ Program focuses on technology grants which teams wish to keep **private**, need to be **paid out in fiat** or are **larger than $30,000**.
+> **:loudspeaker:** The Web3 Foundation _General Grants_ Program focuses on technology grants which teams wish to keep **private**, need to be **paid out in fiat** or are **larger than $30,000**.
 
-We ask teams to first consider applying via the [:arrow_right: _Open Grants_ Program](https://github.com/w3f/Open-Grants-Program), which has **faster processing times** and provides grants of up to $30,000 for initial applications and $100,000 for follow-up ones. Please consider applying via Open Grants no matter the scope of your project.
+> We ask teams to first consider applying via the [:arrow_right: _Open Grants_ Program](https://github.com/w3f/Open-Grants-Program), which has **faster processing times** and provides grants of up to $30,000 for initial applications and $100,000 for follow-up ones. Please consider applying via Open Grants no matter the scope of your project.
 
 ---
 
