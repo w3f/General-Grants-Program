@@ -1,6 +1,6 @@
 # Accepted Grant Applications [WIP!] <!-- omit in toc -->
 
-> This page gives an overview of accepted grants, their progress and a link to their GitHubs. **You should be aware that the grant application itself is often an independent project, that is unrelated to other work done by the teams. Also there is a clear difference between accepting a grant application and the successful delivery of a grant.** 
+> **:loudspeaker:** This page gives an overview of accepted grants, their progress and a link to their GitHubs. **You should be aware that the grant application itself is often an independent project, that is unrelated to other work done by the teams. Also there is a clear difference between accepting a grant application and the successful delivery of a grant.** 
 
 > Furthermore, the page lists terminations which happened due to a breach of the rules of the grants program. Additionally, grant teams might have decided to stop working on the grant (not necessarily the project itself) for various reasons that are not reflected in this sheet.   
 
