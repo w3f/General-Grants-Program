@@ -26,7 +26,7 @@
 ## :surfing_woman: Wave 1 - First Quarter 2019
 
 | Team | Project | Link | Terminated | First Delivery | Closed
-| :--- | :------ | :--- | :--------: | :-------------------: | :------: |
+| :--- | :------ | :--- | :--------: | :------------: | :----: |
 | [ChainSafe](https://chainsafe.io/) | Polkadot Runtime Environment in Go (via an RFP) | [GitHub](https://github.com/ChainSafeSystems/gossamer) | <ul><li>[ ] </li></ul> |  <ul><li>[x] </li></ul> |  <ul><li>[x] </li></ul> | 
 | [Soramitsu](https://soramitsu.co.jp/) | Polkadot Runtime Environment in C++ (via an RFP) | [GitHub](https://github.com/soramitsu/kagome) | <ul><li>[ ] </li></ul> |  <ul><li>[x] </li></ul> |  <ul><li>[x] </li></ul> | 
 | [WEB3SCAN](https://www.web3scan.com/) | Polkascan: Open Source Block Explorer | [GitHub](https://github.com/polkascan) | <ul><li>[ ] </li></ul> |  <ul><li>[x] </li></ul> |  <ul><li>[x] </li></ul> | 
@@ -41,7 +41,7 @@
 ## :surfing_woman: Wave 2 - Second Quarter 2019
 
 | Team | Project | Link | Terminated | First Delivery | Closed
-| :--- | :------ | :--- | :--------: | :-------------------: | :------: |
+| :--- | :------ | :--- | :--------: | :------------: | :----: |
 | [Cap9](https://cap9.io/) | A low-level security protocol and framework for smart contracts | [GitHub](https://github.com/Daohub-io/cap9) |  <ul><li>[ ] </li></ul> |  <ul><li>[x] </li></ul> |  <ul><li>[x] </li></ul> | 
 | Substrate Java API | Java version of our JS API | [GitHub](https://github.com/polkadot-java) | <ul><li>[ ] </li></ul> |  <ul><li>[x] </li></ul> |  <ul><li>[x] </li></ul> | 
 | [Starlog](https://pact.care/) | A metadata chain for IPFS | [GitHub](https://github.com/PACTCare/Starlog) | <ul><li>[ ] </li></ul> |  <ul><li>[x] </li></ul> |  <ul><li>[ ] </li></ul> | 
