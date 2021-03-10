@@ -9,15 +9,15 @@
 
 Our intention is to build an integration with Skynet for easily making use of decentralized off-chain storage from any project using FRAME.
 
-Skynet is a decentralized storage platform built to use the Sia blockchain network for storage, but in a way that's accessible via the web and available to anyone, without concerning themselves with cryptocurrencies or special software. Skynet allows for hosting of robust web-app frontends and storage of application data in a way where users retain control over their data and application data is interoperable between applications.
+Skynet is a decentralized storage platform built to use the Sia blockchain network for storage, but in a way that's accessible via the web and available to anyone, without concerning themselves with cryptocurrencies or special software. Skynet allows for the hosting of robust web-app frontends and storage of application data in a way where users retain control over their data and application data is interoperable between applications.
 
 ### Project Details
 
-The Skynet Pallet will allow Polkadot projects to access any Skynet Portal on the network using off-chain workers in order to do the following on Skynet:
+The Skynet Pallet will allow Polkadot projects to access any Skynet Portal on the network using off-chain workers to do the following on Skynet:
 
 - Upload Files and return the Skylink for use by the runtime
 - Download a Skyfile to storage or for use by runtime
-- SkyDB getJSON: download an object from SkyDB's mutable storage at a consistant publicKey/dataKey pairing
+- SkyDB getJSON: download an object from SkyDB's mutable storage at a consistent publicKey/dataKey pairing
 - SkyDB setJSON: save an object on SkyDB using a privateKey/dataKey pairing.
 - Data Verification for all interactions with a portal, using storage proofs from the Sia network.\*
 - Subscribing to SkyDB entry changes (pending future Substrate development of long-running off-chain worker processes).\*
@@ -31,14 +31,14 @@ Some use cases where we believe Skynet will be useful:
 - Chains where interaction focuses on client-side web apps
 - Off-chain storage for NFTs
 - On-chain referencing of user-generated-content
-- Indirect communication for chain-external data (where another service can publish to skynet, to be consumed by the off-chain worker)
-- Persistance of runtime data that isn't saved to storage
+- Indirect communication for chain-external data (where another service can publish to Skynet, to be consumed by the off-chain worker)
+- Persistence of runtime data that isn't saved to storage
 
 ### Ecosystem Fit
 
 The most similar project in the ecosystem that we are aware of is the `offchain:ipfs` fork of Substrate that implements an ipfs node in Rust along with an example pallet.
 
-IPFS has many differences in performace, ease-of-use, availability and infrastructure as compared to Skynet, but critical to this conversation is that Portals will be taking care of much of the overhead that an IPFS node would. Because of this, we do not intend to need to make modifications to Substrate core for integration, instead working from the perspective of a pallet, allowing for easier maintenance and community up-take in the long term.
+IPFS has many differences in performance, ease-of-use, availability, and infrastructure as compared to Skynet, but critical to this conversation is that Portals will be taking care of much of the overhead that an IPFS node would. Because of this, we do not intend to need to make modifications to Substrate core for integration, but instead will be working from the perspective of a pallet, allowing for easier maintenance and community up-take in the long term.
 
 ## Team :busts_in_silhouette:
 
@@ -68,7 +68,7 @@ IPFS has many differences in performace, ease-of-use, availability and infrastru
 
 ### Team's experience
 
-The Skynet Labs team (recently renamed from Nebulous) has been responsible for the development and oversight of the Sia blockchain network and serveral projects in its ecosystem for many years. The team's most recent significant project is Skynet, a web-accessible decentalized storage protocol built to enable usage of Sia storage for users and developers without reliance on running any specialized software or obtaining any cryptocurrency. Skynet hosts over 200 community-created web apps, and has been seen many signifigant partnerships and integrations.
+The Skynet Labs team (recently renamed from Nebulous) has been responsible for the development and oversight of the Sia blockchain network and several projects in its ecosystem for many years. The team's most recent significant project is Skynet, a web-accessible decentralized storage protocol built to enable usage of Sia storage for users and developers without reliance on running any specialized software or obtaining any cryptocurrency. Skynet hosts over 200 community-created web apps, and has been seen many significant partnerships and integrations.
 
 ### Team Code Repos
 
@@ -111,7 +111,6 @@ The Skynet Labs team (recently renamed from Nebulous) has been responsible for t
 | 0c.    | Testing Guide                                               | The code will have unit-test coverage (min. 70%) to ensure functionality and robustness. In the guide we will describe how to run these tests                                                                                                                                                                                                                                                                                                      |
 | 0d.    | Sample Node & Frontend                                      | We will expand the sample node and client frontend from Milestone 1 to illustrate usage for storing mutable data on Skynet using SkyDB and the registry.                                                                                                                                                                                                                                                                                           |
 | 1.     | Skynet Off-Chain Worker Pallet (SkyDB & registry expansion) | We will extend the pallet from milestone 1 to interact with Skynet's mutable storage layer, a key-value database called SkyDB. This allows getting and setting JSON files and uses public/private key combinations for access-control. This will also contain functionality for generating keys from seed phrases that is interoperable with Skynet's Javascript SDK. This requires the use of a lower-level Skynet component called the registry. |
-| 3.     | Skynet Off-Chain Worker Pallet (Verification)               | We will extend the pallet from milestone 2 allow for two important features: Verification of storage proofs for full end-to-end trustless infrastructure, and, pending Substrate's addition of long-running off-chain workers, subscribing to changes of SkyDB entries using Websockets                                                                                                                                                            |
 
 ### Milestone 3 - Skynet Immutable Off-Chain Storage Pallet (Trustless Data Verification & Subscription)
 
@@ -133,4 +132,4 @@ We engage general audiences and developer audiences with our outreach media, and
 
 ## Future Plans
 
-Skynet Labs will continue to develop Skynet by furthering integrations with blockchain projects needing decentralized, off-chain storage and front-end hosting, while also supporting client-facing applications that fall outside of blockchain programming. Our goal is that the data for these use-cases becomes increasingly interoperable and give users empowerment over their data. Our medium-term plans include user portal accounts and a robust monetization ecosystem.
+Skynet Labs will continue to develop Skynet by furthering integrations with blockchain projects needing decentralized, off-chain storage and front-end hosting, while also supporting client-facing applications that fall outside of blockchain programming. Our goal is that the data for these use-cases becomes increasingly interoperable and gives users empowerment over their data. Our medium-term plans include user portal accounts and a robust monetization ecosystem.
