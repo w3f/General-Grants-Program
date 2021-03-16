@@ -318,3 +318,4 @@
 | [Lumena](https://www.lumena.tech) | A blockchain based EV charging platform | [GitHub](https://github.com/Delmonicos/charger-node) | <ul><li>[ ] </li></ul> |  <ul><li>[ ] </li></ul> |  <ul><li>[ ] </li></ul> | 
 | [DEGO](https://dego.finance/) | Treasureland: An NFT publishing and trading platform | [GitHub](https://github.com/dego-labs) | <ul><li>[ ] </li></ul> |  <ul><li>[ ] </li></ul> |  <ul><li>[ ] </li></ul> | 
 | [AIKON](https://aikon.com/) | ChainJS integration | [GitHub](https://github.com/TeamAikon/chain-js) | <ul><li>[ ] </li></ul> |  <ul><li>[ ] </li></ul> |  <ul><li>[ ] </li></ul> | 
+| [Nathan Schwermann](https://github.com/nschwermann) |  PolkaJ Android Support | [GitHub](https://github.com/nschwermann) | <ul><li>[ ] </li></ul> |  <ul><li>[ ] </li></ul> |  <ul><li>[ ] </li></ul> | 
