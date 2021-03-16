@@ -317,3 +317,4 @@
 | [Shard Labs](https://shardlabs.io) | Substrate Identity Directory | [GitHub](https://github.com/Shard-Labs) | <ul><li>[ ] </li></ul> |  <ul><li>[ ] </li></ul> |  <ul><li>[ ] </li></ul> | 
 | [Lumena](https://www.lumena.tech) | A blockchain based EV charging platform | [GitHub](https://github.com/Delmonicos/charger-node) | <ul><li>[ ] </li></ul> |  <ul><li>[ ] </li></ul> |  <ul><li>[ ] </li></ul> | 
 | [DEGO](https://dego.finance/) | Treasureland: An NFT publishing and trading platform | [GitHub](https://github.com/dego-labs) | <ul><li>[ ] </li></ul> |  <ul><li>[ ] </li></ul> |  <ul><li>[ ] </li></ul> | 
+| [AIKON](https://aikon.com/) | ChainJS integration | [GitHub](https://github.com/TeamAikon/chain-js) | <ul><li>[ ] </li></ul> |  <ul><li>[ ] </li></ul> |  <ul><li>[ ] </li></ul> | 
