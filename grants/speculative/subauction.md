@@ -4,7 +4,7 @@
 
 ## Project Overview :page_facing_up:
 
-In Ethereum, NFT industry really tests networks limits these days, so we expect there's quite some potential exploring the space within Polkadot ecosystem.
+In Ethereum, NFT industry is really testing networks limits these days, so we expect there's quite some potential exploring the space within Polkadot ecosystem.
 
 Inspired by parachain candle auction mechanics, we started working on a prototype of NFT auction system while participating in Encode hackathon (awarded 2nd place in Polkadot category).
 
@@ -51,12 +51,12 @@ We aim to build consumer facing application that possibly integrates with alread
 ### Team members
 
 - Michael Repetny (Product dev at Subauction, previously co-founder of web analytics Zeerat, graduate of University of Economics)
-- Petr Mensik (Blockchain dev at Subauction, previously BI engineer, graduate of Ostrava University of Technology)
-- Jindrich Zeleny (Blockchain dev at Subauction, previously backend engineer, graduate of Brno University of Technology)
+- Petr Mensik (Blockchain dev at Subauction, previously Jva/Clojure backend developer, graduate of Ostrava University of Technology)
+- Jindrich Zeleny (Blockchain dev at Subauction, previously BI engineer, graduate of Brno University of Technology)
 
 ### Team Website
 
-- https://polkadotters.medium.com/
+- https://polkadotters.medium.com
 
 ### Legal structure
 
@@ -186,4 +186,4 @@ Our channels
 
 ## Future Plans
 
-We're huge fans of NFT space and really believe that Polkadot ecosystem might benefit from having NFT marketplace that would be able to be easily integrated into other NFT solution standards developed on Polkadot. Our end result should be a feature-specific pallet that could be pluggid in to another blockchain applications and a NFT auction marketplace site with curated content.
+We're huge fans of NFT space and really believe that Polkadot ecosystem will benefit from having NFT marketplace that can be able easily integrated into other NFT solution standards developed on Polkadot. Our end result should be a feature-specific pallet that could be pluggid in to another blockchain applications and a NFT auction marketplace site with curated content.
