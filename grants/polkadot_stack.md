@@ -138,7 +138,7 @@ In the below sections you can find a list of different layers of the Polkadot St
 | High availability setup | [Archipel](https://github.com/luguslabs/archipel), [Polkadot Failover Mechanism](https://github.com/protofire/polkadot-failover-mechanism)
 | Load Balanced Endpoints | [terragrunt-polkadot](https://github.com/insight-w3f/terragrunt-polkadot)
 | Deployment Tools| [Polkadot Package Manager](https://github.com/Blockdaemon/bpm-sdk), [PolkaHub](https://github.com/akropolisio/polkahub-monorepo), [Avado](https://github.com/AvadoDServer/AVADO-DNP-Polkadot-custom), [Polkadot Deployer](https://github.com/w3f/polkadot-deployer)
-| Validator monitoring | [P.A.N.I.C.](https://github.com/SimplyVC/panic_polkadot), [Polkalert](https://github.com/galacticcouncil/polkalert), [B-Harvest](https://github.com/nodebreaker0-0/substrate/tree/prometheus_v0.3), [nmonpolkadot](https://github.com/stakezone/nmonpolkadot)
+| Validator monitoring | [P.A.N.I.C.](https://github.com/SimplyVC/panic_polkadot), [Polkalert](https://github.com/galacticcouncil/polkalert), [B-Harvest](https://github.com/nodebreaker0-0/substrate/tree/prometheus_v0.3), [nmonpolkadot](https://github.com/stakezone/nmonpolkadot), [Polkadot-K8s-Monitor](https://github.com/ironoa/polkadot-k8s-monitor)
 | Validator payout management | [Substrate validator auto payout](https://github.com/Colm3na/substrate-auto-payout), [Polkadot Payouts](https://github.com/w3f/polkadot-payouts), [staking-payouts CLI](https://github.com/emostov/staking-payouts) |
 
 ### :black_nib: Signatures
