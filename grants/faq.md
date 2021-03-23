@@ -149,5 +149,5 @@
 <details>
   <summary><b>Why are there milestones being accepted or discussed that were submitted after mine?</b></summary>
 
-  While we try to process deliveries chronologically, some milestones (_as well as_ applications) do not get processed quite as fast as others. One obvious reason is the complexity of the delivery and its evaluation. Other times, your submission might require internal discussion or delegation. In any case, if you have any question on the processing of your delivery, you can reach out to us via email or Github.
+  While we try to process deliveries chronologically, some milestones aren't processed quite as fast as others. One obvious reason is the complexity of the delivery and its evaluation. Other times, your submission might require internal discussion or delegation. In any case, if you have any question on the processing of your delivery, you can reach out to us via email or Github.
 </details>
