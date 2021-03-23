@@ -1,6 +1,11 @@
-# Web3 Foundation Grants Programs' Frequently Asked Questions
+# Web3 Foundation Grants Programs' Frequently Asked Questions :interrobang:<!-- omit in toc -->
 
-## Global (Open & General grants)
+- [🧭 Global (Open & General grants)](#-global-open--general-grants)
+- [🔓 Open Grants](#-open-grants)
+- [💰 General Grants](#-general-grants)
+- [🚚 Milestone Delivery](#-milestone-delivery)
+
+## 🧭 Global (Open & General grants)
 
 <details>
   <summary><b>How much can I ask for?</b></summary>
@@ -86,7 +91,7 @@
 </details>
 
 
-## Open Grants
+## 🔓 Open Grants
 
 <details>
   <summary><b>When can I apply for a follow-up grant?</b></summary>
@@ -97,29 +102,29 @@
 <details>
   <summary><b>A W3F member approved my application. Does that mean it is accepted?</b></summary>
 
-  Open Grants applications require one third of the committee to approve your pull request. Since we have many different members with different backgrounds and specializations, it is possible that the committee disagrees and your application gets rejected even though one or two members approved it. 
+  Open Grants applications require one third of the committee to approve your pull request. Since we have many different members with different backgrounds and specializations, it is possible that the committee disagrees and your application gets rejected even though one or two members approved it.
   The application is accepted once the pull request is merged.
 </details>
 
 <details>
   <summary><b>A W3F member approved my application. Does that mean it is accepted?</b></summary>
 
-  Open Grants applications require one third of the committee to approve your pull request. Since we have many different members with different backgrounds and specializations, it is possible that committee members disagree on an issue and your application gets rejected even though one or two members approved it. 
+  Open Grants applications require one third of the committee to approve your pull request. Since we have many different members with different backgrounds and specializations, it is possible that committee members disagree on an issue and your application gets rejected even though one or two members approved it.
   The application is accepted once the pull request is merged.
 </details>
 
 
-## General Grants
+## 💰 General Grants
 
 <details>
   <summary><b>How do I apply for a General Grant? I see a Google form, a Github repository, requests for a document…</b></summary>
 
-  _Every_ General Grant application requires a [form submission](https://docs.google.com/forms/d/e/1FAIpQLSfMfjiRmDQDRk-4OhNASM6BAKii7rz_B1jWtbCPkUh6N7M2ww/viewform). If you like the application to be completely private, you will have to provide all the details about your plans, team, milestones, financials, etc. in a document that you can attach to the form. Our [template](https://github.com/w3f/General-Grants-Program/blob/master/grants/grant_application_template.md) shows what kind of information we are looking for. 
+  _Every_ General Grant application requires a [form submission](https://docs.google.com/forms/d/e/1FAIpQLSfMfjiRmDQDRk-4OhNASM6BAKii7rz_B1jWtbCPkUh6N7M2ww/viewform). If you like the application to be completely private, you will have to provide all the details about your plans, team, milestones, financials, etc. in a document that you can attach to the form. Our [template](https://github.com/w3f/General-Grants-Program/blob/master/grants/grant_application_template.md) shows what kind of information we are looking for.
   For (partially) public applications, you are free to submit this information as part of the pull request instead or in addition. What information goes where is up to you, as long as we get all the required information.
 </details>
 
 
-## Milestone Delivery
+## 🚚 Milestone Delivery
 
 <details>
   <summary><b>How do I submit a milestone?</b></summary>
@@ -144,10 +149,3 @@
 
   While we try to process deliveries chronologically, some milestones (_as well as_ applications) do not get processed quite as fast as others. One obvious reason is the complexity of the delivery and its evaluation. Other times, your submission might require internal discussion or delegation. In any case, if you have any question on the processing of your delivery, you can reach out to us via email or Github.
 </details>
-
-<details>
-  <summary><b>Click</b></summary>
-
-  Click
-</details>
-
