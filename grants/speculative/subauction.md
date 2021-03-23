@@ -12,6 +12,8 @@ This document describes a vision for NFT marketplace platform built on top of NF
 
 We believe the ecosystem might benefit from more generic implementation of our initial prototype of NFT auctions with English auction type. Also, we'd like to take a different path than most of the projects built on Ethereum and apply a curated quality-over-quantity approach with some specific features available in the Polkadot ecosystem.
 
+Last but not least, while many other projects focus on the improvement of underlying background technology, we're convinced that there is huge opportunity bridging the gap between what's possible with current technology and the end user capabilities to interact with these systems. That's why we aim to both improve on infrastructure (NFT auction pallet) and user delivery via well-designed frontend application.
+
 ### Project Details
 
 What we already accomplished:
@@ -53,6 +55,7 @@ We aim to build consumer facing application that possibly integrates with alread
 - Michael Repetny (Product dev at Subauction, previously co-founder of web analytics Zeerat, graduate of University of Economics)
 - Petr Mensik (Blockchain dev at Subauction, previously Jva/Clojure backend developer, graduate of Ostrava University of Technology)
 - Jindrich Zeleny (Blockchain dev at Subauction, previously BI engineer, graduate of Brno University of Technology)
+- we plan to bring part-time (0.5 MD) UI designer and technical writer to help with specific milestones as further described
 
 ### Team Website
 
@@ -101,7 +104,7 @@ See Auction Type Generalisation for definitions.
 - The code will have proper unit-test coverage to ensure functionality and robustness.
 - Provide both inline documentation of the code and a basic tutorial describing how the software can be used and tested.
 
-### Milestone 1: Implement Candle Auction Type
+### Milestone 1: Implement New Auction Types
 
 See [Candle Auction Type](#candle-auction-type) and [Top-up Auction Type](#top-up-auction-type) for definitions.
 
@@ -121,11 +124,9 @@ See [Candle Auction Type](#candle-auction-type) and [Top-up Auction Type](#top-u
 - **FTE:** 1.5
 - **Costs:** $10,000
 - Implement:
-  - the Candle Auction Type, a specific type for NFT auction to prevent snipping (placing bids in the very last second to gamble the system)
-  - the Top-up Auction Type, a specific type for NFT auction to prevent snipping (placing bids in the very last second to gamble the system)
-- Deliver docker-compose file to run node
-- The code will have proper unit-test coverage to ensure functionality and robustness.
-- Provide both inline documentation of the code and a basic tutorial describing how the software can be used and tested.
+  - design guidelines (color palette, forms, button, headlines)
+  - views: create auction, wallet sign in, bidding and listing
+- Deliver Figma clickable UI mockup
   ...
 
 ### Milestone 3: Governance & Content Curation
@@ -133,7 +134,7 @@ See [Candle Auction Type](#candle-auction-type) and [Top-up Auction Type](#top-u
 See [Governance & Content Curation](#governance-&-content-curation) for definitions.
 
 - **Estimated Duration:** 2-4 weeks
-- **FTE:** 2.5
+- **FTE:** 3.5
 - **Costs:** $20,000
 - Implement:
   - the content curation system and introduce governance DAO to prevent possible abusive content
@@ -142,31 +143,16 @@ See [Governance & Content Curation](#governance-&-content-curation) for definiti
 - Provide both inline documentation of the code and a basic tutorial describing how the software can be used and tested.
   ...
 
-### Milestone 4: Research Business Model Mechanics
-
-See [Business Model Mechanics](#business-model-mechanics) for definitions.
-
-- **Estimated Duration:** 1-2 weeks
-- **FTE:** 1
-- **Costs:** $5,000
-- Implement:
-  - research of applicable business model mechanics to apply to NFT marketplace
-  - adjust program to match changes suggested by business model perspective of introduced mechanism design
-- Deliver docker-compose file to run node
-- The code will have proper unit-test coverage to ensure functionality and robustness.
-- Provide both inline documentation of the code and a basic tutorial describing how the software can be used and tested.
-  ...
-
-### Milestone 5: Implement NFT marketplace application UI
+### Milestone 4: Implement NFT marketplace application UI
 
 See [Application UI](#application-ui) for definitions.
 
 - **Estimated Duration:** 2-4 weeks
-- **FTE:** 2
-- **Costs:** $10,000
+- **FTE:** 2.5
+- **Costs:** $15,000
 - Implement:
   - frontend application (React/TS) to provide user facing interactivity to our blockchain program
-  - views: create auction, wallet sign in, bidding mechanism and listing mechanics
+  - views: create auction, wallet sign in, bidding and listing
 - Deliver docker-compose file to run node
 - The code will have proper unit-test coverage to ensure functionality and robustness.
 - Provide both inline documentation of the code and a basic tutorial describing how the software can be used and tested.
@@ -174,7 +160,7 @@ See [Application UI](#application-ui) for definitions.
 
 ### Community engagement
 
-We are well positioned within Polkadot ecosystem to create our own product since we started Polkadotters community that is currently having over 4k members and supporters. Therefore we will have plenty of space to carefully test our product and receive valuable feedback from the community. We will also try to gather support from other Polkadot ecosystem projects since we already have a good reputation within a space and we are confident that we will be able to promote the project properly.
+We are well positioned within Polkadot ecosystem to create our own product since we started Polkadotters community that is currently having over 4,000 members and supporters. Therefore we will have plenty of space to carefully test our product and receive valuable feedback from the community. We will also try to gather support from other Polkadot ecosystem projects since we already have a good reputation within a space and we are confident that we will be able to promote the project properly.
 
 Our progress will be regularly published to the social media to gain enough attention and for the sake of transparency of the whole project.
 
@@ -186,4 +172,4 @@ Our channels
 
 ## Future Plans
 
-We're huge fans of NFT space and really believe that Polkadot ecosystem will benefit from having NFT marketplace that can be able easily integrated into other NFT solution standards developed on Polkadot. Our end result should be a feature-specific pallet that could be pluggid in to another blockchain applications and a NFT auction marketplace site with curated content.
+We're huge fans of NFT space and really believe that Polkadot ecosystem will benefit from having NFT marketplace that can be able easily integrated into other NFT solution standards developed on Polkadot. Our end result should be a feature-specific pallet that could be plugged into another blockchain applications and a NFT auction marketplace application with DAO curated exclusive content.
