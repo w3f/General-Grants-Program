@@ -46,7 +46,7 @@ Finally, we need easy and enjoyable user interface so we can develop long-term r
 
 ### Ecosystem Fit
 
-We aim to build consumer facing application that possibly integrates with already being developed NFT infrastructure projects and allows creating and bidding on NFT auctions of different auction types.
+We aim to build consumer facing application that possibly integrates with already being developed NFT infrastructure projects and allows creating and bidding on NFT auctions of different auction types. The point is to provide an easy integration to existing NFT implementations that can be re-used across the whole ecosystem. Also, there will be different auction types and some of them have never been implemented in the Polkadot space so it's definitely something that will push the whole ecosystem forward and we might even find some other means of token distribution models that can benefit all the projects (for example adjustments to the Dutch auction). 
 
 ## Team :busts_in_silhouette:
 
@@ -172,4 +172,4 @@ Our channels
 
 ## Future Plans
 
-We're huge fans of NFT space and really believe that Polkadot ecosystem will benefit from having NFT marketplace that can be able easily integrated into other NFT solution standards developed on Polkadot. Our end result should be a feature-specific pallet that could be plugged into another blockchain applications and a NFT auction marketplace application with DAO curated exclusive content.
+We're huge fans of NFT space and really believe that Polkadot ecosystem will benefit from having NFT marketplace that can be able easily integrated into other NFT solution standards developed on Polkadot. Our end result should be a feature-specific pallet that could be plugged into another blockchain applications and a NFT auction marketplace application with DAO curated exclusive content. But this is only beginning, we believe that huge innovations are going to happen in the NFT space and we want to follow those changes as close as possible to make our auction system thrive!
