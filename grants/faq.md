@@ -1,4 +1,6 @@
-# Web3 Foundation Grants Programs' Frequently Asked Questions :interrobang:<!-- omit in toc -->
+#### Web3 Foundation Grants Programs'
+
+# :interrobang: Frequently Asked Questions :interrobang:<!-- omit in toc -->
 
 - [🧭 Global (Open & General grants)](#-global-open--general-grants)
 - [🔓 Open Grants](#-open-grants)
