@@ -252,7 +252,7 @@
 | [Setheum](https://setheum.xyz/) | Setheum Elastic Reserve Protocol | [GitHub](https://github.com/Setheum-Labs/Setheum) | <ul><li>[ ] </li></ul> |  <ul><li>[ ] </li></ul> |  <ul><li>[ ] </li></ul> | 
 | [everstake](https://everstake.one/) | DKG msig wallet | [GitHub](https://github.com/everstake) | <ul><li>[ ] </li></ul> |  <ul><li>[ ] </li></ul> |  <ul><li>[ ] </li></ul> | 
 | [Coinversation](http://coinversation.cn/) | Decentralized exchange for trading synthetic assets | [GitHub](https://github.com/Coinversation) | <ul><li>[ ] </li></ul> |  <ul><li>[ ] </li></ul> |  <ul><li>[ ] </li></ul> | 
-| [Manta Network](https://www.manta.network/) | A Privacy Preserving Decentralized Exchange | [GitHub](https://github.com/Manta-Network) | <ul><li>[ ] </li></ul> |  <ul><li>[ ] </li></ul> |  <ul><li>[ ] </li></ul> | 
+| [Manta Network](https://www.manta.network/) | A Privacy Preserving Decentralized Exchange | [GitHub](https://github.com/Manta-Network) | <ul><li>[ ] </li></ul> |  <ul><li>[x] </li></ul> |  <ul><li>[ ] </li></ul> | 
 | [Stake Technologies](https://stake.co.jp/en/) | ZK Rollups Pallet | [GitHub](https://github.com/staketechnologies) | <ul><li>[ ] </li></ul> |  <ul><li>[x] </li></ul> |  <ul><li>[ ] </li></ul> | 
 | [Apron Network](https://apron.network/) | Decentralized infrastructure provider | [GitHub](https://github.com/apron-network) | <ul><li>[ ] </li></ul> |  <ul><li>[ ] </li></ul> |  <ul><li>[ ] </li></ul> | 
 | [Pocket 4D](https://pocket4d.io) | Substrate Dart API client | [GitHub](https://github.com/Pocket4D) | <ul><li>[ ] </li></ul> |  <ul><li>[x] </li></ul> |  <ul><li>[ ] </li></ul> | 
@@ -265,12 +265,12 @@
 | [SpiderDAO](https://spiderdao.io) | Hardware-based DAO governance | [GitHub](https://github.com/SpiderDAO) | <ul><li>[ ] </li></ul> |  <ul><li>[ ] </li></ul> |  <ul><li>[ ] </li></ul> | 
 | [onfinality](https://onfinality.io) | Subquery: Open-source tool to process and query data | [GitHub](https://github.com/onfinality-io) | <ul><li>[ ] </li></ul> |  <ul><li>[x] </li></ul> |  <ul><li>[x] </li></ul> | 
 | FOS Foundation LTD | Pacific store: OpenSea.js on polkadot | [GitHub](https://github.com/vlbos) | <ul><li>[ ] </li></ul> |  <ul><li>[ ] </li></ul> |  <ul><li>[ ] </li></ul> | 
-| [Polkadot Technology Alliance](https://polkachina.org) | Shadows Network: synthetic assets | [GitHub](https://github.com/ShadowsNetwork) | <ul><li>[x] </li></ul> |  <ul><li>[ ] </li></ul> |  <ul><li>[ ] </li></ul> | 
+| [Polkadot Technology Alliance](https://polkachina.org) | Shadows Network: synthetic assets | [GitHub](https://github.com/ShadowsNetwork) | <ul><li>[x] </li></ul> |  <ul><li>[x] </li></ul> |  <ul><li>[ ] </li></ul> | 
 | [BLDG BLOX](https://bldg.app/) | ESG (Environmental, Social, and Corporate Governance) ratings dashboard | [GitHub](https://github.com/BLDG-BLOX/) | <ul><li>[ ] </li></ul> |  <ul><li>[ ] </li></ul> |  <ul><li>[ ] </li></ul> | 
 | [DEIPWORLD](https://deip.world/) | IP Management/Governance Module | [GitHub](https://github.com/DEIPworld) | <ul><li>[ ] </li></ul> |  <ul><li>[ ] </li></ul> |  <ul><li>[ ] </li></ul> | 
 | [Deeper.Network](https://deeper.network/) | Micropayments pallet | [GitHub](https://github.com/e2chain-dev/deeper-chain) | <ul><li>[ ] </li></ul> |  <ul><li>[ ] </li></ul> |  <ul><li>[ ] </li></ul> | 
 | [Evanesco](https://evanesco.org/) | Private network protocol | [GitHub](https://github.com/Evanesco-Labs) | <ul><li>[ ] </li></ul> |  <ul><li>[ ] </li></ul> |  <ul><li>[ ] </li></ul> | 
-| [HugoByte](https://hugobyte.com/) | Project Aurras: Event Manager | [GitHub](https://github.com/HugoByte) | <ul><li>[ ] </li></ul> |  <ul><li>[ ] </li></ul> |  <ul><li>[ ] </li></ul> | 
+| [HugoByte](https://hugobyte.com/) | Project Aurras: Event Manager | [GitHub](https://github.com/HugoByte) | <ul><li>[ ] </li></ul> |  <ul><li>[x] </li></ul> |  <ul><li>[ ] </li></ul> | 
 | [Bounce Protocol](https://bounce.finance/) | Decentralized Auction Protocol | [GitHub](https://github.com/bouncefinance/bounce-network) | <ul><li>[ ] </li></ul> |  <ul><li>[ ] </li></ul> |  <ul><li>[ ] </li></ul> | 
 
 # 2021
@@ -289,7 +289,7 @@
 | [DNFT-Team](https://github.com/DNFT-Team) | Data framework between personal data and AI models | [GitHub](https://github.com/DNFT-Team) | <ul><li>[ ] </li></ul> |  <ul><li>[ ] </li></ul> |  <ul><li>[ ] </li></ul> | 
 | [UMC Labs](https://umc.network) | Secured token subscription | [GitHub](https://github.com/umc-network) | <ul><li>[ ] </li></ul> |  <ul><li>[ ] </li></ul> |  <ul><li>[ ] </li></ul> | 
 | [Perpetual Altruism Ltd](https://cryptograph.co/) | IP-Rights compliant NFT bridge protocol |  |  <ul><li>[ ] </li></ul> |  <ul><li>[ ] </li></ul> |  <ul><li>[ ] </li></ul> | 
-| [Clover](https://clover.finance/) | Easy-to-use blockchain infrastructure | [GitHub](https://github.com/clover-network/) | <ul><li>[x] </li></ul> |  <ul><li>[ ] </li></ul> |  <ul><li>[ ] </li></ul> | 
+| [Clover](https://clover.finance/) | Easy-to-use blockchain infrastructure | [GitHub](https://github.com/clover-network/) | <ul><li>[x] </li></ul> |  <ul><li>[x] </li></ul> |  <ul><li>[ ] </li></ul> | 
 | [DoraHacks](https://dorahacks.com/) | Quadratic Funding Pallet | [GitHub](https://github.com/dorahacksglobal) | <ul><li>[ ] </li></ul> |  <ul><li>[ ] </li></ul> |  <ul><li>[ ] </li></ul> | 
 | [SEOR](https://www.seor.io) | Multi-chain smart contract development platform | [GitHub](https://github.com/SealSC) | <ul><li>[ ] </li></ul> |  <ul><li>[ ] </li></ul> |  <ul><li>[ ] </li></ul> | 
 | [Polkastarter](https://polkastarter.com/) | Crowdloan UI | [GitHub](https://github.com/polkastarter) | <ul><li>[ ] </li></ul> |  <ul><li>[ ] </li></ul> |  <ul><li>[ ] </li></ul> | 
@@ -303,8 +303,8 @@
 | [Trust Fractal GmbH](https://trustfractal.com/) | ink! Smart Contract Upgradeability | [GitHub](https://github.com/trustfractal/ink-upgrade-template) | <ul><li>[ ] </li></ul> |  <ul><li>[ ] </li></ul> |  <ul><li>[ ] </li></ul> | 
 | [Starry Network](https://github.com/Starry-Network) | Splittable NFTs | [GitHub](https://github.com/Starry-Network) | <ul><li>[ ] </li></ul> |  <ul><li>[ ] </li></ul> |  <ul><li>[ ] </li></ul> | 
 | [Equilibrium](https://equilibrium.co/) | Research Storage Network| [GitHub](https://github.com/eqlabs) | <ul><li>[ ] </li></ul> |  <ul><li>[ ] </li></ul> |  <ul><li>[ ] </li></ul> | 
-| [DOT Mog](https://dotmog.com/) | Substrate based Unity3D Game  | [GitHub](https://github.com/dotmog) | <ul><li>[ ] </li></ul> |  <ul><li>[x] </li></ul> |  <ul><li>[ ] </li></ul> | 
-| [NewOmega](https://github.com/WiktorStarczewski/newomega.trinity ) | A blockchain game that can not be shut down | [GitHub](https://github.com/WiktorStarczewski/newomega.trinity ) | <ul><li>[ ] </li></ul> |  <ul><li>[ ] </li></ul> |  <ul><li>[ ] </li></ul> | 
+| [DOT Mog](https://dotmog.com/) | Substrate .NET API  | [GitHub](https://github.com/dotmog/SubstrateNetApi) | <ul><li>[ ] </li></ul> |  <ul><li>[x] </li></ul> |  <ul><li>[ ] </li></ul> | 
+| [NewOmega](https://github.com/WiktorStarczewski/newomega.trinity ) | A blockchain game that can not be shut down | [GitHub](https://github.com/WiktorStarczewski/newomega.trinity ) | <ul><li>[ ] </li></ul> |  <ul><li>[x] </li></ul> |  <ul><li>[ ] </li></ul> | 
 | [Bright Inventions](https://brightinventions.pl/) | Treasury Web application| [GitHub](https://github.com/bright/bright-tresury) | <ul><li>[ ] </li></ul> |  <ul><li>[ ] </li></ul> |  <ul><li>[ ] </li></ul> | 
 | [Standard protocol](https://github.com/digitalnativeinc/standard-substrate) | A collaterized algorithmic stablecoin protocol for synthetic assets | [GitHub](https://github.com/digitalnativeinc/standard-substrate) | <ul><li>[ ] </li></ul> |  <ul><li>[ ] </li></ul> |  <ul><li>[ ] </li></ul> | 
 | [Skye Kiwi](https://skye.kiwi/) | SkyePass: A decentralized, open source password manager | [GitHub](https://github.com/skyekiwi) | <ul><li>[ ] </li></ul> |  <ul><li>[ ] </li></ul> |  <ul><li>[ ] </li></ul> | 
@@ -319,6 +319,6 @@
 | [DEGO](https://dego.finance/) | Treasureland: An NFT publishing and trading platform | [GitHub](https://github.com/dego-labs) | <ul><li>[ ] </li></ul> |  <ul><li>[ ] </li></ul> |  <ul><li>[ ] </li></ul> | 
 | [AIKON](https://aikon.com/) | ChainJS integration | [GitHub](https://github.com/TeamAikon/chain-js) | <ul><li>[ ] </li></ul> |  <ul><li>[ ] </li></ul> |  <ul><li>[ ] </li></ul> | 
 | [Nathan Schwermann](https://github.com/nschwermann) |  PolkaJ Android Support | [GitHub](https://github.com/nschwermann) | <ul><li>[ ] </li></ul> |  <ul><li>[ ] </li></ul> |  <ul><li>[ ] </li></ul> | 
-| [ACALA PTE. LTD.](https://acala.network/) | xtokens - XCM Implementation for Fungible Assets | [GitHub](https://github.com/open-web3-stack/open-runtime-module-library/tree/master/xtokens) | <ul><li>[ ] </li></ul> |  <ul><li>[x] </li></ul> |  <ul><li>[ ] </li></ul> | 
+| [Acala](https://acala.network/) | xtokens - XCM Implementation for Fungible Assets | [GitHub](https://github.com/open-web3-stack/open-runtime-module-library/tree/master/xtokens) | <ul><li>[ ] </li></ul> |  <ul><li>[x] </li></ul> |  <ul><li>[ ] </li></ul> | 
 | [NUTS Finance](https://nuts.finance/) | Stable Assets | [GitHub](https://github.com/nutsfinance) | <ul><li>[ ] </li></ul> |  <ul><li>[ ] </li></ul> |  <ul><li>[ ] </li></ul> | 
 | [MVP Workshop](https://mvpworkshop.co/) | pallet-maci (Minimal Anti Collusion Infrastructure) | [GitHub](https://github.com/MVPWorkshop) | <ul><li>[ ] </li></ul> |  <ul><li>[ ] </li></ul> |  <ul><li>[ ] </li></ul> | 
