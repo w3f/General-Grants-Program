@@ -46,7 +46,7 @@ Finally, we need an easy and enjoyable user interface so we can develop a long-t
 
 ### Ecosystem Fit
 
-We aim to build a consumer facing application that possibly integrates with already being developed NFT infrastructure projects and allows creating and bidding on NFT auctions of different auction types. The point is to provide easy integration to existing NFT implementations that can be re-used across the whole ecosystem. Also, there will be different auction types and some of them have never been implemented in the Polkadot space so it's definitely something that will push the whole ecosystem forward and we might even find some other means of token distribution models that can benefit all the projects (for example adjustments to the Dutch auction). 
+We aim to build a consumer-facing application that possibly integrates with already being developed NFT infrastructure projects and allows creating and bidding on NFT auctions of different auction types. The point is to provide easy integration to existing NFT implementations that can be re-used across the whole ecosystem. Also, there will be different auction types and some of them have never been implemented in the Polkadot space so it's definitely something that will push the whole ecosystem forward and we might even find some other means of token distribution models that can benefit all the projects (for example adjustments to the Dutch auction). 
 
 ## Team :busts_in_silhouette:
 
@@ -69,7 +69,7 @@ We aim to build a consumer facing application that possibly integrates with alre
 
 We participated in the Encode hackathon winning 2nd prize in the Polkadot category. We were also in touch with the Acala team managing the ORML pallets and we discussed a couple of our proposals to enhance the NFT pallet and they have accepted our [PR](https://github.com/open-web3-stack/open-runtime-module-library/pull/351). Our team members are also graduates of Substrate Runtime Developer Academy. Last but not least, we run the biggest Polkadot community in Czechia/Slovakia (Polkadotters) where we gather valuable market feedback.
 
-Besides blockchain development, each member has 5+ years of experience in Computer Science in different areas such as BI, software development, and entreprise-grade engineering.
+Besides blockchain development, each member has 5+ years of experience in Computer Science in different areas such as BI, software development, and enterprise-grade engineering.
 
 ### Team Code Repos
 
