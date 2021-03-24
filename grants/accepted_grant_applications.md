@@ -253,7 +253,7 @@
 | [everstake](https://everstake.one/) | DKG msig wallet | [GitHub](https://github.com/everstake) | <ul><li>[ ] </li></ul> |  <ul><li>[ ] </li></ul> |  <ul><li>[ ] </li></ul> | 
 | [Coinversation](http://coinversation.cn/) | Decentralized exchange for trading synthetic assets | [GitHub](https://github.com/Coinversation) | <ul><li>[ ] </li></ul> |  <ul><li>[ ] </li></ul> |  <ul><li>[ ] </li></ul> | 
 | [Manta Network](https://www.manta.network/) | A Privacy Preserving Decentralized Exchange | [GitHub](https://github.com/Manta-Network) | <ul><li>[ ] </li></ul> |  <ul><li>[ ] </li></ul> |  <ul><li>[ ] </li></ul> | 
-| [Stake Technologies](https://stake.co.jp/en/) | ZK Rollups Pallet | [GitHub](https://github.com/staketechnologies) | <ul><li>[ ] </li></ul> |  <ul><li>[ ] </li></ul> |  <ul><li>[ ] </li></ul> | 
+| [Stake Technologies](https://stake.co.jp/en/) | ZK Rollups Pallet | [GitHub](https://github.com/staketechnologies) | <ul><li>[ ] </li></ul> |  <ul><li>[x] </li></ul> |  <ul><li>[ ] </li></ul> | 
 | [Apron Network](https://apron.network/) | Decentralized infrastructure provider | [GitHub](https://github.com/apron-network) | <ul><li>[ ] </li></ul> |  <ul><li>[ ] </li></ul> |  <ul><li>[ ] </li></ul> | 
 | [Pocket 4D](https://pocket4d.io) | Substrate Dart API client | [GitHub](https://github.com/Pocket4D) | <ul><li>[ ] </li></ul> |  <ul><li>[x] </li></ul> |  <ul><li>[ ] </li></ul> | 
 | [Listen](https://listen.io/) | Decentralized social network focusing on sound | [GitHub](https://github.com/ListenTeam) | <ul><li>[ ] </li></ul> |  <ul><li>[ ] </li></ul> |  <ul><li>[ ] </li></ul> | 
@@ -303,7 +303,7 @@
 | [Trust Fractal GmbH](https://trustfractal.com/) | ink! Smart Contract Upgradeability | [GitHub](https://github.com/trustfractal/ink-upgrade-template) | <ul><li>[ ] </li></ul> |  <ul><li>[ ] </li></ul> |  <ul><li>[ ] </li></ul> | 
 | [Starry Network](https://github.com/Starry-Network) | Splittable NFTs | [GitHub](https://github.com/Starry-Network) | <ul><li>[ ] </li></ul> |  <ul><li>[ ] </li></ul> |  <ul><li>[ ] </li></ul> | 
 | [Equilibrium](https://equilibrium.co/) | Research Storage Network| [GitHub](https://github.com/eqlabs) | <ul><li>[ ] </li></ul> |  <ul><li>[ ] </li></ul> |  <ul><li>[ ] </li></ul> | 
-| [DOT Mog](https://dotmog.com/) | Substrate based Unity3D Game  | [GitHub](https://github.com/dotmog) | <ul><li>[ ] </li></ul> |  <ul><li>[ ] </li></ul> |  <ul><li>[ ] </li></ul> | 
+| [DOT Mog](https://dotmog.com/) | Substrate based Unity3D Game  | [GitHub](https://github.com/dotmog) | <ul><li>[ ] </li></ul> |  <ul><li>[x] </li></ul> |  <ul><li>[ ] </li></ul> | 
 | [NewOmega](https://github.com/WiktorStarczewski/newomega.trinity ) | A blockchain game that can not be shut down | [GitHub](https://github.com/WiktorStarczewski/newomega.trinity ) | <ul><li>[ ] </li></ul> |  <ul><li>[ ] </li></ul> |  <ul><li>[ ] </li></ul> | 
 | [Bright Inventions](https://brightinventions.pl/) | Treasury Web application| [GitHub](https://github.com/bright/bright-tresury) | <ul><li>[ ] </li></ul> |  <ul><li>[ ] </li></ul> |  <ul><li>[ ] </li></ul> | 
 | [Standard protocol](https://github.com/digitalnativeinc/standard-substrate) | A collaterized algorithmic stablecoin protocol for synthetic assets | [GitHub](https://github.com/digitalnativeinc/standard-substrate) | <ul><li>[ ] </li></ul> |  <ul><li>[ ] </li></ul> |  <ul><li>[ ] </li></ul> | 
