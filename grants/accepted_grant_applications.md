@@ -118,7 +118,7 @@
 | [Papers GmbH](https://airgap.it) | AirGap - Desktop (+mobile) wallet for Polkadot | [GitHub](https://github.com/airgap-it) | <ul><li>[ ] </li></ul> |  <ul><li>[x] </li></ul> |  <ul><li>[x] </li></ul> | 
 | [Stake Technologies](https://stake.co.jp/) | Plasm Chain + OVM Implementation | [GitHub](https://github.com/staketechnologies/) | <ul><li>[ ] </li></ul> |  <ul><li>[x] </li></ul> |  <ul><li>[ ] </li></ul> | 
 | [Usetech](http://usetech.com/blockchain.html) | PostgreSQL Indexer and Consensus Insurer | [GitHub](https://github.com/usetech-llc/) | <ul><li>[ ] </li></ul> |  <ul><li>[x] </li></ul> |  <ul><li>[x] </li></ul> | 
-| [ACALA PTE. LTD.](https://acala.network/) | A decentralized stablecoin platform | [GitHub](https://github.com/AcalaNetwork) | <ul><li>[ ] </li></ul> |  <ul><li>[x] </li></ul> |  <ul><li>[x] </li></ul> | 
+| [Acala](https://acala.network/) | A decentralized stablecoin platform | [GitHub](https://github.com/AcalaNetwork) | <ul><li>[ ] </li></ul> |  <ul><li>[x] </li></ul> |  <ul><li>[x] </li></ul> | 
 | [ETCDEV](https://emeraldpay.io/) | Polkadot Network Crawler | [GitHub](https://github.com/emeraldpay) | <ul><li>[ ] </li></ul> |  <ul><li>[x] </li></ul> |  <ul><li>[x] </li></ul> | 
 | [Xaya](https://xaya.io/) | Decentralised Complex Gaming | [GitHub](https://github.com/xaya) | <ul><li>[ ] </li></ul> |  <ul><li>[x] </li></ul> |  <ul><li>[x] </li></ul> | 
 | [Celer](https://www.celer.network/) | Layer 2 Scaling Infrastructure | [GitHub](https://github.com/celer-network) | <ul><li>[ ] </li></ul> |  <ul><li>[x] </li></ul> |  <ul><li>[ ] </li></ul> | 
@@ -260,7 +260,7 @@
 | [Protofire](https://protofire.io/) | Polkadot Mempool Explorer | [GitHub](https://github.com/protofire) | <ul><li>[ ] </li></ul> |  <ul><li>[x] </li></ul> |  <ul><li>[ ] </li></ul> | 
 | [Fuzhou Wakanda Information Technology](https://www.heizuan.com/) | Black Diamond Wallet | [GitHub](https://github.com/bdwallet) | <ul><li>[ ] </li></ul> |  <ul><li>[ ] </li></ul> |  <ul><li>[ ] </li></ul> | 
 | [Konomi](http://konomi.network/) | Pool Lending Module | [GitHub](https://github.com/konomi-network) | <ul><li>[ ] </li></ul> |  <ul><li>[ ] </li></ul> |  <ul><li>[ ] </li></ul> | 
-| [ACALA PTE. LTD.](https://acala.network/) | Bodhi:Composable & Innovative Stack for EVM | [GitHub](https://github.com/AcalaNetwork/bodhi.js) | <ul><li>[ ] </li></ul> |  <ul><li>[x] </li></ul> |  <ul><li>[ ] </li></ul> | 
+| [Acala](https://acala.network/) | Bodhi:Composable & Innovative Stack for EVM | [GitHub](https://github.com/AcalaNetwork/bodhi.js) | <ul><li>[ ] </li></ul> |  <ul><li>[x] </li></ul> |  <ul><li>[ ] </li></ul> | 
 | [Pontem Network](https://pontem.network/) | Move smart contract pallet | [GitHub](https://github.com/dfinance) | <ul><li>[ ] </li></ul> |  <ul><li>[x] </li></ul> |  <ul><li>[ ] </li></ul> | 
 | [SpiderDAO](https://spiderdao.io) | Hardware-based DAO governance | [GitHub](https://github.com/SpiderDAO) | <ul><li>[ ] </li></ul> |  <ul><li>[ ] </li></ul> |  <ul><li>[ ] </li></ul> | 
 | [onfinality](https://onfinality.io) | Subquery: Open-source tool to process and query data | [GitHub](https://github.com/onfinality-io) | <ul><li>[ ] </li></ul> |  <ul><li>[x] </li></ul> |  <ul><li>[x] </li></ul> | 
