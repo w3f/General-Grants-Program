@@ -32,9 +32,15 @@ Candle auction is a variant of the English auction where the last part of the au
 
 This is a very popular auction type used by charities. Each participant will pay a "top-up fee" which is based on the bid he made minus the closest lower bid. This effectively means that each participant will pay the top-up fee except the first and the last bidder. The last bidder wins the auction, obtains the item, and only pays the item's price. We believe that bringing this kind of auction type enables entities to raise funds for good causes so that we can connect socially responsible projects with supporters and philanthropists.
 
-#### Governance & Content Curation
+#### Auction type generalization
+
+As the long-term goal is to support as many different types of auctions as possible, the application has to be flexible enough to provide an easy interface to plug them in. This will be made possible by making the solution more robust with its architecture overhaul. In order to achieve genericity, we want to create a higher level of abstraction and provide more suitable data structures.
+
+#### Governance and Content Curation
 
 As stated in the project overview, we're strong believers in the quality over quantity approach. We'd also like to re-introduce the concept of scarcity and exclusivity in the NFT space which is slowly fading out in the Ethereum world from our point of view. To make that happen, we'd set up DAO for content curation where we would initially serve as the curators to avoid possible abusive content and eventually allow the community to participate.
+
+We plan to leverage most of the governance features available on Polkadot. The first cornerstone of governance will be the council who will be voted on and will be deciding in referenda on the shape of the application - its modules, features, and functionality. The second cornerstone will be voted content curators who will be delegated from the council to approve or reject public proposals from the community, manage auctions and provide the optimal level of content safety and creativity. 
 
 #### Business Model Mechanics
 
@@ -46,7 +52,11 @@ Finally, we need an easy and enjoyable user interface so we can develop a long-t
 
 ### Ecosystem Fit
 
-We aim to build a consumer-facing application that possibly integrates with already being developed NFT infrastructure projects and allows creating and bidding on NFT auctions of different auction types. The point is to provide easy integration to existing NFT implementations that can be re-used across the whole ecosystem. Also, there will be different auction types and some of them have never been implemented in the Polkadot space so it's definitely something that will push the whole ecosystem forward and we might even find some other means of token distribution models that can benefit all the projects (for example adjustments to the Dutch auction). 
+We aim to build a consumer-facing application that possibly integrates with already being developed NFT infrastructure projects and allows creating and bidding on NFT auctions of different auction types. The point is to provide easy integration to existing NFT implementations that can be re-used across the whole ecosystem. Also, there will be different auction types and some of them have never been implemented in the Polkadot space so it's definitely something that will push the whole ecosystem forward and we might even find some other means of token distribution models that can benefit all the projects (for example adjustments to the Dutch auction).
+
+### NFT integration
+
+There are multiple different approaches to NFT implementation on the market with no official standard set in stone yet on Polkadot. We want to keep our solution as flexible as possible and have the ability to be integrated with a broad spectrum of NFTs. At this point, the closest resemblance of an NFT standard we could find was the ORML by Acala so we started and will continue building based on this library. On the other hand it should be easy in the future to migrate the solution to a different kind of NFT implementation or a Polkadot standard.
 
 ## Team :busts_in_silhouette:
 
@@ -92,7 +102,7 @@ Besides blockchain development, each member has 5+ years of experience in Comput
 
 ### Milestone 0: Implement Auction Type Generalisation + UI wireframes
 
-See Auction Type Generalisation for definitions.
+See [Auction Type Generalization](#auction-type-generalization) for definitions.
 
 - **Estimated Duration:** 2-4 weeks
 - **FTE:** 3.5
@@ -131,7 +141,7 @@ See [Candle Auction Type](#candle-auction-type) and [Top-up Auction Type](#top-u
 
 ### Milestone 3: Governance & Content Curation
 
-See [Governance & Content Curation](#governance-&-content-curation) for definitions.
+See [Governance and Content Curation](#governance-and-content-curation) for definitions.
 
 - **Estimated Duration:** 2-4 weeks
 - **FTE:** 3.5
