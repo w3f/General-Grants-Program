@@ -178,7 +178,7 @@
 | [TerenceGe](https://github.com/TerenceGe) | C implementation of Schnorrkel | [GitHub](https://github.com/TerenceGe/sr25519-donna) | <ul><li>[ ] </li></ul> |  <ul><li>[x] </li></ul> |  <ul><li>[x] </li></ul> | 
 | [Adoriasoft](https://adoriasoft.com/) | Cosmos-SDK Parachain Development Kit | [GitHub](https://github.com/adoriasoft/cosmos-sdk) | <ul><li>[ ] </li></ul> |  <ul><li>[x] </li></ul> |  <ul><li>[x] </li></ul> | 
 | [Laminar One](https://laminar.one/) | Reusable Libraries: Runtime Modules + Monitoring Framework | [GitHub](https://github.com/open-web3-stack) | <ul><li>[ ] </li></ul> |  <ul><li>[x] </li></ul> |  <ul><li>[ ] </li></ul> | 
-| [Faber](https://github.com/yxf) | Subwallet: CLI wallet for Polkadot/Substrate | [GitHub](https://github.com/yxf/subwallet) | <ul><li>[ ] </li></ul> |  <ul><li>[x] </li></ul> |  <ul><li>[x] </li></ul> | 
+| [UniArts](https://uniarts.network) | Subwallet: CLI wallet for Polkadot/Substrate | [GitHub](https://github.com/uni-arts-chain/subwallet) | <ul><li>[ ] </li></ul> |  <ul><li>[x] </li></ul> |  <ul><li>[x] </li></ul> | 
 | [Equilibrium.co](https://equilibrium.co/) | offchain::ipfs | [GitHub](https://github.com/eqlabs) | <ul><li>[ ] </li></ul> |  <ul><li>[x] </li></ul> |  <ul><li>[x] </li></ul> | 
 | [Snowfork](http://www.snowfork.com/) | Ethereum Bridge | [GitHub](https://github.com/snowfork) | <ul><li>[ ] </li></ul> |  <ul><li>[x] </li></ul> |  <ul><li>[ ] </li></ul> | 
 | [Lunie](http://lunie.io/) | Lunie Governance integration | [GitHub](https://github.com/luniehq/lunie) | <ul><li>[ ] </li></ul> |  <ul><li>[x] </li></ul> |  <ul><li>[x] </li></ul> | 
