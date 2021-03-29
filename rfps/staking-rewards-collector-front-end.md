@@ -14,6 +14,8 @@ The backend is already written in javascript, this should make it quite easy to 
 
 ## Deliverables :nut_and_bolt:
 
+In order to apply for the project, we will require you to propose the design in the form of mock-ups.
+
 - **Implementation of a user interface**:
   - **Query input parameters (from the users)**:
     - Addresses (multiple ones are supported by the code).
@@ -39,25 +41,13 @@ The backend is already written in javascript, this should make it quite easy to 
 
 * **Total Estimated Duration:** 3 Weeks
 * **Full-time equivalent (FTE):**  15 days
-* **Total Costs:** 3600 USD
+* **Total Costs:** 4000 USD (provisional)
 
-### Milestone 1 (Planning)
-
-* **Estimated Duration:** 3 days
-* **FTE:**  3
-* **Costs:** 720 USD
-
-
-| Number | Deliverable | Specification | 
-| ------------- | ------------- | ------------- |
-| 1. | Mockups | Mocking the UI and the user flow. |  
-| 2.  | Adjustments | Reach out for feedback to the Grants Team. Based on feedback, make adjustments. | 
-
-### Milestone 2 (Implementation)
+### Milestone 1 (Implementation)
 
 * **Estimated Duration:** 9 days
 * **FTE:**  9
-* **Costs:** 2160 USD
+* **Costs:** 3500 USD
 
 
 | Number | Deliverable | Specification | 
@@ -68,11 +58,11 @@ The backend is already written in javascript, this should make it quite easy to 
 | 4.  | Internal testing  | Unit tests covering the functionality and logic | 
 
 
-### Milestone 3 (Testing)
+### Milestone 2 (Testing)
 
-* **Estimated Duration:** 3
+* **Estimated Duration:** 3 days
 * **FTE:**  3 days
-* **Costs:** 720 USD
+* **Costs:** 500 USD
 
 
 | Number | Deliverable | Specification | 
