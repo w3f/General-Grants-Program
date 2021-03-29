@@ -1,31 +1,84 @@
-# Title of the RFP Proposal
+# Front-End for Staking Rewards Collector
 
-* **Status:** Open (anyone is allowed to apply) / Closed (invited respondents only) / Implemented (finished)
-* **Proposer:** GitHub username
-* **Your Project(s):** [optional]: Link(s)
-* **Projects you think this work could be useful for** [optional]: Link(s)
-* **Teams/People that could deliver the RFP** [optional]: Link(s)
+* **Status:** Open 
+* **Proposer:** JonasW3F
+* **Your Project(s):** -
+* **Projects you think this work could be useful for** Staking operations of all nominators and validators.
+* **Teams/People that could deliver the RFP** -
 
 ## Project Description :page_facing_up: 
 
-Please describe exactly why you are proposing this RFP. Make sure to point out why it’s potentially useful for your project or other projects in the ecosystem.  
+The [staking-rewards-collector](https://github.com/w3f/staking-rewards-collector) is a tool to gather staking rewards for given addresses and cross-reference those with daily price data. This is a very useful tool for every validator and nominator in the ecosystem. However, since it has currently a CLI and requires some technical knowledge to set up (git, nodejs, yarn). A front-end hosted on a website could help many users getting access to this tool and enjoy the benefits. 
+
+The backend is already written in javascript, this should make it quite easy to host as a website and develope a front-end. 
 
 ## Deliverables :nut_and_bolt:
 
-Please list the deliverables of the project in as much detail as possible. Please also estimate the amount of work required and try to divide the project into meaningful milestones.
+- **Implementation of a user interface**:
+  - **Query input parameters (from the users)**:
+    - Addresses (multiple ones are supported by the code).
+    - Start and end date 
+    - Does the user want price data linked to staking rewards?
+    - What are the startBalances of each address?
 
-* **Total Estimated Duration:** Duration of the whole project
-* **Full-time equivalent (FTE):**  Amount of time (in days) required for a single person to complete this project ([see](https://en.wikipedia.org/wiki/Full-time_equivalent)) 
-* **Total Costs:** Amount of Payment in USD for the whole project. 
-### Milestone 1
+  - **Data output viewer**:
+    - The code produces a .csv and .json file which should be displayed in the browser.
+    - Visualization for the varying number of input addresses.
+    - Some sorting based on network / amount.
+    - Search for specific entries like dates.
+    - Option to download to local storage.
+  - **Help page / buttons:**
+    - Both the input query and output viewer should have several help buttons to give explanations for all users. 
 
-Please add additional milestones in the same way: 
-* **Estimated Duration:** Duration of milestone 1 
-* **FTE:**  Amount of time (in days) required for a single person to complete this milestone
-* **Costs:** Amount of Payment in USD for milestone 1
+- **Compatibility**:
+  - It should be easy to extend the underlying script and the UI should be flexible enough to incorporate that (e.g., adding another column in the data output).
+- **Hosting**
+    - Centralized and preferably decentralized (IPFS).
+- **Testing**
+    - Test if the code behaves as expected.
+
+* **Total Estimated Duration:** 3 Weeks
+* **Full-time equivalent (FTE):**  15 days
+* **Total Costs:** 3600 USD
+
+### Milestone 1 (Planning)
+
+* **Estimated Duration:** 3 days
+* **FTE:**  3
+* **Costs:** 720 USD
 
 
 | Number | Deliverable | Specification | 
 | ------------- | ------------- | ------------- |
-| 1. | Title of the deliverable | Please describe the deliverable here as detailed as possible |  
-| 2.  | ... |...| 
+| 1. | Mockups | Mocking the UI and the user flow. |  
+| 2.  | Adjustments | Based on feedback, make adjustments. | 
+
+### Milestone 2 (Implementation)
+
+* **Estimated Duration:** 9 days
+* **FTE:**  9
+* **Costs:** 2160 USD
+
+
+| Number | Deliverable | Specification | 
+| ------------- | ------------- | ------------- |
+| 1. | UI for user input | Develop an UI to request necessary data from the users. |  
+| 2.  | UI for data visualizer  | Develop an environment to display the output (.csv and .json) for the end user in a pleasurable way. | 
+| 3.  | Help pages / comments  | Implement help texts and descriptions for users. | 
+| 4.  | Internal testing  | Test the code. | 
+
+
+### Milestone 3 (Testing)
+
+* **Estimated Duration:** 3
+* **FTE:**  3 days
+* **Costs:** 720 USD
+
+
+| Number | Deliverable | Specification | 
+| ------------- | ------------- | ------------- |
+| 1. | Deployment | Deploy the code on centralized server and IPFS. |  
+| 2. | Test live environment | Test the homepage with various different OS and browsers. | 
+| 3. | Polishing | Integrate final feedback on small changes like font size, colors, typos etc. | 
+
+
