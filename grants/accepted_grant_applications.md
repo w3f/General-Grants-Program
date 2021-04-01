@@ -22,6 +22,7 @@
   - [:surfing_woman: Wave 8 - Fourth Quarter 2020](#surfing_woman-wave-8---fourth-quarter-2020)
 - [2021](#2021)
   - [:surfing_woman: Wave 9 - First Quarter 2021](#surfing_woman-wave-9---first-quarter-2021)
+  - [:surfing_woman: Wave 10 - Second Quarter 2021](#surfing_woman-wave-10---second-quarter-2021)
 
 # 2019
 
@@ -326,4 +327,6 @@
 | [Chevdor](https://www.chevdor.com/) | SRTOOL App | [GitLab](https://gitlab.com/chevdor/srtool-app) | <ul><li>[ ] </li></ul> |  <ul><li>[ ] </li></ul> |  <ul><li>[ ] </li></ul> | 
 | [Bit.Country](http://bit.country/) | A decentralized world - Phase 2 | [GitHub](https://github.com/bit-country) | <ul><li>[ ] </li></ul> |  <ul><li>[ ] </li></ul> |  <ul><li>[ ] </li></ul> | 
 | [Vera](https://veraprotocol.org/) | NFT Lending	+ Exchange | [GitHub](https://github.com/veraprotocol) | <ul><li>[ ] </li></ul> |  <ul><li>[ ] </li></ul> |  <ul><li>[ ] </li></ul> | 
+| [Parallel Finance](https://parallel.fi/#/) | Decentralized lending/borrowing and staking protocol | [GitHub](https://github.com/parallel-finance/parallel) | <ul><li>[ ] </li></ul> |  <ul><li>[ ] </li></ul> |  <ul><li>[ ] </li></ul> | 
 
+## :surfing_woman: Wave 10 - Second Quarter 2021
