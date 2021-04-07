@@ -1,7 +1,7 @@
 # General Grants Program <!-- omit in toc -->
 
 <p align="center">
-  <img src="src/General_Grants_Program.png" style="width:1300px";>
+  <img src="../src/General_Grants_Program.png" style="width:1300px";>
 </p>
 
 **:loudspeaker: Important:** The Web3 Foundation _General Grants_ Program focuses on technology grants which teams wish to keep **private**, need to be **paid out in fiat** or are **larger than $30,000**.
@@ -119,7 +119,7 @@ If you have an idea for a project but lack the technical background to create a 
 
 ### Additional information
 
-| <img src="src/web.png?s=50" width="50"> | <img src="src/twitter.png?s=50" width="50"> | <img src="src/medium.png?s=50" width="50"> | <img src="src/like.png?s=50" width="50"> | <img src="src/reddit.png?s=50" width="50"> | <img src="src/youtube-play.png?s=50" width="50"> |
+| <img src="../src/web.png?s=50" width="50"> | <img src="../src/twitter.png?s=50" width="50"> | <img src="../src/medium.png?s=50" width="50"> | <img src="../src/like.png?s=50" width="50"> | <img src="../src/reddit.png?s=50" width="50"> | <img src="../src/youtube-play.png?s=50" width="50"> |
 | :-: | :-: | :-: | :-: | :-: | :-: |
 | [W3F Website](https://web3.foundation) | [W3F Twitter](https://twitter.com/web3foundation) | [W3F Medium](https://medium.com/web3foundation) | [Polkadot Wiki](https://wiki.polkadot.network/en/) | [Web 3.0 Reddit](https://www.reddit.com/r/web3) | [W3F YouTube](https://www.youtube.com/channel/UClnw_bcNg4CAzF772qEtq4g) |
 
