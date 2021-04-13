@@ -1,5 +1,6 @@
 # RFP: Substrate Identity Directory
 
+* **Status:** Open
 * **Proposer:** swader
 * **Projects you think this work could be useful for**: Kusama, Polkadot, Substrate chains
 * **Teams/People that could deliver the RFP**: Shardlabs.io

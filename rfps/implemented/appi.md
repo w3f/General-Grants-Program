@@ -1,5 +1,6 @@
 # APPI: Auto-funded public P2P infrastructure
 
+* **Status:** [Implemented](https://github.com/nodefactoryio/vedran)
 * **Proposer:** [swader](https://github.com/swader)
 * **Projects you think this work could be useful for**: https://kusama.network, https://polkadot.network
 

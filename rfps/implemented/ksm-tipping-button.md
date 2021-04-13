@@ -1,5 +1,6 @@
 # Tip or Donate KSM Embeddable Button
 
+* **Status:** [Implemented](https://github.com/Shard-Labs/kusama-tips-widget)
 * **Proposer:** swader
 
 ## Project Description :page_facing_up: 
