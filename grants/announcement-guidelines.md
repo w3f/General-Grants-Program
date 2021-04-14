@@ -18,7 +18,7 @@ We also cross-promote the most recent projects and their milestones on the secon
 - The post should include a link to a GitHub repository or elsewhere to showcase what's been built so far.
 - Suggested flow for the post:
   - This is what the team has built so far.
-  - These are the team's plans to continue development.
+  - These are the team's future development plans.
   - This is how the technology will contribute to the Polkadot ecosystem.
 
 ## Key components
