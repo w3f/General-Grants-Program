@@ -5,7 +5,7 @@
 </p>
 
 > **:loudspeaker:** The Web3 Foundation _General Grants_ Program focuses on technology grants which teams wish to keep **private**, need to be **paid out in fiat** or are **larger than $30,000**.
-
+>
 > We ask teams to first consider applying via the [:arrow_right: _Open Grants_ Program](https://github.com/w3f/Open-Grants-Program), which has **faster processing times** and provides grants of up to $30,000 for initial applications and $100,000 for follow-up ones. Please consider applying via Open Grants no matter the scope of your project.
 
 ---
@@ -22,6 +22,7 @@
 - [:rocket: Alternative Funding Sources](#rocket-alternative-funding-sources)
   - [Treasury](#treasury)
   - [Open Grants Program](#open-grants-program)
+  - [Hackathons](#hackathons)
   - [Other Grant Programs](#other-grant-programs)
 
 ## :wave: Introduction
@@ -52,23 +53,31 @@ Generally, your project will have better chances to get accepted if:
 
 Additionally, it must fulfill the following requirements:
 
-- All code produced as part of a grant must be **open-sourced**, and it must also not rely on closed-source software for full funcionality. We prefer Apache 2.0, but GPLv3 or Unlicense are also acceptable.
+- All code produced as part of a grant must be **open-sourced**, and it must also not rely on closed-source software for full funcionality. We prefer Apache 2.0, but GPLv3, MIT or Unlicense are also acceptable.
 - We do not award grants for projects that have been the object of a successful token sale.
 - Lastly, we do not fund projects that actively encourage gambling, illicit trade, money laundering or criminal activities in general.
 
 In addition to the information provided on your application, note that your project will need to comply with our [Guidelines for Milestone Deliverables](grants/milestone-deliverables-guidelines.md). In particular, we require all projects to create documentation that explains how their project works. At a minimum, _written_ documentation is required for funding. Tutorials or videos are also helpful for new users to understand how to use your product. If your team's background is purely technical, consider hiring a freelance or part-time technical writer as part of the grant.
 
+We also have [Announcement Guidelines](grants/announcement-guidelines.md) for grant-related communications.
+
+Finally, we take licensing and the right of all teams in and outside the ecosystem to be recognised for their work very seriously. Using others' work with no attribution or indication that this was not your own work as part of a milestone delivery **will lead to immediate termination**. Please reach out to us before submitting if you have any doubts on how to comply with a specific license and we'll be happy to help.
+
 ### Project ideas
 
-[Requests For Proposals](rfps) (RFPs) represent ideas for projects that we would like to see implemented. Several teams may apply for the same RFP, out of which one or more strong applications will be selected. So even if another team has already applied to implement a certain RFP, we encourage you to still apply if you are interested.
-
 An overview of existing projects in the Web 3.0 Technology Stack along with broad project ideas we would potentially be interested in funding can be found [here](grants/polkadot_stack.md), as well as a list of previously accepted applications [here](grants/accepted_grant_applications.md). Additionally, the Substrate Builders [feedback board](https://feedback.parity.io/) may contain some useful ideas for grant projects.
+
+[Requests For Proposals](rfps) (RFPs) represent concrete ideas for projects that we would like to see implemented. Several teams may apply for the same RFP, so even if another team has already applied to implement a certain RFP, we invite you to do the same if you're interested.
+
+Finally, you don't need to start your own project in order to be elligible for a grant. Instead, some teams choose to port existing work to Substrate, where the pertinent licenses allow, or even to contribute to an existing open-source project. In the latter case, you should check in advance that the maintainers of the project are interested in your contribution, and the acceptance of the milestones will generally be tied to the inclusion of your work in said project.
 
 If you have a **good concept of the technical challenges** that your idea entails and would like feedback before applying, you can send us an [email](mailto:grants@web3.foundation) and tell us about it.
 
 ### Support
 
 The scope of our Grants Programs consists of funding and feedback on delivered milestones. This means that we do not provide hands-on support as part of a grant, but if you face specific issues during development, we will do our best and try to direct you to the correct resources. If this sounds like something you would like however, you may also want to apply to Parity's [Substrate Builders Program](https://www.substrate.io/builders-program/), which provides hands-on technical, ecosystem and strategical long-term support and access to extensive resources.
+
+For questions about the grants program itself, see our [FAQ](grants/faq.md#frequently-asked-questions).
 
 ## :pencil: Process  
 
@@ -83,9 +92,9 @@ The scope of our Grants Programs consists of funding and feedback on delivered m
         2. In the newly created fork, create a copy of the application template ([`grants/grant_application_template.md`](grants/grant_application_template.md)). If you're using the GitHub web interface, you will need to create a new file and copy the [contents](https://raw.githubusercontent.com/w3f/General-Grants-Program/master/grants/grant_application_template.md) of the template inside the new one. Make sure you **do not modify the template file directly**. Name the new file after your project: `project_name.md`.
             - In the few cases where your application is in response to a specific RFP, you should create the file inside the [`rfp-responses`](grants/rfp-responses) folder.
             - All other applications go into the [`speculative`](grants/speculative) folder.
-        3. Fill out the template with the details of your project. The more information you provide, the faster the review.
+        3. Fill out the template with the details of your project. The more information you provide, the faster the review. To get an idea of what a strong application looks like, you can have a look at the following examples:  [1](https://github.com/w3f/Open-Grants-Program/blob/master/applications/project_aurras_mvp_phase_1.md), [2](https://github.com/w3f/Open-Grants-Program/blob/master/applications/project_bodhi.md), [3](https://github.com/w3f/Open-Grants-Program/blob/master/applications/pontem.md), [4](https://github.com/w3f/Open-Grants-Program/blob/master/applications/spartan_poc_consensus_module.md). Naturally, if you're only applying for a smaller grant that only consists of, say, UI work, you don't need to provide as much detail.
         4. Once you're done, create a pull request. The pull request should only contain _one new file_—the Markdown file you created from the template.
-        5. You will see a comment [template](.github/PULL_REQUEST_TEMPLATE.md) that requests an abstract of the project and provides a checklist. Please complete these as appropriate.
+        5. You will see a comment [template](.github/PULL_REQUEST_TEMPLATE.md) that requests an abstract of the project and provides a checklist. Please complete these as appropriate. You can tick the items in the checklist once the PR has been created.
     2. Fill out the General Grants application form [:arrow_right: here](https://docs.google.com/forms/d/e/1FAIpQLSfMfjiRmDQDRk-4OhNASM6BAKii7rz_B1jWtbCPkUh6N7M2ww/viewform).
 
 2. **Application Review**
@@ -148,8 +157,7 @@ Our [Open Grants Program](https://github.com/w3f/Open-Grants-Program) is suited 
 
 ### Hackathons
 
-From time to time, Web3 Foundation and/or Parity organise hackathons to promote quick prototyping of your Polkadot related ideas.
-We highly encourage you to participate in these hackathons. Bear in mind, however, that you cannot submit the **same work** for a hackathon and the Grants Program. If you have worked on a project for a hackathon, your grant application should either propose a new set of features or otherwise build on top of your previous work. The same applies in reverse, although that will likely be less common.
+From time to time, Web3 Foundation and/or Parity organise hackathons to promote quick prototyping of Polkadot related ideas. We highly encourage you to participate in these hackathons. Bear in mind, however, that you cannot submit the **same work** for a hackathon and the Grants Program. If you have worked on a project for a hackathon, your grant application should either propose a new set of features or otherwise build on top of your previous work. The same applies in reverse, although that will likely be less common.
 
 ### Other Grant Programs
 
@@ -162,4 +170,4 @@ Below is a list of other grant programs in the Polkadot/Substrate ecosystem:
 
 ## :information_source: License <!-- omit in toc -->
 
-[Apache License 2.0](LICENSE) © Web3 Foundation.
+[Apache License 2.0](LICENSE) © Web3 Foundation
