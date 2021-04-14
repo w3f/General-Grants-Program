@@ -26,7 +26,7 @@ We also cross-promote the most recent projects and their milestones on the secon
 1. A blog post header image
 
    - An image helps when sharing the announcement on social networks. It's more prominent in feeds and looks more professional.
-   - Images ideas include showing how W3F or Polkadot fits into your flow. Or you can simply put the teams' logos next to each other.
+   - Image ideas include showing how W3F or Polkadot fit into your flow. Or you can simply put the teams' logos next to each other.
 
 2. About your team
 
