@@ -4,7 +4,7 @@
 
 Web3 Foundation (W3F) collaborates with many teams and organizations throughout the ecosystem. We often receive requests to participate in project announcements. Unfortunately, due to the high volume of requests, we rarely do joint announcements and do not provide quotes.
 
-In the context of the grants programs, we ask teams to refrain from making any announcements before **the first milestone has been accepted** and reserve the right to use infrigements to this directive as an argument for termination. This is in order to protect the community from projects that only intend to use the grant announcement to raise funds and/or interest but don't intend to deliver on the application, which has unfortunately happened in the past.
+In the context of the grants programs, we ask teams to refrain from making any announcements before **the first milestone has been accepted** and reserve the right to use infringements to this directive as an argument for termination. This is in order to protect the community from projects that only intend to use the grant announcement to raise funds and/or interest but don't intend to deliver on the application, which has unfortunately happened in the past.
 
 Once you have completed your milestone, we'll be happy to collaborate by reviewing and proofreading your blogpost. When you have drafted your announcement, send it to your contact at W3F Grants/Collaborations and add grantsPR@web3.foundation in CC. Please allow 1-3 working days where possible for proofreading articles, and wait until the milestone has been accepted to publish it.
 
