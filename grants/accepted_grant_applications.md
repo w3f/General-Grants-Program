@@ -1,9 +1,9 @@
 # Accepted Grant Applications <!-- omit in toc -->
 
 > **:loudspeaker:** This page provides an overview of accepted grant applications, their progress and a link to their GitHub repositories. In cases where the link points to an organization, you should be aware that the grant application itself **is often an independent project unrelated to other work done by the teams**.
-
+>
 > Furthermore, the page lists terminations which happened due to a breach of the terms of the grants programs. Additionally, teams might have decided to stop working on the grant—though not necessarily on the project itself—for various reasons, which is not reflected on this sheet.
-
+>
 > Besides, **there is a clear difference between an application being accepted and the successful delivery of the respective project**, and only teams that have successfully delivered a milestone are allowed to make public announcements on the matter or to use our [badge](https://github.com/w3f/General-Grants-Program/blob/master/grants/grant-badge-guidelines.md). The badge can also never be used as a general endorsement for a team. Violations to this policy can be reported [here](mailto:grants@web3.foundation).
 
 ---
@@ -311,7 +311,7 @@
 | [Skye Kiwi](https://skye.kiwi/) | SkyePass: A decentralized, open source password manager | [GitHub](https://github.com/skyekiwi) | <ul><li>[ ] </li></ul> |  <ul><li>[ ] </li></ul> |  <ul><li>[ ] </li></ul> | 
 | [RidOne Technologies](https://github.com/RidOne-technologies) | Polkadot UI Web + Angular Identicon | [GitHub](https://github.com/RidOne-technologies) | <ul><li>[ ] </li></ul> |  <ul><li>[ ] </li></ul> |  <ul><li>[ ] </li></ul> | 
 | [Zeropool](https://zeropool.network/) | Private transactions on Polkadot Phase 2 | [GitHub](https://github.com/zeropoolnetwork) | <ul><li>[ ] </li></ul> |  <ul><li>[ ] </li></ul> |  <ul><li>[ ] </li></ul> | 
-| [Forge Labs](https://forgelab.io/) | Quadratic Funding Module and Dapp Application | [GitHub](https://github.com/rsksmart) | <ul><li>[ ] </li></ul> |  <ul><li>[ ] </li></ul> |  <ul><li>[ ] </li></ul> | 
+| [OAK Foundation](https://oak.tech) | Quadratic Funding Module and Dapp Application | [GitHub](https://github.com/OAK-Foundation/) | <ul><li>[ ] </li></ul> |  <ul><li>[ ] </li></ul> |  <ul><li>[ ] </li></ul> | 
 | [Commonwealth Labs](https://commonwealth.im/) | Webb Mixer| [GitHub](https://github.com/edgeware-builders) | <ul><li>[ ] </li></ul> |  <ul><li>[ ] </li></ul> |  <ul><li>[ ] </li></ul> | 
 | [TEA Project](http://teaproject.org/) | Gluon - Decentralized Hardware Crypto Wallet Services | [GitHub](https://github.com/tearust) | <ul><li>[ ] </li></ul> |  <ul><li>[x] </li></ul> |  <ul><li>[ ] </li></ul> | 
 | [Cycan Technologies](http://cycan.network/) | Everlasting Cash: A hybrid of a crypto-collateralized and an algorithmic stablecoin | [GitHub](https://github.com/CycanTech) | <ul><li>[ ] </li></ul> |  <ul><li>[ ] </li></ul> |  <ul><li>[ ] </li></ul> | 
