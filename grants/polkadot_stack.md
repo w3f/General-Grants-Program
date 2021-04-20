@@ -11,7 +11,7 @@ This is a living document and we are relying on our community to contribute to i
 - [:bookmark_tabs: Layers of Polkadot Stack](#bookmark_tabs-layers-of-polkadot-stack)
   - [:iphone: Explorer and Wallets](#iphone-explorer-and-wallets)
   - [:wrench: Tools, APIs and Languages](#wrench-tools-apis-and-languages)
-  - [:link: Chains and Modules](#link-chains-and-modules)
+  - [:link: Chains, Modules and Smart Contracts](#link-chains-modules-and-smart-contracts)
   - [:black_circle: Host](#black_circle-host)
   - [:electric_plug: Network Maintenance Tools](#electric_plug-network-maintenance-tools)
   - [:black_nib: Signatures](#black_nib-signatures)
@@ -89,10 +89,10 @@ In the below sections you can find a list of different layers of the Polkadot St
 | Testing | [Halva](https://github.com/orgs/halva-suite), [Redspot](https://github.com/patractlabs/redspot), [MixBytes Tank](https://github.com/mixbytes/tank), [sub-flood](https://github.com/NikVolf/sub-flood), [Substrate debug-kit](https://github.com/paritytech/substrate-debug-kit), [Polkadot Launch](https://github.com/paritytech/polkadot-launch)
 | Blockchain Indexing Engine | [Substrate Archive](https://github.com/paritytech/substrate-archive), [PSQL Indexer](https://github.com/usetech-llc/polkadot_psql_indexer), [Polkadothub Indexer](https://github.com/figment-networks/polkadothub-indexer), [Substrate Graph](https://github.com/playzero/substrate-graph), [Hydra](https://github.com/Joystream/hydra), [Subquery](https://github.com/OnFinality-io/subql) |
 | Blockchain/Event Monitoring | [Web3 Guardian](https://github.com/open-web3-stack/guardian), [Aurras Event Manager](https://github.com/HugoByte/aurras-event-manager) |
-| Gaming | [Mobile Game Framework for Substrate](https://github.com/creator-rs/creator/) |
+| Gaming | [Mobile Game Framework for Substrate](https://github.com/creator-rs/creator/) | [Amethyst](https://amethyst.rs/) + [Substrate](https://substrate.dev/)
 | Other | [open-web3 JS library](https://github.com/open-web3-stack/open-web3.js)
 
-### :link: Chains and Modules
+### :link: Chains Modules and Smart Contracts
 
 | Components | Existing projects | Potentially interesting projects
 |-|-|-
@@ -113,7 +113,7 @@ In the below sections you can find a list of different layers of the Polkadot St
 | Messaging | [HOPR](https://github.com/validitylabs/HOPR-PL-Substrate), [Mailchain](https://github.com/mailchain)
 | File Storage, Cloud | [DatDot](https://github.com/playproject-io/datdot), [Crust Network](https://github.com/crustio), [offchain::ipfs](https://rs-ipfs.github.io/offchain-ipfs-manual/)
 | Name Service| [Substrate Names](https://github.com/xaya/substrate-names), [ENS on Substrate](https://github.com/hskang9/substrate-name-service)
-| Gaming | | [Amethyst](https://amethyst.rs/) + [Substrate](https://substrate.dev/)
+| Gaming | [Bit.country](https://github.com/bit-country/Bit-Country-Blockchain), [NewOmega](https://github.com/WiktorStarczewski/newomega.polkadot) | 
 | Computation |
 | Enable specific use-cases | [Robonomics](https://github.com/airalab/substrate-node-robonomics)
 | NFT | [FRAME Pallet: NFTs for Substrate](https://github.com/danforbes/pallet-nft), [NFT Parachain by usetech](https://github.com/w3f-community/nft_parachain)
