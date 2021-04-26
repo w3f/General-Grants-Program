@@ -76,10 +76,10 @@ IBC is an important component of Cosmos SDK that is used for interblockchain com
 
 ### Team members
 
-* Oleksandr Marukhnenko - Team Leader
-* Alex Pozhylenkov - Blockchain Engineer
-* David Knyshenko - Blockchain Engineer
-* Marianna Yasko - Blockchain Engineer
+* Oleksandr Marukhnenko - Team Leader (https://github.com/Mar-Alex)
+* Alex Pozhylenkov - Blockchain Engineer (https://github.com/Mr-Leshiy)
+* David Knyshenko - Blockchain Engineer (https://github.com/enfipy)
+* Marianna Yasko - Blockchain Engineer (https://github.com/maryjanyes)
 
 ### Team Website 
 
