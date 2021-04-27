@@ -342,6 +342,7 @@
 | [Find Signal Studio PTE. LTD.](https://yieldscan.app/) | YieldScan Phase 2 | [GitHub](https://github.com/yieldscan) | <ul><li>[ ] </li></ul> |  <ul><li>[ ] </li></ul> |  <ul><li>[ ] </li></ul> |
 | [PolkaMusic](https://polkamusic.io/) | Operating decentralized music businesses on blockchain | [GitHub](https://github.com/polkamusic/PolkaMusic) | <ul><li>[ ] </li></ul> |  <ul><li>[ ] </li></ul> |  <ul><li>[ ] </li></ul> |
 | [element36](https://element36.io) | FIAT on-off-ramp | [GitHub](https://github.com/element36-io) | <ul><li>[ ] </li></ul> |  <ul><li>[ ] </li></ul> |  <ul><li>[ ] </li></ul> | 
+| [Zondax](https://zondax.ch/) | Ledger Asset App | [GitHub](https://github.com/Zondax) | <ul><li>[ ] </li></ul> |  <ul><li>[ ] </li></ul> |  <ul><li>[ ] </li></ul> | 
 
 
 
