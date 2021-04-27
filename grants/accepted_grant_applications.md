@@ -250,7 +250,7 @@
 | [SubDAO Labs](https://www.subdao.network/) | SubDAO is a Cross-chain Platform to link DAO and DApp on Polkadot | [GitHub](https://github.com/subdao-network) | <ul><li>[ ] </li></ul> |  <ul><li>[ ] </li></ul> |  <ul><li>[ ] </li></ul> | 
 | [Idavoll Network](https://idavoll.network/) | Decentralized organization platform | [GitHub](https://github.com/idavollnetwork) | <ul><li>[ ] </li></ul> |  <ul><li>[ ] </li></ul> |  <ul><li>[ ] </li></ul> | 
 | [Zenlink](https://zenlink.pro/) | DEX Ink! smart contract | [GitHub](https://github.com/zenlinkpro/zenlink_dex_module) | <ul><li>[ ] </li></ul> |  <ul><li>[ ] </li></ul> |  <ul><li>[ ] </li></ul> | 
-| [Setheum](https://setheum.xyz/) | Setheum Elastic Reserve Protocol | [GitHub](https://github.com/Setheum-Labs/Setheum) | <ul><li>[ ] </li></ul> |  <ul><li>[ ] </li></ul> |  <ul><li>[ ] </li></ul> | 
+| [Setheum](https://setheum.xyz/) | Setheum Elastic Reserve Protocol | [GitHub](https://github.com/Setheum-Labs/Setheum) | <ul><li>[x] </li></ul> |  <ul><li>[ ] </li></ul> |  <ul><li>[ ] </li></ul> | 
 | [everstake](https://everstake.one/) | DKG msig wallet | [GitHub](https://github.com/everstake) | <ul><li>[ ] </li></ul> |  <ul><li>[ ] </li></ul> |  <ul><li>[ ] </li></ul> | 
 | [Coinversation](http://coinversation.cn/) | Decentralized exchange for trading synthetic assets | [GitHub](https://github.com/Coinversation) | <ul><li>[ ] </li></ul> |  <ul><li>[ ] </li></ul> |  <ul><li>[ ] </li></ul> | 
 | [Manta Network](https://www.manta.network/) | A Privacy Preserving Decentralized Exchange | [GitHub](https://github.com/Manta-Network) | <ul><li>[ ] </li></ul> |  <ul><li>[x] </li></ul> |  <ul><li>[ ] </li></ul> | 
