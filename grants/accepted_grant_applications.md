@@ -221,7 +221,7 @@
 | [Subscript](https://github.com/slickup) | Substrate smart contract api and sdk in AssemblyScript | [GitHub](https://github.com/slickup/subscript) | <ul><li>[ ] </li></ul> |  <ul><li>[x] </li></ul> |  <ul><li>[x] </li></ul> | 
 | [Tesseract](https://tesseract.one/) | Swift API | [GitHub](https://github.com/tesseract-one) | <ul><li>[ ] </li></ul> |  <ul><li>[x] </li></ul> |  <ul><li>[ ] </li></ul> | 
 | [Cobo](https://cobo.com/) | Cobo Vault | [GitHub](https://github.com/CoboVault) | <ul><li>[ ] </li></ul> |  <ul><li>[x] </li></ul> |  <ul><li>[x] </li></ul> | 
-| [NodeFactory](https://nodefactory.io/) | Vedran: Auto-funded public p2p infrastructure (APPI) | [GitHub](https://github.com/NodeFactoryIo/Vedran) | <ul><li>[ ] </li></ul> |  <ul><li>[x] </li></ul> |  <ul><li>[ ] </li></ul> | 
+| [NodeFactory](https://nodefactory.io/) | Vedran: Auto-funded public p2p infrastructure (APPI) | [GitHub](https://github.com/NodeFactoryIo/Vedran) | <ul><li>[ ] </li></ul> |  <ul><li>[x] </li></ul> |  <ul><li>[x] </li></ul> | 
 | [Adoriasoft](https://adoriasoft.com/) | Cosmos-SDK Parachain Development Kit Phase 2 | [GitHub](https://github.com/adoriasoft/cosmos-sdk) | <ul><li>[ ] </li></ul> |  <ul><li>[x] </li></ul> |  <ul><li>[x] </li></ul> | 
 | [sup](https://github.com/clearloop/sup) | Command line tool for generating or upgrading a Substrate node | [GitHub](https://github.com/clearloop/sup) | <ul><li>[ ] </li></ul> |  <ul><li>[x] </li></ul> |  <ul><li>[x] </li></ul> | 
 | [Shard Labs](https://shardlabs.io) | Tip or Donate KSM Embeddable Button | [GitHub](https://github.com/Shard-Labs) | <ul><li>[ ] </li></ul> |  <ul><li>[x] </li></ul> |  <ul><li>[x] </li></ul> | 
