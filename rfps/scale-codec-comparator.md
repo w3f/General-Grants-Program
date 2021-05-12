@@ -14,15 +14,15 @@ Stage 2: To take this a step further, a GitHub action could be integrated to run
 
 ## Deliverables :nut_and_bolt:
 
-* **Total Estimated Duration:** 4 weeks
+* **Total Estimated Duration:** 2+ months
 * **Full-time equivalent (FTE):**  1
-* **Total Costs:** ~ 10,000 USD
+* **Total Costs:** ~ 12,000 DAI
 
 ### Milestone 1: Feature-completeness & FFI to Rust
 
-* **Estimated Duration:** 2 weeks
+* **Estimated Duration:** 2 months
 * **FTE:**  1
-* **Costs:** ~ 5000 USD
+* **Costs:** ~ 10,000 DAI
 
 For each library listed on [substrate.dev](https://substrate.dev/docs/en/knowledgebase/advanced/codec#implementations):
 * Create a PR, providing a FFI to Rust's reference implementation.
@@ -30,9 +30,9 @@ For each library listed on [substrate.dev](https://substrate.dev/docs/en/knowled
 
 ### Milestone 2: Badge integration
 
-* **Estimated Duration:** 2 weeks
+* **Estimated Duration:** 1 week
 * **FTE:**  1
-* **Costs:** ~ 5000 USD
+* **Costs:** ~ 2000 DAI
 
 * Create a GitHub badge for SCALE feature complete libs
 * Ensure that each lib listed above has the process of publishing the badge integrated into the CI workflow (e.g. GitHub action to run tests & award badge on successful run)
