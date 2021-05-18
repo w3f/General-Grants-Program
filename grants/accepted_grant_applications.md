@@ -130,7 +130,7 @@
 | [Figment](https://figment.network/) | DotHub: Information Hub for validators and delegators | [GitHub](https://github.com/figment-networks/dothub) | <ul><li>[ ] </li></ul> |  <ul><li>[x] </li></ul> |  <ul><li>[x] </li></ul> | 
 | [Lunie](http://lunie.io/) | Web and mobile wallet | [GitHub](https://github.com/luniehq/lunie) | <ul><li>[ ] </li></ul> |  <ul><li>[x] </li></ul> |  <ul><li>[x] </li></ul> | 
 | [Web3 Gardens](https://web3.garden) | Runtime modules and UI for creating stable, well-governed communities on Substrate | [GitHub](https://github.com/web3garden/sunshine) | <ul><li>[ ] </li></ul> |  <ul><li>[x] </li></ul> |  <ul><li>[ ] </li></ul> | 
-| [Itering](https://itering.com/) | Ruby Substrate API | [GitHub](https://github.com/itering) | <ul><li>[ ] </li></ul> |  <ul><li>[x] </li></ul> |  <ul><li>[ ] </li></ul> | 
+| [Itering](https://itering.com/) | Ruby Substrate API | [GitHub](https://github.com/itering) | <ul><li>[ ] </li></ul> |  <ul><li>[x] </li></ul> |  <ul><li>[x] </li></ul> | 
 | [WEB3SCAN](https://www.web3scan.com/) | Identity Pallet for Polkascan | [GitHub](https://github.com/polkascan) | <ul><li>[ ] </li></ul> |  <ul><li>[x] </li></ul> |  <ul><li>[x] </li></ul> | 
 | [Swisscom Blockchain AG](https://www.blockchain.swisscom.com/) | Kubernetes Operator for Sentry nodes or Validators deployment | [GitHub](https://github.com/swisscom-blockchain) | <ul><li>[ ] </li></ul> |  <ul><li>[x] </li></ul> |  <ul><li>[x] </li></ul> | 
 | [Polkastats](https://polkastats.io/) | Polkadot/Kusama network statistics | [GitHub](https://github.com/Colm3na/polkastats-v3) | <ul><li>[ ] </li></ul> |  <ul><li>[x] </li></ul> |  <ul><li>[x] </li></ul> | 
