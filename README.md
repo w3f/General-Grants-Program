@@ -153,7 +153,7 @@ The treasury is a pot of on-chain funds collected through transaction fees, slas
 
 ### Open Grants Program
 
-Our [Open Grants Program](https://github.com/w3f/Open-Grants-Program) is suited for technology grants of up to $30,000, which are tracked transparently on GitHub and disbursed in Bitcoin or DAI.
+Our [Open Grants Program](https://github.com/w3f/Open-Grants-Program) is suited for technology grants of up to $30,000, which are tracked transparently on GitHub and disbursed in BTC, USDT or DAI.
 
 ### Hackathons
 
