@@ -1,6 +1,6 @@
 # Front-End for Staking Rewards Collector
 
-* **Status:** Open 
+* **Status:** Proposal Under Review 
 
 [Propsoal Repo](https://github.com/jackson-harris-iii/staking-rewards-viewer) with screen shot of mockup created in Adobe Xd. [Deployed](https://staking-rewards-viewer.vercel.app/) WIP on vercel.
 
