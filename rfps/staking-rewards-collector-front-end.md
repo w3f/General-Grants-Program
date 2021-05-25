@@ -2,7 +2,7 @@
 
 * **Status:** Proposal Under Review 
 
-[Propsoal Repo](https://github.com/jackson-harris-iii/staking-rewards-viewer) with screen shot of mockup created in Adobe Xd. [Deployed](https://staking-rewards-viewer.vercel.app/) WIP on vercel.
+[Propsoal Repo](https://github.com/jackson-harris-iii/staking-rewards-viewer) with screen shot of mockup created in Adobe Xd. Local Demo [Video](https://www.loom.com/share/435c92cb3abe4984b18716642d01f631) and [Deployed](https://staking-rewards-viewer.vercel.app/) WIP on vercel.
 
 * **Proposer:** JonasW3F
 * **Your Project(s):** -
