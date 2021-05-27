@@ -349,4 +349,5 @@
 | [MyBank Labs](https://mybank.network/) | Platform Bank, Social Network Bank, MyDeX and Credit Scoring System | [GitHub](https://github.com/mybank-network/mybank-network) | <ul><li>[ ] </li></ul> |  <ul><li>[ ] </li></ul> |  <ul><li>[ ] </li></ul> | 
 | [ChainBridge Network](https://github.com/ChainBridgeNetworkTeam) | Doter: A browser extension wallet for Polkadot | [GitHub](https://github.com/ChainBridgeNetworkTeam) | <ul><li>[ ] </li></ul> |  <ul><li>[ ] </li></ul> |  <ul><li>[ ] </li></ul> | 
 | [SubDAO Labs](https://www.subdao.network/) | SubDAO Chrome Extension | [GitHub](https://github.com/subdao-network) | <ul><li>[ ] </li></ul> |  <ul><li>[ ] </li></ul> |  <ul><li>[ ] </li></ul> | 
+| [Sukhavati Labs](https://sukhavati.io/) | Sukhavati PoC Module | [GitHub](https://github.com/Sukhavati-Labs) | <ul><li>[ ] </li></ul> |  <ul><li>[ ] </li></ul> |  <ul><li>[ ] </li></ul> | 
 
