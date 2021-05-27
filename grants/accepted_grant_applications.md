@@ -350,4 +350,6 @@
 | [ChainBridge Network](https://github.com/ChainBridgeNetworkTeam) | Doter: A browser extension wallet for Polkadot | [GitHub](https://github.com/ChainBridgeNetworkTeam) | <ul><li>[ ] </li></ul> |  <ul><li>[ ] </li></ul> |  <ul><li>[ ] </li></ul> | 
 | [SubDAO Labs](https://www.subdao.network/) | SubDAO Chrome Extension | [GitHub](https://github.com/subdao-network) | <ul><li>[ ] </li></ul> |  <ul><li>[ ] </li></ul> |  <ul><li>[ ] </li></ul> | 
 | [Sukhavati Labs](https://sukhavati.io/) | Sukhavati PoC Module | [GitHub](https://github.com/Sukhavati-Labs) | <ul><li>[ ] </li></ul> |  <ul><li>[ ] </li></ul> |  <ul><li>[ ] </li></ul> | 
+| [HypeLabs Inc.](https://hypelabs.io) | UpLink - Decentralized and infrastructure-free approach to peer-to-peer connectivity | [GitHub](https://github.com/Hype-Labs) | <ul><li>[ ] </li></ul> |  <ul><li>[ ] </li></ul> |  <ul><li>[ ] </li></ul> | 
+
 
