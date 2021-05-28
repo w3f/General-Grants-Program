@@ -9,7 +9,7 @@ This is a living document and we are relying on our community to contribute to i
 - [:clipboard: About](#clipboard-about)
 - [:battery: Funding](#battery-funding)
 - [:bookmark_tabs: Layers of Polkadot Stack](#bookmark_tabs-layers-of-polkadot-stack)
-  - [:iphone: Explorer and Wallets](#iphone-explorer-and-wallets)
+  - [:iphone: User Interface](#iphone-user-interface)
   - [:wrench: Tools, APIs and Languages](#wrench-tools-apis-and-languages)
   - [:link: Chains, Modules and Smart Contracts](#link-chains-modules-and-smart-contracts)
   - [:black_circle: Host](#black_circle-host)
@@ -57,7 +57,7 @@ By describing our areas of priority in detail, we do not wish to preclude grant 
 
 In the below sections you can find a list of different layers of the Polkadot Stack.
 
-### :iphone: Explorer and Wallets
+### :iphone: User Interface 
 
 | Components | Existing projects | Potentially interesting projects
 |-|-|-
@@ -73,6 +73,7 @@ In the below sections you can find a list of different layers of the Polkadot St
 | Node Explorers | [Polkadot Node Explorer](https://github.com/protos-research/polkadot-node-explorer)
 | Governance Dashboards | [Polkassembly](https://github.com/premiurly/polkassembly), [dotreasury](https://github.com/opensquare-network/dotreasury) | UI for the kusama and/or polkadot treasury (see [bounty module](https://github.com/paritytech/substrate/pull/5715)), UI for Parachain Lease Offering (PLO)  |
 | Staking Rewards | [Staking Rewards Collector](https://github.com/w3f/staking-rewards-collector), [Staking Rewards Viewer](https://github.com/jackson-harris-iii/staking-rewards-viewer) |
+| Bridge UI | [Parity Bridges UI](https://github.com/paritytech/parity-bridges-ui), [Donut Interface (Steem <> Dot)](https://github.com/nutbox-dao/donut-interface) | |
 
 ### :wrench: Tools, APIs and Languages
 
