@@ -109,7 +109,7 @@ In the below sections you can find a list of different layers of the Polkadot St
 | Identity/DID | [Caelum Labs](https://gitlab.com/caelum-tech/lorena), [Litentry](https://github.com/litentry/litentry-runtime), [pallet-did](https://github.com/substrate-developer-hub/pallet-did)
 | IoT | [Nodle](https://github.com/NodleCode/), [MXC/DataHighway](https://github.com/DataHighway-DHX/node)
 | Verifiable Claims | [KILT](https://github.com/KILTprotocol), [Dock](https://github.com/docknetwork)
-| Supply chain| [Wiv](https://github.com/wivtech/Substrate-SupplyChain)
+| Supply chain| 
 | Social Networking | [Social Network](https://github.com/social-network), [SubSocial](https://github.com/dappforce/dappforce-subsocial)
 | Governance/DAO| [Sunshine DAO](https://github.com/sunshine-protocol/sunshine-bounty), [Governance OS](https://github.com/NucleiStudio/governance-os) |   [Consul](https://github.com/consul/consul) - Open Government and E-Participation Web Software
 | Messaging | [HOPR](https://github.com/validitylabs/HOPR-PL-Substrate), [Mailchain](https://github.com/mailchain)
