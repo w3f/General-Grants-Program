@@ -295,7 +295,7 @@
 | [SEOR](https://www.seor.io) | Multi-chain smart contract development platform | [GitHub](https://github.com/SealSC) | <ul><li>[ ] </li></ul> |  <ul><li>[ ] </li></ul> |  <ul><li>[ ] </li></ul> | 
 | [Polkastarter](https://polkastarter.com/) | Crowdloan UI | [GitHub](https://github.com/polkastarter) | <ul><li>[ ] </li></ul> |  <ul><li>[ ] </li></ul> |  <ul><li>[ ] </li></ul> | 
 | [Equilibrium.io](https://equilibrium.io/en) | Curve AMM Pallet | [GitHub](https://github.com/equilibrium-eosdt) | <ul><li>[ ] </li></ul> |  <ul><li>[x] </li></ul> |  <ul><li>[x] </li></ul> | 
-| [Zondax](https://zondax.ch/) | Ledger maintenance + recovery extensions + support | [GitHub](https://github.com/Zondax) | <ul><li>[ ] </li></ul> |  <ul><li>[ ] </li></ul> |  <ul><li>[ ] </li></ul> | 
+| [Zondax](https://zondax.ch/) | Ledger maintenance + recovery extensions + support | [GitHub](https://github.com/Zondax) | <ul><li>[ ] </li></ul> |  <ul><li>[x] </li></ul> |  <ul><li>[ ] </li></ul> | 
 | [Nuclei Studio](https://nuclei.studio/) | Voting Pallets | [GitHub](https://github.com/NucleiStudio) | <ul><li>[ ] </li></ul> |  <ul><li>[x] </li></ul> |  <ul><li>[ ] </li></ul> | 
 | [RAMP DEFI](https://app.rampdefi.com/#/) | Polkakeeper - A Community-Led Value Assurance Protocol | [GitHub](https://github.com/RAMP-DEFI) | <ul><li>[ ] </li></ul> |  <ul><li>[ ] </li></ul> |  <ul><li>[ ] </li></ul> | 
 | [Stone](https://stonedefi.io) | Index project which aims to track the portfolio of multiple digital assets | [GitHub](https://github.com/stonedefi/) | <ul><li>[ ] </li></ul> |  <ul><li>[ ] </li></ul> |  <ul><li>[ ] </li></ul> | 
@@ -324,7 +324,7 @@
 | [NUTS Finance](https://nuts.finance/) | Stable Assets | [GitHub](https://github.com/nutsfinance) | <ul><li>[ ] </li></ul> |  <ul><li>[ ] </li></ul> |  <ul><li>[ ] </li></ul> | 
 | [MVP Workshop](https://mvpworkshop.co/) | pallet-maci (Minimal Anti Collusion Infrastructure) | [GitHub](https://github.com/MVPWorkshop) | <ul><li>[ ] </li></ul> |  <ul><li>[ ] </li></ul> |  <ul><li>[ ] </li></ul> | 
 | [X-Predict](https://x-predict.com/) | Decentralized prediction market | [GitHub](https://github.com/XPredictMarket) | <ul><li>[ ] </li></ul> |  <ul><li>[ ] </li></ul> |  <ul><li>[ ] </li></ul> | 
-| [Chevdor](https://www.chevdor.com/) | SRTOOL App | [GitLab](https://gitlab.com/chevdor/srtool-app) | <ul><li>[ ] </li></ul> |  <ul><li>[ ] </li></ul> |  <ul><li>[ ] </li></ul> | 
+| [Chevdor](https://www.chevdor.com/) | SRTOOL App | [GitLab](https://gitlab.com/chevdor/srtool-app) | <ul><li>[ ] </li></ul> |  <ul><li>[x] </li></ul> |  <ul><li>[x] </li></ul> | 
 | [Bit.Country](http://bit.country/) | A decentralized world - Phase 2 | [GitHub](https://github.com/bit-country) | <ul><li>[ ] </li></ul> |  <ul><li>[ ] </li></ul> |  <ul><li>[ ] </li></ul> | 
 | [Vera](https://veraprotocol.org/) | NFT Lending	+ Exchange | [GitHub](https://github.com/veraprotocol) | <ul><li>[ ] </li></ul> |  <ul><li>[ ] </li></ul> |  <ul><li>[ ] </li></ul> | 
 | [Parallel Finance](https://parallel.fi/#/) | Decentralized lending/borrowing and staking protocol | [GitHub](https://github.com/parallel-finance/parallel) | <ul><li>[ ] </li></ul> |  <ul><li>[ ] </li></ul> |  <ul><li>[ ] </li></ul> | 
