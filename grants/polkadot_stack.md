@@ -15,7 +15,7 @@ This is a living document and we are relying on our community to contribute to i
   - [:black_circle: Host](#black_circle-host)
   - [:electric_plug: Network Maintenance Tools](#electric_plug-network-maintenance-tools)
   - [:black_nib: Signatures](#black_nib-signatures)
-  - [✔️ Consensus Alternatives](#heavy_check_mark-consensus-alternatives)
+  - [✔️ Consensus](#heavy_check_mark-consensus)
   - [:satellite: Networking](#satellite-networking)
 - [:construction_worker: Contributing](#construction_worker-contributing)
 
@@ -153,11 +153,15 @@ In the below sections you can find a list of different layers of the Polkadot St
 | Validator HSMs| |
 | Validator HSM-like solutions|
 
-### ✔️ Consensus Alternatives
+### ✔️ Consensus
 
 | Components | Existing projects | Potentially interesting projects
 |-|-|-
 | PoC | [Spartan](https://github.com/subspace/substrate) |
+| PoW | [PoW consensus for Substrate](https://github.com/paritytech/substrate/tree/master/client/consensus/pow) |
+| Block production | [BABE](https://github.com/paritytech/substrate/tree/master/client/consensus/babe), [Aura](https://github.com/paritytech/substrate/tree/master/client/consensus/aura) |
+| Finality | [GRANDPA](https://github.com/paritytech/substrate/tree/master/client/finality-grandpate) |
+
 
 ### :satellite: Networking
 
