@@ -353,6 +353,8 @@
 | [HypeLabs Inc.](https://hypelabs.io) | UpLink - Decentralized and infrastructure-free approach to peer-to-peer connectivity | [GitHub](https://github.com/Hype-Labs) | <ul><li>[ ] </li></ul> |  <ul><li>[ ] </li></ul> |  <ul><li>[ ] </li></ul> | 
 | Jackson Harris III | Staking Rewards Viewer | [GitHub](https://github.com/jackson-harris-iii/staking-rewards-viewer) | <ul><li>[ ] </li></ul> |  <ul><li>[ ] </li></ul> |  <ul><li>[ ] </li></ul> | 
 | [Klevoya](https://klevoya.com/) | WASM Smart Contract Fuzzer | [GitHub](https://github.com/klevoya/) | <ul><li>[ ] </li></ul> |  <ul><li>[ ] </li></ul> |  <ul><li>[ ] </li></ul> | 
+| [Perun Network](https://perun.network/) | Perun Channels | [GitHub](https://github.com/perun-network/) | <ul><li>[ ] </li></ul> |  <ul><li>[ ] </li></ul> |  <ul><li>[ ] </li></ul> | 
+
 
 
 
