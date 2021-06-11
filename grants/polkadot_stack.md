@@ -113,6 +113,7 @@ In the below sections you can find a list of different layers of the Polkadot St
 | Supply chain| 
 | Social Networking | [Social Network](https://github.com/social-network), [SubSocial](https://github.com/dappforce/dappforce-subsocial)
 | Governance/DAO| [Sunshine DAO](https://github.com/sunshine-protocol/sunshine-bounty), [Governance OS](https://github.com/NucleiStudio/governance-os) |   [Consul](https://github.com/consul/consul) - Open Government and E-Participation Web Software
+| Prediction Markets and Futarchy| [Zeitgeist](https://github.com/zeitgeistpm/zeitgeist), [X Predict Market](https://github.com/XPredictMarket) |
 | Messaging | [HOPR](https://github.com/validitylabs/HOPR-PL-Substrate), [Mailchain](https://github.com/mailchain)
 | File Storage, Cloud | [DatDot](https://github.com/playproject-io/datdot), [Crust Network](https://github.com/crustio), [offchain::ipfs](https://rs-ipfs.github.io/offchain-ipfs-manual/)
 | Name Service| [Substrate Names](https://github.com/xaya/substrate-names), [ENS on Substrate](https://github.com/hskang9/substrate-name-service)
