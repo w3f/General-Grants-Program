@@ -160,7 +160,7 @@ In the below sections you can find a list of different layers of the Polkadot St
 | Components | Existing projects | Potentially interesting projects
 |-|-|-
 | PoC | [Spartan](https://github.com/subspace/substrate) |
-| PoW | [PoW consensus for Substrate](https://github.com/paritytech/substrate/tree/master/client/consensus/pow) |
+| PoW | [PoW consensus for Substrate](https://github.com/paritytech/substrate/tree/master/client/consensus/pow), [RandomX](https://github.com/kulupu/kulupu/tree/master/pow) |
 | Block production | [BABE](https://github.com/paritytech/substrate/tree/master/client/consensus/babe), [Aura](https://github.com/paritytech/substrate/tree/master/client/consensus/aura) |
 | Finality | [GRANDPA](https://github.com/paritytech/substrate/tree/master/client/finality-grandpate) |
 
