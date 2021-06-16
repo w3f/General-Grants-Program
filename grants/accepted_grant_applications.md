@@ -164,7 +164,7 @@
 | [Finoa](https://finoa.io/) | C library for Substrate | [GitHub](https://github.com/finoabanking/substrate-c-tool) | <ul><li>[ ] </li></ul> |  <ul><li>[x] </li></ul> |  <ul><li>[x] </li></ul> | 
 | [Crust Network](https://crust.network/) | Incentive layer protocol for decentralized storage | [GitHub](https://github.com/crustio) | <ul><li>[ ] </li></ul> |  <ul><li>[x] </li></ul> |  <ul><li>[x] </li></ul> | 
 | [ETCDEV](https://emeraldpay.io/) | Polkadot Java Client | [GitHub](https://github.com/emeraldpay) | <ul><li>[ ] </li></ul> |  <ul><li>[x] </li></ul> |  <ul><li>[x] </li></ul> | 
-| [Zondax](http://zondax.ch/) | Ledger app for Polkadot/Kusama Phase 2 | [GitHub](https://github.com/ZondaX/ledger-polkadot) | <ul><li>[ ] </li></ul> |  <ul><li>[x] </li></ul> |  <ul><li>[ ] </li></ul> | 
+| [Zondax](http://zondax.ch/) | Ledger app for Polkadot/Kusama Phase 2 | [GitHub](https://github.com/ZondaX/ledger-polkadot) | <ul><li>[ ] </li></ul> |  <ul><li>[x] </li></ul> |  <ul><li>[x] </li></ul> | 
 | [Soramitsu](https://soramitsu.co.jp/) | Hyperledger Iroha Bridge | [GitHub](https://github.com/sora-xor/polkaswap-web) | <ul><li>[ ] </li></ul> |  <ul><li>[x] </li></ul> |  <ul><li>[x] </li></ul> | 
 | [LimeChain](https://github.com/LimeChain) | AssemblyScript SCALE Codec | [GitHub](https://github.com/LimeChain/as-scale-codec) | <ul><li>[ ] </li></ul> |  <ul><li>[x] </li></ul> |  <ul><li>[x] </li></ul> | 
 | [Insight](https://insightfellows.com/) | Load Balanced Endpoints | [GitHub](https://github.com/insight-w3f/terragrunt-polkadot) | <ul><li>[ ] </li></ul> |  <ul><li>[x] </li></ul> |  <ul><li>[x] </li></ul> | 
