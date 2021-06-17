@@ -360,4 +360,5 @@
 | Canyon Network | Permanent decentralized storage | [GitHub](https://github.com/canyon-network) | <ul><li>[ ] </li></ul> |  <ul><li>[ ] </li></ul> |  <ul><li>[ ] </li></ul> | 
 | [ZeroDAO Network](https://www.0p0.org/) | Decentralised reputation systems and social networks | [GitHub](https://github.com/ZeroDAO) | <ul><li>[ ] </li></ul> |  <ul><li>[ ] </li></ul> |  <ul><li>[ ] </li></ul> | 
 | [Stake Technologies](https://stake.co.jp/) | ZK Plonk Pallet | [GitHub](https://github.com/PlasmNetwork) | <ul><li>[ ] </li></ul> |  <ul><li>[ ] </li></ul> |  <ul><li>[ ] </li></ul> | 
+| [CryptoLab](https://www.cryptolab.network) | Staking Reward Collector | [GitHub](https://github.com/cryptolab-network) | <ul><li>[ ] </li></ul> |  <ul><li>[ ] </li></ul> |  <ul><li>[ ] </li></ul> | 
 
