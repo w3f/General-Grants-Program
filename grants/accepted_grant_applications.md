@@ -248,7 +248,7 @@
 | [RareLink](http://rarelink.network/) | Dynamic non-fungible token (NFT) Protocol | [GitHub](https://github.com/RareLink) | <ul><li>[ ] </li></ul> |  <ul><li>[ ] </li></ul> |  <ul><li>[ ] </li></ul> | 
 | [Cere Network](http://cere.network/) | Turnkey Private Blockchain Network | [GitHub](https://github.com/Cerebellum-Network) | <ul><li>[ ] </li></ul> |  <ul><li>[x] </li></ul> |  <ul><li>[x] </li></ul> | 
 | [SubDAO Labs](https://www.subdao.network/) | SubDAO is a Cross-chain Platform to link DAO and DApp on Polkadot | [GitHub](https://github.com/subdao-network) | <ul><li>[ ] </li></ul> |  <ul><li>[x] </li></ul> |  <ul><li>[x] </li></ul> | 
-| [Idavoll Network](https://idavoll.network/) | Decentralized organization platform | [GitHub](https://github.com/idavollnetwork) | <ul><li>[ ] </li></ul> |  <ul><li>[ ] </li></ul> |  <ul><li>[ ] </li></ul> | 
+| [Idavoll Network](https://idavoll.network/) | Decentralized organization platform | [GitHub](https://github.com/idavollnetwork) | <ul><li>[ ] </li></ul> |  <ul><li>[x] </li></ul> |  <ul><li>[x] </li></ul> | 
 | [Zenlink](https://zenlink.pro/) | DEX Ink! smart contract | [GitHub](https://github.com/zenlinkpro/zenlink_dex_module) | <ul><li>[ ] </li></ul> |  <ul><li>[ ] </li></ul> |  <ul><li>[ ] </li></ul> | 
 | [Setheum](https://setheum.xyz/) | Setheum Elastic Reserve Protocol | [GitHub](https://github.com/Setheum-Labs/Setheum) | <ul><li>[x] </li></ul> |  <ul><li>[ ] </li></ul> |  <ul><li>[ ] </li></ul> | 
 | [everstake](https://everstake.one/) | DKG msig wallet | [GitHub](https://github.com/everstake) | <ul><li>[ ] </li></ul> |  <ul><li>[ ] </li></ul> |  <ul><li>[ ] </li></ul> | 
