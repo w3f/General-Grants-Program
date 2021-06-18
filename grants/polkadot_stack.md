@@ -65,7 +65,7 @@ In the below sections you can find a list of different layers of the Polkadot St
 | Desktop Wallets | [AirGap](https://github.com/airgap-it/airgap-wallet), [Sakura](https://github.com/w3finance/sakura) | User-friendly Wallet based on the [Recovery Pallet](https://github.com/paritytech/substrate/tree/master/frame/recovery), Web wallets focused on user-onboarding (e.g. using [localStorage](https://github.com/near/near-wallet))
 | Browser Extensions | [Polkadot{.js}](https://github.com/polkadot-js/extension), [Doter](https://github.com/ChainBridgeNetworkTeam/Doter), [Enzyme](https://getenzyme.dev/), [Speckle OS](https://www.speckleos.io/)  
 | Mobile Wallets|  [Lunie](https://github.com/luniehq/lunie), [Polkawallet](https://github.com/polkawallet-io/polkawallet-flutter), [Parity Signer](https://github.com/paritytech/parity-signer), [imToken](https://github.com/consenlabs/token-core), [Fearless Wallet Android](https://github.com/soramitsu/fearless-Android), [Fearless Wallet iOS](https://github.com/soramitsu/fearless-iOS), [Stylo](https://github.com/stylo-app/stylo)  
-| Web (burner) Wallets| [KodaDot](https://kodadot.js.org/)
+| Burner Wallets/Faucet| [KodaDot](https://kodadot.js.org/) | Faucet (a sybil-resistant way to receive free tokens)
 | CLI Wallet | [Subwallet](https://github.com/yxf/subwallet), [Proxy-hot-wallet](https://github.com/canontech/proxy-hot-wallet)
 | Multisignature Wallets| [Subscan Multisig UI](https://github.com/itering/subscan-multisig-ui) |
 | Hardware Wallets | [Ledger Polkadot](https://github.com/ZondaX/ledger-polkadot), [Ledger Kusama](https://github.com/Zondax/ledger-kusama), [NGRAVE](https://ngrave.io/) | Trezor
@@ -124,7 +124,7 @@ In the below sections you can find a list of different layers of the Polkadot St
 | NFT | [FRAME Pallet: NFTs for Substrate](https://github.com/danforbes/pallet-nft), [NFT Parachain by usetech](https://github.com/w3f-community/nft_parachain)
 | Randomness | [DKG and Randomness Beacon](https://github.com/Cardinal-Cryptography/substrate/tree/randomness-beacon)
 | Licensing |
-| Other | [Substrate Open Runtime Module Library](https://github.com/open-web3-stack/open-runtime-module-library), [AI Infrastructure on Blockchain](https://github.com/anudit/cerebrum), [Substrate Account Filter](https://github.com/gautamdhameja/substrate-account-filter) | On-chain quadratic funding (e.g. https://clr.fund/#/about)
+| Other | [Substrate Open Runtime Module Library](https://github.com/open-web3-stack/open-runtime-module-library), [AI Infrastructure on Blockchain](https://github.com/anudit/cerebrum), [Substrate Account Filter](https://github.com/gautamdhameja/substrate-account-filter) | On-chain quadratic funding (e.g. https://clr.fund/#/about), Decentralized review/reputation system 
 
 ### :black_circle: Host
 
