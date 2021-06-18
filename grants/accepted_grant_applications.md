@@ -260,7 +260,7 @@
 | [Listen](https://listen.io/) | Decentralized social network focusing on sound | [GitHub](https://github.com/ListenTeam) | <ul><li>[ ] </li></ul> |  <ul><li>[ ] </li></ul> |  <ul><li>[ ] </li></ul> | 
 | [Protofire](https://protofire.io/) | Polkadot Mempool Explorer | [GitHub](https://github.com/protofire) | <ul><li>[ ] </li></ul> |  <ul><li>[x] </li></ul> |  <ul><li>[ ] </li></ul> | 
 | [Fuzhou Wakanda Information Technology](https://www.heizuan.com/) | Black Diamond Wallet | [GitHub](https://github.com/bdwallet) | <ul><li>[ ] </li></ul> |  <ul><li>[ ] </li></ul> |  <ul><li>[ ] </li></ul> | 
-| [Konomi](http://konomi.network/) | Pool Lending Module | [GitHub](https://github.com/konomi-network) | <ul><li>[ ] </li></ul> |  <ul><li>[ ] </li></ul> |  <ul><li>[ ] </li></ul> | 
+| [Konomi](http://konomi.network/) | Pool Lending Module | [GitHub](https://github.com/konomi-network) | <ul><li>[ ] </li></ul> |  <ul><li>[x] </li></ul> |  <ul><li>[x] </li></ul> | 
 | [Acala](https://acala.network/) | Bodhi:Composable & Innovative Stack for EVM | [GitHub](https://github.com/AcalaNetwork/bodhi.js) | <ul><li>[ ] </li></ul> |  <ul><li>[x] </li></ul> |  <ul><li>[x] </li></ul> | 
 | [Pontem Network](https://pontem.network/) | Move smart contract pallet | [GitHub](https://github.com/dfinance) | <ul><li>[ ] </li></ul> |  <ul><li>[x] </li></ul> |  <ul><li>[x] </li></ul> | 
 | [SpiderDAO](https://spiderdao.io) | Hardware-based DAO governance | [GitHub](https://github.com/SpiderDAO) | <ul><li>[ ] </li></ul> |  <ul><li>[ ] </li></ul> |  <ul><li>[ ] </li></ul> | 
