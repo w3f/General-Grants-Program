@@ -51,7 +51,7 @@
 | [MixBytes](https://mixbytes.io/) | Benchmarking tool for Substrate and Polkadot | [GitHub](https://github.com/mixbytes/tank) | <ul><li>[ ] </li></ul> |  <ul><li>[x] </li></ul> |  <ul><li>[x] </li></ul> | 
 | [Gunclear](https://gunclear.io/) | Private secure data storage solution using Plasma Cash in Substrate | [GitHub](https://github.com/GunClear) | <ul><li>[x] </li></ul> |  <ul><li>[x] </li></ul> |  <ul><li>[ ] </li></ul> | 
 | [ZeroChain](https://layerx.co.jp/) | Zero knowledge transactions in Substrate | [GitHub](https://github.com/LayerXcom/zero-chain) | <ul><li>[ ] </li></ul> |  <ul><li>[x] </li></ul> |  <ul><li>[x] </li></ul> | 
-| [Robonomics](https://aira.life/en/) | Substrate modules for controlling robots | [GitHub](https://github.com/airalab/substrate-node-robonomics) | <ul><li>[ ] </li></ul> |  <ul><li>[x] </li></ul> |  <ul><li>[ ] </li></ul> | 
+| [Robonomics](https://robonomics.network/) | Substrate modules for controlling robots | [GitHub](https://github.com/airalab/substrate-node-robonomics) | <ul><li>[ ] </li></ul> |  <ul><li>[x] </li></ul> |  <ul><li>[ ] </li></ul> | 
 | [Avado](https://ava.do/) | Polkadot node deployment with consumer hardware | [GitHub](https://github.com/AvadoDServer/AVADO-DNP-Polkadot-custom) | <ul><li>[ ] </li></ul> |  <ul><li>[x] </li></ul> |  <ul><li>[x] </li></ul> | 
 | [Stake Technologies](https://stake.co.jp/) | Plasma modules for Substrate | [GitHub](https://github.com/staketechnologies/Plasm) | <ul><li>[ ] </li></ul> |  <ul><li>[x] </li></ul> |  <ul><li>[x] </li></ul> | 
 | [HOPR](https://hopr.network/) | Substrate integration with this P2P messaging protocol | [GitHub](https://github.com/validitylabs/HOPR-PL-Substrate) | <ul><li>[ ] </li></ul> |  <ul><li>[x] </li></ul> |  <ul><li>[x] </li></ul> | 
