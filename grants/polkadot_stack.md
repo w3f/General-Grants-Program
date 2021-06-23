@@ -155,7 +155,7 @@ In the below sections you can find a list of different layers of the Polkadot St
 | Validator HSMs| |
 | Validator HSM-like solutions|
 
-### ✔️ Consensus
+### :heavy_check_mark: Consensus
 
 | Components | Existing projects | Potentially interesting projects
 |-|-|-
