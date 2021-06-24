@@ -238,7 +238,7 @@
 | [Bit.Country](http://bit.country/) | A decentralized world | [GitHub](https://github.com/bit-country) | <ul><li>[ ] </li></ul> |  <ul><li>[x] </li></ul> |  <ul><li>[x] </li></ul> | 
 | [MIDL.dev](https://MIDL.dev) | Polkashots.io: Snapshot website for Polkadot and Kusama | [GitHub](https://github.com/midl-dev) | <ul><li>[ ] </li></ul> |  <ul><li>[x] </li></ul> |  <ul><li>[x] </li></ul> | 
 | [Ares Protocol](https://www.aresprotocol.com/) | Decentralized Oracle Protocol | [GitHub](https://github.com/aresprotocols/ares) | <ul><li>[ ] </li></ul> |  <ul><li>[x] </li></ul> |  <ul><li>[x] </li></ul> | 
-| [Saito](https://saito.io/) | Polkadot Gaming Protocol and Library | [GitHub](https://github.com/SaitoTech) | <ul><li>[ ] </li></ul> |  <ul><li>[ ] </li></ul> |  <ul><li>[ ] </li></ul> | 
+| [Saito](https://saito.io/) | Polkadot Gaming Protocol and Library | [GitHub](https://github.com/SaitoTech) | <ul><li>[ ] </li></ul> |  <ul><li>[x] </li></ul> |  <ul><li>[ ] </li></ul> | 
 | [LimeChain](https://github.com/LimeChain) | Subsembly: Framework for building AssemblyScript Runtimes | [GitHub](https://github.com/LimeChain) | <ul><li>[ ] </li></ul> |  <ul><li>[x] </li></ul> |  <ul><li>[ ] </li></ul> | 
 | [Wificoin](https://wificoin.com/) | PESA: On-ramp/off-ramp to crypto/local currencies for Polkadot | | <ul><li>[ ] </li></ul> |  <ul><li>[ ] </li></ul> |  <ul><li>[ ] </li></ul> | 
 | [WalletConnect](https://walletconnect.org/) | Open protocol for connecting Wallets to Dapps | [GitHub](https://github.com/walletconnect) | <ul><li>[ ] </li></ul> |  <ul><li>[x] </li></ul> |  <ul><li>[ ] </li></ul> | 
