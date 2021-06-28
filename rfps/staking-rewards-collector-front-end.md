@@ -1,6 +1,6 @@
 # Front-End for Staking Rewards Collector
 
-* **Status:** Open 
+* **Status:** In progress
 * **Proposer:** JonasW3F
 * **Your Project(s):** -
 * **Projects you think this work could be useful for** Staking operations of all nominators and validators.
