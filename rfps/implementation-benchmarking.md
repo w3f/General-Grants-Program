@@ -35,7 +35,6 @@ Before starting this effort, it might make sense to take a look at the official 
 |     2. | Pallets: basic read & write | Create a pallet which exposes simple methods for writing to storage and reading from on-chain storage. Should be implemented for basic types.                                                                                                                                           |
 |     3. | `ink!`: basic read & write | As above, but for smart contracts                                                                                                                                                                                                                                                       |
 |     4. | Benchmarking framework     | Create a set of tools that allows calling both the pallet's extrinsics and contract's public methods multiple times, measuring the execution time, impact on on-chain storage etc., to enable extraction of statistically meaningful data for performance comparison |
-|     5. | Examples                   | Include a variety of parallel implementations of the same logic (NFTs, AMMs, etc.) that expose performance differences between pallets & `ink!`. Ideally, this should be taken from existing implementations, rather than written from scratch. |
 
 ### Milestone 2 - Integrate native solidity & `solang`-compiled solidity
 
