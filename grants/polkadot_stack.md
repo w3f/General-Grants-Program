@@ -11,7 +11,7 @@ This is a living document and we are relying on our community to contribute to i
 - [:bookmark_tabs: Layers of Polkadot Stack](#bookmark_tabs-layers-of-polkadot-stack)
   - [:iphone: User Interface](#iphone-user-interface)
   - [:wrench: Tools, APIs and Languages](#wrench-tools-apis-and-languages)
-  - [:memo: Smart Contracts](#memo-smart-contracts)
+  - [:memo: ink Smart Contracts](#memo-ink-smart-contracts)
   - [:link: Chains and Pallets](#link-chains-and-pallets)
   - [:black_circle: Host](#black_circle-host)
   - [:electric_plug: Network Maintenance Tools](#electric_plug-network-maintenance-tools)
@@ -97,11 +97,11 @@ In the below sections you can find a list of different layers of the Polkadot St
 | Gaming | [Mobile Game Framework for Substrate](https://github.com/creator-rs/creator/) | [Amethyst](https://amethyst.rs/) + [Substrate](https://substrate.dev/)
 | Other | [open-web3 JS library](https://github.com/open-web3-stack/open-web3.js)
 
-### :memo: Smart Contracts 
+### :memo: ink Smart Contracts 
 
 | Components | Existing projects | Potentially interesting projects
 |-|-|-
-| DeFi | [Nsure Insurance](https://github.com/nsure-tech/dot-contract), [Everlasting Cash](https://github.com/CycanTech/ELC), [Coinversation](https://github.com/Coinversation/coinpro) | 
+| DeFi | [Nsure Insurance](https://github.com/nsure-tech/dot-contract), [Everlasting Cash](https://github.com/CycanTech/ELC), [Coinversation](https://github.com/Coinversation/coinpro), [zenlink-dex-contract](https://github.com/zenlinkpro/zenlink-dex-contract) | 
 | Gaming | [NewOmega](https://github.com/WiktorStarczewski/newomega.polkadot/blob/master/newomega_delegator/newomega/newomega.rs) | |
 
 
