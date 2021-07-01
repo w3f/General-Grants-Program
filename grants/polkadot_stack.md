@@ -127,7 +127,7 @@ In the below sections you can find a list of different layers of the Polkadot St
 | Messaging | [HOPR](https://github.com/validitylabs/HOPR-PL-Substrate), [Mailchain](https://github.com/mailchain)
 | File Storage, Cloud | [DatDot](https://github.com/playproject-io/datdot), [Crust Network](https://github.com/crustio), [offchain::ipfs](https://rs-ipfs.github.io/offchain-ipfs-manual/)
 | Name Service| [Substrate Names](https://github.com/xaya/substrate-names), [ENS on Substrate](https://github.com/hskang9/substrate-name-service)
-| Gaming | [Bit.country](https://github.com/bit-country/Bit-Country-Blockchain), [NewOmega](https://github.com/WiktorStarczewski/newomega.polkadot), [SubGame](https://github.com/SubGame-Network/subgame-network) | 
+| Gaming | [Bit.country](https://github.com/bit-country/Bit-Country-Blockchain), [SubGame](https://github.com/SubGame-Network/subgame-network) | 
 | Computation |
 | Enable specific use-cases | [Robonomics](https://github.com/airalab/substrate-node-robonomics)
 | NFT | [FRAME Pallet: NFTs for Substrate](https://github.com/danforbes/pallet-nft), [NFT Parachain by usetech](https://github.com/w3f-community/nft_parachain)
