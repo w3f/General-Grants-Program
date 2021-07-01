@@ -13,7 +13,8 @@ As substrate is gaining traction, more and more tools will enable developers to 
 - Move: [diem on polkadot](https://docs.pontem.network), PoC finished
 - Yatima: [pure functional language for web3](https://github.com/w3f/Open-Grants-Program/pull/463), application in progress
 
-This RFP calls for a benchmarking effort to help guide newcomers with the choice of the best tool for writing application logic.
+This RFP calls for a benchmarking effort to help inform newcomers about the choice of the best tool for writing application logic.
+Apart from quantifiable metrics, we would like the outcome of this work to be a guide for developers, perhaps expanding on the aforementioned StackOverflow post. Depending on the outcome, the work might get integrated into our READMEs/wikis.
 
 Before starting this effort, it might make sense to take a look at the official [runtime benchmarking docs](https://substrate.dev/docs/en/knowledgebase/runtime/benchmarking) to assess whether it can be leveraged in some way.
 
