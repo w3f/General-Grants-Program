@@ -11,7 +11,8 @@ This is a living document and we are relying on our community to contribute to i
 - [:bookmark_tabs: Layers of Polkadot Stack](#bookmark_tabs-layers-of-polkadot-stack)
   - [:iphone: User Interface](#iphone-user-interface)
   - [:wrench: Tools, APIs and Languages](#wrench-tools-apis-and-languages)
-  - [:link: Chains, Modules and Smart Contracts](#link-chains-modules-and-smart-contracts)
+  - [:memo: Smart Contracts](#memo-smart-contracts)
+  - [:link: Chains and Pallets](#link-chains-and-pallets)
   - [:black_circle: Host](#black_circle-host)
   - [:electric_plug: Network Maintenance Tools](#electric_plug-network-maintenance-tools)
   - [:black_nib: Signatures](#black_nib-signatures)
@@ -96,7 +97,10 @@ In the below sections you can find a list of different layers of the Polkadot St
 | Gaming | [Mobile Game Framework for Substrate](https://github.com/creator-rs/creator/) | [Amethyst](https://amethyst.rs/) + [Substrate](https://substrate.dev/)
 | Other | [open-web3 JS library](https://github.com/open-web3-stack/open-web3.js)
 
-### :link: Chains Modules and Smart Contracts
+### :memo: Smart Contracts 
+
+
+### :link: Chains and Pallets 
 
 | Components | Existing projects | Potentially interesting projects
 |-|-|-
