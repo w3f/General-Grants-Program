@@ -364,5 +364,9 @@
 | [CryptoLab](https://www.cryptolab.network) | Staking Reward Collector | [GitHub](https://github.com/cryptolab-network) | <ul><li>[ ] </li></ul> |  <ul><li>[ ] </li></ul> |  <ul><li>[ ] </li></ul> |
 | [Yatima Inc](https://github.com/yatima-inc/yatima) | Lambda-VM and programming language for Substrate | [GitHub](https://github.com/yatima-inc/yatima) | <ul><li>[ ] </li></ul> |  <ul><li>[ ] </li></ul> |  <ul><li>[ ] </li></ul> |
 
-
 ## :surfing_woman: Wave 11 - Third Quarter 2021
+
+| Team | Project | Link | Terminated | First Delivery | Completed
+| :--- | :------ | :--- | :--------: | :------------: | :-------: |
+| []() |  | []() | <ul><li>[ ] </li></ul> |  <ul><li>[ ] </li></ul> |  <ul><li>[ ] </li></ul> |
+
