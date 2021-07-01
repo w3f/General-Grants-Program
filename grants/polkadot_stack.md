@@ -101,7 +101,7 @@ In the below sections you can find a list of different layers of the Polkadot St
 
 | Components | Existing projects | Potentially interesting projects
 |-|-|-
-| DeFi | [Nsure Insurance](https://github.com/nsure-tech/dot-contract) | 
+| DeFi | [Nsure Insurance](https://github.com/nsure-tech/dot-contract), [Everlasting Cash](https://github.com/CycanTech/ELC) | 
 
 
 ### :link: Chains and Pallets 
