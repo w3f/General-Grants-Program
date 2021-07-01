@@ -99,6 +99,10 @@ In the below sections you can find a list of different layers of the Polkadot St
 
 ### :memo: Smart Contracts 
 
+| Components | Existing projects | Potentially interesting projects
+|-|-|-
+| DeFi | [Nsure Insurance](https://github.com/nsure-tech/dot-contract) | 
+
 
 ### :link: Chains and Pallets 
 
