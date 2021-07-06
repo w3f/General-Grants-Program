@@ -130,7 +130,7 @@ In the below sections you can find a list of different layers of the Polkadot St
 | Gaming | [Bit.country](https://github.com/bit-country/Bit-Country-Blockchain), [SubGame](https://github.com/SubGame-Network/subgame-network) | 
 | Computation |
 | Enable specific use-cases | [Robonomics](https://github.com/airalab/substrate-node-robonomics)
-| NFT | [FRAME Pallet: NFTs for Substrate](https://github.com/danforbes/pallet-nft), [NFT Parachain by usetech](https://github.com/w3f-community/nft_parachain)
+| NFT | [FRAME Pallet: NFTs for Substrate](https://github.com/danforbes/pallet-nft), [NFT Parachain by usetech](https://github.com/w3f-community/nft_parachain), [DNFT](https://github.com/DNFT-Team/dnft-substrate-node/tree/master/pallets)
 | Randomness | [DKG and Randomness Beacon](https://github.com/Cardinal-Cryptography/substrate/tree/randomness-beacon)
 | Licensing |
 | Other | [Substrate Open Runtime Module Library](https://github.com/open-web3-stack/open-runtime-module-library), [AI Infrastructure on Blockchain](https://github.com/anudit/cerebrum), [Substrate Account Filter](https://github.com/gautamdhameja/substrate-account-filter) | On-chain quadratic funding (e.g. https://clr.fund/#/about), Decentralized review/reputation system 
