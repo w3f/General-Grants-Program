@@ -35,7 +35,7 @@ As part of our commitment to promoting the Web3 ecosystem, we offer comprehensiv
 - you want your team/project information to remain private, or
 - you can only accept fiat payments.
 
-The maximum amount of funding per application is limited to US $100,000. Projects requesting **$30,000 or less** are likely to receive faster approval, whereas larger projects necessitate closer evaluation and may face longer waiting times as a consequence.
+There is no maximum funding amount for General Grants. However, all applications must contain a detailed cost breakdown as described in the template and applications for larger sums will naturally be subjected to higher scrutiny. In particular, projects requesting **$30,000 or less** are likely to receive faster approval, whereas larger projects necessitate closer evaluation and may face longer waiting times as a consequence.
 
 Teams can apply for grants more than once, but they need to successfully complete the previous project before receiving additional funds. Furthermore, teams shouldn’t seek to cover 100% of their early-stage funding via W3F Grants alone.
 
