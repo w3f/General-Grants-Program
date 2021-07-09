@@ -282,7 +282,7 @@
 | Team | Project | Link | Terminated | First Delivery | Completed
 | :--- | :------ | :--- | :--------: | :------------: | :-------: |
 | [Zenlink](https://zenlink.pro/) | Cross-chain DEX | [GitHub](https://github.com/zenlinkpro/zenlink_dex_module) | <ul><li>[ ] </li></ul> |  <ul><li>[ ] </li></ul> |  <ul><li>[ ] </li></ul> |
-| [NFTT Studio](https://github.com/NFTT-studio) | NFT Store Pallet and Front End | [GitHub](https://github.com/NFTT-studio) | <ul><li>[ ] </li></ul> |  <ul><li>[ ] </li></ul> |  <ul><li>[ ] </li></ul> |
+| [NFTT Studio](https://github.com/NFTT-studio) | NFT Store Pallet and Front End | [GitHub](https://github.com/NFTT-studio) | <ul><li>[ ] </li></ul> |  <ul><li>[x] </li></ul> |  <ul><li>[x] </li></ul> |
 | [SubGame Network](https://subgame.org) | A decentralized game platform | [GitHub](https://github.com/SubGame-Network) | <ul><li>[ ] </li></ul> |  <ul><li>[x] </li></ul> |  <ul><li>[x] </li></ul> |
 | [Parami](https://parami.io) | Blockchain-empowered advertising alliance | [GitHub](https://github.com/parami-protocol/parami) | <ul><li>[ ] </li></ul> |  <ul><li>[ ] </li></ul> |  <ul><li>[ ] </li></ul> |
 | [Sunrise Protocol](https://sunriseprotocol.com) | Sunrise DEX | [GitHub](https://github.com/sunriseprotocol) | <ul><li>[ ] </li></ul> |  <ul><li>[ ] </li></ul> |  <ul><li>[ ] </li></ul> |
