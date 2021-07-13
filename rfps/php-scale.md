@@ -1,7 +1,7 @@
 # PHP Version of SCALE Codec
 
 * **Proposer:** [swader](https://github.com/swader)
-* **Status:** Open
+* **Status:** [In progress](https://github.com/w3f/Open-Grants-Program/blob/master/applications/php-scale-lib.md)
 
 ## Project Description :page_facing_up: 
 
