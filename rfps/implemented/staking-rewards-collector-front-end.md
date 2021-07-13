@@ -1,6 +1,6 @@
 # Front-End for Staking Rewards Collector
 
-* **Status:** In progress
+* **Status:** Implemented: [Repo 1, finished](https://github.com/w3f/Open-Grants-Program/blob/master/applications/cryptolab-staking-reward-collector-front-end.md), [Repo 2, in progress](https://github.com/w3f/Open-Grants-Program/blob/master/applications/staking-rewards-collector-front-end.md)
 * **Proposer:** JonasW3F
 * **Your Project(s):** -
 * **Projects you think this work could be useful for** Staking operations of all nominators and validators.
