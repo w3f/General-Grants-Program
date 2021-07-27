@@ -1,7 +1,5 @@
 # Guidelines for Web3 Foundation Grants Program Badge
 
-<img align="right" width="400" src="../src/badge_black.svg">
-
 > :warning: The grants badge has been deprecated with the transition to a unified [Grants Program](https://github.com/w3f/Grants-Program).
 
 **Once the grants committee accepted a project's first milestone**, we want to help them acknowledge their grants publicly while observing the foundation’s guidelines.
