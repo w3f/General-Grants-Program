@@ -2,9 +2,11 @@
 
 <img align="right" width="400" src="../src/badge_black.svg">
 
+> :warning: The grants badge has been deprecated with the transition to a unified [Grants Program](https://github.com/w3f/Grants-Program).
+
 **Once the grants committee accepted a project's first milestone**, we want to help them acknowledge their grants publicly while observing the foundation’s guidelines.
 
-To that end, we’ve created a badge for grant-winning teams. The badge in four formats will be available for download as a “.zip” file from [web3.foundation/grants/badge](https://web3.foundation/grants/badge). Think of it like a medal or trophy.
+To that end, we’ve created a badge for grant-winning teams. The badge in four formats will be available for download as a “.zip” file from [web3.foundation/grants/badge](https://web3.foundation/grants/badge).
 
 *Before you begin using the badge, please note the following points:*
 
