@@ -139,7 +139,7 @@
 | [Encointer](https://encointer.org/) | An Ecological, Egalitarian and Private Cryptocurrency and Self-Sovereign Identity System | [GitHub](https://github.com/encointer) |<ul><li>[ ] </li></ul> |  <ul><li>[x] </li></ul> |  <ul><li>[x] </li></ul> |
 | [FlexDapps](https://flexdapps.com/) | Gantree is a full-service node infrastructure toolkit for Substrate-based blockchains | [GitHub](https://github.com/flex-dapps) | <ul><li>[ ] </li></ul> |  <ul><li>[x] </li></ul> |  <ul><li>[x] </li></ul> |
 | [Matter Labs](https://matter-labs.io) | Zinc/RedShift ZK programming framework | [GitHub](https://github.com/matter-labs) | <ul><li>[ ] </li></ul> |  <ul><li>[ ] </li></ul> |  <ul><li>[ ] </li></ul> |
-| [Second State](https://www.secondstate.io/) | Bridging Ethereum Tools and Smart Contracts into Substrate Ecosystem | [GitHub](https://github.com/second-state) | <ul><li>[ ] </li></ul> |  <ul><li>[x] </li></ul> |  <ul><li>[ ] </li></ul> |
+| [Second State](https://www.secondstate.io/) | Bridging Ethereum Tools and Smart Contracts into Substrate Ecosystem | [GitHub](https://github.com/second-state) | <ul><li>[ ] </li></ul> |  <ul><li>[x] </li></ul> |  <ul><li>[x] </li></ul> |
 | [Sensio.Group](https://www.sensio.group/) | Substrate modules + UI that focus on photo copyright and privacy | [GitLab](https://gitlab.com/sensio_group) | <ul><li>[ ] </li></ul> |  <ul><li>[x] </li></ul> |  <ul><li>[ ] </li></ul> |
 | [KILT](https://kilt.io/) | Substrate Anonymous Credentials | [GitHub](https://github.com/KILTprotocol) | <ul><li>[ ] </li></ul> |  <ul><li>[x] </li></ul> |  <ul><li>[x] </li></ul> |
 | [Node Factory](https://www.nodefactory.io/) | Metamask plugin for Polkadot | [GitHub](https://github.com/nodefactoryIo) | <ul><li>[ ] </li></ul> |  <ul><li>[x] </li></ul> |  <ul><li>[x] </li></ul> |
@@ -327,7 +327,7 @@
 | [X-Predict](https://x-predict.com/) | Decentralized prediction market | [GitHub](https://github.com/XPredictMarket) | <ul><li>[ ] </li></ul> |  <ul><li>[ ] </li></ul> |  <ul><li>[ ] </li></ul> |
 | [Chevdor](https://www.chevdor.com/) | SRTOOL App | [GitLab](https://gitlab.com/chevdor/srtool-app) | <ul><li>[ ] </li></ul> |  <ul><li>[x] </li></ul> |  <ul><li>[x] </li></ul> |
 | [Bit.Country](http://bit.country/) | A decentralized world - Phase 2 | [GitHub](https://github.com/bit-country) | <ul><li>[ ] </li></ul> |  <ul><li>[ ] </li></ul> |  <ul><li>[ ] </li></ul> |
-| [Vera](https://veraprotocol.org/) | NFT Lending + Exchange | [GitHub](https://github.com/veraprotocol) | <ul><li>[ ] </li></ul> |  <ul><li>[ ] </li></ul> |  <ul><li>[ ] </li></ul> |
+| [Vera](https://veraprotocol.org/) | NFT Lending + Exchange | [GitHub](https://github.com/veraprotocol) | <ul><li>[ ] </li></ul> |  <ul><li>[x] </li></ul> |  <ul><li>[ ] </li></ul> |
 | [Parallel Finance](https://parallel.fi/#/) | Decentralized lending/borrowing and staking protocol | [GitHub](https://github.com/parallel-finance/parallel) | <ul><li>[ ] </li></ul> |  <ul><li>[x] </li></ul> |  <ul><li>[ ] </li></ul> |
 
 ## :surfing_woman: Wave 10 - Second Quarter 2021
